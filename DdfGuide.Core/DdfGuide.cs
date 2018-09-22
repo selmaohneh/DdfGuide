@@ -1,17 +1,26 @@
-﻿namespace DdfGuide.Core
+﻿using System.Threading.Tasks;
+using Repository.Interfaces;
+
+namespace DdfGuide.Core
 {
     public class DdfGuide
     {
-        private readonly IEpisodeListView _episodeListView;
+        private readonly IRepository<AudioDrama> _localRepository;
+        private readonly IAudioDramaListView _audioDramaListView;
 
-        public DdfGuide(IEpisodeListView episodeListView)
+        public DdfGuide(
+            IRepository<AudioDrama> localRepository, 
+            IAudioDramaListView audioDramaListView)
         {
-            _episodeListView = episodeListView;
+            _localRepository = localRepository;
+            _audioDramaListView = audioDramaListView;
         }
 
-        public void Start()
+        public async Task Start()
         {
-            _episodeListView.Show();
+            var audioDramas = await _localRepository.GetAll();
+            _audioDramaListView.SetAudioDramas(audioDramas);
+            _audioDramaListView.Show();
         }
     }
 }
