@@ -1,16 +1,34 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using DdfGuide.Core;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 
 namespace DdfGuide.Test
 {
     [TestClass]
     public class DdfGuideTests
     {
-        [TestMethod]
+        private Mock<IEpisodeListView> _view;
+        private Core.DdfGuide _systemUnderTest;
+
+        [TestInitialize]
         public void CreateNewDdfGuide()
         {
-            var systemUnderTest = new Core.DdfGuide();
+            _view = new Mock<IEpisodeListView>();
+            _systemUnderTest = new Core.DdfGuide(_view.Object);
+        }
 
-            Assert.IsNotNull(systemUnderTest);
+        [TestMethod]
+        public void CreationSuccessfull()
+        {
+            Assert.IsNotNull(_systemUnderTest);
+        }
+
+        [TestMethod]
+        public void Startup_ShowEpisodeListView()
+        {
+            _systemUnderTest.Start();
+
+            _view.Verify(x => x.Show(), Times.Once);
         }
     }
 }
