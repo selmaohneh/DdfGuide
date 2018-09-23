@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using DdfGuide.Core;
 
 namespace DdfGuide.Console
@@ -10,16 +11,19 @@ namespace DdfGuide.Console
 
         public void Show()
         {
-            foreach (var audioDrama in _audioDramas)
-            {
-                System.Console.Write(audioDrama);
+            System.Console.Clear();
 
-                if (_audioDramaUserData.UserHasHeard(audioDrama))
+            for (var i = 0; i < _audioDramas.Count(); i++)
+            {
+                System.Console.Write(i + " ");
+                System.Console.Write(_audioDramas.ElementAt(i));
+
+                if (_audioDramaUserData.UserHasHeard(_audioDramas.ElementAt(i)))
                 {
                     System.Console.Write(" heard");
                 }
 
-                if (_audioDramaUserData.IsUsersFavorite(audioDrama))
+                if (_audioDramaUserData.IsUsersFavorite(_audioDramas.ElementAt(i)))
                 {
                     System.Console.Write(" favorite");
                 }
