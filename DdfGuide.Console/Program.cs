@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using DdfGuide.Core;
 using Repository.Memory;
@@ -9,19 +10,31 @@ namespace DdfGuide.Console
     {
         private static async Task Main()
         {
-            var localRepository = new MemoryRepository<AudioDrama>();
+            var audioDramaRepository = new MemoryRepository<AudioDrama>();
 
+            // Add sample items.
             var audioDrama1 = new AudioDrama(Guid.NewGuid());
             var audioDrama2 = new AudioDrama(Guid.NewGuid());
             var audioDrama3 = new AudioDrama(Guid.NewGuid());
-            await localRepository.Insert(audioDrama1);
-            await localRepository.Insert(audioDrama2);
-            await localRepository.Insert(audioDrama3);
+            await audioDramaRepository.Insert(audioDrama1);
+            await audioDramaRepository.Insert(audioDrama2);
+            await audioDramaRepository.Insert(audioDrama3);
+
+            var userDataRepository = new MemoryRepository<AudioDramaUserData>();
+
+            // Add sample items
+            var userData1 = new AudioDramaUserData(audioDrama1.Id, true);
+            var userData2 = new AudioDramaUserData(audioDrama2.Id, false);
+            var userData3 = new AudioDramaUserData(audioDrama3.Id, true);
+            await userDataRepository.Insert(userData1);
+            await userDataRepository.Insert(userData2);
+            await userDataRepository.Insert(userData3);
 
             var audioDramaListView = new AudioDramaListView();
 
             var ddfGuide = new Core.DdfGuide(
-                localRepository,
+                audioDramaRepository,
+                userDataRepository,
                 audioDramaListView);
 
             await ddfGuide.Start();

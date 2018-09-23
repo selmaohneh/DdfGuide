@@ -63,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AudioDramaUserDataExtensionsTests.cs" />
     <Compile Include="DdfGuideTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

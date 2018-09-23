@@ -6,5 +6,6 @@ namespace DdfGuide.Core
     {
         void Show();
         void SetAudioDramas(IEnumerable<AudioDrama> audioDramas);
+        void SetAudioDramaUserData(IEnumerable<AudioDramaUserData> audioDramaUserData);
     }
 }
