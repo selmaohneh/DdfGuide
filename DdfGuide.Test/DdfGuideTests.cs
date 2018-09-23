@@ -30,9 +30,9 @@ namespace DdfGuide.Test
             var audioDrama3 = new AudioDrama(Guid.NewGuid());
             _audioDramaList = new List<AudioDrama> { audioDrama1, audioDrama2, audioDrama3 };
 
-            var userData1 = new AudioDramaUserData(audioDrama1.Id, true);
-            var userData2 = new AudioDramaUserData(audioDrama2.Id, false);
-            var userData3 = new AudioDramaUserData(audioDrama3.Id, true);
+            var userData1 = new AudioDramaUserData(audioDrama1.Id, true, false);
+            var userData2 = new AudioDramaUserData(audioDrama2.Id, false, true);
+            var userData3 = new AudioDramaUserData(audioDrama3.Id, true, true);
             _audioDramaUserData = new List<AudioDramaUserData> { userData1, userData2, userData3 };
 
             _systemUnderTest = new Core.DdfGuide(

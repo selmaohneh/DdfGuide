@@ -13,5 +13,14 @@ namespace DdfGuide.Core
 
             return ids.Contains(audioDrama.Id);
         }
+
+        public static bool IsUsersFavorite(
+            this IEnumerable<AudioDramaUserData> audioDramaUserData,
+            AudioDrama audioDrama)
+        {
+            var ids = audioDramaUserData.Where(x => x.IsFavorite).Select(x => x.Id).ToList();
+
+            return ids.Contains(audioDrama.Id);
+        }
     }
 }

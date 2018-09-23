@@ -16,12 +16,15 @@ namespace DdfGuide.Console
 
                 if (_audioDramaUserData.UserHasHeard(audioDrama))
                 {
-                    System.Console.WriteLine(" heard");
+                    System.Console.Write(" heard");
                 }
-                else
+
+                if (_audioDramaUserData.IsUsersFavorite(audioDrama))
                 {
-                    System.Console.WriteLine();
+                    System.Console.Write(" favorite");
                 }
+
+                System.Console.WriteLine();
             }
         }
 

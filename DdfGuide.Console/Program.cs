@@ -23,9 +23,9 @@ namespace DdfGuide.Console
             var userDataRepository = new MemoryRepository<AudioDramaUserData>();
 
             // Add sample items
-            var userData1 = new AudioDramaUserData(audioDrama1.Id, true);
-            var userData2 = new AudioDramaUserData(audioDrama2.Id, false);
-            var userData3 = new AudioDramaUserData(audioDrama3.Id, true);
+            var userData1 = new AudioDramaUserData(audioDrama1.Id, true, false);
+            var userData2 = new AudioDramaUserData(audioDrama2.Id, false, true);
+            var userData3 = new AudioDramaUserData(audioDrama3.Id, true, true);
             await userDataRepository.Insert(userData1);
             await userDataRepository.Insert(userData2);
             await userDataRepository.Insert(userData3);
