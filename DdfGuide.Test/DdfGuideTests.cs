@@ -38,7 +38,8 @@ namespace DdfGuide.Test
         {
             var audioDrama1 = new AudioDrama(Guid.NewGuid());
             var audioDrama2 = new AudioDrama(Guid.NewGuid());
-            var audioDramaList = new List<AudioDrama> { audioDrama1, audioDrama2 };
+            var audioDrama3 = new AudioDrama(Guid.NewGuid());
+            var audioDramaList = new List<AudioDrama> {audioDrama1, audioDrama2, audioDrama3};
             
             _localRepository
                 .Setup(x => x.GetAll())

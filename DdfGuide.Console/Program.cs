@@ -13,8 +13,10 @@ namespace DdfGuide.Console
 
             var audioDrama1 = new AudioDrama(Guid.NewGuid());
             var audioDrama2 = new AudioDrama(Guid.NewGuid());
+            var audioDrama3 = new AudioDrama(Guid.NewGuid());
             await localRepository.Insert(audioDrama1);
             await localRepository.Insert(audioDrama2);
+            await localRepository.Insert(audioDrama3);
 
             var audioDramaListView = new AudioDramaListView();
 
