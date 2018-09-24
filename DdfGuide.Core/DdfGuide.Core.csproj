@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AudioDrama.cs" />
+    <Compile Include="AudioDramaBuilder.cs" />
     <Compile Include="AudioDramaDto.cs" />
+    <Compile Include="AudioDramaListViewPresenter.cs" />
     <Compile Include="AudioDramaUserData.cs" />
     <Compile Include="AudioDramaExtensions.cs" />
     <Compile Include="DdfGuide.cs" />

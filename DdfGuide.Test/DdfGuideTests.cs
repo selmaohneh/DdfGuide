@@ -63,40 +63,11 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public async Task Startup_FillWithAudioDramas()
-        {
-            _audioDramaRepository
-                .Setup(x => x.GetAll())
-                .Returns(Task.FromResult(_dtoList));
-
-            _userDataRepository
-                .Setup(x => x.GetAll())
-                .Returns(Task.FromResult(_userDataList));
-
-            await _systemUnderTest.Start();
-
-            _view.Verify(x => x.SetAudioDramas(_audioDramaList), Times.Once);
-        }
-
-        [TestMethod]
         public async Task Startup_ShowAudioDramaListView()
         {
             await _systemUnderTest.Start();
 
             _view.Verify(x => x.Show(), Times.Once);
-        }
-
-        [TestMethod]
-        public async Task HeardChanges_UpdateModel()
-        {
-            await _systemUnderTest.Start();
-
-            foreach (var audioDramaUserData in _userDataList)
-            {
-                var currentValue = audioDramaUserData.Heard;
-                _view.Raise(x => x.HeardChanged += null, _dto1);
-                Assert.AreEqual(!currentValue, _dto1);
-            }
         }
     }
 }

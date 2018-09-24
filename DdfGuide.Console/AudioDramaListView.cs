@@ -7,7 +7,7 @@ namespace DdfGuide.Console
     public class AudioDramaListView : IAudioDramaListView
     {
         private IEnumerable<AudioDrama> _audioDramas;
-        public event EventHandler<AudioDrama> HeardChanged;
+        public event EventHandler<Guid> HeardChanged;
 
         public void Show()
         {
@@ -22,9 +22,8 @@ namespace DdfGuide.Console
             {
                 var idString = command.Substring(2, command.Length - 2);
                 var id = Guid.Parse(idString);
-                var audioDrama = _audioDramas.GetById(id);
 
-                HeardChanged?.Invoke(this, audioDrama);
+                HeardChanged?.Invoke(this, id);
             }
         }
 
