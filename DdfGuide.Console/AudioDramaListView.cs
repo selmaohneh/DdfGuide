@@ -20,7 +20,7 @@ namespace DdfGuide.Console
 
             if (command != null && command.StartsWith("h "))
             {
-                var idString = command.Substring(2, command.Length);
+                var idString = command.Substring(2, command.Length - 2);
                 var id = Guid.Parse(idString);
                 var audioDrama = _audioDramas.GetById(id);
 
