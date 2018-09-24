@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace DdfGuide.Core
 {
@@ -6,6 +7,6 @@ namespace DdfGuide.Core
     {
         void Show();
         void SetAudioDramas(IEnumerable<AudioDrama> audioDramas);
-        void SetAudioDramaUserData(IEnumerable<AudioDramaUserData> audioDramaUserData);
+        event EventHandler<AudioDrama> HeardChanged;
     }
 }

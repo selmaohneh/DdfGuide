@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 using DdfGuide.Core;
 
 namespace DdfGuide.Console
@@ -7,23 +7,39 @@ namespace DdfGuide.Console
     public class AudioDramaListView : IAudioDramaListView
     {
         private IEnumerable<AudioDrama> _audioDramas;
-        private IEnumerable<AudioDramaUserData> _audioDramaUserData;
+        public event EventHandler<AudioDrama> HeardChanged;
 
         public void Show()
         {
             System.Console.Clear();
 
-            for (var i = 0; i < _audioDramas.Count(); i++)
-            {
-                System.Console.Write(i + " ");
-                System.Console.Write(_audioDramas.ElementAt(i));
+            PlotAudioDramas();
+            PlotCommands();
 
-                if (_audioDramaUserData.UserHasHeard(_audioDramas.ElementAt(i)))
+            var command = System.Console.ReadLine();
+
+            if (command != null && command.StartsWith("h "))
+            {
+                var idString = command.Substring(2, command.Length);
+                var id = Guid.Parse(idString);
+                var audioDrama = _audioDramas.GetById(id);
+
+                HeardChanged?.Invoke(this, audioDrama);
+            }
+        }
+
+        private void PlotAudioDramas()
+        {
+            foreach (var audioDrama in _audioDramas)
+            {
+                System.Console.Write(audioDrama);
+
+                if (audioDrama.AudioDramaUserData.Heard)
                 {
                     System.Console.Write(" heard");
                 }
 
-                if (_audioDramaUserData.IsUsersFavorite(_audioDramas.ElementAt(i)))
+                if (audioDrama.AudioDramaUserData.IsFavorite)
                 {
                     System.Console.Write(" favorite");
                 }
@@ -32,14 +48,16 @@ namespace DdfGuide.Console
             }
         }
 
+        private void PlotCommands()
+        {
+            System.Console.WriteLine();
+
+            System.Console.WriteLine("h [id] - Change heard flag");
+        }
+
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
             _audioDramas = audioDramas;
-        }
-
-        public void SetAudioDramaUserData(IEnumerable<AudioDramaUserData> audioDramaUserData)
-        {
-            _audioDramaUserData = audioDramaUserData;
         }
     }
 }

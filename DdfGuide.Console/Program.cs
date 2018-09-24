@@ -10,12 +10,12 @@ namespace DdfGuide.Console
     {
         private static async Task Main()
         {
-            var audioDramaRepository = new MemoryRepository<AudioDrama>();
+            var audioDramaRepository = new MemoryRepository<AudioDramaDto>();
 
             // Add sample items.
-            var audioDrama1 = new AudioDrama(Guid.NewGuid());
-            var audioDrama2 = new AudioDrama(Guid.NewGuid());
-            var audioDrama3 = new AudioDrama(Guid.NewGuid());
+            var audioDrama1 = new AudioDramaDto(Guid.NewGuid());
+            var audioDrama2 = new AudioDramaDto(Guid.NewGuid());
+            var audioDrama3 = new AudioDramaDto(Guid.NewGuid());
             await audioDramaRepository.Insert(audioDrama1);
             await audioDramaRepository.Insert(audioDrama2);
             await audioDramaRepository.Insert(audioDrama3);

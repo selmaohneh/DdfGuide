@@ -8,61 +8,52 @@ namespace DdfGuide.Test
     [TestClass]
     public class AudioDramaUserDataExtensionsTests
     {
+        private AudioDramaDto _dto1;
+        private AudioDramaDto _dto2;
+        private AudioDramaDto _dto3;
+        private IEnumerable<AudioDrama> _audioDramas;
+        private AudioDramaUserData _userData1;
+        private AudioDramaUserData _userData2;
+        private AudioDramaUserData _userData3;
         private AudioDrama _audioDrama1;
         private AudioDrama _audioDrama2;
         private AudioDrama _audioDrama3;
-        private List<AudioDramaUserData> _audioDramaUserDatas;
 
         [TestInitialize]
         public void Init()
         {
-            _audioDrama1 = new AudioDrama(Guid.NewGuid());
-            _audioDrama2 = new AudioDrama(Guid.NewGuid());
-            _audioDrama3 = new AudioDrama(Guid.NewGuid());
+            _dto1 = new AudioDramaDto(Guid.NewGuid());
+            _dto2 = new AudioDramaDto(Guid.NewGuid());
+            _dto3 = new AudioDramaDto(Guid.NewGuid());
 
-            var userData1 = new AudioDramaUserData(_audioDrama1.Id, true, false);
-            var userData2 = new AudioDramaUserData(_audioDrama2.Id, false, true);
-            var userData3 = new AudioDramaUserData(_audioDrama3.Id, true, true);
-            _audioDramaUserDatas = new List<AudioDramaUserData>
-            {
-                userData1,
-                userData2,
-                userData3
-            };
+            _userData1 = new AudioDramaUserData(_dto1.Id, true, false);
+            _userData2 = new AudioDramaUserData(_dto2.Id, false, true);
+            _userData3 = new AudioDramaUserData(_dto3.Id, true, true);
+
+            _audioDrama1 = new AudioDrama(_dto1, _userData1);
+            _audioDrama2 = new AudioDrama(_dto2, _userData2);
+            _audioDrama3 = new AudioDrama(_dto3, _userData3);
+
+            _audioDramas = new List<AudioDrama> {_audioDrama1, _audioDrama2, _audioDrama3};
         }
 
         [TestMethod]
-        public void UserHasHeard()
+        public void GetById()
         {
-            Assert.IsTrue(_audioDramaUserDatas.UserHasHeard(_audioDrama1));
-            Assert.IsFalse(_audioDramaUserDatas.UserHasHeard(_audioDrama2));
-            Assert.IsTrue(_audioDramaUserDatas.UserHasHeard(_audioDrama3));
-        }
+            var audioDrama1 = _audioDramas.GetById(_dto1.Id);
+            Assert.AreEqual(_dto1, audioDrama1.AudioDramaDto);
+            Assert.AreEqual(_userData1, audioDrama1.AudioDramaUserData);
+            Assert.AreEqual(_audioDrama1, audioDrama1);
 
-        [TestMethod]
-        public void UserHasHeard_NoUserData_ReturnFalse()
-        {
-            var audioDrama = new AudioDrama(Guid.NewGuid());
-            var userData = new List<AudioDramaUserData>();
+            var audioDrama2 = _audioDramas.GetById(_dto2.Id);
+            Assert.AreEqual(_dto2, audioDrama2.AudioDramaDto);
+            Assert.AreEqual(_userData2, audioDrama2.AudioDramaUserData);
+            Assert.AreEqual(_audioDrama2, audioDrama2);
 
-            Assert.IsFalse(userData.UserHasHeard(audioDrama));
-        }
-
-        [TestMethod]
-        public void IsUsersFavorite()
-        {
-            Assert.IsFalse(_audioDramaUserDatas.IsUsersFavorite(_audioDrama1));
-            Assert.IsTrue(_audioDramaUserDatas.IsUsersFavorite(_audioDrama2));
-            Assert.IsTrue(_audioDramaUserDatas.IsUsersFavorite(_audioDrama3));
-        }
-
-        [TestMethod]
-        public void IsUsersFavorite_NoUserData_ReturnFalse()
-        {
-            var audioDrama = new AudioDrama(Guid.NewGuid());
-            var userData = new List<AudioDramaUserData>();
-
-            Assert.IsFalse(userData.IsUsersFavorite(audioDrama));
+            var audioDrama3 = _audioDramas.GetById(_dto3.Id);
+            Assert.AreEqual(_dto3, audioDrama3.AudioDramaDto);
+            Assert.AreEqual(_userData3, audioDrama3.AudioDramaUserData);
+            Assert.AreEqual(_audioDrama3, audioDrama3);
         }
     }
 }
