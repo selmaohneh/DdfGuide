@@ -13,5 +13,10 @@ namespace DdfGuide.Core
             Heard = heard;
             IsFavorite = isFavorite;
         }
+
+        public override string ToString()
+        {
+            return $"Heard: {Heard}, IsFavorite: {IsFavorite}";
+        }
     }
 }

@@ -13,6 +13,11 @@ namespace DdfGuide.Core
             AudioDramaUserData = audioDramaUserData;
         }
 
+        public override string ToString()
+        {
+            return $"{AudioDramaDto} {AudioDramaUserData}";
+        }
+
         #region equality stuff
         public override bool Equals(object obj)
         {

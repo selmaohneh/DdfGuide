@@ -33,17 +33,6 @@ namespace DdfGuide.Console
             foreach (var audioDrama in _audioDramas)
             {
                 System.Console.Write(audioDrama);
-
-                if (audioDrama.AudioDramaUserData.Heard)
-                {
-                    System.Console.Write(" heard");
-                }
-
-                if (audioDrama.AudioDramaUserData.IsFavorite)
-                {
-                    System.Console.Write(" favorite");
-                }
-
                 System.Console.WriteLine();
             }
         }
@@ -51,7 +40,6 @@ namespace DdfGuide.Console
         private void PlotCommands()
         {
             System.Console.WriteLine();
-
             System.Console.WriteLine("h [id] - Change heard flag");
         }
 
