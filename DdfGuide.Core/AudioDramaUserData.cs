@@ -1,15 +1,16 @@
 ﻿using System;
-using Repository.Interfaces;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaUserData : RepositoryItem
+    public class AudioDramaUserData
     {
+        public Guid Id { get; set; }
         public bool Heard { get; set; }
         public bool IsFavorite { get; set; }
 
-        public AudioDramaUserData(Guid id, bool heard, bool isFavorite) : base(id)
+        public AudioDramaUserData(Guid id, bool heard, bool isFavorite)
         {
+            Id = id;
             Heard = heard;
             IsFavorite = isFavorite;
         }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace DdfGuide.Core
 {
@@ -14,7 +15,13 @@ namespace DdfGuide.Core
             _audioDramaListView = audioDramaListView;
             _audioDramas = audioDramas;
 
+            InitSubscriptions();
             InitViewWithAudioDramas();
+        }
+
+        private void InitSubscriptions()
+        {
+            _audioDramaListView.HeardChanged += (sender, guid) => { };
         }
 
         private void InitViewWithAudioDramas()

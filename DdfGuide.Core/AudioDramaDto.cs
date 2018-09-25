@@ -1,12 +1,14 @@
 ﻿using System;
-using Repository.Interfaces;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaDto : RepositoryItem
+    public class AudioDramaDto
     {
-        public AudioDramaDto(Guid id) : base(id)
+        public Guid Id { get; set; }
+
+        public AudioDramaDto(Guid id)
         {
+            Id = id;
         }
 
         public override string ToString()

@@ -1,30 +1,29 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
-using Repository.Interfaces;
+﻿using System.Collections.Generic;
 
 namespace DdfGuide.Core
 {
     public class DdfGuide
     {
-        private readonly IRepository<AudioDramaDto> _dtoRepository;
-        private readonly IRepository<AudioDramaUserData> _userDataRepository;
+        private readonly IProvider<IEnumerable<AudioDramaDto>> _dtoProvider;
+        private readonly IProvider<IEnumerable<AudioDramaUserData>> _userDataProvider;
+
         private readonly IAudioDramaListView _audioDramaListView;
 
         public DdfGuide(
-            IRepository<AudioDramaDto> dtoRepository, 
-            IRepository<AudioDramaUserData> userDataRepository,
+            IProvider<IEnumerable<AudioDramaDto>> dtoProvider,
+            IProvider<IEnumerable<AudioDramaUserData>> userDataProvider,
             IAudioDramaListView audioDramaListView)
         {
-            _dtoRepository = dtoRepository;
-            _userDataRepository = userDataRepository;
+            _dtoProvider = dtoProvider;
+            _userDataProvider = userDataProvider;
             _audioDramaListView = audioDramaListView;
         }
 
-        public async Task Start()
+        public void Start()
         {
-            var dtos = (await _dtoRepository.GetAll()).ToList();
-            var userData = (await _userDataRepository.GetAll()).ToList();
-            
+            var dtos = _dtoProvider.Get();
+            var userData = _userDataProvider.Get();
+
             var audioDramaBuilder = new AudioDramaBuilder(
                 dtos,
                 userData);
@@ -36,6 +35,6 @@ namespace DdfGuide.Core
                 audioDramas);
 
             _audioDramaListView.Show();
-        }   
+        }
     }
 }
