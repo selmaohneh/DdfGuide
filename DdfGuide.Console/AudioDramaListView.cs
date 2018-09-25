@@ -1,30 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
 using DdfGuide.Core;
+using NConsoleMenu;
 
 namespace DdfGuide.Console
 {
     public class AudioDramaListView : IAudioDramaListView
     {
+        private readonly CMenu _menue;
         private IEnumerable<AudioDrama> _audioDramas;
         public event EventHandler<Guid> HeardChanged;
+        public event EventHandler<Guid> IsFavoriteChanged; 
+
+        public AudioDramaListView()
+        {
+            _menue = new CMenu
+            {
+                {"heard", OnHeardChanged},
+                {"favorite", OnIsFavoriteChanged}
+            };
+        }
 
         public void Show()
         {
             System.Console.Clear();
-
             PlotAudioDramas();
-            PlotCommands();
-
-            var command = System.Console.ReadLine();
-
-            if (command != null && command.StartsWith("h "))
-            {
-                var idString = command.Substring(2, command.Length - 2);
-                var id = Guid.Parse(idString);
-
-                HeardChanged?.Invoke(this, id);
-            }
+            _menue.Run();
         }
 
         private void PlotAudioDramas()
@@ -36,10 +37,32 @@ namespace DdfGuide.Console
             }
         }
 
-        private void PlotCommands()
+        public void OnHeardChanged(string idString)
         {
-            System.Console.WriteLine();
-            System.Console.WriteLine("h [id] - Change heard flag");
+            if (Guid.TryParse(idString, out var id))
+            {
+                HeardChanged?.Invoke(this, id);
+                _menue.Quit();
+                Show();
+            }
+            else
+            {
+                System.Console.WriteLine($"Audio drama with id '{idString}' not found.");
+            }
+        }
+
+        public void OnIsFavoriteChanged(string idString)
+        {
+            if (Guid.TryParse(idString, out var id))
+            {
+                IsFavoriteChanged?.Invoke(this, id);
+                _menue.Quit();
+                Show();
+            }
+            else
+            {
+                System.Console.WriteLine($"Audio drama with id '{idString}' not found.");
+            }
         }
 
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)

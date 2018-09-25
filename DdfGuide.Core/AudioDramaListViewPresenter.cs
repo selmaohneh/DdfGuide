@@ -21,7 +21,26 @@ namespace DdfGuide.Core
 
         private void InitSubscriptions()
         {
-            _audioDramaListView.HeardChanged += (sender, guid) => { };
+            OnHeardChangedUpdateModel();
+            OnIsFavoriteChangedUpdateModel();
+        }
+
+        private void OnIsFavoriteChangedUpdateModel()
+        {
+            _audioDramaListView.IsFavoriteChanged += (sender, id) =>
+            {
+                var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
+                audioDrama.AudioDramaUserData.IsFavorite = !audioDrama.AudioDramaUserData.IsFavorite;
+            };
+        }
+
+        private void OnHeardChangedUpdateModel()
+        {
+            _audioDramaListView.HeardChanged += (sender, id) =>
+            {
+                var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
+                audioDrama.AudioDramaUserData.Heard = !audioDrama.AudioDramaUserData.Heard;
+            };
         }
 
         private void InitViewWithAudioDramas()

@@ -43,4 +43,22 @@ namespace DdfGuide.Core
             return userDatas;
         }
     }
+
+    public class AudioDramaProvider : IProvider<IEnumerable<AudioDrama>>
+    {
+        public IEnumerable<AudioDrama> Get()
+        {
+            var dtoProvider = new DtoProvider();
+            var userDataProvider = new UserDataProvider();
+
+            var dtos = dtoProvider.Get();
+            var userDatas = userDataProvider.Get();
+
+            var audioDramaBuilder = new AudioDramaBuilder(dtos, userDatas);
+
+            var audioDramas = audioDramaBuilder.Build();
+
+            return audioDramas;
+        }
+    }
 }
