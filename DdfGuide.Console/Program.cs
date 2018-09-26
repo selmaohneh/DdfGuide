@@ -6,8 +6,8 @@ namespace DdfGuide.Console
     {
         private static void Main()
         {
-            var dtoProvider = new DtoProvider();
-            var userDataProvider = new UserDataProvider();
+            var dtoProvider = new MultipleDtoProvider();
+            var userDataProvider = new MultipleUserDataProvider();
 
             var audioDramaListView = new AudioDramaListView();
 

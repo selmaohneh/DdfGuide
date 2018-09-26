@@ -17,7 +17,10 @@ namespace DdfGuide.Core
 
         public override string ToString()
         {
-            return $"Heard: {Heard}, IsFavorite: {IsFavorite}";
+            var dumper = new Dumper();
+            var dump = dumper.Dump(this);
+
+            return dump;
         }
     }
 }

@@ -5,15 +5,20 @@ namespace DdfGuide.Core
     public class AudioDramaDto
     {
         public Guid Id { get; set; }
+        public string Name { get; set; }
 
-        public AudioDramaDto(Guid id)
+        public AudioDramaDto(Guid id, string name)
         {
             Id = id;
+            Name = name;
         }
 
         public override string ToString()
         {
-            return Id.ToString();
+            var dumper = new Dumper();
+            var dump = dumper.Dump(this);
+
+            return dump;
         }
     }
 }

@@ -9,5 +9,6 @@ namespace DdfGuide.Core
         void SetAudioDramas(IEnumerable<AudioDrama> audioDramas);
         event EventHandler<Guid> HeardChanged;
         event EventHandler<Guid> IsFavoriteChanged;
+        event EventHandler<Guid> AudioDramaClicked;
     }
 }

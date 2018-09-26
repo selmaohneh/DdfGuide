@@ -15,8 +15,8 @@ namespace DdfGuide.Test
             var id1 = Guid.NewGuid();
             var id2 = Guid.NewGuid();
 
-            var dto1 = new AudioDramaDto(id1);
-            var dto2 = new AudioDramaDto(id2);
+            var dto1 = new AudioDramaDto(id1, string.Empty);
+            var dto2 = new AudioDramaDto(id2, string.Empty);
             var dtoList = new List<AudioDramaDto> {dto1, dto2};
 
             var userData1 = new AudioDramaUserData(id1, true, false);

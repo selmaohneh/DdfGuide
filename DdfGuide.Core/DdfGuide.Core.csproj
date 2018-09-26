@@ -47,6 +47,7 @@
     <Compile Include="AudioDramaUserData.cs" />
     <Compile Include="AudioDramaExtensions.cs" />
     <Compile Include="DdfGuide.cs" />
+    <Compile Include="Dumper.cs" />
     <Compile Include="SampleProviders.cs" />
     <Compile Include="IAudioDramaListView.cs" />
     <Compile Include="IProvider.cs" />

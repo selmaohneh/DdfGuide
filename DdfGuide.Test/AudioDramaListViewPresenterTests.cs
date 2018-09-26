@@ -10,52 +10,105 @@ namespace DdfGuide.Test
     public class AudioDramaListViewPresenterTests
     {
         private Mock<IAudioDramaListView> _view;
-        private IEnumerable<AudioDrama> _model;
+        private SingleAudioDramaProvider _singleAudioDramaProvider;
+        private MultipleAudioDramaProvider _multipleAudioDramaProvider;
 
         [TestInitialize]
         public void Init()
         {
-            var audioDramaProvider = new AudioDramaProvider();
+            _singleAudioDramaProvider = new SingleAudioDramaProvider();
+            _multipleAudioDramaProvider = new MultipleAudioDramaProvider();
 
             _view = new Mock<IAudioDramaListView>();
-            _model = audioDramaProvider.Get();
-
-            var _ = new AudioDramaListViewPresenter(
-                _view.Object,
-                _model);
         }
         
 
         [TestMethod]
         public void Construct_FillWithAudioDramas()
         {
-            _view.Verify(x => x.SetAudioDramas(_model), Times.Once);
+            var model = _multipleAudioDramaProvider.Get().ToList();
+
+            var _ = new AudioDramaListViewPresenter(
+                _view.Object,
+                model);
+
+            _view.Verify(x => x.SetAudioDramas(model), Times.Once);
         }
 
         [TestMethod]
         public void HeardChanged_UpdateModel()
         {
-            Assert.IsTrue(_model.First().AudioDramaUserData.Heard);
-            Assert.IsFalse(_model.Last().AudioDramaUserData.Heard);
+            var model = _singleAudioDramaProvider.Get().ToList();
 
-            _view.Raise(x => x.HeardChanged += null, this, _model.First().AudioDramaUserData.Id);
-            _view.Raise(x => x.HeardChanged += null, this, _model.Last().AudioDramaUserData.Id);
+            var _ = new AudioDramaListViewPresenter(
+                _view.Object,
+                model);
 
-            Assert.IsFalse(_model.First().AudioDramaUserData.Heard);
-            Assert.IsTrue(_model.Last().AudioDramaUserData.Heard);
+            Assert.IsFalse(model.First().AudioDramaUserData.Heard);
+            _view.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
+            Assert.IsTrue(model.First().AudioDramaUserData.Heard);
+            _view.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
+            Assert.IsFalse(model.First().AudioDramaUserData.Heard);
+        }
+
+        [TestMethod]
+        public void HeardChanged_UpdateView()
+        {
+            var model = _singleAudioDramaProvider.Get().ToList();
+
+            var _ = new AudioDramaListViewPresenter(
+                _view.Object,
+                model);
+
+            _view.Invocations.Clear();
+
+            Assert.IsFalse(model.First().AudioDramaUserData.Heard);
+            _view.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
+
+            _view.Verify(
+                x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.Heard)),
+                Times.Once);
         }
 
         [TestMethod]
         public void IsFavoriteChanged_UpdateModel()
         {
-            Assert.IsTrue(_model.First().AudioDramaUserData.IsFavorite);
-            Assert.IsFalse(_model.Last().AudioDramaUserData.IsFavorite);
+            var model = _singleAudioDramaProvider.Get().ToList();
 
-            _view.Raise(x => x.IsFavoriteChanged += null, this, _model.First().AudioDramaUserData.Id);
-            _view.Raise(x => x.IsFavoriteChanged += null, this, _model.Last().AudioDramaUserData.Id);
+            var _ = new AudioDramaListViewPresenter(
+                _view.Object,
+                model);
 
-            Assert.IsFalse(_model.First().AudioDramaUserData.IsFavorite);
-            Assert.IsTrue(_model.Last().AudioDramaUserData.IsFavorite);
+            Assert.IsFalse(model.First().AudioDramaUserData.IsFavorite);
+            _view.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
+            Assert.IsTrue(model.First().AudioDramaUserData.IsFavorite);
+            _view.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
+            Assert.IsFalse(model.First().AudioDramaUserData.IsFavorite);
+        }
+
+        [TestMethod]
+        public void IsFavoriteChanged_UpdateView()
+        {
+            var model = _singleAudioDramaProvider.Get().ToList();
+
+            var _ = new AudioDramaListViewPresenter(
+                _view.Object,
+                model);
+
+            _view.Invocations.Clear();
+
+            Assert.IsFalse(model.First().AudioDramaUserData.IsFavorite);
+            _view.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
+
+            _view.Verify(
+                x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.IsFavorite)),
+                Times.Once);
+        }
+
+        [TestMethod]
+        public void AudioDramaClicked_OpenAudioDramaView()
+        {
+            //_view.Raise(x => x.AudioDramaClicked += null, this,_model.First().AudioDramaDto.Id);
         }
     }
 }
