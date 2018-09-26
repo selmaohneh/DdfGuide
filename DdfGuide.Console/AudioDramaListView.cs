@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using DdfGuide.Core;
+using DdfGuide.Core.Models;
+using DdfGuide.Core.Views;
 using NConsoleMenu;
 
 namespace DdfGuide.Console

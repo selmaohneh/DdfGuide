@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using DdfGuide.Core;
+using DdfGuide.Core.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DdfGuide.Test

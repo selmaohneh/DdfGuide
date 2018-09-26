@@ -1,4 +1,6 @@
-﻿namespace DdfGuide.Core
+﻿using DdfGuide.Core.Views;
+
+namespace DdfGuide.Core
 {
     public class Viewer : IViewer
     {

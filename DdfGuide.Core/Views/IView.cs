@@ -1,4 +1,4 @@
-﻿namespace DdfGuide.Core
+﻿namespace DdfGuide.Core.Views
 {
     public interface IView
     {

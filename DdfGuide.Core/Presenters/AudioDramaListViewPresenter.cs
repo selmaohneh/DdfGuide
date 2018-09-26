@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using DdfGuide.Core.Models;
+using DdfGuide.Core.Views;
 
-namespace DdfGuide.Core
+namespace DdfGuide.Core.Presenters
 {
     public class AudioDramaListViewPresenter
     {

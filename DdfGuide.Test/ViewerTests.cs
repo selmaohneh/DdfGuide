@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DdfGuide.Core;
+using DdfGuide.Core.Views;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
