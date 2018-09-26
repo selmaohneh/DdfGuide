@@ -30,6 +30,12 @@ namespace DdfGuide.Console
             _menue.Run();
         }
 
+        public void Hide()
+        {
+            _menue.Quit();
+            System.Console.Clear();
+        }
+
         private void PlotAudioDramas()
         {
             foreach (var audioDrama in _audioDramas)

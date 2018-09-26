@@ -3,9 +3,8 @@ using System.Collections.Generic;
 
 namespace DdfGuide.Core
 {
-    public interface IAudioDramaListView
+    public interface IAudioDramaListView : IView
     {
-        void Show();
         void SetAudioDramas(IEnumerable<AudioDrama> audioDramas);
         event EventHandler<Guid> HeardChanged;
         event EventHandler<Guid> IsFavoriteChanged;

@@ -12,6 +12,7 @@ namespace DdfGuide.Test
         private Mock<IAudioDramaListView> _view;
         private SingleAudioDramaProvider _singleAudioDramaProvider;
         private MultipleAudioDramaProvider _multipleAudioDramaProvider;
+        private Mock<IViewer> _viewer;
 
         [TestInitialize]
         public void Init()
@@ -20,6 +21,7 @@ namespace DdfGuide.Test
             _multipleAudioDramaProvider = new MultipleAudioDramaProvider();
 
             _view = new Mock<IAudioDramaListView>();
+            _viewer = new Mock<IViewer>();
         }
         
 
@@ -30,7 +32,8 @@ namespace DdfGuide.Test
 
             var _ = new AudioDramaListViewPresenter(
                 _view.Object,
-                model);
+                model,
+                _viewer.Object);
 
             _view.Verify(x => x.SetAudioDramas(model), Times.Once);
         }
@@ -42,7 +45,8 @@ namespace DdfGuide.Test
 
             var _ = new AudioDramaListViewPresenter(
                 _view.Object,
-                model);
+                model,
+                _viewer.Object);
 
             Assert.IsFalse(model.First().AudioDramaUserData.Heard);
             _view.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
@@ -58,7 +62,8 @@ namespace DdfGuide.Test
 
             var _ = new AudioDramaListViewPresenter(
                 _view.Object,
-                model);
+                model,
+                _viewer.Object);
 
             _view.Invocations.Clear();
 
@@ -77,7 +82,8 @@ namespace DdfGuide.Test
 
             var _ = new AudioDramaListViewPresenter(
                 _view.Object,
-                model);
+                model,
+                _viewer.Object);
 
             Assert.IsFalse(model.First().AudioDramaUserData.IsFavorite);
             _view.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
@@ -93,7 +99,8 @@ namespace DdfGuide.Test
 
             var _ = new AudioDramaListViewPresenter(
                 _view.Object,
-                model);
+                model,
+                _viewer.Object);
 
             _view.Invocations.Clear();
 
@@ -108,7 +115,16 @@ namespace DdfGuide.Test
         [TestMethod]
         public void AudioDramaClicked_OpenAudioDramaView()
         {
-            //_view.Raise(x => x.AudioDramaClicked += null, this,_model.First().AudioDramaDto.Id);
+            var model = _singleAudioDramaProvider.Get().ToList();
+
+            var _ = new AudioDramaListViewPresenter(
+                _view.Object,
+                model,
+                _viewer.Object);
+
+            _view.Raise(x => x.AudioDramaClicked += null, this, model.First().AudioDramaDto.Id);
+
+            Assert.Fail();
         }
     }
 }

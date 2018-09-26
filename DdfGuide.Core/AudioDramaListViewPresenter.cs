@@ -7,13 +7,16 @@ namespace DdfGuide.Core
     {
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IEnumerable<AudioDrama> _audioDramas;
+        private readonly IViewer _viewer;
 
         public AudioDramaListViewPresenter(
             IAudioDramaListView audioDramaListView, 
-            IEnumerable<AudioDrama> audioDramas)
+            IEnumerable<AudioDrama> audioDramas,
+            IViewer viewer)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramas = audioDramas;
+            _viewer = viewer;
 
             InitSubscriptions();
             UpdateViewWithCurrentAudioDramas();

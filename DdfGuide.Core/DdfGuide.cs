@@ -30,11 +30,14 @@ namespace DdfGuide.Core
 
             var audioDramas = audioDramaBuilder.Build();
 
+            var viewer = new Viewer();
+
             var _ = new AudioDramaListViewPresenter(
                 _audioDramaListView,
-                audioDramas);
+                audioDramas,
+                viewer);
 
-            _audioDramaListView.Show();
+            viewer.Show(_audioDramaListView);
         }
     }
 }
