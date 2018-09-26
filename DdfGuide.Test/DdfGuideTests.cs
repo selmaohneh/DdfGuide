@@ -12,20 +12,23 @@ namespace DdfGuide.Test
     {
         private Core.DdfGuide _systemUnderTest;
 
-        private Mock<IAudioDramaListView> _view;
+        private Mock<IAudioDramaListView> _listView;
         private Mock<IProvider<IEnumerable<AudioDramaDto>>> _dtoProvider;
         private Mock<IProvider<IEnumerable<AudioDramaUserData>>> _userDataProvider;
+        private Mock<IAudioDramaView> _view;
 
         [TestInitialize]
         public void CreateNewDdfGuide()
         {
             _dtoProvider = new Mock<IProvider<IEnumerable<AudioDramaDto>>>();
             _userDataProvider = new Mock<IProvider<IEnumerable<AudioDramaUserData>>>();
-            _view = new Mock<IAudioDramaListView>();
+            _listView = new Mock<IAudioDramaListView>();
+            _view = new Mock<IAudioDramaView>();
 
             _systemUnderTest = new Core.DdfGuide(
                 _dtoProvider.Object,
                 _userDataProvider.Object,
+                _listView.Object,
                 _view.Object);
         }
 
@@ -40,7 +43,7 @@ namespace DdfGuide.Test
         {
             _systemUnderTest.Start();
 
-            _view.Verify(x => x.Show(), Times.Once);
+            _listView.Verify(x => x.Show(), Times.Once);
         }
     }
 }

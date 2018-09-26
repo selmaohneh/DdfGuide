@@ -47,7 +47,7 @@ namespace DdfGuide.Console
             }
         }
 
-        public void OnHeardChanged(string idString)
+        private void OnHeardChanged(string idString)
         {
             if (Guid.TryParse(idString, out var id))
             {
@@ -60,7 +60,7 @@ namespace DdfGuide.Console
             }
         }
 
-        public void OnIsFavoriteChanged(string idString)
+        private void OnIsFavoriteChanged(string idString)
         {
             if (Guid.TryParse(idString, out var id))
             {

@@ -60,6 +60,7 @@
     <Compile Include="AudioDramaBuilderTests.cs" />
     <Compile Include="AudioDramaListViewPresenterTests.cs" />
     <Compile Include="AudioDramaUserDataExtensionsTests.cs" />
+    <Compile Include="AudioDramaViewPresenterTests.cs" />
     <Compile Include="DdfGuideTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewerTests.cs" />

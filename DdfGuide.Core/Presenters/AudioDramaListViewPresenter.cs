@@ -8,15 +8,18 @@ namespace DdfGuide.Core.Presenters
     public class AudioDramaListViewPresenter
     {
         private readonly IAudioDramaListView _audioDramaListView;
+        private readonly IAudioDramaView _audioDramaView;
         private readonly IEnumerable<AudioDrama> _audioDramas;
         private readonly IViewer _viewer;
 
         public AudioDramaListViewPresenter(
             IAudioDramaListView audioDramaListView, 
+            IAudioDramaView audioDramaView,
             IEnumerable<AudioDrama> audioDramas,
             IViewer viewer)
         {
             _audioDramaListView = audioDramaListView;
+            _audioDramaView = audioDramaView;
             _audioDramas = audioDramas;
             _viewer = viewer;
 
@@ -28,6 +31,18 @@ namespace DdfGuide.Core.Presenters
         {
             OnHeardChangedUpdateModelAndView();
             OnIsFavoriteChangedUpdateModelAndView();
+            OnAudioDramaClickedOpenAudioDramaView();
+        }
+
+        private void OnAudioDramaClickedOpenAudioDramaView()
+        {
+            _audioDramaListView.AudioDramaClicked += (sender, id) =>
+            {
+                var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
+
+                _audioDramaView.SetAudioDrama(audioDrama);
+                _viewer.Show(_audioDramaView);
+            };
         }
 
         private void OnIsFavoriteChangedUpdateModelAndView()

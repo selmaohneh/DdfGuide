@@ -11,15 +11,18 @@ namespace DdfGuide.Core
         private readonly IProvider<IEnumerable<AudioDramaUserData>> _userDataProvider;
 
         private readonly IAudioDramaListView _audioDramaListView;
+        private readonly IAudioDramaView _audioDramaView;
 
         public DdfGuide(
             IProvider<IEnumerable<AudioDramaDto>> dtoProvider,
             IProvider<IEnumerable<AudioDramaUserData>> userDataProvider,
-            IAudioDramaListView audioDramaListView)
+            IAudioDramaListView audioDramaListView,
+            IAudioDramaView audioDramaView)
         {
             _dtoProvider = dtoProvider;
             _userDataProvider = userDataProvider;
             _audioDramaListView = audioDramaListView;
+            _audioDramaView = audioDramaView;
         }
 
         public void Start()
@@ -37,6 +40,7 @@ namespace DdfGuide.Core
 
             var _ = new AudioDramaListViewPresenter(
                 _audioDramaListView,
+                _audioDramaView,
                 audioDramas,
                 viewer);
 

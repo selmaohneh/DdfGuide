@@ -48,6 +48,8 @@
     <Compile Include="AudioDramaExtensions.cs" />
     <Compile Include="DdfGuide.cs" />
     <Compile Include="Dumper.cs" />
+    <Compile Include="Presenters\AudioDramaViewPresenter.cs" />
+    <Compile Include="Views\IAudioDramaView.cs" />
     <Compile Include="Views\IView.cs" />
     <Compile Include="IViewer.cs" />
     <Compile Include="SampleProviders.cs" />

@@ -12,7 +12,8 @@ namespace DdfGuide.Test
     [TestClass]
     public class AudioDramaListViewPresenterTests
     {
-        private Mock<IAudioDramaListView> _view;
+        private Mock<IAudioDramaListView> _listView;
+        private Mock<IAudioDramaView> _view;
         private SingleAudioDramaProvider _singleAudioDramaProvider;
         private MultipleAudioDramaProvider _multipleAudioDramaProvider;
         private Mock<IViewer> _viewer;
@@ -23,7 +24,8 @@ namespace DdfGuide.Test
             _singleAudioDramaProvider = new SingleAudioDramaProvider();
             _multipleAudioDramaProvider = new MultipleAudioDramaProvider();
 
-            _view = new Mock<IAudioDramaListView>();
+            _listView = new Mock<IAudioDramaListView>();
+            _view = new Mock<IAudioDramaView>();
             _viewer = new Mock<IViewer>();
         }
         
@@ -34,11 +36,12 @@ namespace DdfGuide.Test
             var model = _multipleAudioDramaProvider.Get().ToList();
 
             var _ = new AudioDramaListViewPresenter(
+                _listView.Object,
                 _view.Object,
                 model,
                 _viewer.Object);
 
-            _view.Verify(x => x.SetAudioDramas(model), Times.Once);
+            _listView.Verify(x => x.SetAudioDramas(model), Times.Once);
         }
 
         [TestMethod]
@@ -47,14 +50,15 @@ namespace DdfGuide.Test
             var model = _singleAudioDramaProvider.Get().ToList();
 
             var _ = new AudioDramaListViewPresenter(
+                _listView.Object,
                 _view.Object,
                 model,
                 _viewer.Object);
 
             Assert.IsFalse(model.First().AudioDramaUserData.Heard);
-            _view.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
+            _listView.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
             Assert.IsTrue(model.First().AudioDramaUserData.Heard);
-            _view.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
+            _listView.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
             Assert.IsFalse(model.First().AudioDramaUserData.Heard);
         }
 
@@ -64,16 +68,17 @@ namespace DdfGuide.Test
             var model = _singleAudioDramaProvider.Get().ToList();
 
             var _ = new AudioDramaListViewPresenter(
+                _listView.Object,
                 _view.Object,
                 model,
                 _viewer.Object);
 
-            _view.Invocations.Clear();
+            _listView.Invocations.Clear();
 
             Assert.IsFalse(model.First().AudioDramaUserData.Heard);
-            _view.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
+            _listView.Raise(x => x.HeardChanged += null, this, model.First().AudioDramaUserData.Id);
 
-            _view.Verify(
+            _listView.Verify(
                 x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.Heard)),
                 Times.Once);
         }
@@ -84,14 +89,15 @@ namespace DdfGuide.Test
             var model = _singleAudioDramaProvider.Get().ToList();
 
             var _ = new AudioDramaListViewPresenter(
+                _listView.Object,
                 _view.Object,
                 model,
                 _viewer.Object);
 
             Assert.IsFalse(model.First().AudioDramaUserData.IsFavorite);
-            _view.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
+            _listView.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
             Assert.IsTrue(model.First().AudioDramaUserData.IsFavorite);
-            _view.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
+            _listView.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
             Assert.IsFalse(model.First().AudioDramaUserData.IsFavorite);
         }
 
@@ -101,16 +107,17 @@ namespace DdfGuide.Test
             var model = _singleAudioDramaProvider.Get().ToList();
 
             var _ = new AudioDramaListViewPresenter(
+                _listView.Object,
                 _view.Object,
                 model,
                 _viewer.Object);
 
-            _view.Invocations.Clear();
+            _listView.Invocations.Clear();
 
             Assert.IsFalse(model.First().AudioDramaUserData.IsFavorite);
-            _view.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
+            _listView.Raise(x => x.IsFavoriteChanged += null, this, model.First().AudioDramaUserData.Id);
 
-            _view.Verify(
+            _listView.Verify(
                 x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.IsFavorite)),
                 Times.Once);
         }
@@ -121,13 +128,15 @@ namespace DdfGuide.Test
             var model = _singleAudioDramaProvider.Get().ToList();
 
             var _ = new AudioDramaListViewPresenter(
+                _listView.Object,
                 _view.Object,
                 model,
                 _viewer.Object);
 
-            _view.Raise(x => x.AudioDramaClicked += null, this, model.First().AudioDramaDto.Id);
+            _listView.Raise(x => x.AudioDramaClicked += null, this, model.First().AudioDramaDto.Id);
 
-            Assert.Fail();
+            _view.Verify(x => x.SetAudioDrama(model.First()), Times.Once);
+            _viewer.Verify(x => x.Show(_view.Object), Times.Once);
         }
     }
 }

@@ -9,12 +9,14 @@ namespace DdfGuide.Console
             var dtoProvider = new MultipleDtoProvider();
             var userDataProvider = new MultipleUserDataProvider();
 
+            var audioDramaView = new AudioDramaView();
             var audioDramaListView = new AudioDramaListView();
 
             var ddfGuide = new Core.DdfGuide(
                 dtoProvider,
                 userDataProvider,
-                audioDramaListView);
+                audioDramaListView,
+                audioDramaView);
 
             ddfGuide.Start();
 
