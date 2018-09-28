@@ -36,7 +36,8 @@ namespace DdfGuide.Core
 
             var audioDramas = audioDramaBuilder.Build();
 
-            var viewer = new Viewer();
+            var viewStack = new Stack<IView>();
+            var viewer = new Viewer(viewStack);
 
             var _ = new AudioDramaListViewPresenter(
                 _audioDramaListView,
