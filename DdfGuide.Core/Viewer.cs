@@ -1,33 +1,41 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using DdfGuide.Core.Views;
 
 namespace DdfGuide.Core
 {
     public class Viewer : IViewer
     {
-        public IView CurrentView { get; private set; }
+        private IView _currentView;
+        private readonly Stack<IView> _recentViewsStack;
 
-        private readonly Stack<IView> _viewStack;
-
-        public Viewer(Stack<IView> viewStack)
+        public Viewer(Stack<IView> recentViewsStack)
         {
-            _viewStack = viewStack;
+            _recentViewsStack = recentViewsStack;
         }
 
         public void Show(IView view)
         {
-            _viewStack.Push(CurrentView);
-
-            CurrentView?.Hide();
-            CurrentView = view;
-            CurrentView.Show();
+            if (_currentView != null)
+            {
+                _recentViewsStack.Push(_currentView);
+                _currentView.Hide();
+            }
+            
+            _currentView = view;
+            _currentView.Show();
         }
 
-        public void ShowLastView()
+        public void ShowLast()
         {
-            CurrentView?.Hide();
-            CurrentView = _viewStack.Pop();
-            CurrentView.Show();
+            _currentView?.Hide();
+
+            if (_recentViewsStack.Any())
+            {
+                _currentView = _recentViewsStack.Pop();
+                _currentView.Show();
+            }
+
         }
     }
 }
