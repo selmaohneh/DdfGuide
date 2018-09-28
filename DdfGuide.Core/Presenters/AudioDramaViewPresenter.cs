@@ -26,6 +26,12 @@ namespace DdfGuide.Core.Presenters
         {
             OnHeardChangedUpdateModelAndView();
             OnIsFavoriteChangedUpdateModelAndView();
+            OnBackClickedShowLastView();
+        }
+
+        private void OnBackClickedShowLastView()
+        {
+            _audioDramaView.BackClicked += (sender, _) => { _viewer.ShowLast(); };
         }
 
         private void OnIsFavoriteChangedUpdateModelAndView()

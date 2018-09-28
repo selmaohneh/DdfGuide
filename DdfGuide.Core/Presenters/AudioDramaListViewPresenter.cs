@@ -11,6 +11,7 @@ namespace DdfGuide.Core.Presenters
         private readonly IAudioDramaView _audioDramaView;
         private readonly IEnumerable<AudioDrama> _audioDramas;
         private readonly IViewer _viewer;
+        private AudioDramaViewPresenter _audioDramaViewPresenter;
 
         public AudioDramaListViewPresenter(
             IAudioDramaListView audioDramaListView, 
@@ -40,7 +41,11 @@ namespace DdfGuide.Core.Presenters
             {
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
 
-                _audioDramaView.SetAudioDrama(audioDrama);
+                _audioDramaViewPresenter = new AudioDramaViewPresenter(
+                    _audioDramaView,
+                    audioDrama,
+                    _viewer);
+
                 _viewer.Show(_audioDramaView);
             };
         }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DdfGuide.Console")]
+[assembly: AssemblyTitle("DdfGuide.Forms")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DdfGuide.Console")]
+[assembly: AssemblyProduct("DdfGuide.Forms")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0d4c86f4-dfeb-4b2c-9fa0-b65a5a8fbcd9")]
+[assembly: Guid("e3ccb3c1-1363-4cc0-94c3-9f5dc70fa40f")]
 
 // Version information for an assembly consists of the following four values:
 //

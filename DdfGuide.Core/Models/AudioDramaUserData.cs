@@ -17,8 +17,25 @@ namespace DdfGuide.Core.Models
 
         public override string ToString()
         {
-            var dumper = new Dumper();
-            var dump = dumper.Dump(this);
+            var dump = string.Empty;
+
+            if (Heard)
+            {
+                dump += "h(x)";
+            }
+            else
+            {
+                dump += "h( )";
+            }
+
+            if (IsFavorite)
+            {
+                dump += " f(x)";
+            }
+            else
+            {
+                dump += " f( )";
+            }
 
             return dump;
         }

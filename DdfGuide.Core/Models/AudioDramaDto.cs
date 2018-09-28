@@ -15,10 +15,7 @@ namespace DdfGuide.Core.Models
 
         public override string ToString()
         {
-            var dumper = new Dumper();
-            var dump = dumper.Dump(this);
-
-            return dump;
+            return $"{Id} {Name}";
         }
     }
 }

@@ -1,11 +1,17 @@
-﻿using DdfGuide.Core;
+﻿using System;
+using System.Windows.Forms;
+using DdfGuide.Core;
 
-namespace DdfGuide.Console
+namespace DdfGuide.Forms
 {
-    internal class Program
+    public static class Program
     {
-        private static void Main()
+        [STAThread]
+        public static void Main()
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
             var dtoProvider = new MultipleDtoProvider();
             var userDataProvider = new MultipleUserDataProvider();
 
@@ -19,8 +25,8 @@ namespace DdfGuide.Console
                 audioDramaView);
 
             ddfGuide.Start();
-
-            System.Console.ReadKey();
+            
+            Application.Run();
         }
     }
 }

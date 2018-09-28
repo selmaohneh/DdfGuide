@@ -112,5 +112,20 @@ namespace DdfGuide.Test
                 x => x.SetAudioDrama(It.Is<AudioDrama>(y => y.AudioDramaUserData.IsFavorite)),
                 Times.Once);
         }
+
+        [TestMethod]
+        public void BackClicked_ShowLastView()
+        {
+            var model = _singleAudioDramaProvider.Get().First();
+
+            var _ = new AudioDramaViewPresenter(
+                _view.Object,
+                model,
+                _viewer.Object);
+
+            _view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
+
+            _viewer.Verify(x => x.ShowLast(), Times.Once);
+        }
     }
 }

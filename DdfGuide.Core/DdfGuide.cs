@@ -39,7 +39,7 @@ namespace DdfGuide.Core
             var viewStack = new Stack<IView>();
             var viewer = new Viewer(viewStack);
 
-            var _ = new AudioDramaListViewPresenter(
+            var audioDramaListViewPresenter = new AudioDramaListViewPresenter(
                 _audioDramaListView,
                 _audioDramaView,
                 audioDramas,

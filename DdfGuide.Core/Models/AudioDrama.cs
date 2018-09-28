@@ -15,7 +15,7 @@ namespace DdfGuide.Core.Models
 
         public override string ToString()
         {
-            return $"{AudioDramaDto},{AudioDramaUserData}";
+            return $"{AudioDramaDto} {AudioDramaUserData}";
         }
 
         #region equality stuff
