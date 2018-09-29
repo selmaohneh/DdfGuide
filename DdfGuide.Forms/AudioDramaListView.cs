@@ -56,7 +56,7 @@ namespace DdfGuide.Forms
             }
         }
 
-        private void dataGridViewAudioDramas_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridViewAudioDramas_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             var id = (Guid)dataGridViewAudioDramas.Rows[e.RowIndex].Cells[0].Value;
             AudioDramaClicked?.Invoke(this, id);
