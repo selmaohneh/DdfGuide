@@ -43,11 +43,11 @@
     <Compile Include="AudioDrama.cs" />
     <Compile Include="AudioDramaBuilder.cs" />
     <Compile Include="AudioDramaDto.cs" />
-    <Compile Include="AudioDramaListViewPresenter.cs" />
+    <Compile Include="AudioDramaListPresenter.cs" />
     <Compile Include="AudioDramaUserData.cs" />
     <Compile Include="AudioDramaExtensions.cs" />
     <Compile Include="DdfGuide.cs" />
-    <Compile Include="AudioDramaViewPresenter.cs" />
+    <Compile Include="AudioDramaPresenter.cs" />
     <Compile Include="IAudioDramaView.cs" />
     <Compile Include="IView.cs" />
     <Compile Include="IViewer.cs" />

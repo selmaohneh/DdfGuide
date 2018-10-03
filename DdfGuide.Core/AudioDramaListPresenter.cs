@@ -3,14 +3,14 @@ using System.Linq;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaListViewPresenter
+    public class AudioDramaListPresenter
     {
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
         private readonly IEnumerable<AudioDrama> _audioDramas;
         private readonly IViewer _viewer;
 
-        public AudioDramaListViewPresenter(
+        public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
             IAudioDramaView audioDramaView,
             IEnumerable<AudioDrama> audioDramas,
@@ -39,7 +39,7 @@ namespace DdfGuide.Core
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
 
                 // Todo: Is there a way to bring this to the app root?
-                var _ = new AudioDramaViewPresenter(
+                var _ = new AudioDramaPresenter(
                     _audioDramaView,
                     audioDrama,
                     _viewer);

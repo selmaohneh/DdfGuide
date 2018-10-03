@@ -28,7 +28,7 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaViewPresenter(
+            var _ = new AudioDramaPresenter(
                 _view.Object,
                 model,
                 _viewer.Object);
@@ -41,7 +41,7 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaViewPresenter(
+            var _ = new AudioDramaPresenter(
                 _view.Object,
                 model,
                 _viewer.Object);
@@ -58,7 +58,7 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaViewPresenter(
+            var _ = new AudioDramaPresenter(
                 _view.Object,
                 model,
                 _viewer.Object);
@@ -78,7 +78,7 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaViewPresenter(
+            var _ = new AudioDramaPresenter(
                 _view.Object,
                 model,
                 _viewer.Object);
@@ -95,7 +95,7 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaViewPresenter(
+            var _ = new AudioDramaPresenter(
                 _view.Object,
                 model,
                 _viewer.Object);
@@ -115,7 +115,7 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaViewPresenter(
+            var _ = new AudioDramaPresenter(
                 _view.Object,
                 model,
                 _viewer.Object);
