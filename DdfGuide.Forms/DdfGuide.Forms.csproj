@@ -63,6 +63,9 @@
     <EmbeddedResource Include="AudioDramaListView.resx">
       <DependentUpon>AudioDramaListView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AudioDramaView.resx">
+      <DependentUpon>AudioDramaView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

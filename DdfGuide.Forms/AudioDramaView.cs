@@ -17,8 +17,33 @@ namespace DdfGuide.Forms
 
         public void SetAudioDrama(AudioDrama audioDrama)
         {
-            
+            labelId.Text = audioDrama.AudioDramaDto.Id.ToString();
+            labelName.Text = audioDrama.AudioDramaDto.Name;
+
+            if (checkBoxHeard.Checked != audioDrama.AudioDramaUserData.Heard)
+            {
+                checkBoxHeard.Checked = audioDrama.AudioDramaUserData.Heard;
+            }
+
+            if (checkBoxIsFavorite.Checked != audioDrama.AudioDramaUserData.IsFavorite)
+            {
+                checkBoxIsFavorite.Checked = audioDrama.AudioDramaUserData.IsFavorite;
+            }
         }
 
+        private void AudioDramaView_DoubleClick(object sender, EventArgs e)
+        {
+            BackClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void checkBoxHeard_CheckedChanged(object sender, EventArgs e)
+        {
+            HeardChanged?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void checkBoxIsFavorite_CheckedChanged(object sender, EventArgs e)
+        {
+            IsFavoriteChanged?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

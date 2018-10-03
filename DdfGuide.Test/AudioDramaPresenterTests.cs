@@ -7,7 +7,7 @@ using Moq;
 namespace DdfGuide.Test
 {
     [TestClass]
-    public class AudioDramaViewPresenterTests
+    public class AudioDramaPresenterTests
     {
         private Mock<IAudioDramaView> _view;
         private SingleAudioDramaProvider _singleAudioDramaProvider;
@@ -123,6 +123,27 @@ namespace DdfGuide.Test
             _view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
 
             _viewer.Verify(x => x.ShowLast(), Times.Once);
+        }
+
+        [TestMethod]
+        public void UserDataChanged_UpdateView()
+        {
+            var model = _singleAudioDramaProvider.Get().First();
+
+            var _ = new AudioDramaPresenter(
+                _view.Object,
+                model,
+                _viewer.Object);
+
+            _view.Invocations.Clear();
+
+            _view.Verify(x=>x.SetAudioDrama(model), Times.Never);
+
+            model.AudioDramaUserData.Heard = !model.AudioDramaUserData.Heard;
+            _view.Verify(x => x.SetAudioDrama(model), Times.Once);
+
+            model.AudioDramaUserData.IsFavorite = !model.AudioDramaUserData.IsFavorite;
+            _view.Verify(x => x.SetAudioDrama(model), Times.Exactly(2));
         }
     }
 }

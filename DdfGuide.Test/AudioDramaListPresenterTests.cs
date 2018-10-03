@@ -7,7 +7,7 @@ using Moq;
 namespace DdfGuide.Test
 {
     [TestClass]
-    public class AudioDramaListViewPresenterTests
+    public class AudioDramaListPresenterTests
     {
         private Mock<IAudioDramaListView> _listView;
         private Mock<IAudioDramaView> _view;

@@ -49,6 +49,7 @@
     <Compile Include="DdfGuide.cs" />
     <Compile Include="AudioDramaPresenter.cs" />
     <Compile Include="IAudioDramaView.cs" />
+    <Compile Include="INotifyChanged.cs" />
     <Compile Include="IView.cs" />
     <Compile Include="IViewer.cs" />
     <Compile Include="SampleProviders.cs" />

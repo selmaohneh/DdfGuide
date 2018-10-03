@@ -15,14 +15,20 @@
             _audioDrama = audioDrama;
             _viewer = viewer;
 
-            InitSubscriptions();
+            SubscribeToViewEvents();
+            SubscribeToModelEvents();
             UpdateViewWithCurrentAudioDrama();
         }
 
-        private void InitSubscriptions()
+        private void SubscribeToModelEvents()
         {
-            OnHeardChangedUpdateModelAndView();
-            OnIsFavoriteChangedUpdateModelAndView();
+            OnUserDataChangedUpdateView();
+        }
+
+        private void SubscribeToViewEvents()
+        {
+            OnHeardChangedUpdateModel();
+            OnIsFavoriteChangedUpdateModel();
             OnBackClickedShowLastView();
         }
 
@@ -31,23 +37,27 @@
             _audioDramaView.BackClicked += (sender, _) => { _viewer.ShowLast(); };
         }
 
-        private void OnIsFavoriteChangedUpdateModelAndView()
+        private void OnIsFavoriteChangedUpdateModel()
         {
             _audioDramaView.IsFavoriteChanged += (sender, _) =>
             {
                 _audioDrama.AudioDramaUserData.IsFavorite = !_audioDrama.AudioDramaUserData.IsFavorite;
-
-                UpdateViewWithCurrentAudioDrama();
             };
         }
 
-        private void OnHeardChangedUpdateModelAndView()
+        private void OnHeardChangedUpdateModel()
         {
             _audioDramaView.HeardChanged += (sender, _) =>
             {
                 _audioDrama.AudioDramaUserData.Heard = !_audioDrama.AudioDramaUserData.Heard;
+            };
+        }
 
-                UpdateViewWithCurrentAudioDrama();
+        private void OnUserDataChangedUpdateView()
+        {
+            _audioDrama.AudioDramaUserData.Changed += (sender, args) =>
+            {
+                _audioDramaView.SetAudioDrama(_audioDrama);
             };
         }
 

@@ -2,11 +2,37 @@
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaUserData
+    public class AudioDramaUserData :INotifyChanged
     {
-        public Guid Id { get; set; }
-        public bool Heard { get; set; }
-        public bool IsFavorite { get; set; }
+        public Guid Id { get; }
+        public event EventHandler Changed;
+
+
+        private bool _heard;
+        public bool Heard
+        {
+            get => _heard;
+            set
+            {
+                if (_heard == value) return;
+
+                _heard = value;
+                Changed?.Invoke(this, EventArgs.Empty);
+            }
+        }
+
+        private bool _isFavorite;
+        public bool IsFavorite
+        {
+            get => _isFavorite;
+            set
+            {
+                if (_isFavorite == value) return;
+
+                _isFavorite = value;
+                Changed?.Invoke(this, EventArgs.Empty);
+            }
+        }
 
         public AudioDramaUserData(Guid id, bool heard, bool isFavorite)
         {
@@ -39,5 +65,6 @@ namespace DdfGuide.Core
 
             return dump;
         }
+
     }
 }
