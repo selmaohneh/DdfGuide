@@ -21,14 +21,20 @@ namespace DdfGuide.Core
             _audioDramas = audioDramas;
             _viewer = viewer;
 
-            InitSubscriptions();
+            SubscribeToViewEvents();
+            SubscribetToModelEvents();
             UpdateViewWithCurrentAudioDramas();
         }
 
-        private void InitSubscriptions()
+        private void SubscribetToModelEvents()
         {
-            OnHeardChangedUpdateModelAndView();
-            OnIsFavoriteChangedUpdateModelAndView();
+            OnUserDataChangedUpdateView();
+        }
+
+        private void SubscribeToViewEvents()
+        {
+            OnHeardChangedUpdateModel();
+            OnIsFavoriteChangedUpdateModel();
             OnAudioDramaClickedOpenAudioDramaView();
         }
 
@@ -48,26 +54,33 @@ namespace DdfGuide.Core
             };
         }
 
-        private void OnIsFavoriteChangedUpdateModelAndView()
+        private void OnIsFavoriteChangedUpdateModel()
         {
             _audioDramaListView.IsFavoriteChanged += (sender, id) =>
             {
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
                 audioDrama.AudioDramaUserData.IsFavorite = !audioDrama.AudioDramaUserData.IsFavorite;
-                
-               UpdateViewWithCurrentAudioDramas();
             };
         }
 
-        private void OnHeardChangedUpdateModelAndView()
+        private void OnHeardChangedUpdateModel()
         {
             _audioDramaListView.HeardChanged += (sender, id) =>
             {
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
                 audioDrama.AudioDramaUserData.Heard = !audioDrama.AudioDramaUserData.Heard;
-
-               UpdateViewWithCurrentAudioDramas();
             };
+        }
+
+        private void OnUserDataChangedUpdateView()
+        {
+            foreach (var audioDrama in _audioDramas)
+            {
+                audioDrama.AudioDramaUserData.Changed += (sender, args) =>
+                {
+                    UpdateViewWithCurrentAudioDramas();
+                };
+            }
         }
 
         private void UpdateViewWithCurrentAudioDramas()

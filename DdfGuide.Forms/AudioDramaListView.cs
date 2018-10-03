@@ -21,7 +21,7 @@ namespace DdfGuide.Forms
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
             var rows = audioDramas.Select(audioDrama => new AudioDramaRow(audioDrama)).ToList();
-
+            
             dataGridViewAudioDramas.DataSource = rows;
 
             dataGridViewAudioDramas.ReadOnly = false;

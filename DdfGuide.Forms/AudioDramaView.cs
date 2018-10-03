@@ -36,12 +36,12 @@ namespace DdfGuide.Forms
             BackClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        private void checkBoxHeard_CheckedChanged(object sender, EventArgs e)
+        private void checkBoxHeard_Click(object sender, EventArgs e)
         {
             HeardChanged?.Invoke(this, EventArgs.Empty);
         }
 
-        private void checkBoxIsFavorite_CheckedChanged(object sender, EventArgs e)
+        private void checkBoxIsFavorite_Click(object sender, EventArgs e)
         {
             IsFavoriteChanged?.Invoke(this, EventArgs.Empty);
         }

@@ -57,7 +57,7 @@
         {
             _audioDrama.AudioDramaUserData.Changed += (sender, args) =>
             {
-                _audioDramaView.SetAudioDrama(_audioDrama);
+                UpdateViewWithCurrentAudioDrama();
             };
         }
 
