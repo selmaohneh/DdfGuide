@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DdfGuide.Core.Views
+namespace DdfGuide.Core
 {
     public interface IView
     {

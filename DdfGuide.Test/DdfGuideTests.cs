@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using DdfGuide.Core;
-using DdfGuide.Core.Models;
-using DdfGuide.Core.Views;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 

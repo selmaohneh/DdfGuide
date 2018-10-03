@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using DdfGuide.Core.Models;
 
-namespace DdfGuide.Core.Views
+namespace DdfGuide.Core
 {
     public interface IAudioDramaListView : IView
     {

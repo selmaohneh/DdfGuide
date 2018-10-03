@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DdfGuide.Core.Models
+namespace DdfGuide.Core
 {
     public class AudioDramaUserData
     {

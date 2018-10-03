@@ -1,4 +1,6 @@
-﻿namespace DdfGuide.Forms
+﻿using DdfGuide.Core;
+
+namespace DdfGuide.Forms
 {
     partial class AudioDramaListView
     {
@@ -57,11 +59,11 @@
             // 
             // audioDramaBindingSource
             // 
-            this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.Models.AudioDrama);
+            this.audioDramaBindingSource.DataSource = typeof(AudioDrama);
             // 
             // audioDramaUserDataBindingSource
             // 
-            this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.Models.AudioDramaUserData);
+            this.audioDramaUserDataBindingSource.DataSource = typeof(AudioDramaUserData);
             // 
             // AudioDramaListView
             // 

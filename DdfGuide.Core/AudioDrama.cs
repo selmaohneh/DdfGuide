@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DdfGuide.Core.Models
+namespace DdfGuide.Core
 {
     public class AudioDrama
     {

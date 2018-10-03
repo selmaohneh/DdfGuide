@@ -1,7 +1,4 @@
 ﻿using System.Collections.Generic;
-using DdfGuide.Core.Models;
-using DdfGuide.Core.Presenters;
-using DdfGuide.Core.Views;
 
 namespace DdfGuide.Core
 {

@@ -40,19 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\AudioDrama.cs" />
+    <Compile Include="AudioDrama.cs" />
     <Compile Include="AudioDramaBuilder.cs" />
-    <Compile Include="Models\AudioDramaDto.cs" />
-    <Compile Include="Presenters\AudioDramaListViewPresenter.cs" />
-    <Compile Include="Models\AudioDramaUserData.cs" />
+    <Compile Include="AudioDramaDto.cs" />
+    <Compile Include="AudioDramaListViewPresenter.cs" />
+    <Compile Include="AudioDramaUserData.cs" />
     <Compile Include="AudioDramaExtensions.cs" />
     <Compile Include="DdfGuide.cs" />
-    <Compile Include="Presenters\AudioDramaViewPresenter.cs" />
-    <Compile Include="Views\IAudioDramaView.cs" />
-    <Compile Include="Views\IView.cs" />
+    <Compile Include="AudioDramaViewPresenter.cs" />
+    <Compile Include="IAudioDramaView.cs" />
+    <Compile Include="IView.cs" />
     <Compile Include="IViewer.cs" />
     <Compile Include="SampleProviders.cs" />
-    <Compile Include="Views\IAudioDramaListView.cs" />
+    <Compile Include="IAudioDramaListView.cs" />
     <Compile Include="IProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Viewer.cs" />

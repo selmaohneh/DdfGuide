@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using DdfGuide.Core.Models;
-using DdfGuide.Core.Views;
+using DdfGuide.Core;
 
 namespace DdfGuide.Forms
 {

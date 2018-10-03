@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using DdfGuide.Core.Models;
-using DdfGuide.Core.Views;
+using DdfGuide.Core;
 
 namespace DdfGuide.Forms
 {

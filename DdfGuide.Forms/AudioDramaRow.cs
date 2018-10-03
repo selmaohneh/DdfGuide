@@ -1,5 +1,5 @@
 ﻿using System;
-using DdfGuide.Core.Models;
+using DdfGuide.Core;
 
 namespace DdfGuide.Forms
 {

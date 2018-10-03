@@ -1,6 +1,4 @@
-﻿using DdfGuide.Core.Views;
-
-namespace DdfGuide.Core
+﻿namespace DdfGuide.Core
 {
     public interface IViewer
     {
