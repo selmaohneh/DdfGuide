@@ -36,11 +36,15 @@ namespace DdfGuide.Core
             var viewStack = new Stack<IView>();
             var viewer = new Viewer(viewStack);
 
+            var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView, viewer);
+
             var audioDramaListViewPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
                 _audioDramaView,
                 audioDramas,
-                viewer);
+                viewer,
+                audioDramaPresenter
+                );
 
             viewer.Show(_audioDramaListView);
         }

@@ -1,21 +1,25 @@
 ﻿namespace DdfGuide.Core
 {
-    public class AudioDramaPresenter
+    public class AudioDramaPresenter : IAudioDramaPresenter
     {
         private readonly IAudioDramaView _audioDramaView;
-        private readonly AudioDrama _audioDrama;
+        private AudioDrama _audioDrama;
         private readonly IViewer _viewer;
 
         public AudioDramaPresenter(
             IAudioDramaView audioDramaView,
-            AudioDrama audioDrama,
             IViewer viewer)
         {
             _audioDramaView = audioDramaView;
-            _audioDrama = audioDrama;
             _viewer = viewer;
 
             SubscribeToViewEvents();
+        }
+
+        public void SetAudioDrama(AudioDrama audioDrama)
+        {
+            _audioDrama = audioDrama;
+
             SubscribeToModelEvents();
             UpdateViewWithCurrentAudioDrama();
         }

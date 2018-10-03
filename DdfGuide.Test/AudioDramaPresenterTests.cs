@@ -22,29 +22,16 @@ namespace DdfGuide.Test
             _viewer = new Mock<IViewer>();
         }
 
-
-        [TestMethod]
-        public void Construct_FillWithAudioDrama()
-        {
-            var model = _singleAudioDramaProvider.Get().First();
-
-            var _ = new AudioDramaPresenter(
-                _view.Object,
-                model,
-                _viewer.Object);
-
-            _view.Verify(x => x.SetAudioDrama(model), Times.Once);
-        }
-
         [TestMethod]
         public void HeardChanged_UpdateModel()
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaPresenter(
+            var presenter = new AudioDramaPresenter(
                 _view.Object,
-                model,
                 _viewer.Object);
+
+            presenter.SetAudioDrama(model);
 
             Assert.IsFalse(model.AudioDramaUserData.Heard);
             _view.Raise(x => x.HeardChanged += null, this, EventArgs.Empty);
@@ -58,10 +45,11 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaPresenter(
+            var presenter = new AudioDramaPresenter(
                 _view.Object,
-                model,
                 _viewer.Object);
+
+            presenter.SetAudioDrama(model);
 
             _view.Invocations.Clear();
 
@@ -78,10 +66,11 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaPresenter(
+            var presenter = new AudioDramaPresenter(
                 _view.Object,
-                model,
                 _viewer.Object);
+
+            presenter.SetAudioDrama(model);
 
             Assert.IsFalse(model.AudioDramaUserData.IsFavorite);
             _view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
@@ -95,10 +84,11 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaPresenter(
+            var presenter = new AudioDramaPresenter(
                 _view.Object,
-                model,
                 _viewer.Object);
+
+            presenter.SetAudioDrama(model);
 
             _view.Invocations.Clear();
 
@@ -115,10 +105,11 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaPresenter(
+            var presenter = new AudioDramaPresenter(
                 _view.Object,
-                model,
                 _viewer.Object);
+
+            presenter.SetAudioDrama(model);
 
             _view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
 
@@ -130,10 +121,11 @@ namespace DdfGuide.Test
         {
             var model = _singleAudioDramaProvider.Get().First();
 
-            var _ = new AudioDramaPresenter(
+            var presenter = new AudioDramaPresenter(
                 _view.Object,
-                model,
                 _viewer.Object);
+
+            presenter.SetAudioDrama(model);
 
             _view.Invocations.Clear();
 

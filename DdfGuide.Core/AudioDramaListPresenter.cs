@@ -9,17 +9,20 @@ namespace DdfGuide.Core
         private readonly IAudioDramaView _audioDramaView;
         private readonly IEnumerable<AudioDrama> _audioDramas;
         private readonly IViewer _viewer;
+        private readonly IAudioDramaPresenter _audioDramaPresenter;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
             IAudioDramaView audioDramaView,
             IEnumerable<AudioDrama> audioDramas,
-            IViewer viewer)
+            IViewer viewer, 
+            IAudioDramaPresenter audioDramaPresenter)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _audioDramas = audioDramas;
             _viewer = viewer;
+            _audioDramaPresenter = audioDramaPresenter;
 
             SubscribeToViewEvents();
             SubscribetToModelEvents();
@@ -43,12 +46,7 @@ namespace DdfGuide.Core
             _audioDramaListView.AudioDramaClicked += (sender, id) =>
             {
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
-
-                // Todo: Is there a way to bring this to the app root?
-                var _ = new AudioDramaPresenter(
-                    _audioDramaView,
-                    audioDrama,
-                    _viewer);
+                _audioDramaPresenter.SetAudioDrama(audioDrama);
 
                 _viewer.Show(_audioDramaView);
             };
@@ -76,10 +74,7 @@ namespace DdfGuide.Core
         {
             foreach (var audioDrama in _audioDramas)
             {
-                audioDrama.AudioDramaUserData.Changed += (sender, args) =>
-                {
-                    UpdateViewWithCurrentAudioDramas();
-                };
+                audioDrama.AudioDramaUserData.Changed += (sender, args) => { UpdateViewWithCurrentAudioDramas(); };
             }
         }
 
