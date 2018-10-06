@@ -31,8 +31,15 @@ namespace DdfGuide.Core
             var i = 1;
             foreach (var sampleId in SampleIds)
             {
-                var dto = new AudioDramaDto(sampleId, $"Sample name {i++}", i);
+                var dto = new AudioDramaDto(sampleId, $"Sample name {i}", i);
+
+                if (sampleId == SampleIds.Last())
+                {
+                    dto = new AudioDramaDto(sampleId, "I am special", null);
+                }
+
                 dtos.Add(dto);
+                i++;
             }
 
             return dtos;
