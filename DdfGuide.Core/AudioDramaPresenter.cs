@@ -6,58 +6,52 @@ namespace DdfGuide.Core
     {
         private readonly IAudioDramaView _audioDramaView;
         private AudioDrama _audioDrama;
-        private readonly IViewer _viewer;
-
-        private readonly EventHandler _onUserDataChanged;
 
         public AudioDramaPresenter(
             IAudioDramaView audioDramaView,
             IViewer viewer)
         {
             _audioDramaView = audioDramaView;
-            _viewer = viewer;
-
-            _onUserDataChanged = (sender, args) => { UpdateViewWithCurrentAudioDrama(); };
-
-            SubscribeToViewEvents();
+            
+            _audioDramaView.BackClicked += OnBackClicked(viewer);
+            _audioDramaView.IsFavoriteChanged += OnIsFavoriteChanged();
+            _audioDramaView.HeardChanged += OnHeardChanged();
         }
 
         public void SetAudioDrama(AudioDrama audioDrama)
         {
             _audioDrama = audioDrama;
 
-            _audioDrama.AudioDramaUserData.Changed -= _onUserDataChanged;
-            _audioDrama.AudioDramaUserData.Changed += _onUserDataChanged;
+            _audioDrama.AudioDramaUserData.Changed -= OnUserDataChanged();
+            _audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
 
             UpdateViewWithCurrentAudioDrama();
         }
 
-        private void SubscribeToViewEvents()
+        private EventHandler OnHeardChanged()
         {
-            OnHeardChangedUpdateModel();
-            OnIsFavoriteChangedUpdateModel();
-            OnBackClickedShowLastView();
+            return (sender, _) =>
+            {
+                _audioDrama.AudioDramaUserData.Heard = !_audioDrama.AudioDramaUserData.Heard;
+            };
         }
 
-        private void OnBackClickedShowLastView()
+        private EventHandler OnIsFavoriteChanged()
         {
-            _audioDramaView.BackClicked += (sender, _) => { _viewer.ShowLast(); };
-        }
-
-        private void OnIsFavoriteChangedUpdateModel()
-        {
-            _audioDramaView.IsFavoriteChanged += (sender, _) =>
+            return (sender, _) =>
             {
                 _audioDrama.AudioDramaUserData.IsFavorite = !_audioDrama.AudioDramaUserData.IsFavorite;
             };
         }
 
-        private void OnHeardChangedUpdateModel()
+        private EventHandler OnBackClicked(IViewer viewer)
         {
-            _audioDramaView.HeardChanged += (sender, _) =>
-            {
-                _audioDrama.AudioDramaUserData.Heard = !_audioDrama.AudioDramaUserData.Heard;
-            };
+            return (sender, _) => { viewer.ShowLast(); };
+        }
+
+        private EventHandler OnUserDataChanged()
+        {
+            return (sender, args) => { UpdateViewWithCurrentAudioDrama(); };
         }
 
         private void UpdateViewWithCurrentAudioDrama()
