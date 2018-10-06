@@ -1,10 +1,14 @@
-﻿namespace DdfGuide.Core
+﻿using System;
+
+namespace DdfGuide.Core
 {
     public class AudioDramaPresenter : IAudioDramaPresenter
     {
         private readonly IAudioDramaView _audioDramaView;
         private AudioDrama _audioDrama;
         private readonly IViewer _viewer;
+
+        private readonly EventHandler _onUserDataChanged;
 
         public AudioDramaPresenter(
             IAudioDramaView audioDramaView,
@@ -13,6 +17,8 @@
             _audioDramaView = audioDramaView;
             _viewer = viewer;
 
+            _onUserDataChanged = (sender, args) => { UpdateViewWithCurrentAudioDrama(); };
+
             SubscribeToViewEvents();
         }
 
@@ -20,13 +26,10 @@
         {
             _audioDrama = audioDrama;
 
-            SubscribeToModelEvents();
-            UpdateViewWithCurrentAudioDrama();
-        }
+            _audioDrama.AudioDramaUserData.Changed -= _onUserDataChanged;
+            _audioDrama.AudioDramaUserData.Changed += _onUserDataChanged;
 
-        private void SubscribeToModelEvents()
-        {
-            OnUserDataChangedUpdateView();
+            UpdateViewWithCurrentAudioDrama();
         }
 
         private void SubscribeToViewEvents()
@@ -54,14 +57,6 @@
             _audioDramaView.HeardChanged += (sender, _) =>
             {
                 _audioDrama.AudioDramaUserData.Heard = !_audioDrama.AudioDramaUserData.Heard;
-            };
-        }
-
-        private void OnUserDataChangedUpdateView()
-        {
-            _audioDrama.AudioDramaUserData.Changed += (sender, args) =>
-            {
-                UpdateViewWithCurrentAudioDrama();
             };
         }
 

@@ -137,5 +137,28 @@ namespace DdfGuide.Test
             model.AudioDramaUserData.IsFavorite = !model.AudioDramaUserData.IsFavorite;
             _view.Verify(x => x.SetAudioDrama(model), Times.Exactly(2));
         }
+
+        [TestMethod]
+        public void SetNewModelMultipleTimes_DontRaiseEventsMultipleTimes()
+        {
+            var model = _singleAudioDramaProvider.Get().First();
+
+            var presenter = new AudioDramaPresenter(
+                _view.Object,
+                _viewer.Object);
+
+            presenter.SetAudioDrama(model);
+            presenter.SetAudioDrama(model);
+            presenter.SetAudioDrama(model);
+            presenter.SetAudioDrama(model);
+
+            _view.Invocations.Clear();
+
+            Assert.IsFalse(model.AudioDramaUserData.Heard);
+            _view.Raise(x => x.HeardChanged += null, null, EventArgs.Empty);
+            Assert.IsTrue(model.AudioDramaUserData.Heard);
+
+            _view.Verify(x => x.SetAudioDrama(It.IsAny<AudioDrama>()), Times.Once());
+        }
     }
 }
