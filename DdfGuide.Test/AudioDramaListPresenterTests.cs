@@ -11,7 +11,7 @@ namespace DdfGuide.Test
     {
         private Mock<IAudioDramaListView> _listView;
         private Mock<IAudioDramaView> _view;
-        private SingleAudioDramaProvider _singleAudioDramaProvider;
+        private MultipleAudioDramaProvider _audioDramaProvider;
         private Mock<IViewer> _viewer;
         private Mock<IAudioDramaPresenter> _audioDramaPresenter;
         private List<AudioDrama> _audioDramas;
@@ -20,8 +20,8 @@ namespace DdfGuide.Test
         [TestInitialize]
         public void Init()
         {
-            _singleAudioDramaProvider = new SingleAudioDramaProvider();
-            _audioDramas = _singleAudioDramaProvider.Get().ToList();
+            _audioDramaProvider = new MultipleAudioDramaProvider();
+            _audioDramas = _audioDramaProvider.Get().ToList();
 
             _listView = new Mock<IAudioDramaListView>();
             _view = new Mock<IAudioDramaView>();
@@ -114,6 +114,12 @@ namespace DdfGuide.Test
 
             _audioDramas.First().AudioDramaUserData.IsFavorite = !_audioDramas.First().AudioDramaUserData.IsFavorite;
             _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Exactly(2));
+        }
+
+        [TestMethod]
+        public void OrderByNameAscendingClicked_UpdateView()
+        {
+
         }
     }
 }
