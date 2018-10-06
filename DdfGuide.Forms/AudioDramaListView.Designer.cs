@@ -36,10 +36,12 @@ namespace DdfGuide.Forms
             this.heardFirstToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.heardLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.favoritesFirstToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.favoritesLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.numberAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.numberDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -63,7 +65,9 @@ namespace DdfGuide.Forms
             this.heardFirstToolStripMenuItem,
             this.heardLastToolStripMenuItem,
             this.favoritesFirstToolStripMenuItem,
-            this.favoritesLastToolStripMenuItem});
+            this.favoritesLastToolStripMenuItem,
+            this.numberAscendingToolStripMenuItem,
+            this.numberDescendingToolStripMenuItem});
             this.orderingToolStripMenuItem.Name = "orderingToolStripMenuItem";
             this.orderingToolStripMenuItem.Size = new System.Drawing.Size(95, 29);
             this.orderingToolStripMenuItem.Text = "Ordering";
@@ -71,7 +75,7 @@ namespace DdfGuide.Forms
             // heardFirstToolStripMenuItem
             // 
             this.heardFirstToolStripMenuItem.Name = "heardFirstToolStripMenuItem";
-            this.heardFirstToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.heardFirstToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
             this.heardFirstToolStripMenuItem.Text = "Heard first";
             this.heardFirstToolStripMenuItem.Click += new System.EventHandler(this.heardFirstToolStripMenuItem_Click);
             // 
@@ -96,9 +100,23 @@ namespace DdfGuide.Forms
             // heardLastToolStripMenuItem
             // 
             this.heardLastToolStripMenuItem.Name = "heardLastToolStripMenuItem";
-            this.heardLastToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.heardLastToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
             this.heardLastToolStripMenuItem.Text = "Heard last";
             this.heardLastToolStripMenuItem.Click += new System.EventHandler(this.heardLastToolStripMenuItem_Click);
+            // 
+            // favoritesFirstToolStripMenuItem
+            // 
+            this.favoritesFirstToolStripMenuItem.Name = "favoritesFirstToolStripMenuItem";
+            this.favoritesFirstToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.favoritesFirstToolStripMenuItem.Text = "Favorites first";
+            this.favoritesFirstToolStripMenuItem.Click += new System.EventHandler(this.favoritesFirstToolStripMenuItem_Click);
+            // 
+            // favoritesLastToolStripMenuItem
+            // 
+            this.favoritesLastToolStripMenuItem.Name = "favoritesLastToolStripMenuItem";
+            this.favoritesLastToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.favoritesLastToolStripMenuItem.Text = "Favorites last";
+            this.favoritesLastToolStripMenuItem.Click += new System.EventHandler(this.favoritesLastToolStripMenuItem_Click);
             // 
             // audioDramaBindingSource
             // 
@@ -108,19 +126,19 @@ namespace DdfGuide.Forms
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
             // 
-            // favoritesFirstToolStripMenuItem
+            // numberAscendingToolStripMenuItem
             // 
-            this.favoritesFirstToolStripMenuItem.Name = "favoritesFirstToolStripMenuItem";
-            this.favoritesFirstToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
-            this.favoritesFirstToolStripMenuItem.Text = "Favorites first";
-            this.favoritesFirstToolStripMenuItem.Click += new System.EventHandler(this.favoritesFirstToolStripMenuItem_Click);
+            this.numberAscendingToolStripMenuItem.Name = "numberAscendingToolStripMenuItem";
+            this.numberAscendingToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.numberAscendingToolStripMenuItem.Text = "Number ascending";
+            this.numberAscendingToolStripMenuItem.Click += new System.EventHandler(this.numberAscendingToolStripMenuItem_Click);
             // 
-            // favoritesLastToolStripMenuItem
+            // numberDescendingToolStripMenuItem
             // 
-            this.favoritesLastToolStripMenuItem.Name = "favoritesLastToolStripMenuItem";
-            this.favoritesLastToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
-            this.favoritesLastToolStripMenuItem.Text = "Favorites last";
-            this.favoritesLastToolStripMenuItem.Click += new System.EventHandler(this.favoritesLastToolStripMenuItem_Click);
+            this.numberDescendingToolStripMenuItem.Name = "numberDescendingToolStripMenuItem";
+            this.numberDescendingToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.numberDescendingToolStripMenuItem.Text = "Number descending";
+            this.numberDescendingToolStripMenuItem.Click += new System.EventHandler(this.numberDescendingToolStripMenuItem_Click);
             // 
             // AudioDramaListView
             // 
@@ -152,6 +170,8 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem heardLastToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem favoritesFirstToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem favoritesLastToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem numberAscendingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem numberDescendingToolStripMenuItem;
     }
 }
 

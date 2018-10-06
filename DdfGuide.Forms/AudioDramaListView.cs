@@ -21,6 +21,8 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByHeardLastClicked;
         public event EventHandler OrderByIsFavoriteFirstClicked;
         public event EventHandler OrderByIsFavoriteLastClicked;
+        public event EventHandler OrderByNumberAscendingClicked;
+        public event EventHandler OrderByNumberDescendingClicked;
 
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
@@ -83,6 +85,16 @@ namespace DdfGuide.Forms
         private void favoritesLastToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OrderByIsFavoriteLastClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void numberAscendingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByNumberAscendingClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void numberDescendingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByNumberDescendingClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

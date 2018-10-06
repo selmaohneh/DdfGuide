@@ -13,5 +13,7 @@ namespace DdfGuide.Core
         event EventHandler OrderByHeardLastClicked;
         event EventHandler OrderByIsFavoriteFirstClicked;
         event EventHandler OrderByIsFavoriteLastClicked;
+        event EventHandler OrderByNumberAscendingClicked;
+        event EventHandler OrderByNumberDescendingClicked;
     }
 }
