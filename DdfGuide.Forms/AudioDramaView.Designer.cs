@@ -45,6 +45,7 @@
             // 
             // checkBoxHeard
             // 
+            this.checkBoxHeard.AutoSize = true;
             this.checkBoxHeard.Location = new System.Drawing.Point(12, 52);
             this.checkBoxHeard.Name = "checkBoxHeard";
             this.checkBoxHeard.Size = new System.Drawing.Size(79, 24);
@@ -55,13 +56,14 @@
             // 
             // checkBoxIsFavorite
             // 
+            this.checkBoxIsFavorite.AutoSize = true;
             this.checkBoxIsFavorite.Location = new System.Drawing.Point(12, 82);
             this.checkBoxIsFavorite.Name = "checkBoxIsFavorite";
             this.checkBoxIsFavorite.Size = new System.Drawing.Size(105, 24);
             this.checkBoxIsFavorite.TabIndex = 2;
             this.checkBoxIsFavorite.Text = "IsFavorite";
             this.checkBoxIsFavorite.UseVisualStyleBackColor = true;
-           this.checkBoxIsFavorite.Click += new System.EventHandler(this.checkBoxIsFavorite_Click);
+            this.checkBoxIsFavorite.Click += new System.EventHandler(this.checkBoxIsFavorite_Click);
             // 
             // labelName
             // 
