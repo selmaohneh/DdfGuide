@@ -46,8 +46,8 @@ namespace DdfGuide.Core
             var userDatas = new List<AudioDramaUserData>
             {
                 new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(0), false, false),
-                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(1), true, false),
-                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(2), false, true),
+                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(1), false, true),
+                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(2), true, false),
                 new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(3), true, true)
             };
 

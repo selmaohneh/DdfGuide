@@ -35,9 +35,11 @@ namespace DdfGuide.Forms
             this.orderingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heardFirstToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
+            this.heardLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.heardLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.favoritesFirstToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.favoritesLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -59,7 +61,9 @@ namespace DdfGuide.Forms
             // 
             this.orderingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.heardFirstToolStripMenuItem,
-            this.heardLastToolStripMenuItem});
+            this.heardLastToolStripMenuItem,
+            this.favoritesFirstToolStripMenuItem,
+            this.favoritesLastToolStripMenuItem});
             this.orderingToolStripMenuItem.Name = "orderingToolStripMenuItem";
             this.orderingToolStripMenuItem.Size = new System.Drawing.Size(95, 29);
             this.orderingToolStripMenuItem.Text = "Ordering";
@@ -89,6 +93,13 @@ namespace DdfGuide.Forms
             this.dataGridViewAudioDramas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellDoubleClick);
             this.dataGridViewAudioDramas.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellValueChanged);
             // 
+            // heardLastToolStripMenuItem
+            // 
+            this.heardLastToolStripMenuItem.Name = "heardLastToolStripMenuItem";
+            this.heardLastToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.heardLastToolStripMenuItem.Text = "Heard last";
+            this.heardLastToolStripMenuItem.Click += new System.EventHandler(this.heardLastToolStripMenuItem_Click);
+            // 
             // audioDramaBindingSource
             // 
             this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.AudioDrama);
@@ -97,12 +108,19 @@ namespace DdfGuide.Forms
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
             // 
-            // heardLastToolStripMenuItem
+            // favoritesFirstToolStripMenuItem
             // 
-            this.heardLastToolStripMenuItem.Name = "heardLastToolStripMenuItem";
-            this.heardLastToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
-            this.heardLastToolStripMenuItem.Text = "Heard last";
-            this.heardLastToolStripMenuItem.Click += new System.EventHandler(this.heardLastToolStripMenuItem_Click);
+            this.favoritesFirstToolStripMenuItem.Name = "favoritesFirstToolStripMenuItem";
+            this.favoritesFirstToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.favoritesFirstToolStripMenuItem.Text = "Favorites first";
+            this.favoritesFirstToolStripMenuItem.Click += new System.EventHandler(this.favoritesFirstToolStripMenuItem_Click);
+            // 
+            // favoritesLastToolStripMenuItem
+            // 
+            this.favoritesLastToolStripMenuItem.Name = "favoritesLastToolStripMenuItem";
+            this.favoritesLastToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.favoritesLastToolStripMenuItem.Text = "Favorites last";
+            this.favoritesLastToolStripMenuItem.Click += new System.EventHandler(this.favoritesLastToolStripMenuItem_Click);
             // 
             // AudioDramaListView
             // 
@@ -132,6 +150,8 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem heardFirstToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridViewAudioDramas;
         private System.Windows.Forms.ToolStripMenuItem heardLastToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem favoritesFirstToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem favoritesLastToolStripMenuItem;
     }
 }
 

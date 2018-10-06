@@ -130,9 +130,31 @@ namespace DdfGuide.Test
         [TestMethod]
         public void OrderByHeardLastClicked_UpdateView()
         {
+            _listView.Invocations.Clear();
+
             _listView.Raise(x => x.OrderByHeardLastClicked += null, this, EventArgs.Empty);
 
             var orderedAudioDramas = _audioDramas.OrderBy(x => x.AudioDramaUserData.Heard);
+
+            _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
+        }
+
+        [TestMethod]
+        public void OrderByIsFavoriteFirstClicked_UpdateView()
+        {
+            _listView.Raise(x => x.OrderByIsFavoriteFirstClicked += null, this, EventArgs.Empty);
+
+            var orderedAudioDramas = _audioDramas.OrderByDescending(x => x.AudioDramaUserData.IsFavorite);
+
+            _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
+        }
+
+        [TestMethod]
+        public void OrderIsFavoriteLastClicked_UpdateView()
+        {
+            _listView.Raise(x => x.OrderByIsFavoriteLastClicked += null, this, EventArgs.Empty);
+
+            var orderedAudioDramas = _audioDramas.OrderBy(x => x.AudioDramaUserData.IsFavorite);
 
             _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
         }

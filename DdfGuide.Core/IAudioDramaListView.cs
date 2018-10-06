@@ -11,5 +11,7 @@ namespace DdfGuide.Core
         event EventHandler<Guid> AudioDramaClicked;
         event EventHandler OrderByHeardFirstClicked;
         event EventHandler OrderByHeardLastClicked;
+        event EventHandler OrderByIsFavoriteFirstClicked;
+        event EventHandler OrderByIsFavoriteLastClicked;
     }
 }
