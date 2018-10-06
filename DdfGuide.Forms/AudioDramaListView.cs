@@ -17,6 +17,8 @@ namespace DdfGuide.Forms
         public event EventHandler<Guid> HeardChanged;
         public event EventHandler<Guid> IsFavoriteChanged;
         public event EventHandler<Guid> AudioDramaClicked;
+        public event EventHandler OrderByHeardFirstClicked;
+        public event EventHandler OrderByHeardLastClicked;
 
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
@@ -59,6 +61,16 @@ namespace DdfGuide.Forms
         {
             var id = (Guid)dataGridViewAudioDramas.Rows[e.RowIndex].Cells[0].Value;
             AudioDramaClicked?.Invoke(this, id);
+        }
+
+        private void heardFirstToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByHeardFirstClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void heardLastToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByHeardLastClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

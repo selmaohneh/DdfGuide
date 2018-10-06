@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -117,9 +118,23 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByNameAscendingClicked_UpdateView()
+        public void OrderByHeardFirstClicked_UpdateView()
         {
+            _listView.Raise(x => x.OrderByHeardFirstClicked += null, this, EventArgs.Empty);
 
+            var orderedAudioDramas = _audioDramas.OrderByDescending(x => x.AudioDramaUserData.Heard);
+
+            _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
+        }
+
+        [TestMethod]
+        public void OrderByHeardLastClicked_UpdateView()
+        {
+            _listView.Raise(x => x.OrderByHeardLastClicked += null, this, EventArgs.Empty);
+
+            var orderedAudioDramas = _audioDramas.OrderBy(x => x.AudioDramaUserData.Heard);
+
+            _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
         }
     }
 }

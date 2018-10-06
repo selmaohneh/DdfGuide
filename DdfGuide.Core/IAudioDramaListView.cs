@@ -9,5 +9,7 @@ namespace DdfGuide.Core
         event EventHandler<Guid> HeardChanged;
         event EventHandler<Guid> IsFavoriteChanged;
         event EventHandler<Guid> AudioDramaClicked;
+        event EventHandler OrderByHeardFirstClicked;
+        event EventHandler OrderByHeardLastClicked;
     }
 }
