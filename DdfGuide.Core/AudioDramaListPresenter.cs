@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace DdfGuide.Core
@@ -24,26 +25,26 @@ namespace DdfGuide.Core
             _viewer = viewer;
             _audioDramaPresenter = audioDramaPresenter;
 
-            SubscribeToViewEvents();
-            SubscribetToModelEvents();
+            _audioDramaListView.HeardChanged += OnHeardChanged();
+            _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
+            _audioDramaListView.AudioDramaClicked += OnAudioDramaClicked();
+
+            foreach (var audioDrama in _audioDramas)
+            {
+                audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
+            }
+
             UpdateViewWithCurrentAudioDramas();
         }
 
-        private void SubscribetToModelEvents()
+        private EventHandler OnUserDataChanged()
         {
-            OnUserDataChangedUpdateView();
+            return (sender, args) => { UpdateViewWithCurrentAudioDramas(); };
         }
 
-        private void SubscribeToViewEvents()
+        private EventHandler<Guid> OnAudioDramaClicked()
         {
-            OnHeardChangedUpdateModel();
-            OnIsFavoriteChangedUpdateModel();
-            OnAudioDramaClickedOpenAudioDramaView();
-        }
-
-        private void OnAudioDramaClickedOpenAudioDramaView()
-        {
-            _audioDramaListView.AudioDramaClicked += (sender, id) =>
+            return (sender, id) =>
             {
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
                 _audioDramaPresenter.SetAudioDrama(audioDrama);
@@ -52,30 +53,22 @@ namespace DdfGuide.Core
             };
         }
 
-        private void OnIsFavoriteChangedUpdateModel()
+        private EventHandler<Guid> OnIsFavoriteChanged()
         {
-            _audioDramaListView.IsFavoriteChanged += (sender, id) =>
+            return (sender, id) =>
             {
-                var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
-                audioDrama.AudioDramaUserData.IsFavorite = !audioDrama.AudioDramaUserData.IsFavorite;
+                var audioDrama1 = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
+                audioDrama1.AudioDramaUserData.IsFavorite = !audioDrama1.AudioDramaUserData.IsFavorite;
             };
         }
 
-        private void OnHeardChangedUpdateModel()
+        private EventHandler<Guid> OnHeardChanged()
         {
-            _audioDramaListView.HeardChanged += (sender, id) =>
+            return (sender, id) =>
             {
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
                 audioDrama.AudioDramaUserData.Heard = !audioDrama.AudioDramaUserData.Heard;
             };
-        }
-
-        private void OnUserDataChangedUpdateView()
-        {
-            foreach (var audioDrama in _audioDramas)
-            {
-                audioDrama.AudioDramaUserData.Changed += (sender, args) => { UpdateViewWithCurrentAudioDramas(); };
-            }
         }
 
         private void UpdateViewWithCurrentAudioDramas()
