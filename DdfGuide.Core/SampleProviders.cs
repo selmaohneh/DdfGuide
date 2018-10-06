@@ -8,7 +8,7 @@ namespace DdfGuide.Core
     {
         public IEnumerable<AudioDramaDto> Get()
         {
-            var dto = new AudioDramaDto(MultipleDtoProvider.SampleIds.First(), "Sample name");
+            var dto = new AudioDramaDto(MultipleDtoProvider.SampleIds.First(), "Sample name", 42);
             var list = new List<AudioDramaDto> {dto};
             return list;
         }
@@ -31,7 +31,7 @@ namespace DdfGuide.Core
             var i = 1;
             foreach (var sampleId in SampleIds)
             {
-                var dto = new AudioDramaDto(sampleId, $"Sample name {i++}");
+                var dto = new AudioDramaDto(sampleId, $"Sample name {i++}", i);
                 dtos.Add(dto);
             }
 
