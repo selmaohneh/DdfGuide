@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Windows.Forms;
 using DdfGuide.Core;
 
@@ -11,6 +12,8 @@ namespace DdfGuide.Forms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            CultureInfo.CurrentCulture = new CultureInfo("de-DE");
 
             var dtoProvider = new MultipleDtoProvider();
             var userDataProvider = new MultipleUserDataProvider();

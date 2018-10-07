@@ -8,7 +8,12 @@ namespace DdfGuide.Core
     {
         public IEnumerable<AudioDramaDto> Get()
         {
-            var dto = new AudioDramaDto(MultipleDtoProvider.SampleIds.First(), "Sample name", 42);
+            var dto = new AudioDramaDto(
+                MultipleDtoProvider.SampleIds.First(),
+                "Sample name",
+                42,
+                new DateTime(2017, 11, 27));
+
             var list = new List<AudioDramaDto> {dto};
             return list;
         }
@@ -31,11 +36,11 @@ namespace DdfGuide.Core
             var i = 1;
             foreach (var sampleId in SampleIds)
             {
-                var dto = new AudioDramaDto(sampleId, $"Sample name {i}", i);
+                var dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2017, 7, 23));
 
                 if (sampleId == SampleIds.Last())
                 {
-                    dto = new AudioDramaDto(sampleId, "I am special", null);
+                    dto = new AudioDramaDto(sampleId, "I am special", null, new DateTime(1979, 1, 28));
                 }
 
                 dtos.Add(dto);

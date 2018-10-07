@@ -46,16 +46,21 @@ namespace DdfGuide.Forms
 
         private void dataGridViewAudioDramas_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex == -1)
+            {
+                return;
+            }
+
             var heardColumn = dataGridViewAudioDramas.Columns["Heard"];
             var isFavoriteColumn = dataGridViewAudioDramas.Columns["IsFavorite"];
             var id = (Guid) dataGridViewAudioDramas.Rows[e.RowIndex].Cells[0].Value;
 
-            if (e.ColumnIndex == heardColumn?.Index && e.RowIndex != -1)
+            if (e.ColumnIndex == heardColumn?.Index)
             {
                 HeardChanged?.Invoke(this, id);
             }
 
-            if (e.ColumnIndex == isFavoriteColumn?.Index && e.RowIndex != -1)
+            if (e.ColumnIndex == isFavoriteColumn?.Index)
             {
                 IsFavoriteChanged?.Invoke(this, id);
             }
@@ -63,6 +68,11 @@ namespace DdfGuide.Forms
 
         private void dataGridViewAudioDramas_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex == -1)
+            {
+                return;
+            }
+
             var id = (Guid)dataGridViewAudioDramas.Rows[e.RowIndex].Cells[0].Value;
             AudioDramaClicked?.Invoke(this, id);
         }
