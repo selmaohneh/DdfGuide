@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AudioDramaBuilderTests.cs" />
+    <Compile Include="AudioDramaFilterTests.cs" />
     <Compile Include="AudioDramaListPresenterTests.cs" />
     <Compile Include="AudioDramaUserDataExtensionsTests.cs" />
     <Compile Include="AudioDramaPresenterTests.cs" />

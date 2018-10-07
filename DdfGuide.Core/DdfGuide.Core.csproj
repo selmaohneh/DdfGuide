@@ -43,6 +43,7 @@
     <Compile Include="AudioDrama.cs" />
     <Compile Include="AudioDramaBuilder.cs" />
     <Compile Include="AudioDramaDto.cs" />
+    <Compile Include="AudioDramaFilter.cs" />
     <Compile Include="AudioDramaListPresenter.cs" />
     <Compile Include="AudioDramaUserData.cs" />
     <Compile Include="AudioDramaExtensions.cs" />
