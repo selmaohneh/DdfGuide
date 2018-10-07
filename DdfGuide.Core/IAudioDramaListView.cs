@@ -17,5 +17,7 @@ namespace DdfGuide.Core
         event EventHandler OrderByNumberDescendingClicked;
         event EventHandler OrderByReleaseDateAscendingClicked;
         event EventHandler OrderByReleaseDateDescendingClicked;
+        event EventHandler OrderByNameAscendingClicked;
+        event EventHandler OrderByNameDescendingClicked;
     }
 }

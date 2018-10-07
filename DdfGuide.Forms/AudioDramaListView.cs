@@ -26,6 +26,8 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByNumberDescendingClicked;
         public event EventHandler OrderByReleaseDateAscendingClicked;
         public event EventHandler OrderByReleaseDateDescendingClicked;
+        public event EventHandler OrderByNameAscendingClicked;
+        public event EventHandler OrderByNameDescendingClicked;
 
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
@@ -118,6 +120,16 @@ namespace DdfGuide.Forms
         private void releaseDescendingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OrderByReleaseDateDescendingClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void nameAscendingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByNameAscendingClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void nameDescendingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByNameDescendingClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }
