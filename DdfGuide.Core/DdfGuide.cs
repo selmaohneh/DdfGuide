@@ -38,12 +38,17 @@ namespace DdfGuide.Core
 
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView, viewer);
 
+            var filter = new AudioDramaFilter();
+            var sorter = new AudioDramaSorter();
+
             var audioDramaListViewPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
                 _audioDramaView,
                 audioDramas,
                 viewer,
-                audioDramaPresenter
+                audioDramaPresenter,
+                filter,
+                sorter
                 );
 
             viewer.Show(_audioDramaListView);

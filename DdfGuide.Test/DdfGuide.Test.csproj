@@ -60,6 +60,7 @@
     <Compile Include="AudioDramaBuilderTests.cs" />
     <Compile Include="AudioDramaFilterTests.cs" />
     <Compile Include="AudioDramaListPresenterTests.cs" />
+    <Compile Include="AudioDramaSorterTests.cs" />
     <Compile Include="AudioDramaUserDataExtensionsTests.cs" />
     <Compile Include="AudioDramaPresenterTests.cs" />
     <Compile Include="DdfGuideTests.cs" />

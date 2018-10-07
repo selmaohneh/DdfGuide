@@ -28,8 +28,7 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByReleaseDateDescendingClicked;
         public event EventHandler OrderByNameAscendingClicked;
         public event EventHandler OrderByNameDescendingClicked;
-        public event EventHandler FilterMainAudioDramasOnlyClicked;
-        public event EventHandler FilterAllClicked;
+        public event EventHandler FilterMainAudioDramasChanged;
 
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
@@ -134,14 +133,9 @@ namespace DdfGuide.Forms
             OrderByNameDescendingClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        private void mainAudioDramasOnlyToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mainAudioDramasOnlyToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
         {
-            FilterMainAudioDramasOnlyClicked?.Invoke(this, EventArgs.Empty);
-        }
-
-        private void showAllToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FilterAllClicked?.Invoke(this, EventArgs.Empty);
+            FilterMainAudioDramasChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }

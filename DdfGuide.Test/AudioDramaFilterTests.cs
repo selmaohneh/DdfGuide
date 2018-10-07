@@ -16,36 +16,36 @@ namespace DdfGuide.Test
         {
             var provider = new MultipleAudioDramaProvider();
             _audioDramas = provider.Get().ToList();
-            _sut = new AudioDramaFilter(_audioDramas);
+            _sut = new AudioDramaFilter();
         }
 
         [TestMethod]
-        public void Default_FilterNoItems()
+        public void Default_IncludeAllItems()
         {
-            var filtered = _sut.Filter().ToList();
+            var filtered = _sut.Filter(_audioDramas).ToList();
 
             CollectionAssert.AreEqual(_audioDramas, filtered);
         }
 
         [TestMethod]
-        public void FilterMainAudioDramas_true()
+        public void IncludeMainAudioDramas_true()
         {
-            _sut.FilterMainAudioDramas = true;
+            _sut.IncludeMainAudioDramas = true;
 
-            var filtered = _sut.Filter().ToList();
+            var filtered = _sut.Filter(_audioDramas).ToList();
+           
+            CollectionAssert.AreEqual(_audioDramas, filtered);
+        }
+
+        [TestMethod]
+        public void IncludeMainAudioDramas_false()
+        {
+            _sut.IncludeMainAudioDramas = false;
             var special = _audioDramas.Where(x => !x.AudioDramaDto.Number.HasValue).ToList();
 
+            var filtered = _sut.Filter(_audioDramas).ToList();
+
             CollectionAssert.AreEqual(special, filtered);
-        }
-
-        [TestMethod]
-        public void FilterMainAudioDramas_false()
-        {
-            _sut.FilterMainAudioDramas = false;
-
-            var filtered = _sut.Filter().ToList();
-
-            CollectionAssert.AreEqual(_audioDramas, filtered);
         }
     }
 }

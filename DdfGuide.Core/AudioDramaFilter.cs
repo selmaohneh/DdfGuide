@@ -3,22 +3,15 @@ using System.Linq;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaFilter
+    public class AudioDramaFilter : IAudioDramaFilter
     {
-        public bool FilterMainAudioDramas { get; set; }
-
-        private readonly IEnumerable<AudioDrama> _audioDramas;
-
-        public AudioDramaFilter(IEnumerable<AudioDrama> audioDramas)
-        {
-            _audioDramas = audioDramas;
-        }
+        public bool IncludeMainAudioDramas { get; set; } = true;
         
-        public IEnumerable<AudioDrama> Filter()
+        public IEnumerable<AudioDrama> Filter(IEnumerable<AudioDrama> audioDramas)
         {
-            var filtered = _audioDramas;
+            var filtered = audioDramas;
 
-            if (FilterMainAudioDramas)
+            if (!IncludeMainAudioDramas)
             {
                 filtered = filtered.Where(x => x.AudioDramaDto.Number.HasValue == false);
             }

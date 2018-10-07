@@ -9,24 +9,27 @@ namespace DdfGuide.Core
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
         private readonly IEnumerable<AudioDrama> _audioDramas;
-        private IEnumerable<AudioDrama> _filteredAndSortedAudioDramas;
         private readonly IViewer _viewer;
         private readonly IAudioDramaPresenter _audioDramaPresenter;
+        private readonly IAudioDramaFilter _audioDramaFilter;
+        private readonly IAudioDramaSorter _audioDramaSorter;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
             IAudioDramaView audioDramaView,
             IEnumerable<AudioDrama> audioDramas,
             IViewer viewer, 
-            IAudioDramaPresenter audioDramaPresenter)
+            IAudioDramaPresenter audioDramaPresenter,
+            IAudioDramaFilter audioDramaFilter,
+            IAudioDramaSorter audioDramaSorter)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _audioDramas = audioDramas.ToList();
             _viewer = viewer;
             _audioDramaPresenter = audioDramaPresenter;
-
-            _filteredAndSortedAudioDramas = _audioDramas;
+            _audioDramaFilter = audioDramaFilter;
+            _audioDramaSorter = audioDramaSorter;
 
             _audioDramaListView.HeardChanged += OnHeardChanged();
             _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
@@ -41,32 +44,22 @@ namespace DdfGuide.Core
             _audioDramaListView.OrderByReleaseDateDescendingClicked += OnOrderByReleaseDateDescendingClicked();
             _audioDramaListView.OrderByNameAscendingClicked += OnOrderByNameAscendingClicked();
             _audioDramaListView.OrderByNameDescendingClicked += OnOrderByNameDescendingClicked();
-            _audioDramaListView.FilterMainAudioDramasOnlyClicked += OnFilterMainAudioDramasOnlyClicked();
-            _audioDramaListView.FilterAllClicked += OnFilterAllClicked();
+            _audioDramaListView.FilterMainAudioDramasChanged += OnFilterMainAudioDramasChanged();
 
             foreach (var audioDrama in _audioDramas)
             {
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
 
-            _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+            UpdateViewFilteredAndSortedAudioDramas();
         }
 
-        private EventHandler OnFilterAllClicked()
+        private EventHandler OnFilterMainAudioDramasChanged()
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.Concat(_audioDramas).Distinct();
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
-            };
-        }
-
-        private EventHandler OnFilterMainAudioDramasOnlyClicked()
-        {
-            return (sender, args) =>
-            {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.Where(x => x.AudioDramaDto.Number.HasValue);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaFilter.IncludeMainAudioDramas = !_audioDramaFilter.IncludeMainAudioDramas;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -74,8 +67,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderByDescending(x => x.AudioDramaDto.Name);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.NameDescending;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -83,8 +76,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderBy(x => x.AudioDramaDto.Name);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.NameDataAscending;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -92,8 +85,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderByDescending(x => x.AudioDramaDto.ReleaseDate);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.ReleaseDateDescending;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -101,8 +94,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderBy(x => x.AudioDramaDto.ReleaseDate);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.ReleaseDateAscending;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -110,8 +103,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderByDescending(x => x.AudioDramaDto.Number);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.NumberDescending;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -119,8 +112,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderBy(x => x.AudioDramaDto.Number);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.NumberAscending;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -128,8 +121,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderBy(x => x.AudioDramaUserData.IsFavorite);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.IsFavoriteLast;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -137,8 +130,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderByDescending(x => x.AudioDramaUserData.IsFavorite);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.IsFavoriteFirst;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -146,8 +139,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderBy(x => x.AudioDramaUserData.Heard);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.HeardLast;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
@@ -155,14 +148,14 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _filteredAndSortedAudioDramas = _filteredAndSortedAudioDramas.OrderByDescending(x => x.AudioDramaUserData.Heard);
-                _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas);
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.HeardFirst;
+                UpdateViewFilteredAndSortedAudioDramas();
             };
         }
 
         private EventHandler OnUserDataChanged()
         {
-            return (sender, args) => { _audioDramaListView.SetAudioDramas(_filteredAndSortedAudioDramas); };
+            return (sender, args) => { UpdateViewFilteredAndSortedAudioDramas(); };
         }
 
         private EventHandler<Guid> OnAudioDramaClicked()
@@ -192,6 +185,14 @@ namespace DdfGuide.Core
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
                 audioDrama.AudioDramaUserData.Heard = !audioDrama.AudioDramaUserData.Heard;
             };
+        }
+
+        private void UpdateViewFilteredAndSortedAudioDramas()
+        {
+            var filtered = _audioDramaFilter.Filter(_audioDramas);
+            var filteredAndSorted = _audioDramaSorter.Sort(filtered);
+
+            _audioDramaListView.SetAudioDramas(filteredAndSorted);
         }
     }
 }

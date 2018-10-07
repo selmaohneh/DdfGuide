@@ -39,16 +39,15 @@ namespace DdfGuide.Forms
             this.favoritesLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numberAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numberDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.releaseAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.releaseDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nameAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nameDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filteringToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mainAudioDramasOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mainAudioDramasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.showAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -126,24 +125,6 @@ namespace DdfGuide.Forms
             this.numberDescendingToolStripMenuItem.Text = "Number descending";
             this.numberDescendingToolStripMenuItem.Click += new System.EventHandler(this.numberDescendingToolStripMenuItem_Click);
             // 
-            // dataGridViewAudioDramas
-            // 
-            this.dataGridViewAudioDramas.AllowUserToAddRows = false;
-            this.dataGridViewAudioDramas.AllowUserToDeleteRows = false;
-            this.dataGridViewAudioDramas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewAudioDramas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewAudioDramas.Location = new System.Drawing.Point(0, 33);
-            this.dataGridViewAudioDramas.MultiSelect = false;
-            this.dataGridViewAudioDramas.Name = "dataGridViewAudioDramas";
-            this.dataGridViewAudioDramas.ReadOnly = true;
-            this.dataGridViewAudioDramas.RowTemplate.Height = 28;
-            this.dataGridViewAudioDramas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewAudioDramas.Size = new System.Drawing.Size(990, 527);
-            this.dataGridViewAudioDramas.TabIndex = 2;
-            this.dataGridViewAudioDramas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellContentClick);
-            this.dataGridViewAudioDramas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellDoubleClick);
-            this.dataGridViewAudioDramas.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellValueChanged);
-            // 
             // releaseAscendingToolStripMenuItem
             // 
             this.releaseAscendingToolStripMenuItem.Name = "releaseAscendingToolStripMenuItem";
@@ -175,18 +156,36 @@ namespace DdfGuide.Forms
             // filteringToolStripMenuItem
             // 
             this.filteringToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.showAllToolStripMenuItem,
-            this.mainAudioDramasOnlyToolStripMenuItem});
+            this.mainAudioDramasToolStripMenuItem});
             this.filteringToolStripMenuItem.Name = "filteringToolStripMenuItem";
             this.filteringToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
             this.filteringToolStripMenuItem.Text = "Filtering";
             // 
-            // mainAudioDramasOnlyToolStripMenuItem
+            // mainAudioDramasToolStripMenuItem
             // 
-            this.mainAudioDramasOnlyToolStripMenuItem.Name = "mainAudioDramasOnlyToolStripMenuItem";
-            this.mainAudioDramasOnlyToolStripMenuItem.Size = new System.Drawing.Size(288, 30);
-            this.mainAudioDramasOnlyToolStripMenuItem.Text = "Main audio dramas only";
-            this.mainAudioDramasOnlyToolStripMenuItem.Click += new System.EventHandler(this.mainAudioDramasOnlyToolStripMenuItem_Click);
+            this.mainAudioDramasToolStripMenuItem.CheckOnClick = true;
+            this.mainAudioDramasToolStripMenuItem.Name = "mainAudioDramasToolStripMenuItem";
+            this.mainAudioDramasToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
+            this.mainAudioDramasToolStripMenuItem.Text = "Main audio dramas";
+            this.mainAudioDramasToolStripMenuItem.CheckedChanged += new System.EventHandler(this.mainAudioDramasOnlyToolStripMenuItem_CheckedChanged);
+            // 
+            // dataGridViewAudioDramas
+            // 
+            this.dataGridViewAudioDramas.AllowUserToAddRows = false;
+            this.dataGridViewAudioDramas.AllowUserToDeleteRows = false;
+            this.dataGridViewAudioDramas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewAudioDramas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewAudioDramas.Location = new System.Drawing.Point(0, 33);
+            this.dataGridViewAudioDramas.MultiSelect = false;
+            this.dataGridViewAudioDramas.Name = "dataGridViewAudioDramas";
+            this.dataGridViewAudioDramas.ReadOnly = true;
+            this.dataGridViewAudioDramas.RowTemplate.Height = 28;
+            this.dataGridViewAudioDramas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewAudioDramas.Size = new System.Drawing.Size(990, 527);
+            this.dataGridViewAudioDramas.TabIndex = 2;
+            this.dataGridViewAudioDramas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellContentClick);
+            this.dataGridViewAudioDramas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellDoubleClick);
+            this.dataGridViewAudioDramas.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellValueChanged);
             // 
             // audioDramaBindingSource
             // 
@@ -195,13 +194,6 @@ namespace DdfGuide.Forms
             // audioDramaUserDataBindingSource
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
-            // 
-            // showAllToolStripMenuItem
-            // 
-            this.showAllToolStripMenuItem.Name = "showAllToolStripMenuItem";
-            this.showAllToolStripMenuItem.Size = new System.Drawing.Size(288, 30);
-            this.showAllToolStripMenuItem.Text = "Show all";
-            this.showAllToolStripMenuItem.Click += new System.EventHandler(this.showAllToolStripMenuItem_Click);
             // 
             // AudioDramaListView
             // 
@@ -240,8 +232,7 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem nameAscendingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nameDescendingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem filteringToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mainAudioDramasOnlyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem showAllToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mainAudioDramasToolStripMenuItem;
     }
 }
 

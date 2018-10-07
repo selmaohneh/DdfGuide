@@ -45,11 +45,15 @@
     <Compile Include="AudioDramaDto.cs" />
     <Compile Include="AudioDramaFilter.cs" />
     <Compile Include="AudioDramaListPresenter.cs" />
+    <Compile Include="AudioDramaSorter.cs" />
     <Compile Include="AudioDramaUserData.cs" />
     <Compile Include="AudioDramaExtensions.cs" />
     <Compile Include="DdfGuide.cs" />
     <Compile Include="AudioDramaPresenter.cs" />
+    <Compile Include="EAudioDramaSortMode.cs" />
+    <Compile Include="IAudioDramaFilter.cs" />
     <Compile Include="IAudioDramaPresenter.cs" />
+    <Compile Include="IAudioDramaSorter.cs" />
     <Compile Include="IAudioDramaView.cs" />
     <Compile Include="INotifyChanged.cs" />
     <Compile Include="IView.cs" />
