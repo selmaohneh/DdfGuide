@@ -42,10 +42,13 @@ namespace DdfGuide.Forms
             this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.releaseAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.releaseDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nameAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nameDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filteringToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mainAudioDramasOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.showAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -56,7 +59,8 @@ namespace DdfGuide.Forms
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.orderingToolStripMenuItem});
+            this.orderingToolStripMenuItem,
+            this.filteringToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(990, 33);
@@ -154,14 +158,6 @@ namespace DdfGuide.Forms
             this.releaseDescendingToolStripMenuItem.Text = "Release descending";
             this.releaseDescendingToolStripMenuItem.Click += new System.EventHandler(this.releaseDescendingToolStripMenuItem_Click);
             // 
-            // audioDramaBindingSource
-            // 
-            this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.AudioDrama);
-            // 
-            // audioDramaUserDataBindingSource
-            // 
-            this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
-            // 
             // nameAscendingToolStripMenuItem
             // 
             this.nameAscendingToolStripMenuItem.Name = "nameAscendingToolStripMenuItem";
@@ -175,6 +171,37 @@ namespace DdfGuide.Forms
             this.nameDescendingToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
             this.nameDescendingToolStripMenuItem.Text = "Name descending";
             this.nameDescendingToolStripMenuItem.Click += new System.EventHandler(this.nameDescendingToolStripMenuItem_Click);
+            // 
+            // filteringToolStripMenuItem
+            // 
+            this.filteringToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.showAllToolStripMenuItem,
+            this.mainAudioDramasOnlyToolStripMenuItem});
+            this.filteringToolStripMenuItem.Name = "filteringToolStripMenuItem";
+            this.filteringToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
+            this.filteringToolStripMenuItem.Text = "Filtering";
+            // 
+            // mainAudioDramasOnlyToolStripMenuItem
+            // 
+            this.mainAudioDramasOnlyToolStripMenuItem.Name = "mainAudioDramasOnlyToolStripMenuItem";
+            this.mainAudioDramasOnlyToolStripMenuItem.Size = new System.Drawing.Size(288, 30);
+            this.mainAudioDramasOnlyToolStripMenuItem.Text = "Main audio dramas only";
+            this.mainAudioDramasOnlyToolStripMenuItem.Click += new System.EventHandler(this.mainAudioDramasOnlyToolStripMenuItem_Click);
+            // 
+            // audioDramaBindingSource
+            // 
+            this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.AudioDrama);
+            // 
+            // audioDramaUserDataBindingSource
+            // 
+            this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
+            // 
+            // showAllToolStripMenuItem
+            // 
+            this.showAllToolStripMenuItem.Name = "showAllToolStripMenuItem";
+            this.showAllToolStripMenuItem.Size = new System.Drawing.Size(288, 30);
+            this.showAllToolStripMenuItem.Text = "Show all";
+            this.showAllToolStripMenuItem.Click += new System.EventHandler(this.showAllToolStripMenuItem_Click);
             // 
             // AudioDramaListView
             // 
@@ -212,6 +239,9 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem releaseDescendingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nameAscendingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nameDescendingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem filteringToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mainAudioDramasOnlyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showAllToolStripMenuItem;
     }
 }
 

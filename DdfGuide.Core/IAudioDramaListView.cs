@@ -19,5 +19,7 @@ namespace DdfGuide.Core
         event EventHandler OrderByReleaseDateDescendingClicked;
         event EventHandler OrderByNameAscendingClicked;
         event EventHandler OrderByNameDescendingClicked;
+        event EventHandler FilterMainAudioDramasOnlyClicked;
+        event EventHandler FilterAllClicked;
     }
 }

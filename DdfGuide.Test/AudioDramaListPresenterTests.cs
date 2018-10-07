@@ -218,5 +218,39 @@ namespace DdfGuide.Test
 
             _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
         }
-    }
+
+        [TestMethod]
+        public void FilterMainAudioDramasOnlyClicked_UpdateView()
+        {
+            _listView.Raise(x => x.FilterMainAudioDramasOnlyClicked += null, this, EventArgs.Empty);
+
+            var filteredAudioDramas = _audioDramas.Where(x => x.AudioDramaDto.Number.HasValue);
+
+            _listView.Verify(x => x.SetAudioDramas(filteredAudioDramas), Times.Once());
+        }
+
+        [TestMethod]
+        public void FilterAllClicked_UpdateView()
+        {
+            _listView.Invocations.Clear();
+
+            _listView.Raise(x => x.FilterAllClicked += null, this, EventArgs.Empty);
+
+            var filteredAudioDramas = _audioDramas;
+
+            _listView.Verify(x => x.SetAudioDramas(filteredAudioDramas), Times.Once());
+        }
+
+        [TestMethod]
+        public void FilterAll_ResetsAllAudioDramas()
+        {
+            _listView.Invocations.Clear();
+
+            _listView.Raise(x => x.FilterMainAudioDramasOnlyClicked += null, this, EventArgs.Empty);
+            _listView.Verify(x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.Count() == 3)));
+
+            _listView.Raise(x => x.FilterAllClicked += null, this, EventArgs.Empty);
+            _listView.Verify(x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.Count() == 4)));
+        }
+      }
 }
