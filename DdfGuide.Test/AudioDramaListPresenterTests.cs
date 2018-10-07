@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Castle.Components.DictionaryAdapter;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -251,6 +252,20 @@ namespace DdfGuide.Test
 
             _listView.Raise(x => x.FilterAllClicked += null, this, EventArgs.Empty);
             _listView.Verify(x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.Count() == 4)));
+        }
+
+        [TestMethod]
+        public void FilterAll_KeepCurrentSorting()
+        {
+            _listView.Raise(x => x.OrderByHeardFirstClicked += null, this, EventArgs.Empty);
+            var orderedAudioDramas = _audioDramas.OrderByDescending(x => x.AudioDramaUserData.Heard);
+
+            _listView.Invocations.Clear();
+
+            _listView.Raise(x => x.FilterMainAudioDramasOnlyClicked += null, this, EventArgs.Empty);
+            _listView.Raise(x=>x.FilterAllClicked += null, this, EventArgs.Empty);
+
+            _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once);
         }
       }
 }
