@@ -15,6 +15,7 @@ namespace DdfGuide.Forms
         }
 
         public event EventHandler BackClicked;
+       
         public event EventHandler<Guid> HeardChanged;
         public event EventHandler<Guid> IsFavoriteChanged;
         public event EventHandler<Guid> AudioDramaClicked;
@@ -30,7 +31,7 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByNameDescendingClicked;
         public event EventHandler FilterMainAudioDramasChanged;
 
-        public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
+        public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
             var rows = audioDramas.Select(audioDrama => new AudioDramaRow(audioDrama)).ToList();
             
@@ -44,6 +45,73 @@ namespace DdfGuide.Forms
                 column.ReadOnly = !(column is DataGridViewCheckBoxColumn);
             }
         }
+
+        public void SetFilterInfos(IAudioDramaFilter audioDramaFilter)
+        {
+            mainAudioDramasToolStripMenuItem.Checked = audioDramaFilter.IncludeMainAudioDramas;
+        }
+
+        public void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode)
+        {
+            foreach (var dropDownItem in orderingToolStripMenuItem.DropDownItems)
+            {
+                var menuItem = dropDownItem as ToolStripMenuItem;
+
+                if (menuItem == null)
+                {
+                    throw new Exception("Error casting to ToolStripMenuItem while setting the sort mode.");
+                }
+
+                menuItem.Checked = false;
+            }
+
+            switch (selectedSortMode)
+            {
+                case EAudioDramaSortMode.ReleaseDateDescending:
+                    releaseDescendingToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.ReleaseDateAscending:
+                    releaseAscendingToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.NumberDescending:
+                    numberDescendingToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.NumberAscending:
+                    numberAscendingToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.NameDescending:
+                    nameDescendingToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.NameAscending:
+                    nameAscendingToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.HeardFirst:
+                    heardFirstToolStripMenuItem.Checked = true;
+                    break;
+                
+                case EAudioDramaSortMode.HeardLast:
+                    heardLastToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.IsFavoriteFirst:
+                    favoritesFirstToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaSortMode.IsFavoriteLast:
+                    favoritesLastToolStripMenuItem.Checked = true;
+                    break;
+
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(selectedSortMode), selectedSortMode, null);
+            }
+        }
+
 
         private void dataGridViewAudioDramas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -133,7 +201,7 @@ namespace DdfGuide.Forms
             OrderByNameDescendingClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        private void mainAudioDramasOnlyToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        private void mainAudioDramasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FilterMainAudioDramasChanged?.Invoke(this, EventArgs.Empty);
         }

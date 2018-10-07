@@ -33,7 +33,7 @@ namespace DdfGuide.Core
                     sorted = audioDramas.OrderByDescending(x => x.AudioDramaDto.Name);
                     break;
 
-                case EAudioDramaSortMode.NameDataAscending:
+                case EAudioDramaSortMode.NameAscending:
                     sorted = audioDramas.OrderBy(x => x.AudioDramaDto.Name);
                     break;
 

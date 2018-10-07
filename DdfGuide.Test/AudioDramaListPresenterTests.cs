@@ -16,7 +16,6 @@ namespace DdfGuide.Test
         private Mock<IViewer> _viewer;
         private Mock<IAudioDramaPresenter> _audioDramaPresenter;
         private List<AudioDrama> _audioDramas;
-        private AudioDramaListPresenter _sut;
         private Mock<IAudioDramaSorter> _sorter;
         private Mock<IAudioDramaFilter> _filter;
 
@@ -41,7 +40,7 @@ namespace DdfGuide.Test
                 .Setup(x => x.Filter(It.IsAny<IEnumerable<AudioDrama>>()))
                 .Returns(_audioDramas);
 
-            _sut = new AudioDramaListPresenter(
+            var _ = new AudioDramaListPresenter(
                 _listView.Object,
                 _view.Object,
                 _audioDramas,
@@ -56,7 +55,19 @@ namespace DdfGuide.Test
         [TestMethod]
         public void Construct_FillWithAudioDramas()
         {
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once);
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once);
+        }
+
+        [TestMethod]
+        public void Construct_FillWithFilterInfos()
+        {
+            _listView.Verify(x => x.SetFilterInfos(_filter.Object), Times.Once);
+        }
+
+        [TestMethod]
+        public void Construct_FillWithSortInfos()
+        {
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.ReleaseDateDescending), Times.Once);
         }
 
         [TestMethod]
@@ -80,7 +91,7 @@ namespace DdfGuide.Test
             _listView.Raise(x => x.HeardChanged += null, this, _audioDramas.First().AudioDramaUserData.Id);
 
             _listView.Verify(
-                x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.Heard)),
+                x => x.SetAudioDramaInfos(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.Heard)),
                 Times.Once);
         }
 
@@ -105,7 +116,7 @@ namespace DdfGuide.Test
             _listView.Raise(x => x.IsFavoriteChanged += null, this, _audioDramas.First().AudioDramaUserData.Id);
 
             _listView.Verify(
-                x => x.SetAudioDramas(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.IsFavorite)),
+                x => x.SetAudioDramaInfos(It.Is<IEnumerable<AudioDrama>>(y => y.First().AudioDramaUserData.IsFavorite)),
                 Times.Once);
         }
 
@@ -122,13 +133,13 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Never);
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Never);
 
             _audioDramas.First().AudioDramaUserData.Heard = !_audioDramas.First().AudioDramaUserData.Heard;
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once);
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once);
 
             _audioDramas.First().AudioDramaUserData.IsFavorite = !_audioDramas.First().AudioDramaUserData.IsFavorite;
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Exactly(2));
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Exactly(2));
         }
 
         [TestMethod]
@@ -136,13 +147,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByHeardFirstClicked += null, this, EventArgs.Empty);
             
             _sorter.VerifySet(x=>x.SortMode = EAudioDramaSortMode.HeardFirst);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x=>x.SetSelectedSortMode(EAudioDramaSortMode.HeardFirst), Times.Once);
         }
 
         [TestMethod]
@@ -150,13 +163,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByHeardLastClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.HeardLast);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.HeardLast), Times.Once);
         }
 
         [TestMethod]
@@ -164,13 +179,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByIsFavoriteFirstClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.IsFavoriteFirst);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.IsFavoriteFirst), Times.Once);
         }
 
         [TestMethod]
@@ -178,13 +195,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByIsFavoriteLastClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.IsFavoriteLast);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.IsFavoriteLast), Times.Once);
         }
 
         [TestMethod]
@@ -192,13 +211,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByNumberAscendingClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.NumberAscending);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.NumberAscending), Times.Once);
         }
 
         [TestMethod]
@@ -206,13 +227,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByNumberDescendingClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.NumberDescending);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.NumberDescending), Times.Once);
         }
 
         [TestMethod]
@@ -220,13 +243,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByReleaseDateAscendingClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.ReleaseDateAscending);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.ReleaseDateAscending), Times.Once);
         }
 
         [TestMethod]
@@ -234,13 +259,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByReleaseDateDescendingClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.ReleaseDateDescending);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.ReleaseDateDescending), Times.Once);
         }
 
         [TestMethod]
@@ -248,13 +275,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByNameAscendingClicked += null, this, EventArgs.Empty);
 
-            _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.NameDataAscending);
+            _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.NameAscending);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.NameAscending), Times.Once);
         }
 
         [TestMethod]
@@ -262,13 +291,15 @@ namespace DdfGuide.Test
         {
             _listView.Invocations.Clear();
             _sorter.Invocations.Clear();
+            _sorter.SetupAllProperties();
 
             _listView.Raise(x => x.OrderByNameDescendingClicked += null, this, EventArgs.Empty);
 
             _sorter.VerifySet(x => x.SortMode = EAudioDramaSortMode.NameDescending);
             _sorter.Verify(x => x.Sort(_audioDramas), Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.NameDescending), Times.Once);
         }
 
         [TestMethod]
@@ -284,7 +315,8 @@ namespace DdfGuide.Test
 
             _filter.VerifySet(x => x.IncludeMainAudioDramas = true, Times.Once);
 
-            _listView.Verify(x => x.SetAudioDramas(_audioDramas), Times.Once());
+            _listView.Verify(x => x.SetFilterInfos(_filter.Object), Times.Once);
+            _listView.Verify(x => x.SetAudioDramaInfos(_audioDramas), Times.Once());
         }
       }
 }

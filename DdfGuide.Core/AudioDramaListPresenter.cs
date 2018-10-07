@@ -50,8 +50,8 @@ namespace DdfGuide.Core
             {
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
-
-            UpdateViewFilteredAndSortedAudioDramas();
+            
+            UpdateView();
         }
 
         private EventHandler OnFilterMainAudioDramasChanged()
@@ -59,7 +59,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaFilter.IncludeMainAudioDramas = !_audioDramaFilter.IncludeMainAudioDramas;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -68,7 +68,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.NameDescending;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -76,8 +76,8 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _audioDramaSorter.SortMode = EAudioDramaSortMode.NameDataAscending;
-                UpdateViewFilteredAndSortedAudioDramas();
+                _audioDramaSorter.SortMode = EAudioDramaSortMode.NameAscending;
+                UpdateView();
             };
         }
 
@@ -86,7 +86,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.ReleaseDateDescending;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -95,7 +95,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.ReleaseDateAscending;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -104,7 +104,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.NumberDescending;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -113,7 +113,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.NumberAscending;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -122,7 +122,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.IsFavoriteLast;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -131,7 +131,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.IsFavoriteFirst;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -140,7 +140,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.HeardLast;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
@@ -149,13 +149,13 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _audioDramaSorter.SortMode = EAudioDramaSortMode.HeardFirst;
-                UpdateViewFilteredAndSortedAudioDramas();
+                UpdateView();
             };
         }
 
         private EventHandler OnUserDataChanged()
         {
-            return (sender, args) => { UpdateViewFilteredAndSortedAudioDramas(); };
+            return (sender, args) => { UpdateView(); };
         }
 
         private EventHandler<Guid> OnAudioDramaClicked()
@@ -187,12 +187,15 @@ namespace DdfGuide.Core
             };
         }
 
-        private void UpdateViewFilteredAndSortedAudioDramas()
+        private void UpdateView()
         {
             var filtered = _audioDramaFilter.Filter(_audioDramas);
             var filteredAndSorted = _audioDramaSorter.Sort(filtered);
 
-            _audioDramaListView.SetAudioDramas(filteredAndSorted);
+            _audioDramaListView.SetAudioDramaInfos(filteredAndSorted);
+
+            _audioDramaListView.SetFilterInfos(_audioDramaFilter);
+            _audioDramaListView.SetSelectedSortMode(_audioDramaSorter.SortMode);
         }
     }
 }

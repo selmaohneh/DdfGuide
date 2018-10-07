@@ -7,7 +7,7 @@
         NumberDescending,
         NumberAscending,
         NameDescending,
-        NameDataAscending,
+        NameAscending,
         HeardFirst,
         HeardLast,
         IsFavoriteFirst,

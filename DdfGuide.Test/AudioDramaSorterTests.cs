@@ -84,7 +84,7 @@ namespace DdfGuide.Test
         [TestMethod]
         public void SortByNameAscending()
         {
-            _sut.SortMode = EAudioDramaSortMode.NameDataAscending;
+            _sut.SortMode = EAudioDramaSortMode.NameAscending;
             var expectedSort = _audioDramas.OrderBy(x => x.AudioDramaDto.Name).ToList();
 
             var sort = _sut.Sort(_audioDramas).ToList();

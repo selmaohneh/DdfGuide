@@ -163,11 +163,10 @@ namespace DdfGuide.Forms
             // 
             // mainAudioDramasToolStripMenuItem
             // 
-            this.mainAudioDramasToolStripMenuItem.CheckOnClick = true;
             this.mainAudioDramasToolStripMenuItem.Name = "mainAudioDramasToolStripMenuItem";
             this.mainAudioDramasToolStripMenuItem.Size = new System.Drawing.Size(252, 30);
             this.mainAudioDramasToolStripMenuItem.Text = "Main audio dramas";
-            this.mainAudioDramasToolStripMenuItem.CheckedChanged += new System.EventHandler(this.mainAudioDramasOnlyToolStripMenuItem_CheckedChanged);
+            this.mainAudioDramasToolStripMenuItem.Click += new System.EventHandler(this.mainAudioDramasToolStripMenuItem_Click);
             // 
             // dataGridViewAudioDramas
             // 

@@ -41,7 +41,7 @@ namespace DdfGuide.Core
             var filter = new AudioDramaFilter();
             var sorter = new AudioDramaSorter();
 
-            var audioDramaListViewPresenter = new AudioDramaListPresenter(
+            var _ = new AudioDramaListPresenter(
                 _audioDramaListView,
                 _audioDramaView,
                 audioDramas,

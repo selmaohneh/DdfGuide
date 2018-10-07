@@ -5,7 +5,10 @@ namespace DdfGuide.Core
 {
     public interface IAudioDramaListView : IView
     {
-        void SetAudioDramas(IEnumerable<AudioDrama> audioDramas);
+        void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas);
+        void SetFilterInfos(IAudioDramaFilter audioDramaFilter);
+        void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode);
+
         event EventHandler<Guid> HeardChanged;
         event EventHandler<Guid> IsFavoriteChanged;
         event EventHandler<Guid> AudioDramaClicked;
