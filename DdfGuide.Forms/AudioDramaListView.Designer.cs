@@ -34,14 +34,16 @@ namespace DdfGuide.Forms
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.orderingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.heardFirstToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.heardLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.favoritesFirstToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.favoritesLastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.numberAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numberDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
+            this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.releaseAscendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.releaseDescendingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -67,7 +69,9 @@ namespace DdfGuide.Forms
             this.favoritesFirstToolStripMenuItem,
             this.favoritesLastToolStripMenuItem,
             this.numberAscendingToolStripMenuItem,
-            this.numberDescendingToolStripMenuItem});
+            this.numberDescendingToolStripMenuItem,
+            this.releaseAscendingToolStripMenuItem,
+            this.releaseDescendingToolStripMenuItem});
             this.orderingToolStripMenuItem.Name = "orderingToolStripMenuItem";
             this.orderingToolStripMenuItem.Size = new System.Drawing.Size(95, 29);
             this.orderingToolStripMenuItem.Text = "Ordering";
@@ -78,24 +82,6 @@ namespace DdfGuide.Forms
             this.heardFirstToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
             this.heardFirstToolStripMenuItem.Text = "Heard first";
             this.heardFirstToolStripMenuItem.Click += new System.EventHandler(this.heardFirstToolStripMenuItem_Click);
-            // 
-            // dataGridViewAudioDramas
-            // 
-            this.dataGridViewAudioDramas.AllowUserToAddRows = false;
-            this.dataGridViewAudioDramas.AllowUserToDeleteRows = false;
-            this.dataGridViewAudioDramas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewAudioDramas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewAudioDramas.Location = new System.Drawing.Point(0, 33);
-            this.dataGridViewAudioDramas.MultiSelect = false;
-            this.dataGridViewAudioDramas.Name = "dataGridViewAudioDramas";
-            this.dataGridViewAudioDramas.ReadOnly = true;
-            this.dataGridViewAudioDramas.RowTemplate.Height = 28;
-            this.dataGridViewAudioDramas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewAudioDramas.Size = new System.Drawing.Size(990, 527);
-            this.dataGridViewAudioDramas.TabIndex = 2;
-            this.dataGridViewAudioDramas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellContentClick);
-            this.dataGridViewAudioDramas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellDoubleClick);
-            this.dataGridViewAudioDramas.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellValueChanged);
             // 
             // heardLastToolStripMenuItem
             // 
@@ -118,14 +104,6 @@ namespace DdfGuide.Forms
             this.favoritesLastToolStripMenuItem.Text = "Favorites last";
             this.favoritesLastToolStripMenuItem.Click += new System.EventHandler(this.favoritesLastToolStripMenuItem_Click);
             // 
-            // audioDramaBindingSource
-            // 
-            this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.AudioDrama);
-            // 
-            // audioDramaUserDataBindingSource
-            // 
-            this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
-            // 
             // numberAscendingToolStripMenuItem
             // 
             this.numberAscendingToolStripMenuItem.Name = "numberAscendingToolStripMenuItem";
@@ -139,6 +117,46 @@ namespace DdfGuide.Forms
             this.numberDescendingToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
             this.numberDescendingToolStripMenuItem.Text = "Number descending";
             this.numberDescendingToolStripMenuItem.Click += new System.EventHandler(this.numberDescendingToolStripMenuItem_Click);
+            // 
+            // dataGridViewAudioDramas
+            // 
+            this.dataGridViewAudioDramas.AllowUserToAddRows = false;
+            this.dataGridViewAudioDramas.AllowUserToDeleteRows = false;
+            this.dataGridViewAudioDramas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewAudioDramas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewAudioDramas.Location = new System.Drawing.Point(0, 33);
+            this.dataGridViewAudioDramas.MultiSelect = false;
+            this.dataGridViewAudioDramas.Name = "dataGridViewAudioDramas";
+            this.dataGridViewAudioDramas.ReadOnly = true;
+            this.dataGridViewAudioDramas.RowTemplate.Height = 28;
+            this.dataGridViewAudioDramas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewAudioDramas.Size = new System.Drawing.Size(990, 527);
+            this.dataGridViewAudioDramas.TabIndex = 2;
+            this.dataGridViewAudioDramas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellContentClick);
+            this.dataGridViewAudioDramas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellDoubleClick);
+            this.dataGridViewAudioDramas.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellValueChanged);
+            // 
+            // audioDramaBindingSource
+            // 
+            this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.AudioDrama);
+            // 
+            // audioDramaUserDataBindingSource
+            // 
+            this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
+            // 
+            // releaseAscendingToolStripMenuItem
+            // 
+            this.releaseAscendingToolStripMenuItem.Name = "releaseAscendingToolStripMenuItem";
+            this.releaseAscendingToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.releaseAscendingToolStripMenuItem.Text = "Release ascending";
+            this.releaseAscendingToolStripMenuItem.Click += new System.EventHandler(this.releaseAscendingToolStripMenuItem_Click);
+            // 
+            // releaseDescendingToolStripMenuItem
+            // 
+            this.releaseDescendingToolStripMenuItem.Name = "releaseDescendingToolStripMenuItem";
+            this.releaseDescendingToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.releaseDescendingToolStripMenuItem.Text = "Release descending";
+            this.releaseDescendingToolStripMenuItem.Click += new System.EventHandler(this.releaseDescendingToolStripMenuItem_Click);
             // 
             // AudioDramaListView
             // 
@@ -172,6 +190,8 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem favoritesLastToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem numberAscendingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem numberDescendingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem releaseAscendingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem releaseDescendingToolStripMenuItem;
     }
 }
 

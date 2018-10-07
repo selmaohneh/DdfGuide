@@ -34,6 +34,8 @@ namespace DdfGuide.Core
             _audioDramaListView.OrderByIsFavoriteLastClicked += OnOrderByIsFavoriteLastClicked();
             _audioDramaListView.OrderByNumberAscendingClicked += OnOrderByNumberAscendingClicked();
             _audioDramaListView.OrderByNumberDescendingClicked += OnOrderByNumberDescendingClicked();
+            _audioDramaListView.OrderByReleaseDateAscendingClicked += OnOrderByReleaseDateAscendingClicked();
+            _audioDramaListView.OrderByReleaseDateDescendingClicked += OnOrderByReleaseDateDescendingClicked();
 
             foreach (var audioDrama in _audioDramas)
             {
@@ -41,6 +43,24 @@ namespace DdfGuide.Core
             }
 
             UpdateViewWithCurrentAudioDramas();
+        }
+
+        private EventHandler OnOrderByReleaseDateDescendingClicked()
+        {
+            return (sender, args) =>
+            {
+                _audioDramas = _audioDramas.OrderByDescending(x => x.AudioDramaDto.ReleaseDate);
+                UpdateViewWithCurrentAudioDramas();
+            };
+        }
+
+        private EventHandler OnOrderByReleaseDateAscendingClicked()
+        {
+            return (sender, args) =>
+            {
+                _audioDramas = _audioDramas.OrderBy(x => x.AudioDramaDto.ReleaseDate);
+                UpdateViewWithCurrentAudioDramas();
+            };
         }
 
         private EventHandler OnOrderByNumberDescendingClicked()
@@ -130,6 +150,8 @@ namespace DdfGuide.Core
                 audioDrama.AudioDramaUserData.Heard = !audioDrama.AudioDramaUserData.Heard;
             };
         }
+
+
 
         private void UpdateViewWithCurrentAudioDramas()
         {

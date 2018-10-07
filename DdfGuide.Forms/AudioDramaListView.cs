@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using DdfGuide.Core;
+using EventArgs = System.EventArgs;
 
 namespace DdfGuide.Forms
 {
@@ -23,6 +24,8 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByIsFavoriteLastClicked;
         public event EventHandler OrderByNumberAscendingClicked;
         public event EventHandler OrderByNumberDescendingClicked;
+        public event EventHandler OrderByReleaseDateAscendingClicked;
+        public event EventHandler OrderByReleaseDateDescendingClicked;
 
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
@@ -105,6 +108,16 @@ namespace DdfGuide.Forms
         private void numberDescendingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OrderByNumberDescendingClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void releaseAscendingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByReleaseDateAscendingClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void releaseDescendingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderByReleaseDateDescendingClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

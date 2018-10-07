@@ -38,6 +38,11 @@ namespace DdfGuide.Core
             {
                 var dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2017, 7, 23));
 
+                if (sampleId == SampleIds.First())
+                {
+                    dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2000, 4, 12));
+                }
+                
                 if (sampleId == SampleIds.Last())
                 {
                     dto = new AudioDramaDto(sampleId, "I am special", null, new DateTime(1979, 1, 28));

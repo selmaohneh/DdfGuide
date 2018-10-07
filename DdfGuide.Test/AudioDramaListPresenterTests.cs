@@ -178,5 +178,25 @@ namespace DdfGuide.Test
 
             _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
         }
+
+        [TestMethod]
+        public void OrderByReleaseDateAscendingClicked_UpdateView()
+        {
+            _listView.Raise(x => x.OrderByReleaseDateAscendingClicked += null, this, EventArgs.Empty);
+
+            var orderedAudioDramas = _audioDramas.OrderBy(x => x.AudioDramaDto.ReleaseDate);
+
+            _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
+        }
+
+        [TestMethod]
+        public void OrderByReleaseDateDescendingClicked_UpdateView()
+        {
+            _listView.Raise(x => x.OrderByReleaseDateDescendingClicked += null, this, EventArgs.Empty);
+
+            var orderedAudioDramas = _audioDramas.OrderByDescending(x => x.AudioDramaDto.ReleaseDate);
+
+            _listView.Verify(x => x.SetAudioDramas(orderedAudioDramas), Times.Once());
+        }
     }
 }
