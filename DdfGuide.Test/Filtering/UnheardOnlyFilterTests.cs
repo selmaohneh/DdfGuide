@@ -20,5 +20,12 @@ namespace DdfGuide.Test.Filtering
 
             CollectionAssert.AreEqual(expectedFiltered, filtered);
         }
+
+        [TestMethod]
+        public void TheFilterHasTheCorrectMode()
+        {
+            var filter = new MainAudioDramasOnlyFilter();
+            Assert.AreEqual(EAudioDramaFilterMode.UnheardOnly, filter.FilterMode);
+        }
     }
 }

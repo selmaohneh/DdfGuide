@@ -9,14 +9,14 @@ namespace DdfGuide.Test.Filtering
     public class AllAudioDramasFilterTests
     {
         [TestMethod]
-        public void CorrectMode()
+        public void TheFilterIsMappedToTheCorrectMode()
         {
             var filter = new AllAudioDramasFilter();
             Assert.AreEqual(EAudioDramaFilterMode.All, filter.FilterMode);
         }
 
         [TestMethod]
-        public void CorrectFiltering()
+        public void TheFilterReturnsAllGivenAudioDramas()
         {
             var provider = new MultipleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();

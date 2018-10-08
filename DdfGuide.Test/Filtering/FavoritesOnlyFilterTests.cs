@@ -9,7 +9,14 @@ namespace DdfGuide.Test.Filtering
     public class FavoritesOnlyFilterTests
     {
         [TestMethod]
-        public void CorrectFiltering()
+        public void TheFilterHasTheCorrectMode()
+        {
+            var filter = new FavoritesOnlyFilter();
+            Assert.AreEqual(EAudioDramaFilterMode.FavoritesOnly, filter.FilterMode);
+        }
+
+        [TestMethod]
+        public void TheFilterReturnsOnlyAudioDramasThatAreMarkedAsFavorite()
         {
             var provider = new MultipleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();

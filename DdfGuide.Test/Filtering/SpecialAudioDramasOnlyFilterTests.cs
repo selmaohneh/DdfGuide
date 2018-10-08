@@ -9,7 +9,7 @@ namespace DdfGuide.Test.Filtering
     public class SpecialAudioDramasOnlyFilterTests
     {
         [TestMethod]
-        public void FilterOnlyReturnsAudioDramasThatDontHaveANumber()
+        public void FilterOnlyReturnsOnlyAudioDramasThatDontHaveANumber()
         {
             var provider = new MultipleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();
@@ -19,6 +19,13 @@ namespace DdfGuide.Test.Filtering
             var filtered = filter.Filter(audioDramas).ToList();
 
             CollectionAssert.AreEqual(expectedFiltered, filtered);
+        }
+
+        [TestMethod]
+        public void TheFilterHasTheCorrectMode()
+        {
+            var filter = new MainAudioDramasOnlyFilter();
+            Assert.AreEqual(EAudioDramaFilterMode.SpecialsOnly, filter.FilterMode);
         }
     }
 }

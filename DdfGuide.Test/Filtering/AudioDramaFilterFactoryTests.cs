@@ -8,7 +8,7 @@ namespace DdfGuide.Test.Filtering
     public class AudioDramaFilterFactoryTests
     {
         [TestMethod]
-        public void TheFactoryCanCreateATypeForEveryFilteRMode()
+        public void TheFactoryCanCreateATypeForEveryFilterMode()
         {
             var filterFactory = new AudioDramaFilterFactory();
             var filterModes = Enum.GetValues(typeof(EAudioDramaFilterMode));
