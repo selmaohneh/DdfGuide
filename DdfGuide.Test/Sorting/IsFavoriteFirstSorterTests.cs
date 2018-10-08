@@ -9,14 +9,14 @@ namespace DdfGuide.Test.Sorting
     public class IsFavoriteFirstSorterTests
     {
         [TestMethod]
-        public void CorrectMode()
+        public void TheSorterHasTheCorrectMode()
         {
             var sorter = new IsFavoriteFirstSorter();
             Assert.AreEqual(EAudioDramaSortMode.IsFavoriteFirst, sorter.SortMode);
         }
 
         [TestMethod]
-        public void SortByIsFavoriteFirst()
+        public void TheSorterPutsAudioDramasMarkedAsFavoriteBeforeAudioDramasThatAreNot()
         {
             var provider = new MultipleAudioDramaProvider();
             var sorter = new IsFavoriteFirstSorter();

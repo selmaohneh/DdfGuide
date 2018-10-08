@@ -9,14 +9,14 @@ namespace DdfGuide.Test.Sorting
     public class NameDescendingSorterTests
     {
         [TestMethod]
-        public void CorrectMode()
+        public void TheSorterHasTheCorrectMode()
         {
             var sorter = new NameDescendingSorter();
             Assert.AreEqual(EAudioDramaSortMode.NameDescending, sorter.SortMode);
         }
 
         [TestMethod]
-        public void SortByNameDescending()
+        public void TheSorterSortsTheAudioDramasDescendingByName()
         {
             var provider = new MultipleAudioDramaProvider();
             var sorter = new NameDescendingSorter();

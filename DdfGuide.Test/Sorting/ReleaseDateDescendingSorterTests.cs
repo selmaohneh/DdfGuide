@@ -9,14 +9,14 @@ namespace DdfGuide.Test.Sorting
     public class ReleaseDateDescendingSorterTests
     {
         [TestMethod]
-        public void CorrectMode()
+        public void TheSorterHasTheCorrectMode()
         {
             var sorter = new ReleaseDateDescendingSorter();
             Assert.AreEqual(EAudioDramaSortMode.ReleaseDateDescending, sorter.SortMode);
         }
 
         [TestMethod]
-        public void SortByReleaseDateDescending()
+        public void TheSorterSortsDescendingByReleaseDate_NewBeforeOld()
         {
             var provider = new MultipleAudioDramaProvider();
             var sorter = new ReleaseDateDescendingSorter();

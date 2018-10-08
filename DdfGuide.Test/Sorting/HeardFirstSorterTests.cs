@@ -9,14 +9,14 @@ namespace DdfGuide.Test.Sorting
     public class HeardFirstSorterTests
     {
         [TestMethod]
-        public void CorrectMode()
+        public void TheSorterHasTheCorrectMode()
         {
             var sorter = new HeardFirstSorter();
             Assert.AreEqual(EAudioDramaSortMode.HeardFirst, sorter.SortMode);
         }
 
         [TestMethod]
-        public void SortByHeardFirst()
+        public void TheSorterPutsHeardAudioDramasBeforeUnheardAudioDramas()
         {
             var provider = new MultipleAudioDramaProvider();
             var sorter = new HeardFirstSorter();

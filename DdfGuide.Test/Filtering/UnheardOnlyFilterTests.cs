@@ -24,7 +24,7 @@ namespace DdfGuide.Test.Filtering
         [TestMethod]
         public void TheFilterHasTheCorrectMode()
         {
-            var filter = new MainAudioDramasOnlyFilter();
+            var filter = new UnheardOnlyFilter();
             Assert.AreEqual(EAudioDramaFilterMode.UnheardOnly, filter.FilterMode);
         }
     }
