@@ -8,7 +8,7 @@ namespace DdfGuide.Test.Filtering
     public class AudioDramaFilterFactoryTests
     {
         [TestMethod]
-        public void SingleFilterClassForEachMode()
+        public void TheFactoryCanCreateATypeForEveryFilteRMode()
         {
             var filterFactory = new AudioDramaFilterFactory();
             var filterModes = Enum.GetValues(typeof(EAudioDramaFilterMode));
@@ -21,7 +21,7 @@ namespace DdfGuide.Test.Filtering
                 }
                 catch (Exception)
                 {
-                    Assert.Fail($"No or doubled filter class defined");
+                    Assert.Fail($"Can't create a filter for mode {filterMode}");
                 }
             }
         }
