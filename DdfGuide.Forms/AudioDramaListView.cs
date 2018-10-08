@@ -33,6 +33,8 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByNameDescendingClicked;
         public event EventHandler AllAudioDramasClicked;
         public event EventHandler MainAudioDramasOnlyClicked;
+        public event EventHandler FavoritesOnlyClicked;
+        public event EventHandler UnheardOnlyClicked;
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
@@ -73,7 +75,16 @@ namespace DdfGuide.Forms
                     allAudioDramasToolStripMenuItem.Checked = true;
                     break;
 
+                case EAudioDramaFilterMode.FavoritesOnly:
+                    favoritesOnlyToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaFilterMode.UnheardOnly:
+                    unheardOnlyToolStripMenuItem.Checked = true;
+                    break;
+
                 default:
+
                     throw new ArgumentOutOfRangeException(nameof(selectedFilterMode), selectedFilterMode, null);
             }
         }
@@ -236,6 +247,16 @@ namespace DdfGuide.Forms
         private void allAudioDramasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AllAudioDramasClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void favoritesOnlyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FavoritesOnlyClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void unheardOnlyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UnheardOnlyClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

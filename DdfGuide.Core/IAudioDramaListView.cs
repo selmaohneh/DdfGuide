@@ -27,5 +27,7 @@ namespace DdfGuide.Core
 
         event EventHandler AllAudioDramasClicked;
         event EventHandler MainAudioDramasOnlyClicked;
+        event EventHandler FavoritesOnlyClicked;
+        event EventHandler UnheardOnlyClicked;
     }
 }

@@ -56,6 +56,8 @@ namespace DdfGuide.Core
 
             _audioDramaListView.AllAudioDramasClicked += OnAllAudioDramasClicked();
             _audioDramaListView.MainAudioDramasOnlyClicked += OnMainAudioDramasOnlyClicked();
+            _audioDramaListView.FavoritesOnlyClicked += OnFavoritesOnlyClicked();
+            _audioDramaListView.UnheardOnlyClicked += OnUnheardOnlyClicked();
 
             foreach (var audioDrama in _audioDramas)
             {
@@ -63,6 +65,24 @@ namespace DdfGuide.Core
             }
             
             UpdateView();
+        }
+
+        private EventHandler OnUnheardOnlyClicked()
+        {
+            return (sender, args) =>
+            {
+                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.UnheardOnly);
+                UpdateView();
+            };
+        }
+
+        private EventHandler OnFavoritesOnlyClicked()
+        {
+            return (sender, args) =>
+            {
+                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.FavoritesOnly);
+                UpdateView();
+            };
         }
 
         private EventHandler OnAllAudioDramasClicked()

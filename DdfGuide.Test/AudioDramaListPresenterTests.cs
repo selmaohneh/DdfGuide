@@ -308,7 +308,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void FilterMainAudioDramasChanged_ChangeFilter_UpdateView()
+        public void MainAudioDramasOnlyClicked_ChangeFilter_UpdateView()
         {
             _listView.Invocations.Clear();
             _filterFactory.Invocations.Clear();
@@ -316,9 +316,51 @@ namespace DdfGuide.Test
 
             _listView.Raise(x => x.MainAudioDramasOnlyClicked += null, this, EventArgs.Empty);
 
-            _filterFactory.Verify(x => x.Create(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.MainAudioDramasOnly), Times.Once);
             _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
             _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
         }
-      }
+
+        [TestMethod]
+        public void AllAudioDramasClicked_ChangeFilter_UpdateView()
+        {
+            _listView.Invocations.Clear();
+            _filterFactory.Invocations.Clear();
+            _filter.Invocations.Clear();
+
+            _listView.Raise(x => x.AllAudioDramasClicked += null, this, EventArgs.Empty);
+
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.AllAudioDramas), Times.Once);
+            _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
+            _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
+        }
+
+        [TestMethod]
+        public void FavoritesOnlyClicked_ChangeFilter_UpdateView()
+        {
+            _listView.Invocations.Clear();
+            _filterFactory.Invocations.Clear();
+            _filter.Invocations.Clear();
+
+            _listView.Raise(x => x.FavoritesOnlyClicked += null, this, EventArgs.Empty);
+
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.FavoritesOnly), Times.Once);
+            _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
+            _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
+        }
+
+        [TestMethod]
+        public void UnheardOnlyClicked_ChangeFilter_UpdateView()
+        {
+            _listView.Invocations.Clear();
+            _filterFactory.Invocations.Clear();
+            _filter.Invocations.Clear();
+
+            _listView.Raise(x => x.UnheardOnlyClicked += null, this, EventArgs.Empty);
+
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.UnheardOnly), Times.Once);
+            _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
+            _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
+        }
+    }
 }

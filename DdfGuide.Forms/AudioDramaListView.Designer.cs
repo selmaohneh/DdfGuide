@@ -47,8 +47,10 @@ namespace DdfGuide.Forms
             this.allAudioDramasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.includeMainAudioDramasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
+            this.favoritesOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.unheardOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -158,7 +160,9 @@ namespace DdfGuide.Forms
             // 
             this.filteringToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.allAudioDramasToolStripMenuItem,
-            this.includeMainAudioDramasToolStripMenuItem});
+            this.includeMainAudioDramasToolStripMenuItem,
+            this.favoritesOnlyToolStripMenuItem,
+            this.unheardOnlyToolStripMenuItem});
             this.filteringToolStripMenuItem.Name = "filteringToolStripMenuItem";
             this.filteringToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
             this.filteringToolStripMenuItem.Text = "Filtering";
@@ -195,6 +199,13 @@ namespace DdfGuide.Forms
             this.dataGridViewAudioDramas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellDoubleClick);
             this.dataGridViewAudioDramas.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellValueChanged);
             // 
+            // favoritesOnlyToolStripMenuItem
+            // 
+            this.favoritesOnlyToolStripMenuItem.Name = "favoritesOnlyToolStripMenuItem";
+            this.favoritesOnlyToolStripMenuItem.Size = new System.Drawing.Size(288, 30);
+            this.favoritesOnlyToolStripMenuItem.Text = "Favorites only";
+            this.favoritesOnlyToolStripMenuItem.Click += new System.EventHandler(this.favoritesOnlyToolStripMenuItem_Click);
+            // 
             // audioDramaBindingSource
             // 
             this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.AudioDrama);
@@ -202,6 +213,13 @@ namespace DdfGuide.Forms
             // audioDramaUserDataBindingSource
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
+            // 
+            // unheardOnlyToolStripMenuItem
+            // 
+            this.unheardOnlyToolStripMenuItem.Name = "unheardOnlyToolStripMenuItem";
+            this.unheardOnlyToolStripMenuItem.Size = new System.Drawing.Size(288, 30);
+            this.unheardOnlyToolStripMenuItem.Text = "Unheard only";
+            this.unheardOnlyToolStripMenuItem.Click += new System.EventHandler(this.unheardOnlyToolStripMenuItem_Click);
             // 
             // AudioDramaListView
             // 
@@ -242,6 +260,8 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem filteringToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem includeMainAudioDramasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem allAudioDramasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem favoritesOnlyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem unheardOnlyToolStripMenuItem;
     }
 }
 

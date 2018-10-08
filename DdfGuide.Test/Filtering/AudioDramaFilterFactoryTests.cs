@@ -1,4 +1,5 @@
-﻿using DdfGuide.Core.Filtering;
+﻿using System;
+using DdfGuide.Core.Filtering;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DdfGuide.Test.Filtering
@@ -6,19 +7,23 @@ namespace DdfGuide.Test.Filtering
     [TestClass]
     public class AudioDramaFilterFactoryTests
     {
-        private AudioDramaFilterFactory _sut;
-
-        [TestInitialize]
-        public void Init()
-        {
-            _sut = new AudioDramaFilterFactory();
-        }
-
         [TestMethod]
-        public void MainAudioDramasOnly()
+        public void SingleFilterClassForEachMode()
         {
-            var filter = _sut.Create(EAudioDramaFilterMode.MainAudioDramasOnly);
-            Assert.IsInstanceOfType(filter, typeof(MainAudioDramasOnlyFilter));
+            var filterFactory = new AudioDramaFilterFactory();
+            var filterModes = Enum.GetValues(typeof(EAudioDramaFilterMode));
+
+            foreach (EAudioDramaFilterMode filterMode in filterModes)
+            {
+                try
+                {
+                    filterFactory.Create(filterMode);
+                }
+                catch (Exception)
+                {
+                    Assert.Fail($"No or doubled filter class defined");
+                }
+            }
         }
     }
 }

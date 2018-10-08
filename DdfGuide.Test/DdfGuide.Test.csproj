@@ -60,6 +60,8 @@
     <Compile Include="AudioDramaBuilderTests.cs" />
     <Compile Include="Filtering\AllAudioDramasFilterTests.cs" />
     <Compile Include="Filtering\AudioDramaFilterFactoryTests.cs" />
+    <Compile Include="Filtering\FavoritesOnlyFilterTests.cs" />
+    <Compile Include="Filtering\UnheardOnlyFilterTests.cs" />
     <Compile Include="Sorting\AudioDramaSorterFactoryTests.cs" />
     <Compile Include="Sorting\HeardFirstSorterTests.cs" />
     <Compile Include="Sorting\HeardLastSorterTests.cs" />

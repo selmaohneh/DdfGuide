@@ -3,6 +3,8 @@
     public enum EAudioDramaFilterMode
     {
         AllAudioDramas,
-        MainAudioDramasOnly
+        MainAudioDramasOnly,
+        FavoritesOnly,
+        UnheardOnly
     }
 }
