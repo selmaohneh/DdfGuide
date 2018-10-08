@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using DdfGuide.Core.Filtering;
+using DdfGuide.Core.Sorting;
 
 namespace DdfGuide.Core
 {
@@ -38,8 +40,8 @@ namespace DdfGuide.Core
 
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView, viewer);
 
-            var filter = new AudioDramaFilter();
-            var sorter = new AudioDramaSorter();
+            var filterFactory = new AudioDramaFilterFactory();
+            var sorterFactory = new AudioDramaSorterFactory();
 
             var _ = new AudioDramaListPresenter(
                 _audioDramaListView,
@@ -47,8 +49,8 @@ namespace DdfGuide.Core
                 audioDramas,
                 viewer,
                 audioDramaPresenter,
-                filter,
-                sorter
+                filterFactory,
+                sorterFactory
                 );
 
             viewer.Show(_audioDramaListView);

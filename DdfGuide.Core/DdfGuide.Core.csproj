@@ -43,21 +43,36 @@
     <Compile Include="AudioDrama.cs" />
     <Compile Include="AudioDramaBuilder.cs" />
     <Compile Include="AudioDramaDto.cs" />
-    <Compile Include="AudioDramaFilter.cs" />
+    <Compile Include="Filtering\AllAudioDramasFilter.cs" />
+    <Compile Include="Filtering\AudioDramaFilterFactory.cs" />
+    <Compile Include="Sorting\AudioDramaSorterFactory.cs" />
+    <Compile Include="Filtering\EAudioDramaFilterMode.cs" />
+    <Compile Include="Sorting\HeardFirstSorter.cs" />
+    <Compile Include="Sorting\HeardLastSorter.cs" />
+    <Compile Include="Filtering\IAudioDramaFilterFactory.cs" />
+    <Compile Include="Sorting\IAudioDramaSorterFactory.cs" />
+    <Compile Include="Sorting\IsFavoriteFirstSorter.cs" />
+    <Compile Include="Sorting\IsFavoriteLastSorter.cs" />
+    <Compile Include="Filtering\MainAudioDramasOnlyFilter.cs" />
     <Compile Include="AudioDramaListPresenter.cs" />
-    <Compile Include="AudioDramaSorter.cs" />
     <Compile Include="AudioDramaUserData.cs" />
     <Compile Include="AudioDramaExtensions.cs" />
     <Compile Include="DdfGuide.cs" />
     <Compile Include="AudioDramaPresenter.cs" />
-    <Compile Include="EAudioDramaSortMode.cs" />
-    <Compile Include="IAudioDramaFilter.cs" />
+    <Compile Include="Sorting\EAudioDramaSortMode.cs" />
+    <Compile Include="Filtering\IAudioDramaFilter.cs" />
     <Compile Include="IAudioDramaPresenter.cs" />
-    <Compile Include="IAudioDramaSorter.cs" />
+    <Compile Include="Sorting\IAudioDramaSorter.cs" />
     <Compile Include="IAudioDramaView.cs" />
     <Compile Include="INotifyChanged.cs" />
     <Compile Include="IView.cs" />
     <Compile Include="IViewer.cs" />
+    <Compile Include="Sorting\NameAscendingSorter.cs" />
+    <Compile Include="Sorting\NameDescendingSorter.cs" />
+    <Compile Include="Sorting\NumberAscendingSorter.cs" />
+    <Compile Include="Sorting\NumberDescendingSorter.cs" />
+    <Compile Include="Sorting\ReleaseDateAscendingSorter.cs" />
+    <Compile Include="Sorting\ReleaseDateDescendingSorter.cs" />
     <Compile Include="SampleProviders.cs" />
     <Compile Include="IAudioDramaListView.cs" />
     <Compile Include="IProvider.cs" />
@@ -67,5 +82,6 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

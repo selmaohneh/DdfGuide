@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using DdfGuide.Core;
+using DdfGuide.Core.Filtering;
+using DdfGuide.Core.Sorting;
 using EventArgs = System.EventArgs;
 
 namespace DdfGuide.Forms
@@ -29,7 +31,8 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByReleaseDateDescendingClicked;
         public event EventHandler OrderByNameAscendingClicked;
         public event EventHandler OrderByNameDescendingClicked;
-        public event EventHandler FilterMainAudioDramasChanged;
+        public event EventHandler AllAudioDramasClicked;
+        public event EventHandler MainAudioDramasOnlyClicked;
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
@@ -46,9 +49,33 @@ namespace DdfGuide.Forms
             }
         }
 
-        public void SetFilterInfos(IAudioDramaFilter audioDramaFilter)
+        public void SetFilterInfos(EAudioDramaFilterMode selectedFilterMode)
         {
-            mainAudioDramasToolStripMenuItem.Checked = audioDramaFilter.IncludeMainAudioDramas;
+            foreach (var dropDownItem in filteringToolStripMenuItem.DropDownItems)
+            {
+                var menuItem = dropDownItem as ToolStripMenuItem;
+
+                if (menuItem == null)
+                {
+                    throw new Exception("Error casting to ToolStripMenuItem while setting the sort mode.");
+                }
+
+                menuItem.Checked = false;
+            }
+
+            switch (selectedFilterMode)
+            {
+                case EAudioDramaFilterMode.MainAudioDramasOnly:
+                    includeMainAudioDramasToolStripMenuItem.Checked = true;
+                    break;
+
+                case EAudioDramaFilterMode.AllAudioDramas:
+                    allAudioDramasToolStripMenuItem.Checked = true;
+                    break;
+
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(selectedFilterMode), selectedFilterMode, null);
+            }
         }
 
         public void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode)
@@ -203,7 +230,12 @@ namespace DdfGuide.Forms
 
         private void mainAudioDramasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FilterMainAudioDramasChanged?.Invoke(this, EventArgs.Empty);
+            MainAudioDramasOnlyClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void allAudioDramasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AllAudioDramasClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

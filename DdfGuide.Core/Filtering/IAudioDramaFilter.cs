@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 
-namespace DdfGuide.Core
+namespace DdfGuide.Core.Filtering
 {
     public interface IAudioDramaFilter
     {
-        bool IncludeMainAudioDramas { get; set; }
+        EAudioDramaFilterMode FilterMode { get; }
         IEnumerable<AudioDrama> Filter(IEnumerable<AudioDrama> audioDramas);
     }
 }

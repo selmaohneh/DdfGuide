@@ -58,13 +58,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AudioDramaBuilderTests.cs" />
-    <Compile Include="AudioDramaFilterTests.cs" />
+    <Compile Include="Filtering\AllAudioDramasFilterTests.cs" />
+    <Compile Include="Filtering\AudioDramaFilterFactoryTests.cs" />
+    <Compile Include="Sorting\AudioDramaSorterFactoryTests.cs" />
+    <Compile Include="Sorting\HeardFirstSorterTests.cs" />
+    <Compile Include="Sorting\HeardLastSorterTests.cs" />
+    <Compile Include="Sorting\IsFavoriteFirstSorterTests.cs" />
+    <Compile Include="Sorting\IsFavoriteLastSorterTests.cs" />
+    <Compile Include="Filtering\MainAudioDramasOnlyFilterTests.cs" />
     <Compile Include="AudioDramaListPresenterTests.cs" />
-    <Compile Include="AudioDramaSorterTests.cs" />
     <Compile Include="AudioDramaUserDataExtensionsTests.cs" />
     <Compile Include="AudioDramaPresenterTests.cs" />
     <Compile Include="DdfGuideTests.cs" />
+    <Compile Include="Sorting\NameAscendingSorterTests.cs" />
+    <Compile Include="Sorting\NameDescendingSorterTests.cs" />
+    <Compile Include="Sorting\NumberAscendingSorterTests.cs" />
+    <Compile Include="Sorting\NumberDescendingSorterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\ReleaseDateAscendingSorterTests.cs" />
+    <Compile Include="Sorting\ReleaseDateDescendingSorterTests.cs" />
     <Compile Include="UserDataChangedEventTests.cs" />
     <Compile Include="ViewerTests.cs" />
   </ItemGroup>

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using DdfGuide.Core.Filtering;
+using DdfGuide.Core.Sorting;
 
 namespace DdfGuide.Core
 {
     public interface IAudioDramaListView : IView
     {
         void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas);
-        void SetFilterInfos(IAudioDramaFilter audioDramaFilter);
+        void SetFilterInfos(EAudioDramaFilterMode selectedFilterMode);
         void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode);
 
         event EventHandler<Guid> HeardChanged;
@@ -22,6 +24,8 @@ namespace DdfGuide.Core
         event EventHandler OrderByReleaseDateDescendingClicked;
         event EventHandler OrderByNameAscendingClicked;
         event EventHandler OrderByNameDescendingClicked;
-        event EventHandler FilterMainAudioDramasChanged;
+
+        event EventHandler AllAudioDramasClicked;
+        event EventHandler MainAudioDramasOnlyClicked;
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace DdfGuide.Core
+﻿namespace DdfGuide.Core.Sorting
 {
     public enum EAudioDramaSortMode
     {
