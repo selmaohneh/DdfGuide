@@ -31,7 +31,7 @@ namespace DdfGuide.Test.Filtering
         [TestMethod]
         public void CorrectMode()
         {
-            Assert.AreEqual(EAudioDramaFilterMode.MainAudioDramasOnly, _sut.FilterMode);
+            Assert.AreEqual(EAudioDramaFilterMode.MainsOnly, _sut.FilterMode);
         }
     }
 }

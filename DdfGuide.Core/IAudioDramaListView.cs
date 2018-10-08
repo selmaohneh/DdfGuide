@@ -25,8 +25,9 @@ namespace DdfGuide.Core
         event EventHandler OrderByNameAscendingClicked;
         event EventHandler OrderByNameDescendingClicked;
 
-        event EventHandler AllAudioDramasClicked;
-        event EventHandler MainAudioDramasOnlyClicked;
+        event EventHandler AllClicked;
+        event EventHandler MainsOnlyClicked;
+        event EventHandler SpecialsOnlyClicked;
         event EventHandler FavoritesOnlyClicked;
         event EventHandler UnheardOnlyClicked;
     }

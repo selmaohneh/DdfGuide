@@ -31,8 +31,9 @@ namespace DdfGuide.Forms
         public event EventHandler OrderByReleaseDateDescendingClicked;
         public event EventHandler OrderByNameAscendingClicked;
         public event EventHandler OrderByNameDescendingClicked;
-        public event EventHandler AllAudioDramasClicked;
-        public event EventHandler MainAudioDramasOnlyClicked;
+        public event EventHandler AllClicked;
+        public event EventHandler MainsOnlyClicked;
+        public event EventHandler SpecialsOnlyClicked;
         public event EventHandler FavoritesOnlyClicked;
         public event EventHandler UnheardOnlyClicked;
 
@@ -67,11 +68,11 @@ namespace DdfGuide.Forms
 
             switch (selectedFilterMode)
             {
-                case EAudioDramaFilterMode.MainAudioDramasOnly:
+                case EAudioDramaFilterMode.MainsOnly:
                     includeMainAudioDramasToolStripMenuItem.Checked = true;
                     break;
 
-                case EAudioDramaFilterMode.AllAudioDramas:
+                case EAudioDramaFilterMode.All:
                     allAudioDramasToolStripMenuItem.Checked = true;
                     break;
 
@@ -83,6 +84,9 @@ namespace DdfGuide.Forms
                     unheardOnlyToolStripMenuItem.Checked = true;
                     break;
 
+                case EAudioDramaFilterMode.SpecialsOnly:
+                    specialAudioDramasOnlyToolStripMenuItem.Checked = true;
+                    break;
                 default:
 
                     throw new ArgumentOutOfRangeException(nameof(selectedFilterMode), selectedFilterMode, null);
@@ -241,12 +245,12 @@ namespace DdfGuide.Forms
 
         private void mainAudioDramasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MainAudioDramasOnlyClicked?.Invoke(this, EventArgs.Empty);
+            MainsOnlyClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void allAudioDramasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AllAudioDramasClicked?.Invoke(this, EventArgs.Empty);
+            AllClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void favoritesOnlyToolStripMenuItem_Click(object sender, EventArgs e)
@@ -257,6 +261,11 @@ namespace DdfGuide.Forms
         private void unheardOnlyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UnheardOnlyClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void specialAudioDramasOnlyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SpecialsOnlyClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

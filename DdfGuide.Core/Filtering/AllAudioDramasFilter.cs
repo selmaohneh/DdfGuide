@@ -4,7 +4,7 @@ namespace DdfGuide.Core.Filtering
 {
     public class AllAudioDramasFilter: IAudioDramaFilter
     {
-        public EAudioDramaFilterMode FilterMode => EAudioDramaFilterMode.AllAudioDramas;
+        public EAudioDramaFilterMode FilterMode => EAudioDramaFilterMode.All;
 
         public IEnumerable<AudioDrama> Filter(IEnumerable<AudioDrama> audioDramas)
         {

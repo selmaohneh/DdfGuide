@@ -6,25 +6,19 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace DdfGuide.Test.Filtering
 {
     [TestClass]
-    public class AllAudioDramasFilterTests
+    public class SpecialAudioDramasOnlyFilterTests
     {
         [TestMethod]
-        public void CorrectMode()
-        {
-            var filter = new AllAudioDramasFilter();
-            Assert.AreEqual(EAudioDramaFilterMode.All, filter.FilterMode);
-        }
-
-        [TestMethod]
-        public void CorrectFiltering()
+        public void FilterOnlyReturnsAudioDramasThatDontHaveANumber()
         {
             var provider = new MultipleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();
-            var filter = new AllAudioDramasFilter();
+            var expectedFiltered = audioDramas.Where(x => x.AudioDramaDto.Number.HasValue == false).ToList();
+            var filter = new SpecialAudioDramasOnlyFilter();
 
             var filtered = filter.Filter(audioDramas).ToList();
 
-            CollectionAssert.AreEqual(audioDramas, filtered);
+            CollectionAssert.AreEqual(expectedFiltered, filtered);
         }
     }
 }

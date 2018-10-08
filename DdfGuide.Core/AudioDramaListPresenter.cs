@@ -38,7 +38,7 @@ namespace DdfGuide.Core
             _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.ReleaseDateDescending);
 
             _audioDramaFilterFactory = audioDramaFilterFactory;
-            _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.AllAudioDramas);
+            _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.All);
 
             _audioDramaListView.HeardChanged += OnHeardChanged();
             _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
@@ -54,10 +54,11 @@ namespace DdfGuide.Core
             _audioDramaListView.OrderByNameAscendingClicked += OnOrderByNameAscendingClicked();
             _audioDramaListView.OrderByNameDescendingClicked += OnOrderByNameDescendingClicked();
 
-            _audioDramaListView.AllAudioDramasClicked += OnAllAudioDramasClicked();
-            _audioDramaListView.MainAudioDramasOnlyClicked += OnMainAudioDramasOnlyClicked();
+            _audioDramaListView.AllClicked += OnAllAudioDramasClicked();
+            _audioDramaListView.MainsOnlyClicked += OnMainAudioDramasOnlyClicked();
             _audioDramaListView.FavoritesOnlyClicked += OnFavoritesOnlyClicked();
             _audioDramaListView.UnheardOnlyClicked += OnUnheardOnlyClicked();
+            _audioDramaListView.SpecialsOnlyClicked += OnSpecialsOnlyClicked();
 
             foreach (var audioDrama in _audioDramas)
             {
@@ -65,6 +66,15 @@ namespace DdfGuide.Core
             }
             
             UpdateView();
+        }
+
+        private EventHandler OnSpecialsOnlyClicked()
+        {
+            return (sender, args) =>
+            {
+                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.SpecialsOnly);
+                UpdateView();
+            };
         }
 
         private EventHandler OnUnheardOnlyClicked()
@@ -89,7 +99,7 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.AllAudioDramas);
+                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.All);
                 UpdateView();
             };
         }
@@ -98,7 +108,7 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.MainAudioDramasOnly);
+                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.MainsOnly);
                 UpdateView();
             };
         }

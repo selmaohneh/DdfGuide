@@ -77,7 +77,7 @@ namespace DdfGuide.Test
         [TestMethod]
         public void Construct_FillWithDefaultFilterInfos()
         {
-            _listView.Verify(x => x.SetFilterInfos(EAudioDramaFilterMode.AllAudioDramas), Times.Once);
+            _listView.Verify(x => x.SetFilterInfos(EAudioDramaFilterMode.All), Times.Once);
         }
 
         [TestMethod]
@@ -89,9 +89,9 @@ namespace DdfGuide.Test
         [TestMethod]
         public void Construct_DefaultFilter_All()
         {
-            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.AllAudioDramas), Times.Once());
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.All), Times.Once());
             _filterFactory.Verify(
-                x => x.Create(It.Is<EAudioDramaFilterMode>(y => y != EAudioDramaFilterMode.AllAudioDramas)),
+                x => x.Create(It.Is<EAudioDramaFilterMode>(y => y != EAudioDramaFilterMode.All)),
                 Times.Never);
         }
 
@@ -314,9 +314,9 @@ namespace DdfGuide.Test
             _filterFactory.Invocations.Clear();
             _filter.Invocations.Clear();
 
-            _listView.Raise(x => x.MainAudioDramasOnlyClicked += null, this, EventArgs.Empty);
+            _listView.Raise(x => x.MainsOnlyClicked += null, this, EventArgs.Empty);
 
-            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.MainAudioDramasOnly), Times.Once);
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.MainsOnly), Times.Once);
             _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
             _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
         }
@@ -328,9 +328,9 @@ namespace DdfGuide.Test
             _filterFactory.Invocations.Clear();
             _filter.Invocations.Clear();
 
-            _listView.Raise(x => x.AllAudioDramasClicked += null, this, EventArgs.Empty);
+            _listView.Raise(x => x.AllClicked += null, this, EventArgs.Empty);
 
-            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.AllAudioDramas), Times.Once);
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.All), Times.Once);
             _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
             _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
         }
@@ -359,6 +359,20 @@ namespace DdfGuide.Test
             _listView.Raise(x => x.UnheardOnlyClicked += null, this, EventArgs.Empty);
 
             _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.UnheardOnly), Times.Once);
+            _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
+            _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
+        }
+
+        [TestMethod]
+        public void SpecialsOnlyClicked_ChangeFilter_UpdateView()
+        {
+            _listView.Invocations.Clear();
+            _filterFactory.Invocations.Clear();
+            _filter.Invocations.Clear();
+
+            _listView.Raise(x => x.SpecialsOnlyClicked += null, this, EventArgs.Empty);
+
+            _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.SpecialsOnly), Times.Once);
             _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
             _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
         }
