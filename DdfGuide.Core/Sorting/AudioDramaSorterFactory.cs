@@ -1,46 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 
 namespace DdfGuide.Core.Sorting
 {
     public class AudioDramaSorterFactory : IAudioDramaSorterFactory
     {
+        private readonly IEnumerable<IAudioDramaSorter> _audioDramaSorters;
+
+        public AudioDramaSorterFactory()
+        {
+            var interfaceType = typeof(IAudioDramaSorter);
+            _audioDramaSorters = Assembly
+                .GetExecutingAssembly()
+                .GetTypes()
+                .Where(x => interfaceType.IsAssignableFrom(x) && !x.IsInterface)
+                .Select(Activator.CreateInstance)
+                .Select(x => (IAudioDramaSorter)x);
+        }
+
         public IAudioDramaSorter Create(EAudioDramaSortMode audioDramaSortMode)
         {
-            switch (audioDramaSortMode)
-            {
-                case EAudioDramaSortMode.ReleaseDateDescending:
-                    return new ReleaseDateDescendingSorter();
-
-                case EAudioDramaSortMode.ReleaseDateAscending:
-                    return new ReleaseDateAscendingSorter();
-
-                case EAudioDramaSortMode.NumberDescending:
-                    return new NumberDescendingSorter();
-
-                case EAudioDramaSortMode.NumberAscending:
-                    return new NumberAscendingSorter();
-
-                case EAudioDramaSortMode.NameDescending:
-                    return new NameDescendingSorter();
-
-                case EAudioDramaSortMode.NameAscending:
-                    return new NameAscendingSorter();
-
-                case EAudioDramaSortMode.HeardFirst:
-                    return new HeardFirstSorter();
-
-                case EAudioDramaSortMode.HeardLast:
-                    return new HeardLastSorter();
-
-                case EAudioDramaSortMode.IsFavoriteFirst:
-                    return new IsFavoriteFirstSorter();
-
-                case EAudioDramaSortMode.IsFavoriteLast:
-                    return new IsFavoriteLastSorter();
-
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(audioDramaSortMode), audioDramaSortMode, null);
-            }
+            var sorter = _audioDramaSorters.Single(x => x.SortMode == audioDramaSortMode);
+            return sorter;
         }
     }
 }
