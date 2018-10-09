@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Drawing;
+using System.Net;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using DdfGuide.Core;
 
@@ -29,6 +32,18 @@ namespace DdfGuide.Forms
             {
                 checkBoxIsFavorite.Checked = audioDrama.AudioDramaUserData.IsFavorite;
             }
+
+            var image = Task.Run(() =>
+            {
+                using (WebClient webClient = new WebClient())
+                {
+                    webClient.DownloadFile(
+                        "https://www.rocky-beach.com/hoerspiel/cover/159.jpg",
+                        $"{audioDrama.AudioDramaDto.Name}.png");
+                }
+
+                pictureBox1.Image = Image.FromFile($"{audioDrama.AudioDramaDto.Name}.png");
+            });
         }
 
         private void AudioDramaView_DoubleClick(object sender, EventArgs e)
