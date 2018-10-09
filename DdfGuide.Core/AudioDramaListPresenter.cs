@@ -16,10 +16,10 @@ namespace DdfGuide.Core
         private readonly IAudioDramaPresenter _audioDramaPresenter;
         private readonly IAudioDramaFilterFactory _audioDramaFilterFactory;
         private readonly IAudioDramaSorterFactory _audioDramaSorterFactory;
+        private readonly IAudioDramaSearcher _audioDramaSearcher;
 
         private IAudioDramaSorter _audioDramaSorter;
         private IAudioDramaFilter _audioDramaFilter;
-        private IAudioDramaSearcher _audioDramaSearcher;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
@@ -47,22 +47,23 @@ namespace DdfGuide.Core
             _audioDramaListView.HeardChanged += OnHeardChanged();
             _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
             _audioDramaListView.AudioDramaClicked += OnAudioDramaClicked();
-            _audioDramaListView.OrderByHeardFirstClicked += OnOrderByHeardFirstClicked();
-            _audioDramaListView.OrderByHeardLastClicked += OnOrderByHeardLastClicked();
-            _audioDramaListView.OrderByIsFavoriteFirstClicked += OnOrderByIsFavoriteFirstClicked();
-            _audioDramaListView.OrderByIsFavoriteLastClicked += OnOrderByIsFavoriteLastClicked();
-            _audioDramaListView.OrderByNumberAscendingClicked += OnOrderByNumberAscendingClicked();
-            _audioDramaListView.OrderByNumberDescendingClicked += OnOrderByNumberDescendingClicked();
-            _audioDramaListView.OrderByReleaseDateAscendingClicked += OnOrderByReleaseDateAscendingClicked();
-            _audioDramaListView.OrderByReleaseDateDescendingClicked += OnOrderByReleaseDateDescendingClicked();
-            _audioDramaListView.OrderByNameAscendingClicked += OnOrderByNameAscendingClicked();
-            _audioDramaListView.OrderByNameDescendingClicked += OnOrderByNameDescendingClicked();
 
-            _audioDramaListView.AllClicked += OnAllAudioDramasClicked();
-            _audioDramaListView.MainsOnlyClicked += OnMainAudioDramasOnlyClicked();
-            _audioDramaListView.FavoritesOnlyClicked += OnFavoritesOnlyClicked();
-            _audioDramaListView.UnheardOnlyClicked += OnUnheardOnlyClicked();
-            _audioDramaListView.SpecialsOnlyClicked += OnSpecialsOnlyClicked();
+            _audioDramaListView.OrderByHeardFirstClicked += OnSorterChanged(EAudioDramaSortMode.HeardFirst);
+            _audioDramaListView.OrderByHeardLastClicked += OnSorterChanged(EAudioDramaSortMode.HeardLast);
+            _audioDramaListView.OrderByIsFavoriteFirstClicked += OnSorterChanged(EAudioDramaSortMode.IsFavoriteFirst);
+            _audioDramaListView.OrderByIsFavoriteLastClicked += OnSorterChanged(EAudioDramaSortMode.IsFavoriteLast);
+            _audioDramaListView.OrderByNumberAscendingClicked += OnSorterChanged(EAudioDramaSortMode.NumberAscending);
+            _audioDramaListView.OrderByNumberDescendingClicked += OnSorterChanged(EAudioDramaSortMode.NumberDescending);
+            _audioDramaListView.OrderByReleaseDateAscendingClicked += OnSorterChanged(EAudioDramaSortMode.ReleaseDateAscending);
+            _audioDramaListView.OrderByReleaseDateDescendingClicked += OnSorterChanged(EAudioDramaSortMode.ReleaseDateDescending);
+            _audioDramaListView.OrderByNameAscendingClicked += OnSorterChanged(EAudioDramaSortMode.NameAscending);
+            _audioDramaListView.OrderByNameDescendingClicked += OnSorterChanged(EAudioDramaSortMode.NameDescending);
+
+            _audioDramaListView.AllClicked += OnFilterChanged(EAudioDramaFilterMode.All);
+            _audioDramaListView.MainsOnlyClicked += OnFilterChanged(EAudioDramaFilterMode.MainsOnly);
+            _audioDramaListView.FavoritesOnlyClicked += OnFilterChanged(EAudioDramaFilterMode.FavoritesOnly);
+            _audioDramaListView.UnheardOnlyClicked += OnFilterChanged(EAudioDramaFilterMode.UnheardOnly);
+            _audioDramaListView.SpecialsOnlyClicked += OnFilterChanged(EAudioDramaFilterMode.SpecialsOnly);
 
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
 
@@ -82,137 +83,20 @@ namespace DdfGuide.Core
             };
         }
 
-        private EventHandler OnSpecialsOnlyClicked()
+        private EventHandler OnFilterChanged(EAudioDramaFilterMode filterMode)
         {
             return (sender, args) =>
             {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.SpecialsOnly);
+                _audioDramaFilter = _audioDramaFilterFactory.Create(filterMode);
                 UpdateView();
             };
         }
 
-        private EventHandler OnUnheardOnlyClicked()
+        private EventHandler OnSorterChanged(EAudioDramaSortMode sortMode)
         {
             return (sender, args) =>
             {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.UnheardOnly);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnFavoritesOnlyClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.FavoritesOnly);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnAllAudioDramasClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.All);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnMainAudioDramasOnlyClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.MainsOnly);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByNameDescendingClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.NameDescending);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByNameAscendingClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.NameAscending);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByReleaseDateDescendingClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.ReleaseDateDescending);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByReleaseDateAscendingClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.ReleaseDateAscending);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByNumberDescendingClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.NumberDescending);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByNumberAscendingClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.NumberAscending);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByIsFavoriteLastClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.IsFavoriteLast);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByIsFavoriteFirstClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.IsFavoriteFirst);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByHeardLastClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.HeardLast);
-                UpdateView();
-            };
-        }
-
-        private EventHandler OnOrderByHeardFirstClicked()
-        {
-            return (sender, args) =>
-            {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.HeardFirst);
+                _audioDramaSorter = _audioDramaSorterFactory.Create(sortMode);
                 UpdateView();
             };
         }
