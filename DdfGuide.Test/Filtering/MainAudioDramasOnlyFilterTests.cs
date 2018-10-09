@@ -11,12 +11,12 @@ namespace DdfGuide.Test.Filtering
         [TestMethod]
         public void TheFilterReturnsOnlyAudioDramasThatHaveANumber()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var filter = new MainAudioDramasOnlyFilter();
 
             var filtered = filter.Filter(provider.Get().ToList()).ToList();
 
-            Assert.IsTrue(filtered.All(x => x.AudioDramaDto.Number.HasValue));
+            Assert.IsTrue(filtered.All(x => x.AudioDramaDto.NumberEuropa.HasValue));
         }
 
         [TestMethod]

@@ -9,7 +9,7 @@ namespace DdfGuide.Core.Filtering
 
         public IEnumerable<AudioDrama> Filter(IEnumerable<AudioDrama> audioDramas)
         {
-            var filtered = audioDramas.Where(x => x.AudioDramaDto.Number.HasValue);
+            var filtered = audioDramas.Where(x => x.AudioDramaDto.NumberEuropa.HasValue);
 
             return filtered;
         }

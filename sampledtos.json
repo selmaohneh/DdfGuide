@@ -1,0 +1,266 @@
+﻿[
+  {
+    "Id": "58ede917-e1df-4af5-9264-715f9117d030",
+    "Title": "... und der Super-Papagei",
+    "NumberEuropa": 1,
+    "ReleaseDate": "1979-10-12T00:00:00",
+    "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/001.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der neueste Auftrag an die drei Detektive hört sich recht harmlos an: sie sollen einen entflogenen Papagei suchen. Doch kaum beginnen sie mit ihren Nachforschungen, da scheinen sich plötzlich noch einige andere Leute sehr für diesen Papagei zu interessieren. Vielleicht deshalb, weil er lateinische Sprüche zitieren kann? Aber bald geht es nicht mehr nur um einen, sondern um sieben Papageien - und alle sieben führen höchst seltsame Reden. Ob da nicht eine geheime Botschaft hintersteckt? Jedenfalls sind auch ein jähzorniger Kunsthändler und ein berüchtigter Meisterdieb hinter den Vögeln her. Die drei ??? müssen sich ganz schön die hellen Köpfe zerbrechen, ehe sie auch diesen abenteuerlichen Fall aufklären und eine wohlverdiente Belohnung einheimsen...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Fentriss, Schriftsteller",
+        "Speaker": "Richard Lauffen"
+      },
+      {
+        "Character": "Mr. Claudius, Kunsthändler",
+        "Speaker": "Gerlach Fiedler"
+      },
+      {
+        "Character": "Mrs. Claudius",
+        "Speaker": "Ingrid Andree"
+      },
+      {
+        "Character": "Miss Waggoner",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Carlos",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Onkel Ramos",
+        "Speaker": "Juan Perez [Karl-Ulrich Meves]"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Albert Giro [Wolfgang Kubach]"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      }
+    ]
+  },
+  {
+    "Id": "38d34d17-f649-47bf-af3d-45242160f2b1",
+    "Title": "... und der Phantomsee",
+    "NumberEuropa": 2,
+    "ReleaseDate": "1979-10-12T00:00:00",
+    "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/002.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Welches Geheimnis verbirgt sich in einem vergilbten Brief und in den nach langer Zeit wieder aufgetauchten Aufzeichnungen des Seemanns Angus Gunn? Wurde tatsächlich in einer lange vergangenen Sturmnacht ein Piratenschatz von einem sinkenden Schiff gestohlen? Das möchten die drei Detektive Justus, Bob und Peter ebenfalls gerne wissen. Den Nachkommen von Gunn ist es bisher nicht gelungen, das Versteck des Schatzes ausfindig zu machen. Professor Shy, den diese Sache für seine Arbeit am Historischen Forschungsinstitut interessiert, hatte bisher auch kein Glück. Immer mehr Personen tauchen auf und machen sich verdächtig. Auch Java-Jim, ein undurchsichtiger Seemann, versucht den drei ??? zuvorzukommen. Und welche Rolle spielt Stebins, der wegen Unterschlagung im Gefängnis war und auf Bewährung frei ist? Der Professor vermutet, daß er und Java-Jim zusammenarbeiten. Aber am Ende sind die drei ??? allen eine Nasenlänge voraus: die rätselhaften Hinweise führen sie zum Phantomsee und damit endlich zur Lösung.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Patrick Kenneth",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Java-Jim",
+        "Speaker": "Heinz Überreiter [Gottfried Kramer]"
+      },
+      {
+        "Character": "Mrs. Flora Gunn",
+        "Speaker": "Veronika Weckler"
+      },
+      {
+        "Character": "Cluny Gunn",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Rory",
+        "Speaker": "Klaus-Peter Reisch [Peter Buchholz]"
+      },
+      {
+        "Character": "Stebins",
+        "Speaker": "Hans Meinhardt [Karl-Ulrich Meves]"
+      },
+      {
+        "Character": "Mr. Widner",
+        "Speaker": "Ernst von Klipstein"
+      },
+      {
+        "Character": "Verwalter von Powder Gulch",
+        "Speaker": "Reiner Brönneke"
+      },
+      {
+        "Character": "Bibliothekarin",
+        "Speaker": "Katharina Brauren"
+      }
+    ]
+  },
+  {
+    "Id": "301b19ce-7434-47fc-9e07-10a7982c3911",
+    "Title": "... und der Karpatenhund",
+    "NumberEuropa": 3,
+    "ReleaseDate": "1979-10-12T00:00:00",
+    "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/003.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "\"Bei mir spukt es!\" Mit diesem verzweifelten Ausruf von Mr. Prentice beginnt ein neues Abenteuer der drei ???. Ein Abenteuer, das immer verwickelter wird und bei dem sogar der sonst so superschlaue Erste Detektiv, Justus Jonas, eine Zeitlang völlig im Dunkeln tappt. - Welche unheimliche Gestalt geht in der Wohnung von Mr. Prentice ein und aus und versetzt diesen in immer größere Ängste und Schrecken? Was ist die Quelle jener gespenstischen Lichtblitze in seinem Arbeitszimmer, sechs Meter über der Straße? Wer hat die wertvolle gläserne Skulptur des Karpatenhundes verschwinden lassen, und wer versucht, allen Mietern den Aufenthalt in dem großen Appartementhaus unmöglich zu machen? Die wenigen Spuren weisen in verschiedene Richtungen, und für unser Detektivtrio gilt es wieder einmal, eine harte Nuß zu knacken. Werden sie Licht in das Dunkel bringen?...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Prentice",
+        "Speaker": "Hans Hessling"
+      },
+      {
+        "Character": "Niedland",
+        "Speaker": "Gerlach Fiedler"
+      },
+      {
+        "Character": "Pfarrer",
+        "Speaker": "Ernst von Klipstein"
+      },
+      {
+        "Character": "Mrs. Boogle",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Sonny Elmquist",
+        "Speaker": "Philip Kunzmann [Gernot Endemann]"
+      },
+      {
+        "Character": "Mr. Murphy",
+        "Speaker": "Karl-Ulrich Meves"
+      },
+      {
+        "Character": "Miss Chalmers",
+        "Speaker": "Pamela Punti [Heikedine Körting?]"
+      },
+      {
+        "Character": "Mr. Hassel",
+        "Speaker": "Rolf Hundertwasser [Wolfgang Kubach?]"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Rolf Mamero"
+      }
+    ]
+  },
+  {
+    "Id": "bbdd9bbc-3648-4218-b8a5-5633a118a1ff",
+    "Title": "... und die schwarze Katze",
+    "NumberEuropa": 4,
+    "ReleaseDate": "1979-10-12T00:00:00",
+    "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/004.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In einem kleinen Wanderzirkus wittern die drei jungen Detektive Peter, Bob und Justus ihren neuesten Fall. Denn wenn ein finster aussehender Mann mit Gewalt eine häßliche schwarze Stoffkatze - den Hauptgewinn einer Schießbude - an sich bringen will, sie schließlich stiehlt und am nächsten Tag per Zeitungsanzeige nach weiteren Stoffkatzen fahndet, dann muß irgend etwas dahinter stecken. Außerdem: Wieso trifft den Wanderzirkus seit Wochen ein Unglücksfall nach dem anderen? Und wer ist der Unbekannte mit der auffallenden Tätowierung, der immer wieder im Zirkus auftaucht, aber in brenzligen Momenten spurlos verschwindet? Justus und seine Freunde setzen sich ihm und der gestohlenen Katze auf die Spur und lassen sich beinah auf eine falsche Fährte jagen. Nach aufregenden Fehlschlägen gelingt es ihnen aber schließlich doch, das Geheimnis der schwarzen Katze zu lüften und in letzter Minute einem raffinierten Verbrecher die Maske vom Gesicht zu reißen - im wahrsten Sinne des Wortes...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Andy Carson",
+        "Speaker": "Stefan Schwade"
+      },
+      {
+        "Character": "Mr. Carson",
+        "Speaker": "Reiner Brönneke"
+      },
+      {
+        "Character": "Khan, der Kraftmensch",
+        "Speaker": "René Genesis"
+      },
+      {
+        "Character": "Einzigartiger Gabbo",
+        "Speaker": "Iwan Raszinsky [Karl-Ulrich Meves]"
+      },
+      {
+        "Character": "Iwan",
+        "Speaker": "Boris Stepin [Wolfgang Kubach]"
+      },
+      {
+        "Character": "Junge",
+        "Speaker": "Philip Baader"
+      },
+      {
+        "Character": "Hauptkommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Der alte Mann",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Peter Buchholz"
+      },
+      {
+        "Character": "Jungen",
+        "Speaker": "Stefan Brönneke, Alexander Körting"
+      },
+      {
+        "Character": "Jahrmarktfrau",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Funksprecher",
+        "Speaker": "Gernot Endemann"
+      }
+    ]
+  }
+]

@@ -18,7 +18,7 @@ namespace DdfGuide.Test.Sorting
         [TestMethod]
         public void TheSorterPutsAudioDramasThatAreNotAFavoriteBeforeTheAudioDramasMarkedAsFavorite()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var sorter = new IsFavoriteLastSorter();
             var audioDramas = provider.Get().ToList();
             var expectedSort = audioDramas.OrderBy(x => x.AudioDramaUserData.IsFavorite).ToList();

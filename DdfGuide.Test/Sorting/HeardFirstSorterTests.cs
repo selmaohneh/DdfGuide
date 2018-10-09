@@ -18,7 +18,7 @@ namespace DdfGuide.Test.Sorting
         [TestMethod]
         public void TheSorterPutsHeardAudioDramasBeforeUnheardAudioDramas()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var sorter = new HeardFirstSorter();
             var audioDramas = provider.Get().ToList();
             var expectedSort = audioDramas.OrderByDescending(x => x.AudioDramaUserData.Heard).ToList();

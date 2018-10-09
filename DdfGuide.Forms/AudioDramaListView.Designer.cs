@@ -224,10 +224,6 @@ namespace DdfGuide.Forms
             this.dataGridViewAudioDramas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellDoubleClick);
             this.dataGridViewAudioDramas.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAudioDramas_CellValueChanged);
             // 
-            // audioDramaBindingSource
-            // 
-            this.audioDramaBindingSource.DataSource = typeof(DdfGuide.Core.AudioDrama);
-            // 
             // audioDramaUserDataBindingSource
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);

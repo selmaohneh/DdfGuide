@@ -15,8 +15,8 @@ namespace DdfGuide.Forms
 
             CultureInfo.CurrentCulture = new CultureInfo("de-DE");
 
-            var dtoProvider = new MultipleDtoProvider();
-            var userDataProvider = new MultipleUserDataProvider();
+            var dtoProvider = new DtoProvider();
+            var userDataProvider = new UserDataProvider();
 
             var audioDramaView = new AudioDramaView();
             var audioDramaListView = new AudioDramaListView();

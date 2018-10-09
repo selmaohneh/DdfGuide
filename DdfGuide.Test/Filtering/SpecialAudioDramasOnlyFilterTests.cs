@@ -11,9 +11,9 @@ namespace DdfGuide.Test.Filtering
         [TestMethod]
         public void FilterOnlyReturnsOnlyAudioDramasThatDontHaveANumber()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();
-            var expectedFiltered = audioDramas.Where(x => x.AudioDramaDto.Number.HasValue == false).ToList();
+            var expectedFiltered = audioDramas.Where(x => x.AudioDramaDto.NumberEuropa.HasValue == false).ToList();
             var filter = new SpecialAudioDramasOnlyFilter();
 
             var filtered = filter.Filter(audioDramas).ToList();

@@ -15,8 +15,8 @@ namespace DdfGuide.Forms
         public AudioDramaRow(AudioDrama audioDrama)
         {
             Id = audioDrama.AudioDramaDto.Id;
-            Number = audioDrama.AudioDramaDto.Number;
-            Name = audioDrama.AudioDramaDto.Name;
+            Number = audioDrama.AudioDramaDto.NumberEuropa;
+            Name = audioDrama.AudioDramaDto.Title;
             ReleaseDate = audioDrama.AudioDramaDto.ReleaseDate;
             Heard = audioDrama.AudioDramaUserData.Heard;
             IsFavorite = audioDrama.AudioDramaUserData.IsFavorite;

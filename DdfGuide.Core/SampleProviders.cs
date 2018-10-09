@@ -1,121 +1,61 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace DdfGuide.Core
 {
-    public class SingleDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
+    public class DtoProvider : IProvider<IEnumerable<AudioDramaDto>>
     {
         public IEnumerable<AudioDramaDto> Get()
         {
-            var dto = new AudioDramaDto(
-                MultipleDtoProvider.SampleIds.First(),
-                "Sample name",
-                42,
-                new DateTime(2017, 11, 27),
-                "https://www.rocky-beach.com/hoerspiel/cover/159.jpg");
+            var json = File.ReadAllText(@"C:\Repositories\DdfGuide\sampledtos.json");
+            var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
 
-            var list = new List<AudioDramaDto> {dto};
-            return list;
+            return dtos.Take(4);
         }
     }
 
-    public class MultipleDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
-    {
-        public static IEnumerable<Guid> SampleIds = new List<Guid>
-        {
-            Guid.NewGuid(),
-            Guid.NewGuid(),
-            Guid.NewGuid(),
-            Guid.NewGuid()
-        };
-
-        public IEnumerable<AudioDramaDto> Get()
-        {
-            var dtos = new List<AudioDramaDto>();
-
-            var i = 1;
-            foreach (var sampleId in SampleIds)
-            {
-                var dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2017, 7, 23), "https://www.rocky-beach.com/hoerspiel/cover/159.jpg");
-
-                if (sampleId == SampleIds.First())
-                {
-                    dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2000, 4, 12), "https://www.rocky-beach.com/hoerspiel/cover/170.jpg");
-                }
-                
-                if (sampleId == SampleIds.Last())
-                {
-                    dto = new AudioDramaDto(sampleId, "I am special", null, new DateTime(1979, 1, 28), "https://www.rocky-beach.com/hoerspiel/cover/101.jpg");
-                }
-
-                dtos.Add(dto);
-                i++;
-            }
-
-            return dtos;
-        }
-    }
-
-    public class MultipleUserDataProvider : IProvider<IEnumerable<AudioDramaUserData>>
+    public class UserDataProvider : IProvider<IEnumerable<AudioDramaUserData>>
     {
         public IEnumerable<AudioDramaUserData> Get()
         {
+            var dtos = new DtoProvider().Get().ToList();
+
             var userDatas = new List<AudioDramaUserData>
             {
-                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(0), false, false),
-                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(1), false, true),
-                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(2), true, false),
-                new AudioDramaUserData(MultipleDtoProvider.SampleIds.ElementAt(3), true, true)
+                new AudioDramaUserData(dtos.ElementAt(0).Id, false, false),
+                new AudioDramaUserData(dtos.ElementAt(1).Id, false, true),
+                new AudioDramaUserData(dtos.ElementAt(2).Id, true, false),
+                new AudioDramaUserData(dtos.ElementAt(3).Id, true, true)
             };
 
             return userDatas;
         }
     }
 
-    public class SingleUserDataProvider : IProvider<IEnumerable<AudioDramaUserData>>
-    {
-        public IEnumerable<AudioDramaUserData> Get()
-        {
-            var userData = new AudioDramaUserData(MultipleDtoProvider.SampleIds.First(), false, false);
-            var list = new List<AudioDramaUserData> {userData};
-            return list;
-        }
-    }
-
-    public class MultipleAudioDramaProvider : IProvider<IEnumerable<AudioDrama>>
+    public class SampleAudioDramaProvider : IProvider<IEnumerable<AudioDrama>>
     {
         public IEnumerable<AudioDrama> Get()
         {
-            var dtoProvider = new MultipleDtoProvider();
-            var userDataProvider = new MultipleUserDataProvider();
+            var dtoProvider = new DtoProvider();
+            var userDataProvider = new UserDataProvider();
 
-            var dtos = dtoProvider.Get();
-            var userDatas = userDataProvider.Get();
+            var dtos = dtoProvider.Get().ToList();
+            var userDatas = userDataProvider.Get().ToList();
 
-            var audioDramaBuilder = new AudioDramaBuilder(dtos, userDatas);
+            var audioDramas = new List<AudioDrama>();
 
-            var audioDramas = audioDramaBuilder.Build();
+            for (var i = 0; i < dtos.Count(); i++)
+            {
+                var audioDrama = new AudioDrama(
+                    dtos.ElementAt(i),
+                    userDatas.ElementAt(i));
+
+                audioDramas.Add(audioDrama);
+            }
 
             return audioDramas;
-        }
-    }
-
-    public class SingleAudioDramaProvider : IProvider<IEnumerable<AudioDrama>>
-    {
-        public IEnumerable<AudioDrama> Get()
-        {
-            var dtoProvider = new SingleDtoProvider();
-            var userDataProvider = new SingleUserDataProvider();
-
-            var dto = dtoProvider.Get();
-            var userData = userDataProvider.Get();
-
-            var audioDrama = new AudioDrama(dto.First(), userData.First());
-
-            var list = new List<AudioDrama> {audioDrama};
-
-            return list;
         }
     }
 }

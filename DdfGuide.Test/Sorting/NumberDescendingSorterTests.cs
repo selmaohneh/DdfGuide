@@ -18,10 +18,10 @@ namespace DdfGuide.Test.Sorting
         [TestMethod]
         public void TheSorterSortsTheAudioDramasDescendingByTheirNumber()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var sorter = new NumberDescendingSorter();
             var audioDramas = provider.Get().ToList();
-            var expectedSort = audioDramas.OrderByDescending(x => x.AudioDramaDto.Number).ToList();
+            var expectedSort = audioDramas.OrderByDescending(x => x.AudioDramaDto.NumberEuropa).ToList();
 
             var sort = sorter.Sort(audioDramas).ToList();
 

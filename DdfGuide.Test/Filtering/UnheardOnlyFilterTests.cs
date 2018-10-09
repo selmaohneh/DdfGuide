@@ -11,7 +11,7 @@ namespace DdfGuide.Test.Filtering
         [TestMethod]
         public void FilterReturnsOnlyUnheardAudioDramas()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();
             var expectedFiltered = audioDramas.Where(x => x.AudioDramaUserData.Heard == false).ToList();
             var filter = new UnheardOnlyFilter();

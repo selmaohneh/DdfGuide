@@ -18,7 +18,7 @@ namespace DdfGuide.Test.Filtering
         [TestMethod]
         public void TheFilterReturnsAllGivenAudioDramas()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();
             var filter = new AllAudioDramasFilter();
 

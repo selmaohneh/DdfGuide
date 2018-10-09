@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -12,25 +11,34 @@ namespace DdfGuide.Test
         [TestMethod]
         public void TestCorrectBuilding()
         {
-            var id1 = Guid.NewGuid();
-            var id2 = Guid.NewGuid();
-
-            var dto1 = new AudioDramaDto(id1, string.Empty, 42, DateTime.Today);
-            var dto2 = new AudioDramaDto(id2, string.Empty, 42, DateTime.Today);
-            var dtoList = new List<AudioDramaDto> {dto1, dto2};
-
-            var userData1 = new AudioDramaUserData(id1, true, false);
-            var userData2 = new AudioDramaUserData(id2, false, true);
-            var userDataList = new List<AudioDramaUserData> {userData1, userData2};
+            var dtoProvider = new DtoProvider();
+            var dtos = dtoProvider.Get().ToList();
             
-            var audioDrama1 = new AudioDrama(dto1, userData1);
-            var audioDrama2 = new AudioDrama(dto2, userData2);
-            var audioDramaList = new List<AudioDrama> {audioDrama1, audioDrama2};
+            var userDataProvider = new UserDataProvider();
+            var userData = userDataProvider.Get().ToList();
 
-            var builder = new AudioDramaBuilder(dtoList, userDataList);
+            var audioDramas = new List<AudioDrama>();
+            for (var i = 0; i < dtos.Count; i++)
+            {
+                var audioDrama = new AudioDrama(
+                    dtos.ElementAt(i), 
+                    userData.ElementAt(i));
+
+                audioDramas.Add(audioDrama);
+            }
+
+            dtos.Reverse();
+
+            var builder = new AudioDramaBuilder(dtos, userData);
             var buildResult = builder.Build().ToList();
-            
-            CollectionAssert.AreEqual(audioDramaList, buildResult);
+
+            foreach (var audioDrama in audioDramas)
+            {
+                var buildAudioDrama = buildResult.Single(x => x.Equals(audioDrama));
+
+                Assert.AreEqual(audioDrama.AudioDramaDto, buildAudioDrama.AudioDramaDto);
+                Assert.AreEqual(audioDrama.AudioDramaUserData, buildAudioDrama.AudioDramaUserData);
+            }
         }
     }
 }

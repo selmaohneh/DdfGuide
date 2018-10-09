@@ -18,7 +18,7 @@ namespace DdfGuide.Test.Filtering
         [TestMethod]
         public void TheFilterReturnsOnlyAudioDramasThatAreMarkedAsFavorite()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var audioDramas = provider.Get().ToList();
             var filter = new FavoritesOnlyFilter();
             var expectedFiltering = audioDramas.Where(x => x.AudioDramaUserData.IsFavorite).ToList();

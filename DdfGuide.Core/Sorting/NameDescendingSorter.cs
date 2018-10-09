@@ -9,7 +9,7 @@ namespace DdfGuide.Core.Sorting
 
         public IEnumerable<AudioDrama> Sort(IEnumerable<AudioDrama> audioDramas)
         {
-            return audioDramas.OrderByDescending(x => x.AudioDramaDto.Name);
+            return audioDramas.OrderByDescending(x => x.AudioDramaDto.Title);
         }
     }
 }

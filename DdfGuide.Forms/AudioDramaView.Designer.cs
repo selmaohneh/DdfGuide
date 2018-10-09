@@ -33,6 +33,7 @@
             this.checkBoxIsFavorite = new System.Windows.Forms.CheckBox();
             this.labelName = new System.Windows.Forms.Label();
             this.pictureBoxCover = new System.Windows.Forms.PictureBox();
+            this.labelDescription = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCover)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,11 +87,23 @@
             this.pictureBoxCover.TabIndex = 4;
             this.pictureBoxCover.TabStop = false;
             // 
+            // labelDescription
+            // 
+            this.labelDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelDescription.Location = new System.Drawing.Point(218, 121);
+            this.labelDescription.Name = "labelDescription";
+            this.labelDescription.Size = new System.Drawing.Size(440, 253);
+            this.labelDescription.TabIndex = 5;
+            this.labelDescription.Text = "description";
+            // 
             // AudioDramaView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 383);
+            this.Controls.Add(this.labelDescription);
             this.Controls.Add(this.pictureBoxCover);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.checkBoxIsFavorite);
@@ -112,5 +125,6 @@
         private System.Windows.Forms.CheckBox checkBoxIsFavorite;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.PictureBox pictureBoxCover;
+        private System.Windows.Forms.Label labelDescription;
     }
 }

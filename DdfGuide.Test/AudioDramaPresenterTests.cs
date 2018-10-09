@@ -10,7 +10,7 @@ namespace DdfGuide.Test
     public class AudioDramaPresenterTests
     {
         private Mock<IAudioDramaView> _view;
-        private SingleAudioDramaProvider _singleAudioDramaProvider;
+        private SampleAudioDramaProvider _sampleAudioDramaProvider;
         private Mock<IViewer> _viewer;
         private AudioDrama _audioDrama;
         private AudioDramaPresenter _sut;
@@ -18,12 +18,12 @@ namespace DdfGuide.Test
         [TestInitialize]
         public void Init()
         {
-            _singleAudioDramaProvider = new SingleAudioDramaProvider();
+            _sampleAudioDramaProvider = new SampleAudioDramaProvider();
 
             _view = new Mock<IAudioDramaView>();
             _viewer = new Mock<IViewer>();
 
-            _audioDrama = _singleAudioDramaProvider.Get().First();
+            _audioDrama = _sampleAudioDramaProvider.Get().First();
 
             _sut = new AudioDramaPresenter(
                 _view.Object,

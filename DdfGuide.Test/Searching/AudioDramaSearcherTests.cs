@@ -15,7 +15,7 @@ namespace DdfGuide.Test.Searching
         [TestInitialize]
         public void Init()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             _audioDramas = provider.Get().ToList();
             _searcher = new AudioDramaSearcher();
         }
@@ -55,7 +55,7 @@ namespace DdfGuide.Test.Searching
         public void SearchForPartOfNameReturnsAllAudioDramasThatContainThatPart()
         {
             const string searchText = "Sample name";
-            var expectedSearchResult = _audioDramas.Where(x => x.AudioDramaDto.Name.Contains("Sample name")).ToList();
+            var expectedSearchResult = _audioDramas.Where(x => x.AudioDramaDto.Title.Contains("Sample name")).ToList();
 
             var searchResult = _searcher.Search(_audioDramas, searchText).ToList();
 
@@ -67,7 +67,7 @@ namespace DdfGuide.Test.Searching
         public void SearchForPartOfNameWithMixedCasing_SearchShouldStillReturnSameResult()
         {
             const string searchText = "sAMPlE nAMe";
-            var expectedSearchResult = _audioDramas.Where(x => x.AudioDramaDto.Name.Contains("Sample name")).ToList();
+            var expectedSearchResult = _audioDramas.Where(x => x.AudioDramaDto.Title.Contains("Sample name")).ToList();
 
             var searchResult = _searcher.Search(_audioDramas, searchText).ToList();
 

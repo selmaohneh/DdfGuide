@@ -18,7 +18,7 @@ namespace DdfGuide.Test.Sorting
         [TestMethod]
         public void TheSorterSortsDescendingByReleaseDate_NewBeforeOld()
         {
-            var provider = new MultipleAudioDramaProvider();
+            var provider = new SampleAudioDramaProvider();
             var sorter = new ReleaseDateDescendingSorter();
             var audioDramas = provider.Get().ToList();
             var expectedSort = audioDramas.OrderByDescending(x => x.AudioDramaDto.ReleaseDate).ToList();

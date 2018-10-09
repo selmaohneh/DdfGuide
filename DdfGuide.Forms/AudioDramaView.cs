@@ -22,7 +22,8 @@ namespace DdfGuide.Forms
         public void SetAudioDrama(AudioDrama audioDrama)
         {
             labelId.Text = audioDrama.AudioDramaDto.Id.ToString();
-            labelName.Text = audioDrama.AudioDramaDto.Name;
+            labelName.Text = audioDrama.AudioDramaDto.Title;
+            labelDescription.Text = audioDrama.AudioDramaDto.Description;
             pictureBoxCover.Load(audioDrama.AudioDramaDto.CoverUrl);
 
             if (checkBoxHeard.Checked != audioDrama.AudioDramaUserData.Heard)

@@ -13,7 +13,7 @@ namespace DdfGuide.Test
         [TestInitialize]
         public void Init()
         {
-            var audioDramaProvider = new MultipleAudioDramaProvider();
+            var audioDramaProvider = new SampleAudioDramaProvider();
             _audioDramas = audioDramaProvider.Get();
         }
 
