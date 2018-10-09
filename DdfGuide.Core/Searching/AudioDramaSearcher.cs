@@ -2,7 +2,7 @@
 
 namespace DdfGuide.Core.Searching
 {
-    public class AudioDramaSearcher
+    public class AudioDramaSearcher : IAudioDramaSearcher
     {
         public IEnumerable<AudioDrama> Search(IEnumerable<AudioDrama> audioDramas, string searchText)
         {
