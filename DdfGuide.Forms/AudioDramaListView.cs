@@ -36,6 +36,13 @@ namespace DdfGuide.Forms
         public event EventHandler SpecialsOnlyClicked;
         public event EventHandler FavoritesOnlyClicked;
         public event EventHandler UnheardOnlyClicked;
+        public event EventHandler SearchTextChanged;
+
+        public string GetCurrentSearchText()
+        {
+            return toolStripSearchBox.Text;
+        }
+        
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
@@ -266,6 +273,11 @@ namespace DdfGuide.Forms
         private void specialAudioDramasOnlyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SpecialsOnlyClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void toolStripSearchBox_TextChanged(object sender, EventArgs e)
+        {
+            SearchTextChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DdfGuide.Core;
 using DdfGuide.Core.Filtering;
+using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -22,6 +23,7 @@ namespace DdfGuide.Test
         private Mock<IAudioDramaFilterFactory> _filterFactory;
         private Mock<IAudioDramaSorter> _sorter;
         private Mock<IAudioDramaFilter> _filter;
+        private Mock<IAudioDramaSearcher> _searcher;
 
         [TestInitialize]
         public void Init()
@@ -36,6 +38,7 @@ namespace DdfGuide.Test
 
             _sorter = new Mock<IAudioDramaSorter>();
             _filter = new Mock<IAudioDramaFilter>();
+            _searcher = new Mock<IAudioDramaSearcher>();
 
             _sorterFactory = new Mock<IAudioDramaSorterFactory>();
             _filterFactory = new Mock<IAudioDramaFilterFactory>();
@@ -56,6 +59,10 @@ namespace DdfGuide.Test
                 .Setup(x => x.Filter(It.IsAny<IEnumerable<AudioDrama>>()))
                 .Returns<IEnumerable<AudioDrama>>(x => x);
 
+            _searcher
+                .Setup(x => x.Search(It.IsAny<IEnumerable<AudioDrama>>(), It.IsAny<string>()))
+                .Returns(_audioDramas);
+            
             var _ = new AudioDramaListPresenter(
                 _listView.Object,
                 _view.Object,
@@ -63,7 +70,8 @@ namespace DdfGuide.Test
                 _viewer.Object,
                 _audioDramaPresenter.Object,
                 _filterFactory.Object,
-                _sorterFactory.Object
+                _sorterFactory.Object,
+                _searcher.Object
             );
         }
         
@@ -375,6 +383,20 @@ namespace DdfGuide.Test
             _filterFactory.Verify(x => x.Create(EAudioDramaFilterMode.SpecialsOnly), Times.Once);
             _filter.Verify(x => x.Filter(_audioDramas), Times.Once);
             _listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
+        }
+
+        [TestMethod]
+        public void SearchRequested_GetCurrentSearchText_StartSearch_UpdateView()
+        {
+            _listView.Invocations.Clear();
+
+            _listView.Setup(x => x.GetCurrentSearchText()).Returns("Homer Simpson");
+
+            _listView.Raise(x => x.SearchTextChanged += null, this, EventArgs.Empty);
+
+            _listView.Verify(x => x.GetCurrentSearchText(), Times.Once);
+            _searcher.Verify(x => x.Search(It.IsAny<IEnumerable<AudioDrama>>(), "Homer Simpson"));
+            _listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
         }
     }
 }

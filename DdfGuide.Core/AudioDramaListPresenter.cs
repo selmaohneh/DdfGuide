@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using DdfGuide.Core.Filtering;
+using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
 
 namespace DdfGuide.Core
@@ -18,6 +19,7 @@ namespace DdfGuide.Core
 
         private IAudioDramaSorter _audioDramaSorter;
         private IAudioDramaFilter _audioDramaFilter;
+        private IAudioDramaSearcher _audioDramaSearcher;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
@@ -26,7 +28,8 @@ namespace DdfGuide.Core
             IViewer viewer, 
             IAudioDramaPresenter audioDramaPresenter,
             IAudioDramaFilterFactory audioDramaFilterFactory,
-            IAudioDramaSorterFactory audioDramaSorterFactory)
+            IAudioDramaSorterFactory audioDramaSorterFactory,
+            IAudioDramaSearcher audioDramaSearcher)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -35,6 +38,7 @@ namespace DdfGuide.Core
             _audioDramaPresenter = audioDramaPresenter;
             
             _audioDramaSorterFactory = audioDramaSorterFactory;
+            _audioDramaSearcher = audioDramaSearcher;
             _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.ReleaseDateDescending);
 
             _audioDramaFilterFactory = audioDramaFilterFactory;
@@ -60,12 +64,22 @@ namespace DdfGuide.Core
             _audioDramaListView.UnheardOnlyClicked += OnUnheardOnlyClicked();
             _audioDramaListView.SpecialsOnlyClicked += OnSpecialsOnlyClicked();
 
+            _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
+
             foreach (var audioDrama in _audioDramas)
             {
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
             
             UpdateView();
+        }
+
+        private EventHandler OnSearchTextChanged()
+        {
+            return (sender, args) =>
+            {
+                UpdateView();
+            };
         }
 
         private EventHandler OnSpecialsOnlyClicked()
@@ -240,9 +254,13 @@ namespace DdfGuide.Core
         private void UpdateView()
         {
             var filtered = _audioDramaFilter.Filter(_audioDramas);
-            var filteredAndSorted = _audioDramaSorter.Sort(filtered);
 
-            _audioDramaListView.SetAudioDramaInfos(filteredAndSorted);
+            var searchText = _audioDramaListView.GetCurrentSearchText();
+            var filteredAndSearched = _audioDramaSearcher.Search(filtered, searchText);
+
+            var filteredAndSearchedAndSorted = _audioDramaSorter.Sort(filteredAndSearched);
+
+            _audioDramaListView.SetAudioDramaInfos(filteredAndSearchedAndSorted);
 
             _audioDramaListView.SetFilterInfos(_audioDramaFilter.FilterMode);
             _audioDramaListView.SetSelectedSortMode(_audioDramaSorter.SortMode);

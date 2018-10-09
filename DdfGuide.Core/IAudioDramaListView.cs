@@ -30,5 +30,8 @@ namespace DdfGuide.Core
         event EventHandler SpecialsOnlyClicked;
         event EventHandler FavoritesOnlyClicked;
         event EventHandler UnheardOnlyClicked;
+
+        string GetCurrentSearchText();
+        event EventHandler SearchTextChanged;
     }
 }
