@@ -1,8 +1,9 @@
 ﻿using System;
+using DdfGuide.Core.Searching;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaDto
+    public class AudioDramaDto : ISearchable
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
@@ -33,6 +34,20 @@ namespace DdfGuide.Core
             dump += $" {Name} {ReleaseDate.Date}";
             
             return dump;
+        }
+
+        public string ToSearchString()
+        {
+            var searchString = string.Empty;
+            var properties = GetType().GetProperties();
+
+            foreach (var propertyInfo in properties)
+            {
+                var propertyValue = propertyInfo.GetValue(this);
+                searchString += propertyValue?.ToString();
+            }
+
+            return searchString;
         }
     }
 }

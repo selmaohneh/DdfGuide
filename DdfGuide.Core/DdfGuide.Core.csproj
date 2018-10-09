@@ -43,11 +43,13 @@
     <Compile Include="AudioDrama.cs" />
     <Compile Include="AudioDramaBuilder.cs" />
     <Compile Include="AudioDramaDto.cs" />
+    <Compile Include="Searching\AudioDramaSearcher.cs" />
     <Compile Include="Filtering\AllAudioDramasFilter.cs" />
     <Compile Include="Filtering\AudioDramaFilterFactory.cs" />
     <Compile Include="Filtering\FavoritesOnlyFilter.cs" />
     <Compile Include="Filtering\SpecialAudioDramasOnlyFilter.cs" />
     <Compile Include="Filtering\UnheardOnlyFilter.cs" />
+    <Compile Include="Searching\ISearchable.cs" />
     <Compile Include="Sorting\AudioDramaSorterFactory.cs" />
     <Compile Include="Filtering\EAudioDramaFilterMode.cs" />
     <Compile Include="Sorting\HeardFirstSorter.cs" />

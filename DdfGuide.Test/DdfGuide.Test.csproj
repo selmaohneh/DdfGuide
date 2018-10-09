@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AudioDramaBuilderTests.cs" />
+    <Compile Include="Searching\AudioDramaSearcherTests.cs" />
     <Compile Include="Filtering\AllAudioDramasFilterTests.cs" />
     <Compile Include="Filtering\AudioDramaFilterFactoryTests.cs" />
     <Compile Include="Filtering\FavoritesOnlyFilterTests.cs" />

@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using DdfGuide.Core.Searching;
 
 namespace DdfGuide.Core
 {
-    public class AudioDrama
+    public class AudioDrama : ISearchable
     {
         public AudioDramaDto AudioDramaDto { get; }
         public AudioDramaUserData AudioDramaUserData { get; }
@@ -45,6 +46,12 @@ namespace DdfGuide.Core
             hashCode = hashCode * -1521134295 + EqualityComparer<AudioDramaUserData>.Default.GetHashCode(AudioDramaUserData);
             return hashCode;
         }
+
+        public string ToSearchString()
+        {
+            return AudioDramaDto.ToSearchString();
+        }
+
         #endregion
     }
 }
