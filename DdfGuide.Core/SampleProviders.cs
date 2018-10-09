@@ -12,7 +12,8 @@ namespace DdfGuide.Core
                 MultipleDtoProvider.SampleIds.First(),
                 "Sample name",
                 42,
-                new DateTime(2017, 11, 27));
+                new DateTime(2017, 11, 27),
+                "https://www.rocky-beach.com/hoerspiel/cover/159.jpg");
 
             var list = new List<AudioDramaDto> {dto};
             return list;
@@ -36,16 +37,16 @@ namespace DdfGuide.Core
             var i = 1;
             foreach (var sampleId in SampleIds)
             {
-                var dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2017, 7, 23));
+                var dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2017, 7, 23), "https://www.rocky-beach.com/hoerspiel/cover/159.jpg");
 
                 if (sampleId == SampleIds.First())
                 {
-                    dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2000, 4, 12));
+                    dto = new AudioDramaDto(sampleId, $"Sample name {i}", i, new DateTime(2000, 4, 12), "https://www.rocky-beach.com/hoerspiel/cover/170.jpg");
                 }
                 
                 if (sampleId == SampleIds.Last())
                 {
-                    dto = new AudioDramaDto(sampleId, "I am special", null, new DateTime(1979, 1, 28));
+                    dto = new AudioDramaDto(sampleId, "I am special", null, new DateTime(1979, 1, 28), "https://www.rocky-beach.com/hoerspiel/cover/101.jpg");
                 }
 
                 dtos.Add(dto);

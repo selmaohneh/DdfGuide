@@ -32,8 +32,8 @@
             this.checkBoxHeard = new System.Windows.Forms.CheckBox();
             this.checkBoxIsFavorite = new System.Windows.Forms.CheckBox();
             this.labelName = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBoxCover = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCover)).BeginInit();
             this.SuspendLayout();
             // 
             // labelId
@@ -77,20 +77,21 @@
             this.labelName.TabIndex = 3;
             this.labelName.Text = "labelName";
             // 
-            // pictureBox1
+            // pictureBoxCover
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 200);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxCover.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxCover.Name = "pictureBoxCover";
+            this.pictureBoxCover.Size = new System.Drawing.Size(200, 200);
+            this.pictureBoxCover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxCover.TabIndex = 4;
+            this.pictureBoxCover.TabStop = false;
             // 
             // AudioDramaView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 383);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxCover);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.checkBoxIsFavorite);
             this.Controls.Add(this.checkBoxHeard);
@@ -98,7 +99,7 @@
             this.Name = "AudioDramaView";
             this.Text = "AudioDramaView";
             this.DoubleClick += new System.EventHandler(this.AudioDramaView_DoubleClick);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCover)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,6 +111,6 @@
         private System.Windows.Forms.CheckBox checkBoxHeard;
         private System.Windows.Forms.CheckBox checkBoxIsFavorite;
         private System.Windows.Forms.Label labelName;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxCover;
     }
 }

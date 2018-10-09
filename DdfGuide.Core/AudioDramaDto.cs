@@ -9,13 +9,15 @@ namespace DdfGuide.Core
         public string Name { get; set; }
         public int? Number { get; set; }
         public DateTime ReleaseDate { get; set; }
+        public string CoverUrl { get; set; }
 
-        public AudioDramaDto(Guid id, string name, int? number, DateTime releaseDate)
+        public AudioDramaDto(Guid id, string name, int? number, DateTime releaseDate, string coverUrl)
         {
             Id = id;
             Name = name;
             Number = number;
             ReleaseDate = releaseDate;
+            CoverUrl = coverUrl;
         }
 
         public override string ToString()
