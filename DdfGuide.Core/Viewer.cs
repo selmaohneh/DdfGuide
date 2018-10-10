@@ -6,10 +6,12 @@ namespace DdfGuide.Core
     public class Viewer : IViewer
     {
         private IView _currentView;
+        private readonly IRootView _rootView;
         private readonly Stack<IView> _recentViewsStack;
 
-        public Viewer(Stack<IView> recentViewsStack)
+        public Viewer(IRootView rootView, Stack<IView> recentViewsStack)
         {
+            _rootView = rootView;
             _recentViewsStack = recentViewsStack;
         }
 
@@ -18,21 +20,18 @@ namespace DdfGuide.Core
             if (_currentView != null)
             {
                 _recentViewsStack.Push(_currentView);
-                _currentView.Hide();
             }
             
             _currentView = view;
-            _currentView.Show();
+            _rootView.Show(_currentView);
         }
 
         public void ShowLast()
         {
-            _currentView?.Hide();
-
             if (_recentViewsStack.Any())
             {
                 _currentView = _recentViewsStack.Pop();
-                _currentView.Show();
+                _rootView.Show(_currentView);
             }
 
         }

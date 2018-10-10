@@ -12,17 +12,20 @@ namespace DdfGuide.Core
 
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
+        private readonly IRootView _rootView;
 
         public DdfGuide(
             IProvider<IEnumerable<AudioDramaDto>> dtoProvider,
             IProvider<IEnumerable<AudioDramaUserData>> userDataProvider,
             IAudioDramaListView audioDramaListView,
-            IAudioDramaView audioDramaView)
+            IAudioDramaView audioDramaView,
+            IRootView rootView)
         {
             _dtoProvider = dtoProvider;
             _userDataProvider = userDataProvider;
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
+            _rootView = rootView;
         }
 
         public void Start()
@@ -37,7 +40,7 @@ namespace DdfGuide.Core
             var audioDramas = audioDramaBuilder.Build();
 
             var viewStack = new Stack<IView>();
-            var viewer = new Viewer(viewStack);
+            var viewer = new Viewer(_rootView, viewStack);
 
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView, viewer);
 

@@ -14,6 +14,7 @@ namespace DdfGuide.Test
         private Mock<IProvider<IEnumerable<AudioDramaDto>>> _dtoProvider;
         private Mock<IProvider<IEnumerable<AudioDramaUserData>>> _userDataProvider;
         private Mock<IAudioDramaView> _view;
+        private Mock<IRootView> _rootView;
 
         [TestInitialize]
         public void CreateNewDdfGuide()
@@ -22,12 +23,14 @@ namespace DdfGuide.Test
             _userDataProvider = new Mock<IProvider<IEnumerable<AudioDramaUserData>>>();
             _listView = new Mock<IAudioDramaListView>();
             _view = new Mock<IAudioDramaView>();
+            _rootView = new Mock<IRootView>();
 
             _systemUnderTest = new Core.DdfGuide(
                 _dtoProvider.Object,
                 _userDataProvider.Object,
                 _listView.Object,
-                _view.Object);
+                _view.Object,
+                _rootView.Object);
         }
 
         [TestMethod]
@@ -41,7 +44,7 @@ namespace DdfGuide.Test
         {
             _systemUnderTest.Start();
 
-            _listView.Verify(x => x.Show(), Times.Once);
+            _rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
         }
     }
 }

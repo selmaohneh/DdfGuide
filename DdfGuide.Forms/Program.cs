@@ -7,7 +7,9 @@ namespace DdfGuide.Forms
 {
     public static class Program
     {
-        [STAThread]
+        public static RootForm RootForm { get; private set; }
+
+            [STAThread]
         public static void Main()
         {
             Application.EnableVisualStyles();
@@ -15,9 +17,11 @@ namespace DdfGuide.Forms
 
             CultureInfo.CurrentCulture = new CultureInfo("de-DE");
 
+            var rootForm = new RootForm();
+
             var dtoProvider = new DtoProvider();
             var userDataProvider = new UserDataProvider();
-
+            
             var audioDramaView = new AudioDramaView();
             var audioDramaListView = new AudioDramaListView();
 
@@ -25,11 +29,12 @@ namespace DdfGuide.Forms
                 dtoProvider,
                 userDataProvider,
                 audioDramaListView,
-                audioDramaView);
+                audioDramaView,
+                rootForm);
 
             ddfGuide.Start();
             
-            Application.Run();
+            Application.Run(rootForm);
         }
     }
 }

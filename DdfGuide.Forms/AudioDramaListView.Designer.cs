@@ -241,7 +241,6 @@ namespace DdfGuide.Forms
             this.ClientSize = new System.Drawing.Size(990, 560);
             this.Controls.Add(this.dataGridViewAudioDramas);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "AudioDramaListView";
             this.Text = "AudioDramaListView";
             this.menuStrip1.ResumeLayout(false);

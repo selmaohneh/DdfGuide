@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Drawing;
-using System.IO;
-using System.Net;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DdfGuide.Core;
 
 namespace DdfGuide.Forms
 {
-    public partial class AudioDramaView : Form, IAudioDramaView
+    public partial class AudioDramaView : UserControl, IAudioDramaView
     {
         public AudioDramaView()
         {
@@ -35,12 +31,6 @@ namespace DdfGuide.Forms
             {
                 checkBoxIsFavorite.Checked = audioDrama.AudioDramaUserData.IsFavorite;
             }
-
-        }
-
-        private void AudioDramaView_DoubleClick(object sender, EventArgs e)
-        {
-            BackClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void checkBoxHeard_Click(object sender, EventArgs e)
@@ -51,6 +41,11 @@ namespace DdfGuide.Forms
         private void checkBoxIsFavorite_Click(object sender, EventArgs e)
         {
             IsFavoriteChanged?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void backToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BackClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

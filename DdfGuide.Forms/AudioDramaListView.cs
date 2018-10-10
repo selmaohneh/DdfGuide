@@ -9,7 +9,7 @@ using EventArgs = System.EventArgs;
 
 namespace DdfGuide.Forms
 {
-    public partial class AudioDramaListView : Form, IAudioDramaListView
+    public partial class AudioDramaListView : UserControl, IAudioDramaListView
     {
         public AudioDramaListView()
         {
