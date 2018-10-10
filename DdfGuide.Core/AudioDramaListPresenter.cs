@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using DdfGuide.Core.Filtering;
-using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
 
 namespace DdfGuide.Core
@@ -14,12 +13,7 @@ namespace DdfGuide.Core
         private readonly IEnumerable<AudioDrama> _audioDramas;
         private readonly IViewer _viewer;
         private readonly IAudioDramaPresenter _audioDramaPresenter;
-        private readonly IAudioDramaFilterFactory _audioDramaFilterFactory;
-        private readonly IAudioDramaSorterFactory _audioDramaSorterFactory;
-        private readonly IAudioDramaSearcher _audioDramaSearcher;
-
-        private IAudioDramaSorter _audioDramaSorter;
-        private IAudioDramaFilter _audioDramaFilter;
+        private readonly IAudioDramaExplorer _explorer;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
@@ -27,22 +21,14 @@ namespace DdfGuide.Core
             IEnumerable<AudioDrama> audioDramas,
             IViewer viewer, 
             IAudioDramaPresenter audioDramaPresenter,
-            IAudioDramaFilterFactory audioDramaFilterFactory,
-            IAudioDramaSorterFactory audioDramaSorterFactory,
-            IAudioDramaSearcher audioDramaSearcher)
+            IAudioDramaExplorer explorer)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _audioDramas = audioDramas.ToList();
             _viewer = viewer;
             _audioDramaPresenter = audioDramaPresenter;
-            
-            _audioDramaSorterFactory = audioDramaSorterFactory;
-            _audioDramaSearcher = audioDramaSearcher;
-            _audioDramaSorter = _audioDramaSorterFactory.Create(EAudioDramaSortMode.ReleaseDateDescending);
-
-            _audioDramaFilterFactory = audioDramaFilterFactory;
-            _audioDramaFilter = _audioDramaFilterFactory.Create(EAudioDramaFilterMode.All);
+            _explorer = explorer;
 
             _audioDramaListView.HeardChanged += OnHeardChanged();
             _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
@@ -72,14 +58,16 @@ namespace DdfGuide.Core
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
             
-            UpdateView();
+            UpdateViewWithMatchingAudioDramas();
         }
 
         private EventHandler OnSearchTextChanged()
         {
             return (sender, args) =>
             {
-                UpdateView();
+                var searchText = _audioDramaListView.GetCurrentSearchText();
+                _explorer.SetSearchText(searchText);
+                UpdateViewWithMatchingAudioDramas();
             };
         }
 
@@ -87,8 +75,9 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _audioDramaFilter = _audioDramaFilterFactory.Create(filterMode);
-                UpdateView();
+                _explorer.SetFilterMode(filterMode);
+                _audioDramaListView.SetFilterInfos(filterMode);
+                UpdateViewWithMatchingAudioDramas();
             };
         }
 
@@ -96,14 +85,15 @@ namespace DdfGuide.Core
         {
             return (sender, args) =>
             {
-                _audioDramaSorter = _audioDramaSorterFactory.Create(sortMode);
-                UpdateView();
+               _explorer.SetSortMode(sortMode);
+               _audioDramaListView.SetSelectedSortMode(sortMode);
+                UpdateViewWithMatchingAudioDramas();
             };
         }
 
         private EventHandler OnUserDataChanged()
         {
-            return (sender, args) => { UpdateView(); };
+            return (sender, args) => { UpdateViewWithMatchingAudioDramas(); };
         }
 
         private EventHandler<Guid> OnAudioDramaClicked()
@@ -135,19 +125,10 @@ namespace DdfGuide.Core
             };
         }
 
-        private void UpdateView()
+        private void UpdateViewWithMatchingAudioDramas()
         {
-            var filtered = _audioDramaFilter.Filter(_audioDramas);
-
-            var searchText = _audioDramaListView.GetCurrentSearchText();
-            var filteredAndSearched = _audioDramaSearcher.Search(filtered, searchText);
-
-            var filteredAndSearchedAndSorted = _audioDramaSorter.Sort(filteredAndSearched);
-
-            _audioDramaListView.SetAudioDramaInfos(filteredAndSearchedAndSorted);
-
-            _audioDramaListView.SetFilterInfos(_audioDramaFilter.FilterMode);
-            _audioDramaListView.SetSelectedSortMode(_audioDramaSorter.SortMode);
+            var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            _audioDramaListView.SetAudioDramaInfos(matchingAudioDramas);
         }
     }
 }

@@ -45,15 +45,15 @@ namespace DdfGuide.Core
             var sorterFactory = new AudioDramaSorterFactory();
             var searcher = new AudioDramaSearcher();
 
+            var explorer = new AudioDramaExplorer(searcher, filterFactory, sorterFactory);
+
             var _ = new AudioDramaListPresenter(
                 _audioDramaListView,
                 _audioDramaView,
                 audioDramas,
                 viewer,
                 audioDramaPresenter,
-                filterFactory,
-                sorterFactory,
-                searcher
+                explorer
                 );
 
             viewer.Show(_audioDramaListView);

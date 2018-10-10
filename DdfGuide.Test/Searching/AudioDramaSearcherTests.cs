@@ -54,25 +54,23 @@ namespace DdfGuide.Test.Searching
         [TestMethod]
         public void SearchForPartOfNameReturnsAllAudioDramasThatContainThatPart()
         {
-            const string searchText = "Sample name";
-            var expectedSearchResult = _audioDramas.Where(x => x.AudioDramaDto.Title.Contains("Sample name")).ToList();
-
+            const string searchText = "super";
             var searchResult = _searcher.Search(_audioDramas, searchText).ToList();
 
-            Assert.AreEqual(3, searchResult.Count);
-            CollectionAssert.AreEqual(expectedSearchResult, searchResult);
+            Assert.AreEqual(2, searchResult.Count);
+            Assert.IsTrue(searchResult.Select(x=>x.AudioDramaDto.NumberEuropa).Contains(1));
+            Assert.IsTrue(searchResult.Select(x => x.AudioDramaDto.NumberEuropa).Contains(3));
         }
 
         [TestMethod]
         public void SearchForPartOfNameWithMixedCasing_SearchShouldStillReturnSameResult()
         {
-            const string searchText = "sAMPlE nAMe";
-            var expectedSearchResult = _audioDramas.Where(x => x.AudioDramaDto.Title.Contains("Sample name")).ToList();
-
+            const string searchText = "sUPeR";
             var searchResult = _searcher.Search(_audioDramas, searchText).ToList();
 
-            Assert.AreEqual(3, searchResult.Count);
-            CollectionAssert.AreEqual(expectedSearchResult, searchResult);
+            Assert.AreEqual(2, searchResult.Count);
+            Assert.IsTrue(searchResult.Select(x => x.AudioDramaDto.NumberEuropa).Contains(1));
+            Assert.IsTrue(searchResult.Select(x => x.AudioDramaDto.NumberEuropa).Contains(3));
         }
     }
 }

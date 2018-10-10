@@ -46,6 +46,8 @@
     <Compile Include="AudioDrama.cs" />
     <Compile Include="AudioDramaBuilder.cs" />
     <Compile Include="AudioDramaDto.cs" />
+    <Compile Include="AudioDramaExplorer.cs" />
+    <Compile Include="IAudioDramaExplorer.cs" />
     <Compile Include="RoleDto.cs" />
     <Compile Include="Searching\AudioDramaSearcher.cs" />
     <Compile Include="Filtering\AllAudioDramasFilter.cs" />
