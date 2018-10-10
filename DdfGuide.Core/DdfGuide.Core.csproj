@@ -48,7 +48,9 @@
     <Compile Include="AudioDramaDto.cs" />
     <Compile Include="AudioDramaExplorer.cs" />
     <Compile Include="IAudioDramaExplorer.cs" />
+    <Compile Include="IRandomAudioDramaPicker.cs" />
     <Compile Include="IRootView.cs" />
+    <Compile Include="RandomAudioDramaPicker.cs" />
     <Compile Include="RoleDto.cs" />
     <Compile Include="Searching\AudioDramaSearcher.cs" />
     <Compile Include="Filtering\AllAudioDramasFilter.cs" />
