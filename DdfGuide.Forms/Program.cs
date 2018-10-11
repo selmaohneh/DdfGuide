@@ -30,8 +30,15 @@ namespace DdfGuide.Forms
                 rootForm);
 
             ddfGuide.Start();
-            
-            Application.Run(rootForm);
+
+            try
+            {
+                Application.Run(rootForm);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
