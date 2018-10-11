@@ -40,18 +40,6 @@ namespace DdfGuide.Test.Searching
         }
 
         [TestMethod]
-        public void SearchTextWithPartOfIdReturnsSingleCorrectAudioDrama()
-        {
-            var audioDrama = _audioDramas.ElementAt(2);
-            var searchText = audioDrama.AudioDramaDto.Id.ToString().Substring(4, 5);
-
-            var searchResult = _searcher.Search(_audioDramas, searchText).ToList();
-
-            Assert.AreEqual(1, searchResult.Count);
-            Assert.AreEqual(audioDrama, searchResult.First());
-        }
-
-        [TestMethod]
         public void SearchForPartOfNameReturnsAllAudioDramasThatContainThatPart()
         {
             const string searchText = "super";

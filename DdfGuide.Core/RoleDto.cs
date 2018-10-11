@@ -1,6 +1,8 @@
-﻿namespace DdfGuide.Core
+﻿using DdfGuide.Core.Searching;
+
+namespace DdfGuide.Core
 {
-    public class RoleDto
+    public class RoleDto : ISearchable
     {
         public string Character { get; set; }
         public string Speaker { get; set; }
@@ -9,6 +11,11 @@
         {
             Character = character;
             Speaker = speaker;
+        }
+
+        public string ToSearchString()
+        {
+            return Character + Speaker;
         }
     }
 }

@@ -150,6 +150,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AudioDramaAsSearchItemTests.cs" />
     <Compile Include="AudioDramaBuilderTests.cs" />
     <Compile Include="AudioDramaExplorerTests.cs" />
     <Compile Include="RandomAudioDramaPickerTests.cs" />

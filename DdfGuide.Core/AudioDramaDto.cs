@@ -48,12 +48,15 @@ namespace DdfGuide.Core
         public string ToSearchString()
         {
             var searchString = string.Empty;
-            var properties = GetType().GetProperties();
+            searchString += Title;
+            searchString += NumberEuropa;
+            searchString += ReleaseDate;
+            searchString += Interpreter;
+            searchString += Description;
 
-            foreach (var propertyInfo in properties)
+            foreach (var role in Roles)
             {
-                var propertyValue = propertyInfo.GetValue(this);
-                searchString += propertyValue?.ToString();
+                searchString += role.ToSearchString();
             }
 
             return searchString;

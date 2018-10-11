@@ -18,6 +18,11 @@ namespace DdfGuide.Core
         {
             return $"{AudioDramaDto} {AudioDramaUserData}";
         }
+        
+        public string ToSearchString()
+        {
+            return AudioDramaDto.ToSearchString();
+        }
 
         #region equality stuff
         public override bool Equals(object obj)
@@ -45,11 +50,6 @@ namespace DdfGuide.Core
             hashCode = hashCode * -1521134295 + EqualityComparer<AudioDramaDto>.Default.GetHashCode(AudioDramaDto);
             hashCode = hashCode * -1521134295 + EqualityComparer<AudioDramaUserData>.Default.GetHashCode(AudioDramaUserData);
             return hashCode;
-        }
-
-        public string ToSearchString()
-        {
-            return AudioDramaDto.ToSearchString();
         }
 
         #endregion

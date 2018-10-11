@@ -1,4 +1,6 @@
-﻿using DdfGuide.Core;
+﻿using System.Globalization;
+using System.Runtime.InteropServices;
+using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Moq.AutoMock;
@@ -32,6 +34,15 @@ namespace DdfGuide.Test
             _systemUnderTest.Start();
 
             rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
+        }
+
+        [TestMethod]
+        public void CultureNeedsToBeGerman()
+        {
+            var culture = System.Globalization.CultureInfo.CurrentCulture;
+            var expectedCulture = new CultureInfo("de-DE");
+
+            Assert.AreEqual(expectedCulture, culture);
         }
     }
 }

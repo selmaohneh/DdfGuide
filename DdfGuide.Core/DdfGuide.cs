@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Globalization;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
@@ -30,6 +31,8 @@ namespace DdfGuide.Core
 
         public void Start()
         {
+            CultureInfo.CurrentCulture = new CultureInfo("de-DE");
+
             var dtos = _dtoProvider.Get();
             var userData = _userDataProvider.Get();
 

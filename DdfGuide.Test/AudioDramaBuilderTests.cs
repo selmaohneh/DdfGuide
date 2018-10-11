@@ -11,10 +11,10 @@ namespace DdfGuide.Test
         [TestMethod]
         public void TestCorrectBuilding()
         {
-            var dtoProvider = new DtoProvider();
+            var dtoProvider = new SampleDtoProvider();
             var dtos = dtoProvider.Get().ToList();
             
-            var userDataProvider = new UserDataProvider();
+            var userDataProvider = new SampleUserDataProvider();
             var userData = userDataProvider.Get().ToList();
 
             var audioDramas = new List<AudioDrama>();

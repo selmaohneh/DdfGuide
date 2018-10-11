@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 using System.Windows.Forms;
 using DdfGuide.Core;
 
@@ -15,12 +14,10 @@ namespace DdfGuide.Forms
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            CultureInfo.CurrentCulture = new CultureInfo("de-DE");
-
             var rootForm = new RootForm();
 
-            var dtoProvider = new DtoProvider();
-            var userDataProvider = new UserDataProvider();
+            var dtoProvider = new BigSampleDtoProvider();
+            var userDataProvider = new SampleUserDataProvider();
             
             var audioDramaView = new AudioDramaView();
             var audioDramaListView = new AudioDramaListView();

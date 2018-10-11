@@ -5,7 +5,18 @@ using Newtonsoft.Json;
 
 namespace DdfGuide.Core
 {
-    public class DtoProvider : IProvider<IEnumerable<AudioDramaDto>>
+    public class BigSampleDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
+    {
+        public IEnumerable<AudioDramaDto> Get()
+        {
+            var json = File.ReadAllText(@"C:\Repositories\DdfGuide\sampledtos.json");
+            var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
+
+            return dtos;
+        }
+    }
+
+    public class SampleDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
     {
         public IEnumerable<AudioDramaDto> Get()
         {
@@ -16,11 +27,11 @@ namespace DdfGuide.Core
         }
     }
 
-    public class UserDataProvider : IProvider<IEnumerable<AudioDramaUserData>>
+    public class SampleUserDataProvider : IProvider<IEnumerable<AudioDramaUserData>>
     {
         public IEnumerable<AudioDramaUserData> Get()
         {
-            var dtos = new DtoProvider().Get().ToList();
+            var dtos = new SampleDtoProvider().Get().ToList();
 
             var userDatas = new List<AudioDramaUserData>
             {
@@ -38,8 +49,8 @@ namespace DdfGuide.Core
     {
         public IEnumerable<AudioDrama> Get()
         {
-            var dtoProvider = new DtoProvider();
-            var userDataProvider = new UserDataProvider();
+            var dtoProvider = new SampleDtoProvider();
+            var userDataProvider = new SampleUserDataProvider();
 
             var dtos = dtoProvider.Get().ToList();
             var userDatas = userDataProvider.Get().ToList();

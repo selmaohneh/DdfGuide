@@ -90,7 +90,7 @@
             this.pictureBoxCover.Location = new System.Drawing.Point(3, 3);
             this.pictureBoxCover.Name = "pictureBoxCover";
             this.pictureBoxCover.Size = new System.Drawing.Size(200, 200);
-            this.pictureBoxCover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxCover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxCover.TabIndex = 10;
             this.pictureBoxCover.TabStop = false;
             // 
