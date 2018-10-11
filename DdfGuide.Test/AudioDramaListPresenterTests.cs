@@ -405,5 +405,14 @@ namespace DdfGuide.Test
 
             view.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
         }
+
+        [TestMethod]
+        public void OnBackClicked_ShowLastView()
+        {
+            var view = _mocker.GetMock<IAudioDramaListView>();
+            view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
+
+            _mocker.Verify<IViewer>(x => x.ShowLast());
+        }
     }
 }

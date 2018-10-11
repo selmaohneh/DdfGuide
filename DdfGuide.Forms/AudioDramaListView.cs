@@ -285,5 +285,10 @@ namespace DdfGuide.Forms
         {
             RandomClicked?.Invoke(this, EventArgs.Empty);
         }
+
+        private void backToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BackClicked?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

@@ -50,10 +50,11 @@ namespace DdfGuide.Forms
             this.favoritesOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unheardOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSearchBox = new System.Windows.Forms.ToolStripTextBox();
+            this.randomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.randomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -64,6 +65,7 @@ namespace DdfGuide.Forms
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.backToolStripMenuItem,
             this.orderingToolStripMenuItem,
             this.filteringToolStripMenuItem,
             this.toolStripSearchBox,
@@ -215,6 +217,13 @@ namespace DdfGuide.Forms
             this.toolStripSearchBox.Size = new System.Drawing.Size(100, 31);
             this.toolStripSearchBox.TextChanged += new System.EventHandler(this.toolStripSearchBox_TextChanged);
             // 
+            // randomToolStripMenuItem
+            // 
+            this.randomToolStripMenuItem.Name = "randomToolStripMenuItem";
+            this.randomToolStripMenuItem.Size = new System.Drawing.Size(92, 31);
+            this.randomToolStripMenuItem.Text = "Random";
+            this.randomToolStripMenuItem.Click += new System.EventHandler(this.randomToolStripMenuItem_Click);
+            // 
             // dataGridViewAudioDramas
             // 
             this.dataGridViewAudioDramas.AllowUserToAddRows = false;
@@ -237,12 +246,12 @@ namespace DdfGuide.Forms
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
             // 
-            // randomToolStripMenuItem
+            // backToolStripMenuItem
             // 
-            this.randomToolStripMenuItem.Name = "randomToolStripMenuItem";
-            this.randomToolStripMenuItem.Size = new System.Drawing.Size(92, 31);
-            this.randomToolStripMenuItem.Text = "Random";
-            this.randomToolStripMenuItem.Click += new System.EventHandler(this.randomToolStripMenuItem_Click);
+            this.backToolStripMenuItem.Name = "backToolStripMenuItem";
+            this.backToolStripMenuItem.Size = new System.Drawing.Size(60, 31);
+            this.backToolStripMenuItem.Text = "Back";
+            this.backToolStripMenuItem.Click += new System.EventHandler(this.backToolStripMenuItem_Click);
             // 
             // AudioDramaListView
             // 
@@ -286,6 +295,7 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem specialAudioDramasOnlyToolStripMenuItem;
         private System.Windows.Forms.ToolStripTextBox toolStripSearchBox;
         private System.Windows.Forms.ToolStripMenuItem randomToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backToolStripMenuItem;
     }
 }
 

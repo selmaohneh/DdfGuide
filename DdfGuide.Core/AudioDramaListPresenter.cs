@@ -32,6 +32,8 @@ namespace DdfGuide.Core
             _explorer = explorer;
             _picker = picker;
 
+            _audioDramaListView.BackClicked += OnBackClicked();
+
             _audioDramaListView.HeardChanged += OnHeardChanged();
             _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
             _audioDramaListView.AudioDramaClicked += OnAudioDramaClicked();
@@ -56,6 +58,11 @@ namespace DdfGuide.Core
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
 
             _audioDramaListView.RandomClicked += OnRandomClicked();
+        }
+
+        private EventHandler OnBackClicked()
+        {
+            return (sender, args) => { _viewer.ShowLast(); };
         }
 
         public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
