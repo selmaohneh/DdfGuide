@@ -3,119 +3,113 @@ using System.Linq;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using Moq.AutoMock;
 
 namespace DdfGuide.Test
 {
     [TestClass]
     public class AudioDramaPresenterTests
     {
-        private Mock<IAudioDramaView> _view;
         private SampleAudioDramaProvider _sampleAudioDramaProvider;
-        private Mock<IViewer> _viewer;
         private AudioDrama _audioDrama;
         private AudioDramaPresenter _sut;
+        private AutoMocker _mocker;
 
         [TestInitialize]
         public void Init()
         {
             _sampleAudioDramaProvider = new SampleAudioDramaProvider();
-
-            _view = new Mock<IAudioDramaView>();
-            _viewer = new Mock<IViewer>();
-
             _audioDrama = _sampleAudioDramaProvider.Get().First();
 
-            _sut = new AudioDramaPresenter(
-                _view.Object,
-                _viewer.Object);
+            _mocker = new AutoMocker();
+            _sut = _mocker.CreateInstance<AudioDramaPresenter>();
 
             _sut.SetAudioDrama(_audioDrama);
 
         }
 
         [TestMethod]
-        public void HeardChanged_UpdateModel()
+        public void HeardChangedOnView_UpdateModel()
         {
+            var view = _mocker.GetMock<IAudioDramaView>();
+
             Assert.IsFalse(_audioDrama.AudioDramaUserData.Heard);
-            _view.Raise(x => x.HeardChanged += null, this, EventArgs.Empty);
+
+            view.Raise(x => x.HeardChanged += null, this, EventArgs.Empty);
             Assert.IsTrue(_audioDrama.AudioDramaUserData.Heard);
-            _view.Raise(x => x.HeardChanged += null, EventArgs.Empty);
+
+            view.Raise(x => x.HeardChanged += null, EventArgs.Empty);
             Assert.IsFalse(_audioDrama.AudioDramaUserData.Heard);
         }
 
         [TestMethod]
-        public void HeardChanged_UpdateView()
+        public void HeardChangedOnModel_UpdateViewWithAudioDrama()
         {
-            _view.Invocations.Clear();
+            var view = _mocker.GetMock<IAudioDramaView>();
+            view.Invocations.Clear();
 
-            Assert.IsFalse(_audioDrama.AudioDramaUserData.Heard);
-            _view.Raise(x => x.HeardChanged += null, EventArgs.Empty);
+            var currentValue = _audioDrama.AudioDramaUserData.Heard;
+            _audioDrama.AudioDramaUserData.Heard = !currentValue;
 
-            _view.Verify(
-                x => x.SetAudioDrama(It.Is<AudioDrama>(y => y.AudioDramaUserData.Heard)),
+            view.Verify(
+                x => x.SetAudioDrama(It.IsAny<AudioDrama>()),
                 Times.Once);
         }
 
         [TestMethod]
-        public void IsFavoriteChanged_UpdateModel()
+        public void IsFavoriteChangedOnView_UpdateModel()
         {
+            var view = _mocker.GetMock<IAudioDramaView>();
+
             Assert.IsFalse(_audioDrama.AudioDramaUserData.IsFavorite);
-            _view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
+
+            view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
             Assert.IsTrue(_audioDrama.AudioDramaUserData.IsFavorite);
-            _view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
+
+            view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
             Assert.IsFalse(_audioDrama.AudioDramaUserData.IsFavorite);
         }
 
         [TestMethod]
-        public void IsFavoriteChanged_UpdateView()
+        public void IsFavoriteChangedOnModel_UpdateViewWithAudioDrama()
         {
-            _view.Invocations.Clear();
+            var view = _mocker.GetMock<IAudioDramaView>();
+            view.Invocations.Clear();
 
-            Assert.IsFalse(_audioDrama.AudioDramaUserData.IsFavorite);
-            _view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
+            var currentValue = _audioDrama.AudioDramaUserData.IsFavorite;
+            _audioDrama.AudioDramaUserData.IsFavorite = !currentValue;
 
-            _view.Verify(
-                x => x.SetAudioDrama(It.Is<AudioDrama>(y => y.AudioDramaUserData.IsFavorite)),
+            view.Verify(
+                x => x.SetAudioDrama(It.IsAny<AudioDrama>()),
                 Times.Once);
         }
 
         [TestMethod]
         public void BackClicked_ShowLastView()
         {
-            _view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
+            var view = _mocker.GetMock<IAudioDramaView>();
+            var viewer = _mocker.GetMock<IViewer>();
 
-            _viewer.Verify(x => x.ShowLast(), Times.Once);
-        }
+            view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
 
-        [TestMethod]
-        public void UserDataChanged_UpdateView()
-        {
-            _view.Invocations.Clear();
-
-            _view.Verify(x=>x.SetAudioDrama(_audioDrama), Times.Never);
-
-            _audioDrama.AudioDramaUserData.Heard = !_audioDrama.AudioDramaUserData.Heard;
-            _view.Verify(x => x.SetAudioDrama(_audioDrama), Times.Once);
-
-            _audioDrama.AudioDramaUserData.IsFavorite = !_audioDrama.AudioDramaUserData.IsFavorite;
-            _view.Verify(x => x.SetAudioDrama(_audioDrama), Times.Exactly(2));
+            viewer.Verify(x => x.ShowLast(), Times.Once);
         }
 
         [TestMethod]
         public void SetNewModelMultipleTimes_DontRaiseEventsMultipleTimes()
         {
+            var view = _mocker.GetMock<IAudioDramaView>();
+
             _sut.SetAudioDrama(_audioDrama);
             _sut.SetAudioDrama(_audioDrama);
             _sut.SetAudioDrama(_audioDrama);
             _sut.SetAudioDrama(_audioDrama);
 
-            _view.Invocations.Clear();
+            view.Invocations.Clear();
+            
+            view.Raise(x => x.HeardChanged += null, null, EventArgs.Empty);
 
-            Assert.IsFalse(_audioDrama.AudioDramaUserData.Heard);
-            _view.Raise(x => x.HeardChanged += null, null, EventArgs.Empty);
-            Assert.IsTrue(_audioDrama.AudioDramaUserData.Heard);
-
-            _view.Verify(x => x.SetAudioDrama(It.IsAny<AudioDrama>()), Times.Once());
+            view.Verify(x => x.SetAudioDrama(It.IsAny<AudioDrama>()), Times.Once());
         }
     }
 }
