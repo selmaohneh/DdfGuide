@@ -47,6 +47,7 @@
     <Compile Include="AudioDramaBuilder.cs" />
     <Compile Include="AudioDramaDto.cs" />
     <Compile Include="AudioDramaExplorer.cs" />
+    <Compile Include="Filtering\DieDreiFrageichenOnlyFilter.cs" />
     <Compile Include="IAudioDramaExplorer.cs" />
     <Compile Include="IInterpreterSelectionView.cs" />
     <Compile Include="IRandomAudioDramaPicker.cs" />

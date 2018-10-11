@@ -6,6 +6,7 @@
         MainsOnly,
         FavoritesOnly,
         UnheardOnly,
-        SpecialsOnly
+        SpecialsOnly,
+        DieDreiFragezeichen
     }
 }
