@@ -14,19 +14,22 @@ namespace DdfGuide.Core
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
         private readonly IRootView _rootView;
+        private readonly IInterpreterSelectionView _interpreterSelectionView;
 
         public DdfGuide(
             IProvider<IEnumerable<AudioDramaDto>> dtoProvider,
             IProvider<IEnumerable<AudioDramaUserData>> userDataProvider,
             IAudioDramaListView audioDramaListView,
             IAudioDramaView audioDramaView,
-            IRootView rootView)
+            IRootView rootView,
+            IInterpreterSelectionView interpreterSelectionView)
         {
             _dtoProvider = dtoProvider;
             _userDataProvider = userDataProvider;
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _rootView = rootView;
+            _interpreterSelectionView = interpreterSelectionView;
         }
 
         public void Start()
@@ -54,17 +57,18 @@ namespace DdfGuide.Core
             var explorer = new AudioDramaExplorer(searcher, filterFactory, sorterFactory);
             var picker = new RandomAudioDramaPicker();
 
-            var _ = new AudioDramaListPresenter(
+            var audioDramaListPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
                 _audioDramaView,
-                audioDramas,
                 viewer,
                 audioDramaPresenter,
                 explorer,
                 picker
                 );
 
-            viewer.Show(_audioDramaListView);
+            audioDramaListPresenter.SetAudioDramas(audioDramas);
+
+            viewer.Show(_interpreterSelectionView);
         }
     }
 }

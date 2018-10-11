@@ -27,19 +27,19 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void Startup_ShowAudioDramaListView()
+        public void Startup_ShowInterpreterSelectionView()
         {
             var rootView = _mocker.GetMock<IRootView>();
 
             _systemUnderTest.Start();
 
-            rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
+            rootView.Verify(x => x.Show(It.IsAny<IInterpreterSelectionView>()));
         }
 
         [TestMethod]
         public void CultureNeedsToBeGerman()
         {
-            var culture = System.Globalization.CultureInfo.CurrentCulture;
+            var culture = CultureInfo.CurrentCulture;
             var expectedCulture = new CultureInfo("de-DE");
 
             Assert.AreEqual(expectedCulture, culture);

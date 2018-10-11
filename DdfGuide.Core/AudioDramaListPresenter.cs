@@ -10,16 +10,16 @@ namespace DdfGuide.Core
     {
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
-        private readonly IEnumerable<AudioDrama> _audioDramas;
         private readonly IViewer _viewer;
         private readonly IAudioDramaPresenter _audioDramaPresenter;
         private readonly IAudioDramaExplorer _explorer;
         private readonly IRandomAudioDramaPicker _picker;
+        
+        private IEnumerable<AudioDrama> _audioDramas;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
             IAudioDramaView audioDramaView,
-            IEnumerable<AudioDrama> audioDramas,
             IViewer viewer, 
             IAudioDramaPresenter audioDramaPresenter,
             IAudioDramaExplorer explorer,
@@ -27,7 +27,6 @@ namespace DdfGuide.Core
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
-            _audioDramas = audioDramas.ToList();
             _viewer = viewer;
             _audioDramaPresenter = audioDramaPresenter;
             _explorer = explorer;
@@ -57,12 +56,18 @@ namespace DdfGuide.Core
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
 
             _audioDramaListView.RandomClicked += OnRandomClicked();
+        }
+
+        public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
+        {
+            _audioDramas = audioDramas;
 
             foreach (var audioDrama in _audioDramas)
             {
+                audioDrama.AudioDramaUserData.Changed -= OnUserDataChanged();
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
-            
+
             UpdateViewWithMatchingAudioDramas();
         }
 

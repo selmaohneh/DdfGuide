@@ -16,6 +16,7 @@ namespace DdfGuide.Test
         private SampleAudioDramaProvider _sampleAudioDramaProvider;
         private List<AudioDrama> _audioDramas;
         private AutoMocker _mocker;
+        private AudioDramaListPresenter _sut;
 
         [TestInitialize]
         public void Init()
@@ -27,14 +28,19 @@ namespace DdfGuide.Test
 
             _mocker.Use<IEnumerable<AudioDrama>>(_audioDramas);
 
-            var _ = _mocker.CreateInstance<AudioDramaListPresenter>();
+            _sut = _mocker.CreateInstance<AudioDramaListPresenter>();
+            _sut.SetAudioDramas(_audioDramas);
         }
         
 
         [TestMethod]
-        public void Construct_UpdateAudioDramasOnView()
+        public void SetNewModel_UpdateAudioDramasOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
+            listView.Invocations.Clear();
+
+            _sut.SetAudioDramas(_audioDramas);
+
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once);
         }
 
@@ -381,6 +387,23 @@ namespace DdfGuide.Test
             picker.Verify(x => x.Pick(_audioDramas));
             viewer.Verify(x => x.Show(view.Object));
             view.Verify(x => x.SetAudioDrama(audioDrama));
+        }
+
+        [TestMethod]
+        public void SetNewModelMultipleTimes_DontRaiseEventsMultipleTimes()
+        {
+            var view = _mocker.GetMock<IAudioDramaListView>();
+
+            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetAudioDramas(_audioDramas);
+
+            view.Invocations.Clear();
+
+            view.Raise(x => x.HeardChanged += null, this, _audioDramas.First().AudioDramaDto.Id);
+
+            view.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
         }
     }
 }
