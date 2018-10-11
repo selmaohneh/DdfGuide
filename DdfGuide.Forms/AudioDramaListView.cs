@@ -37,6 +37,7 @@ namespace DdfGuide.Forms
         public event EventHandler FavoritesOnlyClicked;
         public event EventHandler UnheardOnlyClicked;
         public event EventHandler SearchTextChanged;
+        public event EventHandler RandomClicked;
 
         public string GetCurrentSearchText()
         {
@@ -278,6 +279,11 @@ namespace DdfGuide.Forms
         private void toolStripSearchBox_TextChanged(object sender, EventArgs e)
         {
             SearchTextChanged?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void randomToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RandomClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

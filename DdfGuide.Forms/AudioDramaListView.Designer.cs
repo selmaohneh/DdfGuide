@@ -53,6 +53,7 @@ namespace DdfGuide.Forms
             this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.randomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -65,7 +66,8 @@ namespace DdfGuide.Forms
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.orderingToolStripMenuItem,
             this.filteringToolStripMenuItem,
-            this.toolStripSearchBox});
+            this.toolStripSearchBox,
+            this.randomToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(990, 35);
@@ -235,6 +237,13 @@ namespace DdfGuide.Forms
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
             // 
+            // randomToolStripMenuItem
+            // 
+            this.randomToolStripMenuItem.Name = "randomToolStripMenuItem";
+            this.randomToolStripMenuItem.Size = new System.Drawing.Size(92, 31);
+            this.randomToolStripMenuItem.Text = "Random";
+            this.randomToolStripMenuItem.Click += new System.EventHandler(this.randomToolStripMenuItem_Click);
+            // 
             // AudioDramaListView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -276,6 +285,7 @@ namespace DdfGuide.Forms
         private System.Windows.Forms.ToolStripMenuItem unheardOnlyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem specialAudioDramasOnlyToolStripMenuItem;
         private System.Windows.Forms.ToolStripTextBox toolStripSearchBox;
+        private System.Windows.Forms.ToolStripMenuItem randomToolStripMenuItem;
     }
 }
 

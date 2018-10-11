@@ -14,6 +14,7 @@ namespace DdfGuide.Core
         private readonly IViewer _viewer;
         private readonly IAudioDramaPresenter _audioDramaPresenter;
         private readonly IAudioDramaExplorer _explorer;
+        private readonly IRandomAudioDramaPicker _picker;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView, 
@@ -21,7 +22,8 @@ namespace DdfGuide.Core
             IEnumerable<AudioDrama> audioDramas,
             IViewer viewer, 
             IAudioDramaPresenter audioDramaPresenter,
-            IAudioDramaExplorer explorer)
+            IAudioDramaExplorer explorer,
+            IRandomAudioDramaPicker picker)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -29,6 +31,7 @@ namespace DdfGuide.Core
             _viewer = viewer;
             _audioDramaPresenter = audioDramaPresenter;
             _explorer = explorer;
+            _picker = picker;
 
             _audioDramaListView.HeardChanged += OnHeardChanged();
             _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
@@ -53,12 +56,25 @@ namespace DdfGuide.Core
 
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
 
+            _audioDramaListView.RandomClicked += OnRandomClicked();
+
             foreach (var audioDrama in _audioDramas)
             {
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
             
             UpdateViewWithMatchingAudioDramas();
+        }
+
+        private EventHandler OnRandomClicked()
+        {
+            return (sender, args) =>
+            {
+                var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas);
+                var randomAudioDrama = _picker.Pick(matchingAudioDramas);
+                _audioDramaView.SetAudioDrama(randomAudioDrama);
+                _viewer.Show(_audioDramaView);
+            };
         }
 
         private EventHandler OnSearchTextChanged()

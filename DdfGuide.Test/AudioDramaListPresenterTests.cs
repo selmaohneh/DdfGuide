@@ -362,5 +362,25 @@ namespace DdfGuide.Test
             explorer.Verify(x => x.SetSearchText("Homer Simpson"), Times.Once);
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
         }
+
+        [TestMethod]
+        public void RandomAudioDramaRequested_PickRandomFromExplorer_ShowAudioDramaView_SetRandomToView()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            var picker = _mocker.GetMock<IRandomAudioDramaPicker>();
+            var viewer = _mocker.GetMock<IViewer>();
+            var view = _mocker.GetMock<IAudioDramaView>();
+            var explorer = _mocker.GetMock<IAudioDramaExplorer>();
+            var audioDrama = _audioDramas.First();
+
+            explorer.Setup(x => x.GetMatchingAudioDramas(It.IsAny<IEnumerable<AudioDrama>>())).Returns(_audioDramas);
+            picker.Setup(x => x.Pick(It.IsAny<IEnumerable<AudioDrama>>())).Returns(audioDrama);
+
+            listView.Raise(x => x.RandomClicked += null, this, EventArgs.Empty);
+
+            picker.Verify(x => x.Pick(_audioDramas));
+            viewer.Verify(x => x.Show(view.Object));
+            view.Verify(x => x.SetAudioDrama(audioDrama));
+        }
     }
 }

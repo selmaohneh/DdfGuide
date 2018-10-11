@@ -49,6 +49,7 @@ namespace DdfGuide.Core
             var searcher = new AudioDramaSearcher();
 
             var explorer = new AudioDramaExplorer(searcher, filterFactory, sorterFactory);
+            var picker = new RandomAudioDramaPicker();
 
             var _ = new AudioDramaListPresenter(
                 _audioDramaListView,
@@ -56,7 +57,8 @@ namespace DdfGuide.Core
                 audioDramas,
                 viewer,
                 audioDramaPresenter,
-                explorer
+                explorer,
+                picker
                 );
 
             viewer.Show(_audioDramaListView);

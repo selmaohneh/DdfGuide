@@ -33,5 +33,7 @@ namespace DdfGuide.Core
 
         string GetCurrentSearchText();
         event EventHandler SearchTextChanged;
+
+        event EventHandler RandomClicked;
     }
 }
