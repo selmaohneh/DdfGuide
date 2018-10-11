@@ -49,10 +49,10 @@ namespace DdfGuide.Forms
             this.specialAudioDramasOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.favoritesOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unheardOnlyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSearchBox = new System.Windows.Forms.ToolStripTextBox();
             this.dataGridViewAudioDramas = new System.Windows.Forms.DataGridView();
             this.audioDramaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.audioDramaUserDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.toolStripSearchBox = new System.Windows.Forms.ToolStripTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.audioDramaBindingSource)).BeginInit();
@@ -206,6 +206,13 @@ namespace DdfGuide.Forms
             this.unheardOnlyToolStripMenuItem.Text = "Unheard only";
             this.unheardOnlyToolStripMenuItem.Click += new System.EventHandler(this.unheardOnlyToolStripMenuItem_Click);
             // 
+            // toolStripSearchBox
+            // 
+            this.toolStripSearchBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.toolStripSearchBox.Name = "toolStripSearchBox";
+            this.toolStripSearchBox.Size = new System.Drawing.Size(100, 31);
+            this.toolStripSearchBox.TextChanged += new System.EventHandler(this.toolStripSearchBox_TextChanged);
+            // 
             // dataGridViewAudioDramas
             // 
             this.dataGridViewAudioDramas.AllowUserToAddRows = false;
@@ -228,21 +235,14 @@ namespace DdfGuide.Forms
             // 
             this.audioDramaUserDataBindingSource.DataSource = typeof(DdfGuide.Core.AudioDramaUserData);
             // 
-            // toolStripSearchBox
-            // 
-            this.toolStripSearchBox.Name = "toolStripSearchBox";
-            this.toolStripSearchBox.Size = new System.Drawing.Size(100, 31);
-            this.toolStripSearchBox.TextChanged += new System.EventHandler(this.toolStripSearchBox_TextChanged);
-            // 
             // AudioDramaListView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(990, 560);
             this.Controls.Add(this.dataGridViewAudioDramas);
             this.Controls.Add(this.menuStrip1);
             this.Name = "AudioDramaListView";
-            this.Text = "AudioDramaListView";
+            this.Size = new System.Drawing.Size(990, 560);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAudioDramas)).EndInit();
