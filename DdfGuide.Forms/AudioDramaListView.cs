@@ -46,7 +46,7 @@ namespace DdfGuide.Forms
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
-            var rows = audioDramas.Select(audioDrama => new AudioDramaRow(audioDrama)).ToList();
+            var rows = audioDramas.Select(audioDrama => new AudioDramaRowAdapter(audioDrama)).ToList();
             
             dataGridViewAudioDramas.DataSource = rows;
 

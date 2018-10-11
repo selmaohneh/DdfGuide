@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using DdfGuide.Core;
+﻿using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using Moq.AutoMock;
 
 namespace DdfGuide.Test
 {
@@ -9,28 +9,13 @@ namespace DdfGuide.Test
     public class DdfGuideTests
     {
         private Core.DdfGuide _systemUnderTest;
-
-        private Mock<IAudioDramaListView> _listView;
-        private Mock<IProvider<IEnumerable<AudioDramaDto>>> _dtoProvider;
-        private Mock<IProvider<IEnumerable<AudioDramaUserData>>> _userDataProvider;
-        private Mock<IAudioDramaView> _view;
-        private Mock<IRootView> _rootView;
+        private AutoMocker _mocker;
 
         [TestInitialize]
         public void CreateNewDdfGuide()
         {
-            _dtoProvider = new Mock<IProvider<IEnumerable<AudioDramaDto>>>();
-            _userDataProvider = new Mock<IProvider<IEnumerable<AudioDramaUserData>>>();
-            _listView = new Mock<IAudioDramaListView>();
-            _view = new Mock<IAudioDramaView>();
-            _rootView = new Mock<IRootView>();
-
-            _systemUnderTest = new Core.DdfGuide(
-                _dtoProvider.Object,
-                _userDataProvider.Object,
-                _listView.Object,
-                _view.Object,
-                _rootView.Object);
+            _mocker = new AutoMocker();
+            _systemUnderTest = _mocker.CreateInstance<Core.DdfGuide>();
         }
 
         [TestMethod]
@@ -42,9 +27,11 @@ namespace DdfGuide.Test
         [TestMethod]
         public void Startup_ShowAudioDramaListView()
         {
+            var rootView = _mocker.GetMock<IRootView>();
+
             _systemUnderTest.Start();
 
-            _rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
+            rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
         }
     }
 }

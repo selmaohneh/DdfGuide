@@ -3,7 +3,7 @@ using DdfGuide.Core;
 
 namespace DdfGuide.Forms
 {
-    public class AudioDramaRow
+    public class AudioDramaRowAdapter
     {
         public Guid Id { get; set; }
         public int? Number { get; set; }
@@ -12,7 +12,7 @@ namespace DdfGuide.Forms
         public bool Heard { get; set; }
         public bool IsFavorite { get; set; }
 
-        public AudioDramaRow(AudioDrama audioDrama)
+        public AudioDramaRowAdapter(AudioDrama audioDrama)
         {
             Id = audioDrama.AudioDramaDto.Id;
             Number = audioDrama.AudioDramaDto.NumberEuropa;

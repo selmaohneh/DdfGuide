@@ -51,7 +51,7 @@
     <Compile Include="AudioDramaListView.Designer.cs">
       <DependentUpon>AudioDramaListView.cs</DependentUpon>
     </Compile>
-    <Compile Include="AudioDramaRow.cs" />
+    <Compile Include="AudioDramaRowAdapter.cs" />
     <Compile Include="AudioDramaView.cs">
       <SubType>UserControl</SubType>
     </Compile>
