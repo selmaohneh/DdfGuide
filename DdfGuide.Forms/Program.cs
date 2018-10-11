@@ -21,6 +21,7 @@ namespace DdfGuide.Forms
             
             var audioDramaView = new AudioDramaView();
             var audioDramaListView = new AudioDramaListView();
+
             var interpreterSelectionView = new InterpreterSelectionView();
 
             var ddfGuide = new Core.DdfGuide(

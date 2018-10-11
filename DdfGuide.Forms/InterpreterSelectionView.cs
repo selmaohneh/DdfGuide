@@ -12,5 +12,13 @@ namespace DdfGuide.Forms
         }
 
         public event EventHandler BackClicked;
+        public event EventHandler DieDreiFragezeichenClicked;
+        public event EventHandler DieDreiClicked;
+        public event EventHandler DieDreiFragezeichenKidsClicked;
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DieDreiFragezeichenClicked?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

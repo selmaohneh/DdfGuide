@@ -66,7 +66,13 @@ namespace DdfGuide.Core
                 picker
                 );
 
-            audioDramaListPresenter.SetAudioDramas(audioDramas);
+            var interpreterSelectionPresenter = new InterpreterSelectionPresenter(
+                _interpreterSelectionView,
+                viewer,
+                _audioDramaListView,
+                audioDramaListPresenter,
+                audioDramas,
+                filterFactory);
 
             viewer.Show(_interpreterSelectionView);
         }

@@ -6,7 +6,7 @@ using DdfGuide.Core.Sorting;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaListPresenter
+    public class AudioDramaListPresenter : IAudioDramaListPresenter
     {
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
