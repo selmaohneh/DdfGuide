@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using DdfGuide.Core;
+using static System.String;
 
 namespace DdfGuide.Forms
 {
@@ -19,7 +20,7 @@ namespace DdfGuide.Forms
         {
             labelId.Text = audioDrama.AudioDramaDto.Id.ToString();
             labelName.Text = audioDrama.AudioDramaDto.Title;
-            labelDescription.Text = audioDrama.AudioDramaDto.Description;
+            richTextBoxDescription.Text = audioDrama.AudioDramaDto.Description;
             pictureBoxCover.Load(audioDrama.AudioDramaDto.CoverUrl);
 
             if (checkBoxHeard.Checked != audioDrama.AudioDramaUserData.Heard)
@@ -30,6 +31,14 @@ namespace DdfGuide.Forms
             if (checkBoxIsFavorite.Checked != audioDrama.AudioDramaUserData.IsFavorite)
             {
                 checkBoxIsFavorite.Checked = audioDrama.AudioDramaUserData.IsFavorite;
+            }
+
+            richTextBoxDescription.Text = audioDrama.AudioDramaDto.Description;
+
+            richTextBoxRoles.Text = Empty;
+            foreach (var role in audioDrama.AudioDramaDto.Roles)
+            {
+                richTextBoxRoles.Text += $"{role.Character}: {role.Speaker}\n";
             }
         }
 

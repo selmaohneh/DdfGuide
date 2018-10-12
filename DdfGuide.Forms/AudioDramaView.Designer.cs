@@ -31,7 +31,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.backToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.labelDescription = new System.Windows.Forms.Label();
+            this.richTextBoxRoles = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxDescription = new System.Windows.Forms.RichTextBox();
             this.pictureBoxCover = new System.Windows.Forms.PictureBox();
             this.labelName = new System.Windows.Forms.Label();
             this.checkBoxIsFavorite = new System.Windows.Forms.CheckBox();
@@ -49,7 +50,7 @@
             this.backToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(670, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1319, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,7 +63,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.labelDescription);
+            this.panel1.Controls.Add(this.richTextBoxRoles);
+            this.panel1.Controls.Add(this.richTextBoxDescription);
             this.panel1.Controls.Add(this.pictureBoxCover);
             this.panel1.Controls.Add(this.labelName);
             this.panel1.Controls.Add(this.checkBoxIsFavorite);
@@ -71,19 +73,36 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 33);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(670, 471);
+            this.panel1.Size = new System.Drawing.Size(1319, 790);
             this.panel1.TabIndex = 1;
             // 
-            // labelDescription
+            // richTextBoxRoles
             // 
-            this.labelDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.richTextBoxRoles.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelDescription.Location = new System.Drawing.Point(209, 112);
-            this.labelDescription.Name = "labelDescription";
-            this.labelDescription.Size = new System.Drawing.Size(440, 244);
-            this.labelDescription.TabIndex = 11;
-            this.labelDescription.Text = "description";
+            this.richTextBoxRoles.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBoxRoles.Location = new System.Drawing.Point(213, 291);
+            this.richTextBoxRoles.Margin = new System.Windows.Forms.Padding(5);
+            this.richTextBoxRoles.Name = "richTextBoxRoles";
+            this.richTextBoxRoles.ReadOnly = true;
+            this.richTextBoxRoles.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.richTextBoxRoles.Size = new System.Drawing.Size(1101, 496);
+            this.richTextBoxRoles.TabIndex = 14;
+            this.richTextBoxRoles.Text = "roles";
+            // 
+            // richTextBoxDescription
+            // 
+            this.richTextBoxDescription.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBoxDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBoxDescription.Location = new System.Drawing.Point(213, 115);
+            this.richTextBoxDescription.Margin = new System.Windows.Forms.Padding(5);
+            this.richTextBoxDescription.Name = "richTextBoxDescription";
+            this.richTextBoxDescription.ReadOnly = true;
+            this.richTextBoxDescription.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.richTextBoxDescription.Size = new System.Drawing.Size(1101, 166);
+            this.richTextBoxDescription.TabIndex = 13;
+            this.richTextBoxDescription.Text = "description";
             // 
             // pictureBoxCover
             // 
@@ -142,7 +161,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "AudioDramaView";
-            this.Size = new System.Drawing.Size(670, 504);
+            this.Size = new System.Drawing.Size(1319, 823);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -158,11 +177,12 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem backToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label labelDescription;
         private System.Windows.Forms.PictureBox pictureBoxCover;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.CheckBox checkBoxIsFavorite;
         private System.Windows.Forms.CheckBox checkBoxHeard;
         private System.Windows.Forms.Label labelId;
+        private System.Windows.Forms.RichTextBox richTextBoxDescription;
+        private System.Windows.Forms.RichTextBox richTextBoxRoles;
     }
 }

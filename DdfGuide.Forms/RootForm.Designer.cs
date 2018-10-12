@@ -47,6 +47,7 @@
             this.Controls.Add(this.panelRoot);
             this.Name = "RootForm";
             this.Text = "RootForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
