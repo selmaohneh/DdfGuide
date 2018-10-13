@@ -43,6 +43,7 @@ namespace DdfGuide.Android
             var transaction = FragmentManager.BeginTransaction();
             transaction.Replace(Resource.Id.rootLayout, fragment);
             transaction.Commit();
+            FragmentManager.ExecutePendingTransactions();
         }
     }
 }
