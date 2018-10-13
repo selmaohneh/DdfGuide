@@ -19,10 +19,13 @@ namespace DdfGuide.Android
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
+
+            var toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.Title = GetString(Resource.String.app_name);
+
             return _view;
         }
 
-        public event EventHandler BackClicked;
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
             var listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
@@ -45,6 +48,14 @@ namespace DdfGuide.Android
             // todo
         }
 
+        public string GetCurrentSearchText()
+        {
+            // todo
+            return string.Empty;
+        }
+
+
+        public event EventHandler BackClicked;
         public event EventHandler<Guid> HeardChanged;
         public event EventHandler<Guid> IsFavoriteChanged;
         public event EventHandler<Guid> AudioDramaClicked;
@@ -63,12 +74,6 @@ namespace DdfGuide.Android
         public event EventHandler SpecialsOnlyClicked;
         public event EventHandler FavoritesOnlyClicked;
         public event EventHandler UnheardOnlyClicked;
-        public string GetCurrentSearchText()
-        {
-            // todo
-            return string.Empty;
-        }
-
         public event EventHandler SearchTextChanged;
         public event EventHandler RandomClicked;
     }
