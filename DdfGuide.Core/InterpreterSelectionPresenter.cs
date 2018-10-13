@@ -18,8 +18,8 @@ namespace DdfGuide.Core
                 var filter = filterFactory.Create(EAudioDramaFilterMode.DieDreiFragezeichen);
                 var filtered = filter.Filter(audioDramas);
 
-                audioDramaListPresenter.SetAudioDramas(filtered);
                 viewer.Show(audioDramaListView);
+                audioDramaListPresenter.SetAudioDramas(filtered);
             };
         }
     }
