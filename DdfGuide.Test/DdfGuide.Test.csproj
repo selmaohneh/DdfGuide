@@ -156,6 +156,7 @@
     <Compile Include="Filtering\DieDreiFragezeichenFilterTests.cs" />
     <Compile Include="InterpreterSelectionPresenterTests.cs" />
     <Compile Include="RandomAudioDramaPickerTests.cs" />
+    <Compile Include="RootPresenterTests.cs" />
     <Compile Include="Searching\AudioDramaSearcherTests.cs" />
     <Compile Include="Filtering\AllAudioDramasFilterTests.cs" />
     <Compile Include="Filtering\AudioDramaFilterFactoryTests.cs" />

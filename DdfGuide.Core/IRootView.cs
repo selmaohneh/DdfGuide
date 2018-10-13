@@ -1,6 +1,8 @@
-﻿namespace DdfGuide.Core
+﻿using System.Diagnostics.Tracing;
+
+namespace DdfGuide.Core
 {
-    public interface IRootView
+    public interface IRootView : IView
     {
         void Show(IView view);
     }

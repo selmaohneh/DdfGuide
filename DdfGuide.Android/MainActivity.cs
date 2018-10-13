@@ -33,6 +33,11 @@ namespace DdfGuide.Android
             ddfGuide.Start();
         }
 
+        public override void OnBackPressed()
+        {
+            BackClicked?.Invoke(this, EventArgs.Empty);
+        }
+
         public void Show(IView view)
         {
             if (!(view is Fragment fragment))
@@ -45,5 +50,7 @@ namespace DdfGuide.Android
             transaction.Commit();
             FragmentManager.ExecutePendingTransactions();
         }
+
+        public event EventHandler BackClicked;
     }
 }

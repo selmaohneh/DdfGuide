@@ -56,6 +56,7 @@
     <Compile Include="IRootView.cs" />
     <Compile Include="RandomAudioDramaPicker.cs" />
     <Compile Include="RoleDto.cs" />
+    <Compile Include="RootPresenter.cs" />
     <Compile Include="Searching\AudioDramaSearcher.cs" />
     <Compile Include="Filtering\AllAudioDramasFilter.cs" />
     <Compile Include="Filtering\AudioDramaFilterFactory.cs" />

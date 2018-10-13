@@ -24,9 +24,10 @@ namespace DdfGuide.Android
 
             toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
             toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
-
             return _view;
         }
+
+       
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
