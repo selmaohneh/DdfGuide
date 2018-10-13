@@ -35,6 +35,38 @@ namespace DdfGuide.Android
                     case Resource.Id.ordernumberdescending:
                         OrderByNumberDescendingClicked?.Invoke(this, EventArgs.Empty);
                         return;
+
+                    case Resource.Id.orderreleasedateascending:
+                        OrderByReleaseDateAscendingClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.orderreleasedatedescending:
+                        OrderByReleaseDateDescendingClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.ordernameascending:
+                        OrderByNameAscendingClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.ordernamedescending:
+                        OrderByNameDescendingClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.heardfirst:
+                        OrderByHeardFirstClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.heardlast:
+                        OrderByHeardLastClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.favoritesfirst:
+                        OrderByIsFavoriteFirstClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.favoriteslast:
+                        OrderByIsFavoriteLastClicked?.Invoke(this, EventArgs.Empty);
+                        return;
                 }
             };
 

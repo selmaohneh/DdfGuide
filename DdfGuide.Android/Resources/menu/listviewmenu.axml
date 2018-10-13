@@ -11,6 +11,30 @@
 
       <item android:id="@+id/ordernumberdescending"
             android:title="Nummer absteigend"/>
+
+      <item android:id="@+id/orderreleasedateascending"
+            android:title="Veröffentlichung aufsteigend"/>
+
+      <item android:id="@+id/orderreleasedatedescending"
+            android:title="Veröffentlichung absteigend"/>
+
+      <item android:id="@+id/ordernameascending"
+            android:title="Titel aufsteigend"/>
+
+      <item android:id="@+id/ordernamedescending"
+            android:title="Titel absteigend"/>
+
+      <item android:id="@+id/heardfirst"
+            android:title="Gehörte zuerst"/>
+
+      <item android:id="@+id/heardlast"
+            android:title="Gehörte zuletzt"/>
+
+      <item android:id="@+id/favoritesfirst"
+            android:title="Favoriten zuerst"/>
+
+      <item android:id="@+id/favoriteslast"
+            android:title="Favoriten zuletzt"/>
     </menu>
 
   </item>

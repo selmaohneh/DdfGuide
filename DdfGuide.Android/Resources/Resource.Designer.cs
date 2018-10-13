@@ -2360,6 +2360,12 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08005a
 			public const int expanded_menu = 2131230810;
 			
+			// aapt resource value: 0x7f0800a7
+			public const int favoritesfirst = 2131230887;
+			
+			// aapt resource value: 0x7f0800a8
+			public const int favoriteslast = 2131230888;
+			
 			// aapt resource value: 0x7f08003b
 			public const int fill = 2131230779;
 			
@@ -2371,6 +2377,12 @@ namespace DdfGuide.Android
 			
 			// aapt resource value: 0x7f08003f
 			public const int @fixed = 2131230783;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int heardfirst = 2131230885;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int heardlast = 2131230886;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
@@ -2456,11 +2468,23 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08008d
 			public const int notification_main_column_container = 2131230861;
 			
+			// aapt resource value: 0x7f0800a3
+			public const int ordernameascending = 2131230883;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int ordernamedescending = 2131230884;
+			
 			// aapt resource value: 0x7f08009f
 			public const int ordernumberascending = 2131230879;
 			
 			// aapt resource value: 0x7f0800a0
 			public const int ordernumberdescending = 2131230880;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int orderreleasedateascending = 2131230881;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int orderreleasedatedescending = 2131230882;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;

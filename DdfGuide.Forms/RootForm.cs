@@ -23,5 +23,7 @@ namespace DdfGuide.Forms
             control.Dock = DockStyle.Fill;
             panelRoot.Controls.Add(control);
         }
+
+        public event EventHandler BackClicked;
     }
 }
