@@ -2360,11 +2360,14 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08005a
 			public const int expanded_menu = 2131230810;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int favoritesfirst = 2131230887;
+			// aapt resource value: 0x7f0800a6
+			public const int favoritesfirst = 2131230886;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int favoriteslast = 2131230888;
+			// aapt resource value: 0x7f0800a7
+			public const int favoriteslast = 2131230887;
+			
+			// aapt resource value: 0x7f0800ab
+			public const int favoritesonly = 2131230891;
 			
 			// aapt resource value: 0x7f08003b
 			public const int fill = 2131230779;
@@ -2378,11 +2381,11 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08003f
 			public const int @fixed = 2131230783;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int heardfirst = 2131230885;
+			// aapt resource value: 0x7f0800a4
+			public const int heardfirst = 2131230884;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int heardlast = 2131230886;
+			// aapt resource value: 0x7f0800a5
+			public const int heardlast = 2131230885;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
@@ -2429,14 +2432,14 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
+			// aapt resource value: 0x7f0800a9
+			public const int mainsonly = 2131230889;
+			
 			// aapt resource value: 0x7f08009d
 			public const int masked = 2131230877;
 			
 			// aapt resource value: 0x7f08008b
 			public const int media_actions = 2131230859;
-			
-			// aapt resource value: 0x7f08009e
-			public const int menu_back = 2131230878;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -2468,23 +2471,23 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08008d
 			public const int notification_main_column_container = 2131230861;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int ordernameascending = 2131230883;
+			// aapt resource value: 0x7f0800a2
+			public const int ordernameascending = 2131230882;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int ordernamedescending = 2131230884;
+			// aapt resource value: 0x7f0800a3
+			public const int ordernamedescending = 2131230883;
+			
+			// aapt resource value: 0x7f08009e
+			public const int ordernumberascending = 2131230878;
 			
 			// aapt resource value: 0x7f08009f
-			public const int ordernumberascending = 2131230879;
+			public const int ordernumberdescending = 2131230879;
 			
 			// aapt resource value: 0x7f0800a0
-			public const int ordernumberdescending = 2131230880;
+			public const int orderreleasedateascending = 2131230880;
 			
 			// aapt resource value: 0x7f0800a1
-			public const int orderreleasedateascending = 2131230881;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int orderreleasedatedescending = 2131230882;
+			public const int orderreleasedatedescending = 2131230881;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
@@ -2579,6 +2582,9 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
+			// aapt resource value: 0x7f0800a8
+			public const int showall = 2131230888;
+			
 			// aapt resource value: 0x7f080076
 			public const int smallLabel = 2131230838;
 			
@@ -2593,6 +2599,9 @@ namespace DdfGuide.Android
 			
 			// aapt resource value: 0x7f08004c
 			public const int spacer = 2131230796;
+			
+			// aapt resource value: 0x7f0800aa
+			public const int specialsonly = 2131230890;
 			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
@@ -2671,6 +2680,9 @@ namespace DdfGuide.Android
 			
 			// aapt resource value: 0x7f08000b
 			public const int transition_scene_layoutid_cache = 2131230731;
+			
+			// aapt resource value: 0x7f0800ac
+			public const int unheardsonly = 2131230892;
 			
 			// aapt resource value: 0x7f080009
 			public const int up = 2131230729;
@@ -2971,16 +2983,19 @@ namespace DdfGuide.Android
 			public const int arrow_back = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int baseline_sort_white_24 = 2130903041;
+			public const int baseline_filter_list_white_24 = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ic_launcher = 2130903042;
+			public const int baseline_sort_white_24 = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ic_launcher_foreground = 2130903043;
+			public const int ic_launcher = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int ic_launcher_round = 2130903044;
+			public const int ic_launcher_foreground = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int ic_launcher_round = 2130903045;
 			
 			static Mipmap()
 			{

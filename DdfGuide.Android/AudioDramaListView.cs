@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Android.App;
-using Android.Content;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
@@ -66,6 +65,26 @@ namespace DdfGuide.Android
 
                     case Resource.Id.favoriteslast:
                         OrderByIsFavoriteLastClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.showall:
+                        AllClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.mainsonly:
+                        MainsOnlyClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.specialsonly:
+                        SpecialsOnlyClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.favoritesonly:
+                        FavoritesOnlyClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.unheardsonly:
+                        UnheardOnlyClicked?.Invoke(this, EventArgs.Empty);
                         return;
                 }
             };
