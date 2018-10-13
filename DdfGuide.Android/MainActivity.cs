@@ -2,8 +2,6 @@
 using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
-using Android.Views;
-using Android.Widget;
 using DdfGuide.Core;
 
 namespace DdfGuide.Android
@@ -16,19 +14,36 @@ namespace DdfGuide.Android
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            var dtoProvider = new AndroidDtoProvider();
+            var userDataProvider = new AndroidUserDataProvider();
+
+            var audioDramaListView = new AudioDramaListView();
+            var audioDramaView = new AudioDramaView();
+            var rootView = this;
+            var interpreterSelectionView = new InterpreterSelectionView();
+
+            var ddfGuide = new Core.DdfGuide(
+                dtoProvider,
+                userDataProvider,
+                audioDramaListView,
+                audioDramaView,
+                rootView,
+                interpreterSelectionView);
+            
+            ddfGuide.Start();
         }
 
         public void Show(IView view)
         {
-            var rootLayout = FindViewById<RelativeLayout>(Resource.Id.rootLayout);
-
-            if (!(view is View androidView))
+            if (!(view is Fragment fragment))
             {
-                throw new Exception("View needs to be of type Android.Views.View");
+               throw new Exception("View needs to be of type Android.Views.View");
             }
 
-            rootLayout.RemoveAllViews();
-            rootLayout.AddView(androidView);
+            var transaction = FragmentManager.BeginTransaction();
+            transaction.Replace(Resource.Id.rootLayout, fragment);
+            transaction.Commit();
         }
     }
 }

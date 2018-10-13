@@ -56,7 +56,13 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AndroidDtoProvider.cs" />
+    <Compile Include="AndroidUserDataProvider.cs" />
+    <Compile Include="AudioDramaListView.cs" />
+    <Compile Include="AudioDramaView.cs" />
+    <Compile Include="InterpreterSelectionView.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\AudioDramaView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -99,6 +105,21 @@
       <Project>{19E6AE52-D51E-49AD-8B45-19266952173C}</Project>
       <Name>DdfGuide.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\interpreterselectionlayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\audiodramalistlayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\audiodramalayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
