@@ -21,8 +21,9 @@ namespace DdfGuide.Android
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
 
             var toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
-            toolbar.Title = GetString(Resource.String.app_name);
+
             toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
+            toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
 
             return _view;
         }
