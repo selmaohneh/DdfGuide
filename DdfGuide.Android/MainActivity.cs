@@ -1,13 +1,12 @@
 ﻿using System;
 using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
 using DdfGuide.Core;
 
 namespace DdfGuide.Android
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity, IRootView
+    public class MainActivity : Activity, IRootView
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
