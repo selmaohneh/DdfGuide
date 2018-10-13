@@ -74,8 +74,11 @@ namespace DdfGuide.Core
                 audioDrama.AudioDramaUserData.Changed -= OnUserDataChanged();
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
-
+            
             UpdateViewWithMatchingAudioDramas();
+
+            _audioDramaListView.SetFilterInfos(_explorer.GetCurrentFilterMode());
+            _audioDramaListView.SetSelectedSortMode(_explorer.GetCurrentSortMode());
         }
 
         private EventHandler OnRandomClicked()

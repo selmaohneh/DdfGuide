@@ -33,9 +33,19 @@ namespace DdfGuide.Core
             _sorter = _sorterFactory.Create(sortMode);
         }
 
+        public EAudioDramaSortMode GetCurrentSortMode()
+        {
+            return _sorter.SortMode;
+        }
+
         public void SetFilterMode(EAudioDramaFilterMode filterMode)
         {
             _filter = _filterFactory.Create(filterMode);
+        }
+
+        public EAudioDramaFilterMode GetCurrentFilterMode()
+        {
+            return _filter.FilterMode;
         }
 
         public void SetSearchText(string searchText)

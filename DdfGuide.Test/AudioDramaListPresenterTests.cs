@@ -45,6 +45,29 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void SetNewModel_UpdateSortInformationOnView()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            listView.Invocations.Clear();
+
+            _sut.SetAudioDramas(_audioDramas);
+
+            listView.Verify(x => x.SetSelectedSortMode(It.IsAny<EAudioDramaSortMode>()), Times.Once);
+        }
+
+        [TestMethod]
+        public void SetNewModel_UpdateFilterInformationOnView()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            listView.Invocations.Clear();
+
+            _sut.SetAudioDramas(_audioDramas);
+
+            listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
+        }
+
+
+        [TestMethod]
         public void HeardChangedOnView_UpdateModel()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();

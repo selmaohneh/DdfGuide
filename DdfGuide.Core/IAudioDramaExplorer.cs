@@ -7,7 +7,9 @@ namespace DdfGuide.Core
     public interface IAudioDramaExplorer
     {
         void SetSortMode(EAudioDramaSortMode sortMode);
+        EAudioDramaSortMode GetCurrentSortMode();
         void SetFilterMode(EAudioDramaFilterMode filterMode);
+        EAudioDramaFilterMode GetCurrentFilterMode();
         void SetSearchText(string searchText);
         IEnumerable<AudioDrama> GetMatchingAudioDramas(IEnumerable<AudioDrama> audioDramas);
     }
