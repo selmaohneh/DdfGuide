@@ -22,6 +22,7 @@ namespace DdfGuide.Android
 
             var toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
             toolbar.Title = GetString(Resource.String.app_name);
+            toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
 
             return _view;
         }

@@ -2423,6 +2423,9 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08008b
 			public const int media_actions = 2131230859;
 			
+			// aapt resource value: 0x7f08009e
+			public const int menu_back = 2131230878;
+			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
 			
@@ -2915,17 +2918,36 @@ namespace DdfGuide.Android
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int listviewmenu = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class Mipmap
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ic_launcher = 2130903040;
+			public const int arrow_back = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int ic_launcher_foreground = 2130903041;
+			public const int ic_launcher = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ic_launcher_round = 2130903042;
+			public const int ic_launcher_foreground = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int ic_launcher_round = 2130903043;
 			
 			static Mipmap()
 			{
