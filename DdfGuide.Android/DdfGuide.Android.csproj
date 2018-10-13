@@ -94,6 +94,12 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DdfGuide.Core\DdfGuide.Core.csproj">
+      <Project>{19E6AE52-D51E-49AD-8B45-19266952173C}</Project>
+      <Name>DdfGuide.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.
