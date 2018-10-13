@@ -1,60 +1,77 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
   
-  <item android:icon="@mipmap/baseline_sort_white_24"
+  <item android:id="@+id/orderitem"
+      android:icon="@mipmap/baseline_sort_white_24"
         android:showAsAction="always"
         android:title="Sortieren">
-    <menu>
+    <menu android:id="@+id/ordermenu">
       <item android:id="@+id/ordernumberascending"
+            android:checkable="true"
             android:title="Nummer aufsteigend"/>
 
       <item android:id="@+id/ordernumberdescending"
+            android:checkable="true"
             android:title="Nummer absteigend"/>
 
       <item android:id="@+id/orderreleasedateascending"
+            android:checkable="true"
             android:title="Veröffentlichung aufsteigend"/>
 
       <item android:id="@+id/orderreleasedatedescending"
+            android:checkable="true"
             android:title="Veröffentlichung absteigend"/>
 
       <item android:id="@+id/ordernameascending"
+            android:checkable="true"
             android:title="Titel aufsteigend"/>
 
       <item android:id="@+id/ordernamedescending"
+            android:checkable="true"
             android:title="Titel absteigend"/>
 
       <item android:id="@+id/heardfirst"
+            android:checkable="true"
             android:title="Gehörte zuerst"/>
 
       <item android:id="@+id/heardlast"
+            android:checkable="true"
             android:title="Gehörte zuletzt"/>
 
       <item android:id="@+id/favoritesfirst"
+            android:checkable="true"
             android:title="Favoriten zuerst"/>
 
       <item android:id="@+id/favoriteslast"
+            android:checkable="true"
             android:title="Favoriten zuletzt"/>
     </menu>
 
   </item>
 
-  <item android:icon="@mipmap/baseline_filter_list_white_24"
+  <item android:id="@+id/filteritem"
+        android:icon="@mipmap/baseline_filter_list_white_24"
         android:showAsAction="always"
         android:title="Filtern">
-    <menu>
+    <menu android:id="@+id/filtermenu">
       <item android:id="@+id/showall"
+            android:checkable="true"
             android:title="Alle Folgen"/>
 
       <item android:id="@+id/mainsonly"
+            android:checkable="true"
             android:title="Nur nummerierte Folgen"/>
 
       <item android:id="@+id/specialsonly"
+            android:checkable="true"
             android:title="Nur Sonderfolgen"/>
 
       <item android:id="@+id/favoritesonly"
+            android:checkable="true"
             android:title="Nur Favoriten"/>
 
       <item android:id="@+id/unheardsonly"
+            android:checkable="true"
             android:title="Nur ungehörte Folgen"/>
     </menu>
 

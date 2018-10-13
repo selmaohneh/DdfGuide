@@ -14,16 +14,16 @@ namespace DdfGuide.Android
     public class AudioDramaListView : Fragment, IAudioDramaListView
     {
         private View _view;
+        private Toolbar _toolbar;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
 
-            var toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
+            _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
 
-            toolbar.InflateMenu(Resource.Menu.listviewmenu);
-
-            toolbar.MenuItemClick += (sender, args) =>
+            _toolbar.InflateMenu(Resource.Menu.listviewmenu);
+            _toolbar.MenuItemClick += (sender, args) =>
             {
                 switch (args.Item.ItemId)
                 {
@@ -89,8 +89,8 @@ namespace DdfGuide.Android
                 }
             };
 
-            toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
-            toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
+            _toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
+            _toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
             return _view;
         }
 
@@ -110,7 +110,41 @@ namespace DdfGuide.Android
 
         public void SetFilterInfos(EAudioDramaFilterMode selectedFilterMode)
         {
-            // todo
+            var filterItem = _toolbar.Menu.FindItem(Resource.Id.filteritem);
+            var filterMenu = filterItem.SubMenu;
+
+            var showAllItem = filterMenu.FindItem(Resource.Id.showall);
+            showAllItem.SetChecked(false);
+
+            var mainsOnlyItem = filterMenu.FindItem(Resource.Id.mainsonly);
+            mainsOnlyItem.SetChecked(false);
+
+           var favoritesOnlyItem = filterMenu.FindItem(Resource.Id.favoritesonly);
+            favoritesOnlyItem.SetChecked(false);
+
+            var unheardsOnlyItem = filterMenu.FindItem(Resource.Id.unheardsonly);
+            unheardsOnlyItem.SetChecked(false);
+
+            var specialsOnlyItem = filterMenu.FindItem(Resource.Id.specialsonly);
+            specialsOnlyItem.SetChecked(false);
+
+            switch (selectedFilterMode)
+            {
+                case EAudioDramaFilterMode.All:
+                    showAllItem.SetChecked(true);
+                    break;
+                case EAudioDramaFilterMode.MainsOnly:
+                    mainsOnlyItem.SetChecked(true);
+                    break;
+                case EAudioDramaFilterMode.FavoritesOnly:
+                    favoritesOnlyItem.SetChecked(true);
+                    break;
+                case EAudioDramaFilterMode.UnheardOnly:
+                    unheardsOnlyItem.SetChecked(true);
+                    break;
+                case EAudioDramaFilterMode.SpecialsOnly:
+                    specialsOnlyItem.SetChecked(true);
+                    break;}
         }
 
         public void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode)
