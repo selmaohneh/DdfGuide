@@ -22,12 +22,28 @@ namespace DdfGuide.Android
 
             var toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
 
+            toolbar.InflateMenu(Resource.Menu.listviewmenu);
+
+            toolbar.MenuItemClick += (sender, args) =>
+            {
+                switch (args.Item.ItemId)
+                {
+                    case Resource.Id.ordernumberascending:
+                        OrderByNumberAscendingClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+
+                    case Resource.Id.ordernumberdescending:
+                        OrderByNumberDescendingClicked?.Invoke(this, EventArgs.Empty);
+                        return;
+                }
+            };
+
             toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
             toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
             return _view;
         }
 
-       
+
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {

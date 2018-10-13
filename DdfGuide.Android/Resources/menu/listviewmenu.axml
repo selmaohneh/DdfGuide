@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  <item
-    android:id="@+id/menu_back"
-    android:icon="@mipmap/arrow_back"
-    android:showAsAction="always"
-    android:title="Zurück" />
+  
+  <item android:id="@+id/menu_back"
+        android:icon="@mipmap/baseline_sort_white_24"
+        android:showAsAction="always"
+        android:title="Sortieren">
+    <menu>
+      <item android:id="@+id/ordernumberascending"
+            android:title="Nummer aufsteigend"/>
+
+      <item android:id="@+id/ordernumberdescending"
+            android:title="Nummer absteigend"/>
+    </menu>
+
+  </item>
 </menu>

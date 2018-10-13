@@ -2456,6 +2456,12 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08008d
 			public const int notification_main_column_container = 2131230861;
 			
+			// aapt resource value: 0x7f08009f
+			public const int ordernumberascending = 2131230879;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int ordernumberdescending = 2131230880;
+			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
 			
@@ -2941,13 +2947,16 @@ namespace DdfGuide.Android
 			public const int arrow_back = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int ic_launcher = 2130903041;
+			public const int baseline_sort_white_24 = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ic_launcher_foreground = 2130903042;
+			public const int ic_launcher = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int ic_launcher_round = 2130903043;
+			public const int ic_launcher_foreground = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int ic_launcher_round = 2130903044;
 			
 			static Mipmap()
 			{
