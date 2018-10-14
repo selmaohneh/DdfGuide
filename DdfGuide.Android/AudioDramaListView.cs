@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Android.App;
 using Android.OS;
 using Android.Support.Design.Widget;
@@ -110,14 +109,11 @@ namespace DdfGuide.Android
         {
             var listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
 
-            var adapter = new ArrayAdapter<AudioDrama>(
-                Context,
-                Resource.Layout.audiodramalistitem,
-                audioDramas.ToArray());
+            var adapter = new AudioDramaListAdapter(Activity, audioDramas);
 
             listView.ItemClick += (sender, args) =>
             {
-                var audioDrama = adapter.GetItem(args.Position);
+                var audioDrama = adapter[args.Position];
                 AudioDramaClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
             };
 
