@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
   
+  <item
+    android:id="@+id/action_search"
+    android:icon="@android:drawable/ic_menu_search"
+    android:showAsAction="always"
+    android:actionViewClass="android.support.v7.widget.SearchView"
+    android:title="Suche"/>
+
   <item android:id="@+id/orderitem"
       android:icon="@mipmap/baseline_sort_white_24"
         android:showAsAction="always"
@@ -77,9 +84,4 @@
     </menu>
 
   </item>
-
-  <item android:id="@+id/randomitem"
-        android:icon="@mipmap/ic_dice_3_white_24dp"
-        android:showAsAction="always"
-        android:title="Zufällige Folge"/>
 </menu>

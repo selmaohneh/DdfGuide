@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using Android.App;
 using Android.OS;
+using Android.Support.Design.Widget;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Sorting;
+using SearchView = Android.Support.V7.Widget.SearchView;
 
 namespace DdfGuide.Android
 {
@@ -15,12 +17,16 @@ namespace DdfGuide.Android
     {
         private View _view;
         private Toolbar _toolbar;
+        private SearchView _searchView;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
 
+            var fab = _view.FindViewById<FloatingActionButton>(Resource.Id.floatingActionButtonRandom);
+            fab.Click += (sender, args) => { RandomClicked?.Invoke(this, EventArgs.Empty); };
             SetupToolbar();
+
             return _view;
         }
 
@@ -93,14 +99,11 @@ namespace DdfGuide.Android
                     case Resource.Id.unheardsonly:
                         UnheardOnlyClicked?.Invoke(this, EventArgs.Empty);
                         return;
-
-                    case Resource.Id.randomitem:
-                        RandomClicked?.Invoke(this, EventArgs.Empty);
-                        return;
                 }
             };
 
-            
+            _searchView = _toolbar.FindViewById<SearchView>(Resource.Id.action_search);
+            _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
         }
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
@@ -231,8 +234,7 @@ namespace DdfGuide.Android
 
         public string GetCurrentSearchText()
         {
-            // todo
-            return string.Empty;
+            return _searchView.Query;
         }
 
 
