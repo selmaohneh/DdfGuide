@@ -16,7 +16,7 @@ namespace DdfGuide.Core
 
         public override string ToString()
         {
-            return $"{AudioDramaDto} {AudioDramaUserData}";
+            return $"{AudioDramaDto}";
         }
         
         public string ToSearchString()

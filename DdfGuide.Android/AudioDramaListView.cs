@@ -100,10 +100,10 @@ namespace DdfGuide.Android
         {
             var listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
 
-            var adapter = new ArrayAdapter<string>(
+            var adapter = new ArrayAdapter<AudioDrama>(
                 Context,
                 Resource.Layout.audiodramalistitem,
-                audioDramas.Select(x=>x.AudioDramaDto.Title).ToArray());
+                audioDramas.ToArray());
 
             listView.Adapter = adapter;
         }

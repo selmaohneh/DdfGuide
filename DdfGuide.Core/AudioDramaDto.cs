@@ -40,7 +40,7 @@ namespace DdfGuide.Core
                 dump += "NoNumber";
             }
 
-            dump += $" {Title} {ReleaseDate.Date}";
+            dump += $" {Title} {ReleaseDate.Date:dd.MM.yyyy}";
             
             return dump;
         }
