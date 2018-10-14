@@ -93,9 +93,7 @@ namespace DdfGuide.Android
             _toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
             return _view;
         }
-
-
-
+        
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
             var listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
@@ -104,6 +102,12 @@ namespace DdfGuide.Android
                 Context,
                 Resource.Layout.audiodramalistitem,
                 audioDramas.ToArray());
+
+            listView.ItemClick += (sender, args) =>
+            {
+                var audioDrama = adapter.GetItem(args.Position);
+                AudioDramaClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+            };
 
             listView.Adapter = adapter;
         }

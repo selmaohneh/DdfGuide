@@ -437,5 +437,53 @@ namespace DdfGuide.Test
 
             _mocker.Verify<IViewer>(x => x.ShowLast());
         }
+
+        [TestMethod]
+        public void OnAudioDramaClicked_MakeSureViewGetsShownBeforeSettingAudioDramas()
+        {
+            var order = 1;
+            _mocker.GetMock<IViewer>().Setup(x => x.Show(It.IsAny<IAudioDramaView>())).Callback(() =>
+            {
+                if (order++ != 1)
+                {
+                    Assert.Fail("View needs to be shown first.");
+                }
+            });
+
+            _mocker.GetMock<IAudioDramaPresenter>().Setup(x => x.SetAudioDrama(It.IsAny<AudioDrama>())).Callback(() =>
+            {
+                if (order++ != 2)
+                {
+                    Assert.Fail("Audio drama can only be set AFTER the view is shown.");
+                }
+            });
+
+            _mocker.GetMock<IAudioDramaListView>().Raise(x => x.AudioDramaClicked += null, this,
+                _audioDramas.First().AudioDramaDto.Id);
+        }
+
+        [TestMethod]
+        public void OnRandomClicked_MakeSureViewGetsShownBeforeSettingAudioDramas()
+        {
+            var order = 1;
+            _mocker.GetMock<IViewer>().Setup(x => x.Show(It.IsAny<IAudioDramaView>())).Callback(() =>
+            {
+                if (order++ != 1)
+                {
+                    Assert.Fail("View needs to be shown first.");
+                }
+            });
+
+            _mocker.GetMock<IAudioDramaPresenter>().Setup(x => x.SetAudioDrama(It.IsAny<AudioDrama>())).Callback(() =>
+            {
+                if (order++ != 2)
+                {
+                    Assert.Fail("Audio drama can only be set AFTER the view is shown.");
+                }
+            });
+
+            _mocker.GetMock<IAudioDramaListView>().Raise(x => x.RandomClicked += null, this,
+                EventArgs.Empty);
+        }
     }
 }

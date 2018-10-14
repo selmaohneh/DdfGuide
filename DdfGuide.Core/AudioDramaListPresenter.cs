@@ -87,8 +87,9 @@ namespace DdfGuide.Core
             {
                 var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas);
                 var randomAudioDrama = _picker.Pick(matchingAudioDramas);
-                _audioDramaView.SetAudioDrama(randomAudioDrama);
+
                 _viewer.Show(_audioDramaView);
+                _audioDramaView.SetAudioDrama(randomAudioDrama);
             };
         }
 
@@ -131,10 +132,10 @@ namespace DdfGuide.Core
         {
             return (sender, id) =>
             {
+                _viewer.Show(_audioDramaView);
+
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
                 _audioDramaPresenter.SetAudioDrama(audioDrama);
-
-                _viewer.Show(_audioDramaView);
             };
         }
 
