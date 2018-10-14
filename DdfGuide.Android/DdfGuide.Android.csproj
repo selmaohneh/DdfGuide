@@ -104,12 +104,6 @@
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DdfGuide.Core\DdfGuide.Core.csproj">
-      <Project>{19E6AE52-D51E-49AD-8B45-19266952173C}</Project>
-      <Name>DdfGuide.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\interpreterselectionlayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -187,6 +181,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\baseline_filter_list_white_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DdfGuide.Core\DdfGuide.Core.csproj">
+      <Project>{F61E2089-3F33-4384-99AF-0C44B021B320}</Project>
+      <Name>DdfGuide.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

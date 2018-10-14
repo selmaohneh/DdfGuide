@@ -108,7 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DdfGuide.Core\DdfGuide.Core.csproj">
-      <Project>{19E6AE52-D51E-49AD-8B45-19266952173C}</Project>
+      <Project>{F61E2089-3F33-4384-99AF-0C44B021B320}</Project>
       <Name>DdfGuide.Core</Name>
     </ProjectReference>
   </ItemGroup>

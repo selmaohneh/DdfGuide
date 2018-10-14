@@ -184,14 +184,14 @@
     <Compile Include="ViewerTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DdfGuide.Core\DdfGuide.Core.csproj">
-      <Project>{19E6AE52-D51E-49AD-8B45-19266952173C}</Project>
-      <Name>DdfGuide.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DdfGuide.Core\DdfGuide.Core.csproj">
+      <Project>{F61E2089-3F33-4384-99AF-0C44B021B320}</Project>
+      <Name>DdfGuide.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
