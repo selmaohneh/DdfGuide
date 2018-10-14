@@ -33,7 +33,7 @@ namespace DdfGuide.Android
                 view = _context.LayoutInflater.Inflate(Resource.Layout.audiodramalistitem, null);
             }
             
-            view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
+            view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.Title;
             //view.FindViewById<ImageView>(Resource.Id.Image).SetImageResource(item.ImageResourceId);
             return view;
         }
