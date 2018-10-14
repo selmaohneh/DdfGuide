@@ -20,8 +20,15 @@ namespace DdfGuide.Android
         {
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
 
-            _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetupToolbar();
+            return _view;
+        }
 
+        private void SetupToolbar()
+        {
+            _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
+            _toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
+            _toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
             _toolbar.InflateMenu(Resource.Menu.listviewmenu);
             _toolbar.MenuItemClick += (sender, args) =>
             {
@@ -86,14 +93,16 @@ namespace DdfGuide.Android
                     case Resource.Id.unheardsonly:
                         UnheardOnlyClicked?.Invoke(this, EventArgs.Empty);
                         return;
+
+                    case Resource.Id.randomitem:
+                        RandomClicked?.Invoke(this, EventArgs.Empty);
+                        return;
                 }
             };
 
-            _toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
-            _toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
-            return _view;
+            
         }
-        
+
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
             var listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
