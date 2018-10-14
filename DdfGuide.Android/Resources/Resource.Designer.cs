@@ -2483,23 +2483,23 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08009f
 			public const int ordermenu = 2131230879;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int ordernameascending = 2131230884;
-			
 			// aapt resource value: 0x7f0800a5
-			public const int ordernamedescending = 2131230885;
+			public const int ordernameascending = 2131230885;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int ordernumberascending = 2131230880;
-			
-			// aapt resource value: 0x7f0800a1
-			public const int ordernumberdescending = 2131230881;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int orderreleasedateascending = 2131230882;
+			// aapt resource value: 0x7f0800a4
+			public const int ordernamedescending = 2131230884;
 			
 			// aapt resource value: 0x7f0800a3
-			public const int orderreleasedatedescending = 2131230883;
+			public const int ordernumberascending = 2131230883;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int ordernumberdescending = 2131230882;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int orderreleasedateascending = 2131230881;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int orderreleasedatedescending = 2131230880;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;

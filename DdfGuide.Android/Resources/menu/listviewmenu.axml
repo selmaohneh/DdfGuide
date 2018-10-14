@@ -6,29 +6,30 @@
         android:showAsAction="always"
         android:title="Sortieren">
     <menu android:id="@+id/ordermenu">
-      <item android:id="@+id/ordernumberascending"
-            android:checkable="true"
-            android:title="Nummer aufsteigend"/>
-
-      <item android:id="@+id/ordernumberdescending"
-            android:checkable="true"
-            android:title="Nummer absteigend"/>
-
-      <item android:id="@+id/orderreleasedateascending"
-            android:checkable="true"
-            android:title="Veröffentlichung aufsteigend"/>
 
       <item android:id="@+id/orderreleasedatedescending"
             android:checkable="true"
             android:title="Veröffentlichung absteigend"/>
 
-      <item android:id="@+id/ordernameascending"
+      <item android:id="@+id/orderreleasedateascending"
             android:checkable="true"
-            android:title="Titel aufsteigend"/>
+            android:title="Veröffentlichung aufsteigend"/>
+
+      <item android:id="@+id/ordernumberdescending"
+            android:checkable="true"
+            android:title="Nummer absteigend"/>
+
+      <item android:id="@+id/ordernumberascending"
+            android:checkable="true"
+            android:title="Nummer aufsteigend"/>
 
       <item android:id="@+id/ordernamedescending"
             android:checkable="true"
             android:title="Titel absteigend"/>
+
+      <item android:id="@+id/ordernameascending"
+            android:checkable="true"
+            android:title="Titel aufsteigend"/>
 
       <item android:id="@+id/heardfirst"
             android:checkable="true"

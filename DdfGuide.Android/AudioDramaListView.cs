@@ -149,7 +149,71 @@ namespace DdfGuide.Android
 
         public void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode)
         {
-            // todo
+            var sortItem = _toolbar.Menu.FindItem(Resource.Id.orderitem);
+            var sortMenu = sortItem.SubMenu;
+
+            var dateDescending = sortMenu.FindItem(Resource.Id.orderreleasedatedescending);
+            dateDescending.SetChecked(false);
+
+            var dateAscending = sortMenu.FindItem(Resource.Id.orderreleasedateascending);
+            dateAscending.SetChecked(false);
+
+            var numberDescending = sortMenu.FindItem(Resource.Id.ordernumberdescending);
+            numberDescending.SetChecked(false);
+
+            var numberAscending = sortMenu.FindItem(Resource.Id.ordernumberascending);
+            numberAscending.SetChecked(false);
+
+            var nameDescending = sortMenu.FindItem(Resource.Id.ordernamedescending);
+            nameDescending.SetChecked(false);
+
+            var nameAscending = sortMenu.FindItem(Resource.Id.ordernameascending);
+            nameAscending.SetChecked(false);
+
+            var heardFirst = sortMenu.FindItem(Resource.Id.heardfirst);
+            heardFirst.SetChecked(false);
+
+            var heardLast = sortMenu.FindItem(Resource.Id.heardlast);
+            heardLast.SetChecked(false);
+
+            var isFavoriteFirst = sortMenu.FindItem(Resource.Id.favoritesfirst);
+            isFavoriteFirst.SetChecked(false);
+
+            var isFavoriteLast = sortMenu.FindItem(Resource.Id.favoriteslast);
+            isFavoriteLast.SetChecked(false);
+
+            switch (selectedSortMode)
+            {
+                case EAudioDramaSortMode.ReleaseDateDescending:
+                    dateDescending.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.ReleaseDateAscending:
+                    dateAscending.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.NumberDescending:
+                    numberDescending.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.NumberAscending:
+                    numberAscending.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.NameDescending:
+                    nameDescending.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.NameAscending:
+                    nameAscending.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.HeardFirst:
+                    heardFirst.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.HeardLast:
+                    heardLast.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.IsFavoriteFirst:
+                    isFavoriteFirst.SetChecked(true);
+                    break;
+                case EAudioDramaSortMode.IsFavoriteLast:
+                    isFavoriteLast.SetChecked(true);
+                    break;    }
         }
 
         public string GetCurrentSearchText()
