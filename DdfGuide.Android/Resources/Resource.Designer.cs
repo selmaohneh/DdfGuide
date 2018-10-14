@@ -2522,6 +2522,9 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08005d
 			public const int radio = 2131230813;
 			
+			// aapt resource value: 0x7f0800b3
+			public const int randomitem = 2131230899;
+			
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
@@ -3010,13 +3013,16 @@ namespace DdfGuide.Android
 			public const int baseline_sort_white_24 = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int ic_launcher = 2130903044;
+			public const int ic_dice_3_white_24dp = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int ic_launcher_foreground = 2130903045;
+			public const int ic_launcher = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int ic_launcher_round = 2130903046;
+			public const int ic_launcher_foreground = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int ic_launcher_round = 2130903047;
 			
 			static Mipmap()
 			{

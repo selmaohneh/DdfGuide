@@ -77,4 +77,9 @@
     </menu>
 
   </item>
+
+  <item android:id="@+id/randomitem"
+        android:icon="@mipmap/ic_dice_3_white_24dp"
+        android:showAsAction="always"
+        android:title="Zufällige Folge"/>
 </menu>
