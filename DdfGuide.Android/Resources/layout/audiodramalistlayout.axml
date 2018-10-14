@@ -13,11 +13,26 @@
     android:background="?android:attr/colorPrimary"
     android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
 	
-	<ListView
+	<RelativeLayout
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:id="@+id/listViewAudioDramas" />
-
+		android:layout_height="match_parent">
+		<ListView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/listViewAudioDramas" />
+	
+		<android.support.design.widget.FloatingActionButton
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="24dp"
+        android:src="@mipmap/baseline_search_white_24"
+		android:id="@+id/floatingActionButtonSearch" />
+	
+	</RelativeLayout>
 </LinearLayout>
