@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-			    android:orientation="horizontal"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp" >
+			    android:orientation="horizontal" >
 
 	<ImageView  
-	            android:layout_width="48dp"
-	            android:layout_height="48dp"
-	            android:src="@mipmap/ic_launcher_round" 
-	            android:layout_gravity="center"/>
+		android:id="@+id/coverview"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+	            android:src="@mipmap/ic_launcher_round"/>
 
   <TextView
-            android:id="@+id/titleview"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textSize="16sp"/>
+		android:id="@+id/titleview"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/checkboxfavorite"
+        android:layout_toRightOf="@+id/coverview"
+		android:text="... und der Dummytitel"
+            android:textSize="18sp"/>
 
-</LinearLayout>
+	<CheckBox
+		 android:id="@+id/checkboxheard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+	  android:button="@drawable/checkboxheard"/>
+
+	<CheckBox
+		android:id="@+id/checkboxfavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/checkboxheard"
+	    android:button="@drawable/checkboxfavorite"/>
+	
+</RelativeLayout>
