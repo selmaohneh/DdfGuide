@@ -17,16 +17,43 @@ namespace DdfGuide.Android
         private View _view;
         private Toolbar _toolbar;
         private SearchView _searchView;
+        private AudioDramaListAdapter _listViewAdapter;
+        private ListView _listView;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
 
-            var fab = _view.FindViewById<FloatingActionButton>(Resource.Id.floatingActionButtonRandom);
-            fab.Click += (sender, args) => { RandomClicked?.Invoke(this, EventArgs.Empty); };
+            SetupFloatingRandomButton();
+            SetupListView();
             SetupToolbar();
 
             return _view;
+        }
+
+        private void SetupFloatingRandomButton()
+        {
+            var fab = _view.FindViewById<FloatingActionButton>(Resource.Id.floatingActionButtonRandom);
+            fab.Click += (sender, args) => { RandomClicked?.Invoke(this, EventArgs.Empty); };
+        }
+
+        private void SetupListView()
+        {
+            _listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
+
+            _listViewAdapter = new AudioDramaListAdapter(Activity);
+            
+            _listViewAdapter.HeardClicked += (sender, guid) => { HeardChanged?.Invoke(this, guid); };
+
+            _listViewAdapter.FavoriteClicked += (sender, guid) => { IsFavoriteChanged?.Invoke(this, guid); };
+
+            _listView.ItemClick += (sender, args) =>
+            {
+                var audioDrama = _listViewAdapter[args.Position];
+                AudioDramaClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+            };
+
+            _listView.Adapter = _listViewAdapter;
         }
 
         private void SetupToolbar()
@@ -107,29 +134,7 @@ namespace DdfGuide.Android
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
-            var listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
-
-            var adapter = new AudioDramaListAdapter(Activity, audioDramas);
-
-            adapter.HeardClicked += (sender, guid) =>
-            {
-                HeardChanged?.Invoke(this, guid);
-            };
-
-            adapter.FavoriteClicked += (sender, guid) =>
-            {
-                IsFavoriteChanged?.Invoke(this, guid);
-            };
-
-            listView.ItemClick += (sender, args) =>
-            {
-                var audioDrama = adapter[args.Position];
-                AudioDramaClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
-            };
-
-            
-
-            listView.Adapter = adapter;
+          _listViewAdapter.SetAudioDramas(audioDramas);
         }
 
         public void SetFilterInfos(EAudioDramaFilterMode selectedFilterMode)

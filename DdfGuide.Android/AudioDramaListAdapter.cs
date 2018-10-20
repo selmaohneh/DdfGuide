@@ -13,14 +13,20 @@ namespace DdfGuide.Android
     public class AudioDramaListAdapter : BaseAdapter<AudioDrama>
     {
         private readonly Activity _context;
-        private readonly IEnumerable<AudioDrama> _audioDramas;
+        private IEnumerable<AudioDrama> _audioDramas;
         public event EventHandler<Guid> HeardClicked;
         public event EventHandler<Guid> FavoriteClicked; 
 
-        public AudioDramaListAdapter(Activity context, IEnumerable<AudioDrama> audioDramas)
+        public AudioDramaListAdapter(Activity context)
         {
             _context = context;
+            _audioDramas = new List<AudioDrama>();
+        }
+
+        public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
+        {
             _audioDramas = audioDramas;
+            NotifyDataSetChanged();
         }
 
         public override long GetItemId(int position)
