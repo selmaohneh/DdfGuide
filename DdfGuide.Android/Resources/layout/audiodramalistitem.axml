@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-			    android:orientation="horizontal" >
+			    android:orientation="horizontal"
+                android:descendantFocusability="blocksDescendants">
 
 	<FFImageLoading.Views.ImageViewAsync  
 		android:id="@+id/coverview"
@@ -12,8 +13,7 @@
         android:layout_centerVertical="true"
         android:layout_margin="5dp"
         android:scaleType="fitXY"
-        android:gravity="center"
-	            android:src="@mipmap/ic_launcher_round"/>
+        android:gravity="center"/>
 
   <TextView
 		android:id="@+id/titleview"
