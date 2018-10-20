@@ -24,7 +24,8 @@
         android:layout_toLeftOf="@+id/checkboxfavorite"
         android:layout_toRightOf="@+id/coverview"
 		android:text="... und der Dummytitel"
-            android:textSize="18sp"/>
+            android:textSize="18sp"
+android:textColor="@@color/ddfBlack"/>
 
 	<CheckBox
 		 android:id="@+id/checkboxheard"
@@ -33,7 +34,8 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_margin="5dp"
-	  android:button="@drawable/checkboxheard"/>
+		android:button="@drawable/checkboxheard"
+		android:buttonTint="@color/ddfBlue"/>
 
 	<CheckBox
 		android:id="@+id/checkboxfavorite"
@@ -42,6 +44,7 @@
         android:layout_centerVertical="true"
         android:layout_margin="5dp"
         android:layout_toLeftOf="@+id/checkboxheard"
-	    android:button="@drawable/checkboxfavorite"/>
+	    android:button="@drawable/checkboxfavorite"
+		android:buttonTint="@color/ddfRed"/>
 	
 </RelativeLayout>

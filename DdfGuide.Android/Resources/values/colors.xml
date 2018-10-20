@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2c3e50</color>
-    <color name="colorPrimaryDark">#1B3147</color>
-    <color name="colorAccent">#3498db</color>
+    <color name="ddfBlack">#000000</color>
+    <color name="ddfWhite">#ffffff</color>
+    <color name="ddfBlue">#16a0fc</color>
+  <color name="ddfRed">#e00b0b</color>
 </resources>
