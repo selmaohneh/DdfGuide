@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Android.App;
 using Android.Views;
 using Android.Widget;
@@ -14,6 +14,8 @@ namespace DdfGuide.Android
     {
         private readonly Activity _context;
         private readonly IEnumerable<AudioDrama> _audioDramas;
+        public event EventHandler<Guid> HeardClicked;
+        public event EventHandler<Guid> FavoriteClicked; 
 
         public AudioDramaListAdapter(Activity context, IEnumerable<AudioDrama> audioDramas)
         {
@@ -34,8 +36,17 @@ namespace DdfGuide.Android
             if (view == null)
             {
                 view = _context.LayoutInflater.Inflate(Resource.Layout.audiodramalistitem, null);
+                
+                var heardCheckbox = view.FindViewById<CheckBox>(Resource.Id.checkboxheard);
+                heardCheckbox.Click += (sender, args) => HeardClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+
+                var isFavoriteCheckBox = view.FindViewById<CheckBox>(Resource.Id.checkboxfavorite);
+                isFavoriteCheckBox.Click += (sender, args) => FavoriteClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
             }
-            
+
+            view.FindViewById<CheckBox>(Resource.Id.checkboxheard).Checked = audioDrama.AudioDramaUserData.Heard;
+            view.FindViewById<CheckBox>(Resource.Id.checkboxfavorite).Checked = audioDrama.AudioDramaUserData.IsFavorite;
+
             view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
          
             var imageView = view.FindViewById<ImageViewAsync>(Resource.Id.coverview);
@@ -43,7 +54,7 @@ namespace DdfGuide.Android
             var image = ImageService.Instance
                 .LoadUrl(audioDrama.AudioDramaDto.CoverUrl)
                 .Into(imageView);
-
+            
             return view;
         }
 

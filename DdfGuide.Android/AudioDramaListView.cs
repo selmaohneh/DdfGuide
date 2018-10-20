@@ -111,11 +111,23 @@ namespace DdfGuide.Android
 
             var adapter = new AudioDramaListAdapter(Activity, audioDramas);
 
+            adapter.HeardClicked += (sender, guid) =>
+            {
+                HeardChanged?.Invoke(this, guid);
+            };
+
+            adapter.FavoriteClicked += (sender, guid) =>
+            {
+                IsFavoriteChanged?.Invoke(this, guid);
+            };
+
             listView.ItemClick += (sender, args) =>
             {
                 var audioDrama = adapter[args.Position];
                 AudioDramaClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
             };
+
+            
 
             listView.Adapter = adapter;
         }
