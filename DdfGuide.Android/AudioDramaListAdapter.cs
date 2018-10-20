@@ -1,9 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Android.App;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
+using FFImageLoading;
+using FFImageLoading.Views;
 
 namespace DdfGuide.Android
 {
@@ -34,7 +37,13 @@ namespace DdfGuide.Android
             }
             
             view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
-            //view.FindViewById<ImageView>(Resource.Id.Image).SetImageResource(item.ImageResourceId);
+         
+            var imageView = view.FindViewById<ImageViewAsync>(Resource.Id.coverview);
+
+            var image = ImageService.Instance
+                .LoadUrl(audioDrama.AudioDramaDto.CoverUrl)
+                .Into(imageView);
+
             return view;
         }
 

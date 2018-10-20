@@ -4,7 +4,7 @@
                 android:layout_height="fill_parent"
 			    android:orientation="horizontal" >
 
-	<ImageView  
+	<FFImageLoading.Views.ImageViewAsync  
 		android:id="@+id/coverview"
         android:layout_width="56dp"
         android:layout_height="56dp"
