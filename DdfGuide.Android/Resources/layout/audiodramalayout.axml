@@ -4,13 +4,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 	
+  <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+           android:id="@+id/toolbarsingleview"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:minHeight="?android:attr/actionBarSize"
+           android:background="?android:attr/colorPrimary"
+           android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
+
+
   <TextView
 		android:text="Titel"
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:id="@+id/textviewtitel" />
+		android:minWidth="50px"
+		android:minHeight="50px"
+        android:layout_margin="5dp"
+		android:id="@+id/textviewtitelsingle" 
+        android:textAlignment="center"/>
+
+  <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <FFImageLoading.Views.ImageViewAsync  
+      android:id="@+id/coverviewsingle"
+      android:layout_width="160dp"
+      android:layout_height="160dp"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:layout_margin="5dp"
+      android:gravity="center"
+      android:scaleType="fitXY"/>
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+      <CheckBox
+        android:id="@+id/checkboxheard"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/checkboxheard"
+        android:background="@drawable/checkboxheard"
+        android:button="@null"
+        android:backgroundTint="@color/ddfBlue"/>
+
+      <CheckBox
+        android:id="@+id/checkboxfavorite"
+      android:layout_width="75dp"
+android:layout_height="75dp"
+android:layout_centerVertical="true"
+android:layout_margin="5dp"
+        android:background="@drawable/checkboxfavorite"
+        android:button="@null"
+        android:backgroundTint="@color/ddfRed"/>
+  
+    </LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+		android:id="@+id/textViewDescription"
+	android:textColor="@@color/ddfBlack"/>
 
 </LinearLayout>
