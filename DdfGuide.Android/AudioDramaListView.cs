@@ -42,10 +42,6 @@ namespace DdfGuide.Android
             _listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
 
             _listViewAdapter = new AudioDramaListAdapter(Activity);
-            
-            _listViewAdapter.HeardClicked += (sender, guid) => { HeardChanged?.Invoke(this, guid); };
-
-            _listViewAdapter.FavoriteClicked += (sender, guid) => { IsFavoriteChanged?.Invoke(this, guid); };
 
             _listView.ItemClick += (sender, args) =>
             {

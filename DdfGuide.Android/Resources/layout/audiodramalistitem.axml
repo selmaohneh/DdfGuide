@@ -26,25 +26,5 @@
 		android:text="... und der Dummytitel"
             android:textSize="18sp"
 android:textColor="@@color/ddfBlack"/>
-
-	<CheckBox
-		 android:id="@+id/checkboxheard"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_margin="5dp"
-		android:button="@drawable/checkboxheard"
-		android:buttonTint="@color/ddfBlue"/>
-
-	<CheckBox
-		android:id="@+id/checkboxfavorite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_margin="5dp"
-        android:layout_toLeftOf="@+id/checkboxheard"
-	    android:button="@drawable/checkboxfavorite"
-		android:buttonTint="@color/ddfRed"/>
 	
 </RelativeLayout>

@@ -33,14 +33,10 @@ namespace DdfGuide.Core
 
             if (NumberEuropa.HasValue)
             {
-                dump += $"{NumberEuropa.Value}";
-            }
-            else
-            {
-                dump += "NoNumber";
+                dump += $"{NumberEuropa.Value} / ";
             }
 
-            dump += $" {Title}";
+            dump += $"{Title}";
             
             return dump;
         }

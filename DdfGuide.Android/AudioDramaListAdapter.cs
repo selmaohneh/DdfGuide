@@ -14,8 +14,6 @@ namespace DdfGuide.Android
     {
         private readonly Activity _context;
         private IEnumerable<AudioDrama> _audioDramas;
-        public event EventHandler<Guid> HeardClicked;
-        public event EventHandler<Guid> FavoriteClicked; 
 
         public AudioDramaListAdapter(Activity context)
         {
@@ -42,16 +40,7 @@ namespace DdfGuide.Android
             if (view == null)
             {
                 view = _context.LayoutInflater.Inflate(Resource.Layout.audiodramalistitem, null);
-                
-                var heardCheckbox = view.FindViewById<CheckBox>(Resource.Id.checkboxheard);
-                heardCheckbox.Click += (sender, args) => HeardClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
-
-                var isFavoriteCheckBox = view.FindViewById<CheckBox>(Resource.Id.checkboxfavorite);
-                isFavoriteCheckBox.Click += (sender, args) => FavoriteClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
             }
-
-            view.FindViewById<CheckBox>(Resource.Id.checkboxheard).Checked = audioDrama.AudioDramaUserData.Heard;
-            view.FindViewById<CheckBox>(Resource.Id.checkboxfavorite).Checked = audioDrama.AudioDramaUserData.IsFavorite;
 
             view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
          
