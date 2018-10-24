@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Linq;
 using Android.App;
 using Android.OS;
+using Android.Text;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
@@ -41,6 +43,12 @@ namespace DdfGuide.Android
 
             var descriptionView = _view.FindViewById<TextView>(Resource.Id.textViewDescription);
             descriptionView.Text = audioDrama.AudioDramaDto.Description;
+
+            var rolesView = _view.FindViewById<ListView>(Resource.Id.listViewRoles);
+            rolesView.SetScrollContainer(true);
+            var adapter = new RoleListAdapter(Activity);
+            adapter.SetRoles(audioDrama.AudioDramaDto.Roles);
+            rolesView.Adapter = adapter;
 
             var heardCheckbox = _view.FindViewById<CheckBox>(Resource.Id.checkboxheard);
             heardCheckbox.Checked = audioDrama.AudioDramaUserData.Heard;
