@@ -35,10 +35,10 @@ namespace DdfGuide.Test
 
             Assert.IsFalse(_audioDrama.AudioDramaUserData.Heard);
 
-            view.Raise(x => x.HeardChanged += null, this, EventArgs.Empty);
+            view.Raise(x => x.HeardClicked += null, this, EventArgs.Empty);
             Assert.IsTrue(_audioDrama.AudioDramaUserData.Heard);
 
-            view.Raise(x => x.HeardChanged += null, EventArgs.Empty);
+            view.Raise(x => x.HeardClicked += null, EventArgs.Empty);
             Assert.IsFalse(_audioDrama.AudioDramaUserData.Heard);
         }
 
@@ -63,10 +63,10 @@ namespace DdfGuide.Test
 
             Assert.IsFalse(_audioDrama.AudioDramaUserData.IsFavorite);
 
-            view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
+            view.Raise(x => x.IsFavoriteClicked += null, EventArgs.Empty);
             Assert.IsTrue(_audioDrama.AudioDramaUserData.IsFavorite);
 
-            view.Raise(x => x.IsFavoriteChanged += null, EventArgs.Empty);
+            view.Raise(x => x.IsFavoriteClicked += null, EventArgs.Empty);
             Assert.IsFalse(_audioDrama.AudioDramaUserData.IsFavorite);
         }
 
@@ -107,7 +107,7 @@ namespace DdfGuide.Test
 
             view.Invocations.Clear();
             
-            view.Raise(x => x.HeardChanged += null, null, EventArgs.Empty);
+            view.Raise(x => x.HeardClicked += null, null, EventArgs.Empty);
 
             view.Verify(x => x.SetAudioDrama(It.IsAny<AudioDrama>()), Times.Once());
         }

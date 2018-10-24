@@ -14,8 +14,8 @@ namespace DdfGuide.Core
             _audioDramaView = audioDramaView;
             
             _audioDramaView.BackClicked += OnBackClicked(viewer);
-            _audioDramaView.IsFavoriteChanged += OnIsFavoriteChanged();
-            _audioDramaView.HeardChanged += OnHeardChanged();
+            _audioDramaView.IsFavoriteClicked += OnIsFavoriteChanged();
+            _audioDramaView.HeardClicked += OnHeardChanged();
         }
 
         public void SetAudioDrama(AudioDrama audioDrama)

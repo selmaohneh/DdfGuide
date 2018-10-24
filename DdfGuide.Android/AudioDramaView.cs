@@ -21,6 +21,15 @@ namespace DdfGuide.Android
             toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
             toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
 
+            var checkBoxHeard = _view.FindViewById<CheckBox>(Resource.Id.checkboxheard);
+            checkBoxHeard.Click += (sender, args) =>
+            {
+                HeardClicked?.Invoke(this, EventArgs.Empty);
+            };
+
+            var checkBoxIsFavorite = _view.FindViewById<CheckBox>(Resource.Id.checkboxfavorite);
+            checkBoxIsFavorite.Click += (sender, args) => IsFavoriteClicked?.Invoke(this, EventArgs.Empty);
+
             return _view;
         }
 
@@ -33,13 +42,19 @@ namespace DdfGuide.Android
             var descriptionView = _view.FindViewById<TextView>(Resource.Id.textViewDescription);
             descriptionView.Text = audioDrama.AudioDramaDto.Description;
 
+            var heardCheckbox = _view.FindViewById<CheckBox>(Resource.Id.checkboxheard);
+            heardCheckbox.Checked = audioDrama.AudioDramaUserData.Heard;
+
+            var favoriteCheckbox = _view.FindViewById<CheckBox>(Resource.Id.checkboxfavorite);
+            favoriteCheckbox.Checked = audioDrama.AudioDramaUserData.IsFavorite;
+
             var imageView = _view.FindViewById<ImageViewAsync>(Resource.Id.coverviewsingle);
             ImageService.Instance
                 .LoadUrl(audioDrama.AudioDramaDto.CoverUrl)
                 .IntoAsync(imageView);
         }
 
-        public event EventHandler HeardChanged;
-        public event EventHandler IsFavoriteChanged;
+        public event EventHandler HeardClicked;
+        public event EventHandler IsFavoriteClicked;
     }
 }

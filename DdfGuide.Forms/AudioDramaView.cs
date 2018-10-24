@@ -13,8 +13,8 @@ namespace DdfGuide.Forms
         }
 
         public event EventHandler BackClicked;
-        public event EventHandler HeardChanged;
-        public event EventHandler IsFavoriteChanged;
+        public event EventHandler HeardClicked;
+        public event EventHandler IsFavoriteClicked;
 
         public void SetAudioDrama(AudioDrama audioDrama)
         {
@@ -44,12 +44,12 @@ namespace DdfGuide.Forms
 
         private void checkBoxHeard_Click(object sender, EventArgs e)
         {
-            HeardChanged?.Invoke(this, EventArgs.Empty);
+            HeardClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void checkBoxIsFavorite_Click(object sender, EventArgs e)
         {
-            IsFavoriteChanged?.Invoke(this, EventArgs.Empty);
+            IsFavoriteClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void backToolStripMenuItem_Click(object sender, EventArgs e)

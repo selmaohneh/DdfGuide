@@ -19,7 +19,7 @@ namespace DdfGuide.Android.Resources
             // todo
         }
 
-        public event EventHandler HeardChanged;
-        public event EventHandler IsFavoriteChanged;
+        public event EventHandler HeardClicked;
+        public event EventHandler IsFavoriteClicked;
     }
 }
