@@ -44,12 +44,20 @@ namespace DdfGuide.Android
             var descriptionView = _view.FindViewById<TextView>(Resource.Id.textViewDescription);
             descriptionView.Text = audioDrama.AudioDramaDto.Description;
 
-            var rolesView = _view.FindViewById<ListView>(Resource.Id.listViewRoles);
-            rolesView.SetScrollContainer(true);
-            var adapter = new RoleListAdapter(Activity);
-            adapter.SetRoles(audioDrama.AudioDramaDto.Roles);
-            rolesView.Adapter = adapter;
+            var rolesView = _view.FindViewById<TextView>(Resource.Id.textViewRoles);
 
+            rolesView.Text = string.Empty;
+            foreach (var roleDto in audioDrama.AudioDramaDto.Roles)
+            {
+                rolesView.Append(Html.FromHtml($"<b>{roleDto.Character}:</b><br>", FromHtmlOptions.ModeLegacy));
+                rolesView.Append(Html.FromHtml($"<i>{roleDto.Speaker}</i>", FromHtmlOptions.ModeLegacy));
+
+                if (roleDto != audioDrama.AudioDramaDto.Roles.Last())
+                {
+                    rolesView.Append(Html.FromHtml("<br><br>", FromHtmlOptions.ModeLegacy));
+                }
+            }
+            
             var heardCheckbox = _view.FindViewById<CheckBox>(Resource.Id.checkboxheard);
             heardCheckbox.Checked = audioDrama.AudioDramaUserData.Heard;
 

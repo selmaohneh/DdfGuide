@@ -63,7 +63,6 @@
     <Compile Include="AndroidUserDataProvider.cs" />
     <Compile Include="AudioDramaListAdapter.cs" />
     <Compile Include="AudioDramaListView.cs" />
-    <Compile Include="RoleListAdapter.cs" />
     <Compile Include="AudioDramaView.cs" />
     <Compile Include="InterpreterSelectionView.cs" />
     <Compile Include="MainActivity.cs" />
@@ -309,11 +308,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\baseline_favorite_border_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\roleslistitem.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
