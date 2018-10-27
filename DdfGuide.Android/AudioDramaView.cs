@@ -39,13 +39,15 @@ namespace DdfGuide.Android
         public void SetAudioDrama(AudioDrama audioDrama)
         {
             var titleView = _view.FindViewById<TextView>(Resource.Id.textviewtitelsingle);
-            titleView.Text = audioDrama.AudioDramaDto.Title;
+            titleView.Text = audioDrama.AudioDramaDto.ToString();
 
             var descriptionView = _view.FindViewById<TextView>(Resource.Id.textViewDescription);
             descriptionView.Text = audioDrama.AudioDramaDto.Description;
 
-            var rolesView = _view.FindViewById<TextView>(Resource.Id.textViewRoles);
+            var releaseDateView = _view.FindViewById<TextView>(Resource.Id.textviewreleasesingle);
+            releaseDateView.Text = audioDrama.AudioDramaDto.ReleaseDate.ToShortDateString();
 
+            var rolesView = _view.FindViewById<TextView>(Resource.Id.textViewRoles);
             rolesView.Text = string.Empty;
             foreach (var roleDto in audioDrama.AudioDramaDto.Roles)
             {
