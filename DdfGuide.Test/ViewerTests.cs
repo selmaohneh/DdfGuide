@@ -97,5 +97,17 @@ namespace DdfGuide.Test
             _viewer.ShowLast();
             _viewer.ShowLast();
         }
+
+        [TestMethod]
+        public void ShowCurrentView_ShowCorrectView()
+        {
+            var singleView = new Mock<IView>();
+
+            _viewer.Show(singleView.Object);
+
+            _rootView.Invocations.Clear();
+
+            _rootView.Verify(x => x.Show(singleView.Object), Times.Once);
+        }
     }
 }
