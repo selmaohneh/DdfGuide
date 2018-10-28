@@ -26,6 +26,11 @@ namespace DdfGuide.Core
             _rootView.Show(_currentView);
         }
 
+        public void ShowCurrent()
+        {
+            _rootView.Show(_currentView);
+        }
+
         public void ShowLast()
         {
             if (_recentViewsStack.Any())

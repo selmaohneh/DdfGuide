@@ -1,11 +1,13 @@
 ﻿using System;
 using Android.App;
+using Android.Content.PM;
+using Android.Content.Res;
 using Android.OS;
 using DdfGuide.Core;
 
 namespace DdfGuide.Android
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.Orientation)]
     public class MainActivity : Activity, IRootView
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -49,6 +51,15 @@ namespace DdfGuide.Android
             transaction.Replace(Resource.Id.rootLayout, fragment);
             transaction.Commit();
             FragmentManager.ExecutePendingTransactions();
+        }
+
+        public event EventHandler ViewDestroyed;
+
+        public override void OnConfigurationChanged(Configuration newConfig)
+        {
+            base.OnConfigurationChanged(newConfig);
+
+            ViewDestroyed?.Invoke(this, EventArgs.Empty);
         }
 
         public event EventHandler BackClicked;

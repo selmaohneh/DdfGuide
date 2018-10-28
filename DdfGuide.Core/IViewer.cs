@@ -4,5 +4,6 @@
     {
         void Show(IView view);
         void ShowLast();
+        void ShowCurrent();
     }
 }

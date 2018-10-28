@@ -107,6 +107,8 @@ namespace DdfGuide.Test
 
             _rootView.Invocations.Clear();
 
+            _viewer.ShowCurrent();
+
             _rootView.Verify(x => x.Show(singleView.Object), Times.Once);
         }
     }
