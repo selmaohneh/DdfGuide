@@ -89,7 +89,7 @@ namespace DdfGuide.Core
                 var randomAudioDrama = _picker.Pick(matchingAudioDramas);
 
                 _viewer.Show(_audioDramaView);
-                _audioDramaView.SetAudioDrama(randomAudioDrama);
+                _audioDramaPresenter.SetAudioDrama(randomAudioDrama);
             };
         }
 

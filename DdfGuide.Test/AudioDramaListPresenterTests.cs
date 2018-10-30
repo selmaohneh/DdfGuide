@@ -409,7 +409,7 @@ namespace DdfGuide.Test
 
             picker.Verify(x => x.Pick(_audioDramas));
             viewer.Verify(x => x.Show(view.Object));
-            view.Verify(x => x.SetAudioDrama(audioDrama));
+            _mocker.Verify<IAudioDramaPresenter>(x => x.SetAudioDrama(audioDrama), Times.Once);
         }
 
         [TestMethod]
