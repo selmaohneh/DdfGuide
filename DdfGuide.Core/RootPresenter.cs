@@ -4,7 +4,6 @@
     {
         public RootPresenter(IRootView rootView, IViewer viewer)
         {
-            rootView.BackClicked += (sender, args) => viewer.ShowLast();
             rootView.ViewDestroyed += (sender, args) => viewer.ShowCurrent();
         }
     }

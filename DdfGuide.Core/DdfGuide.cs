@@ -14,22 +14,19 @@ namespace DdfGuide.Core
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
         private readonly IRootView _rootView;
-        private readonly IInterpreterSelectionView _interpreterSelectionView;
 
         public DdfGuide(
             IProvider<IEnumerable<AudioDramaDto>> dtoProvider,
             IProvider<IEnumerable<AudioDramaUserData>> userDataProvider,
             IAudioDramaListView audioDramaListView,
             IAudioDramaView audioDramaView,
-            IRootView rootView,
-            IInterpreterSelectionView interpreterSelectionView)
+            IRootView rootView)
         {
             _dtoProvider = dtoProvider;
             _userDataProvider = userDataProvider;
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _rootView = rootView;
-            _interpreterSelectionView = interpreterSelectionView;
         }
 
         public void Start()
@@ -48,8 +45,7 @@ namespace DdfGuide.Core
             var viewStack = new Stack<IView>();
             var viewer = new Viewer(_rootView, viewStack);
             var rootPresenter = new RootPresenter(_rootView, viewer);
-
-
+            
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView, viewer);
 
             var filterFactory = new AudioDramaFilterFactory();
@@ -61,22 +57,14 @@ namespace DdfGuide.Core
 
             var audioDramaListPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
-                _audioDramaView,
                 viewer,
                 audioDramaPresenter,
                 explorer,
                 picker
                 );
 
-            var interpreterSelectionPresenter = new InterpreterSelectionPresenter(
-                _interpreterSelectionView,
-                viewer,
-                _audioDramaListView,
-                audioDramaListPresenter,
-                audioDramas,
-                filterFactory);
-
-            viewer.Show(_interpreterSelectionView);
+            viewer.Show(_audioDramaListView);
+            audioDramaListPresenter.SetModel(audioDramas);
         }
     }
 }

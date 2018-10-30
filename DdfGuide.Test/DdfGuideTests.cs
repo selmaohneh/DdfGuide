@@ -27,13 +27,13 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void Startup_ShowInterpreterSelectionView()
+        public void Startup_ShowAudioDramaListView()
         {
             var rootView = _mocker.GetMock<IRootView>();
 
             _systemUnderTest.Start();
 
-            rootView.Verify(x => x.Show(It.IsAny<IInterpreterSelectionView>()));
+            rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
         }
 
         [TestMethod]

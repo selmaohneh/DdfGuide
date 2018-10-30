@@ -29,7 +29,7 @@ namespace DdfGuide.Test
             _mocker.Use<IEnumerable<AudioDrama>>(_audioDramas);
 
             _sut = _mocker.CreateInstance<AudioDramaListPresenter>();
-            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetModel(_audioDramas);
         }
         
 
@@ -39,7 +39,7 @@ namespace DdfGuide.Test
             var listView = _mocker.GetMock<IAudioDramaListView>();
             listView.Invocations.Clear();
 
-            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetModel(_audioDramas);
 
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once);
         }
@@ -50,7 +50,7 @@ namespace DdfGuide.Test
             var listView = _mocker.GetMock<IAudioDramaListView>();
             listView.Invocations.Clear();
 
-            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetModel(_audioDramas);
 
             listView.Verify(x => x.SetSelectedSortMode(It.IsAny<EAudioDramaSortMode>()), Times.Once);
         }
@@ -61,7 +61,7 @@ namespace DdfGuide.Test
             var listView = _mocker.GetMock<IAudioDramaListView>();
             listView.Invocations.Clear();
 
-            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetModel(_audioDramas);
 
             listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
         }
@@ -126,13 +126,11 @@ namespace DdfGuide.Test
         [TestMethod]
         public void AudioDramaClicked_OpenAudioDramaView()
         {
-            var listView = _mocker.GetMock<IAudioDramaListView>();
-            var viewer = _mocker.GetMock<IViewer>();
-            var view = _mocker.GetMock<IAudioDramaView>();
-
-            listView.Raise(x => x.AudioDramaClicked += null, this, _audioDramas.First().AudioDramaDto.Id);
+            _mocker
+                .GetMock<IAudioDramaListView>()
+                .Raise(x => x.AudioDramaClicked += null, this, _audioDramas.First().AudioDramaDto.Id);
             
-            viewer.Verify(x => x.Show(view.Object), Times.Once);
+            _mocker.Verify<IViewer>(x => x.Show(It.IsAny<IAudioDramaView>()), Times.Once);
         }
 
         [TestMethod]
@@ -408,8 +406,8 @@ namespace DdfGuide.Test
             listView.Raise(x => x.RandomClicked += null, this, EventArgs.Empty);
 
             picker.Verify(x => x.Pick(_audioDramas));
-            viewer.Verify(x => x.Show(view.Object));
-            _mocker.Verify<IAudioDramaPresenter>(x => x.SetAudioDrama(audioDrama), Times.Once);
+            viewer.Verify(x => x.Show(It.IsAny<IAudioDramaView>()), Times.Once);
+            _mocker.Verify<IPresenter<IAudioDramaView, AudioDrama>>(x => x.SetModel(audioDrama), Times.Once);
         }
 
         [TestMethod]
@@ -417,25 +415,16 @@ namespace DdfGuide.Test
         {
             var view = _mocker.GetMock<IAudioDramaListView>();
 
-            _sut.SetAudioDramas(_audioDramas);
-            _sut.SetAudioDramas(_audioDramas);
-            _sut.SetAudioDramas(_audioDramas);
-            _sut.SetAudioDramas(_audioDramas);
+            _sut.SetModel(_audioDramas);
+            _sut.SetModel(_audioDramas);
+            _sut.SetModel(_audioDramas);
+            _sut.SetModel(_audioDramas);
 
             view.Invocations.Clear();
 
             view.Raise(x => x.HeardChanged += null, this, _audioDramas.First().AudioDramaDto.Id);
 
             view.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
-        }
-
-        [TestMethod]
-        public void OnBackClicked_ShowLastView()
-        {
-            var view = _mocker.GetMock<IAudioDramaListView>();
-            view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
-
-            _mocker.Verify<IViewer>(x => x.ShowLast());
         }
 
         [TestMethod]
@@ -450,7 +439,7 @@ namespace DdfGuide.Test
                 }
             });
 
-            _mocker.GetMock<IAudioDramaPresenter>().Setup(x => x.SetAudioDrama(It.IsAny<AudioDrama>())).Callback(() =>
+            _mocker.GetMock<IPresenter<IAudioDramaView, AudioDrama>>().Setup(x => x.SetModel(It.IsAny<AudioDrama>())).Callback(() =>
             {
                 if (order++ != 2)
                 {
@@ -474,7 +463,7 @@ namespace DdfGuide.Test
                 }
             });
 
-            _mocker.GetMock<IAudioDramaPresenter>().Setup(x => x.SetAudioDrama(It.IsAny<AudioDrama>())).Callback(() =>
+            _mocker.GetMock<IPresenter<IAudioDramaView,AudioDrama>>().Setup(x => x.SetModel(It.IsAny<AudioDrama>())).Callback(() =>
             {
                 if (order++ != 2)
                 {

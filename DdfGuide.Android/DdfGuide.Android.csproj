@@ -64,7 +64,6 @@
     <Compile Include="AudioDramaListAdapter.cs" />
     <Compile Include="AudioDramaListView.cs" />
     <Compile Include="AudioDramaView.cs" />
-    <Compile Include="InterpreterSelectionView.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\AudioDramaView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

@@ -2,7 +2,7 @@
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaPresenter : IAudioDramaPresenter
+    public class AudioDramaPresenter : IPresenter<IAudioDramaView,AudioDrama>
     {
         private readonly IAudioDramaView _audioDramaView;
         private AudioDrama _audioDrama;
@@ -18,9 +18,14 @@ namespace DdfGuide.Core
             _audioDramaView.HeardClicked += OnHeardChanged();
         }
 
-        public void SetAudioDrama(AudioDrama audioDrama)
+        public IAudioDramaView GetView()
         {
-            _audioDrama = audioDrama;
+            return _audioDramaView;
+        }
+
+        public void SetModel(AudioDrama model)
+        {
+            _audioDrama = model;
 
             _audioDrama.AudioDramaUserData.Changed -= OnUserDataChanged();
             _audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();

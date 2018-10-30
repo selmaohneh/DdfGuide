@@ -24,6 +24,6 @@ namespace DdfGuide.Forms
             panelRoot.Controls.Add(control);
         }
 
-        public event EventHandler BackClicked;
+        public event EventHandler ViewDestroyed;
     }
 }

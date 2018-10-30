@@ -24,7 +24,7 @@ namespace DdfGuide.Test
             _mocker = new AutoMocker();
             _sut = _mocker.CreateInstance<AudioDramaPresenter>();
 
-            _sut.SetAudioDrama(_audioDrama);
+            _sut.SetModel(_audioDrama);
 
         }
 
@@ -100,10 +100,10 @@ namespace DdfGuide.Test
         {
             var view = _mocker.GetMock<IAudioDramaView>();
 
-            _sut.SetAudioDrama(_audioDrama);
-            _sut.SetAudioDrama(_audioDrama);
-            _sut.SetAudioDrama(_audioDrama);
-            _sut.SetAudioDrama(_audioDrama);
+            _sut.SetModel(_audioDrama);
+            _sut.SetModel(_audioDrama);
+            _sut.SetModel(_audioDrama);
+            _sut.SetModel(_audioDrama);
 
             view.Invocations.Clear();
             

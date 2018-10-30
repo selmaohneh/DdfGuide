@@ -46,7 +46,7 @@ namespace DdfGuide.Core
             var searchString = string.Empty;
             searchString += Title;
             searchString += NumberEuropa;
-            searchString += ReleaseDate;
+            searchString += ReleaseDate.ToString("dd.MM.yyyy");
             searchString += Interpreter;
             searchString += Description;
 

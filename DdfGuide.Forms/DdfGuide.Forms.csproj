@@ -61,12 +61,6 @@
     <Compile Include="AudioDramaView.Designer.cs">
       <DependentUpon>AudioDramaView.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterpreterSelectionView.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="InterpreterSelectionView.Designer.cs">
-      <DependentUpon>InterpreterSelectionView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RootForm.cs">
@@ -80,9 +74,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AudioDramaView.resx">
       <DependentUpon>AudioDramaView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InterpreterSelectionView.resx">
-      <DependentUpon>InterpreterSelectionView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -6,33 +6,28 @@ using DdfGuide.Core.Sorting;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaListPresenter : IAudioDramaListPresenter
+    public class AudioDramaListPresenter : IPresenter<IAudioDramaListView,IEnumerable<AudioDrama>>
     {
         private readonly IAudioDramaListView _audioDramaListView;
-        private readonly IAudioDramaView _audioDramaView;
         private readonly IViewer _viewer;
-        private readonly IAudioDramaPresenter _audioDramaPresenter;
+        private readonly IPresenter<IAudioDramaView, AudioDrama> _audioDramaPresenter;
         private readonly IAudioDramaExplorer _explorer;
         private readonly IRandomAudioDramaPicker _picker;
         
         private IEnumerable<AudioDrama> _audioDramas;
 
         public AudioDramaListPresenter(
-            IAudioDramaListView audioDramaListView, 
-            IAudioDramaView audioDramaView,
+            IAudioDramaListView audioDramaListView,
             IViewer viewer, 
-            IAudioDramaPresenter audioDramaPresenter,
+            IPresenter<IAudioDramaView,AudioDrama> audioDramaPresenter,
             IAudioDramaExplorer explorer,
             IRandomAudioDramaPicker picker)
         {
             _audioDramaListView = audioDramaListView;
-            _audioDramaView = audioDramaView;
             _viewer = viewer;
             _audioDramaPresenter = audioDramaPresenter;
             _explorer = explorer;
             _picker = picker;
-
-            _audioDramaListView.BackClicked += OnBackClicked();
 
             _audioDramaListView.HeardChanged += OnHeardChanged();
             _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
@@ -60,27 +55,6 @@ namespace DdfGuide.Core
             _audioDramaListView.RandomClicked += OnRandomClicked();
         }
 
-        private EventHandler OnBackClicked()
-        {
-            return (sender, args) => { _viewer.ShowLast(); };
-        }
-
-        public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
-        {
-            _audioDramas = audioDramas;
-
-            foreach (var audioDrama in _audioDramas)
-            {
-                audioDrama.AudioDramaUserData.Changed -= OnUserDataChanged();
-                audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
-            }
-            
-            UpdateViewWithMatchingAudioDramas();
-
-            _audioDramaListView.SetFilterInfos(_explorer.GetCurrentFilterMode());
-            _audioDramaListView.SetSelectedSortMode(_explorer.GetCurrentSortMode());
-        }
-
         private EventHandler OnRandomClicked()
         {
             return (sender, args) =>
@@ -88,8 +62,8 @@ namespace DdfGuide.Core
                 var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas);
                 var randomAudioDrama = _picker.Pick(matchingAudioDramas);
 
-                _viewer.Show(_audioDramaView);
-                _audioDramaPresenter.SetAudioDrama(randomAudioDrama);
+                _viewer.Show(_audioDramaPresenter.GetView());
+                _audioDramaPresenter.SetModel(randomAudioDrama);
             };
         }
 
@@ -132,10 +106,10 @@ namespace DdfGuide.Core
         {
             return (sender, id) =>
             {
-                _viewer.Show(_audioDramaView);
+                _viewer.Show(_audioDramaPresenter.GetView());
 
                 var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
-                _audioDramaPresenter.SetAudioDrama(audioDrama);
+                _audioDramaPresenter.SetModel(audioDrama);
             };
         }
 
@@ -161,6 +135,27 @@ namespace DdfGuide.Core
         {
             var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
             _audioDramaListView.SetAudioDramaInfos(matchingAudioDramas);
+        }
+
+        public IAudioDramaListView GetView()
+        {
+            return _audioDramaListView;
+        }
+
+        public void SetModel(IEnumerable<AudioDrama> model)
+        {
+            _audioDramas = model;
+
+            foreach (var audioDrama in _audioDramas)
+            {
+                audioDrama.AudioDramaUserData.Changed -= OnUserDataChanged();
+                audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
+            }
+
+            UpdateViewWithMatchingAudioDramas();
+
+            _audioDramaListView.SetFilterInfos(_explorer.GetCurrentFilterMode());
+            _audioDramaListView.SetSelectedSortMode(_explorer.GetCurrentSortMode());
         }
     }
 }

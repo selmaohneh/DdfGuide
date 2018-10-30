@@ -10,6 +10,8 @@ namespace DdfGuide.Android
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.Orientation)]
     public class MainActivity : Activity, IRootView
     {
+        private Core.DdfGuide _ddfGuide;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -22,17 +24,21 @@ namespace DdfGuide.Android
             var audioDramaListView = new AudioDramaListView();
             var audioDramaView = new AudioDramaView();
             var rootView = this;
-            var interpreterSelectionView = new InterpreterSelectionView();
 
-            var ddfGuide = new Core.DdfGuide(
+            _ddfGuide = new Core.DdfGuide(
                 dtoProvider,
                 userDataProvider,
                 audioDramaListView,
                 audioDramaView,
-                rootView,
-                interpreterSelectionView);
+                rootView);
             
-            ddfGuide.Start();
+        }
+
+        protected override void OnStart()
+        {
+            base.OnStart();
+            
+            _ddfGuide.Start();
         }
 
         public override void OnBackPressed()
