@@ -3196,8 +3196,14 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f090023
 			public const int character_counter_pattern = 2131296291;
 			
+			// aapt resource value: 0x7f09002d
+			public const int diedrei = 2131296301;
+			
 			// aapt resource value: 0x7f09002b
 			public const int diedreifragezeichen = 2131296299;
+			
+			// aapt resource value: 0x7f09002c
+			public const int diedreifragezeichenkids = 2131296300;
 			
 			// aapt resource value: 0x7f090024
 			public const int password_toggle_content_description = 2131296292;
