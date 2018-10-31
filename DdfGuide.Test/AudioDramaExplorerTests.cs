@@ -71,5 +71,24 @@ namespace DdfGuide.Test
 
             CollectionAssert.AreEqual(expectedResult, result);
         }
+
+        [TestMethod]
+        public void ExplorerReturnsDieDreiFragezeichenAsInterpreterByDefault()
+        {
+            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+
+            Assert.IsTrue(_audioDramas.All(x => x.AudioDramaDto.Interpreter == "Die drei ???"));
+        }
+
+        [TestMethod]
+        public void ExplorerFiltersWhenAnInterpreterWasSet()
+        {
+            _explorer.SetInterpreterFilter(EAudioDramaFilterMode.DieDreiFragezeichenKids);
+            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+
+            var expectedResult = _audioDramas.Where(x=>x.AudioDramaDto.Interpreter == "Die drei ??? Kids").ToList();
+
+            CollectionAssert.AreEqual(expectedResult, result);
+        }
     }
 }

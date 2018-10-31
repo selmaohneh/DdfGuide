@@ -40,7 +40,20 @@ namespace DdfGuide.Core
             _audioDramaListView.UnheardOnlyClicked += OnFilterChanged(EAudioDramaFilterMode.UnheardOnly);
             _audioDramaListView.SpecialsOnlyClicked += OnFilterChanged(EAudioDramaFilterMode.SpecialsOnly);
 
+            _audioDramaListView.DieDreiFragezeichenClicked += OnInterpreterChanged(EAudioDramaFilterMode.DieDreiFragezeichen);
+            _audioDramaListView.DieDreiFragezeichenKidsClicked += OnInterpreterChanged(EAudioDramaFilterMode.DieDreiFragezeichenKids);
+            _audioDramaListView.DieDreiClicked += OnInterpreterChanged(EAudioDramaFilterMode.DieDrei);
+
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
+        }
+
+        private EventHandler OnInterpreterChanged(EAudioDramaFilterMode interpreterFilter)
+        {
+            return (sender, args) =>
+            {
+                _explorer.SetInterpreterFilter(interpreterFilter);
+                UpdateViewWithMatchingAudioDramas();
+            };
         }
 
         private EventHandler OnSearchTextChanged()

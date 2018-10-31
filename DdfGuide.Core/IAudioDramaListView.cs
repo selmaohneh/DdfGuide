@@ -31,6 +31,10 @@ namespace DdfGuide.Core
         event EventHandler FavoritesOnlyClicked;
         event EventHandler UnheardOnlyClicked;
 
+        event EventHandler DieDreiFragezeichenClicked;
+        event EventHandler DieDreiFragezeichenKidsClicked;
+        event EventHandler DieDreiClicked;
+
         string GetCurrentSearchText();
         event EventHandler SearchTextChanged;
 

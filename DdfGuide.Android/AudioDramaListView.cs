@@ -128,6 +128,25 @@ namespace DdfGuide.Android
 
             var tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);
             SetChildTextViewsColor(tabLayout, ColorStateList.ValueOf(Color.White));
+            tabLayout.TabSelected += (sender, args) =>
+            {
+                if (args.Tab.Text == "Die drei ???")
+                {
+                    DieDreiFragezeichenClicked?.Invoke(this, EventArgs.Empty);
+                }
+                else if (args.Tab.Text == "Die drei ??? Kids")
+                {
+                    DieDreiFragezeichenKidsClicked?.Invoke(this, EventArgs.Empty);
+                }
+                else if (args.Tab.Text == "DiE DR3i")
+                {
+                    DieDreiClicked?.Invoke(this, EventArgs.Empty);
+                }
+                else
+                {
+                    throw new Exception($"Tab with text '{args.Tab.Text}' does not exist.");
+                }
+            };
 
             _searchView = _toolbar.FindViewById<SearchView>(Resource.Id.action_search);
             _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
@@ -246,6 +265,8 @@ namespace DdfGuide.Android
                     break;    }
         }
 
+        public event EventHandler DieDreiClicked;
+
         public string GetCurrentSearchText()
         {
             return _searchView.Query;
@@ -286,6 +307,8 @@ namespace DdfGuide.Android
         public event EventHandler SpecialsOnlyClicked;
         public event EventHandler FavoritesOnlyClicked;
         public event EventHandler UnheardOnlyClicked;
+        public event EventHandler DieDreiFragezeichenClicked;
+        public event EventHandler DieDreiFragezeichenKidsClicked;
         public event EventHandler SearchTextChanged;
         public event EventHandler RandomClicked;
     }

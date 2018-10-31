@@ -364,6 +364,51 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void DieDreiFragezeichenClicked_UpdateExplorer_UpdateAudioDramasOnView()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            var explorer = _mocker.GetMock<IAudioDramaExplorer>();
+
+            listView.Invocations.Clear();
+            explorer.Invocations.Clear();
+
+            listView.Raise(x => x.DieDreiFragezeichenClicked += null, this, EventArgs.Empty);
+
+            explorer.Verify(x => x.SetInterpreterFilter(EAudioDramaFilterMode.DieDreiFragezeichen), Times.Once);
+            listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
+        }
+
+        [TestMethod]
+        public void DieDreiFragezeichenKidsClicked_UpdateExplorer_UpdateAudioDramasOnView()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            var explorer = _mocker.GetMock<IAudioDramaExplorer>();
+
+            listView.Invocations.Clear();
+            explorer.Invocations.Clear();
+
+            listView.Raise(x => x.DieDreiFragezeichenKidsClicked += null, this, EventArgs.Empty);
+
+            explorer.Verify(x => x.SetInterpreterFilter(EAudioDramaFilterMode.DieDreiFragezeichenKids), Times.Once);
+            listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
+        }
+
+        [TestMethod]
+        public void DieDreiClicked_UpdateExplorer_UpdateAudioDramasOnView()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            var explorer = _mocker.GetMock<IAudioDramaExplorer>();
+
+            listView.Invocations.Clear();
+            explorer.Invocations.Clear();
+
+            listView.Raise(x => x.DieDreiClicked += null, this, EventArgs.Empty);
+
+            explorer.Verify(x => x.SetInterpreterFilter(EAudioDramaFilterMode.DieDrei), Times.Once);
+            listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
+        }
+
+        [TestMethod]
         public void SearchRequested_GetCurrentSearchText_UpdateExplorer_UpdateAudioDramasOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
@@ -379,9 +424,7 @@ namespace DdfGuide.Test
             explorer.Verify(x => x.SetSearchText("Homer Simpson"), Times.Once);
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
         }
-
         
-
         [TestMethod]
         public void SetNewModelMultipleTimes_DontRaiseEventsMultipleTimes()
         {

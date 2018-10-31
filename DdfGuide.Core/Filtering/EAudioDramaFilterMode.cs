@@ -7,6 +7,8 @@
         FavoritesOnly,
         UnheardOnly,
         SpecialsOnly,
-        DieDreiFragezeichen
+        DieDreiFragezeichen,
+        DieDreiFragezeichenKids,
+        DieDrei
     }
 }

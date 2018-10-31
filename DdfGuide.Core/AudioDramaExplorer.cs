@@ -11,6 +11,7 @@ namespace DdfGuide.Core
         private readonly IAudioDramaFilterFactory _filterFactory;
         private readonly IAudioDramaSorterFactory _sorterFactory;
 
+        private IAudioDramaFilter _interpreterFilter;
         private IAudioDramaFilter _filter;
         private IAudioDramaSorter _sorter;
         private string _searchText;
@@ -24,6 +25,7 @@ namespace DdfGuide.Core
             _sorterFactory = sorterFactory;
             
             _searcher = searcher;
+            _interpreterFilter = _filterFactory.Create(EAudioDramaFilterMode.DieDreiFragezeichen);
             _filter = _filterFactory.Create(EAudioDramaFilterMode.All);
             _sorter = _sorterFactory.Create(EAudioDramaSortMode.ReleaseDateDescending);
         }
@@ -55,11 +57,17 @@ namespace DdfGuide.Core
 
         public IEnumerable<AudioDrama> GetMatchingAudioDramas(IEnumerable<AudioDrama> audioDramas)
         {
-            var filtered = _filter.Filter(audioDramas);
+            var interpreterSelected = _interpreterFilter.Filter(audioDramas);
+            var filtered = _filter.Filter(interpreterSelected);
             var filteredAndSearched = _searcher.Search(filtered, _searchText);
             var filteredAndSearchedAndSorted = _sorter.Sort(filteredAndSearched);
 
             return filteredAndSearchedAndSorted;
+        }
+
+        public void SetInterpreterFilter(EAudioDramaFilterMode filterMode)
+        {
+            _interpreterFilter = _filterFactory.Create(filterMode);
         }
     }
 }
