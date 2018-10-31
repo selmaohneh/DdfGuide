@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Android.App;
+using Android.Content.Res;
+using Android.Graphics;
 using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Views;
@@ -124,6 +126,9 @@ namespace DdfGuide.Android
                 }
             };
 
+            var tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);
+            SetChildTextViewsColor(tabLayout, ColorStateList.ValueOf(Color.White));
+
             _searchView = _toolbar.FindViewById<SearchView>(Resource.Id.action_search);
             _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
         }
@@ -246,8 +251,23 @@ namespace DdfGuide.Android
             return _searchView.Query;
         }
 
+        private void SetChildTextViewsColor(ViewGroup viewGroup, ColorStateList colorStateList)
+        {
+            for (var i = 0; i < viewGroup.ChildCount; i++)
+            {
+                var child = viewGroup.GetChildAt(i);
 
-        public event EventHandler BackClicked;
+                if (child is ViewGroup childViewGroup)
+                {
+                    SetChildTextViewsColor(childViewGroup, colorStateList);
+                }
+                else if (child is TextView childTextView) {
+                    childTextView.SetTextColor(colorStateList);
+                }
+            }
+        }
+
+    public event EventHandler BackClicked;
         public event EventHandler<Guid> HeardChanged;
         public event EventHandler<Guid> IsFavoriteChanged;
         public event EventHandler<Guid> AudioDramaClicked;
