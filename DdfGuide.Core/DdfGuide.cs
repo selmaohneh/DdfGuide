@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
@@ -40,14 +41,10 @@ namespace DdfGuide.Core
                 dtos,
                 userData);
 
-            var audioDramas = audioDramaBuilder.Build();
-
-            var viewStack = new Stack<IView>();
-            var viewer = new Viewer(_rootView, viewStack);
-            var rootPresenter = new RootPresenter(_rootView, viewer);
+            var audioDramas = audioDramaBuilder.Build().ToList();
             
-            var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView, viewer);
-
+            var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView);
+            
             var filterFactory = new AudioDramaFilterFactory();
             var sorterFactory = new AudioDramaSorterFactory();
             var searcher = new AudioDramaSearcher();
@@ -57,14 +54,18 @@ namespace DdfGuide.Core
 
             var audioDramaListPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
-                viewer,
-                audioDramaPresenter,
-                explorer,
-                picker
+                explorer
                 );
 
-            viewer.Show(_audioDramaListView);
-            audioDramaListPresenter.SetModel(audioDramas);
+            var navigator = new Navigator(
+                _rootView,
+                audioDramaPresenter, 
+                audioDramaListPresenter,
+                audioDramas,
+                explorer,
+                picker);
+            
+            navigator.ShowStartView();
         }
     }
 }

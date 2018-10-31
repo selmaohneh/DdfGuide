@@ -85,17 +85,6 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void BackClicked_ShowLastView()
-        {
-            var view = _mocker.GetMock<IAudioDramaView>();
-            var viewer = _mocker.GetMock<IViewer>();
-
-            view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
-
-            viewer.Verify(x => x.ShowLast(), Times.Once);
-        }
-
-        [TestMethod]
         public void SetNewModelMultipleTimes_DontRaiseEventsMultipleTimes()
         {
             var view = _mocker.GetMock<IAudioDramaView>();

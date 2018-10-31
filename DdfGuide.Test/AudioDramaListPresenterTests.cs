@@ -124,16 +124,6 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void AudioDramaClicked_OpenAudioDramaView()
-        {
-            _mocker
-                .GetMock<IAudioDramaListView>()
-                .Raise(x => x.AudioDramaClicked += null, this, _audioDramas.First().AudioDramaDto.Id);
-            
-            _mocker.Verify<IViewer>(x => x.Show(It.IsAny<IAudioDramaView>()), Times.Once);
-        }
-
-        [TestMethod]
         public void OrderByHeardFirstClicked_UpdateExplorer_UpdateAudioDramaOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
@@ -390,25 +380,7 @@ namespace DdfGuide.Test
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
         }
 
-        [TestMethod]
-        public void RandomAudioDramaRequested_PickRandomFromExplorer_ShowAudioDramaView_SetRandomToView()
-        {
-            var listView = _mocker.GetMock<IAudioDramaListView>();
-            var picker = _mocker.GetMock<IRandomAudioDramaPicker>();
-            var viewer = _mocker.GetMock<IViewer>();
-            var view = _mocker.GetMock<IAudioDramaView>();
-            var explorer = _mocker.GetMock<IAudioDramaExplorer>();
-            var audioDrama = _audioDramas.First();
-
-            explorer.Setup(x => x.GetMatchingAudioDramas(It.IsAny<IEnumerable<AudioDrama>>())).Returns(_audioDramas);
-            picker.Setup(x => x.Pick(It.IsAny<IEnumerable<AudioDrama>>())).Returns(audioDrama);
-
-            listView.Raise(x => x.RandomClicked += null, this, EventArgs.Empty);
-
-            picker.Verify(x => x.Pick(_audioDramas));
-            viewer.Verify(x => x.Show(It.IsAny<IAudioDramaView>()), Times.Once);
-            _mocker.Verify<IPresenter<IAudioDramaView, AudioDrama>>(x => x.SetModel(audioDrama), Times.Once);
-        }
+        
 
         [TestMethod]
         public void SetNewModelMultipleTimes_DontRaiseEventsMultipleTimes()
@@ -425,54 +397,6 @@ namespace DdfGuide.Test
             view.Raise(x => x.HeardChanged += null, this, _audioDramas.First().AudioDramaDto.Id);
 
             view.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
-        }
-
-        [TestMethod]
-        public void OnAudioDramaClicked_MakeSureViewGetsShownBeforeSettingAudioDramas()
-        {
-            var order = 1;
-            _mocker.GetMock<IViewer>().Setup(x => x.Show(It.IsAny<IAudioDramaView>())).Callback(() =>
-            {
-                if (order++ != 1)
-                {
-                    Assert.Fail("View needs to be shown first.");
-                }
-            });
-
-            _mocker.GetMock<IPresenter<IAudioDramaView, AudioDrama>>().Setup(x => x.SetModel(It.IsAny<AudioDrama>())).Callback(() =>
-            {
-                if (order++ != 2)
-                {
-                    Assert.Fail("Audio drama can only be set AFTER the view is shown.");
-                }
-            });
-
-            _mocker.GetMock<IAudioDramaListView>().Raise(x => x.AudioDramaClicked += null, this,
-                _audioDramas.First().AudioDramaDto.Id);
-        }
-
-        [TestMethod]
-        public void OnRandomClicked_MakeSureViewGetsShownBeforeSettingAudioDramas()
-        {
-            var order = 1;
-            _mocker.GetMock<IViewer>().Setup(x => x.Show(It.IsAny<IAudioDramaView>())).Callback(() =>
-            {
-                if (order++ != 1)
-                {
-                    Assert.Fail("View needs to be shown first.");
-                }
-            });
-
-            _mocker.GetMock<IPresenter<IAudioDramaView,AudioDrama>>().Setup(x => x.SetModel(It.IsAny<AudioDrama>())).Callback(() =>
-            {
-                if (order++ != 2)
-                {
-                    Assert.Fail("Audio drama can only be set AFTER the view is shown.");
-                }
-            });
-
-            _mocker.GetMock<IAudioDramaListView>().Raise(x => x.RandomClicked += null, this,
-                EventArgs.Empty);
         }
     }
 }

@@ -8,12 +8,10 @@ namespace DdfGuide.Core
         private AudioDrama _audioDrama;
 
         public AudioDramaPresenter(
-            IAudioDramaView audioDramaView,
-            IViewer viewer)
+            IAudioDramaView audioDramaView)
         {
             _audioDramaView = audioDramaView;
             
-            _audioDramaView.BackClicked += OnBackClicked(viewer);
             _audioDramaView.IsFavoriteClicked += OnIsFavoriteChanged();
             _audioDramaView.HeardClicked += OnHeardChanged();
         }
@@ -47,11 +45,6 @@ namespace DdfGuide.Core
             {
                 _audioDrama.AudioDramaUserData.IsFavorite = !_audioDrama.AudioDramaUserData.IsFavorite;
             };
-        }
-
-        private EventHandler OnBackClicked(IViewer viewer)
-        {
-            return (sender, _) => { viewer.ShowLast(); };
         }
 
         private EventHandler OnUserDataChanged()

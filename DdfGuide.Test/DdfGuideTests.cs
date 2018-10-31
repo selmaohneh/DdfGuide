@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System.Collections.Generic;
+using System.Globalization;
 using System.Runtime.InteropServices;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
