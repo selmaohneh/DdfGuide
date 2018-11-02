@@ -8,7 +8,8 @@ namespace DdfGuide.Core.Filtering
         public EAudioDramaFilterMode FilterMode => EAudioDramaFilterMode.DieDrei;
         public IEnumerable<AudioDrama> Filter(IEnumerable<AudioDrama> audioDramas)
         {
-            return audioDramas.Where(x => x.AudioDramaDto.Interpreter == "DiE DR3i");
+            var filtered = audioDramas.Where(x => x.AudioDramaDto.Interpreter == "DiE DR3i");
+            return filtered;
         }
     }
 }

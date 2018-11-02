@@ -33,8 +33,7 @@ namespace DdfGuide.Core
         public void ShowStartView()
         {
             Show(_audioDramaListPresenter.GetView());
-            var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas);
-            _audioDramaListPresenter.SetModel(matchingAudioDramas);
+            _audioDramaListPresenter.SetModel(_audioDramas);
         }
 
         private void InitNavigationEvents()

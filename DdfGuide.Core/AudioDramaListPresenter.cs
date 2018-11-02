@@ -52,6 +52,7 @@ namespace DdfGuide.Core
             return (sender, args) =>
             {
                 _explorer.SetInterpreterFilter(interpreterFilter);
+                _audioDramaListView.SetSelectedInterpreter(interpreterFilter);
                 UpdateViewWithMatchingAudioDramas();
             };
         }

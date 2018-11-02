@@ -21,6 +21,7 @@ namespace DdfGuide.Android
         private SearchView _searchView;
         private AudioDramaListAdapter _listViewAdapter;
         private ListView _listView;
+        private TabLayout _tabLayout;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -126,9 +127,9 @@ namespace DdfGuide.Android
                 }
             };
 
-            var tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);
-            SetChildTextViewsColor(tabLayout, ColorStateList.ValueOf(Color.White));
-            tabLayout.TabSelected += (sender, args) =>
+            _tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);
+            SetChildTextViewsColor(_tabLayout, ColorStateList.ValueOf(Color.White));
+            _tabLayout.TabSelected += (sender, args) =>
             {
                 if (args.Tab.Text == "Die drei ???")
                 {
@@ -266,6 +267,27 @@ namespace DdfGuide.Android
         }
 
         public event EventHandler DieDreiClicked;
+
+        public void SetSelectedInterpreter(EAudioDramaFilterMode selectedInterpreter)
+        {
+            switch (selectedInterpreter)
+            {
+                case EAudioDramaFilterMode.DieDreiFragezeichen:
+                    _tabLayout.GetTabAt(0).Select();
+                    break;
+
+                case EAudioDramaFilterMode.DieDreiFragezeichenKids:
+                    _tabLayout.GetTabAt(1).Select();
+                    break;
+
+                case EAudioDramaFilterMode.DieDrei:
+                    _tabLayout.GetTabAt(2).Select();
+                    break;
+
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(selectedInterpreter), selectedInterpreter, null);
+            }
+        }
 
         public string GetCurrentSearchText()
         {
