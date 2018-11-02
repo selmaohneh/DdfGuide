@@ -11901,6 +11901,65 @@ namespace DdfGuide.Android
         ""Speaker"": ""Michael Lott""
       }
     ]
+  },
+  {
+    ""Id"": ""92950948-167E-4427-A66F-75D64792CC40"",
+    ""Title"": ""Panik im Paradies"",
+    ""NumberEuropa"": 3,
+    ""ReleaseDate"": ""2006-10-13T00:00:00"",
+    ""CoverUrl"": ""https://www.rocky-beach.com/hoerspiel/cover/503.jpg"",
+    ""Interpreter"": ""DiE DR3i"",
+    ""Description"": ""Zwei Wochen Urlaub auf einer Karibikinsel! Jupiter, Peter und Bob können ihr Glück kaum fassen. Doch was als vielversprechender Ferienstart beginnt, entwickelt sich urplötzlich zum unvorstellbaren Albtraum. Hoch über dem Atlantik gerät das Flugzeug der drei in ein rätselhaftes Unwetter und muss mitten im berüchtigten Bermuda-Dreieck auf einer fremdartigen Insel notlanden. Was dann geschieht, führt selbst Jupiter an die Grenzen seines Verstandes. Die unfassbaren Ereignisse lassen jedoch keinen Zweifel: Die Passagiere von Flug 715 sind verschollen in der Zeit..."",
+    ""Roles"": [
+      {
+        ""Character"": ""Erzähler"",
+        ""Speaker"": ""Axel Milberg""
+      },
+      {
+        ""Character"": ""Justus Jonas"",
+        ""Speaker"": ""Oliver Rohrbeck""
+      },
+      {
+        ""Character"": ""Peter Shaw"",
+        ""Speaker"": ""Jens Wawrczeck""
+      },
+      {
+        ""Character"": ""Bob Andrews"",
+        ""Speaker"": ""Andreas Fröhlich""
+      },
+      {
+        ""Character"": ""Tante Mathilda"",
+        ""Speaker"": ""Karin Linneweg""
+      },
+      {
+        ""Character"": ""Onkel Titus"",
+        ""Speaker"": ""Rüdiger Schulzki""
+      },
+      {
+        ""Character"": ""Jeff Ronaldo"",
+        ""Speaker"": ""Till Huster""
+      },
+      {
+        ""Character"": ""Mr. McBrandon"",
+        ""Speaker"": ""Rainer Brandt""
+      },
+      {
+        ""Character"": ""Sandy"",
+        ""Speaker"": ""Anna Carlsson""
+      },
+      {
+        ""Character"": ""Roboter"",
+        ""Speaker"": ""Joachim Kretzer""
+      },
+      {
+        ""Character"": ""Computerstimme"",
+        ""Speaker"": ""Hansi Jochmann""
+      },
+      {
+        ""Character"": ""Bruce Torino"",
+        ""Speaker"": ""Michael Lott""
+      }
+    ]
   }
 ]";
     }
