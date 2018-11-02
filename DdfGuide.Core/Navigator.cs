@@ -53,6 +53,7 @@ namespace DdfGuide.Core
             _audioDramaPresenter.GetView().BackClicked += (sender, args) =>
             {
                 Show(_audioDramaListPresenter.GetView());
+                ((AudioDramaListPresenter)_audioDramaListPresenter).UpdateView();
             };
         }
 

@@ -121,6 +121,14 @@ namespace DdfGuide.Core
             return _audioDramaListView;
         }
 
+        public void UpdateView()
+        {
+            _audioDramaListView.SetSelectedInterpreter(_explorer.GetCurrentInterpreterFilter());
+            _audioDramaListView.SetFilterInfos(_explorer.GetCurrentFilterMode());
+            _audioDramaListView.SetSelectedSortMode(_explorer.GetCurrentSortMode());
+            UpdateViewWithMatchingAudioDramas();
+        }
+
         public void SetModel(IEnumerable<AudioDrama> model)
         {
             _audioDramas = model;
@@ -131,10 +139,7 @@ namespace DdfGuide.Core
                 audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
             }
 
-            UpdateViewWithMatchingAudioDramas();
-
-            _audioDramaListView.SetFilterInfos(_explorer.GetCurrentFilterMode());
-            _audioDramaListView.SetSelectedSortMode(_explorer.GetCurrentSortMode());
+            UpdateView();
         }
     }
 }

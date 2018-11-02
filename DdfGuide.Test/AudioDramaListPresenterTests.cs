@@ -444,5 +444,26 @@ namespace DdfGuide.Test
 
             view.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
         }
+
+        /// <summary>
+        /// When going back from the single audio drama view the selected tab, filters, and sort modes were wrong.
+        /// This is because the layout gets inflated again. So we have to make sure to
+        /// update it every time the view gets shown.
+        /// </summary>
+        [TestMethod]
+        public void OnGetView_Update_SelectedTab_SelectedFilter_SelectedSortMode()
+        {
+            var view = _mocker.GetMock<IAudioDramaView>();
+            view.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
+
+            _mocker.Verify<IAudioDramaListView>(x => x.SetSelectedInterpreter(It.IsAny<EAudioDramaFilterMode>()),
+                Times.Once);
+
+            _mocker.Verify<IAudioDramaListView>(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()),
+                Times.Once);
+
+            _mocker.Verify<IAudioDramaListView>(x => x.SetSelectedSortMode(It.IsAny<EAudioDramaSortMode>()),
+                Times.Once);
+        }
     }
 }

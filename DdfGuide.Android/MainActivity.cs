@@ -17,6 +17,11 @@ namespace DdfGuide.Android
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+        }
+
+        protected override void OnStart()
+        {
+            base.OnStart();
 
             var dtoProvider = new AndroidDtoProvider();
             var userDataProvider = new AndroidUserDataProvider();
@@ -31,13 +36,7 @@ namespace DdfGuide.Android
                 audioDramaListView,
                 audioDramaView,
                 rootView);
-            
-        }
 
-        protected override void OnStart()
-        {
-            base.OnStart();
-            
             _ddfGuide.Start();
         }
 

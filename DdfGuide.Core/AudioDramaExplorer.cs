@@ -70,5 +70,10 @@ namespace DdfGuide.Core
         {
             _interpreterFilter = _filterFactory.Create(filterMode);
         }
+
+        public EAudioDramaFilterMode GetCurrentInterpreterFilter()
+        {
+            return _interpreterFilter.FilterMode;
+        }
     }
 }
