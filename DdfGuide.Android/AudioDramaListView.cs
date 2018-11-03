@@ -58,8 +58,6 @@ namespace DdfGuide.Android
         private void SetupToolbar()
         {
             _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
-            _toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
-            _toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
             _toolbar.InflateMenu(Resource.Menu.listviewmenu);
             _toolbar.MenuItemClick += (sender, args) =>
             {
