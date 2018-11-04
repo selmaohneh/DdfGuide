@@ -27,7 +27,8 @@ namespace DdfGuide.Test
                 .Setup<IPresenter<IAudioDramaView, AudioDrama>, IAudioDramaView>(x => x.GetView())
                 .Returns(_mocker.Get<IAudioDramaView>());
 
-            _mocker.Setup<IPresenter<IAudioDramaListView, IEnumerable<AudioDrama>>, IAudioDramaListView>(x => x.GetView())
+            _mocker.Setup<IPresenter<IAudioDramaListView, IEnumerable<AudioDrama>>, IAudioDramaListView>(x =>
+                    x.GetView())
                 .Returns(_mocker.Get<IAudioDramaListView>());
 
             _mocker.Use(typeof(IEnumerable<AudioDrama>), _audioDramas);
@@ -52,6 +53,21 @@ namespace DdfGuide.Test
                 .Raise(x => x.AudioDramaClicked += null, this, _audioDramas.First().AudioDramaDto.Id);
 
             _mocker.Verify<IRootView>(x => x.Show(It.IsAny<IAudioDramaView>()), Times.Once);
+        }
+
+        [TestMethod]
+        public void AudioDramaView_BackClickedOnRootView_GoBackToListView()
+        {
+            _mocker
+                .GetMock<IAudioDramaListView>()
+                .Raise(x => x.AudioDramaClicked += null, this, _audioDramas.First().AudioDramaDto.Id);
+
+            var rootView = _mocker.GetMock<IRootView>();
+            rootView.Invocations.Clear();
+                
+            rootView.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
+
+            rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()), Times.Once);
         }
 
         [TestMethod]

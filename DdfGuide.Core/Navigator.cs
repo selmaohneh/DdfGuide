@@ -46,14 +46,26 @@ namespace DdfGuide.Core
         private void InitRootViewNavigationEvents()
         {
             _rootView.ViewDestroyed += (sender, args) => ShowCurrent();
+            _rootView.BackClicked += (sender, args) =>
+            {
+                if (_currentView is IAudioDramaView audioDramaView)
+                {
+                    GoToListView();
+                }
+            };
+        }
+
+        private void GoToListView()
+        {
+            Show(_audioDramaListPresenter.GetView());
+            (_audioDramaListPresenter as AudioDramaListPresenter)?.UpdateView();
         }
 
         private void InitAudioDramaViewNavigationEvents()
         {
             _audioDramaPresenter.GetView().BackClicked += (sender, args) =>
             {
-                Show(_audioDramaListPresenter.GetView());
-                ((AudioDramaListPresenter)_audioDramaListPresenter).UpdateView();
+                GoToListView();
             };
         }
 

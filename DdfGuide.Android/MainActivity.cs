@@ -40,11 +40,6 @@ namespace DdfGuide.Android
             _ddfGuide.Start();
         }
 
-        public override void OnBackPressed()
-        {
-            BackClicked?.Invoke(this, EventArgs.Empty);
-        }
-
         public void Show(IView view)
         {
             if (!(view is Fragment fragment))
@@ -58,6 +53,13 @@ namespace DdfGuide.Android
             FragmentManager.ExecutePendingTransactions();
         }
 
+        public override void OnBackPressed()
+        {
+            BackClicked?.Invoke(this, EventArgs.Empty);
+        }
+
+        public event EventHandler BackClicked;
+
         public event EventHandler ViewDestroyed;
 
         public override void OnConfigurationChanged(Configuration newConfig)
@@ -66,7 +68,5 @@ namespace DdfGuide.Android
 
             ViewDestroyed?.Invoke(this, EventArgs.Empty);
         }
-
-        public event EventHandler BackClicked;
     }
 }
