@@ -1100,44 +1100,44 @@ namespace DdfGuide.Android
 		public partial class Color
 		{
 			
+			// aapt resource value: 0x7f0c004a
+			public const int abc_background_cache_hint_selector_material_dark = 2131492938;
+			
 			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
+			public const int abc_background_cache_hint_selector_material_light = 2131492939;
 			
 			// aapt resource value: 0x7f0c004c
-			public const int abc_background_cache_hint_selector_material_light = 2131492940;
+			public const int abc_btn_colored_borderless_text_material = 2131492940;
 			
 			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_borderless_text_material = 2131492941;
+			public const int abc_btn_colored_text_material = 2131492941;
 			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_btn_colored_text_material = 2131492942;
+			public const int abc_color_highlight_material = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_color_highlight_material = 2131492943;
+			public const int abc_hint_foreground_material_dark = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_dark = 2131492944;
-			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_hint_foreground_material_light = 2131492945;
+			public const int abc_hint_foreground_material_light = 2131492944;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_input_method_navigation_guard = 2131492865;
 			
+			// aapt resource value: 0x7f0c0051
+			public const int abc_primary_text_disable_only_material_dark = 2131492945;
+			
 			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_dark = 2131492946;
+			public const int abc_primary_text_disable_only_material_light = 2131492946;
 			
 			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_disable_only_material_light = 2131492947;
+			public const int abc_primary_text_material_dark = 2131492947;
 			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_dark = 2131492948;
+			public const int abc_primary_text_material_light = 2131492948;
 			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_material_light = 2131492949;
-			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_search_url_text = 2131492950;
+			public const int abc_search_url_text = 2131492949;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int abc_search_url_text_normal = 2131492866;
@@ -1148,32 +1148,32 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f0c0004
 			public const int abc_search_url_text_selected = 2131492868;
 			
+			// aapt resource value: 0x7f0c0056
+			public const int abc_secondary_text_material_dark = 2131492950;
+			
 			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_dark = 2131492951;
+			public const int abc_secondary_text_material_light = 2131492951;
 			
 			// aapt resource value: 0x7f0c0058
-			public const int abc_secondary_text_material_light = 2131492952;
+			public const int abc_tint_btn_checkable = 2131492952;
 			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_btn_checkable = 2131492953;
+			public const int abc_tint_default = 2131492953;
 			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_default = 2131492954;
+			public const int abc_tint_edittext = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_edittext = 2131492955;
+			public const int abc_tint_seek_thumb = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_seek_thumb = 2131492956;
+			public const int abc_tint_spinner = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_spinner = 2131492957;
+			public const int abc_tint_switch_thumb = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_thumb = 2131492958;
-			
-			// aapt resource value: 0x7f0c005f
-			public const int abc_tint_switch_track = 2131492959;
+			public const int abc_tint_switch_track = 2131492958;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int accent_material_dark = 2131492869;
@@ -1232,8 +1232,8 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f0c003b
 			public const int design_bottom_navigation_shadow_color = 2131492923;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_error = 2131492960;
+			// aapt resource value: 0x7f0c005f
+			public const int design_error = 2131492959;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int design_fab_shadow_end_color = 2131492924;
@@ -1265,8 +1265,8 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f0c0045
 			public const int design_textinput_error_color_light = 2131492933;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int design_tint_password_toggle = 2131492961;
+			// aapt resource value: 0x7f0c0060
+			public const int design_tint_password_toggle = 2131492960;
 			
 			// aapt resource value: 0x7f0c0013
 			public const int dim_foreground_disabled_material_dark = 2131492883;
@@ -1291,9 +1291,6 @@ namespace DdfGuide.Android
 			
 			// aapt resource value: 0x7f0c001a
 			public const int highlighted_text_material_light = 2131492890;
-			
-			// aapt resource value: 0x7f0c004a
-			public const int ic_launcher_background = 2131492938;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int material_blue_grey_800 = 2131492891;
@@ -1388,11 +1385,11 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f0c0038
 			public const int switch_thumb_disabled_material_light = 2131492920;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_dark = 2131492962;
+			// aapt resource value: 0x7f0c0061
+			public const int switch_thumb_material_dark = 2131492961;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int switch_thumb_material_light = 2131492963;
+			// aapt resource value: 0x7f0c0062
+			public const int switch_thumb_material_light = 2131492962;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int switch_thumb_normal_material_dark = 2131492921;
@@ -3073,10 +3070,7 @@ namespace DdfGuide.Android
 			public const int ic_launcher = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int ic_launcher_foreground = 2130903050;
-			
-			// aapt resource value: 0x7f03000b
-			public const int ic_launcher_round = 2130903051;
+			public const int ic_launcher_round = 2130903050;
 			
 			static Mipmap()
 			{
