@@ -58,6 +58,46 @@ namespace DdfGuide.Android
         private void SetupToolbar()
         {
             _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
+            _toolbar.SetTitle(Resource.String.app_name);
+
+            SetupMenuItems();
+            SetupTabs();
+            SetupSearchView();
+        }
+
+        private void SetupSearchView()
+        {
+            _searchView = _toolbar.FindViewById<SearchView>(Resource.Id.action_search);
+            _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
+        }
+
+        private void SetupTabs()
+        {
+            _tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);
+            SetChildTextViewsColor(_tabLayout, ColorStateList.ValueOf(Color.White));
+            _tabLayout.TabSelected += (sender, args) =>
+            {
+                if (args.Tab.Text == "Die drei ???")
+                {
+                    DieDreiFragezeichenClicked?.Invoke(this, EventArgs.Empty);
+                }
+                else if (args.Tab.Text == "Die drei ??? Kids")
+                {
+                    DieDreiFragezeichenKidsClicked?.Invoke(this, EventArgs.Empty);
+                }
+                else if (args.Tab.Text == "DiE DR3i")
+                {
+                    DieDreiClicked?.Invoke(this, EventArgs.Empty);
+                }
+                else
+                {
+                    throw new Exception($"Tab with text '{args.Tab.Text}' does not exist.");
+                }
+            };
+        }
+
+        private void SetupMenuItems()
+        {
             _toolbar.InflateMenu(Resource.Menu.listviewmenu);
             _toolbar.MenuItemClick += (sender, args) =>
             {
@@ -124,31 +164,6 @@ namespace DdfGuide.Android
                         return;
                 }
             };
-
-            _tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);
-            SetChildTextViewsColor(_tabLayout, ColorStateList.ValueOf(Color.White));
-            _tabLayout.TabSelected += (sender, args) =>
-            {
-                if (args.Tab.Text == "Die drei ???")
-                {
-                    DieDreiFragezeichenClicked?.Invoke(this, EventArgs.Empty);
-                }
-                else if (args.Tab.Text == "Die drei ??? Kids")
-                {
-                    DieDreiFragezeichenKidsClicked?.Invoke(this, EventArgs.Empty);
-                }
-                else if (args.Tab.Text == "DiE DR3i")
-                {
-                    DieDreiClicked?.Invoke(this, EventArgs.Empty);
-                }
-                else
-                {
-                    throw new Exception($"Tab with text '{args.Tab.Text}' does not exist.");
-                }
-            };
-
-            _searchView = _toolbar.FindViewById<SearchView>(Resource.Id.action_search);
-            _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
         }
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
@@ -308,7 +323,6 @@ namespace DdfGuide.Android
             }
         }
 
-    public event EventHandler BackClicked;
         public event EventHandler<Guid> HeardChanged;
         public event EventHandler<Guid> IsFavoriteChanged;
         public event EventHandler<Guid> AudioDramaClicked;
