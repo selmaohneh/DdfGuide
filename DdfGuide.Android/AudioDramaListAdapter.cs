@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Android.App;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
 using FFImageLoading;
+using FFImageLoading.Cache;
 using FFImageLoading.Views;
+using FFImageLoading.Work;
 
 namespace DdfGuide.Android
 {
@@ -45,10 +48,11 @@ namespace DdfGuide.Android
             view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
          
             var imageView = view.FindViewById<ImageViewAsync>(Resource.Id.coverview);
-
-            var image = ImageService.Instance
+            
+            ImageService.Instance
                 .LoadUrl(audioDrama.AudioDramaDto.CoverUrl)
-                .Into(imageView);
+                .LoadingPlaceholder("ic_launcher", ImageSource.CompiledResource)
+                .IntoAsync(imageView);
             
             return view;
         }
