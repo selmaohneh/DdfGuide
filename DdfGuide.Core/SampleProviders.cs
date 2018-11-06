@@ -1,26 +1,14 @@
 ﻿using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
 
 namespace DdfGuide.Core
 {
-    public class BigSampleDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
-    {
-        public IEnumerable<AudioDramaDto> Get()
-        {
-            var json = File.ReadAllText(@"C:\Repositories\DdfGuide\sampledtos.json");
-            var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
-
-            return dtos;
-        }
-    }
-
     public class SampleDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
     {
         public IEnumerable<AudioDramaDto> Get()
         {
-            var json = File.ReadAllText(@"C:\Repositories\DdfGuide\sampledtos.json");
+            var json = SampleDtos.sampleDtosJson;
             var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
 
             return dtos.Take(4);
