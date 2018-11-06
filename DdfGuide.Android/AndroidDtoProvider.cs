@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 namespace DdfGuide.Android
 {
     public class AndroidDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
-    {
+    {   
         public IEnumerable<AudioDramaDto> Get()
         {
             var webClient = new WebClient();
