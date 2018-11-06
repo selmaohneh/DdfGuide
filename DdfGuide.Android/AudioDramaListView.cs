@@ -78,18 +78,20 @@ namespace DdfGuide.Android
         private void SetupTabs()
         {
             _tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);
+
             SetChildTextViewsColor(_tabLayout, ColorStateList.ValueOf(Color.White));
+
             _tabLayout.TabSelected += (sender, args) =>
             {
-                if (args.Tab.Text == "Die drei ???")
+                if (args.Tab.Text == Resources.GetString(Resource.String.diedreifragezeichen))
                 {
                     DieDreiFragezeichenClicked?.Invoke(this, EventArgs.Empty);
                 }
-                else if (args.Tab.Text == "Die drei ??? Kids")
+                else if (args.Tab.Text == Resources.GetString(Resource.String.diedreifragezeichenkids))
                 {
                     DieDreiFragezeichenKidsClicked?.Invoke(this, EventArgs.Empty);
                 }
-                else if (args.Tab.Text == "DiE DR3i")
+                else if (args.Tab.Text == Resources.GetString(Resource.String.diedreifragezeichen))
                 {
                     DieDreiClicked?.Invoke(this, EventArgs.Empty);
                 }
@@ -283,8 +285,6 @@ namespace DdfGuide.Android
                     break;    }
         }
 
-        public event EventHandler DieDreiClicked;
-
         public void SetSelectedInterpreter(EAudioDramaFilterMode selectedInterpreter)
         {
             switch (selectedInterpreter)
@@ -327,6 +327,7 @@ namespace DdfGuide.Android
             }
         }
 
+        public event EventHandler DieDreiClicked;
         public event EventHandler<Guid> HeardChanged;
         public event EventHandler<Guid> IsFavoriteChanged;
         public event EventHandler<Guid> AudioDramaClicked;

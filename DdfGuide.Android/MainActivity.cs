@@ -58,15 +58,14 @@ namespace DdfGuide.Android
             BackClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        public event EventHandler BackClicked;
-
-        public event EventHandler ViewDestroyed;
-
         public override void OnConfigurationChanged(Configuration newConfig)
         {
             base.OnConfigurationChanged(newConfig);
 
             ViewDestroyed?.Invoke(this, EventArgs.Empty);
         }
+
+        public event EventHandler BackClicked;
+        public event EventHandler ViewDestroyed;
     }
 }
