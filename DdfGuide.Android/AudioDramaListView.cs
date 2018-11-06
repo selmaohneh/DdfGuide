@@ -68,6 +68,10 @@ namespace DdfGuide.Android
         private void SetupSearchView()
         {
             _searchView = _toolbar.FindViewById<SearchView>(Resource.Id.action_search);
+
+            var searchIcon = (ImageView)_searchView.FindViewById(Resource.Id.search_button);
+            searchIcon.SetImageResource(Resource.Mipmap.baseline_search_white_24);
+
             _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
         }
 
