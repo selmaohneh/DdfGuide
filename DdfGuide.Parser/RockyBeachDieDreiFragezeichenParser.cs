@@ -10,9 +10,9 @@ namespace DdfGuide.Parser
     {
         private readonly HtmlDocument _htmlDocument;
 
-        public RockyBeachDieDreiFragezeichenParser(string url)
+        public RockyBeachDieDreiFragezeichenParser(HtmlDocument htmlDocument)
         {
-            _htmlDocument = LoadHtmlDocumentFrom(url);
+            _htmlDocument = htmlDocument;
         }
 
         public bool TryParseNumber(out int? number)
@@ -179,14 +179,6 @@ namespace DdfGuide.Parser
         {
             interpreter = "Die drei ???";
             return true;
-        }
-
-        private HtmlDocument LoadHtmlDocumentFrom(string url)
-        {
-            var web = new HtmlWeb();
-            var doc = web.Load(url);
-
-            return doc;
         }
     }
 }
