@@ -12475,5 +12475,356 @@
           "Speaker": "Bernd Klose"
         }
       ]
+    },
+    {
+      "Id": "45dd343e-8f25-41e6-a6b0-061635ed4cd1",
+      "Title": "Verbrechen im Nichts",
+      "NumberEuropa": 191,
+      "ReleaseDate": "2018-01-26T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/191.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Schluss mit der Verbrecherjagd! Justus, Peter und Bob müssen ihre Sommerferien im beschaulichen Dörfchen Nothing verbringen und sind entsetzt. Der Name ist Programm: Hier passiert rein gar nichts. Auf den ersten Blick. Denn auf den zweiten birgt auch Nothing zahlreiche Geheimnisse. Schneller als es den drei ??? lieb ist, werden sie in eine Schatzsuche verstrickt und lenken die Aufmerksamkeit eines mysteriösen Verfolgers auf sich ...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Axel Milberg"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Priscilla Sicktree",
+          "Speaker": "Marianne Bernhardt"
+        },
+        {
+          "Character": "Hank",
+          "Speaker": "Henry König"
+        },
+        {
+          "Character": "Brian",
+          "Speaker": "Patrick Mölleken"
+        },
+        {
+          "Character": "Ashlyn",
+          "Speaker": "Julia Fölster"
+        },
+        {
+          "Character": "Rosie Wrenwick",
+          "Speaker": "Gerlinde Dillge"
+        },
+        {
+          "Character": "Sheriff Stone",
+          "Speaker": "Horst Stark"
+        },
+        {
+          "Character": "Hilfssheriff Jonathan",
+          "Speaker": "Christian Rudolf"
+        }
+      ]
+    },
+    {
+      "Id": "57ce7456-9b71-4e2a-a434-18c65cae83e3",
+      "Title": "Im Bann des Drachen",
+      "NumberEuropa": 192,
+      "ReleaseDate": "2018-03-02T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/192.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Peter ist spurlos verschwunden und seine beiden Freunde sind ziemlich ratlos. Was Justus und Bob nicht wissen: Der zweite Detektiv wird etliche Kilometer von Rocky Beach entfernt festgehalten. Wer hat ihn verschleppt und wieso? Können seine Freunde ihm zu Hilfe kommen? Und was hat der geheimnisvolle Drachensohn mit all dem zu tun? Justus und Bob müssen sich auf eine gefährliche Reise begeben, um all diese Fragen beantworten zu können ...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Axel Milberg"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Zuku",
+          "Speaker": "Kostja Ullmann"
+        },
+        {
+          "Character": "Katara",
+          "Speaker": "Mitsue Kono"
+        },
+        {
+          "Character": "Xiang Than",
+          "Speaker": "Horst Naumann"
+        },
+        {
+          "Character": "Fan Quoc",
+          "Speaker": "Christine Wilhelmi"
+        },
+        {
+          "Character": "Fan Yuen",
+          "Speaker": "Frank Gustavus"
+        },
+        {
+          "Character": "Dealerin",
+          "Speaker": "Barbara Schipper"
+        },
+        {
+          "Character": "1. Chinese",
+          "Speaker": "Frank Richartz"
+        },
+        {
+          "Character": "2. Chinese",
+          "Speaker": "Erik Schäffler"
+        },
+        {
+          "Character": "Fan Haro",
+          "Speaker": "Gerd Baltus"
+        },
+        {
+          "Character": "Einlass",
+          "Speaker": "Matti Schmidt-Schaller"
+        }
+      ]
+    },
+    {
+      "Id": "89fe8c4d-cb0c-4602-97fe-ae5604186236",
+      "Title": "Schrecken aus der Tiefe",
+      "NumberEuropa": 193,
+      "ReleaseDate": "2018-05-11T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/193.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Ein Angler kämpft in seinem kleinen Boot mit seinem Fang, geht über Bord und wird unter Wasser gezogen ... Justus, Peter und Bob sind Augenzeugen dieser Szene und eilen prompt zu Hilfe. Als der Mann sich endlich in Sicherheit befindet, stammelt er schreckensbleich immer wieder dieselben Worte: \"Im See ist ein Monster!\" Aber jeder weiß: Monster gibt es nicht ... Oder etwa doch? Ein neuer Fall für die drei Detektive!",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Axel Milberg"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Angler",
+          "Speaker": "Stephan Chrzescinski"
+        },
+        {
+          "Character": "Mac Anderson",
+          "Speaker": "Achim Buch"
+        },
+        {
+          "Character": "Reporterin",
+          "Speaker": "Marion Gretchen Schmitz"
+        },
+        {
+          "Character": "Mann",
+          "Speaker": "Sven Dahlem"
+        },
+        {
+          "Character": "Grady",
+          "Speaker": "Werner Wilkening"
+        },
+        {
+          "Character": "Pettengill",
+          "Speaker": "Peter Kirchberger"
+        },
+        {
+          "Character": "Sheriff Rolins",
+          "Speaker": "Tommi Pieper"
+        },
+        {
+          "Character": "Farragut",
+          "Speaker": "Hanns Jörg Krumpholz"
+        },
+        {
+          "Character": "Leah",
+          "Speaker": "Antje Birnbaum"
+        },
+        {
+          "Character": "Cynthia Wetmore",
+          "Speaker": "Dorothea Hagena"
+        },
+        {
+          "Character": "Hotelier",
+          "Speaker": "Gordon Piedesack"
+        },
+        {
+          "Character": "Frau",
+          "Speaker": "Maud Ackermann"
+        },
+        {
+          "Character": "Junge",
+          "Speaker": "Tim Heuer"
+        },
+        {
+          "Character": "Daniel",
+          "Speaker": "Jannik Schürmann"
+        }
+      ]
+    },
+    {
+      "Id": "346163bb-3796-4965-a5ee-36ba2db3b664",
+      "Title": "...und die Zeitreisende",
+      "NumberEuropa": 194,
+      "ReleaseDate": "2018-07-20T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/194.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Was hat es mit dem geheimen Zeitreise-Experiment von Quentin Kurtz auf sich? Weshalb wurden er und seine Tochter Aurora vom CIA gesucht? Und wohin verschwanden die beiden vor mehr als 30 Jahren spurlos? Als die drei ??? sich dieses mysteriösen Falles annehmen, scheinen die Gesetze der Logik au�er Kraft zu treten: Denn plötzlich steht die verschollene Aurora leibhaftig vor ihnen - ohne auch nur einen Tag gealtert zu sein ...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Axel Milberg"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Tante Mathilda",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Gladys Pixie",
+          "Speaker": "Rosemarie Wohlbauer"
+        },
+        {
+          "Character": "Frank Firhouse",
+          "Speaker": "Lutz Mackensy"
+        },
+        {
+          "Character": "Maggy Smith",
+          "Speaker": "Susanne Wulkow"
+        },
+        {
+          "Character": "Aurora",
+          "Speaker": "Andreja Schneider"
+        },
+        {
+          "Character": "Angela",
+          "Speaker": "Lucia Mahler"
+        },
+        {
+          "Character": "Conchita Dominguez",
+          "Speaker": "Katja Brügger"
+        },
+        {
+          "Character": "Reporter",
+          "Speaker": "Jörgpeter von Clarenau"
+        },
+        {
+          "Character": "Putzfrau",
+          "Speaker": "Clarissa Börner"
+        },
+        {
+          "Character": "Heather",
+          "Speaker": "Enie van de Meiklokjes"
+        },
+        {
+          "Character": "Folder",
+          "Speaker": "Harald Weiler"
+        },
+        {
+          "Character": "Hopper",
+          "Speaker": "Achim Schülke"
+        },
+        {
+          "Character": "Rezeptionist",
+          "Speaker": "Christopher Hoseit"
+        }
+      ]
+    },
+    {
+      "Id": "3d8b2061-b6b0-499b-9425-c386b169f8be",
+      "Title": "Im Reich der Ungeheuer",
+      "NumberEuropa": 195,
+      "ReleaseDate": "2018-09-28T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/195.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Als die drei ??? von einem berühmten Stuntman um Hilfe gebeten werden, ahnen sie noch nicht, welch unglaubliches Abenteuer sie erwartet. Auf ihrem Weg in die Hollywood Hills werden die Freunde getrennt: Während Justus einer mysteriösen Drohung nachgeht, geraten Peter und Bob in eine beängstigende Welt des Schreckens ...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Axel Milberg"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Tante Mathilda",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Wally Robertson",
+          "Speaker": "Michael Prelle"
+        },
+        {
+          "Character": "Charmayne Robertson",
+          "Speaker": "Daniela Hoffmann"
+        },
+        {
+          "Character": "Dwaight Hayward",
+          "Speaker": "Gordon Piedesack"
+        },
+        {
+          "Character": "Mrs. Flagstaff",
+          "Speaker": "Sabine Hahn"
+        },
+        {
+          "Character": "Polizist",
+          "Speaker": "Erik Schäffler"
+        },
+        {
+          "Character": "1. Mann",
+          "Speaker": "Ingo Menowski"
+        },
+        {
+          "Character": "2. Mann",
+          "Speaker": "Riko Tauber"
+        }
+      ]
     }
   ]
