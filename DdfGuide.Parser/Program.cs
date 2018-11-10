@@ -15,44 +15,13 @@ namespace DdfGuide.Parser
             var html = downloader.DownloadHtmlDocumentFrom(args.First());
             var parser = new RockyBeachDieDreiFragezeichenParser(html);
 
-            var success = parser.TryParseInterpreter(out var interpreter);
-            SetConsoleColor(success);
-            Console.WriteLine(interpreter);
-            Console.WriteLine();
-
-            success = parser.TryParseTitle(out var title);
-            SetConsoleColor(success);
-            Console.WriteLine(title);
-            Console.WriteLine();
-
-            success = parser.TryParseNumber(out var number);
-            SetConsoleColor(success);
-            Console.WriteLine(number);
-            Console.WriteLine();
-
-            success = parser.TryParseReleaseDate(out var releaseDate);
-            SetConsoleColor(success);
-            Console.WriteLine(releaseDate.ToString("dd.MM.yyyy"));
-            Console.WriteLine();
-
-            success = parser.TryParseDescription(out var description);
-            SetConsoleColor(success);
-            Console.WriteLine(description);
-            Console.WriteLine();
-
-            success = parser.TryParseCoverUrl(out var coverUrl);
-            SetConsoleColor(success);
-            Console.WriteLine(coverUrl);
-            Console.WriteLine();
-
-            success = parser.TryParseRoles(out var roles);
-            roles = roles.ToList();
-            SetConsoleColor(success);
-            foreach (var role in roles)
-            {
-                Console.WriteLine($@"{role.Character}: {role.Speaker}");
-            }
-            Console.WriteLine();
+            parser.TryParseInterpreter(out var interpreter);
+            parser.TryParseTitle(out var title);
+            parser.TryParseNumber(out var number);
+            parser.TryParseReleaseDate(out var releaseDate);
+            parser.TryParseDescription(out var description);
+            parser.TryParseCoverUrl(out var coverUrl);
+            parser.TryParseRoles(out var roles);
 
             var dto = new AudioDramaDto(
                 Guid.NewGuid(), 
@@ -67,7 +36,6 @@ namespace DdfGuide.Parser
             var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
 
             Console.WriteLine(json);
-            Console.WriteLine();
 
             Console.ReadLine();
         }
