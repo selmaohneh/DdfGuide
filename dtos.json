@@ -12085,5 +12085,123 @@
           "Speaker": "Patrick Bach"
         }
       ]
+    },
+    {
+      "Id": "b7465c96-af07-4596-b32d-bfcb9b9c1e13",
+      "Title": "Zug um Zug",
+      "NumberEuropa": 4,
+      "ReleaseDate": "2006-11-24T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/504.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Ein alter Zeitungsartikel weckt die Neugier des ersten Detektivs. Wo sind die $ 500.000 aus dem Überfall auf den Postzug geblieben? Was geschah wirklich vor 12 Jahren am alten Bahnhof von Rocky Beach? Was wusste die verstorbene Ellie Sparrow wirklich und inwieweit war die ehemalige Postangestellte in den Raubüberfall verwickelt? Ein leeres Blatt Papier und eine wirre Buchstabenkombination sind nur zwei der zahlreichen kleinen Puzzleteile, die zusammengefügt werden müssen. Als sich auch noch andere Gestalten für das verschollene Geld zu interessieren scheinen, wird es erst Recht Zeit für DIE DR3I sich mit dem Fall zu beschäftigen. Zug um Zug suchen sie nach den Antworten auf die vielen Fragen, die sich ihnen stellen...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Titus Jones",
+          "Speaker": "Hans Meinhardt [Andreas Beurmann]"
+        },
+        {
+          "Character": "Mathilda Jones",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Inspektor Milton",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Kommissar Reynolds",
+          "Speaker": "Wolfgang Draeger"
+        },
+        {
+          "Character": "Mr. Walker",
+          "Speaker": "Gustav Adolph Artz"
+        },
+        {
+          "Character": "Donald Forthland",
+          "Speaker": "Günther Lüdke"
+        },
+        {
+          "Character": "Shane Montana",
+          "Speaker": "Jürgen Thormann"
+        },
+        {
+          "Character": "Jim",
+          "Speaker": "Wolfgang Berger"
+        },
+        {
+          "Character": "Doc Brown",
+          "Speaker": "Tim Wenderoth"
+        },
+        {
+          "Character": "Finnegan",
+          "Speaker": "Fabian Harloff"
+        }
+      ]
+    },
+    {
+      "Id": "41c60550-7e7e-4917-94f3-abe9e37f2008",
+      "Title": "Das Haus der 1.000 Rätsel",
+      "NumberEuropa": 5,
+      "ReleaseDate": "2007-02-09T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/505.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Als Jupiter, Peter und Bob den Auftrag erhalten, einem alternden Filmstar bei der Klärung eines mysteriösen Vorfalls zu helfen, ahnen sie noch nicht, welch absurde Ereignisse sie erwarten. In einem abgelegenen Luxushotel stoßen sie auf die Spur eines geheimnisvollen Unbekannten, der sie mit einer Reihe tückischer Rätsel an den Rand der Verzweiflung treibt. Nichts ist so, wie es zu sein scheint. Als sich die Drei im unheimlichen Kellergewölbe des Hotels schließlich am Ziel wähnen, erweist sich das Royal Mountain Residence endgültig als \"Haus der 1.000 Rätsel\"...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Jack Doolan",
+          "Speaker": "Eckart Dux"
+        },
+        {
+          "Character": "Harold",
+          "Speaker": "Gernot Endemann"
+        },
+        {
+          "Character": "Miss Lane",
+          "Speaker": "Sabine Schmdt-Kirchner"
+        },
+        {
+          "Character": "Mademoiselle Nadine",
+          "Speaker": "Jennie Appel"
+        },
+        {
+          "Character": "Toby Grissom",
+          "Speaker": "Lothar Grützner"
+        },
+        {
+          "Character": "Frank Mortimer",
+          "Speaker": "Karl-Friedrich Gerster"
+        }
+      ]
     }
   ]
