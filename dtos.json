@@ -11967,5 +11967,123 @@
           "Speaker": "Lutz Schnell"
         }
       ]
+    },
+    {
+      "Id": "dffba7b2-fce1-4d68-bedd-0dfc23beea54",
+      "Title": "Die Pforte zum Jenseits",
+      "NumberEuropa": 2,
+      "ReleaseDate": "2006-10-13T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/502.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Handelt es sich bei dem alten Greis Sylvester Meyzel nur um ein erwachsenes Kind, dem die Fantasie einen Streich spielt, oder wird er tatsächlich von einem unsichtbaren Gast heimgesucht? Als Meyzels nächtliche Albträume tagsüber zur Realität werden, wendet er sich Hilfe suchend an Die dr3i. Jupiter, Peter und Bob kommen ziemlich schnell zu der Erkenntnis, dass Meyzels Schilderungen jeder Logik entbehren. Als aber auch Peters Angstträume Wirklichkeit werden, beginnt das Trio zu ermitteln. Vor ihren Augen öffnet sich die Pforte zum Jenseits...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Sylvester Meyzel",
+          "Speaker": "Wolfgang Völz"
+        },
+        {
+          "Character": "Dorothy Winter",
+          "Speaker": "Doris Kunstmann"
+        },
+        {
+          "Character": "Mr. Hendrik",
+          "Speaker": "Utz Richter"
+        },
+        {
+          "Character": "Kassiererin",
+          "Speaker": "Enie van de Maiklokjes"
+        },
+        {
+          "Character": "Inspektor Milton",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Inspektor Tomlin",
+          "Speaker": "Klaus Dittmann"
+        },
+        {
+          "Character": "Mr. X",
+          "Speaker": "Dirk Eichhorn"
+        },
+        {
+          "Character": "Tao",
+          "Speaker": "Tilman Maddaus"
+        },
+        {
+          "Character": "Supermarkt-Durchsage",
+          "Speaker": "André Minninger"
+        }
+      ]
+    },
+    {
+      "Id": "9fd87e6f-802e-4b9d-8c56-3f637cd3264b",
+      "Title": "Verschollen in der Zeit",
+      "NumberEuropa": 3,
+      "ReleaseDate": "2006-10-13T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/503.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Zwei Wochen Urlaub auf einer Karibikinsel! Jupiter, Peter und Bob können ihr Glück kaum fassen. Doch was als vielversprechender Ferienstart beginnt, entwickelt sich urplötzlich zum unvorstellbaren Albtraum. Hoch über dem Atlantik gerät das Flugzeug der drei in ein rätselhaftes Unwetter und muss mitten im berüchtigten Bermuda-Dreieck auf einer fremdartigen Insel notlanden. Was dann geschieht, führt selbst Jupiter an die Grenzen seines Verstandes. Die unfassbaren Ereignisse lassen jedoch keinen Zweifel: Die Passagiere von Flug 715 sind verschollen in der Zeit...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "James Taylor",
+          "Speaker": "Wanja Mues"
+        },
+        {
+          "Character": "Ray Wells",
+          "Speaker": "Dietrich Adam"
+        },
+        {
+          "Character": "Frank Caspian",
+          "Speaker": "Christian Redl"
+        },
+        {
+          "Character": "Jonathan Grant",
+          "Speaker": "Bernd Stephan"
+        },
+        {
+          "Character": "Christy Grant",
+          "Speaker": "Anja Topf"
+        },
+        {
+          "Character": "George Drummond",
+          "Speaker": "Eberhard Haar"
+        },
+        {
+          "Character": "Tom Drummond",
+          "Speaker": "Patrick Bach"
+        }
+      ]
     }
   ]
