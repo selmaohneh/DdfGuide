@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using DdfGuide.Core;
+using Newtonsoft.Json;
 
 namespace DdfGuide.Parser
 {
@@ -42,11 +46,27 @@ namespace DdfGuide.Parser
             Console.WriteLine();
 
             success = parser.TryParseRoles(out var roles);
+            roles = roles.ToList();
             SetConsoleColor(success);
             foreach (var role in roles)
             {
                 Console.WriteLine($@"{role.Character}: {role.Speaker}");
             }
+            Console.WriteLine();
+
+            var dto = new AudioDramaDto(
+                Guid.NewGuid(), 
+                title,
+                number,
+                releaseDate, 
+                coverUrl, 
+                interpreter,
+                description,
+                roles);
+
+            var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
+
+            Console.WriteLine(json);
             Console.WriteLine();
 
             Console.ReadLine();
