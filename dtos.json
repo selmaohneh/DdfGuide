@@ -12203,5 +12203,277 @@
           "Speaker": "Karl-Friedrich Gerster"
         }
       ]
+    },
+    {
+      "Id": "36032863-4c53-4a28-97ac-18357e8036a4",
+      "Title": "Tödliche Regie",
+      "NumberEuropa": 6,
+      "ReleaseDate": "2007-03-23T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/506.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Terror im Studio! Feige Anschläge machen der Synchronsprecherin Ellen Maxell das Leben zur Hölle. Wer steckt hinter der unheimlichen Gummi-Maske der Zeichentrickfigur \"Panic-Porky\"? Nur knapp entgeht die talentierte Schauspielerin mehreren hinterhältigen Mordversuchen. Hat es jemand auf ihre Rolle abgesehen? Die drei Detektive Jupiter, Peter und Bob nehmen sich des mysteriösen Falles an und geraten mitten in die Schusslinie der zum Leben erwachten Cartoonfigur.",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Ellen Maxell",
+          "Speaker": "Traudel Sperber"
+        },
+        {
+          "Character": "Audrey Moonshadow",
+          "Speaker": "Judy Winter"
+        },
+        {
+          "Character": "Sandy Stryker",
+          "Speaker": "Martina Regenhardt"
+        },
+        {
+          "Character": "Mandy Honeyball",
+          "Speaker": "Celine Fontanges"
+        },
+        {
+          "Character": "Mars Chaplin",
+          "Speaker": "Rainer Schmitt"
+        },
+        {
+          "Character": "Inspektor Milton",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Assistent",
+          "Speaker": "Dirk Bach"
+        }
+      ]
+    },
+    {
+      "Id": "686a7bd9-2a89-4943-b00c-61d93246a421",
+      "Title": "... und der kopflose Reiter",
+      "NumberEuropa": 7,
+      "ReleaseDate": "2007-11-30T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/507.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Ein unheimlicher Reiter ohne Kopf versetzt die Bewohner von Rocky Beach in Angst und Schrecken. In nebligen Herbstnächten taucht er um Mitternacht auf und reitet durch die Stadt. Ist es der Geist des alten Indianers Ashoona Apeh, der mehr als 100 Jahre nach seinem Tod Rache nehmen will an jenen, die ihn seinerzeit köpften? Hat der Urenkel des Indianers etwas zu verbergen? Bevor \"Die Dr3i\" sich versehen, stehen sie dem gefährlichen Gegner und seinem Schwert machtlos gegenüber...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Tante Mathilda Jones",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Onkel Titus Jones",
+          "Speaker": "Hans Meinhardt [Andreas Beurmann]"
+        },
+        {
+          "Character": "Marty Stevens",
+          "Speaker": "Lutz Harder"
+        },
+        {
+          "Character": "Joshua Apeh",
+          "Speaker": "Achim Schülke"
+        },
+        {
+          "Character": "Claudia Salazar",
+          "Speaker": "Marion Elskis"
+        },
+        {
+          "Character": "Ralf Dempsey",
+          "Speaker": "Robin Brosch"
+        },
+        {
+          "Character": "Marvin Cox",
+          "Speaker": "Jörg Gillner"
+        },
+        {
+          "Character": "Anna",
+          "Speaker": "Micaela Kreissler"
+        },
+        {
+          "Character": "George",
+          "Speaker": "Eric Schaeffler"
+        },
+        {
+          "Character": "Hapa",
+          "Speaker": "Michael Weckler"
+        },
+        {
+          "Character": "Lastwagenfahrer",
+          "Speaker": "Tim Wenderoth"
+        }
+      ]
+    },
+    {
+      "Id": "a32cba64-f94f-4319-99bf-0db4ad2d7200",
+      "Title": "Der Jahrhundertstein",
+      "NumberEuropa": 8,
+      "ReleaseDate": "2007-11-30T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/508.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Durch Zufall gelangen die drei Juniordetektive aus Rocky Beach in den Besitz eines Fragmentes des sogenannten Jahrhundertsteins, einer spätmittelalterlichen Steintafel. Noch bevor sie weiterführende Ermittlungen anstellen können wird der Stein gestohlen. Für Jupiter, Peter und Bob ist das aber noch lange kein Grund aufzugeben. Doch sie sind nicht die Einzigen, die hinter ihm her sind. Wer ist der geheimnisvolle Unbekannte, der im Hintergrund die Fäden zieht und die Dr3i wie Schachfiguren dahin schiebt, wo sie ihm am meisten nützen? Wer steckt hinter der Maske des einarmigen Bogenschützen, der Ihnen stets einen Schritt voraus ist? Urplötzlich spitzt sich die Situation zu und sie befinden sich in Lebensgefahr.",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Taro",
+          "Speaker": "Stefan Brönneke"
+        },
+        {
+          "Character": "Officer Hunter",
+          "Speaker": "Jürgen Kluckert"
+        },
+        {
+          "Character": "Türsteher",
+          "Speaker": "Arndt Schmöle"
+        },
+        {
+          "Character": "Motelangestellter",
+          "Speaker": "Jelko von Tiele-Winckler"
+        },
+        {
+          "Character": "Museumsdirektor",
+          "Speaker": "Rainer Schmitt"
+        },
+        {
+          "Character": "Tante Mathilda Jones",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Harvey Denton",
+          "Speaker": "Klaus Herrn"
+        },
+        {
+          "Character": "Mrs. Fox",
+          "Speaker": "Nana Spier"
+        },
+        {
+          "Character": "Inspektor Milton",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Arthur Heatherly",
+          "Speaker": "Rainer Brandt"
+        },
+        {
+          "Character": "Melissa Heatherly",
+          "Speaker": "Stephanie Kirchberger"
+        }
+      ]
+    },
+    {
+      "Id": "64c4f118-ea26-4a39-a98b-48c4c086b687",
+      "Title": "Hotel Luxury End",
+      "NumberEuropa": null,
+      "ReleaseDate": "2006-11-24T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/599.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Eine Nacht in einem Luxushotel, direkt an der malerischen Steilküste Nordkaliforniens? Normalerweise ein Grund zur Freude. Doch nicht für Jupiter, Peter und Bob! Denn Die Dr3i müssen um ihr Leben fürchten! Und das, obwohl das unheimliche Hotel vollkommen menschenleer ist... Erlebe das erste interaktive Hörspiel mit Jupiter Jones, Peter Crenshaw und Bob Andrews! Mit einem Knopfdruck auf deinem CD-Player kannst du mitbestimmen, welche Lösungswege die drei Detektive bei diesem mysteriösen Abenteuer einschlagen sollen. Auf 2 CDs erwarten dich viele ungelöste Rätsel und Geheimnisse, sowie 16 alternative Enden!",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Tante Mathilda Jones",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Mr. Overlook",
+          "Speaker": "Joachim Kerzel"
+        },
+        {
+          "Character": "Portier Stanley",
+          "Speaker": "Lutz Mackensy"
+        },
+        {
+          "Character": "Liftboy Jack",
+          "Speaker": "Jan-David Rönfeldt"
+        },
+        {
+          "Character": "Barkeeper Lloyd",
+          "Speaker": "Roman Kretschmer"
+        },
+        {
+          "Character": "Mr. Torrance",
+          "Speaker": "Holger Löwenberg"
+        },
+        {
+          "Character": "Mrs. Torrance",
+          "Speaker": "Katja Brügger"
+        },
+        {
+          "Character": "Shelley",
+          "Speaker": "Saskia Weckler"
+        },
+        {
+          "Character": "Stuart",
+          "Speaker": "Nicoals König"
+        },
+        {
+          "Character": "Danny",
+          "Speaker": "Patrick Bach"
+        },
+        {
+          "Character": "Police Officer",
+          "Speaker": "Jürgen Thormann"
+        },
+        {
+          "Character": "Radio-Sprecher",
+          "Speaker": "Bernd Klose"
+        }
+      ]
     }
   ]
