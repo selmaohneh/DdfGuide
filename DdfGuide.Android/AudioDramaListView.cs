@@ -91,7 +91,7 @@ namespace DdfGuide.Android
                 {
                     DieDreiFragezeichenKidsClicked?.Invoke(this, EventArgs.Empty);
                 }
-                else if (args.Tab.Text == Resources.GetString(Resource.String.diedreifragezeichen))
+                else if (args.Tab.Text == Resources.GetString(Resource.String.diedrei))
                 {
                     DieDreiClicked?.Invoke(this, EventArgs.Empty);
                 }
