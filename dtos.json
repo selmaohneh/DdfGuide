@@ -12014,5 +12014,76 @@
       "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/029.jpg",
       "Interpreter": "Die drei ???",
       "Description": "Hier findet Ihr die schönsten Melodien aus der beliebten EUROPA-Jugend-Serie! Vollständig und ungekürzt! So könnt Ihr sie z.B. auch als Background-Musik für Eure eigenen Hörspiele verwenden. Und nun viel Spaß mit Bob, Justus, Peter und der Musik aus der EUROPA-Jugend-Serie \"Die drei ???\"."
+    },
+    {
+      "Id": "89f56afb-e7ec-4f13-a41e-96829b3174ac",
+      "Title": "Das Seeungeheuer",
+      "NumberEuropa": 1,
+      "ReleaseDate": "2006-10-13T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/501.jpg",
+      "Interpreter": "DiE DR3i",
+      "Description": "Ein Anwalt mit düsterer Vergangenheit, ein einsames Küstenhaus mit einem furchtbaren Geheimnis und ein rätselhaftes Testament.... Die Belastbarkeit von Jupiter, Peter und Bob wird diesmal wahrlich auf eine harte Probe gestellt. Doch damit nicht genug. Während ihrer Nachforschungen wird das Trio mit der Aufklärung eines mysteriösen Schiffsunglücks beauftragt. Unheilvolle Vermutungen werden bald zur schrecklichen Gewissheit: Aus den finsteren Tiefen des Ozeans ist ein riesenhaftes Monstrum aufgetaucht! Werden die Drei die tödliche Gefahr von Kaliforniens Küste abwenden können?",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Jupiter Jones",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Crenshaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Inspektor Milton",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Mrs. Ashby",
+          "Speaker": "Sabine Hahn"
+        },
+        {
+          "Character": "Charles Prendergast",
+          "Speaker": "Rolf Nagel"
+        },
+        {
+          "Character": "Richard Crandall",
+          "Speaker": "Konstantin Graudus"
+        },
+        {
+          "Character": "Kirk Prendergast",
+          "Speaker": "Wolf Frass"
+        },
+        {
+          "Character": "Blacky",
+          "Speaker": "Heikedine Körting"
+        },
+        {
+          "Character": "Jonathan Godfrey",
+          "Speaker": "Eric Schäffler"
+        },
+        {
+          "Character": "Carlos",
+          "Speaker": "Eduardo Garcia"
+        },
+        {
+          "Character": "Garrett",
+          "Speaker": "David Flemming"
+        },
+        {
+          "Character": "Riteman",
+          "Speaker": "Till Demtröder"
+        },
+        {
+          "Character": "Stanley",
+          "Speaker": "Lutz Schnell"
+        }
+      ]
     }
   ]
