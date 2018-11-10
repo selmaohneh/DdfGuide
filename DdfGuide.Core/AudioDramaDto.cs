@@ -24,7 +24,7 @@ namespace DdfGuide.Core
             CoverUrl = coverUrl;
             Interpreter = interpreter;
             Description = description;
-            Roles = roles;
+            Roles = roles ?? new List<RoleDto>();
         }
 
         public override string ToString()
