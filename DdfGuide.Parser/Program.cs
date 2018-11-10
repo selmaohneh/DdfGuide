@@ -13,35 +13,43 @@ namespace DdfGuide.Parser
 
             var success = parser.TryParseInterpreter(out var interpreter);
             SetConsoleColor(success);
-            Console.WriteLine($@"Interpreter: {interpreter}");
+            Console.WriteLine(interpreter);
+            Console.WriteLine();
 
-            success = parser.TryParseInterpreter(out var title);
+            success = parser.TryParseTitle(out var title);
             SetConsoleColor(success);
-            Console.WriteLine($@"Title: {title}");
+            Console.WriteLine(title);
+            Console.WriteLine();
 
             success = parser.TryParseNumber(out var number);
             SetConsoleColor(success);
-            Console.WriteLine($@"Number: {number}");
+            Console.WriteLine(number);
+            Console.WriteLine();
 
             success = parser.TryParseReleaseDate(out var releaseDate);
             SetConsoleColor(success);
-            Console.WriteLine($@"ReleaseDate: {releaseDate}");
+            Console.WriteLine(releaseDate.ToString("dd.MM.yyyy"));
+            Console.WriteLine();
 
             success = parser.TryParseDescription(out var description);
             SetConsoleColor(success);
-            Console.WriteLine($@"Description: {description}");
+            Console.WriteLine(description);
+            Console.WriteLine();
 
             success = parser.TryParseCoverUrl(out var coverUrl);
             SetConsoleColor(success);
-            Console.WriteLine($@"CoverUrl: {coverUrl}");
+            Console.WriteLine(coverUrl);
+            Console.WriteLine();
 
             success = parser.TryParseRoles(out var roles);
             SetConsoleColor(success);
-            Console.WriteLine(@"Roles:");
             foreach (var role in roles)
             {
                 Console.WriteLine($@"{role.Character}: {role.Speaker}");
             }
+            Console.WriteLine();
+
+            Console.ReadLine();
         }
 
         private static void SetConsoleColor(bool success)
