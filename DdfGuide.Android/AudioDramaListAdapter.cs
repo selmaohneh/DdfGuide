@@ -13,11 +13,13 @@ namespace DdfGuide.Android
     public class AudioDramaListAdapter : BaseAdapter<AudioDrama>
     {
         private readonly Activity _context;
+        private readonly IImageViewFiller _imageViewFiller;
         private IEnumerable<AudioDrama> _audioDramas;
 
-        public AudioDramaListAdapter(Activity context)
+        public AudioDramaListAdapter(Activity context, IImageViewFiller imageViewFiller)
         {
             _context = context;
+            _imageViewFiller = imageViewFiller;
             _audioDramas = new List<AudioDrama>();
         }
 
@@ -45,12 +47,8 @@ namespace DdfGuide.Android
             view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
          
             var imageView = view.FindViewById<ImageViewAsync>(Resource.Id.coverview);
-            
-            ImageService.Instance
-                .LoadUrl(audioDrama.AudioDramaDto.CoverUrl)
-                .LoadingPlaceholder("ic_launcher", ImageSource.CompiledResource)
-                .IntoAsync(imageView);
-            
+            _imageViewFiller.FillImageViewFromUrl(imageView, audioDrama.AudioDramaDto.CoverUrl);
+
             return view;
         }
 

@@ -64,6 +64,8 @@
     <Compile Include="AudioDramaListAdapter.cs" />
     <Compile Include="AudioDramaListView.cs" />
     <Compile Include="AudioDramaView.cs" />
+    <Compile Include="IImageViewFiller.cs" />
+    <Compile Include="ImageViewFiller.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\AudioDramaView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

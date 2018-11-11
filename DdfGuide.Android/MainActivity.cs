@@ -25,9 +25,9 @@ namespace DdfGuide.Android
 
             var dtoProvider = new AndroidDtoProvider();
             var userDataProvider = new AndroidUserDataProvider();
-
-            var audioDramaListView = new AudioDramaListView();
-            var audioDramaView = new AudioDramaView();
+            var filler = new ImageViewFiller();
+            var audioDramaListView = new AudioDramaListView(filler);
+            var audioDramaView = new AudioDramaView(filler);
             var rootView = this;
 
             _ddfGuide = new Core.DdfGuide(

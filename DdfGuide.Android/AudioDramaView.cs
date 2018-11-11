@@ -6,14 +6,19 @@ using Android.Text;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
-using FFImageLoading;
 using FFImageLoading.Views;
 
 namespace DdfGuide.Android
 {
     public class AudioDramaView : Fragment, IAudioDramaView
     {
+        private readonly IImageViewFiller _imageViewFiller;
         private View _view;
+
+        public AudioDramaView(IImageViewFiller imageViewFiller)
+        {
+            _imageViewFiller = imageViewFiller;
+        }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -63,10 +68,9 @@ namespace DdfGuide.Android
             favoriteCheckbox.Checked = audioDrama.AudioDramaUserData.IsFavorite;
 
             var imageView = _view.FindViewById<ImageViewAsync>(Resource.Id.coverviewsingle);
-            ImageService.Instance
-                .LoadUrl(audioDrama.AudioDramaDto.CoverUrl)
-                .IntoAsync(imageView);
 
+            _imageViewFiller.FillImageViewFromUrl(imageView, audioDrama.AudioDramaDto.CoverUrl);
+           
             var rolesView = _view.FindViewById<TextView>(Resource.Id.textViewRoles);
 
             rolesView.Text = string.Empty;
