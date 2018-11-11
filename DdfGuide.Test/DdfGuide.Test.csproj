@@ -159,6 +159,7 @@
     <Compile Include="AudioDramaAsSearchItemTests.cs" />
     <Compile Include="AudioDramaBuilderTests.cs" />
     <Compile Include="AudioDramaExplorerTests.cs" />
+    <Compile Include="DtoFileTests.cs" />
     <Compile Include="Filtering\DieDreiFilterTests.cs" />
     <Compile Include="Filtering\DieDreiFragezeichenFilterTests.cs" />
     <Compile Include="Filtering\DieDreiFragezeichenKidsFilterTests.cs" />
