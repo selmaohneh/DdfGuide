@@ -12833,5 +12833,643 @@
       "NumberEuropa": 196,
       "ReleaseDate": "2018-11-30T00:00:00",
       "Interpreter": "Die drei ???"
+    },
+    {
+      "Id": "6e47b94d-c972-4e7d-b259-01dcbe4731ff",
+      "Title": "... und der giftige Gockel",
+      "NumberEuropa": 47,
+      "ReleaseDate": "1990-01-01T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/047.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "\"Millionen werden sterben!\", flüstert das Unfallopfer. - Wer ist der Täter? Die drei Detektive schalten sich ein, und ein Wettlauf mit der Zeit beginnt! Schon bald merken die drei Freunde, daß sie auf der richtigen Spur sind, denn ihr unbekannter Gegner schlägt zurück...",
+      "Roles": [
+        {
+          "Character": "Hitchcock, Erzähler",
+          "Speaker": "Peter Pasetti"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Kommissar Reynolds",
+          "Speaker": "Wolfgang Draeger"
+        },
+        {
+          "Character": "Kelly",
+          "Speaker": "Kerstin Draeger"
+        },
+        {
+          "Character": "Julia Crown",
+          "Speaker": "Tessa Gasser"
+        },
+        {
+          "Character": "Big Barney Crown",
+          "Speaker": "Wolfgang Völz"
+        },
+        {
+          "Character": "Schwester Lazar",
+          "Speaker": "Hildegard Krekel"
+        },
+        {
+          "Character": "Don Dellasandro",
+          "Speaker": "Jürgen Thormann"
+        },
+        {
+          "Character": "Pandro Mischkin",
+          "Speaker": "Michael Harck"
+        },
+        {
+          "Character": "Kranführer Dick",
+          "Speaker": "Ernst von Klipstein"
+        }
+      ]
+    },
+    {
+      "Id": "83b00ba8-f68d-42a2-b18e-995de9d5b146",
+      "Title": "... und die gefährlichen Fässer",
+      "NumberEuropa": 48,
+      "ReleaseDate": "1990-01-01T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/048.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Die drei Detektive und Bobs Vater stürzen mit dem Flugzeug ab - mitten in ein Tal voller Geheimnisse und Gefahren. Merkwürdige, von Dämonen besessene Indianer, tun rätselhafte Dinge, und dann stellt jemand den drei ??? eine tödliche Falle...",
+      "Roles": [
+        {
+          "Character": "Hitchcock, Erzähler",
+          "Speaker": "Peter Pasetti"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Herr Andrews",
+          "Speaker": "Günter König"
+        },
+        {
+          "Character": "Daniel",
+          "Speaker": "Gosta Liptow"
+        },
+        {
+          "Character": "Mary",
+          "Speaker": "Anja Ziemer"
+        },
+        {
+          "Character": "Häuptling Turner",
+          "Speaker": "Norbert Langer"
+        },
+        {
+          "Character": "Schamane",
+          "Speaker": "Douglas Welbat"
+        },
+        {
+          "Character": "Unternehmer Nancarrow",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Ganove Biff",
+          "Speaker": "Lutz Harder"
+        },
+        {
+          "Character": "Ganove George",
+          "Speaker": "Manfred Liptow"
+        }
+      ]
+    },
+    {
+      "Id": "58838459-cd64-495f-aa45-947c57da22d7",
+      "Title": "... und die Rache des Tigers",
+      "NumberEuropa": 61,
+      "ReleaseDate": "1995-02-27T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/061.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Ein Sprengsatz explodiert während der Einweihungsfeier eines Vergnügungsparks im ehemaligen Zoo von Rocky Beach. Steckt tatsächlich die Bürgerinitiative dahinter, die auf demselben Gelände eine Jugendfarm errichten möchte? Die drei Detektive Justus, Bob und Peter können nicht recht daran glauben und suchen die wahren Hintermänner des feigen Anschlags. Doch erst ein geheimnisvoller Brief setzt die drei ??? auf die richtige Spur und führt sie zum Thron des Tigers. Dort erwartet sie eine gefährliche Überraschung.",
+      "Roles": [
+        {
+          "Character": "Hitchcock, Erzähler",
+          "Speaker": "Peter Pasetti"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Milton Mitchell",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Fred Hall",
+          "Speaker": "Thomas Thomé"
+        },
+        {
+          "Character": "Anne",
+          "Speaker": "Janina Richter"
+        },
+        {
+          "Character": "Morton",
+          "Speaker": "Andreas von der Meden"
+        },
+        {
+          "Character": "Kellner",
+          "Speaker": "Thomas Stein"
+        },
+        {
+          "Character": "Portland",
+          "Speaker": "Wolfgang Völz"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Willem Fricke"
+        },
+        {
+          "Character": "Charlie",
+          "Speaker": "Anne Marr"
+        },
+        {
+          "Character": "Kundin",
+          "Speaker": "Ursula Sieg"
+        },
+        {
+          "Character": "Adams",
+          "Speaker": "Hans Hessling"
+        }
+      ]
+    },
+    {
+      "Id": "bca196bc-f665-4509-8ca0-4e04809c95f9",
+      "Title": "Labyrinth der Götter",
+      "NumberEuropa": 91,
+      "ReleaseDate": "2000-08-14T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/091.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Der Regisseur Edward Truman hat seinen skandalumwitterten Film kurz vor der Premiere zurückgezogen und an einem geheimen Ort versteckt. Der Hinweis einer alten Schauspielerin führt Justus, Peter und Bob, die drei Detektive aus Rocky Beach, zu Trumans Grundstück. Doch dieses ist umgeben von einem undurchdringlichen Heckenlabyrinth. Die Kombinationsfähigkeit der drei ??? wird auf eine harte Probe gestellt. Rätselhafte Götterstatuen scheinen den Weg durch den Irrgarten zu weisen. Doch irgendjemand legt falsche Spuren, so dass die Detektive die Orientierung verlieren. Wo ist der Ausgang aus dem Labyrinth der Götter?",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Matthias Fuchs"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Stanley Truman",
+          "Speaker": "Horst Stark"
+        },
+        {
+          "Character": "Mr. Shaw",
+          "Speaker": "Eberhard Haar"
+        },
+        {
+          "Character": "Mrs. Jones",
+          "Speaker": "Gisela Trowe"
+        },
+        {
+          "Character": "Mrs. Shoemaker",
+          "Speaker": "Barbara Schnipper"
+        }
+      ]
+    },
+    {
+      "Id": "b9650236-acfd-4220-aa2a-b6eeb896b9a4",
+      "Title": "Botschaft von Geisterhand",
+      "NumberEuropa": 95,
+      "ReleaseDate": "2001-02-12T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/095.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Dr. Arroway, Archäologin und Spezialistin auf dem Gebiet der alten Maya-Indianer, erfährt durch Zufall, dass sie bestohlen werden soll: Ein geheimnisvoller Unbekannter hat es auf das heilige Buch der Maya abgesehen, das Popol Vuh. Warum ist dieses Buch so wichtig? Verbirgt sich darin eine geheime Botschaft? Wer hat Interesse daran, sie zu entschlüsseln? Die drei Detektive aus Rocky Beach nehmen sich des Falls an und versuchen das Rätsel zu lösen. Doch als das Popol Vuh gestohlen wird, drängt die Zeit - wer lüftet als Erster das Geheimnis des heiligen Buches?",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Matthias Fuchs"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Jelena Charkov",
+          "Speaker": "Alexandra Doerk"
+        },
+        {
+          "Character": "Mr. Charkov",
+          "Speaker": "Klaus Dittmann"
+        },
+        {
+          "Character": "Dr. Arroway",
+          "Speaker": "Sona Cervena"
+        },
+        {
+          "Character": "Janet, ihre Assistentin",
+          "Speaker": "Ute Rohrbeck"
+        },
+        {
+          "Character": "Tom Gordon",
+          "Speaker": "Philip Hoier"
+        },
+        {
+          "Character": "Dixon",
+          "Speaker": "Utz Richter"
+        }
+      ]
+    },
+    {
+      "Id": "dc204cc6-3bda-4a38-bb96-f58cd9b57c48",
+      "Title": "Der geheime Schlüssel",
+      "NumberEuropa": 119,
+      "ReleaseDate": "2004-11-29:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/119.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Justus ist irritiert. Gleich drei Kunden suchen auf dem Schrottplatz nach altem Blechspielzeug der Firma Kopperschmidt. Dann fällt dem Ersten Detektiv auch noch eine verschlüsselte Rätselbotschaft in die Hände. Sein Spürsinn ist geweckt! Als jedoch auf Peter ein Attentat verübt wird und der geniale Spielzeugmacher Felix Kopperschmidt spurlos verschwindet, ist schnell klar: Die drei ??? befinden sich mitten in einem neuen gefährlichen Abenteuer! Uns sie müssen all ihre detektivische Kombinationsfähigkeit aufbringen, um die verstreuten Puzzleteile dieses Falls richtig zusammenzusetzen.",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Titus Jonas",
+          "Speaker": "Hans Meinhardt [Andreas Beurmann]"
+        },
+        {
+          "Character": "Caitlin Kopperschmidt",
+          "Speaker": "Marion Martienzen"
+        },
+        {
+          "Character": "Jeremy Kopperschmidt",
+          "Speaker": "Lutz Herkenrath"
+        },
+        {
+          "Character": "Craig Kopperschmidt",
+          "Speaker": "Mario Grete"
+        },
+        {
+          "Character": "George",
+          "Speaker": "Hendrik König"
+        },
+        {
+          "Character": "Anthony Quinn",
+          "Speaker": "Franz-Joseph Steffens"
+        },
+        {
+          "Character": "Martha",
+          "Speaker": "Sabine Falkenberg"
+        },
+        {
+          "Character": "Felix Kopperschmidt",
+          "Speaker": "Hermann Otto"
+        },
+        {
+          "Character": "Mann",
+          "Speaker": "Frank Felicetti"
+        }
+      ]
+    },
+    {
+      "Id": "97af1f3b-2dde-4017-91da-ca8b0521ec8c",
+      "Title": "... und die Fußball-Falle",
+      "NumberEuropa": 141,
+      "ReleaseDate": "2010-10-01T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/141.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Der Fußballstar Jeffrey Seaman und seine Mannschaft bereiten sich in Rocky Beach auf ein Mehrländerturnier vor. Doch merkwürdige Zwischenfälle stören das Training und versetzen die Spieler in Angst und Schrecken. Als auch noch der ägyptische Totengott Anubis in den Katakomben unter dem Fußballstadion auftaucht und sein Unwesen treibt, ist klar: Die drei ??? müssen all ihren detektivischen Spürsinn aufbieten, um diesen Fall zu lösen!",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Onkel Titus Jonas",
+          "Speaker": "Hans Meinhardt"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Jeffrey Seaman",
+          "Speaker": "Daniel Welbat"
+        },
+        {
+          "Character": "Steven",
+          "Speaker": "Oliver Böttcher"
+        },
+        {
+          "Character": "Eric",
+          "Speaker": "Patrick Bach"
+        },
+        {
+          "Character": "Mr. Settler",
+          "Speaker": "Christian Senger"
+        },
+        {
+          "Character": "Auktionator",
+          "Speaker": "Achim Schülke"
+        },
+        {
+          "Character": "Frau",
+          "Speaker": "Hilla Fitzen"
+        },
+        {
+          "Character": "Patrick O'Brian",
+          "Speaker": "Wolfgang Riehm"
+        },
+        {
+          "Character": "William de Haas",
+          "Speaker": "Jörg Gillner"
+        },
+        {
+          "Character": "Theodor Brewster",
+          "Speaker": "Tobias Meister"
+        }
+      ]
+    },
+    {
+      "Id": "34ca6f2d-2184-4563-bb7d-b1b323563bcc",
+      "Title": "Tödliches Eis",
+      "NumberEuropa": 142,
+      "ReleaseDate": "2010-12-03T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/142.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Schnee und Eis, Wölfe und arktische Stürme - das Nordic Wilderness Race ist eines der härtesten Schlittenhunderennen der Welt. Als die drei ??? von der Journalistin Carol Ford gefragt werden, ob sie bei der Reportage über das Rennen helfen wollen, sagen die Jungen begeistert zu. Doch damit lassen sie sich auf ein gefährliches Abenteuer ein. Als es zu einem ernsthaften Zwischenfall mit skrupellosen Verbrechern kommt, ist klar: Die drei Detektive müssen schnell handeln, damit dies nicht ihr letzter Fall wird!",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Carol Ford",
+          "Speaker": "Claudia Schermutzki"
+        },
+        {
+          "Character": "Francis Studstill",
+          "Speaker": "Elena Wilms"
+        },
+        {
+          "Character": "Baxter Norsworthy",
+          "Speaker": "Udo Schenk"
+        },
+        {
+          "Character": "Gordon Hoke",
+          "Speaker": "Holger Löwenberg"
+        },
+        {
+          "Character": "Jared Fox",
+          "Speaker": "Meik Spallek"
+        },
+        {
+          "Character": "Candace Duskin",
+          "Speaker": "Andrea Linau"
+        },
+        {
+          "Character": "George Bennet",
+          "Speaker": "Urs Affolter"
+        },
+        {
+          "Character": "Greg Harper",
+          "Speaker": "Robert Missler"
+        },
+        {
+          "Character": "Woodland",
+          "Speaker": "Jürgen Thormann"
+        },
+        {
+          "Character": "Reporterin",
+          "Speaker": "Jamie Leaves"
+        },
+        {
+          "Character": "Reporter",
+          "Speaker": "Glenn Goltz"
+        },
+        {
+          "Character": "Wellford",
+          "Speaker": "Oliver Geilhardt"
+        },
+        {
+          "Character": "Pilot",
+          "Speaker": "Achim Schülke"
+        }
+      ]
+    },
+    {
+      "Id": "2ef3f1db-7c6b-4d4c-87c9-3a4790a057fb",
+      "Title": "...und das Fußballphantom",
+      "NumberEuropa": 153,
+      "ReleaseDate": "2012-04-13T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/153.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Das Fußballstadion brodelt. Die Los Angeles Hawks spielen gegen die Philadelphia Tornados um den amerikanischen Highschool-Meisterschaftstitel. Peter gerät durch eine Fehlvermittlung zufällig in ein fremdes Handygespräch. Was er mithört, lässt ihm das Blut in den Adern gefrieren. Unversehens müssen die drei ??? einem gefährlichen Erpresser das Handwerk legen. Werden sie die seltsamen Rätsel des Fußballphantoms lösen können? Sie müssen. Das Leben eines Menschen draußen auf dem Spielfeld hängt davon ab.",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Sean O'Donnell",
+          "Speaker": "Till Demtröder"
+        },
+        {
+          "Character": "Alexander Chilton",
+          "Speaker": "Rüdiger Schulzki"
+        },
+        {
+          "Character": "Mann im Stadion",
+          "Speaker": "Eric Förster"
+        },
+        {
+          "Character": "Ordner",
+          "Speaker": "Matthias Treder"
+        },
+        {
+          "Character": "Frau im Police Department",
+          "Speaker": "Corinna Wodrich"
+        },
+        {
+          "Character": "Mrs. Gardiner",
+          "Speaker": "Elisa Linnemann"
+        },
+        {
+          "Character": "Sekretärin",
+          "Speaker": "Susan Jarling"
+        },
+        {
+          "Character": "Inspektor Craig",
+          "Speaker": "Gustav-Adolph Artz"
+        },
+        {
+          "Character": "Tom Chilton",
+          "Speaker": "Christopher Arndt"
+        },
+        {
+          "Character": "Junger Mann auf der Pier",
+          "Speaker": "Christian Senger"
+        },
+        {
+          "Character": "Junge im Stadion",
+          "Speaker": "Johann Gutjahr"
+        },
+        {
+          "Character": "Live-Kommentator",
+          "Speaker": "Ulli Potofski"
+        },
+        {
+          "Character": "Ansager",
+          "Speaker": "Frank Wintjen"
+        }
+      ]
+    },
+    {
+      "Id": "8c7af490-5479-40eb-b4dc-7b6bc44061bf",
+      "Title": "...und der Eisenmann",
+      "NumberEuropa": 172,
+      "ReleaseDate": "2014-11-28T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/172.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Auf einer einsamen Insel stoßen die drei ??? auf den Künstler Drago Martinez. Der hat großen Erfolg mit seinem einzigartigen Werk Eisenmann. Doch die Freude darüber ist kurz: Drago wird verfolgt und fürchtet um sein Leben! Steckt ein verrückter Kunstliebhaber dahinter? Offenbar sind die drei Freunde der Lösung zu nahe, denn jemand lockt sie in einen Hinterhalt...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Drago Martinez",
+          "Speaker": "Konstantin Graudus"
+        },
+        {
+          "Character": "Fred Osborne",
+          "Speaker": "Erik Schäffler"
+        },
+        {
+          "Character": "Cecile Jezero",
+          "Speaker": "Sandra Quadflieg"
+        },
+        {
+          "Character": "Deborah",
+          "Speaker": "Kornelia Lüdorff"
+        },
+        {
+          "Character": "Short",
+          "Speaker": "Manfred Liptow"
+        },
+        {
+          "Character": "Anthony",
+          "Speaker": "Lutz Harder"
+        },
+        {
+          "Character": "Godween",
+          "Speaker": "Andr? Minninger"
+        },
+        {
+          "Character": "Heavy Metal",
+          "Speaker": "Iris Rufner"
+        },
+        {
+          "Character": "Arthur Pepper",
+          "Speaker": "Frank Thannhäuser"
+        }
+      ]
     }
   ]
