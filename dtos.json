@@ -13475,7 +13475,7 @@
     {
       "Id": "de568ae6-45f3-41cd-b7db-e4b27b3b43e0",
       "Title": "Master of Chess",
-      "NumberEuropa": 0,
+      "NumberEuropa": null,
       "ReleaseDate": "2002-11-11T00:00:00",
       "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/MoC-CD2.jpg",
       "Interpreter": "Die drei ???",
