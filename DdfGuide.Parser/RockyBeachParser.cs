@@ -68,7 +68,7 @@ namespace DdfGuide.Parser
             try
             {
                 const string xPath = "/html/body/table/tr[1]/td[2]/center[4]/table/tr[2]/td/table//tr";
-
+                                     //"/html/body/table/tr[1]/td[2]/center[4]/table/tr[2]/td/table/tr[7]/td[2]"
                 var rows = _htmlDocument
                     .DocumentNode
                     .SelectNodes(xPath);
@@ -81,7 +81,7 @@ namespace DdfGuide.Parser
                     var leftColumn = columns[0].InnerText.Decode();
                     var rightColumn = columns[1].InnerText.Decode();
 
-                    if (leftColumn == "Erscheinungsdatum:")
+                    if (leftColumn.Contains("Erscheinungsdatum"))
                     {
                         releaseDate = DateTime.Parse(rightColumn);
                         return true;
@@ -158,6 +158,11 @@ namespace DdfGuide.Parser
                 foreach (var row in rows)
                 {
                     var columns = row.SelectNodes("td");
+                    if (columns == null)
+                    {
+                        continue;
+                    }
+
                     var character = columns[0].InnerText.Decode();
                     var speaker = columns[1].InnerText.Decode();
 
