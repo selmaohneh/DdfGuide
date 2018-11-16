@@ -13637,5 +13637,227 @@
           "Speaker": "www.dreifragezeichen.de/www/menge-brainwash"
         }
       ]
+    },
+    {
+      "Id": "f594408f-3337-4f49-9246-9c0c22c76abe",
+      "Title": "House of Horrors - Haus der Angst",
+      "NumberEuropa": null,
+      "ReleaseDate": "2011-08-19T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/tse_hausderangst.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Ein besonderer Fall zum Mitraten: Verschollen, gefunden, endlich auch auf Deutsch veröffentlicht: Eine Geschichten aus dem Jahr 1986 von dem amerikanischen Die drei ???-Autorenpaar Megan und H. William Stine. Wolltest du immer schon den Die drei ??? bei ihren Ermittlungen helfen? Jetzt hast Du die Chance dazu! In der Geisterbahn im Freizeitpark geschehen merkwürdige Dinge. Schreckliche Schreie, ertönen, die mit Sicherheit nicht zum Programm dazugehören. Justus, Peter und Bob, die drei jungen Detektive aus Rocky Beach und ihr Auftraggeber Tony müssen schnellstmöglich herausfinden, was dahinter steckt. Aber Vorsicht: Eine falsche Entscheidung, und sie sind für immer verloren! Es liegt an dir. Du kannst den drei ??? und Tony den Weg durch das Haus der Angst schaffen. Oder auch nicht...",
+      "Roles": [
+        {
+          "Character": "CD 1: Off-Stimme",
+          "Speaker": "Claudia Stocksieker"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Tony",
+          "Speaker": "Stefan Kaminski"
+        },
+        {
+          "Character": "Joey",
+          "Speaker": "Tommaso Cacciapuoti"
+        },
+        {
+          "Character": "Ansager in der Schlammringkampfarena",
+          "Speaker": "Christian Rudolf"
+        },
+        {
+          "Character": "Margarine",
+          "Speaker": "Alma Clausen"
+        },
+        {
+          "Character": "Lincolnfahrer",
+          "Speaker": "Mike Olsowski"
+        },
+        {
+          "Character": "Freakshow-Jack",
+          "Speaker": "Peter Bänker"
+        },
+        {
+          "Character": "Der unergründliche Mickey",
+          "Speaker": "Krystian Martinek"
+        },
+        {
+          "Character": "Die bärtige Marilyn",
+          "Speaker": "Santiago Ziesmer"
+        },
+        {
+          "Character": "Miss Luzzy",
+          "Speaker": "Katja Brügger"
+        },
+        {
+          "Character": "Bubba Detroit",
+          "Speaker": "Klaus Dittmann"
+        },
+        {
+          "Character": "Junge",
+          "Speaker": "Patick Bach"
+        },
+        {
+          "Character": "Burger-Verkäufer Arnie",
+          "Speaker": "Manou Lubowski"
+        },
+        {
+          "Character": "Reporterin",
+          "Speaker": "Mara Bergmann"
+        },
+        {
+          "Character": "Anna Millar",
+          "Speaker": "Christine Pappert"
+        },
+        {
+          "Character": "Bombenattentäter Daniel",
+          "Speaker": "Tim Grobe"
+        },
+        {
+          "Character": "Polizist",
+          "Speaker": "Wolfgang Kaven"
+        },
+        {
+          "Character": "Papagei",
+          "Speaker": "Heikedine Körting"
+        },
+        {
+          "Character": "CD 2: Off-Stimme",
+          "Speaker": "Claudia Stocksieker"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Tony",
+          "Speaker": "Stefan Kaminski"
+        },
+        {
+          "Character": "Joey",
+          "Speaker": "Tommaso Cacciapuoti"
+        },
+        {
+          "Character": "Anna Millar",
+          "Speaker": "Christine Pappert"
+        },
+        {
+          "Character": "Lily",
+          "Speaker": "Verena Wolfien"
+        },
+        {
+          "Character": "Max",
+          "Speaker": "Holger Umbreit"
+        },
+        {
+          "Character": "Milli",
+          "Speaker": "Ulrike Knief"
+        },
+        {
+          "Character": "Celeste Hummer",
+          "Speaker": "Maria Willer"
+        },
+        {
+          "Character": "Anthem Hummer",
+          "Speaker": "Martin May"
+        },
+        {
+          "Character": "Morton",
+          "Speaker": "Andreas von der Meden"
+        },
+        {
+          "Character": "Papagei",
+          "Speaker": "Heikedine Körting"
+        },
+        {
+          "Character": "Bruce Millar",
+          "Speaker": "Ben Hecker"
+        },
+        {
+          "Character": "Kommissar Reynolds",
+          "Speaker": "Wolfgang Draeger"
+        },
+        {
+          "Character": "Mr. Albert Hitfield",
+          "Speaker": "Volker Bogdan"
+        }
+      ]
+    },
+    {
+      "Id": "dec9cf2d-724a-40b4-9ca6-408ea4bde6aa",
+      "Title": "High Strung - Unter Hochspannung",
+      "NumberEuropa": 999,
+      "ReleaseDate": "2011-11-11T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/tse_unterhochspannung.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Verschollen, gefunden, endlich veröffentlicht: Eine Geschichte aus dem Jahr 1990 von der amerikanischen Die drei ???-Autorin G. H. Stones. Justus will bei einer Radioshow 5000 Dollar gewinnen. Die Regeln sehen vor, dass dazu täglich ein Rätsel gelöst und ein Gegenstand eingesammelt werden muss. Wer alles gefunden hat und es zum Sponsor der Sendung bringt, bekommt das Geld. Ein weiterer Preis ist eine alte Gitarre, die aber scheinbar niemand haben will. Plötzlich wird auf dem Schrottplatz eingebrochen und den drei Detektiven ist schnell klar, dass es jemand auf Justus? gesammelte Gegenstände abgesehen hat. Aber wer sollte das sein? Gemeinsam machen sich die drei ??? auf die Suche nach dem Dieb und geraten in ein gefährliches Abenteuer...",
+      "Roles": [
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Doktor Ax Me",
+          "Speaker": "Krystian Martinek"
+        },
+        {
+          "Character": "Stinky Rossiter",
+          "Speaker": "Dustin Sattler-Semmelrogge"
+        },
+        {
+          "Character": "Fear Crowther",
+          "Speaker": "Ingo Mommsen"
+        },
+        {
+          "Character": "Mouth Crosby",
+          "Speaker": "Stefan Gabriel"
+        },
+        {
+          "Character": "Mack Dolland",
+          "Speaker": "Mike Olsowski"
+        },
+        {
+          "Character": "Eric Mukogawa",
+          "Speaker": "Marek Harloff"
+        },
+        {
+          "Character": "Marilla",
+          "Speaker": "Saskia Mayerhoff"
+        },
+        {
+          "Character": "Kelly",
+          "Speaker": "Juliane Szalay"
+        },
+        {
+          "Character": "Rosie",
+          "Speaker": "Reinhilt Schneider"
+        }
+      ]
     }
   ]
