@@ -30,7 +30,9 @@ namespace DdfGuide.Parser
                     .Decode();
 
                 var success = int.TryParse(numberString, out var parsedNumber);
-                number = parsedNumber;
+                number = success 
+                    ? new int?(parsedNumber) 
+                    : null;
 
                 return success;
             }
