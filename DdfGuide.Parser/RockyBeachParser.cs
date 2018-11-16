@@ -6,11 +6,11 @@ using HtmlAgilityPack;
 
 namespace DdfGuide.Parser
 {
-    public class RockyBeachDieDreiFragezeichenParser : IAudioDramaDtoParser
+    public class RockyBeachParser : IAudioDramaDtoParser
     {
         private readonly HtmlDocument _htmlDocument;
 
-        public RockyBeachDieDreiFragezeichenParser(HtmlDocument htmlDocument)
+        public RockyBeachParser(HtmlDocument htmlDocument)
         {
             _htmlDocument = htmlDocument;
         }

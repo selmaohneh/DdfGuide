@@ -10,7 +10,7 @@ namespace DdfGuide.Test
     [TestClass]
     public class RockyBeachDieDreiFragezeichenParserTests
     {
-        private RockyBeachDieDreiFragezeichenParser _parser;
+        private RockyBeachParser _parser;
 
         [TestInitialize]
         public void Init()
@@ -18,7 +18,7 @@ namespace DdfGuide.Test
             var htmlDocument = new HtmlDocument();
             htmlDocument.LoadHtml(Resources.RockyBeachUndDerSuperPapagei);
 
-            _parser = new RockyBeachDieDreiFragezeichenParser(htmlDocument);
+            _parser = new RockyBeachParser(htmlDocument);
         }
 
         [TestMethod]
@@ -86,7 +86,7 @@ namespace DdfGuide.Test
             try
             {
                 var htmlDocument = new HtmlDocument();
-                _parser = new RockyBeachDieDreiFragezeichenParser(htmlDocument);
+                _parser = new RockyBeachParser(htmlDocument);
 
                 Assert.IsFalse(_parser.TryParseCoverUrl(out _));
                 Assert.IsFalse(_parser.TryParseDescription(out _));
