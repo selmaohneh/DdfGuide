@@ -14040,5 +14040,377 @@
           "Speaker": "Michael Quiatkowsky"
         }
       ]
+    },
+    {
+      "Id": "24e1e76c-8cf4-4ec7-8d77-5344855dee95",
+      "Title": "... und der Super-Papagei 2004",
+      "NumberEuropa": 1,
+      "ReleaseDate": "2004-10-04T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/001a.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Das ist wirklich ein spezial gelagerter Sonderfall: Warum zitieren Papageien sonderbare Sprüche falsch? Was hat Sherlock Holmes mit Schneewittchen zu tun? Und aus welchem Grund taucht urplötzlich Skinny Norris auf, obwohl er damals vor 25 Jahren im Original- Hörspiel nicht dabei war? Ganz einfach: Diese Sonder-Edition der allerersten drei ??? Folge enthält viele neue Szenen und beantwortet endlich alle Fragen, die in der ursprünglichen Fassung nie beantwortet wurden...",
+      "Roles": [
+        {
+          "Character": "Hitchcock, Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Skinny Norris",
+          "Speaker": "Andreas von der Meden"
+        },
+        {
+          "Character": "Mr. Fentriss, Schriftsteller",
+          "Speaker": "Detlef Bierstedt"
+        },
+        {
+          "Character": "Mr. Claudius, Kunsthändler",
+          "Speaker": "Gerlach Fiedler"
+        },
+        {
+          "Character": "Mrs. Claudius",
+          "Speaker": "Brigitte Böttrich"
+        },
+        {
+          "Character": "Miss Waggoner",
+          "Speaker": "Ursula Vogel"
+        },
+        {
+          "Character": "Carlos",
+          "Speaker": "Stefan Brönneke"
+        },
+        {
+          "Character": "Onkel Ramos",
+          "Speaker": "Dario Bertoli [Detlef Bierstedt]"
+        },
+        {
+          "Character": "Hugenay",
+          "Speaker": "Wolfgang Kubach"
+        },
+        {
+          "Character": "Opa",
+          "Speaker": "Harry Rowohlt"
+        },
+        {
+          "Character": "Morton",
+          "Speaker": "Andreas von der Meden"
+        },
+        {
+          "Character": "Senora",
+          "Speaker": "Barbara Benuel"
+        }
+      ]
+    },
+    {
+      "Id": "d694f793-eb1d-443b-828b-cc68a486ce7f",
+      "Title": "Das Grab der Inka-Mumie",
+      "NumberEuropa": null,
+      "ReleaseDate": "2017-03-24T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/inkamumie.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Aus dem unterirdischen Schrein der Familie Paredes wurde eine Mumie gestohlen! Sofort machen sich Justus, Peter und Bob auf, das Rätsel hinter diesem Diebstahl aufzuklären. Wer steckt dahinter - und vor allem: Was hat der Täter mit seiner Beute vor? Bei ihren Ermittlungen treffen die drei ??? auf geheimnisvolle Gestalten, die anscheinend nichts Gutes im Schilde führen. Oder will sie jemand nur auf eine falsche Fährte locken?",
+      "Roles": [
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Nayra Paredes",
+          "Speaker": "Sonja Stein"
+        },
+        {
+          "Character": "Andrés Paredes",
+          "Speaker": "Tim Kreuer"
+        },
+        {
+          "Character": "Mr. Gabriel Paredes",
+          "Speaker": "Urs Affolter"
+        },
+        {
+          "Character": "Tante Mathilda",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Onkel Titus",
+          "Speaker": "Hans Meinhardt"
+        },
+        {
+          "Character": "Quentin Montgrove",
+          "Speaker": "Eberhard Haar"
+        },
+        {
+          "Character": "Emma Miller",
+          "Speaker": "Kerstin Draeger"
+        },
+        {
+          "Character": "Der Einzige Inka",
+          "Speaker": "Eckart Dux"
+        },
+        {
+          "Character": "Kassiererin/Ansagerin im Museum",
+          "Speaker": "Merete Brettschneider"
+        },
+        {
+          "Character": "Mann im Museum",
+          "Speaker": "André Gatzke"
+        },
+        {
+          "Character": "Eisdielenbesitzer",
+          "Speaker": "Robert Missler"
+        },
+        {
+          "Character": "Alte Frau",
+          "Speaker": "Katja Brügger"
+        },
+        {
+          "Character": "Mann",
+          "Speaker": "André Gatzke"
+        },
+        {
+          "Character": "Frau 1",
+          "Speaker": "Heikedine Körting"
+        },
+        {
+          "Character": "Frau 2",
+          "Speaker": "Susan Jarling"
+        },
+        {
+          "Character": "Frau 3",
+          "Speaker": "Hella von der Osten"
+        },
+        {
+          "Character": "Frau 4",
+          "Speaker": "Saskia Weckler"
+        },
+        {
+          "Character": "Mädchen",
+          "Speaker": "Theresa Unterberg"
+        },
+        {
+          "Character": "Kind 1",
+          "Speaker": "Malon Stahlhut"
+        },
+        {
+          "Character": "Kind 2",
+          "Speaker": "Julia Fölster"
+        }
+      ]
+    },
+    {
+      "Id": "9df750ec-4598-4a00-96bb-f25c99c423f5",
+      "Title": "... und der Tornadojäger",
+      "NumberEuropa": null,
+      "ReleaseDate": "2017-06-23T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/tornadojaeger.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Der bekannte Tornadojäger Dylan Harvey kommt zu einer Foto-Show nach Rocky Beach. Das lassen sich Justus, Peter und Bob natürlich nicht entgehen. Doch kurz vor dem angekündigten Auftritt werden dem Tornadojäger wichtige Aufnahmen gestohlen. Die drei Detektive ermitteln für Harvey. Sie wollen wissen, wer hinter dem Diebstahl steckt - und warum diese Fotos so wichtig sind. Aber plötzlich wirkt ihr Auftraggeber gar nicht mehr so unschuldig. Ist der Tornadojäger nur ein windiger Betrüger? Urspr?nglich als immersives Hörspiel für Vorführungen in Planetarien produziert, wird mit ,Der Tornadojäger' nun die zweite Produktion ersten Planetariums-Staffel als Stereofassung auf CD veröffentlicht.",
+      "Roles": [
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Dylan Harvey",
+          "Speaker": "Stephan Schad"
+        },
+        {
+          "Character": "Mrs. Violet Conroy",
+          "Speaker": "Birte Kretschmer"
+        },
+        {
+          "Character": "Mr. Alex Scott",
+          "Speaker": "Oliver Böttcher"
+        },
+        {
+          "Character": "Myriel",
+          "Speaker": "Undine Ullmer"
+        },
+        {
+          "Character": "Zimmermädchen",
+          "Speaker": "Theresa Underberg"
+        },
+        {
+          "Character": "Zimmerjunge",
+          "Speaker": "Jannik Endemann"
+        },
+        {
+          "Character": "Mutter im Stadtpark",
+          "Speaker": "Saskia Weckler"
+        },
+        {
+          "Character": "Klein Peter",
+          "Speaker": "Malon Stahlhut"
+        },
+        {
+          "Character": "Kellnerin im Hotel",
+          "Speaker": "Alexandra Garcia"
+        },
+        {
+          "Character": "Handwerker im Hotel",
+          "Speaker": "André Gatzke, Bent Schönemann"
+        },
+        {
+          "Character": "Internetcafé-Besitzer",
+          "Speaker": "Tim Kreuer"
+        },
+        {
+          "Character": "Vortrags- und Parkbesucher, Nachbarn, Frühstücksgäste",
+          "Speaker": "Susan Jarling, Hilla Fitzen, Nina Minninger, Marine Endemann, Zelda Jahreis, Maud Ackermann, Heikedine Körting, Stephanie Kirchberger, Ingeborg Christiansen, Michaela Kreissler, Therese Underberg, Kerstin Draeger, Lennart Krüger, Kjell Wenzel, Norma Draeger, Florian Herkenrath, Jannik Endemann, Dirk Eichhorn, Stephan Benson"
+        }
+      ]
+    },
+    {
+      "Id": "f73e442a-f493-4069-9871-389f4a71d827",
+      "Title": "... und das kalte Auge",
+      "NumberEuropa": null,
+      "ReleaseDate": "2017-08-24T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/kaltesauge.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Eine rätselhafte Diebstahlserie erschüttert Rocky Beach! Der Dieb hat offenbar eine Botschaft: CROATOAN schmiert er in blutigen Buchstaben an die W?nde der Tatorte. Kennt er die schreckliche, jahrhundertalte Geschichte, die sich hinter diesem Wort verbirgt? Und wer ist der Indianer mit den kalten Augen, der immer wieder auftaucht? Höchste Zeit, dass die drei ??? Licht ins Dunkel bringen... Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert, wird mit ,Der Tornadojäger' nun die zweite Produktion ersten Planetariums-Staffel als Stereofassung auf CD veröffentlicht.",
+      "Roles": [
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Zachary Collister",
+          "Speaker": "Stephan Benson"
+        },
+        {
+          "Character": "Skinny Norris",
+          "Speaker": "Andreas von der Meden"
+        },
+        {
+          "Character": "Mrs. Hilton",
+          "Speaker": "Katja Brügger"
+        },
+        {
+          "Character": "Mr. Warren",
+          "Speaker": "Stephan Schwartz"
+        },
+        {
+          "Character": "Luke Havering",
+          "Speaker": "Santjago Ziesmer"
+        },
+        {
+          "Character": "Collin Havering",
+          "Speaker": "Santjago Ziesmer"
+        },
+        {
+          "Character": "MacKenzie",
+          "Speaker": "Traudel Sperber"
+        },
+        {
+          "Character": "Erial",
+          "Speaker": "Robert Missler"
+        },
+        {
+          "Character": "Andy",
+          "Speaker": "Tim Grobe"
+        },
+        {
+          "Character": "Onkel Titus",
+          "Speaker": "Hans Meinhardt"
+        },
+        {
+          "Character": "Tante Mathilda",
+          "Speaker": "Karin Linneweg"
+        },
+        {
+          "Character": "Francine",
+          "Speaker": "Marete Brettschneider"
+        },
+        {
+          "Character": "Matrose",
+          "Speaker": "Eberhard Haar"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Mrs. Watson",
+          "Speaker": "Corinna Wodrich"
+        },
+        {
+          "Character": "Betrunkener",
+          "Speaker": "Patrick Bach"
+        },
+        {
+          "Character": "Kind 1",
+          "Speaker": "Malon Stahlhut"
+        },
+        {
+          "Character": "Kind 2",
+          "Speaker": "Julia Fölster"
+        },
+        {
+          "Character": "Taxifahrer",
+          "Speaker": "Tilman Madaus"
+        },
+        {
+          "Character": "Kartenspieler",
+          "Speaker": "Robin Brosch"
+        },
+        {
+          "Character": "Tochter von Erial",
+          "Speaker": "Zelda Jahreis"
+        },
+        {
+          "Character": "AB-Ansagestimme",
+          "Speaker": "Susan Jarling"
+        },
+        {
+          "Character": "Reporter",
+          "Speaker": "Ivo Möller"
+        },
+        {
+          "Character": "Journalistin",
+          "Speaker": "Birte Kretschmer"
+        },
+        {
+          "Character": "Internetcafé-Besitzer",
+          "Speaker": "Tim Kreuer"
+        },
+        {
+          "Character": "Vortrags- und Parkbesucher, Nachbarn, Frühstücksgäste",
+          "Speaker": "Susan Jarling, Hilla Fitzen, Nina Minninger, Marine Endemann, Zelda Jahreis, Maud Ackermann, Heikedine Körting, Stephanie Kirchberger, Ingeborg Christiansen, Michaela Kreissler, Therese Underberg, Kerstin Draeger, Lennart Krüger, Kjell Wenzel, Norma Draeger, "Florian Herkenrath, Jannik Endemann, Dirk Eichhorn, Stephan Benson"
+        }
+      ]
     }
   ]
