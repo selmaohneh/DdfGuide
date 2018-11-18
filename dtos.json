@@ -14599,5 +14599,76 @@
           "Speaker": "Tobias Meister"
         }
       ]
+    },
+    {
+      "Id": "670dfae8-b444-48dd-a97e-36e166a15b48",
+      "Title": "...und der 5. Advent",
+      "NumberEuropa": null,
+      "ReleaseDate": "2012-12-01T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/5adv.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Die anstehenden Festtage haben sich Justus, Peter und Bob wahrlich anders vorgestellt: Durch einen Zufall wird Justus Zeuge, wie Tante Mathildas Freundin Lydia Candle am 1. Dezember in ihrem Adventskalender einen erschreckenden Fund macht! Und schon bald stellt sich heraus, dass ein furchtbares Verbrechen verübt werden soll! Viel Zeit bleibt den drei Detektiven nicht, diesen verzwickten Fall zu lösen, in dem an jedem Tag neue Stolpersteine auftauchen, die schließlich nicht nur das Leben von Bob Andrews bedrohen. Die Zeit drängt, und bis zum 24. Dezember gilt es, manch harte Nuss zu knacken...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Tante Mathilda",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Mrs. Lydia Candle",
+          "Speaker": "Monika John"
+        },
+        {
+          "Character": "Jeremias",
+          "Speaker": "Gosta Liptow"
+        },
+        {
+          "Character": "Empfangsdame",
+          "Speaker": "Katja Brügger"
+        },
+        {
+          "Character": "Radiosprecherin",
+          "Speaker": "Simona Pahl"
+        },
+        {
+          "Character": "Blacky",
+          "Speaker": "Heikedine Körting"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Holger Mahlich"
+        },
+        {
+          "Character": "Patricia Handerson",
+          "Speaker": "Janina Richter"
+        },
+        {
+          "Character": "Polizistin",
+          "Speaker": "Carolin Fortenbacher"
+        },
+        {
+          "Character": "Schausteller",
+          "Speaker": "Eckard Dux"
+        },
+        {
+          "Character": "Edward Candle",
+          "Speaker": "Robin Brosch"
+        }
+      ]
     }
   ]
