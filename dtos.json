@@ -13859,5 +13859,186 @@
           "Speaker": "Reinhilt Schneider"
         }
       ]
+    },
+    {
+      "Id": "759ADE62-19BC-4614-B5E2-281276DF664C",
+      "Title": "Meine Lieblingsfolge - Oliver Rohrbeck: ... und der Karpatenhund",
+      "NumberEuropa": null,
+      "ReleaseDate": "2006-02-10T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/003.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "\"Bei mir spukt es!\" Mit diesem verzweifelten Ausruf von Mr. Prentice beginnt ein neues Abenteuer der drei ???. Ein Abenteuer, das immer verwickelter wird und bei dem sogar der sonst so superschlaue Erste Detektiv, Justus Jonas, eine Zeitlang völlig im Dunkeln tappt. - Welche unheimliche Gestalt geht in der Wohnung von Mr. Prentice ein und aus und versetzt diesen in immer größere Ängste und Schrecken? Was ist die Quelle jener gespenstischen Lichtblitze in seinem Arbeitszimmer, sechs Meter über der Straße? Wer hat die wertvolle gläserne Skulptur des Karpatenhundes verschwinden lassen, und wer versucht, allen Mietern den Aufenthalt in dem großen Appartementhaus unmöglich zu machen? Die wenigen Spuren weisen in verschiedene Richtungen, und für unser Detektivtrio gilt es wieder einmal, eine harte Nuß zu knacken. Werden sie Licht in das Dunkel bringen?...",
+      "Roles": [
+        {
+          "Character": "Hitchcock, Erzähler",
+          "Speaker": "Peter Pasetti"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Mr. Prentice",
+          "Speaker": "Hans Hessling"
+        },
+        {
+          "Character": "Niedland",
+          "Speaker": "Gerlach Fiedler"
+        },
+        {
+          "Character": "Pfarrer",
+          "Speaker": "Ernst von Klipstein"
+        },
+        {
+          "Character": "Mrs. Boogle",
+          "Speaker": "Katharina Brauren"
+        },
+        {
+          "Character": "Sonny Elmquist",
+          "Speaker": "Philip Kunzmann [Gernot Endemann]"
+        },
+        {
+          "Character": "Mr. Murphy",
+          "Speaker": "Karl-Ulrich Meves"
+        },
+        {
+          "Character": "Miss Chalmers",
+          "Speaker": "Pamela Punti [Heikedine Körting?]"
+        },
+        {
+          "Character": "Mr. Hassel",
+          "Speaker": "Rolf Hundertwasser [Wolfgang Kubach?]"
+        },
+        {
+          "Character": "Polizist",
+          "Speaker": "Rolf Mamero"
+        }
+      ]
+    },
+    {
+      "Id": "3E6B021A-6C9D-47C9-B6B8-F67E56C4F942",
+      "Title": "Meine Lieblingsfolge - Jens Wawrczek: Stimmen aus dem Nichts",
+      "NumberEuropa": null,
+      "ReleaseDate": "2006-02-10T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/076.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "\"Meine Schwester will mich in den Tod treiben!\" Die alte Dame, die neben Justus im Wartezimmer sitzt, ist am Rande eines Nervenzusammenbruchs. Der erste Detektiv wittert einen neuen Fall für die drei ??? und bietet seine Hilfe an. Doch was er dann erfährt, läßt ihn erbleichen. Mrs. Holligan wird von ihrer Schwester bedroht, verfolgt, in den Wahnsinn getrieben. Doch ihre Schwester wurde vor drei Monaten beerdigt. Justus, Peter und Bob müssen sich bei der Aufklärung des Falles beeilen. Mrs. Holligan ist schwer herzkrank, jede neue Attacke kann ihrem Leben ein Ende setzen. Doch wer steckt wirklich hinter den mysteriösen Stimmen aus dem Jenseits?",
+      "Roles": [
+        {
+          "Character": "Hitchcock, Erzähler",
+          "Speaker": "Matthias Fuchs"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Abigail Holligan",
+          "Speaker": "Katharina Brauren"
+        },
+        {
+          "Character": "Metzla Holligan",
+          "Speaker": "Beate Hasenau"
+        },
+        {
+          "Character": "Dr. Franklin",
+          "Speaker": "Judy Winter"
+        },
+        {
+          "Character": "Dr. Miller",
+          "Speaker": "Marianne Kehlau"
+        },
+        {
+          "Character": "Mrs. Petersen",
+          "Speaker": "Victoria Voncampe"
+        },
+        {
+          "Character": "Sekretariat",
+          "Speaker": "Dokter Renz, König Boris, Schiffmeister (Fettes Brot)"
+        },
+        {
+          "Character": "Mr. Brian",
+          "Speaker": "Peter Schubert"
+        },
+        {
+          "Character": "Mrs. Dream",
+          "Speaker": "Petra Ehlers"
+        },
+        {
+          "Character": "Jack Cliffwater",
+          "Speaker": "Thomas Schüler"
+        }
+      ]
+    },
+    {
+      "Id": "710D5D5E-9727-493D-8B0E-D4630E60529C",
+      "Title": "Meine Lieblingsfolge - Andreas Fröhlich: Nacht in Angst",
+      "NumberEuropa": null,
+      "ReleaseDate": "2006-02-10T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/086.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "Freitagabend, 20.25 Uhr, Steadman-Museum, Los Angeles: Mr. Peacock, der freundliche, aber schusselige Museumsdirektor, betritt mit Justus, Peter und Bob das Gebäude. In wenigen Minuten werden die drei Detektive exklusiv den wertvollsten Diamanten der Welt sehen: das berühmte \"Feuer des Mondes\". 20.28 Uhr: Im Museum gehen die Lichter aus. Stromausfall? Sabotage? 20.30 Uhr: Fünf Gangster dringen in das Museum ein. Kurze Zeit später befinden sich Mr. Peacock und die drei ??? in ihrer Gewalt. Die Verbrecher wollen den Diamanten und sie sind bereit, dafür über Leichen zu gehen.",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Matthias Fuchs"
+        },
+        {
+          "Character": "Justus Jonas, Erster Detektiv",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw, Zweiter Detektiv",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews, Recherchen und Archiv",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Morton",
+          "Speaker": "Andreas von der Meden"
+        },
+        {
+          "Character": "Mr. Peacock, Museumsdirektor",
+          "Speaker": "Helmut Ahner"
+        },
+        {
+          "Character": "Alpha",
+          "Speaker": "Achim Schülke"
+        },
+        {
+          "Character": "Beth",
+          "Speaker": "Katja Brügger"
+        },
+        {
+          "Character": "Ernie",
+          "Speaker": "Wolfgang Hartmann"
+        },
+        {
+          "Character": "Dog",
+          "Speaker": "Niko Minninger"
+        },
+        {
+          "Character": "Ceewee",
+          "Speaker": "Michael Quiatkowsky"
+        }
+      ]
     }
   ]
