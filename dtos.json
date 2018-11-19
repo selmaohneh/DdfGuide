@@ -15186,5 +15186,144 @@
           "Speaker": "Michael Harck"
         }
       ]
+    },
+    {
+      "Id": "4B3FE8C8-241E-4A27-81AF-A591DD844BA6",
+      "Title": "... und der schwarze Tag",
+      "NumberEuropa": null,
+      "ReleaseDate": "2018-10-26T00:00:00",
+      "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/kg03.jpg",
+      "Interpreter": "Die drei ???",
+      "Description": "<b>Sechs Kurzgeschichten – unheimlich, mysteriös und rasant.</b><br>Wenn die drei ??? ermitteln, ist immer ein schwarzer Tag für Verbrecher. Sechs Kurzgeschichten und alle handeln sie von der Farbe, die seit jeher für die drei ??? steht: Schwarz! Sei es in einem Dunkelrestaurant, auf der Jagd nach einem schwarzen Phantom oder in einem stockfinsteren Verlies – Justus, Peter und Bob lösen jeden Fall.<br>Sechs verzwickte, experimentierfreudige, rätselhafte Kurzgeschichten aus Rocky Beach!<br><b>Kurzgeschichte 1: Das schwarze Verlies</b> (erzählt von Ben Nevis)<br>Es ist dunkel. Mehr als dunkel. Schwarz. Peter erwacht und ist gefesselt! Wo befindet er sich? Ist alles nur ein Traum? Plötzlich vernimmt er ein seltsames Grunzen. Ein Kampfhund...? Dann kehren seine Erinnerungen zurück!<br><b>Kurzgeschichte 2: Schwarze Seelen</b> (erzählt von André Minninger)<br>Die gegenseitigen Beschuldigungen der Zwillingsschwestern Helen und Elen stellen die drei Detektive auf eine harte Zerreißprobe. Wird es Ihnen dennoch gelingen, die wahre Täterin zu überführen?<br><b>Kurzgeschichte 3: Ein schwarzer Tag für Mr. Kingstone</b> (erzählt von Christoph Dittert, nach einer Idee von Christoph Dittert und Martin Sturm)<br>Ausgerechnet Skinny Norris beauftragt die drei Detektive mit einem neuen Fall: Wer erpresst Mr. Kingstone, den blinden Betreiber des Dunkelrestaurants in Rocky Beach? In totaler Finsternis ermitteln Justus, Peter und Bob, um den skrupellosen Verbrecher auf die Schliche zu kommen. Doch wird ihre Falle auch zuschnappen?<br><b>Kurzgeschichte 4: Wer hat Angst vorm schwarzen Mann</b> (erzählt von Marco Sonnleitner)<br>In einem Kindergarten in Rocky Beach herrscht größte Besorgnis: Wurden die Kinder tatsächlich allesamt von einem unheimlichen 'Schwarzen Mann' heimgesucht? Die Ermittlungen der drei ??? führen zum ominösen 'Herz von Afrika'...<br><b>Kurzgeschichte 5: Die schwarze PhantOma</b> (erzählt von Kari Erlhoff)<br>Wer steckt hinter der unheimlichen Porschefahrerin, von der Justus beinahe überfahren wurde!? Auch Peter wird von ihr mit einem heftigen Fausthieb niedergestreckt! Wer ist die humpelnde Rentnerin, die als 'PhantOma' in Rocky Beach ihr Unwesen treibt? An Verdächtigen mangelt es keineswegs...<br><b>Kurzgeschichte 6: Das schwarze Nest</b> (erzählt von Hendrik Buchna)<br>Das Telefon klingelt nicht in der Zentrale der drei Detektive. Doch Justus hört es ganz deutlich. Leidet er unter Wahnvorstellungen? Und auch Peter wird von argen Problemen geplagt: Er muss unbedingt das große Sackhüpfturnier gewinnen! Bob wird endlich aus dem Krankenhaus entlassen und wundert sich über gar nichts mehr...",
+      "Roles": [
+        {
+          "Character": "Erzähler",
+          "Speaker": "Thomas Fritsch"
+        },
+        {
+          "Character": "Justus Jonas",
+          "Speaker": "Oliver Rohrbeck"
+        },
+        {
+          "Character": "Peter Shaw",
+          "Speaker": "Jens Wawrczeck"
+        },
+        {
+          "Character": "Bob Andrews",
+          "Speaker": "Andreas Fröhlich"
+        },
+        {
+          "Character": "Helen",
+          "Speaker": "Balancinha Blanc [Dorette Hugo]"
+        },
+        {
+          "Character": "Ellen",
+          "Speaker": "Dorette Hugo"
+        },
+        {
+          "Character": "Vater",
+          "Speaker": "Douglas Welbat"
+        },
+        {
+          "Character": "Tante Mathilda",
+          "Speaker": "Karin Lieneweg"
+        },
+        {
+          "Character": "Skinny Norris",
+          "Speaker": "Michael Hark"
+        },
+        {
+          "Character": "Marc Kingstone",
+          "Speaker": "Rainer Brandt"
+        },
+        {
+          "Character": "Aaron Kingstone",
+          "Speaker": "Tommi Piper"
+        },
+        {
+          "Character": "Sarah",
+          "Speaker": "Christiane Leuchtmann"
+        },
+        {
+          "Character": "Kelly",
+          "Speaker": "Juliane Szalay"
+        },
+        {
+          "Character": "Mrs. McGee",
+          "Speaker": "Alice Krimmel"
+        },
+        {
+          "Character": "Toby",
+          "Speaker": "A. Stengelin"
+        },
+        {
+          "Character": "Mrs. Wells",
+          "Speaker": "Heidi Schaffrath"
+        },
+        {
+          "Character": "Junge",
+          "Speaker": "Linus Tauber"
+        },
+        {
+          "Character": "Mädchen",
+          "Speaker": "Katinka Jaekel"
+        },
+        {
+          "Character": "Ericsson",
+          "Speaker": "Detelev Tams"
+        },
+        {
+          "Character": "Sprecher / Moderator",
+          "Speaker": "Oliver Böttcher"
+        },
+        {
+          "Character": "Tarek Shabana",
+          "Speaker": "Werner Wilkening"
+        },
+        {
+          "Character": "Tasha",
+          "Speaker": "Victoria Zöller"
+        },
+        {
+          "Character": "Domino Laverna",
+          "Speaker": "Sabine Hahn"
+        },
+        {
+          "Character": "Biff Rodgers, Reporter",
+          "Speaker": "Daniel Schütter"
+        },
+        {
+          "Character": "Lesle Dimple",
+          "Speaker": "Ann Montenbruck"
+        },
+        {
+          "Character": "Zeus Zenon Johnson",
+          "Speaker": "Michael Prelle"
+        },
+        {
+          "Character": "Computer",
+          "Speaker": "Peter Bayer"
+        },
+        {
+          "Character": "Off-Sprecher",
+          "Speaker": "Frank Roder"
+        },
+        {
+          "Character": "Sprecher",
+          "Speaker": "Andreas Birnbaum"
+        },
+        {
+          "Character": "Blacky",
+          "Speaker": "Pamela Punti [Heikedine Körting]"
+        },
+        {
+          "Character": "Kassiererin",
+          "Speaker": "Angela Stresemann"
+        },
+        {
+          "Character": "Inspektor Cotta",
+          "Speaker": "Holger Mahlich"
+        }
+      ]
     }
   ]
