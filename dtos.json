@@ -13804,7 +13804,7 @@
     {
       "Id": "dec9cf2d-724a-40b4-9ca6-408ea4bde6aa",
       "Title": "High Strung - Unter Hochspannung",
-      "NumberEuropa": 999,
+      "NumberEuropa": null,
       "ReleaseDate": "2011-11-11T00:00:00",
       "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/tse_unterhochspannung.jpg",
       "Interpreter": "Die drei ???",
@@ -14044,7 +14044,7 @@
     {
       "Id": "24e1e76c-8cf4-4ec7-8d77-5344855dee95",
       "Title": "... und der Super-Papagei 2004",
-      "NumberEuropa": 1,
+      "NumberEuropa": null,
       "ReleaseDate": "2004-10-04T00:00:00",
       "CoverUrl": "http://www.rocky-beach.com/hoerspiel/cover/001a.jpg",
       "Interpreter": "Die drei ???",
