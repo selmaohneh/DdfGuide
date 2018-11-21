@@ -64,12 +64,14 @@
     <Compile Include="AudioDramaListAdapter.cs" />
     <Compile Include="AudioDramaListView.cs" />
     <Compile Include="AudioDramaView.cs" />
+    <Compile Include="DtoCache.cs" />
     <Compile Include="IImageViewFiller.cs" />
     <Compile Include="ImageViewFiller.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\AudioDramaView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDataCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -91,6 +93,9 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
       <Version>11.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Settings">
+      <Version>3.1.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.FFImageLoading">

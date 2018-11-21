@@ -164,6 +164,7 @@
     <Compile Include="Filtering\DieDreiFilterTests.cs" />
     <Compile Include="Filtering\DieDreiFragezeichenFilterTests.cs" />
     <Compile Include="Filtering\DieDreiFragezeichenKidsFilterTests.cs" />
+    <Compile Include="OnUserDataChangedInCacheSaverTest.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

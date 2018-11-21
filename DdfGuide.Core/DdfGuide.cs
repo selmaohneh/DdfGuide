@@ -10,41 +10,52 @@ namespace DdfGuide.Core
     public class DdfGuide
     {
         private readonly IProvider<IEnumerable<AudioDramaDto>> _dtoProvider;
-        private readonly IProvider<IEnumerable<AudioDramaUserData>> _userDataProvider;
 
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
         private readonly IRootView _rootView;
+        private readonly ICache<IEnumerable<AudioDramaDto>> _dtoCache;
+        private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
 
         public DdfGuide(
             IProvider<IEnumerable<AudioDramaDto>> dtoProvider,
-            IProvider<IEnumerable<AudioDramaUserData>> userDataProvider,
             IAudioDramaListView audioDramaListView,
             IAudioDramaView audioDramaView,
-            IRootView rootView)
+            IRootView rootView,
+            ICache<IEnumerable<AudioDramaDto>> dtoCache,
+            ICache<IEnumerable<AudioDramaUserData>> userDataCache)
         {
             _dtoProvider = dtoProvider;
-            _userDataProvider = userDataProvider;
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _rootView = rootView;
+            _dtoCache = dtoCache;
+            _userDataCache = userDataCache;
         }
 
         public void Start()
         {
             CultureInfo.CurrentCulture = new CultureInfo("de-DE");
 
-            var dtos = _dtoProvider.Get();
-            var userData = _userDataProvider.Get();
+            var cachedProvider = new CachedDtoProvider(
+                _dtoCache,
+                _dtoProvider);
+
+            var dtos = cachedProvider.Get();
+            var userData = _userDataCache.Load();
 
             var audioDramaBuilder = new AudioDramaBuilder(
                 dtos,
                 userData);
 
             var audioDramas = audioDramaBuilder.Build().ToList();
-            
+
+            var unused = new OnUserDataChangedInCacheSaver(
+                audioDramas.Select(x => x.AudioDramaUserData),
+                _userDataCache);
+
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView);
-            
+
             var filterFactory = new AudioDramaFilterFactory();
             var sorterFactory = new AudioDramaSorterFactory();
             var searcher = new AudioDramaSearcher();
@@ -59,12 +70,12 @@ namespace DdfGuide.Core
 
             var navigator = new Navigator(
                 _rootView,
-                audioDramaPresenter, 
+                audioDramaPresenter,
                 audioDramaListPresenter,
                 audioDramas,
                 explorer,
                 picker);
-            
+
             navigator.ShowStartView();
         }
     }
