@@ -5,21 +5,12 @@ namespace DdfGuide.Core
 {
     public class AudioDramaBuilder
     {
-        private readonly IEnumerable<AudioDramaDto> _dtos;
-        private readonly IEnumerable<AudioDramaUserData> _userDatas;
-
-        public AudioDramaBuilder(IEnumerable<AudioDramaDto> dtos, IEnumerable<AudioDramaUserData> userDatas)
+        public IEnumerable<AudioDrama> Build(IEnumerable<AudioDramaDto> dtos, IEnumerable<AudioDramaUserData> userDatas)
         {
-            _dtos = dtos;
-            _userDatas = userDatas;
-        }
-
-        public IEnumerable<AudioDrama> Build()
-        {
-            var userDataList = _userDatas.ToList();
+            var userDataList = userDatas.ToList();
 
             var audioDramas = new List<AudioDrama>();
-            foreach (var dto in _dtos)
+            foreach (var dto in dtos)
             {
                 var userDataForId = userDataList.SingleOrDefault(x => x.Id == dto.Id);
                 if (userDataForId == null)

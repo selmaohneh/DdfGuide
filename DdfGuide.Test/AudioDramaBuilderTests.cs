@@ -29,8 +29,8 @@ namespace DdfGuide.Test
 
             dtos.Reverse();
 
-            var builder = new AudioDramaBuilder(dtos, userData);
-            var buildResult = builder.Build().ToList();
+            var builder = new AudioDramaBuilder();
+            var buildResult = builder.Build(dtos, userData).ToList();
 
             foreach (var audioDrama in audioDramas)
             {

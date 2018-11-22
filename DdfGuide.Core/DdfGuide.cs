@@ -44,11 +44,11 @@ namespace DdfGuide.Core
             var dtos = cachedProvider.Get();
             var userData = _userDataCache.Load();
 
-            var audioDramaBuilder = new AudioDramaBuilder(
-                dtos,
-                userData);
+            var audioDramaBuilder = new AudioDramaBuilder();
 
-            var audioDramas = audioDramaBuilder.Build().ToList();
+            var audioDramas = audioDramaBuilder.Build(
+                dtos,
+                userData).ToList();
 
             var saver = new OnUserDataChangedInCacheSaver(_userDataCache);
             saver.SetObservedUserDatas(audioDramas.Select(x => x.AudioDramaUserData));
