@@ -71,9 +71,10 @@ namespace DdfGuide.Core
                 _rootView,
                 audioDramaPresenter,
                 audioDramaListPresenter,
-                audioDramas,
                 explorer,
                 picker);
+
+            navigator.SetAudioDramas(audioDramas);
 
             navigator.ShowStartView();
         }

@@ -8,7 +8,7 @@ namespace DdfGuide.Core
         private readonly IRootView _rootView;
         private readonly IPresenter<IAudioDramaView, AudioDrama> _audioDramaPresenter;
         private readonly IPresenter<IAudioDramaListView, IEnumerable<AudioDrama>> _audioDramaListPresenter;
-        private readonly IEnumerable<AudioDrama> _audioDramas;
+        private IEnumerable<AudioDrama> _audioDramas;
         private readonly IAudioDramaExplorer _explorer;
         private readonly IRandomAudioDramaPicker _picker;
 
@@ -16,17 +16,19 @@ namespace DdfGuide.Core
             IRootView rootView,
             IPresenter<IAudioDramaView, AudioDrama> audioDramaPresenter, 
             IPresenter<IAudioDramaListView, IEnumerable<AudioDrama>> audioDramaListPresenter,
-            IEnumerable<AudioDrama> audioDramas,
             IAudioDramaExplorer explorer,
             IRandomAudioDramaPicker picker)
         {
             _rootView = rootView;
             _audioDramaPresenter = audioDramaPresenter;
             _audioDramaListPresenter = audioDramaListPresenter;
-            _audioDramas = audioDramas;
             _explorer = explorer;
             _picker = picker;
+        }
 
+        public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
+        {
+            _audioDramas = audioDramas;
             InitNavigationEvents();
         }
 
@@ -48,7 +50,7 @@ namespace DdfGuide.Core
             _rootView.ViewDestroyed += (sender, args) => ShowCurrent();
             _rootView.BackClicked += (sender, args) =>
             {
-                if (_currentView is IAudioDramaView audioDramaView)
+                if (_currentView is IAudioDramaView)
                 {
                     GoToListView();
                 }
