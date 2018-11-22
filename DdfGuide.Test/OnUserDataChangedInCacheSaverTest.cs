@@ -18,7 +18,8 @@ namespace DdfGuide.Test
             _userDatas = new SampleUserDataProvider().Get().ToList();
             _cache = new Mock<ICache<IEnumerable<AudioDramaUserData>>>();
 
-            var dummy = new OnUserDataChangedInCacheSaver(_userDatas, _cache.Object);
+            var sut = new OnUserDataChangedInCacheSaver(_cache.Object);
+            sut.SetObservedUserDatas(_userDatas);
         }
 
         [TestMethod]

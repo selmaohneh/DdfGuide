@@ -50,9 +50,8 @@ namespace DdfGuide.Core
 
             var audioDramas = audioDramaBuilder.Build().ToList();
 
-            var unused = new OnUserDataChangedInCacheSaver(
-                audioDramas.Select(x => x.AudioDramaUserData),
-                _userDataCache);
+            var saver = new OnUserDataChangedInCacheSaver(_userDataCache);
+            saver.SetObservedUserDatas(audioDramas.Select(x => x.AudioDramaUserData));
 
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView);
 

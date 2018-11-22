@@ -5,17 +5,21 @@ namespace DdfGuide.Core
 {
     public class OnUserDataChangedInCacheSaver
     {
-        private readonly IEnumerable<AudioDramaUserData> _userDatas;
         private readonly ICache<IEnumerable<AudioDramaUserData>> _cache;
+        private IEnumerable<AudioDramaUserData> _userDatas;
 
-        public OnUserDataChangedInCacheSaver(
-            IEnumerable<AudioDramaUserData> userDatas, 
-            ICache<IEnumerable<AudioDramaUserData>> cache)
+        public OnUserDataChangedInCacheSaver(ICache<IEnumerable<AudioDramaUserData>> cache)
+        {
+            _cache = cache;
+        }
+
+        public void SetObservedUserDatas(IEnumerable<AudioDramaUserData> userDatas)
         {
             _userDatas = userDatas;
-            _cache = cache;
+
             foreach (var userData in _userDatas)
             {
+                userData.Changed -= OnUserDataChanged();
                 userData.Changed += OnUserDataChanged();
             }
         }
