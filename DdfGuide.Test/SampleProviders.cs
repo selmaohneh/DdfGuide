@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using DdfGuide.Core;
 using Newtonsoft.Json;
 
-namespace DdfGuide.Core
+namespace DdfGuide.Test
 {
     public class SampleDtoProvider : IProvider<IEnumerable<AudioDramaDto>>
     {

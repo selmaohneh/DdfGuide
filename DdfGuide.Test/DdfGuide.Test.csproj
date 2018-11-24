@@ -171,6 +171,12 @@
     </Compile>
     <Compile Include="RandomAudioDramaPickerTests.cs" />
     <Compile Include="RockyBeachDieDreiFragezeichenParserTests.cs" />
+    <Compile Include="SampleDtos.Designer.cs">
+      <DependentUpon>SampleDtos.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SampleProviders.cs" />
     <Compile Include="Searching\AudioDramaSearcherTests.cs" />
     <Compile Include="Filtering\AllAudioDramasFilterTests.cs" />
     <Compile Include="Filtering\AudioDramaFilterFactoryTests.cs" />
@@ -215,6 +221,10 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleDtos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SampleDtos.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

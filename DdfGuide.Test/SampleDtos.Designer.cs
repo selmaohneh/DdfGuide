@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DdfGuide.Core {
+namespace DdfGuide.Test {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace DdfGuide.Core {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DdfGuide.Core.SampleDtos", typeof(SampleDtos).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DdfGuide.Test.SampleDtos", typeof(SampleDtos).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
