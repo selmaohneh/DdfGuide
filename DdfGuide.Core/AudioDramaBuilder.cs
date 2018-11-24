@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaBuilder
+    public class AudioDramaBuilder : IAudioDramaBuilder
     {
         public IEnumerable<AudioDrama> Build(IEnumerable<AudioDramaDto> dtos, IEnumerable<AudioDramaUserData> userDatas)
         {

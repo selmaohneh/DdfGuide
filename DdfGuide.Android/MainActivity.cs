@@ -19,12 +19,10 @@ namespace DdfGuide.Android
             SetContentView(Resource.Layout.activity_main);
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
             base.OnStart();
-
-            var dtoProvider = new AndroidDtoProvider();
-            var userDataProvider = new AndroidUserDataProvider();
+            
             var filler = new ImageViewFiller();
             var audioDramaListView = new AudioDramaListView(filler);
             var audioDramaView = new AudioDramaView(filler);
@@ -33,14 +31,13 @@ namespace DdfGuide.Android
             var userDataCache = new UserDataCache();
 
             _ddfGuide = new Core.DdfGuide(
-                dtoProvider,
                 audioDramaListView,
                 audioDramaView,
                 rootView,
                 dtoCache,
                 userDataCache);
-
-            _ddfGuide.Start();
+            
+            await _ddfGuide.Start();
         }
 
         public void Show(IView view)

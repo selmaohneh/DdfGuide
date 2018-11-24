@@ -33,8 +33,11 @@ namespace DdfGuide.Test
 
             _mocker.Use(typeof(IEnumerable<AudioDrama>), _audioDramas);
 
+            _mocker
+                .Setup<ISource<IEnumerable<AudioDrama>>, IEnumerable<AudioDrama>>(x => x.Get())
+                .Returns(_audioDramas);
+
             _navigator = _mocker.CreateInstance<Navigator>();
-            _navigator.SetAudioDramas(_audioDramas);
         }
 
         [TestMethod]

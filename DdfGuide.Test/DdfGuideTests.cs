@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Globalization;
-using System.Runtime.InteropServices;
+﻿using System.Threading.Tasks;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -28,22 +26,13 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void Startup_ShowAudioDramaListView()
+        public async Task Startup_ShowAudioDramaListViewAsync()
         {
             var rootView = _mocker.GetMock<IRootView>();
 
-            _systemUnderTest.Start();
+            await _systemUnderTest.Start();
 
             rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
-        }
-
-        [TestMethod]
-        public void CultureNeedsToBeGerman()
-        {
-            var culture = CultureInfo.CurrentCulture;
-            var expectedCulture = new CultureInfo("de-DE");
-
-            Assert.AreEqual(expectedCulture, culture);
         }
     }
 }

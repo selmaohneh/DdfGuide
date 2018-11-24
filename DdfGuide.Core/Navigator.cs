@@ -8,34 +8,33 @@ namespace DdfGuide.Core
         private readonly IRootView _rootView;
         private readonly IPresenter<IAudioDramaView, AudioDrama> _audioDramaPresenter;
         private readonly IPresenter<IAudioDramaListView, IEnumerable<AudioDrama>> _audioDramaListPresenter;
-        private IEnumerable<AudioDrama> _audioDramas;
         private readonly IAudioDramaExplorer _explorer;
         private readonly IRandomAudioDramaPicker _picker;
+        private readonly ISource<IEnumerable<AudioDrama>> _source;
 
         public Navigator(
             IRootView rootView,
             IPresenter<IAudioDramaView, AudioDrama> audioDramaPresenter, 
             IPresenter<IAudioDramaListView, IEnumerable<AudioDrama>> audioDramaListPresenter,
             IAudioDramaExplorer explorer,
-            IRandomAudioDramaPicker picker)
+            IRandomAudioDramaPicker picker,
+            ISource<IEnumerable<AudioDrama>> source)
         {
             _rootView = rootView;
             _audioDramaPresenter = audioDramaPresenter;
             _audioDramaListPresenter = audioDramaListPresenter;
             _explorer = explorer;
             _picker = picker;
-        }
+            _source = source;
 
-        public void SetAudioDramas(IEnumerable<AudioDrama> audioDramas)
-        {
-            _audioDramas = audioDramas;
+            _source.Updated += (sender, dramas) => InitNavigationEvents();
             InitNavigationEvents();
         }
 
         public void ShowStartView()
         {
             Show(_audioDramaListPresenter.GetView());
-            _audioDramaListPresenter.SetModel(_audioDramas);
+            _audioDramaListPresenter.SetModel(_source.Get());
         }
 
         private void InitNavigationEvents()
@@ -75,14 +74,14 @@ namespace DdfGuide.Core
         {
             _audioDramaListPresenter.GetView().AudioDramaClicked += (sender, guid) =>
             {
-                var audioDrama = _audioDramas.GetById(guid);
+                var audioDrama = _source.Get().GetById(guid);
                 Show(_audioDramaPresenter.GetView());
                 _audioDramaPresenter.SetModel(audioDrama);
             };
 
             _audioDramaListPresenter.GetView().RandomClicked += (sender, args) =>
             {
-                var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas);
+                var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_source.Get());
                 var randomAudioDrama = _picker.Pick(matchingAudioDramas);
 
                 Show(_audioDramaPresenter.GetView());

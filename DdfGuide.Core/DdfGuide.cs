@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
+using System.Threading.Tasks;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
@@ -9,8 +10,6 @@ namespace DdfGuide.Core
 {
     public class DdfGuide
     {
-        private readonly IProvider<IEnumerable<AudioDramaDto>> _dtoProvider;
-
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaView _audioDramaView;
         private readonly IRootView _rootView;
@@ -18,14 +17,12 @@ namespace DdfGuide.Core
         private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
 
         public DdfGuide(
-            IProvider<IEnumerable<AudioDramaDto>> dtoProvider,
             IAudioDramaListView audioDramaListView,
             IAudioDramaView audioDramaView,
             IRootView rootView,
             ICache<IEnumerable<AudioDramaDto>> dtoCache,
             ICache<IEnumerable<AudioDramaUserData>> userDataCache)
         {
-            _dtoProvider = dtoProvider;
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _rootView = rootView;
@@ -33,25 +30,16 @@ namespace DdfGuide.Core
             _userDataCache = userDataCache;
         }
 
-        public void Start()
+        public async Task Start()
         {
-            CultureInfo.CurrentCulture = new CultureInfo("de-DE");
+            var builder = new AudioDramaBuilder();
 
-            var cachedProvider = new CachedDtoProvider(
+            var source = new AudioDramaSource(
                 _dtoCache,
-                _dtoProvider);
+                _userDataCache,
+                builder);
 
-            var dtos = cachedProvider.Get();
-            var userData = _userDataCache.Load();
-
-            var audioDramaBuilder = new AudioDramaBuilder();
-
-            var audioDramas = audioDramaBuilder.Build(
-                dtos,
-                userData).ToList();
-
-            var saver = new OnUserDataChangedInCacheSaver(_userDataCache);
-            saver.SetObservedUserDatas(audioDramas.Select(x => x.AudioDramaUserData));
+            var saver = new OnUserDataChangedInCacheSaver(_userDataCache, source);
 
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView);
 
@@ -72,9 +60,10 @@ namespace DdfGuide.Core
                 audioDramaPresenter,
                 audioDramaListPresenter,
                 explorer,
-                picker);
+                picker,
+                source);
 
-            navigator.SetAudioDramas(audioDramas);
+            await source.Update();
 
             navigator.ShowStartView();
         }

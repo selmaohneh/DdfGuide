@@ -59,8 +59,6 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AndroidDtoProvider.cs" />
-    <Compile Include="AndroidUserDataProvider.cs" />
     <Compile Include="AudioDramaListAdapter.cs" />
     <Compile Include="AudioDramaListView.cs" />
     <Compile Include="AudioDramaView.cs" />
