@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace DdfGuide.Core
 {
@@ -81,7 +82,10 @@ namespace DdfGuide.Core
 
             _audioDramaListPresenter.GetView().RandomClicked += (sender, args) =>
             {
-                var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_source.Get());
+                var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_source.Get()).ToList();
+
+                if (!matchingAudioDramas.Any()) return;
+
                 var randomAudioDrama = _picker.Pick(matchingAudioDramas);
 
                 Show(_audioDramaPresenter.GetView());
