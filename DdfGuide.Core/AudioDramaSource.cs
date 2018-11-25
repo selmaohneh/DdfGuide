@@ -40,7 +40,16 @@ namespace DdfGuide.Core
         public async Task Update()
         {
             var wc = new WebClient();
-            var json = await wc.DownloadStringTaskAsync("https://raw.githubusercontent.com/selmaohneh/DdfGuide/master/dtos.json");
+
+            string json;
+            try
+            {
+                json = await wc.DownloadStringTaskAsync("https://raw.githubusercontent.com/selmaohneh/DdfGuide/master/dtos.json");
+            }
+            catch (WebException)
+            {
+                return;
+            }
 
             var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
             _dtoCache.Save(dtos);
