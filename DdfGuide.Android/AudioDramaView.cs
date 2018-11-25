@@ -57,7 +57,10 @@ namespace DdfGuide.Android
 
             var descriptionView = _view.FindViewById<TextView>(Resource.Id.textViewDescription);
             descriptionView.Text = string.Empty;
-            descriptionView.Append(Html.FromHtml(audioDrama.AudioDramaDto.Description, FromHtmlOptions.ModeLegacy));
+            if (audioDrama.AudioDramaDto.Description != null)
+            {
+                descriptionView.Append(Html.FromHtml(audioDrama.AudioDramaDto.Description, FromHtmlOptions.ModeLegacy));
+            }
 
             var releaseDateView = _view.FindViewById<TextView>(Resource.Id.textviewreleasesingle);
             releaseDateView.Text = audioDrama.AudioDramaDto.ReleaseDate.ToShortDateString();
