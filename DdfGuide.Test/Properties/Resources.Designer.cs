@@ -61,6 +61,33 @@ namespace DdfGuide.Test.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;html&gt;&lt;head&gt;
+        ///   &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt;
+        ///   &lt;meta name=&quot;Author&quot; content=&quot;Sophen&quot;&gt;
+        ///   &lt;meta name=&quot;GENERATOR&quot; content=&quot;Mozilla/4.78 [de] (Win98; U) [Netscape]&quot;&gt;
+        ///   &lt;title&gt;Die drei ??? Kids - Panik im Paradies&lt;/title&gt;
+        ///&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/css/rbcom.css&quot;&gt;
+        ///   &lt;script language=&quot;JavaScript1.1&quot; src=&quot;/js/functions.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+        ///   &lt;meta name=&quot;robots&quot; content=&quot;noindex,nofollow,noarchive&quot;&gt;
+        ///   &lt;link rel=&quot;shortcut ico [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string GefahrAusDemAll {
+            get {
+                return ResourceManager.GetString("GefahrAusDemAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to “Wahnsinn! Mit dem Apparat könnte man Kometen aus der Bahn werfen”, staunte Bob. Peter blickte nervös in den Nachthimmel. “Beeilung, in genau zwei Stunden läuft das Ultimatum aus.”
+        ///Gelingt es den drei ??? Kids den entführten Professor zu befreien? Wer ist noch hinter der geheimen Formel her? Ein spannender Wettlauf mit der Zeit beginnt..
+        /// </summary>
+        internal static string GefahrAusDemAllDescription {
+            get {
+                return ResourceManager.GetString("GefahrAusDemAllDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;!doctype html public &quot;-//w3c//dtd html 4.0 transitional//en&quot;&gt;
         ///&lt;html&gt;
         ///&lt;head&gt;

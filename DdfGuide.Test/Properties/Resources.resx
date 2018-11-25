@@ -117,6 +117,668 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="GefahrAusDemAll" xml:space="preserve">
+    <value>&lt;html&gt;&lt;head&gt;
+   &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"&gt;
+   &lt;meta name="Author" content="Sophen"&gt;
+   &lt;meta name="GENERATOR" content="Mozilla/4.78 [de] (Win98; U) [Netscape]"&gt;
+   &lt;title&gt;Die drei ??? Kids - Panik im Paradies&lt;/title&gt;
+&lt;link rel="stylesheet" type="text/css" href="/css/rbcom.css"&gt;
+   &lt;script language="JavaScript1.1" src="/js/functions.js" type="text/javascript"&gt;&lt;/script&gt;
+   &lt;meta name="robots" content="noindex,nofollow,noarchive"&gt;
+   &lt;link rel="shortcut icon" href="/favicon.ico"&gt;
+&lt;/head&gt;
+&lt;body text="#FFFFFF" bgcolor="#000000"&gt;
+
+&lt;table width="100%" cellspacing="0" cellpadding="0" border="0"&gt;
+  &lt;tbody&gt;&lt;tr&gt;
+     &lt;td width="15%" valign="top"&gt;
+
+&lt;table width="160" cellspacing="0" cellpadding="0" border="0"&gt;
+  &lt;tbody&gt;&lt;tr&gt;
+     &lt;td colspan="3" width="160"&gt;&lt;img src="/images/transparent.gif" alt="" width="119" vspace="0" hspace="0" height="1" border="0"&gt;&lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+     &lt;td width="10"&gt;&lt;/td&gt; 
+     &lt;td width="120" valign="top" height="157" bgcolor="#cc0000" align="center"&gt;
+&lt;!-- navi frame 120 pixel --&gt;
+&lt;!-- logo --&gt;
+	&lt;a href="/auswahl.html"&gt;&lt;img src="/images/index/rubin120.gif" alt="bg-color-Chooser" width="120" vspace="0" hspace="0" height="157" border="0"&gt;&lt;/a&gt;&lt;br&gt;
+	&lt;/td&gt;
+	&lt;td width="40"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;     	&lt;td&gt;&lt;/td&gt;
+	&lt;td valign="top" align="left"&gt;
+&lt;!-- navi --&gt;
+		&lt;span class="t6"&gt;&lt;span class="weiss"&gt;
+			&amp;nbsp;&lt;br&gt;
+		&lt;/span&gt;&lt;/span&gt;
+
+		&lt;span class="t5"&gt;
+
+&lt;img name="img1" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/start.html" class="navi" onmouseover="take(1);" onmouseout="leave(1);"&gt;Start&lt;/a&gt;&lt;br&gt;
+
+		&lt;span class="t6"&gt;&lt;span class="weiss"&gt;
+			&amp;nbsp;&lt;br&gt;
+		&lt;/span&gt;&lt;/span&gt;
+
+&lt;img name="img4" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/php/project/f_wertung.html" class="navi" onmouseover="take(4);" onmouseout="leave(4);"&gt;Bewertungen&lt;/a&gt;&lt;br&gt;
+
+
+&lt;img name="img5" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/forum/forum.html" class="navi" onmouseover="take(5);" onmouseout="leave(5);"&gt;Forum&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img6" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/cgi-bin/gaestebuch.pl" class="navi" onmouseover="take(6);" onmouseout="leave(6);"&gt;Gästebuch&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img10" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/community/fanhome.html" class="navi" onmouseover="take(10);" onmouseout="leave(10);"&gt;Fanstuff&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img11" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/quiz/quiz.html" class="navi" onmouseover="take(11);" onmouseout="leave(11);"&gt;Quiz&lt;/a&gt;&lt;br&gt;
+
+		&lt;span class="t6"&gt;&lt;span class="weiss"&gt;
+			&amp;nbsp;&lt;br&gt;
+		&lt;/span&gt;&lt;/span&gt;
+
+&lt;img name="img12" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/dliste.html" class="navi" onmouseover="take(12);" onmouseout="leave(12);"&gt;Bücher&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img13" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/hoerspiel/hoerueber.html" class="navi" onmouseover="take(13);" onmouseout="leave(13);"&gt;Hörspiele&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img14" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/film/" class="navi" onmouseover="take(14);" onmouseout="leave(14);"&gt;Filme&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img15" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/special/autorenspecial.html" class="navi" onmouseover="take(15);" onmouseout="leave(15);"&gt;Autoren&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img16" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/hoerspiel/sprecher/interviews/inter.html" class="navi" onmouseover="take(16);" onmouseout="leave(16);"&gt;Interviews&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img17" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/cover/coverueber.html" class="navi" onmouseover="take(17);" onmouseout="leave(17);"&gt;Cover&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img18" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/cover/auflagen/sammlerueber.html" class="navi" onmouseover="take(18);" onmouseout="leave(18);"&gt;Sammlerfälle&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img19" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/aiga/aiga.html" class="navi" onmouseover="take(19);" onmouseout="leave(19);"&gt;Aiga&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img21" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/kids/kids.html" class="navi" onmouseover="take(21);" onmouseout="leave(21);"&gt;Kids&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img22" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/adventures/adv.html" class="navi" onmouseover="take(22);" onmouseout="leave(22);"&gt;Adventures&lt;/a&gt;&lt;br&gt;
+
+
+
+		&lt;span class="t6"&gt;&lt;span class="weiss"&gt;
+			&amp;nbsp;&lt;br&gt;
+		&lt;/span&gt;&lt;/span&gt;
+
+&lt;img name="img23" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/misc/archiv.html" class="navi" onmouseover="take(23);" onmouseout="leave(23);"&gt;Archiv&lt;/a&gt;&lt;br&gt;
+
+&lt;img name="img24" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/misc/AbisZ.html" class="navi" onmouseover="take(24);" onmouseout="leave(24);"&gt;A bis Z&lt;/a&gt;&lt;br&gt;
+
+
+&lt;img name="img25" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/misc/links.html" class="navi" onmouseover="take(25);" onmouseout="leave(25);"&gt;Links&lt;/a&gt;&lt;br&gt;
+
+		&lt;span class="t6"&gt;&lt;span class="weiss"&gt;
+			&amp;nbsp;&lt;br&gt;
+		&lt;/span&gt;&lt;/span&gt;
+
+&lt;img name="img26" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/layout.html" class="navi" onmouseover="take(26);" onmouseout="leave(26);"&gt;Layout&lt;/a&gt;&lt;br&gt;
+&lt;img name="img27" src="/images/index/1_leave.gif" alt="" width="10" vspace="0" hspace="0" height="10" border="0"&gt;&amp;nbsp;
+&lt;a href="/impressum.html" class="navi" onmouseover="take(27);" onmouseout="leave(27);"&gt;Impressum&lt;/a&gt;&lt;br&gt;
+
+		&lt;/span&gt;
+&lt;br&gt;
+
+&lt;!-- (c)opyright --&gt;
+		&lt;span class="t6"&gt;&lt;span class="small"&gt;
+			© 1997-2018			by&lt;br&gt;rocky-beach.com&lt;br&gt;
+                   		&lt;/span&gt;&lt;/span&gt;
+                    
+           
+	&lt;/td&gt;
+     	&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/tbody&gt;&lt;/table&gt;
+
+
+&lt;!-- Ende Navi --&gt;
+&lt;/td&gt;
+
+&lt;td width="75%" valign="top"&gt;
+&lt;center&gt;&lt;table width="640" cellspacing="0" cellpadding="10" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;
+&lt;center&gt;&lt;img src="../logo-kids.jpg" nosave="" width="500" height="120"&gt;
+&lt;br&gt;&lt;h2&gt;Panik im Paradies&lt;/h2&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+&lt;br&gt;&amp;nbsp;
+&lt;center&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td height="50"&gt;&lt;a name="buch"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Die Buchbeschreibung&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/kids-01.jpg" alt="Panik im Paradies" nosave="" width="133" hspace="10" height="200" align="LEFT"&gt;&lt;span class="gelb"&gt;Erzählt
+von:&amp;nbsp;&lt;/span&gt;&lt;a href="../kids.html#blanck"&gt;Ulf Blanck&lt;/a&gt;, © Franckh-Kosmos
+1999
+&lt;br&gt;&lt;span class="gelb"&gt;Illustrationen von:&amp;nbsp;&lt;/span&gt;&lt;a href="../kids.html#wegner"&gt;Stefanie
+Wegner&lt;/a&gt;
+&lt;br&gt;&lt;span class="gelb"&gt;ISBN 3-440-07789-6:&amp;nbsp;&lt;/span&gt;
+&lt;br&gt;&lt;span class="gelb"&gt;Hardcover&lt;/span&gt;
+&lt;p&gt;"Da ist er", flüsterte Peter. Der Mann holte sein Handy aus der
+Tasche. "Mit wem redet er wohl", fragte Bob. "Ich bin sicher, er spricht
+mit seinem Auftraggeber", antwortete Justus. "Wir müssen vorbereitet
+sein."
+&lt;br&gt;Kapitän Larsons Tiere sind in Gefahr. Justus, Peter und Bob, drei
+junge Detektive aus Rocky Beach, stoßen schon bald auf eine spannende
+Fährte. Es riecht gewaltig nach Abenteuer.&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/kids-01t.jpg" alt="Panik im Paradies" nosave="" width="133" hspace="10" height="200" align="LEFT"&gt;&lt;span class="gelb"&gt;Erzählt
+von:&amp;nbsp;&lt;/span&gt;&lt;a href="../kids.html#blanck"&gt;Ulf Blanck&lt;/a&gt;, © dtv-Junior
+November 2003
+&lt;br&gt;&lt;span class="gelb"&gt;Illustrationen von:&amp;nbsp;&lt;/span&gt;&lt;a href="../kids.html#wegner"&gt;Stefanie
+Wegner&lt;/a&gt;
+&lt;br&gt;&lt;span class="gelb"&gt;ISBN 3-423-70809-3:&amp;nbsp;&lt;/span&gt;
+&lt;br&gt;&lt;span class="gelb"&gt;Taschenbuch&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+
+&lt;center&gt;&lt;center&gt;&lt;/center&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="hoerspiel"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Hörspiel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/kids-01hsp.jpg" alt="Panik im Paradies" nosave="" width="200" hspace="10" height="200" align="LEFT"&gt;
+© USM Audio Oktober 2006&lt;br&gt;&lt;br&gt;
+&lt;br&gt;CD: &lt;span class="gelb"&gt;ISBN 3-8032-3200-7:&amp;nbsp;&lt;/span&gt;
+&lt;br&gt;MC: &lt;span class="gelb"&gt;ISBN 3-8032-3250-3:&amp;nbsp;&lt;/span&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;
+
+&lt;center&gt;
+&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="Sprecher"&gt;Sprecher:&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a name="Sprecher"&gt;&lt;span class="gelb"&gt;Justus Jonas&lt;/span&gt;&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;Asad Schwarz Msesilamba
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Peter Shaw&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Valentin Stilu
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Bob Andrews&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Nicolas Artajo
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Erzähler&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Johannes Steck
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Tante Mathilda&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Ingrid Capelle
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Onkel Titus&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Achin Schuelke
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Kommissar Reynolds&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Klaus Dittmann
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Doktor Dreyfuss&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Robert Missler
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Erik Larson&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Jürgen Kluckert
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Gerald Hauser&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Wolgang Kaven
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Buch und Regie&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Ulf Blanck
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Produktion &lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Blanck &amp;amp; Blanck GmbH
+&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Aufnahme&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Hastings Hamburg, Hastings Berlin, Radiopark Hamburg&lt;br&gt;
+Studio Johannes Steck München
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Post-Produktion&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;27 ROAD, Tonmeister Cord Ehlers
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Titelsong &amp;gt;&amp;gt;Die drei ??? Kids&amp;lt;&amp;lt;&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Musik und Text: Frank Ramond/Ulf Blanck&lt;br&gt;
+Manuskript: Peer Music
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Illustration&lt;/span&gt;
+&lt;/td&gt;
+&lt;td&gt;Stefanie Wegner
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/tbody&gt;&lt;/table&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="cover"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Die Kids in Ungarn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/hu001.jpg" alt="ungarisches Cover" nosave="" width="200" hspace="10" height="316" align="LEFT"&gt;
+In Ungarn ermitteln die Kids seid 2007. Sie agieren dort unter den Namen Charlie, Tom und Peter.
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+
+&lt;center&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="cover"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Die Kids in der Slowakei&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/sl001.jpg" alt="ungarisches Cover" nosave="" width="200" hspace="10" height="316" align="LEFT"&gt;
+Seit Januar 2010 treten die Kids auch in der Slowakei in Aktion. Hier heißen sie Jupiterovi, Petrovi und Bobovi.
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+
+
+&lt;center&gt;&lt;center&gt;&lt;/center&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="kommentare"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Kommentare&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;span class="gelb"&gt;Letzter Kommentar&lt;/span&gt; von &lt;!--count:279--&gt;&lt;a href="javascript:fenster('/php/project/member_view2.html?nick=Professor%20Carswell')"&gt;Professor Carswell ©&lt;/a&gt; am &lt;span class="fred"&gt;03.09.2015&lt;/span&gt;:&lt;br&gt;@12: Damit verulkt Ulf Blanck eine Düpierung. Einige Werbetreibende bezeichnen geröstete und gesalzene Erdnüsse als Perlnüsse. &lt;br&gt; &lt;br&gt; Buchzitat: &lt;br&gt; "Die sehen auf den ersten Blick aus wie normale Erdnüsse, schmecken auch so, sind es aber nicht. [...] Sie sehen Erdnüssen täuschend ähnlich. Bei uns wachsen die eigentlich nicht [...] Beim Menschen verursachen sie Magenreizungen und erhöhte Temperatur. Die gelben Flecken auf deiner Zunge sind eine allergische Reaktion. [...] Perlnüsse enthalten ein Gift, das Tiere unkontrolliert macht. Ähnlich wie bei Tollwut."&lt;br&gt;&lt;br&gt;&lt;a href="/cgi-bin/s_eingabe.pl?mode=perm&amp;amp;perm=11" target="_new"&gt;Eigenen Kommentar schreiben&lt;/a&gt; bzw. &lt;a href="/cgi-bin/s_eingabe.pl?mode=perm&amp;amp;perm=11" target="_new"&gt;Alle Kommentare lesen&lt;/a&gt;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/tbody&gt;&lt;/table&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="personen"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Auftretende Personen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Justus Jonas&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Peter Shaw&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Bob Andrews&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Tante Mathilda&lt;/span&gt; und&amp;nbsp;&lt;span class="gelb"&gt;Onkel
+Titus&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Kapitän Erik Larson&lt;/span&gt; unterhält einen
+kleinen Privatzoo, dessen Hauptattraktionen ein sprechender Beo, eine Riesenschlange,
+eine Riesenschildkröte und ein Nasenaffe sind.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Doktor Dreyfuß&lt;/span&gt;, ein in Rocky Beach ansässiger
+Tierarzt.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Doktor Simpson&lt;/span&gt;, stadtbekannter Kinderarzt,
+der auch Justus behandelt.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Gerald Hauser&lt;/span&gt;, ein Spekulant, der über
+(Tier-)leichen geht.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;span class="gelb"&gt;Kommissar Samuel Reynolds&lt;/span&gt;, der nicht wissen
+soll, wem er die Lösung des Falles zu verdanken hat.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="illu"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Illustration&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align="CENTER"&gt;
+&lt;table border="2"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/illukid1.gif" alt="Kids-Illu" nosave="" width="300" height="285"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+&lt;center&gt;&lt;table width="640" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a name="fakten"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Interessante Fakten&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td width="95%"&gt;Das Hauptquartier der Kids ist die Kaffeekanne, ein verrosteter
+Wassertank für alte Dampflokomotiven. Er ist viermal so groß
+wie eine Telefonzelle und steht auf einer Konstruktion aus Holzbalken.
+Unten führt ein dickes Wasserrohr direkt ins Innere des Tankes und
+an dieses Rohr sind Stahlsprossen geschweißt. Aus der Seite ragt
+eine schwenkbare Röhre. Über eine Luke im Boden kann der Tank
+betreten werden.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Justus besitzt einen Suchscheinwerfer, den er bei Notfällen auf
+die goldene Kugel auf dem Kirchturm richtet, um so Bob und Peter zu alamieren.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Rocky Beachs kleinster Zoo heißt 'Larsons Paradies'.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Fadenkontakt: ein Trick der Kids zur geräuschlosen Kommunikation.
+Die Drei sind über einen langen Zwirnfaden miteinander verbunden und
+können sich so im Notfall alarmieren. Der Trick wird nur in diesem
+Band verwendet, weil er in der Praxis in die Hose ging. Eine Katze verfing
+sich in den Schnüren.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Perlnüsse ähneln Erdnüssen, erzeugen aber beim Menschen
+Magenreizungen, Fieber und gelbe Flecken auf der Zunge.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Rocky Beach hat keine Universität.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td height="20"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a name="hoerbuch"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Das Hörbuch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;center&gt;&lt;table width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td width="40%" align="CENTER"&gt;
+&lt;table border="2"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/h_paradies.jpg" alt="Hörbuch" nosave="" width="160" height="218"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+
+&lt;td valign="TOP"&gt;&lt;span class="gelb"&gt;Panik im Paradies&lt;/span&gt; / Kosmos (Sep
+2002)
+&lt;br&gt;&lt;span class="gelb"&gt;ISBN 3-440-09296-8&lt;/span&gt;
+&lt;br&gt;MC, Laufzeit ca. 90 min., ab 7 Jahren. (K09296)
+&lt;br&gt;Erzählt von Ulf Blanck. Die drei ??? Kids jetzt auch zum Hören
+zu Hause, per Walkman unterwegs, im Auto... Der Privatzoo eines schrulligen
+Kapitäns steckt in Schwierigkeiten: Seine Tiere leiden an einer rätselhaften
+Krankheit und die Besucher bleiben aus. Ohne die Hilfe der drei Detektive
+wäre das bestimmt das Aus für das Zooparadies.
+&lt;p&gt;&lt;span class="gelb"&gt;Hörprobe von&amp;nbsp;&lt;/span&gt;&lt;a href="../misc/kids-probe.mp3"&gt;Panik
+im Paradies &lt;/a&gt;(mp3, 387kB)&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a name="spiel"&gt;&lt;/a&gt;
+&lt;center&gt;&lt;table class="balken-left" width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td class="balken-left"&gt;Das Spiel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;center&gt;&lt;table width="100%" cellspacing="0" cellpadding="5" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td width="40%" align="CENTER"&gt;
+&lt;table border="2"&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;img src="../bilder/s_paradies.jpg" alt="Spiel" nosave="" width="150" height="226"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+
+&lt;td valign="TOP"&gt;&lt;span class="gelb"&gt;Panik im Paradies&amp;nbsp;&lt;/span&gt;/ Kosmos&amp;nbsp;
+&lt;br&gt;Für 1 - 4 Spieler ab 7 Jahren. (KL914518)
+&lt;br&gt;Das Krimispiel zum Buch der drei ??? Kids - Wer löst das Geheimnis?&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;center&gt;&lt;span class="white"&gt;&lt;a href="../kids.html#folgen"&gt;zur Übersicht&lt;/a&gt;
+| &lt;a href="kidsfolge02.html"&gt;zur nächsten Folge&lt;/a&gt;&lt;/span&gt;&lt;/center&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;
+
+
+&lt;table width="600" cellspacing="0" cellpadding="0" border="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+&lt;hr width="400" noshade="noshade"&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align="center"&gt;
+&lt;span class="small"&gt;
+[&lt;a href="#top"&gt;TOP&lt;/a&gt;] - 
+[&lt;a href="/cgi-bin/print.pl"&gt;Druckversion&lt;/a&gt;] - 
+[&lt;a href="/" target="_top"&gt;rocky-beach.com&lt;/a&gt;] - 
+[&lt;a href="/impressum.html" target="_top"&gt;Impressum&lt;/a&gt;] -
+[&lt;a href="/datenschutz.html" target="_top"&gt;Datenschutzerklärung&lt;/a&gt;] -  26.08.2018
+&lt;/span&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;/tbody&gt;&lt;/table&gt;
+
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+
+&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="GefahrAusDemAllDescription" xml:space="preserve">
+    <value>“Wahnsinn! Mit dem Apparat könnte man Kometen aus der Bahn werfen”, staunte Bob. Peter blickte nervös in den Nachthimmel. “Beeilung, in genau zwei Stunden läuft das Ultimatum aus.”
+Gelingt es den drei ??? Kids den entführten Professor zu befreien? Wer ist noch hinter der geheimen Formel her? Ein spannender Wettlauf mit der Zeit beginnt.</value>
+  </data>
   <data name="RockyBeachUndDerSuperPapagei" xml:space="preserve">
     <value>&lt;!doctype html public "-//w3c//dtd html 4.0 transitional//en"&gt;
 &lt;html&gt;

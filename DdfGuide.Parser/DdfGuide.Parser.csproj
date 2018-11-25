@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DreiFragezeichenKidsParser.cs" />
     <Compile Include="HtmlDownloader.cs" />
     <Compile Include="IAudioDramaDtoParser.cs" />
     <Compile Include="ParserStringExtensions.cs" />

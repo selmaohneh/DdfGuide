@@ -159,6 +159,7 @@
     <Compile Include="AudioDramaAsSearchItemTests.cs" />
     <Compile Include="AudioDramaBuilderTests.cs" />
     <Compile Include="AudioDramaExplorerTests.cs" />
+    <Compile Include="DreiFragezeichenKidsParserTests.cs" />
     <Compile Include="DtoFileTests.cs" />
     <Compile Include="Filtering\DieDreiFilterTests.cs" />
     <Compile Include="Filtering\DieDreiFragezeichenFilterTests.cs" />
@@ -221,6 +222,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="SampleDtos.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
