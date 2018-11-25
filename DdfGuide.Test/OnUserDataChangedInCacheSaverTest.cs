@@ -16,13 +16,18 @@ namespace DdfGuide.Test
         [TestInitialize]
         public void Init()
         {
-            _userDatas = new SampleUserDataProvider().Get().ToList();
+            var audioDramas = new SampleAudioDramaProvider().Get().ToList();
             var source = new Mock<ISource<IEnumerable<AudioDrama>>>();
+            source
+                .Setup(x => x.Get())
+                .Returns(audioDramas);
+
+            _userDatas = audioDramas.Select(x => x.AudioDramaUserData).ToList();
 
             _cache = new Mock<ICache<IEnumerable<AudioDramaUserData>>>();
 
             var sut = new OnUserDataChangedInCacheSaver(_cache.Object, source.Object);
-            sut.SetObservedUserDatas(_userDatas);
+            sut.SetObservedUserDatas();
         }
 
         [TestMethod]

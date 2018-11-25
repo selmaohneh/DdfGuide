@@ -13,7 +13,7 @@ namespace DdfGuide.Core
         private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
         private readonly IAudioDramaBuilder _audioDramaBuilder;
 
-        public event EventHandler<IEnumerable<AudioDrama>> Updated;
+        public event EventHandler Updated;
 
         public AudioDramaSource(
             ICache<IEnumerable<AudioDramaDto>> dtoCache,
@@ -54,7 +54,7 @@ namespace DdfGuide.Core
             var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
             _dtoCache.Save(dtos);
 
-            Updated?.Invoke(this, Get());
+            Updated?.Invoke(this, EventArgs.Empty);
         }
     }
 }

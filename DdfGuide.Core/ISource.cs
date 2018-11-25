@@ -2,9 +2,9 @@
 
 namespace DdfGuide.Core
 {
-    public interface ISource<T>
+    public interface ISource<out T>
     {
-        event EventHandler<T> Updated;
+        event EventHandler Updated;
         T Get();
     }
 }

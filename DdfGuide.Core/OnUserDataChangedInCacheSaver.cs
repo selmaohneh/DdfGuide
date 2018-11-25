@@ -17,12 +17,13 @@ namespace DdfGuide.Core
             _cache = cache;
             _source = source;
 
-            _source.Updated += (sender, args) => SetObservedUserDatas(args.Select(x => x.AudioDramaUserData));
+            _source.Updated += (sender, args) => SetObservedUserDatas();
+            SetObservedUserDatas();
         }
 
-        public void SetObservedUserDatas(IEnumerable<AudioDramaUserData> userDatas)
+        public void SetObservedUserDatas()
         {
-            _userDatas = userDatas;
+            _userDatas = _source.Get().Select(x => x.AudioDramaUserData);
 
             foreach (var userData in _userDatas)
             {
@@ -33,7 +34,10 @@ namespace DdfGuide.Core
 
         private EventHandler OnUserDataChanged()
         {
-            return (sender, args) => { _cache.Save(_userDatas); };
+            return (sender, args) =>
+            {
+                _cache.Save(_userDatas);
+            };
         }
     }
 }

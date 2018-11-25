@@ -11,7 +11,7 @@ namespace DdfGuide.Core
             IAudioDramaView audioDramaView)
         {
             _audioDramaView = audioDramaView;
-            
+
             _audioDramaView.IsFavoriteClicked += OnIsFavoriteChanged();
             _audioDramaView.HeardClicked += OnHeardChanged();
         }
