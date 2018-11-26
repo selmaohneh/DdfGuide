@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using DdfGuide.Core;
@@ -10,13 +11,30 @@ namespace DdfGuide.Test
     [TestClass]
     public class DtoFileTests
     {
+        private IEnumerable<AudioDramaDto> _dtos;
+
+        [TestInitialize]
+        public void Init()
+        {
+            var json = File.ReadAllText("../../../dtos.json");
+            _dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
+        }
+
         [TestMethod]
         public void DtoFileContainsNoDuplicateIds()
         {
-            var json = File.ReadAllText("../../../dtos.json");
-            var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
+            var duplicates = _dtos.GroupBy(x => x.Id).Where(x => x.Count() > 1);
 
-            var duplicates = dtos.GroupBy(x => x.Id).Where(x => x.Count() > 1);
+            Assert.IsFalse(duplicates.Any());
+        }
+
+        [TestMethod]
+        public void DtoFileContainsNoDuplicateReleaseDates()
+        {
+            var duplicates = _dtos
+                .Where(x=>x.NumberEuropa.HasValue)
+                .GroupBy(x => x.ReleaseDate).Where(x => x.Count() > 1)
+                .ToList();
 
             Assert.IsFalse(duplicates.Any());
         }
