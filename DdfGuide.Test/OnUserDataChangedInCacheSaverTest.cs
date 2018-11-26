@@ -3,7 +3,6 @@ using System.Linq;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Moq.AutoMock;
 
 namespace DdfGuide.Test
 {
@@ -26,8 +25,8 @@ namespace DdfGuide.Test
 
             _cache = new Mock<ICache<IEnumerable<AudioDramaUserData>>>();
 
-            var sut = new OnUserDataChangedInCacheSaver(_cache.Object, source.Object);
-            sut.SetObservedUserDatas();
+            var sut = new OnUserDataChangedInCacheSaver(_cache.Object);
+            sut.SetObservedUserDatas(_userDatas);
         }
 
         [TestMethod]

@@ -46,7 +46,7 @@ namespace DdfGuide.Test
 
             var audioDramas = new List<AudioDrama>();
 
-            for (var i = 0; i < dtos.Count(); i++)
+            for (var i = 0; i < dtos.Count; i++)
             {
                 var audioDrama = new AudioDrama(
                     dtos.ElementAt(i),

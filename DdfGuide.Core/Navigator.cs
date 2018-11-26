@@ -27,8 +27,7 @@ namespace DdfGuide.Core
             _explorer = explorer;
             _picker = picker;
             _source = source;
-
-            _source.Updated += (sender, dramas) => InitNavigationEvents();
+            
             InitNavigationEvents();
         }
 

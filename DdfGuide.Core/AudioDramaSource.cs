@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -12,17 +11,18 @@ namespace DdfGuide.Core
         private readonly ICache<IEnumerable<AudioDramaDto>> _dtoCache;
         private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
         private readonly IAudioDramaBuilder _audioDramaBuilder;
-
-        public event EventHandler Updated;
+        private readonly IOnUserDataChangedInCacheSaver _saver;
 
         public AudioDramaSource(
             ICache<IEnumerable<AudioDramaDto>> dtoCache,
             ICache<IEnumerable<AudioDramaUserData>> userDataCache,
-            IAudioDramaBuilder audioDramaBuilder)
+            IAudioDramaBuilder audioDramaBuilder,
+            IOnUserDataChangedInCacheSaver saver)
         {
             _dtoCache = dtoCache;
             _userDataCache = userDataCache;
             _audioDramaBuilder = audioDramaBuilder;
+            _saver = saver;
         }
 
         public IEnumerable<AudioDrama> Get()
@@ -33,6 +33,8 @@ namespace DdfGuide.Core
             var audioDramas = _audioDramaBuilder.Build(
                 dtos,
                 userData).ToList();
+            
+            _saver.SetObservedUserDatas(audioDramas.Select(x=>x.AudioDramaUserData));
 
             return audioDramas;
         }
@@ -53,8 +55,6 @@ namespace DdfGuide.Core
 
             var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
             _dtoCache.Save(dtos);
-
-            Updated?.Invoke(this, EventArgs.Empty);
         }
     }
 }

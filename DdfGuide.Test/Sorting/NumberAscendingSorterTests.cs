@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using DdfGuide.Core;
 using DdfGuide.Core.Sorting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

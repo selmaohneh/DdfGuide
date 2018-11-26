@@ -140,7 +140,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByHeardLastClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByHeardLastClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -156,7 +156,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByIsFavoriteFirstClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByIsFavoriteFirstClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -172,7 +172,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderIsFavoriteLastClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderIsFavoriteLastClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -188,7 +188,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByNumberAscendingClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByNumberAscendingClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -204,7 +204,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByNumberDescendingClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByNumberDescendingClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -220,7 +220,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByReleaseDateAscendingClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByReleaseDateAscendingClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -236,7 +236,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByReleaseDateDescendingClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByReleaseDateDescendingClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -252,7 +252,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByNameAscendingClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByNameAscendingClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -268,7 +268,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void OrderByNameDescendingClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateSortModeOnView()
+        public void OrderByNameDescendingClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateSortModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -284,7 +284,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void MainAudioDramasOnlyClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateFilterModeOnView()
+        public void MainAudioDramasOnlyClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateFilterModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -300,7 +300,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void AllAudioDramasClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateFilterModeOnView()
+        public void AllAudioDramasClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateFilterModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -316,7 +316,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void FavoritesOnlyClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateFilterModeOnView()
+        public void FavoritesOnlyClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateFilterModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -332,7 +332,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void UnheardOnlyClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateFilterModeOnView()
+        public void UnheardOnlyClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateFilterModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -348,7 +348,7 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void SpecialsOnlyClicked_UpdateExplorer_UpdatAudioDramasOnView_UpdateFilterModeOnView()
+        public void SpecialsOnlyClicked_UpdateExplorer_UpdateAudioDramasOnView_UpdateFilterModeOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();

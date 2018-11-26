@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Searching;
@@ -34,13 +32,13 @@ namespace DdfGuide.Core
         {
             var builder = new AudioDramaBuilder();
 
+            var saver = new OnUserDataChangedInCacheSaver(_userDataCache);
+
             var source = new AudioDramaSource(
                 _dtoCache,
                 _userDataCache,
-                builder);
-
-            var saver = new OnUserDataChangedInCacheSaver(_userDataCache, source);
-            
+                builder,
+                saver);
 
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView);
 

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

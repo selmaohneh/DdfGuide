@@ -75,7 +75,7 @@ namespace DdfGuide.Test
         [TestMethod]
         public void ExplorerReturnsDieDreiFragezeichenAsInterpreterByDefault()
         {
-            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
 
             Assert.IsTrue(_audioDramas.All(x => x.AudioDramaDto.Interpreter == "Die drei ???"));
         }

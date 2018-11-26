@@ -4,9 +4,7 @@ using Android.App;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
-using FFImageLoading;
 using FFImageLoading.Views;
-using FFImageLoading.Work;
 
 namespace DdfGuide.Android
 {
@@ -37,12 +35,7 @@ namespace DdfGuide.Android
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
             var audioDrama = _audioDramas.ElementAt(position);
-            var view = convertView;
-
-            if (view == null)
-            {
-                view = _context.LayoutInflater.Inflate(Resource.Layout.audiodramalistitem, null);
-            }
+            var view = convertView ?? _context.LayoutInflater.Inflate(Resource.Layout.audiodramalistitem, null);
 
             view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
          
