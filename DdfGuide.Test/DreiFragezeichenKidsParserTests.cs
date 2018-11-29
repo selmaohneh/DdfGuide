@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using DdfGuide.Parser;
 using DdfGuide.Test.Properties;
@@ -32,7 +33,7 @@ namespace DdfGuide.Test
         public void ValidCoverUrl()
         {
             Assert.IsTrue(_parser.TryParseCoverUrl(out var coverUrl));
-            Assert.AreEqual("https://3fragezeichen.net/folgen_images/cover/1014.jpg", coverUrl);
+            Assert.AreEqual("https://www.hoerspiel.de/MacsService/Macs/ContentService/102/5011456.jpeg", coverUrl);
         }
 
         [TestMethod]
@@ -73,7 +74,7 @@ namespace DdfGuide.Test
             Assert.AreEqual(14, roles.Count());
 
             Assert.AreEqual("Jannik Schümann", roles
-                .Single(x => x.Character.Equals("Justus Jonas, Erster Detektiv"))
+                .Single(x => x.Character.Equals("Justus Jonas"))
                 .Speaker);
             Assert.AreEqual("Tim Kreuer", roles
                 .Single(x => x.Character.Equals("Skinny Norris"))

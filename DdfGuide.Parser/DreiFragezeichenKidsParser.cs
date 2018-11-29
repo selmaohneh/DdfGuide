@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Net;
 using DdfGuide.Core;
 using HtmlAgilityPack;
 
@@ -10,7 +12,7 @@ namespace DdfGuide.Parser
     {
         private readonly HtmlDocument _htmlDocument;
 
-    public DreiFragezeichenKidsParser(HtmlDocument htmlDocument)
+        public DreiFragezeichenKidsParser(HtmlDocument htmlDocument)
         {
             _htmlDocument = htmlDocument;
         }
@@ -19,22 +21,35 @@ namespace DdfGuide.Parser
         {
             try
             {
-                const string xPath = "/html/body/table/tr[1]/td[2]/center[1]/table/tr[1]/td[1]/center/span";
+                const string xPath = "//ul[@class='meta']/li";
 
-                var numberString = _htmlDocument
+                var listItems = _htmlDocument
                     .DocumentNode
-                    .SelectNodes(xPath)
-                    .First()
-                    .InnerText
-                    .Replace("#", "")
-                    .Decode();
+                    .SelectNodes(xPath);
 
-                var success = int.TryParse(numberString, out var parsedNumber);
-                number = success
-                    ? new int?(parsedNumber)
-                    : null;
+                foreach (var listItem in listItems)
+                {
+                    if (listItem
+                        .ChildNodes["b"]
+                        .InnerText
+                        .Contains("Folge"))
+                    {
+                        var numberString = listItem
+                            .ChildNodes["span"]
+                            .InnerText
+                            .Decode();
 
-                return success;
+                        var success = int.TryParse(numberString, out var parsedNumber);
+                        number = success
+                            ? new int?(parsedNumber)
+                            : null;
+
+                        return success;
+                    }
+                }
+
+                number = null;
+                return false;
             }
             catch (Exception)
             {
@@ -47,12 +62,11 @@ namespace DdfGuide.Parser
         {
             try
             {
-                const string xPath = "/html/body/table/tr[1]/td[2]/center[1]/table/tr[1]/td[3]/center/span";
+                const string xPath = "//div[@class='titles']/h2";
 
                 title = _htmlDocument
                     .DocumentNode
-                    .SelectNodes(xPath)
-                    .First()
+                    .SelectSingleNode(xPath)
                     .InnerText
                     .Decode();
 
@@ -69,23 +83,43 @@ namespace DdfGuide.Parser
         {
             try
             {
-                const string xPath = "/html/body/table/tr[1]/td[2]/center[4]/table/tr[2]/td/table//tr";
-                //"/html/body/table/tr[1]/td[2]/center[4]/table/tr[2]/td/table/tr[7]/td[2]"
-                var rows = _htmlDocument
+                const string xPath = "//ul[@class='meta']/li";
+
+                var listItems = _htmlDocument
                     .DocumentNode
                     .SelectNodes(xPath);
 
-                foreach (var row in rows)
+                foreach (var listItem in listItems)
                 {
-                    var columns = row.SelectNodes("td");
-                    if (columns == null) continue;
-
-                    var leftColumn = columns[0].InnerText.Decode();
-                    var rightColumn = columns[1].InnerText.Decode();
-
-                    if (leftColumn.Contains("Erscheinungsdatum"))
+                    if (listItem
+                        .ChildNodes["b"]
+                        .InnerText
+                        .Contains("Erscheinungsdatum"))
                     {
-                        releaseDate = DateTime.Parse(rightColumn);
+                        var dateString = listItem
+                            .ChildNodes["span"]
+                            .InnerText
+                            .Decode();
+
+                        var dateStrings = dateString.Split(' ');
+
+                        var oldestDate = DateTime.MaxValue;
+                        foreach (var date in dateStrings)
+                        {
+                            var currentDate = DateTime.MinValue;
+                            DateTime.TryParseExact(
+                                date,
+                                "dd.MM.yyyy",
+                                CultureInfo.InvariantCulture,
+                                DateTimeStyles.None, out currentDate);
+
+                            if (currentDate < oldestDate)
+                            {
+                                oldestDate = currentDate;
+                            }
+                        }
+
+                        releaseDate = oldestDate;
                         return true;
                     }
                 }
@@ -104,17 +138,16 @@ namespace DdfGuide.Parser
         {
             try
             {
-                const string xPath = "/html/body/table/tr[1]/td[2]/center[2]/table/tr[2]/td/img";
+                const string xPath = "//div[@class='productDetailImage']/div/img";
 
                 var subUrl = _htmlDocument
                     .DocumentNode
                     .SelectNodes(xPath)
                     .First()
                     .Attributes["src"]
-                    .Value
-                    .Substring(2);
+                    .Value;
 
-                coverUrl = "http://www.rocky-beach.com/hoerspiel" + subUrl;
+                coverUrl = "https://www.hoerspiel.de" + subUrl;
                 return true;
             }
             catch (Exception)
@@ -128,18 +161,16 @@ namespace DdfGuide.Parser
         {
             try
             {
-                const string xPath = "/html/body/div/table[2]/tr/td[3]";
-
-                var test = _htmlDocument
-                    .DocumentNode
-                    .SelectNodes(xPath);
-
+                const string xPath = "//div[@class='panel open']/div[@class='p']";
+                
                 description = _htmlDocument
                     .DocumentNode
                     .SelectNodes(xPath)
                     .First()
-                    .InnerText
+                    .InnerHtml
                     .Decode();
+
+                description = HtmlEntity.DeEntitize(description);
 
                 return true;
             }
