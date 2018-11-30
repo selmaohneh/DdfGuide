@@ -185,8 +185,8 @@ namespace DdfGuide.Parser
         {
             try
             {
-                const string xPath = "/html/body/table/tr[1]/td[2]/center[3]/table/tr[2]/td/table//tr";
-
+                const string xPath = "(//ul[@id='productpage-accordion-panel']/li/ol[@class='panel '])[1]/li";
+                
                 var rows = _htmlDocument
                     .DocumentNode
                     .SelectNodes(xPath);
@@ -194,14 +194,14 @@ namespace DdfGuide.Parser
                 var roleDtos = new List<RoleDto>();
                 foreach (var row in rows)
                 {
-                    var columns = row.SelectNodes("td");
-                    if (columns == null)
-                    {
-                        continue;
-                    }
+                    var text = row
+                        .InnerText
+                        .Decode();
 
-                    var character = columns[0].InnerText.Decode();
-                    var speaker = columns[1].InnerText.Decode();
+                    var splitText = text.Split(new[] { " - " }, StringSplitOptions.None);
+
+                    var character = splitText[0];
+                    var speaker = splitText[1];
 
                     var role = new RoleDto(character, speaker);
                     roleDtos.Add(role);
@@ -219,8 +219,27 @@ namespace DdfGuide.Parser
 
         public bool TryParseInterpreter(out string interpreter)
         {
-            interpreter = "Die drei ???";
-            return true;
+            try
+            {
+                const string xPath = "//div[@class='titles']/a/h1";
+
+                var interpreterString = _htmlDocument
+                    .DocumentNode
+                    .SelectSingleNode(xPath)
+                    .InnerText
+                    .Decode();
+
+                var interpreters = interpreterString.Split(new[] {" - "}, StringSplitOptions.None);
+
+                interpreter = interpreters.Last();
+
+                return true;
+            }
+            catch (Exception)
+            {
+                interpreter = null;
+                return false;
+            }
         }
     }
 }

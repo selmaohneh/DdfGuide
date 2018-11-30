@@ -61,25 +61,6 @@ namespace DdfGuide.Test.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;!doctype html&gt;
-        ///&lt;!--[if IE 7 ]&gt;    &lt;html lang=&quot;de&quot; class=&quot;no-js ie ie7 ltie8 ltie9&quot;&gt; &lt;![endif]--&gt;
-        ///&lt;!--[if IE 8 ]&gt;    &lt;html lang=&quot;de&quot; class=&quot;no-js ie ie8 ltie9&quot;&gt; &lt;![endif]--&gt;
-        ///&lt;!--[if IE 9 ]&gt;    &lt;html lang=&quot;de&quot; class=&quot;no-js ie ie9&quot;&gt; &lt;![endif]--&gt;
-        ///&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt;
-        ///&lt;html lang=&quot;de&quot; class=&quot;no-js no-ie&quot;&gt;
-        ///&lt;!--&lt;![endif]--&gt;
-        ///  &lt;head&gt;
-        ///    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
-        ///    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
-        ///    &lt;meta http-equiv=&quot;e [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string GefahrAusDemAll {
-            get {
-                return ResourceManager.GetString("GefahrAusDemAll", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Kometen rasen auf die Erde zu und riesige Meteoriten stürzen vom Himmel. Das zumindest könnte passieren, wenn die Erfindung des genialen Professors in falsche Hände gerät. Den drei ??? bleibt nicht viel Zeit für ihren gefährlichen Auftrag. Der Countdown läuft und dann taucht auch noch ihr Erzfeind auf....
         /// </summary>
         internal static string GefahrAusDemAllDescription {

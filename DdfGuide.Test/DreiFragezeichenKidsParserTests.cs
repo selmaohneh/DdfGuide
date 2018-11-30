@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Text;
 using DdfGuide.Parser;
 using DdfGuide.Test.Properties;
 using HtmlAgilityPack;
@@ -17,7 +19,15 @@ namespace DdfGuide.Test
         public void Init()
         {
             var htmlDocument = new HtmlDocument();
-            htmlDocument.LoadHtml(Resources.GefahrAusDemAll);
+
+            using (var client = new WebClient())
+            {
+                var html = client.DownloadData(
+                    "https://www.hoerspiel.de/hoerspiel/Serien/Die-drei-Fragezeichen-Kids/Hoerspiel/Gefahr-aus-dem-All/AD1F058A6B9B433E40E93F8FFBCE2F23/");
+
+                var htmlCode = Encoding.UTF8.GetString(html);
+                htmlDocument.LoadHtml(htmlCode);
+            }
 
             _parser = new DreiFragezeichenKidsParser(htmlDocument);
         }
@@ -71,7 +81,7 @@ namespace DdfGuide.Test
 
             roles = roles.ToList();
 
-            Assert.AreEqual(14, roles.Count());
+            Assert.AreEqual(15, roles.Count());
 
             Assert.AreEqual("Jannik Schümann", roles
                 .Single(x => x.Character.Equals("Justus Jonas"))
