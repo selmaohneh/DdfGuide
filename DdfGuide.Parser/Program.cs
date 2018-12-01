@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using DdfGuide.Core;
 using Newtonsoft.Json;
@@ -36,14 +37,27 @@ namespace DdfGuide.Parser
                     description,
                     roles);
 
-                dtos.Add(dto);
+                var json = JsonConvert.SerializeObject(dtos.First(), Formatting.Indented);
+                Console.WriteLine(json);
+
+                var choice = Console.ReadLine();
+                if (choice == "y")
+                {
+                    var allJson = File.ReadAllText("../../../dtos.json");
+                    var allAudioDramas = JsonConvert.DeserializeObject<IList<AudioDramaDto>>(allJson);
+
+                    if (allAudioDramas.Any(x => x.Title == dto.Title))
+                    {
+                        Console.WriteLine($"Audio drama with title {dto.Title} does already exist.");
+                        Console.ReadKey();
+                        return;
+                    }
+
+                    allAudioDramas.Add(dto);
+                    allJson = JsonConvert.SerializeObject(allJson, Formatting.Indented);
+                    File.WriteAllText("../../../dtos.json", allJson);
+                }
             }
-
-            var json = dtos.Count > 1 
-                ? JsonConvert.SerializeObject(dtos, Formatting.Indented) 
-                : JsonConvert.SerializeObject(dtos.First(), Formatting.Indented);
-
-            Console.WriteLine(json);
             Console.ReadLine();
         }
     }
