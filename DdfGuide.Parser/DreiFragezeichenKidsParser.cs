@@ -167,7 +167,7 @@ namespace DdfGuide.Parser
                     .DocumentNode
                     .SelectNodes(xPath)
                     .First()
-                    .InnerHtml
+                    .InnerText
                     .Decode();
 
                 description = HtmlEntity.DeEntitize(description);

@@ -39,23 +39,19 @@ namespace DdfGuide.Parser
                 var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
                 Console.WriteLine(json);
 
-                var choice = Console.ReadLine();
-                if (choice == "y")
+                var allJson = File.ReadAllText("../../../dtos.json");
+                var allAudioDramas = JsonConvert.DeserializeObject<IList<AudioDramaDto>>(allJson);
+
+                if (allAudioDramas.Any(x => x.Title == dto.Title))
                 {
-                    var allJson = File.ReadAllText("../../../dtos.json");
-                    var allAudioDramas = JsonConvert.DeserializeObject<IList<AudioDramaDto>>(allJson);
-
-                    if (allAudioDramas.Any(x => x.Title == dto.Title))
-                    {
-                        Console.WriteLine($"Audio drama with title {dto.Title} does already exist.");
-                        Console.ReadKey();
-                        return;
-                    }
-
-                    allAudioDramas.Add(dto);
-                    allJson = JsonConvert.SerializeObject(allAudioDramas, Formatting.Indented);
-                    File.WriteAllText("../../../dtos.json", allJson);
+                    Console.WriteLine($"Audio drama with title {dto.Title} does already exist.");
+                    Console.ReadKey();
+                    return;
                 }
+
+                allAudioDramas.Add(dto);
+                allJson = JsonConvert.SerializeObject(allAudioDramas, Formatting.Indented);
+                File.WriteAllText("../../../dtos.json", allJson);
             }
             Console.ReadLine();
         }
