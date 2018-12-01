@@ -13321,5 +13321,68 @@
         "Speaker": "Frank Thannhäuser"
       }
     ]
+  },
+  {
+    "Id": "06c8279b-136e-4fa4-a614-617a390e66b1",
+    "Title": "Geheimnis des Bauchredners",
+    "NumberEuropa": 196,
+    "ReleaseDate": "2018-11-30T00:00:00",
+    "CoverUrl": "https://www.hoerspiel.de/MacsService/Macs/ContentService/102/7730256.jpeg",
+    "Interpreter": "Die drei ???",
+    "Description": "Patricia Osborne hat Probleme mit ihrem neuen Mitbewohner Mr. Giggles. Der bereitet ihr schlaflose Nächte. Denn statt in seinem Sessel zu bleiben, wandelt er zur Abendstunde durchs Haus. Ein Fall von Ruhestörung? Das klingt nicht nach einem Fall für die drei Detektive. Doch dann erfahren Justus, Peter und Bob, dass Mr. Giggles eine Bauchrednerpuppe ist! Und für Patricia Osborne steht fest: Mr. Giggles ist vom bösen Geist seines Puppenspielers besessen.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Patricia Osborne",
+        "Speaker": "Barbara Focke"
+      },
+      {
+        "Character": "Osiris",
+        "Speaker": "Wolfgang Kaven"
+      },
+      {
+        "Character": "Sunshine",
+        "Speaker": "Dagmar Dreke"
+      },
+      {
+        "Character": "Vandaan",
+        "Speaker": "Andreas Birnbaum"
+      },
+      {
+        "Character": "Frank Corman /Mr Giggles",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Trixie Stiles",
+        "Speaker": "Anne Moll"
+      },
+      {
+        "Character": "Bryan Bonfanti",
+        "Speaker": "Frank Roder"
+      },
+      {
+        "Character": "Miller",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Henson",
+        "Speaker": "Constantin Stahlberg"
+      }
+    ]
   }
 ]
