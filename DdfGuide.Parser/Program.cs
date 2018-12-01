@@ -12,8 +12,7 @@ namespace DdfGuide.Parser
         public static void Main(string[] args)
         {
             var downloader = new HtmlDocumentDownloader();
-
-            var dtos = new List<AudioDramaDto>();
+            
             foreach (var arg in args)
             {
                 var html = downloader.DownloadHtmlDocumentFrom(arg);
@@ -37,7 +36,7 @@ namespace DdfGuide.Parser
                     description,
                     roles);
 
-                var json = JsonConvert.SerializeObject(dtos.First(), Formatting.Indented);
+                var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
                 Console.WriteLine(json);
 
                 var choice = Console.ReadLine();
