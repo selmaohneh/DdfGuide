@@ -13384,5 +13384,56 @@
         "Speaker": "Constantin Stahlberg"
       }
     ]
+  },
+  {
+    "Id": "f151953e-03a9-4003-b23d-8cfc7d8de426",
+    "Title": "Panik im Paradies",
+    "NumberEuropa": 1,
+    "ReleaseDate": "2009-03-13T00:00:00",
+    "CoverUrl": "https://www.hoerspiel.de/MacsService/Macs/ContentService/102/5015585.jpeg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Bereits in der ersten Folge machen die drei berühmten Detektive ihrem Namen alle Ehre. Eigentlich haben Justus, Peter und Bob ja gerade Ferien. Doch dann treffen sie den kuriosen Kapitän Larson, der einen kleinen Privatzoo besitzt. Als plötzlich alle seine Tiere krank werden und keine Besucher mehr kommen, wird die Neugier der Fragezeichen geweckt. Schon bald ahnen sie, dass da jemand ein düsteres Geheimnis hütet. Es riecht gewaltig nach Abenteuer!!!",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Doktor Dreyfuss",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Erik Larson",
+        "Speaker": "Jürgen Kluckert"
+      },
+      {
+        "Character": "Gerald Hauser",
+        "Speaker": "Wolfgang Kaven"
+      }
+    ]
   }
 ]
