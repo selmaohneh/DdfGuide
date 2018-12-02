@@ -74,6 +74,15 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void ListView_BackClickedOnRootView_ShutDownApp()
+        {
+            var rootView = _mocker.GetMock<IRootView>();
+            rootView.Raise(x => x.BackClicked += null, this, EventArgs.Empty);
+
+            _mocker.Verify<IShutdown>(x => x.Shutdown(), Times.Once);
+        }
+
+        [TestMethod]
         public void RandomAudioDramaRequested_PickRandomFromExplorer_ShowAudioDramaView_SetRandomToView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();

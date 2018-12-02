@@ -29,13 +29,16 @@ namespace DdfGuide.Android
             var rootView = this;
             var dtoCache = new DtoCache();
             var userDataCache = new UserDataCache();
+            var shutdown = new AndroidShutdown(this);
 
             _ddfGuide = new Core.DdfGuide(
                 audioDramaListView,
                 audioDramaView,
                 rootView,
                 dtoCache,
-                userDataCache);
+                userDataCache,
+                shutdown
+                );
             
             await _ddfGuide.Start();
         }

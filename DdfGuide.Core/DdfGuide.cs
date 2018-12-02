@@ -13,19 +13,22 @@ namespace DdfGuide.Core
         private readonly IRootView _rootView;
         private readonly ICache<IEnumerable<AudioDramaDto>> _dtoCache;
         private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
+        private readonly IShutdown _shutdown;
 
         public DdfGuide(
             IAudioDramaListView audioDramaListView,
             IAudioDramaView audioDramaView,
             IRootView rootView,
             ICache<IEnumerable<AudioDramaDto>> dtoCache,
-            ICache<IEnumerable<AudioDramaUserData>> userDataCache)
+            ICache<IEnumerable<AudioDramaUserData>> userDataCache,
+            IShutdown shutdown)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
             _rootView = rootView;
             _dtoCache = dtoCache;
             _userDataCache = userDataCache;
+            _shutdown = shutdown;
         }
 
         public async Task Start()
@@ -60,7 +63,8 @@ namespace DdfGuide.Core
                 audioDramaListPresenter,
                 explorer,
                 picker,
-                source);
+                source,
+                _shutdown);
 
             await source.Update();
 
