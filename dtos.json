@@ -124,5 +124,68 @@
         "Speaker": "Katharina Brauren"
       }
     ]
+  },
+  {
+    "Id": "0162eacf-7b9d-4f30-9e60-48062d828251",
+    "Title": "...und der Karpatenhund",
+    "NumberEuropa": 3,
+    "ReleaseDate": "1979-10-14T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/blob/master/Covers/0162eacf-7b9d-4f30-9e60-48062d828251.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bei mir spukt es! Mit diesem verzweifelten Ausruf von Mr. Prentice beginnt ein neues Abenteuer für die drei ???. Ein Abenteuer, das immer verwickelter wird und bei dem sogar der sonst so superschlaue Erste Detektiv, Justus Jonas, eine Zeitlang völlig im Dunkeln tappt. - Welche unheimliche Gestalt geht in der Wohnung von Mr. Prentice ein und aus und versetzt diesen in immer größere Ängste und Schrecken? Was ist die Quelle jener gespenstischen Lichtblitze in seinem Arbeitszimmer, sechs Meter über der Straße? Wer hat die wertvolle gläserne Skulptur des Karpatenhundes verschwinden lassen, und wer versucht, allen Mietern den Aufenthalt in dem großen Appartementhaus unmöglich zu machen? Die wenigen Spuren weisen in verschiedene Richtungen, und für unser Detektivtrio gilt es wieder einmal, eine harte Nuß zu knacken. Werden sie Licht in das Dunkel bringen?...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Prentice",
+        "Speaker": "Hans Hessling"
+      },
+      {
+        "Character": "Niedland",
+        "Speaker": "Gerlach Fiedler"
+      },
+      {
+        "Character": "Pfarrer",
+        "Speaker": "Ernst von Klipstein"
+      },
+      {
+        "Character": "Mrs. Boogle",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Sonny Elmquist",
+        "Speaker": "Philip Kunzmann [Gernot Endemann]"
+      },
+      {
+        "Character": "Mr. Murphy",
+        "Speaker": "Karl-Ulrich Meves"
+      },
+      {
+        "Character": "Miss Chalmers",
+        "Speaker": "Pamela Punti"
+      },
+      {
+        "Character": "Mr. Hassel",
+        "Speaker": "Rolf Hundertwasser"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Rolf Mamero"
+      }
+    ]
   }
 ]
