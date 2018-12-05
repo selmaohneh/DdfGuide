@@ -1862,5 +1862,417 @@
         "Speaker": "Hubert Mittendorf"
       }
     ]
+  },
+  {
+    "Id": "93dfb875-9484-4907-9170-1fe7c0765581",
+    "Title": "Die Originalmusik der EUROPA-Jugend",
+    "NumberEuropa": 29,
+    "ReleaseDate": "1982-06-07T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/93dfb875-9484-4907-9170-1fe7c0765581.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Hier findet Ihr die schönsten Melodien aus der beliebten EUROPA-Jugend-Serie! Vollständig und ungekürzt! So könnt Ihr sie z.B. auch als Background-Musik für Eure eigenen Hörspiele verwenden. Und nun viel Spaß mit Bob, Justus, Peter und der Musik aus der EUROPA-Jugend-Serie Die drei ???.",
+    "Roles": []
+  },
+  {
+    "Id": "0e0e543d-1cb0-4bab-bbe5-e281554eed33",
+    "Title": "...und das Riff der Haie",
+    "NumberEuropa": 30,
+    "ReleaseDate": "1982-06-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0e0e543d-1cb0-4bab-bbe5-e281554eed33.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Demonstranten blockieren die Arbeiten an der Öl-Bohrinsel vor der Küste von Santa Barbara. Die drei Detektive fahren hinaus, um sich die Demonstration anzusehen. Sie werden in rätselhafte Vorgänge verwickelt. Etwas Unheimliches geschieht mit dem Boot von Mr. Crowe, und als ein gewaltiger Sturm aufzieht, gibt das Meer eines seiner Geheimnisse preis. Was schiebt sich da aus den Wellen? Ein Meeres-Ungeheuer...?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Joachim Richert"
+      },
+      {
+        "Character": "Crowe",
+        "Speaker": "Henry Kielmann"
+      },
+      {
+        "Character": "Käptn Jason",
+        "Speaker": "Karl Walter Diess"
+      },
+      {
+        "Character": "MacGruder",
+        "Speaker": "Siegfried Wald"
+      },
+      {
+        "Character": "Hanley",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Torao",
+        "Speaker": "Joko Talmann [Rüdiger Schulzki]"
+      },
+      {
+        "Character": "Berg",
+        "Speaker": "Andreas Beurmann / Wolfgang Draeger"
+      },
+      {
+        "Character": "Yamura",
+        "Speaker": "Hubert Mittendorf"
+      },
+      {
+        "Character": "Die Gebrüder Connors",
+        "Speaker": "Nicolas Körting, Lothar Grützner"
+      },
+      {
+        "Character": "Weston",
+        "Speaker": "Joachim Richert"
+      }
+    ]
+  },
+  {
+    "Id": "0c189e49-1a0f-408d-8334-b63eae0e2104",
+    "Title": "...und das Narbengesicht",
+    "NumberEuropa": 31,
+    "ReleaseDate": "1983-03-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0c189e49-1a0f-408d-8334-b63eae0e2104.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ist das Narbengesicht wirklich blind? Zweifel erscheinen angebracht, nachdem ziemlich sicher ist, daß dieser seltsame Mann bei einem Banküberfall Schmiere gestanden hat. Offene und ungeklärte Fragen haben die drei ??? schon immer interessiert. Eine verlorene Brieftasche verhilft ihnen zum Einstieg in einen Kriminalfall, bei dem es um weit mehr als nur einen Banküberfall geht.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Shelby Tuckerman",
+        "Speaker": "Pinkas Braun"
+      },
+      {
+        "Character": "Mr. Hitfield",
+        "Speaker": "Christian Riege [Manfred Steffen]"
+      },
+      {
+        "Character": "Mr. Bonestell",
+        "Speaker": "Joachim Richert"
+      },
+      {
+        "Character": "Mrs. Denicola",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Eileen",
+        "Speaker": "Ruth Niehaus"
+      },
+      {
+        "Character": "Ernie",
+        "Speaker": "Helmut Zierl"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Harald Pages"
+      },
+      {
+        "Character": "Hoang Van Dong",
+        "Speaker": "Chen Lung Chung [Volker Brandt]"
+      },
+      {
+        "Character": "Frau an der Bushaltestelle",
+        "Speaker": "Ursula Vogel"
+      },
+      {
+        "Character": "Nachrichtensprecher",
+        "Speaker": "Joachim Wolff"
+      },
+      {
+        "Character": "Patrick",
+        "Speaker": "Joachim Richert"
+      }
+    ]
+  },
+  {
+    "Id": "de676c66-c15d-4054-83b0-6bcedb8449de",
+    "Title": "...und der Ameisenmensch",
+    "NumberEuropa": 32,
+    "ReleaseDate": "1983-03-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/de676c66-c15d-4054-83b0-6bcedb8449de.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine Vogelscheuche erwacht plötzlich zum Leben und stürzt sich auf alles, was ihr in die Quere kommt. Letitia Radford beginnt zu verzweifeln. In ihrer Todesangst beauftragt sie die drei Detektive, das Rätsel der wandelnden Vogelscheuche zu lösen. Justus, Bob und Peter nehmen den Auftrag an und geraten unversehens selbst in Lebensgefahr.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Dr. Woolley",
+        "Speaker": "Manfred Steffen"
+      },
+      {
+        "Character": "Larry Conklin",
+        "Speaker": "Sylvester Merten [Helmut Zierl]"
+      },
+      {
+        "Character": "Letitia Radford",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Mrs. Chumley",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Mrs. Burroughs",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Mr. Burroughs",
+        "Speaker": "Martin Fichte [Joachim Wolff]"
+      },
+      {
+        "Character": "Gary Malz",
+        "Speaker": "Volker Brandt"
+      },
+      {
+        "Character": "Mr. Agnier",
+        "Speaker": "Willem Fricke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Patrick",
+        "Speaker": "Joachim Richert"
+      }
+    ]
+  },
+  {
+    "Id": "8b612d78-4a59-468e-a150-18d6cd6b9adb",
+    "Title": "...und die bedrohte Ranch",
+    "NumberEuropa": 33,
+    "ReleaseDate": "1983-10-21T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8b612d78-4a59-468e-a150-18d6cd6b9adb.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der Zufall vermittelt\\ Justus, Bob und Peter die Bekanntschaft mit dem exzentrischen Ehepaar Barron, und unerwartet finden sie sich auf Rancho Valverde eingeschlossen, ohne Kontakt zur Umwelt! Geht der Kampf nun gegen außerirdische Wesen oder gegen kriminelle Betrüger und Diebe? Unsere drei klugen Detektive werden die Wahrheit herausfinden - wetten?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Patrick",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Peter Kirchberger"
+      },
+      {
+        "Character": "Mr. Barron",
+        "Speaker": "Pinkas Braun"
+      },
+      {
+        "Character": "Mrs. Barron",
+        "Speaker": "Monika Peitsch"
+      },
+      {
+        "Character": "Hank Detweiler",
+        "Speaker": "Siegfried Wald"
+      },
+      {
+        "Character": "Elsie Spratt",
+        "Speaker": "Pia Werfel [Barbara Focke]"
+      },
+      {
+        "Character": "Leutnant Ferrante",
+        "Speaker": "Volkert Kraeft"
+      },
+      {
+        "Character": "Bones",
+        "Speaker": "Siegfried Meyerheim [Helmut Zierl]"
+      },
+      {
+        "Character": "vermeintlicher US-Präsident",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Horst Frank"
+      }
+    ]
+  },
+  {
+    "Id": "3d8764c0-939d-45c1-9693-8764e195fbe7",
+    "Title": "...und der rote Pirat",
+    "NumberEuropa": 34,
+    "ReleaseDate": "1984-04-05T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3d8764c0-939d-45c1-9693-8764e195fbe7.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Wer verbirgt sich hinter der Maske des roten Piraten - und warum bedroht er Justus, Bob und Peter? Was steckt hinter den Tonbandinterviews von Major Karnes - und wonach gräbt dieser heimlich in der Piratenbucht? Trotz aller Gefahren lassen die drei ??? nicht locker, bis sie das Rätsel um den legendären Piratenschatz gelöst haben - einen Schatz, der allerhand Geheimnisse birgt!",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Shaw",
+        "Speaker": "Horst Schick"
+      },
+      {
+        "Character": "Kapitän Joy",
+        "Speaker": "Helmut Ahner"
+      },
+      {
+        "Character": "Jeremy Joy",
+        "Speaker": "Philip Siegel"
+      },
+      {
+        "Character": "Joshua Evans",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Major Karnes",
+        "Speaker": "Manfred Schermutzki"
+      },
+      {
+        "Character": "Sam Davis",
+        "Speaker": "Utz Richter"
+      }
+    ]
+  },
+  {
+    "Id": "a7a1af10-c5cf-41c6-9bdd-38fcf7506a5d",
+    "Title": "...und der Höhlenmensch",
+    "NumberEuropa": 35,
+    "ReleaseDate": "1984-10-16T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a7a1af10-c5cf-41c6-9bdd-38fcf7506a5d.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Das Skelett eines Urzeitmenschen lockt Justus, Bob und Peter in den kleinen Ort Citrus Grove. Kaum sind sie dort, als es auch schon zu rätselhaften Zwischenfällen kommt. Erwacht der Urmensch zu geheimnisvollem Leben? Und wieso legen sich plötzlich alle Bewohner von Citrus Grove zum Schlafen in den Park...?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Eleonor",
+        "Speaker": "Susanne Wulkow"
+      },
+      {
+        "Character": "Birkensteen",
+        "Speaker": "Oskar Kluge [Günter König]"
+      },
+      {
+        "Character": "Terreano",
+        "Speaker": "Günter König"
+      },
+      {
+        "Character": "Brandon",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Hoffer",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "McGee",
+        "Speaker": "Utz Richter"
+      },
+      {
+        "Character": "Thalia",
+        "Speaker": "Ingeborg Kanstein"
+      },
+      {
+        "Character": "Stefano",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "John",
+        "Speaker": "Edgar Bessen"
+      },
+      {
+        "Character": "Tankwart",
+        "Speaker": "F.-J. Steffens"
+      },
+      {
+        "Character": "LKW-Fahrer",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Mann am Bahnhof",
+        "Speaker": "Christian Rode"
+      },
+      {
+        "Character": "Bürgermeister",
+        "Speaker": "Edgar Bessen"
+      }
+    ]
   }
 ]
