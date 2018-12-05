@@ -3187,5 +3187,635 @@
         "Speaker": "Günter König"
       }
     ]
+  },
+  {
+    "Id": "ab040144-e4ea-4317-be46-776f4e107a42",
+    "Title": "...und der riskante Ritt",
+    "NumberEuropa": 51,
+    "ReleaseDate": "1991-03-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/ab040144-e4ea-4317-be46-776f4e107a42.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Caramba! Wie heiß brennt die Sonne in den Bergen der Sierra Madre! Wäre da nicht der Silberschatz aus den Zeiten der Revolution, kein Mensch würde hier auf störrischen Wildeseln zwischen Kakteen und Buschwerk herumreiten. Ein brummelnder Vulkan, der jeden Moment ausbrechen kann, macht die Sache auch nicht gemütlicher. Selten haben die drei ??? ein so gefährliches Abenteuer erlebt.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mercedes",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Brit",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Dusty Rice",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Ascension",
+        "Speaker": "Eckart Dux"
+      }
+    ]
+  },
+  {
+    "Id": "43f60b82-722f-46ce-9dce-33e6c7851e06",
+    "Title": "...und die Musikpiraten",
+    "NumberEuropa": 52,
+    "ReleaseDate": "1991-07-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/43f60b82-722f-46ce-9dce-33e6c7851e06.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Schlägerei auf dem Vergnügungsfest, Überfall auf Bob und eine nächtliche Verfolgungsjagd - es sieht ganz so aus, als sei der junge Detektiv zwischen zwei rivalisierende Gaunerbanden geraten. Die heiße Spur führt zur Plattenfirma Galactic Sound. Hier sind auf mysteriöse Weise Masterbänder verschwunden. Aber wie schmuggeln die Musikpiraten die Aufnahmen aus dem Haus?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Brick",
+        "Speaker": "Rainer Schmitt"
+      },
+      {
+        "Character": "Thanom",
+        "Speaker": "Peter Heinrich"
+      },
+      {
+        "Character": "Prem",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Butler",
+        "Speaker": "Gerd Baltus"
+      },
+      {
+        "Character": "Sax",
+        "Speaker": "Andreas Mannkopff"
+      },
+      {
+        "Character": "Celeste",
+        "Speaker": "Michaela Gröger"
+      },
+      {
+        "Character": "Lara",
+        "Speaker": "Gerlach Fiedler"
+      },
+      {
+        "Character": "Rivers",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Hansen",
+        "Speaker": "Verena Wiet"
+      },
+      {
+        "Character": "Maxi",
+        "Speaker": "Hildegard Krekel"
+      },
+      {
+        "Character": "Quill",
+        "Speaker": "Matthias Bullach"
+      },
+      {
+        "Character": "Tony",
+        "Speaker": "Michael Quiatkowsky"
+      }
+    ]
+  },
+  {
+    "Id": "06f0e716-72e8-4da5-bdf1-bae9bce7320f",
+    "Title": "...und die Automafia",
+    "NumberEuropa": 53,
+    "ReleaseDate": "1991-07-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/06f0e716-72e8-4da5-bdf1-bae9bce7320f.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Mit Autos kennt sich Justus\\ Vetter Ty Cassey einfach phantastisch aus. Ein bißchen zu gut, findet Kommissar Maxim vom Sonderdezernat Autodiebstähle und nimmt den verdächtigen jungen Mann vorläufig fest. Zugegeben, der geniale Mechaniker in den abgerissenen Klamotten, der die meiste Zeit durch die Gegend trampt, wirkt schon etwas ausgeflippt - aber ein Autodieb? Die drei ??? setzen alles dran, Ty\\\\s Unschuld zu beweisen. Dabei bekommen sie es mit ausgekochten Profis zu tun, die vor nichts zurückschrecken.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Kelly",
+        "Speaker": "Juliane Szalay"
+      },
+      {
+        "Character": "Ty Cassey",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Inspektor Cole",
+        "Speaker": "Wolfgang Schimmelpfennig [Günter König]"
+      },
+      {
+        "Character": "Kommissar Maxim",
+        "Speaker": "Peter Matic"
+      },
+      {
+        "Character": "Gilbar",
+        "Speaker": "Rolf Becker"
+      },
+      {
+        "Character": "Torres",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Jake Hatch",
+        "Speaker": "Hans Barein"
+      },
+      {
+        "Character": "Tiburon",
+        "Speaker": "Michael Quiatkowsky"
+      }
+    ]
+  },
+  {
+    "Id": "9b01a375-103a-496a-a31d-b82c8c7a82f7",
+    "Title": " Gefahr im Verzug",
+    "NumberEuropa": 54,
+    "ReleaseDate": "1992-02-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9b01a375-103a-496a-a31d-b82c8c7a82f7.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Anonyme Drohungen, umstürzende Kulissen, herumliegende Rasierklingen, eine Explosion: Es ist offensichtlich, daß irgend jemand George Brandon nach dem Leben trachtet. Der Star des Musicals Gefahr im Verzug entgeht den mysteriösen Unfällen nur um Haaresbreite. Aber die Show läuft weiter und entwickelt sich sogar zum Kassenschlager. Um unauffällig ermitteln zu können, schleusen sich Justus, Peter und Kelly als Statisten getarnt in den Theaterbetrieb ein.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Kelly",
+        "Speaker": "Juliane Szalay"
+      },
+      {
+        "Character": "Buzz Newman",
+        "Speaker": "Manou Lubowski"
+      },
+      {
+        "Character": "George Brandon",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Jim Bernardie",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Firestone",
+        "Speaker": "Peter Schiff"
+      },
+      {
+        "Character": "Crocker",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Lovell Madeira",
+        "Speaker": "Rainer Schmitt"
+      },
+      {
+        "Character": "Vic Hammell",
+        "Speaker": "Ben Tappé"
+      },
+      {
+        "Character": "Dan",
+        "Speaker": "Henry König"
+      }
+    ]
+  },
+  {
+    "Id": "daf1a82b-99d5-4ca8-98ba-d58cf9014eaa",
+    "Title": " Gekaufte Spieler",
+    "NumberEuropa": 55,
+    "ReleaseDate": "1992-02-18T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/daf1a82b-99d5-4ca8-98ba-d58cf9014eaa.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Kaum zu fassen! Duggan bietet Peter das begehrte Stipendium am Shoremont College an. Die einzige Bedingung: Er soll in der dortigen Basketball-Mannschaft mitspielen. Das ist die Chance für den begeisterten Sportler. Wenig später findet er einen dicken Briefumschlag mit Hundert-Dollar-Scheinen in seinem Auto. Wie sich herausstellt, ist Peter nicht der einzige, der Bestechungsgelder erhält. Was steckt dahinter? Um den Skandal der gekauften Spieler aufzudecken, wird Justus sogar zum Papagei.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Kelly",
+        "Speaker": "Juliane Szalay"
+      },
+      {
+        "Character": "Trainer Tong",
+        "Speaker": "Michael Hark"
+      },
+      {
+        "Character": "Trainer Duggan",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Präsident Harper",
+        "Speaker": "Eric Vaessen"
+      },
+      {
+        "Character": "Jerri",
+        "Speaker": "Samira Chanfir"
+      },
+      {
+        "Character": "Nora",
+        "Speaker": "Ann Montenbruck"
+      },
+      {
+        "Character": "Cory",
+        "Speaker": "Ben Tappé"
+      },
+      {
+        "Character": "Norman",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Powers",
+        "Speaker": "Hans Clarin"
+      }
+    ]
+  },
+  {
+    "Id": "c4f41222-5f21-4156-8181-91e7b14a8d9a",
+    "Title": " Angriff der Computer-Viren",
+    "NumberEuropa": 56,
+    "ReleaseDate": "1992-09-14T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c4f41222-5f21-4156-8181-91e7b14a8d9a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Kein Mensch kann von Computer-Viren angesteckt werden, aber ein viruskranker Computer kann tausende von Menschenleben gefährden! Das erkennen unsere drei Detektive, als ihr eigener Computer abstürzt. Sie handeln sofort. Ihre Nachforschungen führen sie in die abenteuerliche Welt einer Werbefilmproduktion und... auf die Spur eines genialen Spinners, der leider auch ein gefährlicher Erpresser ist. Ein Fall für die drei ??? und ganz speziell für Justus den Computer-Freak!",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Kelly",
+        "Speaker": "Juliane Szalay"
+      },
+      {
+        "Character": "Liz",
+        "Speaker": "Verena Großer"
+      },
+      {
+        "Character": "Harold",
+        "Speaker": "Willi Röbke"
+      },
+      {
+        "Character": "Dose",
+        "Speaker": "Jan-Friedrich Conrad"
+      },
+      {
+        "Character": "Silas Ek",
+        "Speaker": "Hans Sievers"
+      },
+      {
+        "Character": "Sekretär",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "Jan",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Lys",
+        "Speaker": "Anika Pages"
+      },
+      {
+        "Character": "Branson Barr",
+        "Speaker": "Michael Harck"
+      },
+      {
+        "Character": "Norton Rome",
+        "Speaker": "Douglas Welbat"
+      }
+    ]
+  },
+  {
+    "Id": "bcbeac87-82e0-4e11-afec-579b57f390b4",
+    "Title": " Tatort Zirkus",
+    "NumberEuropa": 57,
+    "ReleaseDate": "1994-07-18T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bcbeac87-82e0-4e11-afec-579b57f390b4.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Panik im Zirkus: Die junge Artistin Mary di Domenico stürzt während der Abendvorstellung vom Drahtseil. Für Justus, Bob und Peter steht fest: das war kein Unfall! Immerhin gilt Mary als Erbin der wertvollen Sammlung von dem berühmten Clown Jacky Knivel. Die drei Junior-Detektive sind bereit, den Fall zu übernehmen, und schon stehen sie vor einem Rätsel: Ist ihre Auftraggeberin wirklich so unschuldig wie sie behauptet?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mary, Artistin",
+        "Speaker": "Heidrun von Goessel"
+      },
+      {
+        "Character": "Winkler, Zirkusdirektor",
+        "Speaker": "Helmut Ahner"
+      },
+      {
+        "Character": "Pipo, Clown",
+        "Speaker": "Arthur Brauss"
+      },
+      {
+        "Character": "Morton, Chauffeur",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Cotta, Polizeiinspektor",
+        "Speaker": "Michael Poelchau"
+      },
+      {
+        "Character": "Alma",
+        "Speaker": "Eva Zlomitzky"
+      },
+      {
+        "Character": "Schwester",
+        "Speaker": "Gerda Maria Jürgens"
+      },
+      {
+        "Character": "[Shirley Kubinski]",
+        "Speaker": "Thea Frank"
+      }
+    ]
+  },
+  {
+    "Id": "3918440c-684f-4268-9c61-8d823b7c8a2d",
+    "Title": "...und der verrückte Maler",
+    "NumberEuropa": 58,
+    "ReleaseDate": "1994-07-18T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3918440c-684f-4268-9c61-8d823b7c8a2d.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Tante Mathilda ist wütend! Wie kann Onkel Titus es nur wagen, dieses grauenhafte Gemälde einfach in ihr Wohnzimmer zu hängen! Noch in derselben Nacht versucht jemand den Ölschinken zu klauen. Grund genug für Justus, Bob und Peter sich einzuschalten. Drohanrufe, nächtliche Überfälle und eine verdächtige Safefirma führen die drei Junior-Detektive über das Meer zu einem einsam gelegenen Haus an der Küste. Dort erwartet sie eine gefährliche Überraschung.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "William Ashley",
+        "Speaker": "Franz Rudnick"
+      },
+      {
+        "Character": "Burt Ashley",
+        "Speaker": "Knut Basewitz"
+      },
+      {
+        "Character": "Pecker, Angestellter",
+        "Speaker": "Lutz Büschken"
+      },
+      {
+        "Character": "Axel",
+        "Speaker": "Tobias Pauls"
+      },
+      {
+        "Character": "Lys",
+        "Speaker": "Kerstin Draeger"
+      },
+      {
+        "Character": "Mrs. Bloomingdale",
+        "Speaker": "Eva Zlomitzky"
+      },
+      {
+        "Character": "Stella",
+        "Speaker": "Rebecca Völz"
+      }
+    ]
+  },
+  {
+    "Id": "798c940f-a0bf-48fd-8447-599acdfc59f3",
+    "Title": " Giftiges Wasser",
+    "NumberEuropa": 59,
+    "ReleaseDate": "1994-08-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/798c940f-a0bf-48fd-8447-599acdfc59f3.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die Nachricht trifft Justus, Peter und Bob wie eine Bombe: Ein Unbekannter droht, das gesamte Trinkwasser des verschlafenen Touristenstädtchens Sedona zu vergiften. Sollte das geplante Rockfestival nicht abgesagt werden? Die Polizei ist ratlos. Die drei ??? übernehmen den Fall und geraten bald in brenzlige Situationen. Da meldet sich der Erpresser erneut - das Ultimatum läuft ab!",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ruth, Zeitungs-Journalistin",
+        "Speaker": "Hansi Jochmann"
+      },
+      {
+        "Character": "Jean Baxter, TV-Journalistin",
+        "Speaker": "Heidrun von Goessel"
+      },
+      {
+        "Character": "Van Well, Pressechef",
+        "Speaker": "Ulrich Faulhaber"
+      },
+      {
+        "Character": "Sinagua, Indianerin",
+        "Speaker": "Samira Chanfir"
+      },
+      {
+        "Character": "Chosmo, Journalist",
+        "Speaker": "Mathias Bullach"
+      },
+      {
+        "Character": "Monsieur Jaubert",
+        "Speaker": "Michael Poelchau"
+      },
+      {
+        "Character": "René Hancock",
+        "Speaker": "Thomas Schüler"
+      },
+      {
+        "Character": "Joan Brown",
+        "Speaker": "Rebecca Völz"
+      },
+      {
+        "Character": "Hendrik Walton, Fabrikant",
+        "Speaker": "Karl Michael Mechel"
+      }
+    ]
+  },
+  {
+    "Id": "7eea8d9f-61f9-4d23-b24d-b56c5fedf9e6",
+    "Title": " Dopingmixer",
+    "NumberEuropa": 60,
+    "ReleaseDate": "1994-08-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7eea8d9f-61f9-4d23-b24d-b56c5fedf9e6.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Sport läßt Justus normalerweise kalt. Besonders, wenn er an einem neuen Fall arbeitet. Aber was er da auf dem Sportplatz der Highschool von Rocky Beach erlebt, macht ihn stutzig. Einer der Jungs, die mit Peter für das Sportfest trainieren, läuft sensationell schnell! Und kaum versuchen die drei ??? der Sache auf den Grund zu gehen, taucht der Sprinter unter. Opfer gewinnsüchtiger Manager oder selbst ein gewiefter Dopingbetrüger? Wer hat da seine Finger im Spiel?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Günter König"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Glenn Miles",
+        "Speaker": "Christian Stark"
+      },
+      {
+        "Character": "Benny",
+        "Speaker": "Tobias Pauls"
+      },
+      {
+        "Character": "Tom Descanso, Trainer",
+        "Speaker": "Prof. Justus Frantz"
+      },
+      {
+        "Character": "Field, Lehrer",
+        "Speaker": "Michael Quiatkowsky"
+      },
+      {
+        "Character": "Hutchins, Sport-Reporter",
+        "Speaker": "Uwe Büschken"
+      },
+      {
+        "Character": "Dr. Landman, Schuldirektor",
+        "Speaker": "Gerd Duwner"
+      },
+      {
+        "Character": "Stan",
+        "Speaker": "Tilman Madaus"
+      },
+      {
+        "Character": "Eleonore Sharp",
+        "Speaker": "Margot Linde"
+      }
+    ]
   }
 ]
