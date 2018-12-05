@@ -70,6 +70,31 @@ namespace DdfGuide.Parser
                     .InnerText
                     .Decode();
 
+                if (title.StartsWith("Die drei ???: "))
+                {
+                    title = title.Replace("Die drei ???: ", string.Empty);
+                }
+
+                if (title.StartsWith("Die drei ??? und"))
+                {
+                    title = title.Replace("Die drei ??? und", "...und");
+                }
+
+                if (title.StartsWith(".und"))
+                {
+                    title = title.Replace(".und", "...und");
+                }
+
+                if (title.StartsWith("..und"))
+                {
+                    title = title.Replace("..und", "...und");
+                }
+
+                if (title.StartsWith("Und"))
+                {
+                    title = title.Replace("Und", "...und");
+                }
+
                 title = title.Split(':').Last();
 
                 return true;
