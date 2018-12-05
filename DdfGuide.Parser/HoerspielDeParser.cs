@@ -8,11 +8,11 @@ using HtmlAgilityPack;
 
 namespace DdfGuide.Parser
 {
-    public class DreiFragezeichenKidsParser : IAudioDramaDtoParser
+    public class HoerspielDeParser : IAudioDramaDtoParser
     {
         private readonly HtmlDocument _htmlDocument;
 
-        public DreiFragezeichenKidsParser(HtmlDocument htmlDocument)
+        public HoerspielDeParser(HtmlDocument htmlDocument)
         {
             _htmlDocument = htmlDocument;
         }

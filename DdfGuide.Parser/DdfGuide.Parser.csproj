@@ -49,13 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DreiFragezeichenKidsParser.cs" />
+    <Compile Include="HoerspielDeParser.cs" />
     <Compile Include="HtmlDownloader.cs" />
     <Compile Include="IAudioDramaDtoParser.cs" />
     <Compile Include="ParserStringExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RockyBeachParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

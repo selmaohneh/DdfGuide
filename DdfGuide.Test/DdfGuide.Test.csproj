@@ -160,7 +160,7 @@
     <Compile Include="AudioDramaBuilderTests.cs" />
     <Compile Include="AudioDramaExplorerTests.cs" />
     <Compile Include="AudioDramaSourceTests.cs" />
-    <Compile Include="DreiFragezeichenKidsParserTests.cs" />
+    <Compile Include="HoerspielDeParserTests.cs" />
     <Compile Include="DtoFileTests.cs" />
     <Compile Include="Filtering\DieDreiFilterTests.cs" />
     <Compile Include="Filtering\DieDreiFragezeichenFilterTests.cs" />
@@ -172,7 +172,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="RandomAudioDramaPickerTests.cs" />
-    <Compile Include="RockyBeachDieDreiFragezeichenParserTests.cs" />
     <Compile Include="SampleDtos.Designer.cs">
       <DependentUpon>SampleDtos.resx</DependentUpon>
       <AutoGen>True</AutoGen>
