@@ -7425,5 +7425,743 @@
         "Speaker": "Alexander Mülle"
       }
     ]
+  },
+  {
+    "Id": "95b81d93-8d0b-4319-88f9-b04fc8a46c43",
+    "Title": "Die Drei ??? 121 - Spur ins Nichts",
+    "NumberEuropa": 121,
+    "ReleaseDate": "2005-01-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/95b81d93-8d0b-4319-88f9-b04fc8a46c43.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Justus sitzt in der Falle! Orientierungslos und ohne Erinnerung erwacht er in einer dunklen, kalten, verschlossenen Kammer. Wurde der Erste Detektiv entführt und in ein geheimes Versteck gebracht? Und wer ist der junge Mann, der mit ihm eingeschlossen ist? Kann er sich tatsächlich auch an nichts erinnern? Oder weiß er mehr, als er Justus verraten will? Die Drei ??? werden in einen höchst mysteriösen Fall verwickelt, in dem sie scharf kombinieren müssen, um dem Gegner auf die Spur zu kommen. Und dieser schreckt vor nichts zurück...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Shawn",
+        "Speaker": "Robin Brosch"
+      },
+      {
+        "Character": "Jolene",
+        "Speaker": "Marion Elskis"
+      },
+      {
+        "Character": "Leah",
+        "Speaker": "Susanne Sternberg"
+      },
+      {
+        "Character": "Jelena",
+        "Speaker": "Alexandra Doerk"
+      },
+      {
+        "Character": "Sue",
+        "Speaker": "Kerstin Hilbig"
+      },
+      {
+        "Character": "Kimberly Lloyd",
+        "Speaker": "Ingeborg Christiansen"
+      },
+      {
+        "Character": "William Boyd",
+        "Speaker": "Olaf Kreutzenbeck"
+      },
+      {
+        "Character": "Thorndike",
+        "Speaker": "Michael Lott"
+      }
+    ]
+  },
+  {
+    "Id": "30c6a2aa-9dd3-4eb4-bacf-877748ee2bd0",
+    "Title": "Die Drei ??? 122 und der Geisterzug",
+    "NumberEuropa": 122,
+    "ReleaseDate": "2008-04-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/30c6a2aa-9dd3-4eb4-bacf-877748ee2bd0.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die Fahrt mit dem Museumszug hatten sich die drei Detektive aus Rocky Beach eigentlich gemütlicher vorgestellt. Doch spätestens im Eisenbahntunnel durch den Black Mountain vergeht den Freunden die Ausflugslaune. Die Durchfahrt wird aufs Gruseligste boykottiert. Natürlich glauben die Drei ??? kein Wort von der Spukgeschichte, nach der verunglückte Arbeiter ihr geisterhaftes Unwesen im Tunnel treiben sollen. Doch um herauszufinden, wer tatsächlich hinter den üblen Machenschaften steckt, bleiben Justus, Peter und Bob nur wenige Stunden...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Fred Jenkins",
+        "Speaker": "Nick Seidensticker"
+      },
+      {
+        "Character": "Mr Campbell",
+        "Speaker": "Gerhart Hinze"
+      },
+      {
+        "Character": "Sam Reilly",
+        "Speaker": "Jürgen Strube"
+      },
+      {
+        "Character": "Carl Sheehan",
+        "Speaker": "Michael Weckler"
+      },
+      {
+        "Character": "Collins",
+        "Speaker": "Thorsten Weber"
+      },
+      {
+        "Character": "Mr Kingsley",
+        "Speaker": "Herbert Tennigkeit"
+      },
+      {
+        "Character": "Mrs Kingsley",
+        "Speaker": "Tina Rehfeld-Wildmann"
+      },
+      {
+        "Character": "Devlin Reno",
+        "Speaker": "Jörg Pleva"
+      },
+      {
+        "Character": "Dr. Long",
+        "Speaker": "Lou Wong"
+      }
+    ]
+  },
+  {
+    "Id": "c1d2627b-38e9-4eba-88c5-fffc4aaea506",
+    "Title": "Fußballfieber",
+    "NumberEuropa": 123,
+    "ReleaseDate": "2008-05-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c1d2627b-38e9-4eba-88c5-fffc4aaea506.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Peter, der Zweite Detektiv, trainiert begeistert für die kalifornischen Schulfußballmeisterschaften. Zur gleichen Zeit erscheint ein Junge auf dem Schrottplatz und bittet die Drei ??? um Hilfe: Im Haus seiner Großeltern geschehen unheimliche Dinge und die beiden alten Leute sind überzeugt, dass sie es mit den schrecklichen Vorzeichen des Todes zu tun haben. Als Justus, Peter und Bob die Ermittlungen aufnehmen, ahnen sie nicht, welche Gefahren noch auf sie zukommen werden...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Emiliano",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Pancho",
+        "Speaker": "Ben Hecker"
+      },
+      {
+        "Character": "Esperanza",
+        "Speaker": "Ingeborg Christiansen"
+      },
+      {
+        "Character": "Pedro",
+        "Speaker": "Anton Sprick"
+      },
+      {
+        "Character": "Abelardo",
+        "Speaker": "Peter Brix"
+      }
+    ]
+  },
+  {
+    "Id": "8b8d6334-2e30-48f1-a723-2061d9908779",
+    "Title": "Geister-Canyon",
+    "NumberEuropa": 124,
+    "ReleaseDate": "2008-07-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8b8d6334-2e30-48f1-a723-2061d9908779.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Als die Drei ??? versprechen, bei einer Lösegeldübergabe zu helfen, ahnen sie noch nicht, was auf sie zukommt. Unversehens befinden sie sich auf einer nervenaufreibenden Irrfahrt durch den wilden Westen Amerikas. Welchen hinterhältigen Plan verfolgt der Erpresser? Wozu lockt er sie in die tiefsten und gefährlichsten Canyons? Und dann geschieht, was nie hätte geschehen dürfen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. O'Sullivan",
+        "Speaker": "Eckard Dux"
+      },
+      {
+        "Character": "Butler Paul",
+        "Speaker": "Volker Bogdan"
+      },
+      {
+        "Character": "Dick Perry",
+        "Speaker": "Ernst Hilbich"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Frank Thannhäuser"
+      },
+      {
+        "Character": "Aufsicht",
+        "Speaker": "Patrick Bach"
+      }
+    ]
+  },
+  {
+    "Id": "26ae8dd8-8b03-4533-9b42-1d5993f8e0f6",
+    "Title": "Feuermond",
+    "NumberEuropa": 125,
+    "ReleaseDate": "2008-10-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/26ae8dd8-8b03-4533-9b42-1d5993f8e0f6.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die Jubiläumsfolge - Extra lang!!! Rätselhafte Briefe eines verstorbenen Malers bringen Die drei ??? auf die Spur eines verschollenes Gemäldes... Und der Gegenspieler der Detektive aus Rocky Beach ist kein geringerer als der französische Meisterdieb Victor Hugenay! Wird es den drei ??? gelingen, das Rätsel um Feuermond zu lüften?",
+    "Roles": [
+      {
+        "Character": "Teil A",
+        "Speaker": "Das Rätsel der Meister"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Brittany",
+        "Speaker": "Dorette Hugo"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Albert Giro"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Jaccard (Off-Stimme)",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Andy Miller",
+        "Speaker": "Jannik Endemann"
+      },
+      {
+        "Character": "Sharon Lockwood",
+        "Speaker": "Nova Meierhenrich"
+      },
+      {
+        "Character": "Moderator",
+        "Speaker": "Holger Wemhoff"
+      },
+      {
+        "Character": "Teil B",
+        "Speaker": "Der Pfad der Täuschung"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Brittany",
+        "Speaker": "Dorette Hugo"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Albert Giro"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Graham, Reporter",
+        "Speaker": "Thomas Bammer"
+      },
+      {
+        "Character": "Julianne Wallace",
+        "Speaker": "Marlen Diekhoff"
+      },
+      {
+        "Character": "Sharon Lockwood",
+        "Speaker": "Nova Meierhenrich"
+      },
+      {
+        "Character": "Moderator",
+        "Speaker": "Holger Wemhoff"
+      },
+      {
+        "Character": "Polizist 1",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Mrs. Albright",
+        "Speaker": "Lotti Krekel"
+      },
+      {
+        "Character": "Mr. Myers",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "LKW-Fahrer",
+        "Speaker": "Nick Heidfeld"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Teil C",
+        "Speaker": "Die Nacht der Schatten"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Brittany",
+        "Speaker": "Dorette Hugo"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Albert Giro"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Julianne Wallace",
+        "Speaker": "Marlen Diekhoff"
+      },
+      {
+        "Character": "Charles Knox",
+        "Speaker": "Dirk Bach"
+      },
+      {
+        "Character": "Moderator",
+        "Speaker": "Holger Wemhoff"
+      },
+      {
+        "Character": "Polizist 2",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Ansager",
+        "Speaker": "Bertram Hiese"
+      },
+      {
+        "Character": "Mr. Myers",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "Nachtschatten",
+        "Speaker": "Frank Tannhäuser"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      }
+    ]
+  },
+  {
+    "Id": "b984f8af-1a1f-4046-a32f-f071071303fe",
+    "Title": "Schrecken aus dem Moor",
+    "NumberEuropa": 126,
+    "ReleaseDate": "2008-11-14T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b984f8af-1a1f-4046-a32f-f071071303fe.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Glücklicherweise ruht der tote Körper aus der vorgeschichtlichen Eisenzeit als Ausstellungsstück in einem Glaskasten im Steadman Museum. Doch ausgerechnet während Peters Schicht als Nachtwächter scheint die gruselige Moorleiche zu erwachen und ihr Unwesen in den verlassenen Gängen des Museums zu treiben. An die plötzliche Auferstehung einer jahrtausende alten Leiche können Justus, Peter und Bob natürlich nicht glauben - auch wenn alle Indizien genau darauf hinweisen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Dr. Chandler",
+        "Speaker": "Wolf Pahlke"
+      },
+      {
+        "Character": "Max",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Austin",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Dwain",
+        "Speaker": "Tim Knauer"
+      },
+      {
+        "Character": "Mr. Monroe",
+        "Speaker": "Jochen Regelin"
+      },
+      {
+        "Character": "Professor Rosenberg",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Papagei",
+        "Speaker": "Heikedine Körting"
+      }
+    ]
+  },
+  {
+    "Id": "0a445a84-5e7a-47e5-a8c5-493e7e91949e",
+    "Title": "Schwarze Madonna",
+    "NumberEuropa": 127,
+    "ReleaseDate": "2008-12-05T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0a445a84-5e7a-47e5-a8c5-493e7e91949e.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Als Peter einen verletzten jungen Mann aus dem Meer rettet, ahnt er noch nicht, dass er damit auch einen neuen Fall für die drei ??? an Land zieht. Doch schon kurze Zeit später befinden sich die drei Detektive aus Rocky Beach mitten in einem spannenden Abenteuer, in dem eine verschwundene Marienstatue die Hauptrolle spielt. Wie viele Gegner gibt es bei dieser gefährlichen Jagd? Wie weit werden sie gehen, um die begehrte Schwarze Madonna zu bekommen? Justus, Peter und Bob stoßen an ihre Grenzen. Dieser Fall ist gefährlich, sehr gefährlich. Er bedroht sogar die Existenz ihres Detektivunternehmens...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Goodween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "José",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Steve Bright",
+        "Speaker": "Marek Erhardt"
+      },
+      {
+        "Character": "Brian Smith",
+        "Speaker": "Christian Rode"
+      },
+      {
+        "Character": "Martin",
+        "Speaker": "Jesse Grimm"
+      },
+      {
+        "Character": "Wächter",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Mrs. Osborne",
+        "Speaker": "Anja Nejarri"
+      },
+      {
+        "Character": "Mr. Pentecost",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Senora Gonzalez",
+        "Speaker": "Susanne von Loessl"
+      }
+    ]
+  },
+  {
+    "Id": "4b2bedef-9f82-44ee-93dd-afe4269affeb",
+    "Title": "Schatten über Hollywood",
+    "NumberEuropa": 128,
+    "ReleaseDate": "2009-02-06T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4b2bedef-9f82-44ee-93dd-afe4269affeb.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Geister gibt es nicht - davon sind Justus, Peter und Bob überzeugt. Bis eines Nachts eine unheimliche weiße Gestalt vom berühmten Hollywood-Schriftzug in die Tiefe stürzt und spurlos verschwindet. Haben es die drei ??? mit dem Geist der verstorbenen Schauspielerin Casey Wye zu tun? Fragmente eines seltsamen Briefes weisen darauf hin. Als dann auch noch verschiedene Menschen in hinterhältige Fallen geraten, ist klar: Justus, Peter und Bob müssen schwer auf der Hut sein, wenn sie dieses Geheimnis lüften und dabei mit heiler Haut davonkommen wollen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mrs Bennett",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Wächter",
+        "Speaker": "Marek Erhardt"
+      },
+      {
+        "Character": "Crowle",
+        "Speaker": "Christian Rudolf"
+      },
+      {
+        "Character": "Casey Wye",
+        "Speaker": "Gisela Trowe"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Oliver Taper",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      }
+    ]
+  },
+  {
+    "Id": "d673c83d-7f56-471f-ae64-5938ae94a82b",
+    "Title": "SMS aus dem Grab",
+    "NumberEuropa": 129,
+    "ReleaseDate": "2009-03-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d673c83d-7f56-471f-ae64-5938ae94a82b.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Als Rubbish-George, der schrullige Stadtstreicher aus Rocky Beach, von einem Tag auf den anderen verschwindet, ahnen Justus, Peter und Bob sofort, dass hier etwas nicht mit rechten Dingen zugeht. Zwischen den wenigen Habseligkeiten des wunderlichen Mannes finden die drei Detektive einen rätselhaften Brief. Die Spur führt zu den Pyramiden in Ägypten! Welches Geheimnis aber will Rubbish George dort lüften? Die drei ??? begeben sich in das dunkle Reich der Sphinx - und geraten dabei in eine Falle!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Layla",
+        "Speaker": "Saskia Weckler"
+      },
+      {
+        "Character": "Alaa Edine",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Abazza",
+        "Speaker": "Abdul Kader-Diab"
+      },
+      {
+        "Character": "Kamelhändler",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Kamelführer",
+        "Speaker": "Fathi Farnazmatis"
+      },
+      {
+        "Character": "Wärter",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Ägypter",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Rubbish George",
+        "Speaker": "Utz Richter"
+      },
+      {
+        "Character": "Kommissar",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Aisha",
+        "Speaker": "Susanne von Loessl"
+      },
+      {
+        "Character": "Verkäufer",
+        "Speaker": "Farhat Al Yhi"
+      },
+      {
+        "Character": "Dick Vincent",
+        "Speaker": "Holger Löwenberg"
+      },
+      {
+        "Character": "Taxifahrer",
+        "Speaker": "Wolf Pahlke"
+      }
+    ]
+  },
+  {
+    "Id": "586bc389-6a39-47c4-9705-4054250ca51a",
+    "Title": "Der Fluch des Drachen",
+    "NumberEuropa": 130,
+    "ReleaseDate": "2009-05-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/586bc389-6a39-47c4-9705-4054250ca51a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Justus Jonas von den drei Detektiven aus Rocky Beach ist schockiert: durch seine Schuld ist die wertvolle Vase, die ein Kunde auf dem Schrottplatz deponiert hatte, in tausend Scherben zersprungen. Die drei ??? haben 24 Stunden Zeit, um für Ersatz zu sorgen. Schnell zeigt sich, dass nicht nur Justus, Peter und Bob großes Interesse an einer dunkelblauen Vase mit weißem Drachenmotiv haben. Und die Gegner schrecken vor nichts zurück. Ein gefährliches Abenteuer nimmt seinen Lauf...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt [Andreas Beurmann]"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Beverly Leung",
+        "Speaker": "Susanne Stangl"
+      },
+      {
+        "Character": "Thomas Johnson",
+        "Speaker": "Lutz Herkenrath"
+      },
+      {
+        "Character": "1. Polizist",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "2. Polizist",
+        "Speaker": "Edgar Hoppe"
+      },
+      {
+        "Character": "James",
+        "Speaker": "Sönke Städtler"
+      },
+      {
+        "Character": "Daniel Baker",
+        "Speaker": "Sascha Rotermund"
+      },
+      {
+        "Character": "Mr. Grogan",
+        "Speaker": "Günter Flesch"
+      }
+    ]
   }
 ]
