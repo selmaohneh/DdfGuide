@@ -70,6 +70,8 @@ namespace DdfGuide.Parser
                     .InnerText
                     .Decode();
 
+                title = title.Split(':').Last();
+
                 return true;
             }
             catch (Exception)

@@ -63,7 +63,6 @@ namespace DdfGuide.Parser
                 allJson = JsonConvert.SerializeObject(allAudioDramas, Formatting.Indented);
                 File.WriteAllText("../../../dtos.json", allJson);
             }
-            Console.ReadLine();
         }
     }
 }
