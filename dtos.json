@@ -6245,5 +6245,583 @@
         "Speaker": "Corinna Wodrich"
       }
     ]
+  },
+  {
+    "Id": "eb05c46c-c8ca-4458-9614-9fdcabb132ab",
+    "Title": "Hexenhandy",
+    "NumberEuropa": 101,
+    "ReleaseDate": "2001-12-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/eb05c46c-c8ca-4458-9614-9fdcabb132ab.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der neuste Hit unter Teenagern in Rocky Beach:\"Hexen-Handys\"! Sie leuchten im Dunkeln giftgrün und statt zu klingeln, kichern sie gruselig. Doch dann legt sich ein düsterer Schatten auf das Küstenstädchen. Einige der stolzen Besitzer dieser Handys verschwinden auf unheimliche Weise. Zurück am Tatort bleiben nur die leuchtenden Mobiltelefone, auf deren Display die Teufelszahl 666 erscheint. Die drei Detektive Justus, Peter und Bob nehmen per Handy die Spur auf, ohne zu wissen, was sie am anderen Ende der Leitung erwartet...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Giorgio Cade",
+        "Speaker": "Bastian Pastewka"
+      },
+      {
+        "Character": "Monique Carrera",
+        "Speaker": "Amanda Lear"
+      },
+      {
+        "Character": "Mrs. Jones",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Jenny Collins",
+        "Speaker": "Anja Topf"
+      },
+      {
+        "Character": "Jeremy Scott",
+        "Speaker": "Woody Mues"
+      },
+      {
+        "Character": "Mrs. Scott",
+        "Speaker": "Hansi Jochmann"
+      },
+      {
+        "Character": "Oma Scott",
+        "Speaker": "Apollonia Minniger"
+      },
+      {
+        "Character": "Acer",
+        "Speaker": "Thomas Schüler"
+      }
+    ]
+  },
+  {
+    "Id": "b0b2dffa-bcfe-4c8b-afe1-9b70f1239f36",
+    "Title": "Doppelte Täuschung",
+    "NumberEuropa": 102,
+    "ReleaseDate": "2002-03-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b0b2dffa-bcfe-4c8b-afe1-9b70f1239f36.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bob gerät mitten in einen Banküberfall und kann für Bruchteile von Sekunden das Gesicht des Täters sehen. Während die drei ??? das erstellte Phantombild genau studieren, stattet der Bankräuber ihnen einen Besuch in der Zentrale ab. Zunächst scheint geklärt, dass es sich bei ihrem neuen Auftraggeber um den Zwillingsbruder des Verdächtigen handelt. Doch schon bald wissen Justus, Peter und Bob nicht mehr, mit welchem der Brüder sie es zu tun haben. Ein gefährliches Verwirrspiel beginnt.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "King",
+        "Speaker": "Wolfgang Condrus"
+      },
+      {
+        "Character": "Jenny Collins",
+        "Speaker": "Anja Topf"
+      },
+      {
+        "Character": "Tricia Wilson",
+        "Speaker": "Ursula Vogel"
+      },
+      {
+        "Character": "Goodween",
+        "Speaker": "André Minninger"
+      }
+    ]
+  },
+  {
+    "Id": "2c56a440-7877-48da-ab43-34239979c235",
+    "Title": "Die drei ??? Das Erbe des Meisterdiebes",
+    "NumberEuropa": 103,
+    "ReleaseDate": "2002-05-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2c56a440-7877-48da-ab43-34239979c235.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der berühmte Meisterdieb Victor Hugenay ist tot! In einem rätselhaften Testament hinterlässt er Hinweise auf bisher unentdecktes Diebesgut: einige wertvolle Gemälde. Eine Herausforderung für Justus` Superhirn! Aber der Erste Detektiv lässt sich diesmal von seiner Arbeit ablenken. Was ist los mit dem Kopf der drei Detektive? Als ein geheimnisvoller Unbekannter ebenfalls hinter dem Bilderversteck her zu sein scheint, müssen Justus, Peter und Bob zeigen, was in ihnen steckt.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Brittany",
+        "Speaker": "Dorette Hugo"
+      },
+      {
+        "Character": "Victor Hugenay",
+        "Speaker": "Albert Giro [Wolfgang Kubach]"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Wilbur Graham",
+        "Speaker": "Thomas Bammer"
+      },
+      {
+        "Character": "Bruder Raphael",
+        "Speaker": "Siegfried Kernen"
+      },
+      {
+        "Character": "Inspektor Berger",
+        "Speaker": "Jan Buchwald"
+      },
+      {
+        "Character": "Baldwin",
+        "Speaker": "Gerhart Hinze"
+      }
+    ]
+  },
+  {
+    "Id": "432fbdb6-243b-4e47-9946-106f807b4843",
+    "Title": "Gift per e-mail",
+    "NumberEuropa": 104,
+    "ReleaseDate": "2002-07-08T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/432fbdb6-243b-4e47-9946-106f807b4843.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Achtung Feuerquallen!- Beim Tauchen vor der Küste von Rocky Beach kann Mrs Baker den giftigen Tieren in letzter Sekunde entkommen. Aber dann erscheinen die Quallen plötzlich per E-Mail auf Mrs Bakers Computerbildschirm und bedrohen nicht nur ihre Dateien, sondern auch ihr Leben. Mit Hilfe von Tom Wood - einem Computerspezialisten - nehmen die drei ??? die Spur des anonymen Absenders auf. Wenn da nur nicht Dick Perry wäre, ein überheblicher Detektiv aus Santa Monica, der Justus, Peter und Bob die Ermittlung mehr als schwer macht ...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Dick Perry",
+        "Speaker": "Ernst Hilbich"
+      },
+      {
+        "Character": "Mrs. Meg Baker",
+        "Speaker": "Lotti Krekel"
+      },
+      {
+        "Character": "Mrs. Wood",
+        "Speaker": "Elga Schütz"
+      },
+      {
+        "Character": "Jack Sharky",
+        "Speaker": "Stefan Babic"
+      },
+      {
+        "Character": "Betty Shutton",
+        "Speaker": "Regina Pressler"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      }
+    ]
+  },
+  {
+    "Id": "b4f6bfd3-2699-4a76-bc82-f1e7521e54ec",
+    "Title": "Der Nebelberg",
+    "NumberEuropa": 105,
+    "ReleaseDate": "2002-09-16T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b4f6bfd3-2699-4a76-bc82-f1e7521e54ec.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine Wandertour in den Rocky Mountains - Peter und Bob sind begeistert! Doch unterwegs hüllt auf einmal ein undurchdringlicher Nebel den Berggipfel ein und die Wandergruppe wird von einer geisterhaften Erscheinung überrascht. \"Das Phantom ist zurückgekehrt\", murmeln die Alten des nahe gelegenen Bergdorfes. Da fängt der Erste Detektiv Feuer, denn neben der körperlichen Anstrengung sind jetzt seine Gehirnzellen gefragt. Was steckt hinter der Spukerscheinung? Die drei ??? müssen diesmal besonders klug vorgehen, um die wortkargen Einsiedler zum Sprechen zu bringen.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Joanna Masterson",
+        "Speaker": "Barbara Marcks"
+      },
+      {
+        "Character": "Jack Masterson",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Sarah Masterson",
+        "Speaker": "Nadja Reichardt"
+      },
+      {
+        "Character": "Mr Harry Falkner",
+        "Speaker": "Wolfgang Hartmann"
+      },
+      {
+        "Character": "Harvey Ashford",
+        "Speaker": "Rolf E. Schenker"
+      },
+      {
+        "Character": "Marc",
+        "Speaker": "Hartmut Kollakowski"
+      }
+    ]
+  },
+  {
+    "Id": "59fc8275-fb09-43bf-becb-a4cfb7541bac",
+    "Title": " Der Mann ohne Kopf",
+    "NumberEuropa": 106,
+    "ReleaseDate": "2002-09-16T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/59fc8275-fb09-43bf-becb-a4cfb7541bac.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "`DJ-Devil´, von der Presse auch reißerisch `Satans-DJ´ genannt, scheint wahrlich über teuflische Fähigkeiten zu verfügen. Der geheimnisvolle Discjockey ohne Kopf entlockt am Wochenende seinem Mischpult die unheimlichsten Beats, die die tanzenden Besucher in rasende Euphorie versetzen. Doch plötzlich gerät die Szenerie außer Kontrolle. Die drei ??? sind an diesem Abend zufällige Besucher in der Diskothek `Planet-Evil´ und werden Zeugen eines unheimlichen Phänomens, das Justus an die Grenzen seiner Logik katapultiert ...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Amy Scream",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Monique Carrera",
+        "Speaker": "Amanda Lear"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Ellen",
+        "Speaker": "Celine Fontanges"
+      },
+      {
+        "Character": "Pam",
+        "Speaker": "Enie van de Meiklokjes"
+      },
+      {
+        "Character": "Jim Cowley",
+        "Speaker": "Cäsar"
+      },
+      {
+        "Character": "Jeffrey",
+        "Speaker": "Kim Alexander Frank"
+      },
+      {
+        "Character": "Mandy Robin",
+        "Speaker": "Manuela Dahm"
+      },
+      {
+        "Character": "1. Sanitäter",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "2. Sanitäter",
+        "Speaker": "Hartmut Kollakowsky"
+      },
+      {
+        "Character": "Bardame",
+        "Speaker": "Monique Carrera [Amanda Lear]"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Diskothekenbesucher",
+        "Speaker": "Echt"
+      }
+    ]
+  },
+  {
+    "Id": "474744b5-a6b7-41d7-8581-8530b5e76101",
+    "Title": "Die drei ??? Der Schatz der Mönche",
+    "NumberEuropa": 107,
+    "ReleaseDate": "2003-01-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/474744b5-a6b7-41d7-8581-8530b5e76101.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "\"Ich möchte Peter Shaw sprechen. Es ist dringend.\" - \"Worum geht es denn, Mister?\"- \"Um sein Leben.\" Eigentlich hatte Peter nur nach einem geeigneten Drehort für ein Filmprojekt an der Schule gesucht. Doch in der verlassenen Fabrikhalle findet er mehr als nur einen stimmungsvollen Schauplatz für den geplanten Kriminalfilm: ein geheimnisvolles Kästchen, einen Zettel mit merkwürdigen Schriftzeichen - und einen messerwerfenden Asiaten, der sich sofort an seine Fersen heftet. Und das ist erst der Auftakt zu einem neuen Fall für die drei ???",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Lama Geshe",
+        "Speaker": "Rolf Nagel"
+      },
+      {
+        "Character": "Tai Sutsi",
+        "Speaker": "Dr. Boo Young-Shin"
+      },
+      {
+        "Character": "Chuck",
+        "Speaker": "Yan Kimsang"
+      },
+      {
+        "Character": "Vinaya",
+        "Speaker": "Prof. Dr. Zhu"
+      },
+      {
+        "Character": "Mr Zhang",
+        "Speaker": "Ingo Feder"
+      },
+      {
+        "Character": "Lesley Dimple",
+        "Speaker": "Maja Stehli [Ingeborg Kantstein ?]"
+      },
+      {
+        "Character": "Mrs. Wilbur",
+        "Speaker": "Ingeburg Kanstein"
+      }
+    ]
+  },
+  {
+    "Id": "070a61f0-69b7-4c3f-bdc5-741ddb2d00b8",
+    "Title": "Die sieben Tore",
+    "NumberEuropa": 108,
+    "ReleaseDate": "2003-04-07T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/070a61f0-69b7-4c3f-bdc5-741ddb2d00b8.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Wer ist der unheimliche Mr Carter, der in einem düsteren Schloss lebt und aussieht wie ein abgemagerter Vogel? Auch sein Auftrag für die drei ??? ist mehr als seltsam: \"Findet das Versteck bei den sieben Toren\". Was zunächst harmlos klingt, entpuppt sich als äußerst gefährliches Unterfangen. Justus, Peter und Bob müssen Räume betreten, deren Türen sie besser nicht geöffnet hätten, und entdecken dabei Unglaubliches...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Caspar Carter",
+        "Speaker": "Claus Wilcke"
+      },
+      {
+        "Character": "Enid",
+        "Speaker": "Janina Richter"
+      },
+      {
+        "Character": "Albert",
+        "Speaker": "Wolf Rathjen"
+      },
+      {
+        "Character": "Montgomery",
+        "Speaker": "Hans Sievers"
+      }
+    ]
+  },
+  {
+    "Id": "cee0c630-9e9a-42ee-acb0-b2370672d401",
+    "Title": " Gefährliches Quiz",
+    "NumberEuropa": 109,
+    "ReleaseDate": "2003-04-07T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/cee0c630-9e9a-42ee-acb0-b2370672d401.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Hochspannung im Studio: Die Kamera läuft, die Scheinwerfer sind auf Justus gerichtet: Wird er alle Fragen in der beliebten Quiz-Show Wer knackt die Nuss? beantworten können? Er muss. Das Leben eines Menschen hängt davon ab. Skrupellose Gangster haben einen raffinierten Plan ausgeheckt. Und wieder einmal müssen Die drei ??? scharf kombinieren, um den Verbrechern auf die Spur zu kommen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Nick Nobel",
+        "Speaker": "Ilja Richter"
+      },
+      {
+        "Character": "Sandy",
+        "Speaker": "Micaela Kreissler"
+      },
+      {
+        "Character": "Bill",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Mike Pherson",
+        "Speaker": "Wolf-Dietrich Berg"
+      },
+      {
+        "Character": "Assistent",
+        "Speaker": "Martin Meyer"
+      },
+      {
+        "Character": "Clarissa",
+        "Speaker": "Theresa Underberg"
+      },
+      {
+        "Character": "Veronica",
+        "Speaker": "Saskia Weckler"
+      },
+      {
+        "Character": "Joe",
+        "Speaker": "Jan-David Rönfeldt"
+      },
+      {
+        "Character": "Sekretärin",
+        "Speaker": "Traudel Sperber"
+      }
+    ]
+  },
+  {
+    "Id": "8fa4eadc-5dd2-4b84-a7cf-bc420ecfb2c1",
+    "Title": "Die Drei ??? Panik im Park",
+    "NumberEuropa": 110,
+    "ReleaseDate": "2003-06-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8fa4eadc-5dd2-4b84-a7cf-bc420ecfb2c1.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Panik in Rocky Beach! Plötzlich werden im Stadtpark harmlose Hunde zu wilden Bestien, die sogar Menschen angreifen. Hat der seltsame schwarze Stein, den die drei ??? im Park entdecken, etwas mit dem gefährlichen Verhalten der Tiere zu tun? Wo kommt er her? Welches Geheimnis birgt er in sich? Justus, Peter und Bob machen sich mit Feuereifer auf die Suche. Unversehens geraten sie in ein neues atemberaubendes und gefährliches Abenteuer. Aber sind sie tatsächlich auf der richtigen Spur?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Pablo",
+        "Speaker": "Kai Hendrik Möller"
+      },
+      {
+        "Character": "Dr. Brolin",
+        "Speaker": "Karl-Friedrich Gerster"
+      },
+      {
+        "Character": "Jenkins",
+        "Speaker": "Gustav-Adolph Artz"
+      },
+      {
+        "Character": "Professor Clark",
+        "Speaker": "Thor W.Müller"
+      },
+      {
+        "Character": "Bürgermeister Hoover",
+        "Speaker": "Michael Griem"
+      },
+      {
+        "Character": "Margie",
+        "Speaker": "Susanne Leu"
+      },
+      {
+        "Character": "Mike",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Clark",
+        "Speaker": "Wolf Rathjen"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Kristian Kretschmer"
+      }
+    ]
   }
 ]
