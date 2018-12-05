@@ -12,17 +12,12 @@ namespace DdfGuide.Android
     {
         private Core.DdfGuide _ddfGuide;
 
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-        }
 
-        protected override async void OnStart()
-        {
-            base.OnStart();
-            
             var filler = new ImageViewFiller();
             var audioDramaListView = new AudioDramaListView(filler);
             var audioDramaView = new AudioDramaView(filler);
@@ -38,8 +33,8 @@ namespace DdfGuide.Android
                 dtoCache,
                 userDataCache,
                 shutdown
-                );
-            
+            );
+
             await _ddfGuide.Start();
         }
 
