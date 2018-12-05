@@ -57,7 +57,7 @@ namespace DdfGuide.Parser
                     client.DownloadFile(coverUrl, "../../../Covers/" + dto.Id + ".jpg");
                 }
 
-                dto.CoverUrl = $"https://github.com/selmaohneh/DdfGuide/blob/master/Covers/{dto.Id}.jpg";
+                dto.CoverUrl = $"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/{dto.Id}.jpg";
 
                 allAudioDramas.Add(dto);
                 allJson = JsonConvert.SerializeObject(allAudioDramas, Formatting.Indented);
