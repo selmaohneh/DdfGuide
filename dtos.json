@@ -325,5 +325,76 @@
         "Speaker": "Gernot Endemann"
       }
     ]
+  },
+  {
+    "Id": "deb22d59-5781-45b1-aceb-b72e085f2119",
+    "Title": "...und der sprechende Totenkopf",
+    "NumberEuropa": 6,
+    "ReleaseDate": "1979-10-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/deb22d59-5781-45b1-aceb-b72e085f2119.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bob und Peter halten von Anfang an nicht viel davon, daß ihr Freund Justus auf einer Versteigerung ausgerechnet einen uralten Koffer mit unbekanntem Inhalt ersteigern will. Hätten sie geahnt, welch gefährliche Verwicklungen sich aus dem Besitz des Koffers ergeben würden - sie hätten noch weit heftiger protestiert! Nicht genug damit, daß er neben den Kleidern und Utensilien eines Zauberkünstlers einen Totenkopf enthält: der merkwürdige Schädel kann auch noch sprechen! Ziemlicher Schock für die drei Detektive, die keinesfalls an Spuk glauben. Und kaum beginnen sie, dieses Geheimnis zu ergründen, da ist schon eine ganze Bande Dunkelmänner hinter ihnen und dem Koffer her. Die rätselhaften Sprüche des Totenkopfes führen die drei ??? zu einer wahrsagenden Zigeunerin, auf die Spur des verschollenen Zauberkünstlers und eines unaufgeklärten Bankraubes. Doch als sie den letzten Hinweis zur Lösung des Falles in Händen halten, scheint alles schiefzugehen...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Patrick Kenneth",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Gulliver",
+        "Speaker": "Joachim Wolff"
+      },
+      {
+        "Character": "Mr. Maximillian",
+        "Speaker": "Richard Lauffen"
+      },
+      {
+        "Character": "Hauptkommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Mrs. Miller",
+        "Speaker": "Marianne Wolters [Marianne Kehlau]"
+      },
+      {
+        "Character": "Mr. Grant",
+        "Speaker": "Hans Meinhardt [Lothar Grützner]"
+      },
+      {
+        "Character": "Auktionator",
+        "Speaker": "Gerlach Fiedler"
+      },
+      {
+        "Character": "Fred Brown",
+        "Speaker": "Peter Buchholz"
+      },
+      {
+        "Character": "Hauswirt",
+        "Speaker": "Reiner Brönneke"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Karl-Ulrich Meves"
+      }
+    ]
   }
 ]
