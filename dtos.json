@@ -2274,5 +2274,918 @@
         "Speaker": "Edgar Bessen"
       }
     ]
+  },
+  {
+    "Id": "5f53a2d3-970e-41fd-a653-230176d9b598",
+    "Title": "...und der Super-Wal",
+    "NumberEuropa": 36,
+    "ReleaseDate": "1985-05-29T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/5f53a2d3-970e-41fd-a653-230176d9b598.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Justus, Bob und Peter retten einen Wal, der bei Ebbe ins allzu flache Wasser geraten ist. Damit beginnt eine Reihe von gefährlichen Abenteuern. Der Wal wird dressiert und soll für Bergungsarbeiten eingesetzt werden. Doch damit ist irgend jemand gar nicht einverstanden! Was liegt da Geheimnisvolles auf dem Meeresgrund? Justus muß sich gewaltig anstrengen, um schließlich das Geheimnis lüften zu können...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Constance",
+        "Speaker": "Heidi Schaffrath"
+      },
+      {
+        "Character": "Slater",
+        "Speaker": "Helmut Ahner"
+      },
+      {
+        "Character": "Donner",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Fischer",
+        "Speaker": "F.-J. Steffens"
+      },
+      {
+        "Character": "Ocean-World-Mitarbeiter",
+        "Speaker": "Peter Lakenmacher, Christian Rode"
+      }
+    ]
+  },
+  {
+    "Id": "bed66491-12d0-4976-91f4-0a55cec241f4",
+    "Title": "...und der heimliche Hehler",
+    "NumberEuropa": 37,
+    "ReleaseDate": "1985-11-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bed66491-12d0-4976-91f4-0a55cec241f4.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein fünfjähriger Junge verschwindet. Wurde er entführt? Ist er weggelaufen? Die drei Detektive machen sich daran, die Frage zu klären. Und sie kommen weiteren Geheimnissen auf die Spur. Was verbirgt sich in dem alten Hotel? Warum maskiert sich Mr. Burton? Die drei ??? kommen zu einer überraschenden Lösung des Falles...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Regina",
+        "Speaker": "Ursela Monn"
+      },
+      {
+        "Character": "Teddy",
+        "Speaker": "Simon Jäger"
+      },
+      {
+        "Character": "Mrs. Peabody",
+        "Speaker": "Gisela Trowe"
+      },
+      {
+        "Character": "Burton",
+        "Speaker": "Günther Pfitzmann"
+      },
+      {
+        "Character": "Kommissar",
+        "Speaker": "Günther Flesh"
+      },
+      {
+        "Character": "Mooch",
+        "Speaker": "Joachim Richert"
+      },
+      {
+        "Character": "Mr. Conine",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Fergus",
+        "Speaker": "Günter Dockerill"
+      }
+    ]
+  },
+  {
+    "Id": "d0885e1a-51c8-4794-9d00-343eda028f31",
+    "Title": "...und der unsichtbare Gegner",
+    "NumberEuropa": 38,
+    "ReleaseDate": "1986-03-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d0885e1a-51c8-4794-9d00-343eda028f31.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ben Peck, Peters Großvater, hat eine Reihe von Erfindungen gemacht und jetzt will er eine davon in New York verkaufen. Aber er hat ständig Angst, daß man ihm sein geistiges Eigentum stiehlt. Da ist vor allem Ed Snabel. Was hat dieser Mann vor? Warum verfolgt er Ben Peck? Die drei Detektive erleben eine atemberaubende Jagd quer durch Amerika...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mrs. Shaw",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Mr. Peck",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Ed Snabel",
+        "Speaker": "Horst Naumann"
+      },
+      {
+        "Character": "Bartlett",
+        "Speaker": "Jochen Sehrndt"
+      },
+      {
+        "Character": "FBI-Agent Anderson",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Passantin",
+        "Speaker": "Ingrid Andree"
+      }
+    ]
+  },
+  {
+    "Id": "22c37ac8-b69d-456d-b09c-78b9218da418",
+    "Title": " und die Perlenvögel",
+    "NumberEuropa": 39,
+    "ReleaseDate": "1986-03-18T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/22c37ac8-b69d-456d-b09c-78b9218da418.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei Detektive finden eine vergessene Brieftaube und damit beginnt ein geheimnisvolles Abenteuer, bei dem es um wertvolle Perlen und ermordete Vögel geht. Die drei ??? stehen vor vielen Rätsel, aber sie geben nicht auf. - Doch dann richtet sich der Lauf einer Pistole auf sie...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Blinky",
+        "Speaker": "Günter König"
+      },
+      {
+        "Character": "Miss Melody",
+        "Speaker": "Gisela Trowe"
+      },
+      {
+        "Character": "Frisbee",
+        "Speaker": "Hans Paetsch"
+      }
+    ]
+  },
+  {
+    "Id": "0bcc6338-a7c1-41c2-b993-09c15b69e186",
+    "Title": "...und der Automarder",
+    "NumberEuropa": 40,
+    "ReleaseDate": "1986-11-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0bcc6338-a7c1-41c2-b993-09c15b69e186.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In Rocky Beach klirren die Autoscheiben, die ein geheimnisvoller Automarder serienweise zertrümmert. Und nicht nur das: Ein Adler verschwindet. Ein Fall, der selbst für die drei Detektive unlösbar zu sein scheint. Doch dann geht dem Ersten Detektiv ein Licht auf!",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Jacobs",
+        "Speaker": "Horst Naumann"
+      },
+      {
+        "Character": "Paul Jacobs",
+        "Speaker": "Sascha Draeger"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Gottfried Kramer"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingeborg Kallweit"
+      },
+      {
+        "Character": "Mr. Temple",
+        "Speaker": "Jochen Sehrndt"
+      },
+      {
+        "Character": "Sarah Temple",
+        "Speaker": "Svenja Pages"
+      },
+      {
+        "Character": "Willard Temple",
+        "Speaker": "Ben Becker"
+      },
+      {
+        "Character": "Polizeileutnant",
+        "Speaker": "Günter König"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Hauptkomm. Reynolds",
+        "Speaker": "Günter Flesch"
+      },
+      {
+        "Character": "Margon",
+        "Speaker": "Henry Kielmann"
+      },
+      {
+        "Character": "William Margon",
+        "Speaker": "Michael Grimm"
+      },
+      {
+        "Character": "Passanten",
+        "Speaker": "Lothar Grützner, Hans Hessling"
+      }
+    ]
+  },
+  {
+    "Id": "ebc64109-3403-48b1-bd36-79152bd06a49",
+    "Title": "...und das Volk der Winde",
+    "NumberEuropa": 41,
+    "ReleaseDate": "1987-09-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/ebc64109-3403-48b1-bd36-79152bd06a49.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der Wissenschaftler Arnold Brewster ruft die drei Detektive zu Hilfe, denn durch eine Intrige ist er in ein Altersheim abgeschoben worden. Justus, Bob und Peter versuchen, ihm zu helfen. Sie kommen dabei einem geheimnisvollen Geschehen auf die Spur, bei dem es um Indianer, Gold und einen rätselhaften Tanzenden Saurier geht. Tödliche Gefahren lauern auf die drei ???...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Brewster",
+        "Speaker": "Horst Naumann"
+      },
+      {
+        "Character": "Clifford",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Marie",
+        "Speaker": "Svenja Pages"
+      },
+      {
+        "Character": "Zindler",
+        "Speaker": "Karl Walter Diess"
+      },
+      {
+        "Character": "Pamir",
+        "Speaker": "Manfred Steffen"
+      },
+      {
+        "Character": "Martin",
+        "Speaker": "Frank-Dieter Tausch"
+      },
+      {
+        "Character": "Botin",
+        "Speaker": "Beate Hasenau"
+      },
+      {
+        "Character": "Kellner",
+        "Speaker": "Helmut Ahner"
+      }
+    ]
+  },
+  {
+    "Id": "643ef9bf-8d4c-40ac-aa4f-f7d136fe2abe",
+    "Title": "...und der weinende Sarg",
+    "NumberEuropa": 42,
+    "ReleaseDate": "1987-10-26T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/643ef9bf-8d4c-40ac-aa4f-f7d136fe2abe.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei Detektive sind dem Geheimnis eines verborgenen Tresors auf der Spur. Der neugierige Michael ist es, der ihnen den ersten Tip gibt; drei Totenköpfe auf einem Sarg scheinen Wegweiser zu sein. Doch schnell wird es gefährlich, denn in der Nähe des Sargs ist es nicht geheuer - schon gar nicht, wenn mitten in der Nacht das Käuzchen ruft...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Michael Cross",
+        "Speaker": "Matthias Klimser"
+      },
+      {
+        "Character": "Mrs. Cross",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Mr. Cross",
+        "Speaker": "Horst Naumann"
+      },
+      {
+        "Character": "Grady Markels",
+        "Speaker": "Gerd Baltus"
+      },
+      {
+        "Character": "Brackmann",
+        "Speaker": "F. J. Steffens"
+      },
+      {
+        "Character": "Margie",
+        "Speaker": "Monika Gabriel"
+      },
+      {
+        "Character": "Nachrichtensprecher",
+        "Speaker": "Diess Günter Flesh"
+      },
+      {
+        "Character": "Sawyer",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Museumsbesucherin",
+        "Speaker": "Beate Hasenau"
+      },
+      {
+        "Character": "Gärtner",
+        "Speaker": "Günter Dockerill"
+      },
+      {
+        "Character": "Mr. Rossing",
+        "Speaker": "Eric Vaessen"
+      },
+      {
+        "Character": "Rossings Assistentin",
+        "Speaker": "Claudia Schermutzki"
+      }
+    ]
+  },
+  {
+    "Id": "7e8fe391-83bc-48be-895d-a2c5f5324071",
+    "Title": "...und der höllische Werwolf",
+    "NumberEuropa": 43,
+    "ReleaseDate": "1988-10-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7e8fe391-83bc-48be-895d-a2c5f5324071.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein Werwolf macht Hollywood unsicher. Er verübt Überfall auf Überfall - und dabei geht es ihm nur um kleine Teddybären. Justus, Bob und Peter machen einen seltsamen Fund am Strand und kommen so auf die Spur des Verbrechers. Sie haben ihr vielleicht gefährlichstes Abenteuer zu bestehen...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Lucille",
+        "Speaker": "Petra Kaminski"
+      },
+      {
+        "Character": "Charles",
+        "Speaker": "Henry Kielmann"
+      },
+      {
+        "Character": "McLain",
+        "Speaker": "Rolf Jülich"
+      },
+      {
+        "Character": "Verleiher",
+        "Speaker": "Hartmut Kollakowsky"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Beate Hasenau"
+      },
+      {
+        "Character": "Sears",
+        "Speaker": "Manfred Liptow"
+      },
+      {
+        "Character": "Evans",
+        "Speaker": "Bernd Fallske"
+      },
+      {
+        "Character": "Pelzhändler",
+        "Speaker": "Eric Vaessen"
+      },
+      {
+        "Character": "Kom. Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Lucilles Mutter",
+        "Speaker": "Astrid Kollex"
+      },
+      {
+        "Character": "Sekretärin",
+        "Speaker": "Eva Gelb"
+      },
+      {
+        "Character": "Mädchen",
+        "Speaker": "Veronika Neugebauer"
+      },
+      {
+        "Character": "Junge 1",
+        "Speaker": "Manou Lubowski"
+      },
+      {
+        "Character": "Junge 2",
+        "Speaker": "Niki Nowotny"
+      }
+    ]
+  },
+  {
+    "Id": "6290a71a-d904-4125-b0dd-728d41481afd",
+    "Title": "...und der gestohlene Preis",
+    "NumberEuropa": 44,
+    "ReleaseDate": "1988-10-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6290a71a-d904-4125-b0dd-728d41481afd.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die Vergangenheit holt Justus wieder ein. Er hat als Kind in dem Film Die kleinen Strolche mitgespielt. Nun soll er noch einmal als Baby Fatso ins Licht der Öffentlichkeit treten. Das gefällt ihm überhaupt nicht, doch plötzlich entwickelt sich ein Fall für die drei Detektive daraus und ihr Interesse ist geweckt. Vor allem, als sie erfahren, daß es um 20.000 Dollar geht.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Milton",
+        "Speaker": "Horst Naumann"
+      },
+      {
+        "Character": "Bonehead",
+        "Speaker": "Sascha Draeger"
+      },
+      {
+        "Character": "Peggy",
+        "Speaker": "Veronika Neugebauer"
+      },
+      {
+        "Character": "Footsie",
+        "Speaker": "Niki Nowotny"
+      },
+      {
+        "Character": "Bloodhound",
+        "Speaker": "Manou Lubowski"
+      },
+      {
+        "Character": "Lomax",
+        "Speaker": "Peter Pantel [Wolf Rahtjen]"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Dorothea Kaiser"
+      },
+      {
+        "Character": "Gordon Harker",
+        "Speaker": "Stefan Brönneke"
+      }
+    ]
+  },
+  {
+    "Id": "27bfb490-1d5a-4b9a-a410-65765c186abc",
+    "Title": "...und das Gold der Wikinger",
+    "NumberEuropa": 45,
+    "ReleaseDate": "1989-04-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/27bfb490-1d5a-4b9a-a410-65765c186abc.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Auf der Insel Ragnarson Rock geschehen geheimnisvolle Dinge! Fotos, die Bob gemacht hat, müssen der Schlüssel sein. Doch Justus, Bob und Peter - die drei Detektive - können zunächst Besonderes darauf entdecken. Aber dann heult ein Wolf auf der Insel und Justus spitzt die Ohren. Kommt er dem Geheimnis auf die Spur?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ingmar Ragnarson",
+        "Speaker": "Rolf E. Schenker"
+      },
+      {
+        "Character": "Karl Ragnarson",
+        "Speaker": "Utz Richter"
+      },
+      {
+        "Character": "Sam Ragnarson",
+        "Speaker": "Marco Kröger"
+      },
+      {
+        "Character": "Mr. Manning",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Mrs. Manning",
+        "Speaker": "Julia Mahnkopf"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Mrs. Andrews",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Manfred Bendixen"
+      },
+      {
+        "Character": "Mathilda",
+        "Speaker": "Ursula Vogel"
+      }
+    ]
+  },
+  {
+    "Id": "a3036bf3-a000-41bb-938f-cb0fd68bfd24",
+    "Title": "...und der schrullige Millionär",
+    "NumberEuropa": 46,
+    "ReleaseDate": "1989-04-08T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a3036bf3-a000-41bb-938f-cb0fd68bfd24.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Als bei der Verlobung seiner Tochter ein Teller zu Boden fällt, erleidet der geizige Millionär Pilcher einen Herzanfall. Er scheint dem Tode nahe, doch dann ist er plötzlich verschwunden. Wurde er entführt? Die drei Detektive versuchen, das Rätsel zu lösen, und Justus fordert seine Kollegen zum logischen Denken auf...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Harry Burnside",
+        "Speaker": "Thomas Naumann"
+      },
+      {
+        "Character": "Millionär Pilcher",
+        "Speaker": "Michael von Raspatt"
+      },
+      {
+        "Character": "Marilyn Pilcher",
+        "Speaker": "Gabi Libbach"
+      },
+      {
+        "Character": "Sekretär Sanchez",
+        "Speaker": "Walter Eltz"
+      },
+      {
+        "Character": "Harald Durham",
+        "Speaker": "Ernst A. Frantz"
+      },
+      {
+        "Character": "Frau Durham",
+        "Speaker": "Micaela Kreißler"
+      },
+      {
+        "Character": "Jim Westerbrook",
+        "Speaker": "Michael Quiatkowski"
+      },
+      {
+        "Character": "Mrs. Westerbrook",
+        "Speaker": "Gerlinde Dillge"
+      },
+      {
+        "Character": "Dr. Gonzaga",
+        "Speaker": "Michael Liptow"
+      },
+      {
+        "Character": "Ramon Navarro",
+        "Speaker": "Norbert Lange"
+      }
+    ]
+  },
+  {
+    "Id": "e18fa4be-00e8-497a-ad35-79486d66fabc",
+    "Title": "...und der giftige Gockel",
+    "NumberEuropa": 47,
+    "ReleaseDate": "1989-11-24T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e18fa4be-00e8-497a-ad35-79486d66fabc.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Millionen werden sterben! flüstert das Unfallofper. - Wer ist der Täter? Die drei Detektive schalten sich ein, und ein Wettlauf mit der Zeit beginnt! Schon bald merken die drei Freunde, daß sie auf der richtigen Spur sind, denn ihr unbekannter Gegner schlägt zurück...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Kelly",
+        "Speaker": "Kerstin Draeger"
+      },
+      {
+        "Character": "Julia Crown",
+        "Speaker": "Tessa Gasser"
+      },
+      {
+        "Character": "Big Barney Crown",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Schwester Lazar",
+        "Speaker": "Hildegard Krekel"
+      },
+      {
+        "Character": "Don Dellasandro",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Pandro Mischkin",
+        "Speaker": "Michael Hark"
+      },
+      {
+        "Character": "Kranführer Dick",
+        "Speaker": "Ernst von Klippstein"
+      }
+    ]
+  },
+  {
+    "Id": "417e293d-7391-4f77-8969-fe84ec297b5a",
+    "Title": "...und die gefährlichen Fässer",
+    "NumberEuropa": 48,
+    "ReleaseDate": "1989-11-25T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/417e293d-7391-4f77-8969-fe84ec297b5a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei Detektive und Bobs Vater stürzen mit dem Flugzeug ab - mitten in ein Tal voller Geheimnisse und Gefahren. Merkwürdige, von Dämonen besessene Indianer tun rätselhafte Dinge, und dann stellt jemand den drei ??? eine tödliche Falle...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Herr Andrews",
+        "Speaker": "Günter König"
+      },
+      {
+        "Character": "Daniel",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Mary",
+        "Speaker": "Anja Ziemer"
+      },
+      {
+        "Character": "Häuptling Turner",
+        "Speaker": "Norbert Lange"
+      },
+      {
+        "Character": "Schamane",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Unternehmer Mancarrow",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Ganove Biff",
+        "Speaker": "Lutz Harder"
+      },
+      {
+        "Character": "Ganove George",
+        "Speaker": "Manfred Liptow"
+      }
+    ]
+  },
+  {
+    "Id": "0a87af7a-e5d4-45dd-a7bb-2cce36a38766",
+    "Title": "...und die Comic-Diebe",
+    "NumberEuropa": 49,
+    "ReleaseDate": "1990-11-26T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0a87af7a-e5d4-45dd-a7bb-2cce36a38766.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Auf der InterComiCon werden Comics von unersetzlichem Wert gestohlen, und die drei ??? stehen unmittelbar daneben. Sie versuchen, den Fall aufzuklären, doch es erscheint zunächst unmöglich den Dieb zu finden. Dann aber ergibt sich eine Spur! Sofort reagiert der Dieb, und Peter entgeht nur ganz knapp einem tödlichen Anschlag...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Axel Griswold",
+        "Speaker": "Helgo Liebig"
+      },
+      {
+        "Character": "Purvis",
+        "Speaker": "Heiner Kramm"
+      },
+      {
+        "Character": "Dan DeMento",
+        "Speaker": "Peter Heinrich"
+      },
+      {
+        "Character": "Leo Rottweiler",
+        "Speaker": "Rainer Brönneke"
+      },
+      {
+        "Character": "Steve Trash",
+        "Speaker": "Thomas Naumann"
+      },
+      {
+        "Character": "Rainey Fields",
+        "Speaker": "Xenia Hey"
+      },
+      {
+        "Character": "Junge",
+        "Speaker": "Leonhard Mahlich"
+      }
+    ]
+  },
+  {
+    "Id": "c459f8a7-7150-4675-ad76-5ee70d985529",
+    "Title": " und der verschwundene Filmstar",
+    "NumberEuropa": 50,
+    "ReleaseDate": "1991-03-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c459f8a7-7150-4675-ad76-5ee70d985529.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein Filmstar verschwindet - Diller Rourke, Hauptdarsteller im Horrorstreifen Atemlos II, erscheint nicht zu den Dreharbeiten auf dem Friedhof. Die Zentrale der drei ??? wird überfallen und verwüstet. Trotzdem heften sie sich an die Fersen von Erfolgsproduzent Marty Morningbaum, seinem Regisseur und dem mysteriösen Kristallkugel-Guru mit dem dritten Auge. Eine knallharte Betrugsgeschichte, live aus dem glitzernden Show-Geschäft.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Jon Travis",
+        "Speaker": "Rolf Becker"
+      },
+      {
+        "Character": "Marty Morningbaum",
+        "Speaker": "Helmut Ahner"
+      },
+      {
+        "Character": "Diller Rourke",
+        "Speaker": "Michael Quiatkowsky"
+      },
+      {
+        "Character": "Marble Ackbourne-Smith",
+        "Speaker": "Wolf Rathjen"
+      },
+      {
+        "Character": "Margo",
+        "Speaker": "Hanni Vanhaiden"
+      },
+      {
+        "Character": "Kevin",
+        "Speaker": "Fred Maire"
+      },
+      {
+        "Character": "Herr Andrews",
+        "Speaker": "Günter König"
+      }
+    ]
   }
 ]
