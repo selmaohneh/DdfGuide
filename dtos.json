@@ -652,5 +652,336 @@
         "Speaker": "Gernot Endemann"
       }
     ]
+  },
+  {
+    "Id": "de55500e-e02d-4c20-b07c-f413a695599a",
+    "Title": "...und das Gespensterschloß",
+    "NumberEuropa": 11,
+    "ReleaseDate": "1980-03-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/de55500e-e02d-4c20-b07c-f413a695599a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Alfred Hitchcock hat zur Klärung unwahrscheinlicher Ereignisse Helfer bekommen: Die drei ???, hinter denen sich die jungen Detektive Justus, Peter und Bob verbergen. Wer könnte ein Interesse daran haben, den Spuk im Schloß zu veranstalten? Wer möchte unbedingt Besucher vom Schloß fernhalten? Zusammen mit seinen Freunden versucht Justus dem Geheimnis auf die Spur zu kommen. Werden sie es schaffen, sich als jüngste Detektei ihre Sponsoren zu verdienen? Wird es ihnen gelingen, das Geheimnis des Gespensterschlosses aufzuklären?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Stephen Terrill",
+        "Speaker": "Wolf Rahtjen"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Mr. Grant",
+        "Speaker": "Horst Breiter"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      }
+    ]
+  },
+  {
+    "Id": "52353481-cf2d-438d-94a2-5b785b35c0ea",
+    "Title": "...und der seltsame Wecker",
+    "NumberEuropa": 12,
+    "ReleaseDate": "1980-03-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/52353481-cf2d-438d-94a2-5b785b35c0ea.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Es gibt Wecker, die klingeln, Wecker, die schnarren, Wecker, die Musik ertönen lassen oder einen mit Glöckchengeläut aus dem Schlaf holen. Einen Wecker aber, der einen furchterregend schrillen Schrei ausstößt, haben Justus, Bob und Peter noch nie erlebt. Und ein solches Unding haben sie soeben auf dem Schrottplatz aufgestöbert! Kein Wunder, daß diese seltsame Konstruktion die Neugier und die Phantasie der drei Detektive anstachelt: Wer hat einen solchen Wecker gebaut und warum? Als sie das herauszufinden versuchen, geraten sie unversehens auf die Spur eines raffinierten Kunstraubes. Doch ehe sie ihn aufklären können, gibt es manche harte Rätselnuß zu knacken...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Felix",
+        "Speaker": "Karl-Ulrich Meves"
+      },
+      {
+        "Character": "Mrs. Smith",
+        "Speaker": "Maria Benders"
+      },
+      {
+        "Character": "Harry",
+        "Speaker": "Marco Beddis"
+      },
+      {
+        "Character": "Mrs. King",
+        "Speaker": "Helga Bammert"
+      },
+      {
+        "Character": "Julie Taylor",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Martha Harris",
+        "Speaker": "Marga Maasberg"
+      },
+      {
+        "Character": "Carlos",
+        "Speaker": "Hans-Werner Kuhn [Günter Heising]"
+      },
+      {
+        "Character": "Gerald Cramer",
+        "Speaker": "Volker Brandt"
+      },
+      {
+        "Character": "Gerald Watson",
+        "Speaker": "Werner van Thiel [Werner Cartano]"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Albert Giro [Wolfgang Kubach]"
+      },
+      {
+        "Character": "Hauptkommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Mr Jankins",
+        "Speaker": "Lothar Zibell"
+      }
+    ]
+  },
+  {
+    "Id": "d80d26cc-ead8-48af-81bc-1b28ff9dfe51",
+    "Title": "...und der lachende Schatten",
+    "NumberEuropa": 13,
+    "ReleaseDate": "1980-03-31T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d80d26cc-ead8-48af-81bc-1b28ff9dfe51.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Schatten pflegen normalerweise zu schweigen. Hier aber lacht ein Schatten - schrill und furchterregend! Doch nicht nur dieser höchst ungewöhnliche Schatten bereitet Justus, Bob und Peter Kopfzerbrechen. Auf dem Landsitz der alten Miss Sanchez scheinen auch sonst recht merkwürdige Dinge vorzugehen. Was hat es zum Beispiel mit dem Gerücht auf sich, daß ganz in der Nähe ein wertvoller Indianerschatz vergraben sein soll - an einem Ort, wo kein Mann ihn finden kann? Ehe die drei Jungen sich versehen, sind sie in einen ebenso gefährlichen, wie mysteriösen Fall verwickelt, denn der Indianerschatz existiert wirklich! Ein skrupelloser Gangster versucht ihn zu erbeuten und setzt dabei nicht nur das Leben von vier Indianerjungen aufs Spiel. Doch dank Justus\\ Scharfsinn und Mut und mit Hilfe der Polizei wird dem Mann das Handwerk gelegt. Am Ende gibt es zwar keinen lachenden Schatz mehr, dafür aber drei lachende Detektive, die wieder einmal einen Fall heil überstanden haben!",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Mr. Harris",
+        "Speaker": "Günter Heising"
+      },
+      {
+        "Character": "Miss Sanchez",
+        "Speaker": "Marlene Lindner [Ursula Vogel]"
+      },
+      {
+        "Character": "Ted Sanchez",
+        "Speaker": "Nikolas Körting"
+      },
+      {
+        "Character": "Sanders",
+        "Speaker": "Torsten Sense"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Natches",
+        "Speaker": "Gernot Endermann"
+      },
+      {
+        "Character": "Hauptkommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Prof. Meeker",
+        "Speaker": "Josef Dahmen"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Joachim Wolff"
+      }
+    ]
+  },
+  {
+    "Id": "3febaebe-7a40-4e14-8be2-15eefdfd2cff",
+    "Title": "....und das Bergmonster",
+    "NumberEuropa": 14,
+    "ReleaseDate": "1980-04-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3febaebe-7a40-4e14-8be2-15eefdfd2cff.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Das neue Abenteuer, das Justus, Bob und Peter zu bestehen haben, fängt ganz harmlos an: mit der Suche nach einem Schlüssel. Doch bald schon häufen sich verdächtige Vorgänge. Warum hat Kathleen Hammond, die angeblich so geschäftstüchtig ist, solche Hemmungen, wenn sie eine Unterschrift leisten soll? Wozu baut ihr Mann hinter dem kleinen Gasthof für die wenigen Gäste ein so großes Schwimmbecken? Auf dem Berg hinter dem Haus entdecken die drei ??? geheimnisvolle Spuren von einem übergroßen Fußabdruck. Dann kommen sie dahinter, daß ein Gast des Hauses es anscheinend auf Kathleens Geld abgesehen hat. Aber trotz vieler Anhaltspunkte wollen die Ermittlungen diesmal nicht recht vorangehen. Buchstäblich in letzter Minute erst lösen sie das seltsame Geheimnis, das Kathleen bedroht, und decken hinter den düsteren Legenden um ein Bergmonster die Wahrheit auf.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Smathers",
+        "Speaker": "Josef Dahmen"
+      },
+      {
+        "Character": "Mr. Jensen",
+        "Speaker": "Wolf Rahtjen"
+      },
+      {
+        "Character": "Patrick",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Kenneth",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Kathleen",
+        "Speaker": "Brigitte Alexis"
+      },
+      {
+        "Character": "Mr. Joe Hammond",
+        "Speaker": "Volker Brandt"
+      },
+      {
+        "Character": "Mrs. Hammond",
+        "Speaker": "Hanni Vanhaiden"
+      },
+      {
+        "Character": "Richardsen",
+        "Speaker": "Joachim Wolff"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Lieferant",
+        "Speaker": "F.-J. Steffens"
+      }
+    ]
+  },
+  {
+    "Id": "14d7550a-c7f0-4728-951e-164710e2e843",
+    "Title": "...und der rasende Löwe",
+    "NumberEuropa": 15,
+    "ReleaseDate": "1980-04-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/14d7550a-c7f0-4728-951e-164710e2e843.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Zur Zeit langweilen sich Justus, Bob und Peter ziemlich. Doch im richtigen Moment verhilft ihnen Alfred Hitchcock zu einem interessanten Fall: Der sonst so sanfte Löwe George - Attraktion in Jim Halls Dschungelland, einem Tierpark für Touristen - ist in letzter Zeit so unruhig. Besonders nachts... Und nicht nur George, sondern auch ein Gorilla und sogar ein schwarzer Panther streifen hier plötzlich frei herum. Da kann einem schon etwas mulmig werden. Wer könnte Interesse daran haben, wilde Tiere aus ihren Käfigen zu lassen? Und warum sind Eisenstäbe aus der Trödelhandlung von Justus\\ Onkel auf einmal so gefragt? Was haben Diamanten mit der ganzen Geschichte zu tun? Außerdem müssen Justus, Bob und Peter noch so seltsame Typen wie Hank Murphy, Dobbsie und Olsen auf die Schliche kommen, und dabei geraten sie prompt in Lebensgefahr. Denn mit wilden Tieren und Diamantenschmugglern ist nicht zu spaßen...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Miß Larson",
+        "Speaker": "Reinhilt Schneider"
+      },
+      {
+        "Character": "Jim Hall",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Mike Hall",
+        "Speaker": "Mathias Lorenz"
+      },
+      {
+        "Character": "Eastland",
+        "Speaker": "Karl Walter Diess"
+      },
+      {
+        "Character": "Olsen",
+        "Speaker": "Karl-Ulrich Meves"
+      },
+      {
+        "Character": "Hank Murphy",
+        "Speaker": "Harald Pages"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Doc Dawson",
+        "Speaker": "Wolfgang Jürgen"
+      },
+      {
+        "Character": "Dobbsie",
+        "Speaker": "Joachim Wolff"
+      }
+    ]
   }
 ]
