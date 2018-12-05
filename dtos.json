@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "Id": "3c280ab3-7d7e-4ecd-b05e-20b11cbd573f",
+    "Title": "Die drei ??? und der Super-Papagei",
+    "NumberEuropa": 1,
+    "ReleaseDate": "1979-10-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/blob/master/Covers/3c280ab3-7d7e-4ecd-b05e-20b11cbd573f.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der neueste Auftrag an die drei Detektive hört sich recht harmlos an: sie sollen einen entflogenen Papagei suchen. Doch kaum beginnen sie mit ihren Nachforschungen, da scheinen sich plötzlich noch einige andere Leute sehr für diesen Papagei zu interessieren. Vielleicht deshalb, weil er lateinische Sprüche zitieren kann? Aber bald geht es nicht mehr nur um einen, sondern um sieben Papageien - und alle sieben führen höchst seltsame Reden. Ob da nicht eine geheime Botschaft hintersteckt? Jedenfalls sind auch ein jähzorniger Kunsthändler und ein berüchtigter Meisterdieb hinter den Vögeln her. Die drei ??? müssen sich ganz schön die hellen Köpfe zerbrechen, ehe sie auch diesen abenteuerlichen Fall aufklären und eine wohl verdiente Belohnung einheimsen...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Fentriss, Schriftsteller",
+        "Speaker": "Richard Lauffen"
+      },
+      {
+        "Character": "Mr. Claudius, Kunsthändler",
+        "Speaker": "Gerlach Fiedler"
+      },
+      {
+        "Character": "Mrs. Claudius",
+        "Speaker": "Ingrid Andree"
+      },
+      {
+        "Character": "Miss Waggoner",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Carlos",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Onkel Ramos",
+        "Speaker": "Juan Perez [Karl-Ulrich Meves]"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Albert Giro [Wolfgang Kubach]"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      }
+    ]
+  }
+]
