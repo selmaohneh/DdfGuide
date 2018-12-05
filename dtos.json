@@ -262,5 +262,68 @@
         "Speaker": "Gernot Endemann"
       }
     ]
+  },
+  {
+    "Id": "cb6c55a9-e5ab-4e03-8d43-331b0317fba3",
+    "Title": "..und der Fluch des Rubins",
+    "NumberEuropa": 5,
+    "ReleaseDate": "1979-10-16T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/cb6c55a9-e5ab-4e03-8d43-331b0317fba3.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Alfred Hitchcock und die drei Detektive (Firmenzeichen ???) haben es hier mit einem seltsamen Vermächtnis zu tun: Onkel Horatio hat seinem Neffen etwas Wertvolles hinterlassen - aber was? Und vor allem wo? Die jungen Kriminalisten Justus, Peter und Bob sehen sich hier mit viel zu vielen Gipsköpfen, geheimnisvollen Herren und dem Wort August in mindestens fünf Bedeutungen konfrontiert. Werden Justus und seine Freunde mit diesem Fall nicht überfordert?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "August August, genannt Gus",
+        "Speaker": "Stephan Chreszinski"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Mr. Dwiggins",
+        "Speaker": "Joachim Wolff"
+      },
+      {
+        "Character": "Mr. Rhandur",
+        "Speaker": "Gottfried Kramer"
+      },
+      {
+        "Character": "Joe",
+        "Speaker": "Peter Buchholz"
+      },
+      {
+        "Character": "Lisa",
+        "Speaker": "Madeleine Stolze"
+      },
+      {
+        "Character": "Mutter",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Patrick Kenneth",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Bauarbeiter",
+        "Speaker": "Gernot Endemann"
+      }
+    ]
   }
 ]
