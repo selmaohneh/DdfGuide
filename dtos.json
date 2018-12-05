@@ -5683,5 +5683,567 @@
         "Speaker": "Til Demtröder"
       }
     ]
+  },
+  {
+    "Id": "753f8803-7471-429b-aa46-951e37977dbd",
+    "Title": " Labyrinth der Götter",
+    "NumberEuropa": 91,
+    "ReleaseDate": "2000-08-14T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/753f8803-7471-429b-aa46-951e37977dbd.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der Regisseur Edward Truman hat seinen skandalumwitterten Film kurz vor der Premiere zurückgezogen und an einem geheimen Ort versteckt. Der Hinweis einer alten Schauspielerin führt Justus, Peter und Bob, die drei Detektive aus Rocky Beach, zu Trumans Grundstück. Doch dieses ist umgeben von einem undurchdringlichen Heckenlabyrinth. Die Kombinationsfähigkeit der drei ??? wird auf eine harte Probe gestellt. Rätselhafte Götterstatuen scheinen den Weg durch den Irrgarten zu weisen. Doch irgendjemand legt falsche Spuren, so dass die Detektive die Orientierung verlieren. Wo ist der Ausgang aus dem Labyrinth der Götter?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Stanley Truman",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Mr. Shaw",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "Mrs. Jones",
+        "Speaker": "Gisela Trowe"
+      },
+      {
+        "Character": "Mrs. Shoemaker",
+        "Speaker": "Barbara Schnipper"
+      }
+    ]
+  },
+  {
+    "Id": "173c53c0-a1da-45f7-9596-bf35a2c8b470",
+    "Title": "Todesflug",
+    "NumberEuropa": 92,
+    "ReleaseDate": "2000-10-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/173c53c0-a1da-45f7-9596-bf35a2c8b470.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Justus, Peter und Bob sitzen fest. Mitten in der Wüste versagt ihr Auto und das Wasser geht zur Neige. Die Nerven der drei Jungs sind zum Zerreißen gespannt. Plötzlich durchbricht ein Dröhnen die Stille: Ein Tiefflieger zieht über ihre Köpfe hinweg und setzt zur Landung an. Die drei Detektive schöpfen Hoffnung. Das könnte die Rettung bedeuten. Doch unversehens geraten sie in eine tödliche Falle. Ein größenwahnsinniger Weltraumforscher bringt Bob in höchste Lebensgefahr. Wie können die drei cleveren Jungs verhindern, dass Bob ins Weltall geschossen wird?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Gregstone",
+        "Speaker": "Wolf Rathjen"
+      },
+      {
+        "Character": "Butch",
+        "Speaker": "Frank Felicetti"
+      },
+      {
+        "Character": "Ramirez",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Radiosprecher",
+        "Speaker": "Hubertus Borck"
+      }
+    ]
+  },
+  {
+    "Id": "8ae98738-1da3-456a-9702-4f8fd8090022",
+    "Title": "...und das Geisterschiff",
+    "NumberEuropa": 93,
+    "ReleaseDate": "2000-11-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8ae98738-1da3-456a-9702-4f8fd8090022.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein Geisterschiff kreuzt vor der Küste von Rocky Beach. Justus, Peter und Bob trauen ihren Augen nicht: Der Dreimaster mit den zerfetzten Segeln gleitet durch die neblige See. Spuk oder Wirklichkeit? Die drei Jungs brauchen starke Nerven, denn Nachforschungen führen sie zu Piraten aus längst vergangenen Zeiten. Hat ein Fluch sie in die Gegenwart zurückgebracht? Um das Rätsel zu lösen, gibt es nur eine Möglichkeit: Die drei Detektive aus Rocky Beach müssen selbst an Bord gehen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Quin",
+        "Speaker": "Rasmus Borowski"
+      },
+      {
+        "Character": "Mr. Conrad Farnham",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Mrs. Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Deborah Snell",
+        "Speaker": "Anja Topf"
+      }
+    ]
+  },
+  {
+    "Id": "2fd12045-fb76-44ac-aa5b-3285094c50d5",
+    "Title": " Das schwarze Monster",
+    "NumberEuropa": 94,
+    "ReleaseDate": "2000-11-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2fd12045-fb76-44ac-aa5b-3285094c50d5.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Zirkus Trinket kommt mit einer unglaublichen Attraktion nach Rocky Beach: In der Manege tritt ein mörderisches Monster aus den Wäldern Alaskas auf. Doch dann entsteigt die Kreatur dem Käfig und verbreitet Angst und Schrecken. Die drei ??? nehmen die Spur des rätselhaften Wesens auf, denn natürlich glauben sie nicht an ein echtes Monster. Doch plötzlich steht es vor ihnen ...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Alois Copper",
+        "Speaker": "Werner Cartano"
+      },
+      {
+        "Character": "Mr. Carter",
+        "Speaker": "Marius Berthold"
+      },
+      {
+        "Character": "Miss Lilly",
+        "Speaker": "Jocelyn Boisseaux-Endemann"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Frau des Bürgermeisters",
+        "Speaker": "Wanda Osten"
+      },
+      {
+        "Character": "Reporter",
+        "Speaker": "Jacky Nonnon"
+      },
+      {
+        "Character": "Stewart",
+        "Speaker": "Till Madaus"
+      },
+      {
+        "Character": "Pico, Clown",
+        "Speaker": "Hubertus Borck"
+      }
+    ]
+  },
+  {
+    "Id": "6458387d-57e8-4e9f-9521-6e0c66a1330a",
+    "Title": " Botschaft von Geisterhand",
+    "NumberEuropa": 95,
+    "ReleaseDate": "2001-02-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6458387d-57e8-4e9f-9521-6e0c66a1330a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Dr. Arroway, Archäologin und Spezialistin auf dem Gebiet der alten Maya-Indianer, erfährt durch Zufall, dass sie bestohlen werden soll: Ein geheimnisvoller Unbekannter hat es auf das heilige Buch der Maya abgesehen, das Popol Vuh. Warum ist dieses Buch so wichtig? Verbirgt sich darin eine geheime Botschaft? Wer hat Interesse daran, sie zu entschlüsseln? Die drei Detektive aus Rocky Beach nehmen sich die Falls an und versuchen das Rätsel zu lösen. Doch als das Popol Vuh gestohlen wird, drängt die Zeit - wer lüftet als Erster das Geheimnis des heiligen Buches?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Jelena Charkov",
+        "Speaker": "Alexandra Doerk"
+      },
+      {
+        "Character": "Mr. Charkov",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Dr. Arroway",
+        "Speaker": "Sona Cervena"
+      },
+      {
+        "Character": "Janet, ihre Assistentin",
+        "Speaker": "Ute Rohrbeck"
+      },
+      {
+        "Character": "Tom Gordon",
+        "Speaker": "Philip Hoier"
+      },
+      {
+        "Character": "Dixon",
+        "Speaker": "Utz Richter"
+      }
+    ]
+  },
+  {
+    "Id": "7bb2d12d-2b8a-47ce-a0a5-092d5bf1615b",
+    "Title": "...und der rote Rächer",
+    "NumberEuropa": 96,
+    "ReleaseDate": "2001-04-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7bb2d12d-2b8a-47ce-a0a5-092d5bf1615b.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Es brennt! Ein anonymer Anrufer meldet Jusuts ein Feuer am Hafen von Rocky Beach. Doch als er als Helfer in der Not am Brandort eintrifft, wendet sich das Blatt: Die Visitenkarte der drei ??? wird am Tatort gefunden und bringt Justus, Peter und Bob plötzlich in den Verdacht der Brandstiftung. Eine brenzliche Situation! Nur die Überführung des wahren Täters kann die drei Detektive entlasten. Doch der Spur des Brandstifters zu folgen ist ein gefährliches Unterfangen. Die drei ??? müssen scharf kombinieren und vor allem einen kühlen Kopf bewahren.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Detective Frank",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Dave Rawling",
+        "Speaker": "Helmut Gentsch"
+      },
+      {
+        "Character": "Praktikantin Lesley",
+        "Speaker": "Ann Montenbruck"
+      },
+      {
+        "Character": "Mrs. Shaw",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Mr. Smith",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Sheppard",
+        "Speaker": "Marius Kreissler"
+      },
+      {
+        "Character": "Feuerwehrmann",
+        "Speaker": "Wolfgang Kaven"
+      }
+    ]
+  },
+  {
+    "Id": "3ed4e329-fc37-4943-aa79-b189d620595f",
+    "Title": " Insektenstachel",
+    "NumberEuropa": 97,
+    "ReleaseDate": "2001-06-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3ed4e329-fc37-4943-aa79-b189d620595f.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Regungslos sitzt das Insekt auf dem Lampenschirm. Es sieht aus wie eine Riesenwespe. Der Körper ist etwa dreißig Millimeter lang und am Hinterteil blitzt der Ansatz eines Stachels auf. Das Sonnenlicht spiegelt sich in den Facettenaugen. Mrs Hazelwood schwinden die Sinne... Die alte Dame hat panische Angst vor Insekten. Als ihre Hausangestellte Opfer eines Hornissenangriffs wird, dreht sie durch. Die drei ??? leisten erste Hilfe und stoßen dabei auf einige merkwürdige Dinge...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Janet Hazelwood",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Laura Stryker",
+        "Speaker": "Regina Lemnitz"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Mrs. White",
+        "Speaker": "Brigitte Böttrich"
+      },
+      {
+        "Character": "Mr. Collins",
+        "Speaker": "Daniel Eggers"
+      }
+    ]
+  },
+  {
+    "Id": "0d900fe7-4a77-4e62-a3da-9673019d7e0f",
+    "Title": "Tal des Schreckens",
+    "NumberEuropa": 98,
+    "ReleaseDate": "2001-08-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0d900fe7-4a77-4e62-a3da-9673019d7e0f.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Mitten in den Magic Mountains wacht eine Frau am Steuer ihres Autos auf: Sie hat keine Ahnung wo sie ist, ihr Kopf schmerzt. Das Einzige, an das sie sich erinnern kann, ist ein Indianer mit Adlerkopfmaske, der sie mitten in der Nacht aus dem Auto gezerrt hat. Die Polizei zweifelt an dem Verstand der Frau, doch die drei ??? glauben ihr. Todesmutig machen sie sich auf in das Tal des Schreckens und erleben die Horrornacht ihres Lebens.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ann Sullivan",
+        "Speaker": "Heidi Schaffrath"
+      },
+      {
+        "Character": "Mr. Martin",
+        "Speaker": "Christian Mey"
+      },
+      {
+        "Character": "Mr. Caddy",
+        "Speaker": "Helmut Gentsch"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Anna Carlsson"
+      },
+      {
+        "Character": "Lady Day",
+        "Speaker": "Reinhilt Schneider"
+      },
+      {
+        "Character": "Henry",
+        "Speaker": "Wilhelm Wieben"
+      },
+      {
+        "Character": "Mann aus der Wüste",
+        "Speaker": "Wilhelm Hornbostel"
+      },
+      {
+        "Character": "Miller",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Debby",
+        "Speaker": "Roswitha Benda"
+      },
+      {
+        "Character": "Joe",
+        "Speaker": "Jakob Lichtblau [Eberhard Haar]"
+      }
+    ]
+  },
+  {
+    "Id": "247d7cca-45f3-48ea-9990-4856aebcfba9",
+    "Title": " Rufmord",
+    "NumberEuropa": 99,
+    "ReleaseDate": "2001-09-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/247d7cca-45f3-48ea-9990-4856aebcfba9.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "On Air - das rote Licht im Aufnahmestudio des Radiosenders von Rocky Beach leuchtet. Die drei ??? sind live auf Sendung. Und kein anderer als der berühmte Starmoderator Kevin Anderson führt mit witzigen Sprüchen durchs Programm. Justus, Peter und Bob berichten begeistert von ihrer Detektivarbeit - bis sich plötzlich ein anonymer Anrufer in die Sendung schaltet und mit verstellter Stimme eine unheilvolle Drohung ausspricht. Ein neuer Fall für die drei Detektive?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Kevin Anderson",
+        "Speaker": "Thomas Bug"
+      },
+      {
+        "Character": "Clarissa Franklin",
+        "Speaker": "Judy Winter"
+      },
+      {
+        "Character": "Dr. Freeman",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Mrs. Brighton",
+        "Speaker": "Monika Werner"
+      },
+      {
+        "Character": "Mrs. Wheel",
+        "Speaker": "Ines Sawatzki"
+      },
+      {
+        "Character": "Schwester Whitney",
+        "Speaker": "Andrea Lange"
+      },
+      {
+        "Character": "Besucher",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "Bote",
+        "Speaker": "Stefan Rütter"
+      },
+      {
+        "Character": "Goodween",
+        "Speaker": "André Minninger"
+      }
+    ]
+  },
+  {
+    "Id": "44db0981-c8d8-42d5-9002-8e604fb1e5de",
+    "Title": " Toteninsel",
+    "NumberEuropa": 100,
+    "ReleaseDate": "2001-10-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/44db0981-c8d8-42d5-9002-8e604fb1e5de.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei ??? übernehmen ihren 100sten Fall Fall! In drei spannenden Folgen sind sie dem Geheimnis der Toteninsel auf der Spur. Eine große Herausforderung für die Detektive. Weswegen sie gut beraten sind, die Hilfe alter Wegbegleiter anzunehmen, um Das Rätsel der Sphinx (Teil 1) zu lösen. Doch plötzlich ist Peter verschwunden und auch Das vergessene Volk (Teil 2) kann Justus und Bob bei ihrer Suche nicht weiterhelfen. Erst Der Fluch der Gräber (Teil 3) führt die drei ??? auf eine heiße Spur.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Jelena",
+        "Speaker": "Alexandra Doerk"
+      },
+      {
+        "Character": "Dr. Svenson",
+        "Speaker": "Antje Roosch"
+      },
+      {
+        "Character": "Mr. Schwarz",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Mr. Olin",
+        "Speaker": "Uli Krohm"
+      },
+      {
+        "Character": "Juan",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Professor Phoenix",
+        "Speaker": "Wilfried Glatzeder"
+      },
+      {
+        "Character": "Rachel Hadden",
+        "Speaker": "Anna Carlsson"
+      },
+      {
+        "Character": "Al",
+        "Speaker": "Nico König"
+      },
+      {
+        "Character": "Anne",
+        "Speaker": "Corinna Wodrich"
+      }
+    ]
   }
 ]
