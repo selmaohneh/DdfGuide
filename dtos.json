@@ -4467,5 +4467,659 @@
         "Speaker": "Jona Mues"
       }
     ]
+  },
+  {
+    "Id": "21738f0c-319d-4eee-807c-e276df8e70e5",
+    "Title": " Die verschwundene Seglerin",
+    "NumberEuropa": 71,
+    "ReleaseDate": "1996-10-07T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/21738f0c-319d-4eee-807c-e276df8e70e5.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Was geschah mit Irma Bannister? Von einem Segelausflug mit Freunden kehrte die beliebte Antiquitätenhändlerin ich mehr zurück. Doch die Trauer der Hinterbliebenen hält sich in Grenzen. Die drei Detektive aus Rocky Beach wittern einen brisanten Fall und nehmen die Fährte auf. Doch ihre Recherchen enden in einer Sackgasse, die Betroffenen schweigen. Was ist tatsächlich passiert?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Günter König"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Lu Kwan",
+        "Speaker": "Susanne von Loessel"
+      },
+      {
+        "Character": "Jefferson",
+        "Speaker": "Christian Redl"
+      },
+      {
+        "Character": "Dimitrios, Bankdirektor",
+        "Speaker": "Wilhelm Wieben"
+      },
+      {
+        "Character": "Dan Jordan, Reporter",
+        "Speaker": "Michael Lott"
+      },
+      {
+        "Character": "Olivia",
+        "Speaker": "Eva Weißmann"
+      },
+      {
+        "Character": "Santoria",
+        "Speaker": "Holger Ohlendieck"
+      },
+      {
+        "Character": "Pertier",
+        "Speaker": "Johann Herstermann"
+      },
+      {
+        "Character": "Sergeant",
+        "Speaker": "Ingvar Jensen"
+      },
+      {
+        "Character": "Irma",
+        "Speaker": "Konstanze Ulmer"
+      }
+    ]
+  },
+  {
+    "Id": "f81bb154-7866-469b-bcd2-33d91bf4a196",
+    "Title": " Dreckiger Deal",
+    "NumberEuropa": 72,
+    "ReleaseDate": "1996-10-07T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f81bb154-7866-469b-bcd2-33d91bf4a196.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Kings Café ist für die Schülerinnen und Schüler der High School von Rocky Beach ein beliebter Treffpunkt: Der freundliche Besitzer Malcolm King hat immer ein offenes Ohr für sie und hilft, wo er kann. Deshalb ist es ein großer Schock für sie, als King plötzlich verhaftet wird. Die Polizei hat in seinem Laden Rauschgift gefunden. Justus, Peter und Bob, die drei jungen Detektive, wollen King helfen. Aber sie wissen nicht, worauf sie sich da eingelassen haben.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Laura McLaughin",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Malcolm King",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Lansana King",
+        "Speaker": "Sabine Hahn"
+      },
+      {
+        "Character": "Hester Dalton",
+        "Speaker": "Marianne Bernhardt"
+      },
+      {
+        "Character": "Billie",
+        "Speaker": "Stefan Conradi"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Oliver Reinhardt"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Dieter Ohlendieck"
+      },
+      {
+        "Character": "2. Wächter",
+        "Speaker": "Michael Lott"
+      },
+      {
+        "Character": "1. Polizist",
+        "Speaker": "Torben Liebrecht"
+      },
+      {
+        "Character": "2. Polizist",
+        "Speaker": "Rene Spiegelberger"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Doris Jahn"
+      },
+      {
+        "Character": "Kundin",
+        "Speaker": "Susann Jarling"
+      }
+    ]
+  },
+  {
+    "Id": "b70cd23c-acbb-428c-9b51-036864dbd9d9",
+    "Title": " Poltergeist",
+    "NumberEuropa": 73,
+    "ReleaseDate": "1997-02-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b70cd23c-acbb-428c-9b51-036864dbd9d9.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Unheimliches geschieht im Haus von Mrs. Cartier: Klopfzeichen ertönen, Möbel bewegen sich, Tassen fliegen durch die Luft. Ein Fall ganz nach dem Geschmack von Justus, Peter und Bob! Die anfängliche Begeisterung der Detektive verwandelt sich aber bald in Angst und Entsetzen. Treibt da tatsächlich ein Poltergeist sein Unwesen? Eine natürliche Erklärung für die Phänomene scheint es nicht zu geben...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mrs. Madigan",
+        "Speaker": "Anne Marks-Rocke"
+      },
+      {
+        "Character": "Eathon Easton, ihr Untermieter",
+        "Speaker": "Helmo Liebig"
+      },
+      {
+        "Character": "Mrs. Lydia Cartier",
+        "Speaker": "Gerda Gmelin"
+      },
+      {
+        "Character": "Sigourney, ihr Dienstmädchen",
+        "Speaker": "Susanne Beck"
+      },
+      {
+        "Character": "Kelly",
+        "Speaker": "Juliane Szalay"
+      },
+      {
+        "Character": "Inspektor Kershaw",
+        "Speaker": "Frank Felicetti"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Hans Irle"
+      },
+      {
+        "Character": "Museumswärterin",
+        "Speaker": "Marianne Kehlau"
+      }
+    ]
+  },
+  {
+    "Id": "80e2b7be-75fd-4311-800e-ec6bd1041abc",
+    "Title": "...und das brennende Schwert",
+    "NumberEuropa": 74,
+    "ReleaseDate": "1997-02-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/80e2b7be-75fd-4311-800e-ec6bd1041abc.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Onkel Titus hat allen Grund zur Freude: Er wird zu einer Testamentsvollstreckung eingeladen! Doch statt der erhofften Millionen erbt er einen wertlosen roten Kristall, den er an einen gewissen Beany weitergeben soll. Wer aber ist dieser Beany? Die drei ??? nehmen die Ermittlung auf. Ein anonymer Anrufer bringt sie auf die Spur eines gefährlichen Geheimbundes. Und plötzlich geraten Justus, Peter und Bob in einen atemberaubenden Strudel aus Besessenheit, Wahnsinn und Aberglaube.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Mr. Whitehead",
+        "Speaker": "Uwe Friedrichsen"
+      },
+      {
+        "Character": "Steven Robinshaw, Anwalt",
+        "Speaker": "Helmo Liebig"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mary",
+        "Speaker": "Victoria Voncampe"
+      },
+      {
+        "Character": "Stan",
+        "Speaker": "Georg Tryphon"
+      },
+      {
+        "Character": "Jeffrey",
+        "Speaker": "Michael Quiatkowsky"
+      },
+      {
+        "Character": "John",
+        "Speaker": "Andreas Martens"
+      },
+      {
+        "Character": "Dr. Wright",
+        "Speaker": "Dietmar Mues"
+      },
+      {
+        "Character": "Carrie Hanson",
+        "Speaker": "Helga Osten-Sacken"
+      },
+      {
+        "Character": "Tim Conrad",
+        "Speaker": "Moritz Gentsch"
+      }
+    ]
+  },
+  {
+    "Id": "dbf634b7-7f83-4306-b870-73a2cc8e3be9",
+    "Title": " Die Spur des Raben",
+    "NumberEuropa": 75,
+    "ReleaseDate": "1997-07-14T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/dbf634b7-7f83-4306-b870-73a2cc8e3be9.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Peter traut seinen Augen nicht: Am frühen Abend klettert ein schwarzer Schatten auf dem Dach des Hotels herum. Instinktiv reißt Peter die Kamera hoch und drückt ab.- Was er wenig später in den Händen hält ist eine Sensation: die erste Aufnahme des Raben, des dreisten Juwelendiebes von Los Angeles. Doch mit der Veröffentlichung der Photos wird der unheimliche Balancekünstler auf die drei Jungs aus Rocky Beach aufmerksam. Er führt sie in die Irre. Ein mörderischer Wettlauf mit der Zeit beginnt.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mrs. Shaw",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Amanda Black",
+        "Speaker": "Beate Hasenau"
+      },
+      {
+        "Character": "Detective Gregston",
+        "Speaker": "Wolf-Dietrich Berg"
+      },
+      {
+        "Character": "Nora Sethons",
+        "Speaker": "Ursula Sieg"
+      },
+      {
+        "Character": "Mrs. Aston",
+        "Speaker": "J.S."
+      },
+      {
+        "Character": "Mr. Krieger",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Lisa Manninger",
+        "Speaker": "Katja Stichel"
+      }
+    ]
+  },
+  {
+    "Id": "6e0dd27b-209f-4192-ab12-9c02d9875b04",
+    "Title": "Stimmen aus dem Nichts",
+    "NumberEuropa": 76,
+    "ReleaseDate": "1997-09-08T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6e0dd27b-209f-4192-ab12-9c02d9875b04.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Meine Schwester will mich in den Tod treiben! Die alte Dame, die neben Justus im Wartezimmer sitzt, ist am Rande eines Nervenzusammenbruchs. Der erste Detektiv wittert einen neuen Fall für die drei ??? und bietet seine Hilfe an. Doch was er dann erfährt, läßt ihn erbleichen. Mrs. Holligan wird von ihrer Schwester bedroht, verfolgt, in den Wahnsinn getrieben. Doch ihre Schwester wurde vor drei Monaten beerdigt. Justus, Peter und Bob müssen sich bei der Aufklärung des Falles beeilen. Mrs. Holligan ist schwer herzkrank, jede neue Attacke kann ihrem Leben ein Ende setzen. Doch wer steckt wirklich hinter den mysteriösen Stimmen aus dem Jenseits?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Abigail Holligan",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Metzla Holligan",
+        "Speaker": "Beate Hasenau"
+      },
+      {
+        "Character": "Dr. Franklin",
+        "Speaker": "Judy Winter"
+      },
+      {
+        "Character": "Dr. Miller",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Mrs. Petersen",
+        "Speaker": "Victoria Voncampe"
+      },
+      {
+        "Character": "Sekretariat",
+        "Speaker": "\"Fettes Brot\""
+      },
+      {
+        "Character": "Mr. Brian",
+        "Speaker": "Peter Schubert"
+      },
+      {
+        "Character": "Mrs. Dream",
+        "Speaker": "Petra Ehlers"
+      },
+      {
+        "Character": "Jack Cliffwater",
+        "Speaker": "Thomas Schüler"
+      }
+    ]
+  },
+  {
+    "Id": "bd655f6e-eff6-4475-b02a-9602b3305c97",
+    "Title": " Pistenteufel",
+    "NumberEuropa": 77,
+    "ReleaseDate": "1997-09-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bd655f6e-eff6-4475-b02a-9602b3305c97.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Karen Sulzenberger, Topstar der deutschen Skinationalmannschaft, hat Angst. Mysteriöse Drohbriefe machen ihr das Leben zur Hölle! Wer versucht die attraktive Läuferin aus ihrer Erfolgsspur zu stoßen? Auf Skiern und Snowboards nehmen die drei ??? in den Bergen des amerikanischen Weltcup-Ortes Vail die Ermittlungen auf. Doch das erste Attentat auf der Piste können auch die Detektive nicht verhindern. Mit 120 Sachen rast Karen auf ein tödliches Hindernis zu . . .",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Karen Sulzenberger",
+        "Speaker": "Kristina von Welzin"
+      },
+      {
+        "Character": "Nicola",
+        "Speaker": "Maria Fuchs"
+      },
+      {
+        "Character": "McMannoman",
+        "Speaker": "Wolfgang Noack"
+      },
+      {
+        "Character": "Tony",
+        "Speaker": "Martin Lohmann"
+      },
+      {
+        "Character": "Mrs. Seven",
+        "Speaker": "Eva Gelb"
+      },
+      {
+        "Character": "Trainer",
+        "Speaker": "Hans Sievers"
+      },
+      {
+        "Character": "Roger",
+        "Speaker": "H. P. Kaehler"
+      },
+      {
+        "Character": "1. Mann",
+        "Speaker": "Helmut Ahner"
+      },
+      {
+        "Character": "2. Mann",
+        "Speaker": "Richard Ems"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Micaela Kreißler"
+      },
+      {
+        "Character": "Uli",
+        "Speaker": "Norman Messer"
+      }
+    ]
+  },
+  {
+    "Id": "e5586948-2740-4d00-8131-437d2df8a2a7",
+    "Title": " Das leere Grab",
+    "NumberEuropa": 78,
+    "ReleaseDate": "1998-01-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e5586948-2740-4d00-8131-437d2df8a2a7.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Fassungslos starrt Justus auf das Foto, das ein Freund erst vor wenigen Tagen in Venezuela geschossen hat. Die Frau auf dem Bild ist Catherine Jonas, Justus\\ Mutter. Doch wie ist das möglich? Seine Eltern sind seit über zehn Jahren tot! Ihr Flugzeug stürzte vor der Küste Südamerikas ins Meer. Gab es damals doch Überlebende des Flugzeugabsturzes? Aber warum haben sich seine Eltern dann nie bei ihm gemeldet? Der erste Detektiv reagiert kopflos. Ohne zu überlegen, bucht er einen Flug und landet in der gefährlichsten Stadt Venezuelas: der Diamantenstadt Suerte.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Titus Jonas",
+        "Speaker": "Hans Meinhardt [Andreas Beurmann]"
+      },
+      {
+        "Character": "Albert Hitfield",
+        "Speaker": "Manfred Steffen"
+      },
+      {
+        "Character": "Morton, Chauffeur",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Lys",
+        "Speaker": "Kerstin Draeger"
+      },
+      {
+        "Character": "J.J.",
+        "Speaker": "Gregor Reisch"
+      },
+      {
+        "Character": "Julius Jonas",
+        "Speaker": "Wolfgang Kaven"
+      },
+      {
+        "Character": "Catherine Jonas",
+        "Speaker": "Anne Moll"
+      },
+      {
+        "Character": "Arturo",
+        "Speaker": "Carlos Goiach"
+      },
+      {
+        "Character": "Autovermieter",
+        "Speaker": "Richard Ems"
+      }
+    ]
+  },
+  {
+    "Id": "68f22cfe-6814-4505-8fa2-76e5054a3740",
+    "Title": " Im Bann des Voodoo",
+    "NumberEuropa": 79,
+    "ReleaseDate": "1998-03-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/68f22cfe-6814-4505-8fa2-76e5054a3740.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine Strohpuppe, deren Anblick Herzrasen und Atemnot auslöst, uralte Rituale und magische Kulte und das mitten im sonnigen Kalifornien! Al Parker, der erfolgreiche Musikproduzent, kann darüber nur lachen. Doch dann gerät er selbst in den Bannkreis des Voodoo: die Untoten fordern seinen Tod. Justus, Peter und Bob, die drei Detektive aus Rocky Beach, tun ihr Bestes, aber sie kämpfen gegen einen mächtigen Gegner.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Al Parker, Musikproduzent",
+        "Speaker": "Lennardt Krüger"
+      },
+      {
+        "Character": "William Needle",
+        "Speaker": "Nico König"
+      },
+      {
+        "Character": "Stevens",
+        "Speaker": "Lothar Behrendt"
+      },
+      {
+        "Character": "Bart",
+        "Speaker": "Doktor Renz"
+      },
+      {
+        "Character": "Luke",
+        "Speaker": "Schiffmeister"
+      },
+      {
+        "Character": "Frank",
+        "Speaker": "König Boris"
+      },
+      {
+        "Character": "Joan, Visagistin",
+        "Speaker": "Alida Gundlach"
+      },
+      {
+        "Character": "Jeffrey",
+        "Speaker": "Niko Minninger"
+      },
+      {
+        "Character": "Hank",
+        "Speaker": "Harvey Draeger"
+      },
+      {
+        "Character": "Billy",
+        "Speaker": "Sven Stricker"
+      },
+      {
+        "Character": "Angestellter",
+        "Speaker": "Jens Herrndorff"
+      }
+    ]
+  },
+  {
+    "Id": "50f94680-1d55-4850-b936-43fb52498e70",
+    "Title": " Geheimakte Ufo",
+    "NumberEuropa": 80,
+    "ReleaseDate": "1998-05-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/50f94680-1d55-4850-b936-43fb52498e70.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bob und Peter stockt der Atem. Durch die Bäume schimmert unwirklich grelles Licht - ein Raumschiff ist in den Wäldern um Rocky Beach gelandet. Für Peter steht fest: Die Außerirdischen übernehmen die Macht auf der Erde! Justus, der Kopf des Detektivtrios, reagiert gelassen auf die Ufo-Berichte seiner Freunde. Doch dann taucht ein weiterer Augenzeuge auf und der Erste Detektiv wird stutzig. Nochmals untersuchen Die drei ??? den Landeplatz des Raumschiffs, ohne zu ahnen, das sie bereits erwartet werden . . .",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Cosma",
+        "Speaker": "Elke Reissert"
+      },
+      {
+        "Character": "Vladimir Contreras",
+        "Speaker": "Gerhart Hinze"
+      },
+      {
+        "Character": "Roger Carpenter",
+        "Speaker": "Igmar Frentzen"
+      }
+    ]
   }
 ]
