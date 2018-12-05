@@ -447,5 +447,210 @@
         "Speaker": "Reinhild Schneider"
       }
     ]
+  },
+  {
+    "Id": "635ac7ce-0cf6-4eb2-9e98-f2a6d8933f22",
+    "Title": "..und der grüne Geist",
+    "NumberEuropa": 8,
+    "ReleaseDate": "1979-11-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/635ac7ce-0cf6-4eb2-9e98-f2a6d8933f22.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Merkwürdig, daß an diesem Abend anscheinend nicht nur Bob und Peter zufällig das Haus des längst verstorbenen Mathias Green besichtigen, das abgerissen werden soll. Mehr als merkwürdig, nämlich höchst gruselig, wenn dann plötzlich ein grün schimmernder Geist erscheint, was außer den beiden immerhin sechs ausgewachsene Männer (oder waren es sieben?) bezeugen können. Justus dagegen findet den Bericht seiner Freunde weder sehr merkwürdig noch sehr gruselig, sondern sehr verdächtig - und schon bald stecken die drei ??? in den Ermittlungen zu einem neuen Fall. Bald stellt sich heraus, dass irgend jemand hinter einer wertvollen Perlenkette her ist, die in dem Abbruchhaus gefunden wurde. Sie ist dem Unbekannten sogar eine Entführung wert, wie Bob, Peter und ein neuer Freund am eigenen Leibe zu spüren bekommen. Doch Justus wäre nicht Justus, käme ihm nicht gerade rechtzeitig die rettende Erleuchtung...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Chang",
+        "Speaker": "Torsten Sense"
+      },
+      {
+        "Character": "Patrick Kenneth",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Miss Lydia Green",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Harold Carlson",
+        "Speaker": "Alexander Stubbe [Peter Kirchberger]"
+      },
+      {
+        "Character": "Hauptkommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Jensen",
+        "Speaker": "Rolf Mamero"
+      },
+      {
+        "Character": "Won",
+        "Speaker": "Victor Bernard [Ernst von Klipstein]"
+      },
+      {
+        "Character": "Wongs Diener",
+        "Speaker": "Karl-Ulrich Meves"
+      },
+      {
+        "Character": "Li",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Männer bei Greens Haus",
+        "Speaker": "Reiner Brönneke, Gernot Endemann"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Peter Buchholz"
+      }
+    ]
+  },
+  {
+    "Id": "a725fb3a-f2fa-49e2-9e46-933fc55f5cc5",
+    "Title": "..und die rätselhaften Bilder",
+    "NumberEuropa": 9,
+    "ReleaseDate": "1979-11-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a725fb3a-f2fa-49e2-9e46-933fc55f5cc5.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Allzu viel ist es ja nicht, was der alte Maler Joshua Cameron hinterlassen hat - und obendrein blieb er die Miete schuldig! Aber ein merkwürdiger Kauz muß er gewesen sein: zeigen doch die 20 numerierten Ölbilder aus seinem Nachlaß alle dasselbe Motiv, nämlich sein Wohnhaus. Dies und die Tatsache, daß sich nicht nur eine Gräfin und ihr Verwalter, sondern auch mehrere Unbekannte und ein Kunsthändler auffällig für die Bilder interessieren, bringen die drei ??? auf den Plan. Sind die Gemälde vielleicht doch nicht ganz so wertlos? Vielleicht besteht da auch irgendein Zusammenhang mit den wirren Worten, die Cameron vor seinem Tod im Fieber gestammelt hatte... Während Justus, Peter und Bob ermitteln, versucht ihr alter Rivale Skinny Norris, ihnen Steine in den Weg zu legen. Das wird am Ende für ihn selbst gefährlich. Nur gut, daß Justus rechtzeitig eine Erleuchtung kommt!",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Professor Carswell",
+        "Speaker": "Theodor Anzinger"
+      },
+      {
+        "Character": "Hal Carswell",
+        "Speaker": "Oliver Mink"
+      },
+      {
+        "Character": "Gräfin",
+        "Speaker": "Henriette Bischoff [Gisela Trowe]"
+      },
+      {
+        "Character": "Armand Marechal",
+        "Speaker": "Joachim Wolff"
+      },
+      {
+        "Character": "De Groot",
+        "Speaker": "René Genesis"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Maxwell James",
+        "Speaker": "Werner Cartano"
+      },
+      {
+        "Character": "Hauptkommissar Reynolds",
+        "Speaker": "Horst Frank"
+      }
+    ]
+  },
+  {
+    "Id": "6e5c804a-6051-4f68-ad1b-92ec848575ba",
+    "Title": "...und die flüsternde Mumie",
+    "NumberEuropa": 10,
+    "ReleaseDate": "1980-03-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6e5c804a-6051-4f68-ad1b-92ec848575ba.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Alfred Hitchcock und seine Freunde, die drei jungen Detektive Justus, Peter und Bob (Firmenzeichen ???), sind davon überzeugt: Eine tausendjährige Mumie kann nicht flüstern. Aber die Mumie, die im Besitz des berühmten Ägyptologen Professor Yarborough ist, flüstert dennoch, und zwar in einem altägyptischen Dialekt, den niemand verstehen kann. Die drei ??? sind entschlossen, das Geheimnis zu lösen, auch wenn der Fluch der Mumie sie treffen sollte. Ein großer und ein kleiner Libyer, eine abessinische Katze zuviel und Diebe aus Beruf und Leidenschaft legen ihnen dabei allerhand Schwierigkeiten in den Weg. Ob dieser Fall nicht doch zu kompliziert für die drei ??? ist?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Patrick",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Professor Yarborough",
+        "Speaker": "Karl Walter Diess"
+      },
+      {
+        "Character": "Wilkins, sein Butler",
+        "Speaker": "Ulrich Matschoss"
+      },
+      {
+        "Character": "Professor Freeman",
+        "Speaker": "Joachim Wolff [Klaus Stieringer]"
+      },
+      {
+        "Character": "Achmed",
+        "Speaker": "Ali Branowitch [Joachim Wolff]"
+      },
+      {
+        "Character": "Hamid",
+        "Speaker": "Alexander Körting"
+      },
+      {
+        "Character": "Harry",
+        "Speaker": "Peter Buchholz"
+      },
+      {
+        "Character": "Joe",
+        "Speaker": "Reiner Brönneke"
+      },
+      {
+        "Character": "Uhrenmacher",
+        "Speaker": "Gernot Endemann"
+      }
+    ]
   }
 ]
