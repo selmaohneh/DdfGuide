@@ -5121,5 +5121,567 @@
         "Speaker": "Igmar Frentzen"
       }
     ]
+  },
+  {
+    "Id": "281bf932-ae6a-48e6-9938-61bac8f06b23",
+    "Title": " Verdeckte Fouls",
+    "NumberEuropa": 81,
+    "ReleaseDate": "1998-06-08T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/281bf932-ae6a-48e6-9938-61bac8f06b23.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Erfolgreiche Wochen liegen hinter einem deutschen Fußball-Team. Nun wollen sich die Spieler unter der Sonne Kaliforniens auf die Rückrunde vorbereiten. Aber schon bald wird die Harmonie durch merkwürdige Vorgänge erschüttert: Ein Unbekannter treibt in den Mannschaftsräumen sein böses Spiel. Welches Ziel verfolgt er mit dem Zerschneiden von Trikots und dem Aufsprayen von geheimnisvoller Symbole? Die drei ??? nehmen die Ermittlungen auf.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Kelly Madigan",
+        "Speaker": "Juliane Szalay"
+      },
+      {
+        "Character": "DaElba",
+        "Speaker": "Ozanan Rocha"
+      },
+      {
+        "Character": "Alberto",
+        "Speaker": "Antonio Luz"
+      },
+      {
+        "Character": "Mr. Toll",
+        "Speaker": "Balduin Baas"
+      },
+      {
+        "Character": "Franke",
+        "Speaker": "Wolfgang Noack"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Günter König"
+      },
+      {
+        "Character": "Mr. Burt",
+        "Speaker": "Gerd Baltus"
+      },
+      {
+        "Character": "Boris",
+        "Speaker": "Carlos Goiach"
+      },
+      {
+        "Character": "Papagei",
+        "Speaker": "Heikedine Körting"
+      }
+    ]
+  },
+  {
+    "Id": "9ef52caa-c6cb-492d-82a6-8c9ec99793f7",
+    "Title": " Die Karten des Bösen",
+    "NumberEuropa": 82,
+    "ReleaseDate": "1998-10-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9ef52caa-c6cb-492d-82a6-8c9ec99793f7.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Milva Summer glaubt an Schicksalsmächte. Bis die Karten eines Tages ihr nahes Ende prophezeien. In ihrer Todesangst wendet sie sich an Justus, Peter und Bob und bittet die jungen Detektive um Schutz vor dem drohenden Unglück. Können die drei ??? den Kräften des Tarot trotzen? Ist die Hollywood-Diva dem Tode geweiht?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Milva Summer, Astrologin",
+        "Speaker": "Elizabeth Volkmann"
+      },
+      {
+        "Character": "Professor Steed, Tiermediziner",
+        "Speaker": "Henning Schlüter"
+      },
+      {
+        "Character": "Daniel Art, Bodyguard",
+        "Speaker": "Monty Arnold"
+      },
+      {
+        "Character": "Mike Hanson, Reporter",
+        "Speaker": "Corny Littmann"
+      },
+      {
+        "Character": "Nachrichtensprecher",
+        "Speaker": "Werner Pohlenz"
+      }
+    ]
+  },
+  {
+    "Id": "b37d7dee-997d-4eef-9672-79651352ae77",
+    "Title": " Meuterei auf hoher See",
+    "NumberEuropa": 83,
+    "ReleaseDate": "1999-02-08T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b37d7dee-997d-4eef-9672-79651352ae77.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Statt sich bei einem gemütlichen Segeltörn im pazifischen Ozean die Sonne auf den Bauch brennen zu lassen, geraten Justus, Peter und Bob, die drei Detektive aus Rocky Beach, auf hoher See in eine Meuterei. Binnen Minuten gerät das Forschungsschiff Wavedancer in Gewalt eines fanatischen Wissenschaftlers. Unter seinem Kommando steuert das Schiff in unbekannte Gewässer.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Käptn Jason",
+        "Speaker": "F.J. Steffens"
+      },
+      {
+        "Character": "Professor Clark",
+        "Speaker": "Erich Krieg"
+      },
+      {
+        "Character": "Carol Ford, Fernsehjournalistin",
+        "Speaker": "Claudia Schermutzki"
+      },
+      {
+        "Character": "Dr. Helprin, Wissenschaftler",
+        "Speaker": "Rudolf Herget"
+      },
+      {
+        "Character": "Mr. Evans",
+        "Speaker": "Peter Groß"
+      },
+      {
+        "Character": "Enrique Serra",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Roland Becker"
+      }
+    ]
+  },
+  {
+    "Id": "6071d2fa-f405-4baa-8ade-d7dba9bbc927",
+    "Title": " Musik des Teufels",
+    "NumberEuropa": 84,
+    "ReleaseDate": "1999-02-08T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6071d2fa-f405-4baa-8ade-d7dba9bbc927.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Was ist nur mit Bob los? Warum reagiert der sonst so ausgeglichene Detektiv plötzlich aggressiv und gereizt auf seine Freunde? Es scheint, als stünde er unter dem Einfluss einer fremden Macht. Justus und Peter beschatten ihren Freund und folgen ihm unauffällig in den Konzertsaal eines Privathauses. Dort lauscht Bob gebannt der Musik eines virtuosen Geigenspielers. Und bevor sie wissen, wie ihnen geschieht, werden auch Justus und Peter von den Klängen gleichsam verhext. Können sie sich dem Bann des Teufelsgeigers entziehen, ehe es zu spät ist?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Jelena",
+        "Speaker": "Alexandra Doerk"
+      },
+      {
+        "Character": "Mr. Charkov, Jelenas Vater",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Vanderhell, Teufelsgeiger",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Roland Becker"
+      },
+      {
+        "Character": "Mrs. Andrews",
+        "Speaker": "Carola Lange"
+      }
+    ]
+  },
+  {
+    "Id": "39c21de0-a2d8-46b0-875a-173539bf5e8c",
+    "Title": " Feuerturm",
+    "NumberEuropa": 85,
+    "ReleaseDate": "1999-05-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/39c21de0-a2d8-46b0-875a-173539bf5e8c.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Wer ist Jonny? Und warum ist er verschwunden? Die drei Detektive aus Rocky Beach stehen vor einer schier unlösbaren Aufgabe. Sie sollen einen unbekannten Mann finden und ihm einen Brief übergeben, der zu einem geheimnisvollen Schatz führt. Die anonyme Botschaft lockt die drei ??? In die Wildnis des King\\\\s National Parks. Plötzlich wird der Botendienst lebensgefährlich für Justus, Peter und Bob: Jemand versucht, ihren Auftrag zu vereiteln. Werden die drei Detektive Jonny helfen können, bevor die Falle zuschnappt? Ein Wettlauf gegen die Zeit beginnt.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Walker",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Monica",
+        "Speaker": "Hansi Jochmann"
+      },
+      {
+        "Character": "Lady MacWeiden",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Mac George",
+        "Speaker": "Johann Schibli"
+      },
+      {
+        "Character": "Chris",
+        "Speaker": "Daniel Kruth"
+      },
+      {
+        "Character": "Campingwart",
+        "Speaker": "Helmut Ahner"
+      },
+      {
+        "Character": "Frau des Campingwarts",
+        "Speaker": "Ingrid Weiß"
+      }
+    ]
+  },
+  {
+    "Id": "6048f641-35e1-4620-ac57-941d1e064ae8",
+    "Title": " Nacht in Angst",
+    "NumberEuropa": 86,
+    "ReleaseDate": "1999-08-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6048f641-35e1-4620-ac57-941d1e064ae8.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Freitag abend, 20.25 Uhr, Steadman-Museum, Los Angeles: Mr. Peacock, der freundliche, aber schusselige Museums-Direktor, betritt mit Justus, Peter und Bob das Gebäude. In wenigen Minuten werden die drei Detektive exklusiv den wertvollsten Diamanten der Welt sehen: das berühmte Feuer des Mondes. 20.28 Uhr: Im Museum gehen die Lichter aus. Stromausfall? Sabotage? 20.30 Uhr: Fünf Gangster dringen in das Museum ein. Kurze Zeit später befinden sich Mr. Peacock und die drei ??? In ihrer Gewalt. Die Verbrecher wollen den Diamanten und sie sind breit, dafür über Leichen zu gehen.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Mr. Peacock, Museumsdirektor",
+        "Speaker": "Helmut Ahner"
+      },
+      {
+        "Character": "Alpha",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Beth",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Ernie",
+        "Speaker": "Wolfgang Hartmann"
+      },
+      {
+        "Character": "Dog",
+        "Speaker": "Niko Minninger"
+      },
+      {
+        "Character": "Ceewee",
+        "Speaker": "Michael Quiatkowski"
+      }
+    ]
+  },
+  {
+    "Id": "1e065983-7281-495e-9a0d-6548f24b4365",
+    "Title": " Wolfsgesicht",
+    "NumberEuropa": 87,
+    "ReleaseDate": "1999-10-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/1e065983-7281-495e-9a0d-6548f24b4365.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der Mann lebt allein an der Küste, die Nachbarn kennen ihn kaum, das Haus verlässt er nur selten: ein einsamer Wolf - oder ist er in Wirklichkeit das Wolfsgesicht, der gefürchtete Attentäter? Zweimal hat er bereits zugeschlagen, und jedesmal konnte er fliehen, ohne Spuren zu hinterlassen. Selbst Justus, das Computerhirn der Drei ???, ist ratlos. Da erhält die Polizei Hinweise auf den nächsten Coup. Diesmal plant der Attentäter einen Anschlag auf den Präsidenten der Vereinigten Staaten. Die Zeit drängt. Schon morgen wird der Präsident nach Rocky Beach kommen.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Harding, Polizeipsychologin",
+        "Speaker": "Katrin Wasow"
+      },
+      {
+        "Character": "Mr. Ambler, Assistent",
+        "Speaker": "Rainer Schmitt"
+      },
+      {
+        "Character": "Rodder, das Wolfsgesicht",
+        "Speaker": "Andreas Martens"
+      },
+      {
+        "Character": "Mr. Laurent, Ladenbesitzer",
+        "Speaker": "Lutz Lukasz"
+      },
+      {
+        "Character": "Mr. Stepelton, Ladenbesitzer",
+        "Speaker": "Harald Pages"
+      },
+      {
+        "Character": "Ray, Praktikant",
+        "Speaker": "Marcel Rinkenauer"
+      },
+      {
+        "Character": "Sandy, Verkäuferin",
+        "Speaker": "Kathi Robens"
+      },
+      {
+        "Character": "Kundin",
+        "Speaker": "Cornelia Meinhardt"
+      }
+    ]
+  },
+  {
+    "Id": "2aedc853-133a-4321-901f-ad14b13c43ea",
+    "Title": " Vampir im Internet",
+    "NumberEuropa": 88,
+    "ReleaseDate": "1999-12-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2aedc853-133a-4321-901f-ad14b13c43ea.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Mit voller Kraft rast der Vampir gegen die Scheibe. Glas splittert, Scherben fliegen durch die Luft. Das Fledermaus-Monster scheint die Wände seines Käfigs zu sprengen: Das brandneue Computerspiel zieht die drei Detektive aus Rocky Beach in seinen Bann. Begeistert tauchen sie ein in die virtuelle Welt der Drachen und Monster. Die Welt des Spiels scheint sich mit der Realität zu vermischen. Justus, Peter und Bob müssen höllisch aufpassen, um den Vampiren nicht zum Opfer zu fallen.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Doe Dungeon, Programmierer",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Lili Buschfort",
+        "Speaker": "Christina Holsten"
+      },
+      {
+        "Character": "Tom Beker",
+        "Speaker": "Wolfgang Hartmann"
+      },
+      {
+        "Character": "Märchenerzähler",
+        "Speaker": "Hans Paetsch"
+      },
+      {
+        "Character": "Königin Trulie",
+        "Speaker": "Hanna Reisch"
+      },
+      {
+        "Character": "Vinton",
+        "Speaker": "Nils Noller"
+      },
+      {
+        "Character": "Amme",
+        "Speaker": "Katharina Brauren"
+      },
+      {
+        "Character": "Medusa",
+        "Speaker": "Marianne Kehlau"
+      },
+      {
+        "Character": "Oinki Hinki",
+        "Speaker": "Niko Minninger"
+      },
+      {
+        "Character": "Vampir-Frau",
+        "Speaker": "Julia von Spieß"
+      },
+      {
+        "Character": "Hexe",
+        "Speaker": "Micaela Kreißler"
+      },
+      {
+        "Character": "Oma",
+        "Speaker": "Beate Hasenau"
+      },
+      {
+        "Character": "Wache",
+        "Speaker": "Michael Quiatkowsky"
+      },
+      {
+        "Character": "Computerstimme",
+        "Speaker": "Sascha Gutzeit"
+      }
+    ]
+  },
+  {
+    "Id": "8d2b62b9-313e-41c1-9543-c5162f652775",
+    "Title": " Tödliche Spur",
+    "NumberEuropa": 89,
+    "ReleaseDate": "2000-05-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8d2b62b9-313e-41c1-9543-c5162f652775.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Morton ist tot! Der Freund und Chauffeur der drei Detektive aus Rocky Beach ist mit seinem Wagen über die Klippen gestürzt. - Ein Unfall? Oder war es Mord? Justus, Peter und Bob sind ratlos. Was wissen sie eigentlich über Morton? Die drei ??? beginnen in der Vergangenheit ihres Freundes zu stöbern und entdecken dabei Hinweise, die sie lieber nicht gefunden hätten. Als plötzlich ein rätselhafter Geheimcode auftaucht, wird Justus\\ Kombinationsgabe auf eine harte Probe gestellt. Es bleibt nicht viel Zeit, denn die Schatten der Vergangenheit rücken unaufhaltsam näher...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mr. Gilbert",
+        "Speaker": "Manfred Reddemann"
+      },
+      {
+        "Character": "Mrs. Grayson",
+        "Speaker": "Beate Hasenau"
+      },
+      {
+        "Character": "Mr. Perkins",
+        "Speaker": "Marco Kröger"
+      },
+      {
+        "Character": "Mac Dunno",
+        "Speaker": "Gerhard Marcel"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Ulli Plessmann"
+      }
+    ]
+  },
+  {
+    "Id": "61250a4c-ce2d-4d6e-864f-ca3bf39ad4b1",
+    "Title": " Der Feuerteufel",
+    "NumberEuropa": 90,
+    "ReleaseDate": "2000-05-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/61250a4c-ce2d-4d6e-864f-ca3bf39ad4b1.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Auf der Suche nach einer passenden Maske für eine Halloween-Party trifft Peter auf Aaron Moore. Der Grusel-Autor wird von einem dämonischen Feuerteufel bedroht und bangt um sein Leben. Bereits drei unheimliche Vorzeichen haben sich erfüllt: Feuer, Luft und Erde haben sich gegen den Schriftsteller erhoben. Erfüllt sich auch das vierte Zeichen, bedeutet dies den Tod Moores. Können Justus, Peter und Bob, die drei erfolgreichen Detektive aus Rocky Beach, den Fluch bannen? Sie kämpfen gegen Geister und Dämonen, gegen die vier Elemente und den Feuerteufel. Ein auswegloses Unterfangen?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Matthias Fuchs"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Aaron Moore",
+        "Speaker": "Reent Reins"
+      },
+      {
+        "Character": "Roxanne",
+        "Speaker": "Regine Lamster"
+      },
+      {
+        "Character": "Bruce Black",
+        "Speaker": "Til Demtröder"
+      }
+    ]
   }
 ]
