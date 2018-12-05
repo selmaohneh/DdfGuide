@@ -187,5 +187,80 @@
         "Speaker": "Rolf Mamero"
       }
     ]
+  },
+  {
+    "Id": "1174f9c3-51a9-4098-947c-a12ae58e9e7a",
+    "Title": "...und die schwarze Katze",
+    "NumberEuropa": 4,
+    "ReleaseDate": "1979-10-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/blob/master/Covers/1174f9c3-51a9-4098-947c-a12ae58e9e7a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In einem kleinen Wanderzirkus wittern die drei jungen Detektive Peter, Bob und Justus ihren neuesten Fall. Denn wenn ein finster aussehender Mann mit Gewalt eine häßliche schwarze Stoffkatze - den Hauptgewinn einer Schießbude - an sich bringen will, sie schließlich stiehlt und am nächsten Tag per Zeitungsanzeige nach weiteren Stoffkatzen fahndet, dann muß irgend etwas dahinter stecken. Außerdem: Wieso trifft den Wanderzirkus seit Wochen ein Unglücksfall nach dem anderen? Und wer ist der Unbekannte mit der auffallenden Tätowierung, der immer wieder im Zirkus auftaucht, aber in brenzligen Momenten spurlos verschwindet? Justus und seine Freunde setzen sich ihm und der gestohlenen Katze auf die Spur und lassen sich beinah auf eine falsche Fährte jagen. nach aufregenden Fehlschlägen gelingt es ihnen aber schließlich doch, das Geheimnis der schwarzen Katze zu lüften und in letzter Minute einem raffinierten Verbrecher die Maske vom Gesicht zu reißen - im wahrsten Sinne des Wortes...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Andy Carson",
+        "Speaker": "Stefan Schwade"
+      },
+      {
+        "Character": "Mr. Carson",
+        "Speaker": "Reiner Brönneke"
+      },
+      {
+        "Character": "Khan, der Kraftmensch",
+        "Speaker": "René Genesis"
+      },
+      {
+        "Character": "Einzigartiger Gabbo",
+        "Speaker": "Iwan Raszinsky [Karl-Ulrich Meves]"
+      },
+      {
+        "Character": "Iwan",
+        "Speaker": "Boris Stepin [Wolfgang Kubach]"
+      },
+      {
+        "Character": "Junge",
+        "Speaker": "Philip Baader"
+      },
+      {
+        "Character": "Hauptkommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Der alte Mann",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Peter Buchholz"
+      },
+      {
+        "Character": "Jungen",
+        "Speaker": "Stefan Brönneke, Alexander Körting"
+      },
+      {
+        "Character": "Jahrmarktfrau",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Funksprecher",
+        "Speaker": "Gernot Endemann"
+      }
+    ]
   }
 ]
