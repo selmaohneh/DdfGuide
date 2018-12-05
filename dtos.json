@@ -3817,5 +3817,72 @@
         "Speaker": "Margot Linde"
       }
     ]
+  },
+  {
+    "Id": "cbb66427-8cc8-47cc-bbbf-61a896f1584b",
+    "Title": "...und die Rache des Tigers",
+    "NumberEuropa": 61,
+    "ReleaseDate": "1995-02-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/cbb66427-8cc8-47cc-bbbf-61a896f1584b.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein Sprengsatz explodiert während der Einweihungsfeier eines Vergnügungsparks im ehemaligen Zoo von Rocky Beach. Steckt tatsächlich die Bürgerinitiative dahinter, die auf demselben Gelände eine Jugendfarm errichten möchte? Die drei Detektive Justus, Bob und Peter können nicht recht daran glauben und suchen die wahren Hintermänner des feigen Anschlags. Doch erst ein geheimnisvoller Brief setzt die drei ??? auf die richtige Spur und führt sie zum Thron des Tigers. Dort erwartet sie eine gefährliche Überraschung.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Milton Mitchell",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Fred Hall",
+        "Speaker": "Thomas Thomé"
+      },
+      {
+        "Character": "Anne",
+        "Speaker": "Janina Richter"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Kellner",
+        "Speaker": "Thomas Stein"
+      },
+      {
+        "Character": "Portland",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Willem Fricke"
+      },
+      {
+        "Character": "Charlie",
+        "Speaker": "Anne Marr"
+      },
+      {
+        "Character": "Kundin",
+        "Speaker": "Ursula Sieg"
+      },
+      {
+        "Character": "Adams",
+        "Speaker": "Hans Hessling"
+      }
+    ]
   }
 ]
