@@ -80,6 +80,11 @@ namespace DdfGuide.Parser
                     title = title.Replace("Die drei ??? und", "...und");
                 }
 
+                if (title.StartsWith(" und"))
+                {
+                    title = title.Replace(" und", "...und");
+                }
+
                 if (title.StartsWith(".und"))
                 {
                     title = title.Replace(".und", "...und");
