@@ -57,5 +57,72 @@
         "Speaker": "Andreas von der Meden"
       }
     ]
+  },
+  {
+    "Id": "37584e5b-aa67-408c-b378-d09c83611577",
+    "Title": "...und der Phantomsee",
+    "NumberEuropa": 2,
+    "ReleaseDate": "1979-10-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/blob/master/Covers/37584e5b-aa67-408c-b378-d09c83611577.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Welches Geheimnis verbirgt sich in einem vergilbten Brief und in den nach langer Zeit wieder aufgetauchten Aufzeichnungen des Seemanns Angus Gunn? Wurde tatsächlich in einer lange vergangenen Sturmnacht ein Piratenschatz von einem sinkenden Schiff gestohlen? Das mächten die drei Detektive Justus, Bob und Peter ebenfalls gerne wissen. Den Nachkommen von Gunn ist es bisher nicht gelunge, das Versteck des Schatzes ausfindig zu machen. Professor Shay, den diese Sache für seine Arbeit am Historischen Forschungsinstitut interessiert, hatte bislang auch kein Glück. Immer mehr Personen tauchen auf und machen sich verdächtig. Auch Java-Jim, ein undurchsichtiger Seemann, versucht den drei ??? zuvorzukommen. Und welche Rolle spielt Stebins, der wegen Unterschlagung im Gefängnis war und auf Bewährung frei ist? Der Professor vermutet, daß er und Java-Jim zusammenarbeiten. Aber am Ende sind die drei ??? allen eine Nasenlänge voraus: die vielen rätselhaften Hinweise führen sie zum Phantomsee und damit endlich zur Lösung.",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Patrick Kenneth",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Java-Jim",
+        "Speaker": "Heinz Überreiter [Gottfried Kramer]"
+      },
+      {
+        "Character": "Mrs. Flora Gunn",
+        "Speaker": "Veronika Weckler"
+      },
+      {
+        "Character": "Cluny Gunn",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Rory",
+        "Speaker": "Klaus-Peter Reisch [Peter Buchholz]"
+      },
+      {
+        "Character": "Stebins",
+        "Speaker": "Hans Meinhardt [Karl-Ulrich Meves]"
+      },
+      {
+        "Character": "Mr. Widner",
+        "Speaker": "Ernst von Klipstein"
+      },
+      {
+        "Character": "Verwalter von Powder Gulch",
+        "Speaker": "Reiner Brönneke"
+      },
+      {
+        "Character": "Bibliothekarin",
+        "Speaker": "Katharina Brauren"
+      }
+    ]
   }
 ]
