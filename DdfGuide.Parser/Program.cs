@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using DdfGuide.Core;
 using Newtonsoft.Json;
 
@@ -25,7 +26,7 @@ namespace DdfGuide.Parser
                 parser.TryParseDescription(out var description);
                 parser.TryParseCoverUrl(out var coverUrl);
                 parser.TryParseRoles(out var roles);
-
+                
                 var dto = new AudioDramaDto(
                     Guid.NewGuid(),
                     title,
@@ -35,6 +36,8 @@ namespace DdfGuide.Parser
                     interpreter,
                     description,
                     roles);
+
+               
 
                 var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
                 Console.WriteLine(json);
@@ -48,6 +51,13 @@ namespace DdfGuide.Parser
                     Console.ReadKey();
                     return;
                 }
+
+                using (var client = new WebClient())
+                {
+                    client.DownloadFile(coverUrl, "../../../Covers/" + dto.Id + ".jpg");
+                }
+
+                dto.CoverUrl = $"https://github.com/selmaohneh/DdfGuide/blob/master/Covers/{dto.Id}.jpg";
 
                 allAudioDramas.Add(dto);
                 allJson = JsonConvert.SerializeObject(allAudioDramas, Formatting.Indented);
