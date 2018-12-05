@@ -42,7 +42,7 @@ namespace DdfGuide.Android
         {
             if (!(view is Fragment fragment))
             {
-               throw new Exception("View needs to be of type Android.Views.View");
+               throw new Exception("View needs to be of type Android.App.Fragment");
             }
 
             var transaction = FragmentManager.BeginTransaction();
