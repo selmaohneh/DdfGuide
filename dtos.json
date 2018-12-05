@@ -1669,5 +1669,198 @@
         "Speaker": "Wolfgang Kaven"
       }
     ]
+  },
+  {
+    "Id": "13b39bf3-7ada-453c-82ba-98bd3ef600cc",
+    "Title": "...und die Silbermine",
+    "NumberEuropa": 26,
+    "ReleaseDate": "1981-10-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/13b39bf3-7ada-453c-82ba-98bd3ef600cc.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Allie Jamison kann die drei ??? schon manchmal aufregen, starrköpfig und voreingenommen, wie sie ist! Oder sollte sie etwa recht haben mit ihrer Vermutung, bei Wesley Thurgood, dem neuen Nachbarn ihres Onkels, stimme etwas nicht? Eigentlich wollten die drei ??? während der Sommerferien nur Allies Onkel beim Bäumeschneiden helfen. Aber je mehr merkwürdige Dinge geschehen, desto spannender - und gefährlicher wird es auch für unsere Freunde. Ist es nicht seltsam, daß der steinreiche Thurgood ausgerechnet die alte, verlassene Silbermine gekauft hat, die berüchtigte Todesfalle? Und warum wird er gleich so zornig, als Allie versucht, das Bergwerk zu erforschen? Ahnt er vielleicht etwas von dem schaurigen Fund, den die drei ??? und Allie dort machen werden? Aber hier ist Vorsicht am Platze! Denn Thurgood ist nicht der einzige, der den drei ??? mysteriös vorkommt... Schließlich gibt es in den nahen Bergen noch manch alte Stadt, die heute völlig menschenleer ist. Und gar nicht weit davon beginnt schon die Wüste. Könnte da nicht jemand, der eine nicht ganz reine Weste hat, auf dumme Gedanken kommen?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Allie Jamison",
+        "Speaker": "Katrin Fröhlich"
+      },
+      {
+        "Character": "Harrison Osborne",
+        "Speaker": "F.J. Steffens"
+      },
+      {
+        "Character": "Thurgood",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Sheriff",
+        "Speaker": "Gottfried Kramer"
+      },
+      {
+        "Character": "Mrs. Macomber",
+        "Speaker": "Gisela Trowe"
+      },
+      {
+        "Character": "Atkinson",
+        "Speaker": "Klaus Stieringer"
+      },
+      {
+        "Character": "Manny",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Gasper",
+        "Speaker": "Rolf Mamero"
+      }
+    ]
+  },
+  {
+    "Id": "d1163963-29cc-4491-a66a-0109b9cd1f45",
+    "Title": "...und der magische Kreis",
+    "NumberEuropa": 27,
+    "ReleaseDate": "1981-10-21T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d1163963-29cc-4491-a66a-0109b9cd1f45.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In Santa Monica geschehen an einem Abend gleich zwei folgenschwere Ereignisse auf einmal: Ein Verlag geht in Flammen auf - und im benachbarten Filmlabor werden sämtliche Filme der bekannten Schauspielerin Madeline Bainbridge gestohlen. Als dann auch noch das Manuskript der Memoiren Madeline Bainbridges verschwindet, ist den drei ???, Justus, Peter und Bob, klar, daß hier etwas nicht mit rechten Dingen zugeht. Die Nachforschungen, die sie anstellen, führen die drei Detektive in das unheimliche Reich der Magie. Alles erscheint undurchschaubar. Was bedeutet der magische Kreis, in dem die Zahl 13 eine so große rolle spielt? Was verbirgt sich hinter Madeline Bainbridges rätselhafter Vergangenheit und was ist wahr an der Behauptung, sie sei eine Hexe? Gibt es den Mord durch Magie? Diese Frage gilt es für die drei zu lösen. bei ihren Ermittlungsarbeiten sind die unheimlichsten Situationen zu überstehen und Peter kommt nach einer entscheidenden Entdeckung in große Gefahr...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Horace Tremayne",
+        "Speaker": "Karl-Ulrich Meves"
+      },
+      {
+        "Character": "William Tremayne",
+        "Speaker": "Günther Flesh"
+      },
+      {
+        "Character": "Marvin Gray",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Madeline Bainbridge",
+        "Speaker": "Ursula Vogel"
+      },
+      {
+        "Character": "Mr. Thomas",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Jefferson",
+        "Speaker": "Christian Rode"
+      },
+      {
+        "Character": "Clara Adams",
+        "Speaker": "Ingeborg Kanstein"
+      },
+      {
+        "Character": "Grean",
+        "Speaker": "Manuel Hümpel [Rüdiger Schulzki]"
+      },
+      {
+        "Character": "Schrottplatzwart",
+        "Speaker": "Siegfried Wald"
+      }
+    ]
+  },
+  {
+    "Id": "20b29902-3e5e-4631-84f0-1a7e20942cb7",
+    "Title": "...und der Doppelgänger",
+    "NumberEuropa": 28,
+    "ReleaseDate": "1981-10-22T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/20b29902-3e5e-4631-84f0-1a7e20942cb7.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Sollte es ihn wahrhaftig geben, einen zweiten... Justus Jonas? Jan, der sich aus Angst vor hinterhältigen Gaunern auf dem Schrottplatz einquartiert hat, weiß nicht, daß er dadurch die drei ???, und vor allem sein Ebenbild Justus, in große Schwierigkeiten bringt. Gefahr und Chaos lauern auf Schritt und Tritt. Justus wird an Jans Stelle von den Männern geschnappt und eingesperrt. Rätselhafte Botschaften! Politische Intrigen über Länder und Kontinente! Lebensgefährliche Irrtümer! Ein Gegner, der sich beinahe in der abgeschirmten Zentrale der Nachwuchsdetektive einnistet! Aber Bob und Peter beweisen, daß sie auch ohne ihren Chef richtig und überlegt handeln können. Eine wilde Verfolgungsjagd beginnt, denn es geht um Minuten!",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Horst Frank"
+      },
+      {
+        "Character": "Reporter",
+        "Speaker": "Peter Kirchberger"
+      },
+      {
+        "Character": "Fred, Extremist",
+        "Speaker": "Heinrich Baum [Karl-Walter Diess]"
+      },
+      {
+        "Character": "Walt, Extremist",
+        "Speaker": "Friedhelm Hubertus [Siegfried Wald]"
+      },
+      {
+        "Character": "Gordon Mackenzie",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Adam Ndula",
+        "Speaker": "Hans Meinhardt [Henry Kielmann]"
+      },
+      {
+        "Character": "Jan Carew",
+        "Speaker": "Sascha Draeger"
+      },
+      {
+        "Character": "Polizist im Suchtrupp",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Hauswirt",
+        "Speaker": "Hubert Mittendorf"
+      }
+    ]
   }
 ]
