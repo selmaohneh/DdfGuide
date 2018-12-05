@@ -1306,5 +1306,368 @@
         "Speaker": "Hans Irle"
       }
     ]
+  },
+  {
+    "Id": "a6140b12-1c7a-4387-bf1d-a68858a3d083",
+    "Title": "Die drei ??? und der tanzende Teufel",
+    "NumberEuropa": 21,
+    "ReleaseDate": "1980-10-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a6140b12-1c7a-4387-bf1d-a68858a3d083.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine Serie Diebstähle in Rocky Beach - und jedesmal fehlt einer jener verbreiteten schwarzen Bordkoffer. Die drei ??? nehmen sich dieses ominösen Falls an. Und immer dann, wenn sie gerade eine neue Spur verfolgen, taucht die unheimlich reale Gestalt eines >Tanzenden Teufels<, eines Dämons aus einer fremden Kultur mit schrecklichen Drohungen und Feuer und Rauch auf...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mrs. Dalton",
+        "Speaker": "Heidi Schaffrath"
+      },
+      {
+        "Character": "Christina Dalton",
+        "Speaker": "Karina Leising [Heikedine Körting]"
+      },
+      {
+        "Character": "Frankie Bender",
+        "Speaker": "Oliver Mink"
+      },
+      {
+        "Character": "H. P. Clay",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Jim Clay",
+        "Speaker": "Marcus Meiering"
+      },
+      {
+        "Character": "Walter Quail",
+        "Speaker": "Christian Mey"
+      },
+      {
+        "Character": "Trödler Hummer",
+        "Speaker": "Joachim Richert"
+      },
+      {
+        "Character": "Jason Wilkes",
+        "Speaker": "Joachim Rake"
+      },
+      {
+        "Character": "Chiang",
+        "Speaker": "Tom Barrows [Hans Irle]"
+      },
+      {
+        "Character": "Diakon Kastner",
+        "Speaker": "Hans Irle"
+      },
+      {
+        "Character": "Butler",
+        "Speaker": "Hans Daniel"
+      }
+    ]
+  },
+  {
+    "Id": "72bce23c-2e84-40e6-b944-02e641a0d0f5",
+    "Title": "und der verschwundene Schatz",
+    "NumberEuropa": 22,
+    "ReleaseDate": "1981-05-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/72bce23c-2e84-40e6-b944-02e641a0d0f5.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Gerade als Justus, Bob und Peter eine Ausstellung japanischer Kunstschätze besuchen, wird dort ein besonders wertvoller juwelenbesetzter Gürtel gestohlen. Zu dumm, daß der japanische Sicherheitsbeamte die drei jungen Detektive nicht bei der Aufklärung des dreisten Diebstahls helfen lassen will! Aber dafür hat Alfred Hitchcock einen neuen, ziemlich mysteriösen Fall für sie: Eine alte Dame wird angeblich Tag und Nacht von kleinen >Gnomen< belästigt. Versteht sich, daß die drei ??? nicht an Gnomen glauben - aber was sind es dann für merkwürdige kleine Gestalten, die sie mit eigenen Augen beobachten? Während sie noch rätseln, sitzen sie plötzlich in der Falle und werden ohnmächtige Zeugen eines raffinierten Bankraubes. Führt eine Spur vom Bankraub zum Gürteldiebstahl? Justus kombiniert schneller als die Gauner - mit Köpfchen und polizeilicher Hilfe wird auch dieser knifflige Doppelfall gelöst...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews,Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Rawley",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Mr. Frank",
+        "Speaker": "Siegfried Wald"
+      },
+      {
+        "Character": "Mr. Togati",
+        "Speaker": "Reiner Brönnecke"
+      },
+      {
+        "Character": "Taro",
+        "Speaker": "Stefan Brönnecke"
+      },
+      {
+        "Character": "Patrick",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Miss Agawam",
+        "Speaker": "Ursula Vogel"
+      },
+      {
+        "Character": "Jordan",
+        "Speaker": "Hans Meinhardt [Franz Josef Steffens]"
+      },
+      {
+        "Character": "Chuck",
+        "Speaker": "Roland Fabricius [Edgar Bessen?]"
+      },
+      {
+        "Character": "Liliputaner",
+        "Speaker": "Erich Büttner [Joachim Wolff]"
+      },
+      {
+        "Character": "Wachmann im Museum",
+        "Speaker": "Gottfried Kramer"
+      },
+      {
+        "Character": "Hafenpolizist",
+        "Speaker": "Peter Kirchberger"
+      }
+    ]
+  },
+  {
+    "Id": "5d18b8f5-e1e2-4c71-89a6-93194786e283",
+    "Title": "...und das Aztekenschwert",
+    "NumberEuropa": 23,
+    "ReleaseDate": "1981-05-14T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/5d18b8f5-e1e2-4c71-89a6-93194786e283.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die Brüder Pico und Diego Alvaro verlieren durch ein Feuer ihren ganzen Besitz. Eine wahrhaft unrealistische, aber von den drei ???, befeuert durch Justus\\ Eigen- und Spürsinnsinn, gehegte Hoffnung könnte die Lage zum Guten wenden: wenn sich nämlich das juwelenbesetzte sogenannte Aztekenschwert finden ließe, das ein Alvaro-Ahn seinerzeit von Cortez persönlich geschenkt bekam. Mühselige und teilweise lebensgefährliche Ermittlungen - und immer verfolgt von undurchsichtigen Fremden - bringen die drei ??? und Diego auf eine heiße Spur. Wird es den vier Jungen gelingen, noch vor ihren Verfolgern das legendäre Cortez-Schwert zu finden?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Skinny",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Cody",
+        "Speaker": "Simon Schuchadt [Wolfgang Kaven]"
+      },
+      {
+        "Character": "Diego Alvaro",
+        "Speaker": "Jan Odle"
+      },
+      {
+        "Character": "Pico Alvaro",
+        "Speaker": "Mathias Lorenz"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Assistent",
+        "Speaker": "Claes Holmcrantz [Gernot Endemann]"
+      },
+      {
+        "Character": "Sheriff",
+        "Speaker": "F.J. Steffens"
+      },
+      {
+        "Character": "Tulsa",
+        "Speaker": "Klaus Klein [F.J. Steffens]"
+      },
+      {
+        "Character": "Cap",
+        "Speaker": "Fritz Wegely [Siegfried Wald]"
+      },
+      {
+        "Character": "Pike",
+        "Speaker": "Philip Mehringer [Joachim Wolff]"
+      },
+      {
+        "Character": "Mr. Shaw",
+        "Speaker": "F.J. Steffens"
+      }
+    ]
+  },
+  {
+    "Id": "96e6336f-400f-4447-a23d-6521eb97c647",
+    "Title": "...und die silberne Spinne",
+    "NumberEuropa": 24,
+    "ReleaseDate": "1981-05-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/96e6336f-400f-4447-a23d-6521eb97c647.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Verschwörung in Magnusstad: Der junge Lars Holmqvist soll um sein Erbe gebracht werden. Seine Freunde, Justus, Bob und Peter wollen ihm helfen, geraten dabei aber selbst in eine gefährliche Lage: plötzlich ist die legendäre silberne Spinne, die für Lars und ganz Magnusstad eine besondere Bedeutung hat, in ihrem Zimmer. Die Feinde von Lars möchten den drei ??? offensichtlich einen Raub in die Schuhe schieben. Eine abenteuerliche Verfolgungsjagd beginnt. Schaffen es die drei Freunde auch diesmal wieder?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Bengt",
+        "Speaker": "Charles Regnier"
+      },
+      {
+        "Character": "Britta",
+        "Speaker": "Ingeborg Kanstein"
+      },
+      {
+        "Character": "Lars Holmqvist",
+        "Speaker": "Gernot Endemann"
+      },
+      {
+        "Character": "Young",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Forsborg",
+        "Speaker": "Richard Heelel [F.J. Steffens]"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Siegfried Wald"
+      },
+      {
+        "Character": "Frau",
+        "Speaker": "Brigitte Alexis"
+      },
+      {
+        "Character": "Köhler",
+        "Speaker": "Hans Meinhardt [Reiner Brönneke]"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Wärter",
+        "Speaker": "Joachim Wolff"
+      },
+      {
+        "Character": "Kellner",
+        "Speaker": "Peter Kirchberger"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      }
+    ]
+  },
+  {
+    "Id": "92df38db-4761-412c-91aa-6f4a10d4ad8b",
+    "Title": "Die drei ??? und die singende Schlange",
+    "NumberEuropa": 25,
+    "ReleaseDate": "1981-10-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/92df38db-4761-412c-91aa-6f4a10d4ad8b.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Zugegeben, Mrs. Patricia Osborne ist eine etwas seltsame Dame. Nicht genug damit, dass sie rote Samtkleider als Schutzschild gegen die Gefahren des Lebens betrachtet und Spinnweben für hervorragende Heilmittel hält - sie glaubt auch felsenfest, dass ein mit dem Messer allabendlich um Bett gezogener Kreis sie vor nächtlichem Unheil schützt! Als sie aber auch noch einen finsteren Mann namens Asmodi zu geheimen Zusammenkünften einlädt, bei denen ein grässlicher Singsang aus dem verschlossenen Zimmer dringt, da reicht es ihrer Nichte Allie. Das Mädchen schaltet kurzentschlossen die drei ??? ein. Vermutet sie zu recht, dass jemand die Leichtgläubigkeit ihrer Tante verbrecherisch ausnutzen will? Zusammen mit Justus, Bob und Peter folgt sie Asmodi, der in einem abgelegenen Haus merkwürdige Kultabende abhält. Sie schleichen sich ein - und beobachten entsetzt, wie sich zwischen schwarz vermummten Gestalten im Kerzengeflacker einer fremdartigen Zeremonie plötzlich eine riesige Schlange zu winden scheint! Und diese Schlange lässt einen grausigen Gesang ertönen... Werden die drei ??? ihr Geheimnis enthüllen?",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Allie Jamison",
+        "Speaker": "Katrin Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Asmodi",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Dr. Shaitan",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Noxworth",
+        "Speaker": "Christian Rode"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Prof. Barrister",
+        "Speaker": "F. J. Steffens"
+      },
+      {
+        "Character": "Marie",
+        "Speaker": "Susanne Wulkow"
+      },
+      {
+        "Character": "der \"Clochard\"",
+        "Speaker": "Karl-Heinz Gerdesmann"
+      },
+      {
+        "Character": "Patricia Osborne",
+        "Speaker": "Barbara Focke"
+      },
+      {
+        "Character": "Mann am Grundstück",
+        "Speaker": "Wolfgang Kaven"
+      }
+    ]
   }
 ]
