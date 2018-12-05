@@ -396,5 +396,56 @@
         "Speaker": "Karl-Ulrich Meves"
       }
     ]
+  },
+  {
+    "Id": "e9abd2bb-1ab8-4db3-bb1c-7cab76a7af23",
+    "Title": "...und der unheimliche Drache",
+    "NumberEuropa": 7,
+    "ReleaseDate": "1979-10-31T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e9abd2bb-1ab8-4db3-bb1c-7cab76a7af23.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein paar entlaufene Hunde zu suchen - naja, das ist normalerweise kein besonders verlockender Auftrag für drei clevere Detektive. Doch kaum beginnen Justus, Bob und Peter mit der Suche, da erzählt ihnen der Hundebesitzer, Mr. Allen, von einem Seeungeheuer, das er an der Küste gesichtet haben will. Wie bitte - Seeungeheuer? Doch Mr. Allen hat nicht gescherzt. Die ??? stoßen bei ihren Nachforschungen nicht nur auf einen anscheinend leibhaftigen Drachen, der unheimlich hustet, sondern auch ein mysteriöses Höhlenlabyrinth, auf verschiebbare Felswände, bewaffnete Froschmänner und manch andere Merkwürdigkeiten. Wem gehört zum Beispiel die unheimliche Stimme am Telefon? Und was ist dieser Mr. Shelby für ein Mensch? Er nennt sich Spezialist für Tricks und Späße aller Art - aber bald stellt sich heraus, daß man auch mit Tricks und Späßen entschieden zu weit gehen kann...",
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "H. H. Allen",
+        "Speaker": "Werner Cartano"
+      },
+      {
+        "Character": "Mr. Shelby",
+        "Speaker": "Richard Lauffen"
+      },
+      {
+        "Character": "Mr. Carter",
+        "Speaker": "F. J. Steffens"
+      },
+      {
+        "Character": "Jack Morgan",
+        "Speaker": "Klaus Klein [Wolfgang Kubach]"
+      },
+      {
+        "Character": "Harry Morgan",
+        "Speaker": "Reiner Brönneke"
+      },
+      {
+        "Character": "Telephonistin",
+        "Speaker": "Reinhild Schneider"
+      }
+    ]
   }
 ]
