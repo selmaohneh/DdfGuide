@@ -9543,5 +9543,775 @@
         "Speaker": "Rosakutty Hemsing"
       }
     ]
+  },
+  {
+    "Id": "28adfb6d-7be3-4e4b-b976-c3cc7e07cb5b",
+    "Title": "Schwarze Sonne",
+    "NumberEuropa": 151,
+    "ReleaseDate": "2012-01-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/28adfb6d-7be3-4e4b-b976-c3cc7e07cb5b.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bei einem Malkurs lernt Bob den sympathischen und begabten Denzel Hopkins kennen. Der Mann wird plötzlich beschuldigt, ein wertvolles Gemälde gestohlen zu haben. Denzel beteuert, das Bild noch nie gesehen zu haben und unschuldig zu sein. Wie konnte er dann bereits in der Vergangenheit immer wieder ein zentrales Motiv aus diesem Bild malen - die schwarze Sonne? Die drei ??? müssen ihren gesamten detektivischen Spürsinn aufbieten, um diesen Fall zu lösen.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Laurence Seinfeld",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Denzel Hopkins",
+        "Speaker": "Tilo Schmitz"
+      },
+      {
+        "Character": "Goldie Hopkins",
+        "Speaker": "Madeleine Weingarten"
+      },
+      {
+        "Character": "Neil Rockwell",
+        "Speaker": "Wanja Mues"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Summer Hopkins",
+        "Speaker": "Regina Lemnitz"
+      },
+      {
+        "Character": "Brooks, Galerist",
+        "Speaker": "Martin May"
+      },
+      {
+        "Character": "Mr. Elroy Follister",
+        "Speaker": "Stephan Schwartz"
+      },
+      {
+        "Character": "Martha",
+        "Speaker": "Hanna Reisch"
+      },
+      {
+        "Character": "Dillon",
+        "Speaker": "Gregor Reisch"
+      },
+      {
+        "Character": "Wayne",
+        "Speaker": "Woody Mues"
+      },
+      {
+        "Character": "Gefängniswärter",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Wirt",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Greis",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Beamter",
+        "Speaker": "Monty Arnold"
+      },
+      {
+        "Character": "Taxifahrer",
+        "Speaker": "Harald Dietl"
+      }
+    ]
+  },
+  {
+    "Id": "edcf14d6-505f-4d4e-af19-2e60c8732a8b",
+    "Title": "Skateboardfieber",
+    "NumberEuropa": 152,
+    "ReleaseDate": "2012-03-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edcf14d6-505f-4d4e-af19-2e60c8732a8b.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein riesiges Skatertreffen findet in Rocky Beach statt. In der Stadt ist die Hölle los, und das nicht nur wegen des Skating-Events: Eine Reihe zwielichtiger Gestalten treibt sich in der Gegend herum, es fallen Schüsse, und niemand weiß genau, wer auf welcher Seite steht. Ein alter Fall der drei ??? spielt auf einmal wieder eine wichtige Rolle. Und ohne die Hilfe ihrer alten und neuen Freunde könnte dies der letzte Fall für einen der drei Detektive werden...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Bert Young",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Mrs. Johnson",
+        "Speaker": "Gabriele Libbach"
+      },
+      {
+        "Character": "Chapman",
+        "Speaker": "Sascha Rotermund"
+      },
+      {
+        "Character": "Tony",
+        "Speaker": "Reent Reins"
+      },
+      {
+        "Character": "Blake",
+        "Speaker": "Wolfgang Rositzka"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Rubbish George",
+        "Speaker": "Utz Richter"
+      },
+      {
+        "Character": "1.Mann",
+        "Speaker": "Rasmus Borowski"
+      },
+      {
+        "Character": "2.Mann",
+        "Speaker": "Jo Kappl"
+      },
+      {
+        "Character": "Verkäufer",
+        "Speaker": "Marcus Schönhoff"
+      },
+      {
+        "Character": "Sunny",
+        "Speaker": "Rainer Schmitt"
+      },
+      {
+        "Character": "Fernsehr-Sprecher",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Blacky",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Francesco",
+        "Speaker": "Anton Sprick"
+      }
+    ]
+  },
+  {
+    "Id": "faff6e3e-9450-4bac-a59c-b6b660ee2318",
+    "Title": "...und das Fußballphantom",
+    "NumberEuropa": 153,
+    "ReleaseDate": "2012-04-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/faff6e3e-9450-4bac-a59c-b6b660ee2318.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Das Fußballstadion brodelt. Die Los Angeles Hawks spielen gegen die Philadelphia Tornados um den amerikanischen Highschool-Meisterschaftstitel. Peter gerät durch eine Fehlvermittlung zufällig in ein fremdes Handygespräch. Was er mithört, lässt ihm das Blut in den Adern gefrieren. Unversehens müssen die drei ??? einem gefährlichen Erpresser das Handwerk legen. Werden sie die seltsamen Rätsel des Fußballphantoms lösen können? Sie müssen. Das Leben eines Menschen draußen auf dem Spielfeld hängt davon ab.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Sean O'Donnell",
+        "Speaker": "Till Demtröder"
+      },
+      {
+        "Character": "Alexander Chilton",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Mann im Stadion",
+        "Speaker": "Eric Förster"
+      },
+      {
+        "Character": "Ordner",
+        "Speaker": "Matthias Treder"
+      },
+      {
+        "Character": "Frau im Police Department",
+        "Speaker": "Corinna Wodrich"
+      },
+      {
+        "Character": "Mrs. Gardiner",
+        "Speaker": "Elisa Linnemann"
+      },
+      {
+        "Character": "Sekretärin",
+        "Speaker": "Susan Jarling"
+      },
+      {
+        "Character": "Inspektor Craig",
+        "Speaker": "Gustav-Adolph Artz"
+      },
+      {
+        "Character": "Tom Chilton",
+        "Speaker": "Christopher Arndt"
+      },
+      {
+        "Character": "Junger Mann auf der Pier",
+        "Speaker": "Christian Senger"
+      },
+      {
+        "Character": "Junge im Stadion",
+        "Speaker": "Johann Gutjahr"
+      },
+      {
+        "Character": "Live-Kommentator",
+        "Speaker": "Ulli Potofski"
+      },
+      {
+        "Character": "Ansager",
+        "Speaker": "Frank Wintjen"
+      },
+      {
+        "Character": "Frau auf dem Pier",
+        "Speaker": "Katinka Körting"
+      }
+    ]
+  },
+  {
+    "Id": "c528af2f-e471-46c6-a4ad-4af636cf0aa6",
+    "Title": "Botschaft aus der Unterwelt",
+    "NumberEuropa": 154,
+    "ReleaseDate": "2012-05-18T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c528af2f-e471-46c6-a4ad-4af636cf0aa6.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Dank seiner unfehlbaren Kombinationsgabe hat Justus Jonas wieder einmal einen Fall der drei ??? im Handumdrehen gelöst. Doch kaum ist die Akte geschlossen, bekommen die drei Detektive Post von einem mysteriösen Klienten. Er benennt sich selbst nach Sherlock Holmes großem Erzfeind \"Professor Moriarty\" und beauftragt Justus, Peter und Bob, für ihn eine geheimnisvolle Botschaft zu entschlüsseln. Schon bald müssen die drei ??? erfahren, dass sie Figuren in einem gefährlichen Spiel sind: Onkel Titus wird verhaftet, Inspektor Cotta ist unerreichbar - und Moriarty scheint stets einen Schritt voraus zu sein. Aber Justus wäre nicht Justus, wenn er die Herausforderung nicht annehmen würde!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Titus Jonas",
+        "Speaker": "Hans Meinhard"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Prof. Jane Heathcliff",
+        "Speaker": "Victoria von Trauttmansdorff"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Mr. Grey",
+        "Speaker": "Urs Affolter"
+      },
+      {
+        "Character": "Lester Price",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Cinelly",
+        "Speaker": "Bernd Stephan"
+      },
+      {
+        "Character": "Mr. Monroe",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Miss Deborah Cassidy",
+        "Speaker": "Barbara Focke"
+      },
+      {
+        "Character": "Mr. Burke",
+        "Speaker": "Kai-Hendrik Möller"
+      },
+      {
+        "Character": "Miss Trimble",
+        "Speaker": "Christine Pappert"
+      },
+      {
+        "Character": "Mr. Weston",
+        "Speaker": "Joachim Lautenbach"
+      },
+      {
+        "Character": "Nachbarin",
+        "Speaker": "Doris Maria Kaiser"
+      },
+      {
+        "Character": "Butler",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Goodween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Michael Kowalski",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Jack",
+        "Speaker": "Leonhard Mahlich"
+      }
+    ]
+  },
+  {
+    "Id": "f3723e10-c42e-43ce-acde-ba4a4bf91bdb",
+    "Title": "...und der Meister des Todes",
+    "NumberEuropa": 155,
+    "ReleaseDate": "2012-07-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f3723e10-c42e-43ce-acde-ba4a4bf91bdb.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Das alte Haus an der Küste hat einst einem Marionettenspieler gehört. Der perfekte Drehort für ihren Horrorfilm, finden die drei ??? und ihre Schulkollegen aus dem Filmkurs. Schließlich hängen die unheimlichen Puppen immer noch an den Wänden. Als es in ihrer Nähe zu mysteriösen Ereignissen kommt, glauben Justus, Peter und Bob zunächst nicht an Magie. Doch dann gerät ausgerechnet einer der Detektive in den Bann einer düsteren Macht. Haben die Marionetten ihre Finger im Spiel? Oder zieht jemand anderes im Hintergrund die Fäden?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Zack Martin",
+        "Speaker": "Christian Stark"
+      },
+      {
+        "Character": "Mary-Ann Leigh",
+        "Speaker": "Manuela Bäcker"
+      },
+      {
+        "Character": "Latona Johnson",
+        "Speaker": "Julia Hummer"
+      },
+      {
+        "Character": "Frank Norman",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Mrs. Robinson",
+        "Speaker": "Heidi Berndt"
+      },
+      {
+        "Character": "Angela Sciutto",
+        "Speaker": "Gisela Fritsch"
+      },
+      {
+        "Character": "Federico Sciutto",
+        "Speaker": "Rainer Fritzsche"
+      },
+      {
+        "Character": "Mr. Torrance",
+        "Speaker": "Ingo Feder"
+      },
+      {
+        "Character": "Frau",
+        "Speaker": "Konstanze Ullmer"
+      },
+      {
+        "Character": "Kind",
+        "Speaker": "Undine Ullmer"
+      }
+    ]
+  },
+  {
+    "Id": "5aea0736-4946-46ec-8851-0d7b1892647e",
+    "Title": "Im Netz des Drachen",
+    "NumberEuropa": 156,
+    "ReleaseDate": "2012-08-24T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/5aea0736-4946-46ec-8851-0d7b1892647e.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bitte beachte auch unser Schnäppchenpaket \"Drei ??? 156 + Aufkleber \"in der Rubrik \"Pakete\" Dragoncourt, das Anwesen des exzentrischen Spiele-Programmierers Stephen Baron, steht zum Verkauf. Der Mann ist schwer erkrankt und hat sich nach Europa zurückgezogen. Doch der mit dem Verkauf der Immobilie beauftragte Makler ist verzweifelt, denn seltsame Dinge geschehen auf Dragoncourt. Ganz klar: hier müssen die drei erfolgreichen Detektive aus Rocky Beach ermitteln! Die Recherchen führen Justus, Bob und Peter in die fantastische Welt des Online-Games \"Im Land der Drachen\". Und schnell wird aus einem scheinbar harmlosen Spiel eine tödliche Gefahr: Alles deutet darauf hin, dass die virtuellen Figuren den Weg in die Wirklichkeit gefunden haben und hier ihr Unwesen treiben...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ryan Holbrooke",
+        "Speaker": "Manfred Reddemann"
+      },
+      {
+        "Character": "Sheriff Pickett",
+        "Speaker": "Gerhart Hinze"
+      },
+      {
+        "Character": "Stephen Baron",
+        "Speaker": "Patrick Elias"
+      },
+      {
+        "Character": "Zyklon",
+        "Speaker": "Wolfgang Berger"
+      },
+      {
+        "Character": "Al Dahab",
+        "Speaker": "Neil Malik"
+      },
+      {
+        "Character": "Frau",
+        "Speaker": "Regine Lamster"
+      },
+      {
+        "Character": "Matthew",
+        "Speaker": "Mike Olsowski"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Zabriski",
+        "Speaker": "Volker Bogdan"
+      },
+      {
+        "Character": "Fred",
+        "Speaker": "Oliver Mink"
+      }
+    ]
+  },
+  {
+    "Id": "4637e94b-ebb0-42ad-862f-647b883f72a9",
+    "Title": "Im Zeichen der Schlangen",
+    "NumberEuropa": 157,
+    "ReleaseDate": "2012-09-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4637e94b-ebb0-42ad-862f-647b883f72a9.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bitte beachte auch unser \"Schnäppchenpaket: Drei ??? 157 + Uhr\" zum Sonderpreis unter der Rubrik \"Pakete\" Auf dem Schrottplatz laufen die Vorbereitungen für eine große Auktion auf Hochtouren. Plötzlich erscheint ein bedrohlicher Riese und beauftragt die drei Detektive mit einem geheimnisvollen Fall. Die Spur führt immer tiefer in längst vergangene Zeiten. Noch ahnen Justus, Peter und Bob nicht, dass sie schon bald in einen Strudel gefährlicher Ereignisse geraten werden. Doch mysteriöse Rätsel, nächtliche Beschatter, geisterhafter Rauch und ein bewaffnetes Phantom machen den drei ??? schnell klar, dass ihr ganzes Können gefordert ist, um nicht auf der Strecke zu bleiben. Nichts ist so, wie es auf den ersten Blick scheint...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Riese",
+        "Speaker": "Tilo Schmitz"
+      },
+      {
+        "Character": "Hunnicutt",
+        "Speaker": "Heinz Lieven"
+      },
+      {
+        "Character": "Sheila",
+        "Speaker": "Melanie Pukaß"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Felicity",
+        "Speaker": "Kari Erlhoff"
+      },
+      {
+        "Character": "Chester",
+        "Speaker": "Mike Olsowski"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Gizmo",
+        "Speaker": "Michael von Rospatt"
+      }
+    ]
+  },
+  {
+    "Id": "bac63a9b-76fa-4d83-994f-3e41de489870",
+    "Title": "...und der Feuergeist",
+    "NumberEuropa": 158,
+    "ReleaseDate": "2012-11-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bac63a9b-76fa-4d83-994f-3e41de489870.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die privat geführte Oper Califia in Rocky Beach steht vor dem finanziellen Aus. So ist es nicht verwunderlich, dass die drei ??? zunächst an eine werbewirksame Veranstaltung glauben, als sich eine Mitarbeiterin der Oper Hilfe suchend an sie wendet: Im Gewölbekeller des Gebäudes gehen mysteriöse Dinge vor sich - und ein seltsames Wesen wurde gesichtet! Justus, Peter und Bob übernehmen den Fall und ahnen nicht, auf was sie sich da einlassen. Plötzlich bricht während einer Aufführung ein Großfeuer aus! War es Brandstiftung? Welche Rolle spielen dabei der undurchsichtige Moody Firthway und sein rotes Notizbuch? Nur Justus erkennt als Einziger, was sich tatsächlich hinter den Kulissen abspielt.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Michelle",
+        "Speaker": "Ulrike Stürzbecher"
+      },
+      {
+        "Character": "Ronald Pounder",
+        "Speaker": "Jürgen Kluckert"
+      },
+      {
+        "Character": "Maurice Blight",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Betsy",
+        "Speaker": "Heidi Schaffrath"
+      },
+      {
+        "Character": "Isabella",
+        "Speaker": "Isabel Navarro"
+      },
+      {
+        "Character": "Vladas Abakulow",
+        "Speaker": "Eric Schäffler"
+      },
+      {
+        "Character": "Moody Firthway",
+        "Speaker": "Peter Striebeck"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Mike Olsowski"
+      },
+      {
+        "Character": "Jenna",
+        "Speaker": "Konstanze Ullmer"
+      },
+      {
+        "Character": "1. Mann",
+        "Speaker": "Olaf Kreutzenbeck"
+      },
+      {
+        "Character": "2. Mann",
+        "Speaker": "Rainer Fritzsche"
+      },
+      {
+        "Character": "3. Mann",
+        "Speaker": "Claus Fuchs"
+      },
+      {
+        "Character": "4. Mann",
+        "Speaker": "Jannik Endemann"
+      }
+    ]
+  },
+  {
+    "Id": "e61c5e56-9074-4e5a-a83b-863d56f1a9e5",
+    "Title": "Nacht der Tiger",
+    "NumberEuropa": 159,
+    "ReleaseDate": "2013-01-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e61c5e56-9074-4e5a-a83b-863d56f1a9e5.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Wer ist der unbekannte Auftraggeber im neuen Fall der drei erfolgreichen Detektive aus Rocky Beach? Wie von Geisterhand erscheinen verschlüsselte Botschaften auf dem Computerbildschirm in der Zentrale. Justus' Ehrgeiz ist geweckt und die drei ??? beginnen zu ermitteln. Sie lösen die komplizierten Rätsel des Unbekannten und folgen seiner Spur. Dabei werden die drei Jungen immer tiefer in dubiose Machenschaften verstrickt. Als sich herausstellt, dass ein guter Freund von ihnen als Täter infrage kommt, stehen Justus, Peter und Bob vor einer schwierigen Entscheidung: Sollen sie ihren Freund ausliefern oder der Polizei die Wahrheit verschweigen? Justus fasst einen Plan - und die drei ??? entdecken das Unvorstellbare in der 'Nacht der Tiger'...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Caroline Cotta",
+        "Speaker": "Michaela Mahlich"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Sergeant Donatelli",
+        "Speaker": "Peter Weis"
+      },
+      {
+        "Character": "1. Mann",
+        "Speaker": "Robin Brosch"
+      },
+      {
+        "Character": "2. Mann",
+        "Speaker": "Gerhart Hinze"
+      }
+    ]
+  },
+  {
+    "Id": "07cfffc6-5c4e-4d78-b51e-3f92c2663319",
+    "Title": "Geheimnisvolle Botschaften",
+    "NumberEuropa": 160,
+    "ReleaseDate": "2013-03-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/07cfffc6-5c4e-4d78-b51e-3f92c2663319.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der Raub eines alten handgefertigten Buchs stellt die drei ??? vor ein Rätsel. Denn im Haus von Professor Mathewson hätte es weitaus wertvollere Beute gegeben. Kaum beginnen Justus, Peter und Bob zu ermitteln, stecken sie schon bis zum Hals in Schwierigkeiten: Ein geheimnisvoller Gegner ist ihnen stets einen Schritt voraus und schreckt vor nichts zurück...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Barbara",
+        "Speaker": "Tanja Geke"
+      },
+      {
+        "Character": "Professor Mathewson",
+        "Speaker": "Stephan Schwartz"
+      },
+      {
+        "Character": "Arthur",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Alan Jones",
+        "Speaker": "Wolfgang Pampel"
+      },
+      {
+        "Character": "Shu Liin",
+        "Speaker": "Monika Freisfeld-Pampel"
+      },
+      {
+        "Character": "Kellner",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Frank",
+        "Speaker": "Simon Jäger"
+      },
+      {
+        "Character": "Stadtverwalter",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Feuerschlucker",
+        "Speaker": "Bertram Hiese"
+      }
+    ]
   }
 ]
