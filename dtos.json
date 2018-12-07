@@ -11749,5 +11749,791 @@
         "Speaker": "Renate Pichler"
       }
     ]
+  },
+  {
+    "Id": "5c6e13bc-f73a-4990-abc2-23c3e37245a5",
+    "Title": " Das Kabinett des Zauberers",
+    "NumberEuropa": 181,
+    "ReleaseDate": "2016-05-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/5c6e13bc-f73a-4990-abc2-23c3e37245a5.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der Zauberer Pablo verschwindet während der Vorstellung in einem Schrank – und taucht nicht mehr auf. Alles andere als Hokuspokus, sind sich Die drei ??? einig. Auf ihrer Suche nach dem verschwundenen Zauberer müssen Justus, Peter und Bob mehr als nur ein Zauberkabinett durchforsten, um die Lösung des Rätsels zu finden... ACHTUNG: Beachte auch unser Sparpaket Angebot zur Folge 181!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Quinn",
+        "Speaker": "Tobias Diakow"
+      },
+      {
+        "Character": "Nightingale",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Pablo",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Thompson",
+        "Speaker": "Ingeborg Kallweit"
+      },
+      {
+        "Character": "Mrs. Kato",
+        "Speaker": "Dorothea Hagena"
+      },
+      {
+        "Character": "Sullivan",
+        "Speaker": "Jonas Hartmann"
+      },
+      {
+        "Character": "Angelina",
+        "Speaker": "Norma Draeger"
+      },
+      {
+        "Character": "Joshua",
+        "Speaker": "Hugo Richert"
+      },
+      {
+        "Character": "1.Junge",
+        "Speaker": "Louis Körting"
+      },
+      {
+        "Character": "2. Junge",
+        "Speaker": "Henrik Bichels"
+      },
+      {
+        "Character": "Mädchen",
+        "Speaker": "Lilian Körting"
+      }
+    ]
+  },
+  {
+    "Id": "4f72d198-e313-4896-a814-e210034e22ea",
+    "Title": " Im Haus des Henkers",
+    "NumberEuropa": 182,
+    "ReleaseDate": "2016-07-22T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4f72d198-e313-4896-a814-e210034e22ea.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine Serie von Überfällen beschäftigt die Polizei von Rocky Beach. Als ein harmlos wirkender Mann unerwartet den letzten Raub gesteht und ein alter Bekannter in die Sache hineingezogen wird, ist klar: Hier geht etwas nicht mit rechten Dingen zu! Justus, Peter und Bob ermitteln an düsteren Orten und geraten in die Gesellschaft zwielichtiger Gestalten....",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mrs. Shaw",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Randy Carlisle",
+        "Speaker": "Johannes Semm"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Christoph Meyer"
+      },
+      {
+        "Character": "Mia",
+        "Speaker": "Elea Richert"
+      },
+      {
+        "Character": "Mrs. Crouch",
+        "Speaker": "Pia Werfel"
+      },
+      {
+        "Character": "Rosemarie Wohlbauer",
+        "Speaker": "Rosemarie Wohlbauer"
+      },
+      {
+        "Character": "Shinefield, Edna",
+        "Speaker": "Edna Shinefield"
+      },
+      {
+        "Character": "George",
+        "Speaker": "Gordon Piedesack"
+      },
+      {
+        "Character": "Ronny",
+        "Speaker": "Anton Pleva"
+      },
+      {
+        "Character": "Loreen",
+        "Speaker": "Barbara Schipper"
+      },
+      {
+        "Character": "TV-Moderatorin",
+        "Speaker": "Dagmar Berghoff"
+      },
+      {
+        "Character": "Daphne",
+        "Speaker": "Enie van de Meiklokjes"
+      },
+      {
+        "Character": "Kiera",
+        "Speaker": "Isabella Grothe"
+      },
+      {
+        "Character": "Luther Litti",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Kyle Caldwell",
+        "Speaker": "Joachim Kretzer"
+      },
+      {
+        "Character": "Hay",
+        "Speaker": "Tobias Diakow"
+      },
+      {
+        "Character": "Junge",
+        "Speaker": "Hugo Richert"
+      }
+    ]
+  },
+  {
+    "Id": "63f8a268-1ff1-4f22-a6cd-36077e2690f6",
+    "Title": "...und der letzte Song",
+    "NumberEuropa": 183,
+    "ReleaseDate": "2016-09-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/63f8a268-1ff1-4f22-a6cd-36077e2690f6.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "ACHTUNG, bitte beachte auch unser Sparpaket zur Folge 183! HIER geht es zum Sparpaket. Lenny „The Rock“, der erfolgreiche Rockstar, veranstaltet auf seinem Anwesen ein teures Geburtstagskonzert voller Spezialeffekte. Als Höhepunkt der Party hat er eine Überraschung angekündigt. Auch Justus, Peter und Bob sind unter den Gästen. Die Detektive rechnen mit Vielem – doch sicher nicht mit dem, was dann passiert! Bei den Ermittlungen gerät einer der drei in große Gefahr. ..",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Lenny The Rock",
+        "Speaker": "Peter Kirchberger"
+      },
+      {
+        "Character": "Sue Tamara",
+        "Speaker": "Maria Hartmann"
+      },
+      {
+        "Character": "Sax Sandler",
+        "Speaker": "Christian Concilio"
+      },
+      {
+        "Character": "Tim Durnell",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Ron",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Keith",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Debbie Peterson",
+        "Speaker": "Maud Ackermann"
+      },
+      {
+        "Character": "Frank Wheeler",
+        "Speaker": "Timo Wenzel"
+      },
+      {
+        "Character": "Joe",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Clayton",
+        "Speaker": "Gordon Piedesack"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Simona Pahl"
+      },
+      {
+        "Character": "der Mitmachen!), Partygäste: Die Gäste Record-Release-Party am 8. Mai 2016 in Hasselburg. (Wir danken euch fürs",
+        "Speaker": "Partygäste: Die Gäste der Record-Release-Party am 8. Mai 2016 in Hasselburg. (Wir danken euch fürs Mitmachen!)"
+      }
+    ]
+  },
+  {
+    "Id": "f2771b6d-8fdc-43fa-827f-7ced9f54cb9a",
+    "Title": "...und der Hexengarten",
+    "NumberEuropa": 184,
+    "ReleaseDate": "2016-12-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f2771b6d-8fdc-43fa-827f-7ced9f54cb9a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei ??? sollen gegen Geisterpflanzen ermitteln? Zunächst hält Peter den Auftrag seines Schulkameraden Jesse für einen Scherz. Doch der meint es ernst – denn das mysteriöse Leuchten und die körperlosen Stimmen im Gewächshaus eines benachbarten Anwesens scheinen echt zu sein. Als Jesses Schwester behauptet, das Anwesen gehöre einer Hexenfamilie, werden die Detektive hellhörig...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Jesse",
+        "Speaker": "Jacob Weigert"
+      },
+      {
+        "Character": "Trainer",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Jaden",
+        "Speaker": "Flemming Draeger"
+      },
+      {
+        "Character": "Joshua",
+        "Speaker": "Louis Körting"
+      },
+      {
+        "Character": "April",
+        "Speaker": "Lilli Körting"
+      },
+      {
+        "Character": "Autumn",
+        "Speaker": "Sabrina Heuer-Diakow"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Charles Morland",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Tanika Frost",
+        "Speaker": "Isabella Grothe"
+      },
+      {
+        "Character": "Savannah Frost",
+        "Speaker": "Christiane Leuchtmann"
+      },
+      {
+        "Character": "Dennis Frost",
+        "Speaker": "Sascha Oliver Bauer"
+      },
+      {
+        "Character": "Jane Thompson",
+        "Speaker": "Maud Ackermann"
+      },
+      {
+        "Character": "Tyler",
+        "Speaker": "Christian Rudolf"
+      },
+      {
+        "Character": "Gardener",
+        "Speaker": "Christian Concilio"
+      }
+    ]
+  },
+  {
+    "Id": "0ef50027-2ad7-4e8b-a65a-515343d8a0fc",
+    "Title": "...und der Mann ohne Augen",
+    "NumberEuropa": 185,
+    "ReleaseDate": "2017-01-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0ef50027-2ad7-4e8b-a65a-515343d8a0fc.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Dichte Flammen auf der Veranda eines einsamen Hauses am Rand von Rocky Beach! War es Brandstiftung? Als plötzlich ein Einbrecher durch eine ausgebrannte Wohnung schleicht, sind Justus, Peter und Bob sicher: Das war kein Unfall!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Adam Quinn",
+        "Speaker": "Romanus Fuhrmann"
+      },
+      {
+        "Character": "Mr. Carrington",
+        "Speaker": "Martin May"
+      },
+      {
+        "Character": "Mrs. Carrington",
+        "Speaker": "Manuela Dahm-Mauerhofer"
+      },
+      {
+        "Character": "Liza Hawkins",
+        "Speaker": "Lucia Angela Mahler"
+      },
+      {
+        "Character": "Mr. Hawkins",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Mrs. Hawkins",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Leslie Logue-Smith",
+        "Speaker": "Uschi Hugo"
+      },
+      {
+        "Character": "Schauspieler",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Britney Rogers",
+        "Speaker": "Theresa Berlage"
+      },
+      {
+        "Character": "Sanitäter",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Mr. Sisko",
+        "Speaker": "Daniel Welbat"
+      }
+    ]
+  },
+  {
+    "Id": "8d34f92a-dee7-4cda-9c2d-314b295c3576",
+    "Title": " Insel des Vergessens",
+    "NumberEuropa": 186,
+    "ReleaseDate": "2017-03-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8d34f92a-dee7-4cda-9c2d-314b295c3576.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Peters Opa ist verschwunden! Angeblich soll Bennington Peck still und heimlich in ein Pflegeheim gezogen sein und wird nun vermisst. Peter ist fassungslos. Das kann doch unmöglich sein! Als der Zweite Detektiv plötzlich in den Lokalnachrichten entdeckt, wie der alte Herr eine Tankstelle überfällt, überstürzen sich die Ereignisse...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ben Peck",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Sandra",
+        "Speaker": "Maureen Havlena"
+      },
+      {
+        "Character": "TV-Nachrichtensprecher",
+        "Speaker": "Holger Wemhoff"
+      },
+      {
+        "Character": "Mr. Castro",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Doktor Burke",
+        "Speaker": "Hans Peter Korff"
+      },
+      {
+        "Character": "Mrs. Penny",
+        "Speaker": "Herma Koehn"
+      },
+      {
+        "Character": "Schwester Beatrice",
+        "Speaker": "Roswitha Völz"
+      },
+      {
+        "Character": "Mr. Hooper",
+        "Speaker": "Günther Karl"
+      },
+      {
+        "Character": "Ellyn Djawadi",
+        "Speaker": "Anika Pages"
+      },
+      {
+        "Character": "Mr. Turner",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Goodween",
+        "Speaker": "André Minninger"
+      }
+    ]
+  },
+  {
+    "Id": "605abd50-17a7-4331-8dbf-f5ceda7c41a6",
+    "Title": "...und das silberne Amulett",
+    "NumberEuropa": 187,
+    "ReleaseDate": "2017-05-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/605abd50-17a7-4331-8dbf-f5ceda7c41a6.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine rätselhafte Botschaft fliegt über den Zaun des Schrottplatzes: eine Dose, darin ein Schlüssel, ein Parkschein und ein silbernes Amulett. Was hat es damit auf sich? Und vor allem: Wer hat den drei ??? die Dose zugespielt? Justus, Peter und Bob müssen Antworten auf viele Fragen finden – und das schnell...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Kramer",
+        "Speaker": "Volker Bogdan"
+      },
+      {
+        "Character": "Emma Bailey",
+        "Speaker": "Hansi Jochmann"
+      },
+      {
+        "Character": "Hank",
+        "Speaker": "Ben Hecker"
+      },
+      {
+        "Character": "Lewis Geriwell",
+        "Speaker": "Frank Gustavus"
+      },
+      {
+        "Character": "Henry Appleton",
+        "Speaker": "Peter Heeckt"
+      },
+      {
+        "Character": "Amber",
+        "Speaker": "Sarah Madeleine Tusk"
+      },
+      {
+        "Character": "Laura",
+        "Speaker": "Maud Ackermann"
+      },
+      {
+        "Character": "Gerald",
+        "Speaker": "Michael von Rospatt"
+      },
+      {
+        "Character": "Nat",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Collins",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Nader Rope",
+        "Speaker": "Michael Bideller"
+      }
+    ]
+  },
+  {
+    "Id": "6f1f3d2e-df79-48c1-b803-cf234c357c43",
+    "Title": " Signale aus dem Jenseits",
+    "NumberEuropa": 188,
+    "ReleaseDate": "2017-07-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6f1f3d2e-df79-48c1-b803-cf234c357c43.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Mit den Toten Kontakt aufnehmen: An so etwas glauben die drei ??? nicht. Doch genau das scheint Astrala in „Karma Hour“, der neuen Lieblingssendung von Tante Mathilda, tatsächlich zu gelingen. Was steckt hinter den Fähigkeiten der geheimnisvollen Spiritistin? Und weshalb kommt sie Bob so bekannt vor? Die drei Detektive setzen sich auf ihre Spur und geraten dabei in die Schusslinie eines äußerst mysteriösen Verbrechers....",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Clarissa Franklin",
+        "Speaker": "Judy Winter"
+      },
+      {
+        "Character": "Laura Stryker",
+        "Speaker": "Regina Lemnitz"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Anruferin",
+        "Speaker": "Topsy Küppers"
+      },
+      {
+        "Character": "Anrufer",
+        "Speaker": "Oliver Kalkofe"
+      },
+      {
+        "Character": "Regisseur",
+        "Speaker": "Nikolas Tantsoukes"
+      },
+      {
+        "Character": "Stephen",
+        "Speaker": "Timo Hempel"
+      },
+      {
+        "Character": "Redakteurin",
+        "Speaker": "Reinhilt Schneider"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Sax Sandler",
+        "Speaker": "Christian Concilio"
+      }
+    ]
+  },
+  {
+    "Id": "58651aa9-2afc-42e4-8ecd-3d0197e996f7",
+    "Title": "...und der unsichtbare Passagier",
+    "NumberEuropa": 189,
+    "ReleaseDate": "2017-09-29T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/58651aa9-2afc-42e4-8ecd-3d0197e996f7.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Justus, Peter und Bob steht ein tolles Abenteuer bevor: eine Reise mit dem Coast Imperial, dem berühmten Luxuszug! Doch kurz nach Fahrtbeginn verschwindet einer der Mitreisenden spurlos. Handelt es sich um eine Entführung? Die drei Fragezeichen nehmen die Ermittlungen auf. Es bleibt ihnen nicht viel Zeit. Der nächste Bahnhof wäre die perfekte Fluchtmöglichkeit...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Whitty",
+        "Speaker": "Claus Wilcke"
+      },
+      {
+        "Character": "Hank",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Cowboy Dick",
+        "Speaker": "Wolfgang Kaven"
+      },
+      {
+        "Character": "Mr. Arbuthnott",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "Mrs. Lockwood",
+        "Speaker": "Ingeborg Kallweit"
+      },
+      {
+        "Character": "Linda",
+        "Speaker": "Svenja Pages"
+      },
+      {
+        "Character": "Roger",
+        "Speaker": "Christian Stark"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Gernot Endemann"
+      },
+      {
+        "Character": "Einsatzleiter",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Alexander Mettin"
+      },
+      {
+        "Character": "Mechaniker",
+        "Speaker": "Joachim Kretzer"
+      }
+    ]
+  },
+  {
+    "Id": "a664f8dc-67b2-4671-acb1-57684500c38a",
+    "Title": "...und die Kammer der Rätsel",
+    "NumberEuropa": 190,
+    "ReleaseDate": "2017-12-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a664f8dc-67b2-4671-acb1-57684500c38a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein Auftrag der seltsamen Art: Die drei ??? sollen bei einer Wette behilflich sein. Gesucht ist ein Team aus klugen Köpfen, die sich in weniger als fünf Stunden aus fünf verschiedenen Rätselräumen befreien können. Wer wäre da geeigneter als Justus, Peter und Bob? Doch was zunächst als Spaß beginnt, entpuppt sich bald als gefährlicher Ernst … Beachte auch unser Sparpaket inklusive \"DIe drei ???\" Schlüsselanhänger zum Sparpreis. Die Sparpakete gibt es HIER!!!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Jeff Ranaldo",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Mr. McBrandon",
+        "Speaker": "Rainer Brandt"
+      },
+      {
+        "Character": "Sandy",
+        "Speaker": "Anna Carlsson"
+      },
+      {
+        "Character": "Roboter",
+        "Speaker": "Joachim Kretzer"
+      },
+      {
+        "Character": "Computerstimme",
+        "Speaker": "Hansi Jochmann"
+      },
+      {
+        "Character": "Bruce Torino",
+        "Speaker": "Michael Lott"
+      }
+    ]
   }
 ]
