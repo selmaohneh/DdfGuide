@@ -9404,5 +9404,248 @@
         "Speaker": "Frank Meyer-Brockmann"
       }
     ]
+  },
+  {
+    "Id": "f351dcda-cde2-4c3c-9857-70a91c35189a",
+    "Title": "Geisterbucht",
+    "NumberEuropa": 150,
+    "ReleaseDate": "2011-11-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f351dcda-cde2-4c3c-9857-70a91c35189a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei ??? übernehmen und lösen (hoffentlich!) ihren 150sten Fall! In drei atemberaubenden Folgen sind sie dem Rätsel der Geisterbucht auf der Spur! Welches Geheimnis verbirgt sich hinter dem Testament, dass der exzentrische Harry Shreber kurz vor seinem Tod verfasst hat? Führen die verschlüsselten Verse tatsächlich zu Rashuras Schatz? (Teil A) Den drei Detektiven wird nichts anderes übrig bleiben: Sie müssen in Flammendes Wasser (Teil B) hinab tauchen; denn nur in der Tiefe des Meeres kann geklärt werden, warum Der brennende Kristall (Teil C) so viel Unglück über eine große Anzahl Menschen bringen konnte... Teil A: Rashuras Schatz Die drei berühmten Detektive aus Rocky Beach müssen ein Rätsel lösen, das ihnen der schrullige Harry Shreber in seinem Testament hinterlassen hat. Schnell finden sie heraus, dass der erste Hinweis in einem schrottreifen Flugzeug in Shrebers Garten versteckt sein könnte. Die Suche nach Rashuras Schatz beginnt - aber Justus, Peter und Bob sind bei weitem nicht die Einzigen, die das Rätsel lösen wollen... Teil B: Flammendes Wasser Die Spur zu Rashuras Schatz führt die drei ??? hoch in die Berge, tief unter die Erde und hinaus auf die offene See. Aber mit jedem Hinweis wird alles nur noch geheimnisvoller ? und gefährlicher! Ein Wettlauf mit der Zeit beginnt... Teil C: Der brennende Kristall Noch immer haben Justus, Peter und Bob das Rätsel aus dem Testament nicht lösen können. Welche Rolle spielen Moby Dick und der brennende Kristall? Die drei ??? begeben sich zur Geisterbucht, um das Geheimnis zu lüften. Doch sie sind nicht allein! Jeder pokert hoch in diesem Spiel, das nur einer gewinnen kann...",
+    "Roles": [
+      {
+        "Character": "Teil A",
+        "Speaker": ""
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Frank Mason",
+        "Speaker": "Wolfgang Condrus"
+      },
+      {
+        "Character": "Miles Dempster",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Mr. Sapchevsky",
+        "Speaker": "Andreas Schmidt-Schaller"
+      },
+      {
+        "Character": "Gerry",
+        "Speaker": "Kostja Ullmann"
+      },
+      {
+        "Character": "Ismael",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Carla Fenton",
+        "Speaker": "Natalie O'Hara"
+      },
+      {
+        "Character": "Mrs. Maruthers",
+        "Speaker": "Ulrike Johannson"
+      },
+      {
+        "Character": "Inspektor Havilland",
+        "Speaker": "Oliver Kalkofe"
+      },
+      {
+        "Character": "Taylor",
+        "Speaker": "Bernhard Hoecker"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Angelica",
+        "Speaker": "Anna Thalbach"
+      },
+      {
+        "Character": "Schwester 1",
+        "Speaker": "Manuela Becker"
+      },
+      {
+        "Character": "Schwester 2",
+        "Speaker": "Traudel Sperber"
+      },
+      {
+        "Character": "Pfleger",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Teil B",
+        "Speaker": ""
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Taylor",
+        "Speaker": "Bernhard Hoecker"
+      },
+      {
+        "Character": "Mr. Smith",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Curtis Fisher",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Amrita Chakyar",
+        "Speaker": "Angela Stresemann"
+      },
+      {
+        "Character": "Inspektor Havilland",
+        "Speaker": "Oliver Kalkofe"
+      },
+      {
+        "Character": "Ismael",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Angelica",
+        "Speaker": "Anna Thalbach"
+      },
+      {
+        "Character": "Sergeant Madhu",
+        "Speaker": "Olli Dittrich"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Mrs. Andrews",
+        "Speaker": "Konstanze Ullmer"
+      },
+      {
+        "Character": "Frank Mason",
+        "Speaker": "Wolfgang Condrus"
+      },
+      {
+        "Character": "Mr. Raffer",
+        "Speaker": "Harald Dietl"
+      },
+      {
+        "Character": "Feuerwehrmann",
+        "Speaker": "Kai-Hendrik Möller"
+      },
+      {
+        "Character": "Kapitän",
+        "Speaker": "Sky du Mont"
+      },
+      {
+        "Character": "Teil C",
+        "Speaker": ""
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Frank Mason",
+        "Speaker": "Wolfgang Condrus"
+      },
+      {
+        "Character": "Taylor",
+        "Speaker": "Bernhard Hoecker"
+      },
+      {
+        "Character": "Curtis Fisher",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "John Fisher",
+        "Speaker": "Dirk Bach"
+      },
+      {
+        "Character": "Gerry",
+        "Speaker": "Kostja Ullmann"
+      },
+      {
+        "Character": "Ismael",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Mr. Smith",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Mrs. Maruthers",
+        "Speaker": "Ulrike Johannson"
+      },
+      {
+        "Character": "Angelica",
+        "Speaker": "Anna Thalbach"
+      },
+      {
+        "Character": "Sergeant Madhu",
+        "Speaker": "Olli Dittrich"
+      },
+      {
+        "Character": "Mr. Castro",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Sanitäter",
+        "Speaker": "Robert Kottula"
+      },
+      {
+        "Character": "Anudhara",
+        "Speaker": "Rosakutty Hemsing"
+      }
+    ]
   }
 ]
