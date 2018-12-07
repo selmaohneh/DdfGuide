@@ -10908,5 +10908,846 @@
         "Speaker": "Holger Mahlich"
       }
     ]
+  },
+  {
+    "Id": "c6282068-bdc4-44a3-ba65-88742c274cb4",
+    "Title": " Straße des Grauens",
+    "NumberEuropa": 170,
+    "ReleaseDate": "2014-08-29T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c6282068-bdc4-44a3-ba65-88742c274cb4.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ex-Kommissar Reynolds wurde entführt! Justus, Peter und Bob machen sich sofort auf die Spur des Täters. Der der verbietet ihnen jeglichen Kontakt zur Polizei, schickt ihnen ein Paket mit fragwürdigem Inhalt und lässt ihnen seltsame Hinweise zukommen. Durch die glühende Hitze der Wüste jagen die drei ??? ihren ruchlosen Gegner. Und dann verschwindet auch noch Bob! Wie weit werden die Detektive gehen, um ihre Freunde zu retten?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Mitch Palmer",
+        "Speaker": "Michael Lott"
+      },
+      {
+        "Character": "Dimitri",
+        "Speaker": "Manou Lubowski"
+      },
+      {
+        "Character": "Roy",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Boss",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Cindy",
+        "Speaker": "Konstanze Ullmer"
+      },
+      {
+        "Character": "Mike",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Wirt",
+        "Speaker": "Peter Lakenmacher"
+      },
+      {
+        "Character": "Rockford",
+        "Speaker": "Christian Senger"
+      },
+      {
+        "Character": "Casino-Besucher",
+        "Speaker": "Robin Bosch"
+      },
+      {
+        "Character": "Casino-Besucherin",
+        "Speaker": "Brigitte Böttrich"
+      },
+      {
+        "Character": "Rezeption 1",
+        "Speaker": "Dorothea Lott"
+      },
+      {
+        "Character": "Rezeption 2",
+        "Speaker": "Marco Spina"
+      },
+      {
+        "Character": "Fernfahrer",
+        "Speaker": "Tilman Madaus"
+      },
+      {
+        "Character": "Putzfrau",
+        "Speaker": "Maria Baptista"
+      }
+    ]
+  },
+  {
+    "Id": "6f6f8242-9cfe-4bbd-8351-5b99b9be1918",
+    "Title": "...und das Phantom aus dem Meer",
+    "NumberEuropa": 171,
+    "ReleaseDate": "2014-10-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6f6f8242-9cfe-4bbd-8351-5b99b9be1918.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In einem beschaulichen Küstenort unweit von Rocky Beach passieren seltsame Dinge: Eine Gestalt erhebt sich aus dem Meer und versetzt die Strandbesucher in Angst und Schrecken. Ein ruheloser Geist, der auf Rache sinnt? Die drei ??? fangen an zu ermitteln. Ob der neue Bewohner des alten Leuchtturms etwas damit zu tun hat? Oder der kauzige Seebär am Hafen? Justus, Peter und Bob gehen keiner Gefahr aus dem Weg, um das Netz aus Lügen zu entwirren.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Harry Salas",
+        "Speaker": "Pat Murphy"
+      },
+      {
+        "Character": "Vanessa Goodstein",
+        "Speaker": "Simone Ritscher"
+      },
+      {
+        "Character": "Eliah Cristobal",
+        "Speaker": "Stephan Schwartz"
+      },
+      {
+        "Character": "Albert Goodstein",
+        "Speaker": "Manfred Reddemann"
+      },
+      {
+        "Character": "Ben Kramer",
+        "Speaker": "Jan-Christof Kick"
+      },
+      {
+        "Character": "Fiona Kramer",
+        "Speaker": "Lilian Körting"
+      },
+      {
+        "Character": "Wirt",
+        "Speaker": "Harald Halgardt"
+      },
+      {
+        "Character": "Jimmy Blue Eye",
+        "Speaker": "Ulli Potofski"
+      },
+      {
+        "Character": "1. Mann",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "2. Mann",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Frau",
+        "Speaker": "Saskia Weckler"
+      },
+      {
+        "Character": "Rosaria",
+        "Speaker": "Gela del Este"
+      },
+      {
+        "Character": "Silvie",
+        "Speaker": "Katharina von Keller"
+      },
+      {
+        "Character": "Jessy",
+        "Speaker": "Manuela Bäcker"
+      },
+      {
+        "Character": "Sergeant",
+        "Speaker": "Alexander Stamm"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Gordon Piedesack"
+      },
+      {
+        "Character": "Rikuo Yamamoto",
+        "Speaker": "Toru Takahashi"
+      }
+    ]
+  },
+  {
+    "Id": "3e2294fb-ea72-4541-becc-687f6993c0f1",
+    "Title": "...und der Eisenmann",
+    "NumberEuropa": 172,
+    "ReleaseDate": "2014-11-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3e2294fb-ea72-4541-becc-687f6993c0f1.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Auf einer einsamen Insel stoßen die drei ??? auf den Künstler Drago Martinez. Der hat großen Erfolg mit seinem einzigartigen Werk Eisenmann. Doch die Freude darüber ist kurz: Drago wird verfolgt und fürchtet um sein Leben! Steckt ein verrückter Kunstliebhaber dahinter? Offenbar sind die drei Freunde der Lösung zu nahe, denn jemand lockt sie in einen Hinterhalt...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Drago Martinez",
+        "Speaker": "Konstantin Graudus"
+      },
+      {
+        "Character": "Fred Osborne",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Cecile Jezero",
+        "Speaker": "Sandra Quadflieg"
+      },
+      {
+        "Character": "Deborah",
+        "Speaker": "Kornelia Lüdorff"
+      },
+      {
+        "Character": "Short",
+        "Speaker": "Manfred Liptow"
+      },
+      {
+        "Character": "Anthony",
+        "Speaker": "Lutz Harder"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Heavy Metal",
+        "Speaker": "Iris Rufner"
+      },
+      {
+        "Character": "Arthur Pepper",
+        "Speaker": "Frank Thannhäuser"
+      }
+    ]
+  },
+  {
+    "Id": "d29fb3fb-e153-416f-8585-627bd46b20f0",
+    "Title": " Dämon der Rache",
+    "NumberEuropa": 173,
+    "ReleaseDate": "2015-01-16T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d29fb3fb-e153-416f-8585-627bd46b20f0.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bei einer Ballonfahrt entdeckt Peter in der Nähe einer abgelegenen Villa ein Monster – eindeutig ein neuer Fall für die drei ???! Ihre Ermittlungen führen die Detektive zur seltsamen Mrs Pembroke und ihrem Neffen Luke. Die beiden werden von der grässlichen Gestalt bedroht. Luke bittet Justus, Peter und Bob um Hilfe. Doch schnell wird klar: Der Dämon der Rache ist nicht aufzuhalten...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Rupert",
+        "Speaker": "Udo Schenk"
+      },
+      {
+        "Character": "Luke",
+        "Speaker": "Daniel Kirchberger"
+      },
+      {
+        "Character": "Gwendolyn Pembroke",
+        "Speaker": "Aranka Mamero"
+      },
+      {
+        "Character": "Lance Vaughn",
+        "Speaker": "Rainer Schmitt"
+      },
+      {
+        "Character": "'The Destroyer'",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Darby Farnham",
+        "Speaker": "Christine Jensen"
+      },
+      {
+        "Character": "Earl Forrester",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Alvin Cray",
+        "Speaker": "Michael Bideller"
+      },
+      {
+        "Character": "Mr. Lloyd",
+        "Speaker": "Lutz Mackensy"
+      }
+    ]
+  },
+  {
+    "Id": "953026da-5bf5-40e1-9a56-f1366c8c361c",
+    "Title": "...und das Tuch der Toten",
+    "NumberEuropa": 174,
+    "ReleaseDate": "2015-03-06T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/953026da-5bf5-40e1-9a56-f1366c8c361c.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein zunächst harmloser Ausflug entwickelt sich zu einem geheimnisvollen Fall für die drei ???: In einem sagenumwobenen Waldgebiet in den Santa Monica Mountains streift eine düstere Gestalt umher. Ein Wesen aus der Urzeit? Justus, Peter und Bob stoßen auf rätselhafte Spuren. Was sie nicht wissen: Sie sind nicht die Verfolger, sondern die Beute...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Guillermo",
+        "Speaker": "Mario Ramos"
+      },
+      {
+        "Character": "Stanley Morgan",
+        "Speaker": "Romanus Fuhrmann"
+      },
+      {
+        "Character": "Grace Powell",
+        "Speaker": "Luise Lunow"
+      },
+      {
+        "Character": "Angus",
+        "Speaker": "Till Demtröder"
+      },
+      {
+        "Character": "Inspektor Cottahol",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Baxter",
+        "Speaker": "Hans Kahlert"
+      },
+      {
+        "Character": "Kranführer",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Steve",
+        "Speaker": "Martin Brücker"
+      }
+    ]
+  },
+  {
+    "Id": "281cbcd6-2f17-4857-98e6-d3a683b0dd09",
+    "Title": " Schattenwelt",
+    "NumberEuropa": 175,
+    "ReleaseDate": "2015-05-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/281cbcd6-2f17-4857-98e6-d3a683b0dd09.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Teil A: Teuflisches Duell Kurz nach ihrem Einzug ins Studentenwohnheim werden die drei ??? Zeugen merkwürdiger Ereignisse auf dem Campus. Unmenschliche Schreie hallen über das Gelände, freundliche Studenten werden plötzlich aggressiv – geht hier alles mit rechten Dingen zu? Und wer ist der Teumessische Fuchs, über den man überall Gerüchte hört? Eine Fuchsjagd der besonderen Art beginnt... Teil B: Angriff in der Nacht Ihre Ermittlungen führen die drei ??? immer weiter in einen Sumpf aus Lügen und dunklen Machenschaften. Doch wer steckt hinter alldem? Justus, Peter und Bob sind dem Teumessischen Fuchs auf der Spur, der überall und nirgends zu sein scheint. Doch haben die drei Detektive den richtigen Riecher? Eines Nachts schlägt ihr unbekannter Gegner plötzlich zu… Teil C: Die dunkle Macht Die drei Detektive machen ein paar spektakuläre Entdeckungen. Doch der Teumessische Fuchs scheint ihnen stets einen Schritt voraus zu sein. Noch immer wissen sie nicht, wer sich hinter dem rätselhaften Wesen verbirgt. Und je näher die drei ??? ihm kommen, desto gefährlicher wird es für sie. Als Justus, Peter und Bob endlich auf ihren Widersacher treffen, zeigt der Fuchs sein wahres Gesicht...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Jeremy Bright",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Taylor-Jackson",
+        "Speaker": "Jona Mues"
+      },
+      {
+        "Character": "Francine Breckenridge",
+        "Speaker": "Elga Schütz"
+      },
+      {
+        "Character": "A.C. Berany",
+        "Speaker": "Hanni Vanhaiden"
+      },
+      {
+        "Character": "Samantha",
+        "Speaker": "Henrike Fehrs"
+      },
+      {
+        "Character": "Corvy",
+        "Speaker": "Karin Suender"
+      },
+      {
+        "Character": "Lemuel Garvine",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Prof. Roalstad",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Chris",
+        "Speaker": "Soi Anifantis"
+      },
+      {
+        "Character": "Gamma",
+        "Speaker": "Wolfram Grandezka"
+      },
+      {
+        "Character": "Barfrau",
+        "Speaker": "Rhesi Underberg"
+      },
+      {
+        "Character": "John",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Walker",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Lederhose",
+        "Speaker": "Klaus Krückemeyer"
+      },
+      {
+        "Character": "1.Polizist",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "2.Polizist",
+        "Speaker": "Jesse Grimm"
+      },
+      {
+        "Character": "Stimme (TS)",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Jason",
+        "Speaker": "Woody Mues"
+      },
+      {
+        "Character": "Mrs. Roalstad",
+        "Speaker": "Beate Rysopp"
+      },
+      {
+        "Character": "Mrs. Fernandez",
+        "Speaker": "Anja Topf"
+      },
+      {
+        "Character": "Lemuel Garvine",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Emery",
+        "Speaker": "Peter Weis"
+      },
+      {
+        "Character": "Ginger",
+        "Speaker": "Heidi Schaffrath"
+      },
+      {
+        "Character": "Sanitäter",
+        "Speaker": "Franzisko Löwe"
+      },
+      {
+        "Character": "Schwester",
+        "Speaker": "Maike Nagel"
+      },
+      {
+        "Character": "Ivy",
+        "Speaker": "Leonie Lander"
+      },
+      {
+        "Character": "Prof. Haynthorb",
+        "Speaker": "Wolfgang Dräger"
+      },
+      {
+        "Character": "Dr. Wilcomb",
+        "Speaker": "Heinz Lieven"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Franziskus Navek"
+      }
+    ]
+  },
+  {
+    "Id": "afde672c-30c8-4b6c-865e-5b113980854e",
+    "Title": "176/und der gestohlene Sieg",
+    "NumberEuropa": 176,
+    "ReleaseDate": "2015-07-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/afde672c-30c8-4b6c-865e-5b113980854e.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Zwei Tore liegen die L.A. Strikers zurück – zehn Minuten vor dem Abpfiff. Das Fußballspiel gegen die haushoch überlegenen Rochester Ravens scheint längst entschieden zu sein. Doch plötzlich wendet sich das Blatt und die Strikers nehmen den glänzenden Pokal mit nach Hause. Was ist geschehen? Die Ermittlungen bringen Justus, Peter und Bob auf die Spur eines skrupellosen Erpressers...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Sidney",
+        "Speaker": "Dorothee Sturz"
+      },
+      {
+        "Character": "Tiffany",
+        "Speaker": "Maureen Havlena"
+      },
+      {
+        "Character": "Salma Hutchinson",
+        "Speaker": "Tina Eschmann"
+      },
+      {
+        "Character": "Trevor Pomery",
+        "Speaker": "Ben Hecker"
+      },
+      {
+        "Character": "Beatrice",
+        "Speaker": "Ursula Sieg"
+      },
+      {
+        "Character": "Claire",
+        "Speaker": "Karin Eckhold"
+      },
+      {
+        "Character": "Pflegerin",
+        "Speaker": "Susanne Wulkow"
+      },
+      {
+        "Character": "Roger Wolf",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Menge Fußballstadion",
+        "Speaker": "Die Gäste der Record-Release-Party am 22.02.2015 in Dortmund. (Wir danken euch für´s Mitmachen!)"
+      }
+    ]
+  },
+  {
+    "Id": "55399b34-1e27-46d1-8fa6-a3aa2871720b",
+    "Title": " Der Geist des Goldgräbers",
+    "NumberEuropa": 177,
+    "ReleaseDate": "2015-10-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/55399b34-1e27-46d1-8fa6-a3aa2871720b.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Im menschenleeren Dead Mans Canyon begegnet den drei ??? plötzlich ein Goldgräber. Und zwar nicht irgendeiner John Dewey kam vor über 100 Jahren zu Tode und verfluchte jeden, der seinem Gold zu nahe kommt. Für Justus steht fest: Alles Legende! Doch als in der darauffolgenden Nacht gespenstischer Besuch vor der Tür steht, erwacht die Legende zum Leben ...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Dusty Kirkpatrick",
+        "Speaker": "Hans Kahlert"
+      },
+      {
+        "Character": "Miranda Kramer",
+        "Speaker": "Susanne Sternberg"
+      },
+      {
+        "Character": "Barclay",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Brian",
+        "Speaker": "Volker Hanisch"
+      },
+      {
+        "Character": "Raven",
+        "Speaker": "Neda Rahmanian"
+      },
+      {
+        "Character": "Dr. Hardwick",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Robert",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Manolo",
+        "Speaker": "Wolfgang Berger"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Kai-Hendrik Möller"
+      }
+    ]
+  },
+  {
+    "Id": "ad765116-1dbe-4044-b072-ac1a7dba3501",
+    "Title": " Der gefiederte Schrecken",
+    "NumberEuropa": 178,
+    "ReleaseDate": "2015-12-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/ad765116-1dbe-4044-b072-ac1a7dba3501.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Was hat ein seltsames Vogelwesen mit einem riesigen Aquarium zu tun? Wer hat ein Interesse daran, die gigantische Meereslandschaft des mürrischen Mr. Faring zu zerstören? Und vor allem warum? Schon am Anfang ihres neuesten Falls gibt es eine Menge Fragezeichen für Justus, Peter und Bob. Und am Tatort gilt es, nicht nur erstaunliche Kreaturen in Sicherheit zu bringen, sondern auch ein höchst merkwürdiges Rätsel zu lösen ...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Barbara Mathewson",
+        "Speaker": "Tanja Geke"
+      },
+      {
+        "Character": "Zacharias Faring",
+        "Speaker": "Olaf Reichmann"
+      },
+      {
+        "Character": "Malone",
+        "Speaker": "Tilo Schmitz"
+      },
+      {
+        "Character": "Ben Crane",
+        "Speaker": "Christian Rudolf"
+      },
+      {
+        "Character": "Timothy Jackson",
+        "Speaker": "Nicolas König"
+      },
+      {
+        "Character": "Reginald",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      }
+    ]
+  },
+  {
+    "Id": "2ae9f20f-ffd8-46c2-9a67-68ebf51a7f27",
+    "Title": " Die Rache des Untoten",
+    "NumberEuropa": 179,
+    "ReleaseDate": "2016-01-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2ae9f20f-ffd8-46c2-9a67-68ebf51a7f27.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bob soll ein Vermögen erben! Nur hat er von seinem Wohltäter noch nie etwas gehört. Schnell stellt sich heraus, dass auch andere Menschen ein ähnliches Schreiben erhalten haben. Die drei ??? brechen gemeinsam mit ihnen zu einer Reise auf. Ihr Ziel: Eine verlassene Hütte im „Tal der Klapperschlangen“. Plötzlich verschwindet eine junge Frau und es wird klar: Jemand hat es auf die Reisegruppe abgesehen…",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Evander Whiteside",
+        "Speaker": "Claus Wilcke"
+      },
+      {
+        "Character": "Wendy Brown",
+        "Speaker": "Catrin Owerfeldt"
+      },
+      {
+        "Character": "Christopher Barclay",
+        "Speaker": "Martin Paas"
+      },
+      {
+        "Character": "Edgar Bristol",
+        "Speaker": "Sascha Gutzeit"
+      },
+      {
+        "Character": "Carter Godfrey",
+        "Speaker": "Nicolas König"
+      },
+      {
+        "Character": "Chuck Foster",
+        "Speaker": "Heiko Wohlgemuth"
+      },
+      {
+        "Character": "Busfahrer Sam",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Officer Ossietzky",
+        "Speaker": "Romanus Fuhrmann"
+      },
+      {
+        "Character": "Matt",
+        "Speaker": "Mike Olsowski"
+      },
+      {
+        "Character": "Stephen",
+        "Speaker": "Alexander Kruuse-Mettin"
+      },
+      {
+        "Character": "Billy",
+        "Speaker": "Tom Pidde"
+      },
+      {
+        "Character": "Polizist Jerry",
+        "Speaker": "Stefan Weißenburger"
+      }
+    ]
+  },
+  {
+    "Id": "a3519573-62d4-4b7a-aeac-44aaec3eabd7",
+    "Title": "...und die flüsternden Puppen",
+    "NumberEuropa": 180,
+    "ReleaseDate": "2016-03-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a3519573-62d4-4b7a-aeac-44aaec3eabd7.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Das Mädchen Bianca wurde entführt! Am helllichten Tag, direkt vor einem Fitnessstudio! Eine Botschaft, offenbar in Panik auf einem alten Walkman hinterlassen, ist der einzige Hinweis. Die drei ??? verfolgen die Spur der Entführer bis zu einer verlassenen Hütte in Mexiko – und bringen sich dabei selbst in Gefahr. Bitte beachte auch unser Sparpaket zur Folge 180. Das Paket gibt es HIER...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Michael Rompa",
+        "Speaker": "Mario Ramos"
+      },
+      {
+        "Character": "Afton",
+        "Speaker": "Julia Fölster"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Michael Harck"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Chef",
+        "Speaker": "Eric Schäffler"
+      },
+      {
+        "Character": "Ron",
+        "Speaker": "Gordon Piedesack"
+      },
+      {
+        "Character": "Ansage",
+        "Speaker": "Joachim Langer"
+      },
+      {
+        "Character": "Oma",
+        "Speaker": "Renate Pichler"
+      }
+    ]
   }
 ]
