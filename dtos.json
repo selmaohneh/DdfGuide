@@ -10313,5 +10313,600 @@
         "Speaker": "Bertram Hiese"
       }
     ]
+  },
+  {
+    "Id": "c1efe7ce-2a80-4cf6-8fa8-4c4cec9d5407",
+    "Title": "Die blutenden Bilder",
+    "NumberEuropa": 161,
+    "ReleaseDate": "2013-05-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c1efe7ce-2a80-4cf6-8fa8-4c4cec9d5407.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Dreizehn geheimnisvolle Bilder sorgen auf dem Schrottplatz von Justus' Onkel Titus für allerhand Aufregung. Als sich eine ganze Reihe von zwielichtigen Gestalten für die Gemälde interessiert wittern die drei ??? einen Fall. Zu dumm, dass einige der Bilder bereits spurlos verschwunden sind. Justus, Peter und Bob müssen sich bei ihrer Suche beeilen, denn Rocky Beach wird von einem hinterhältigen Erpresser heimgesucht, der es ausgerechnet auf Kunstwerke abgesehen hat und eine mysteriöse Spur hinterlässt.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Greenwalt",
+        "Speaker": "Harald Dietl"
+      },
+      {
+        "Character": "Brock",
+        "Speaker": "Guido A. Schick"
+      },
+      {
+        "Character": "Deforge",
+        "Speaker": "Bruno F. Apitz"
+      },
+      {
+        "Character": "Mrs. Kretchmer",
+        "Speaker": "Monika Werner"
+      },
+      {
+        "Character": "Mrs. Espenson",
+        "Speaker": "Karin Eckhold"
+      },
+      {
+        "Character": "Mrs. Wondratschek",
+        "Speaker": "Ela Nitzsche"
+      },
+      {
+        "Character": "Mrs. Field",
+        "Speaker": "Celine Fontanges"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mr. Harris",
+        "Speaker": "Lutz Harder"
+      }
+    ]
+  },
+  {
+    "Id": "28abb3a3-2a02-4b55-960d-dc32c35c4e5c",
+    "Title": "...und der schreiende Nebel",
+    "NumberEuropa": 162,
+    "ReleaseDate": "2013-07-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/28abb3a3-2a02-4b55-960d-dc32c35c4e5c.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Als die drei ??? Post von einem alten Bekannten erhalten, ahnen sie noch nicht, was für ein gefährliches Abenteuer sie erwartet. Der rätselhafte Hilferuf führt sie mitten in die Einöde von South Dakota. Dort werden sie Zeugen unfassbarer Ereignisse, die eine abgelegene Prärie-Ortschaft heimsuchen. Welches dunkle Geheimnis steckt hinter dem unheimlichen Nebel, der die Einwohner in Angst und Schrecken versetzt? Und was hat es mit den grässlichen Schreien auf sich, die immer wieder aus den weißen Schwaden dringen? Die drei Detektive nehmen die Ermittlungen auf - und geraten selbst in die Fänge des Nebels.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Prof. Arnold Brewster",
+        "Speaker": "Horst Naumann"
+      },
+      {
+        "Character": "Miss Daggett",
+        "Speaker": "Ingeborg Christiansen"
+      },
+      {
+        "Character": "Hold",
+        "Speaker": "Christian Rode"
+      },
+      {
+        "Character": "Hank Tornby",
+        "Speaker": "Edgar Hoppe"
+      },
+      {
+        "Character": "Mike Cobble",
+        "Speaker": "Gordon Piedesack"
+      },
+      {
+        "Character": "Martin Ishniak",
+        "Speaker": "Erkki Hopf"
+      },
+      {
+        "Character": "Samuel Cobble",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "William Prescott",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "Jim Sesto",
+        "Speaker": "Gustav-Adolph Artz"
+      }
+    ]
+  },
+  {
+    "Id": "ca27f3fc-b38d-452b-8fe1-ca69a44bc04d",
+    "Title": "...und der verschollene Pilot",
+    "NumberEuropa": 163,
+    "ReleaseDate": "2013-08-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/ca27f3fc-b38d-452b-8fe1-ca69a44bc04d.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eigentlich sollen die drei ??? für Onkel Titus nur ein Auto überführen. Doch der dichte Nebel in den Bergen zwingt sie, sich dort eine Unterkunft zu suchen. Ein seltsamer Pick-up-Fahrer führt sie zum 'King of the Mountain', einem heruntergekommenen Hotel ohne einen einzigen Gast. Bald geschehen seltsame Dinge, die nur eins bedeuten können: Das Hotel birgt ein Geheimnis. Hat das Wrack eines vor Jahren in den Bergen abgestürzten Flugzeugs etwas damit zu tun?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Fynch",
+        "Speaker": "Stefan Benson"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      }
+    ]
+  },
+  {
+    "Id": "a129966b-8442-44f2-8a46-8d7c6e689a71",
+    "Title": "Fußball-Teufel",
+    "NumberEuropa": 164,
+    "ReleaseDate": "2013-10-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a129966b-8442-44f2-8a46-8d7c6e689a71.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eigentlich wollen Die drei ??? am Felsen Hookes Nose nur nach einem verschwundenen Hund suchen, doch schon bald taucht ein düsterer Mann mit Pferdefuß auf. Ist der Hooked Nose wirklich ein verfluchter Ort, an dem der Teufel umgeht? Und was hat der junge Fußballer Lenni Carson mit dem Geheimnis des Felsens zu tun? Müssen es Justus, Peter und Bob bei ihren Ermittlungen diesmal wirklich mit dem Teufel persönlich aufnehmen?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Lenni",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "John Greyfox",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Clay Carson",
+        "Speaker": "Krystian Martinek"
+      },
+      {
+        "Character": "Walter",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Freddy Hays",
+        "Speaker": "Woody Mues"
+      },
+      {
+        "Character": "Trainer",
+        "Speaker": "Bruno F. Apitz"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Wolfram Winfried"
+      },
+      {
+        "Character": "Junge",
+        "Speaker": "Francesco Nieheim"
+      },
+      {
+        "Character": "Spieler",
+        "Speaker": "Carsten Kausse"
+      }
+    ]
+  },
+  {
+    "Id": "affac3bb-9424-4752-9234-1744166ae82a",
+    "Title": "Im Schatten des Giganten",
+    "NumberEuropa": 165,
+    "ReleaseDate": "2013-11-29T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/affac3bb-9424-4752-9234-1744166ae82a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei ??? begleiten Mr. Andrews auf eine Recherche-Reise in den Yosemite National Park. Doch anstatt sich zu erholen, finden sich Justus, Bob und Peter plötzlich mitten in einem hochgefährlichen Fall wieder: Einer von ihnen wird angeschossen, im Wald geben mysteriöse Blutspuren Rätsel auf und die drei Detektive machen einen schrecklichen Fund. Schließlich kommt es am Half Dome, dem großen Granitfelsen im Park, zu einer Kletterpartie auf Leben und Tod...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Randy",
+        "Speaker": "Marek Harloff"
+      },
+      {
+        "Character": "Jeanne",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Ginette",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Tara",
+        "Speaker": "Angela Roy"
+      },
+      {
+        "Character": "Steven",
+        "Speaker": "Robert Steudtner"
+      },
+      {
+        "Character": "Ranger Thornton",
+        "Speaker": "Detlef Bierstedt"
+      },
+      {
+        "Character": "Mr. Louis",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Busfahrer",
+        "Speaker": "Volker Bogdan"
+      },
+      {
+        "Character": "Lindsey",
+        "Speaker": "Susan Jarling"
+      },
+      {
+        "Character": "Reporter",
+        "Speaker": "Daniel Welbat"
+      }
+    ]
+  },
+  {
+    "Id": "1bedbf5b-67dd-4ec0-83e0-946ae667e4a8",
+    "Title": "...und die brennende Stadt",
+    "NumberEuropa": 166,
+    "ReleaseDate": "2014-01-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/1bedbf5b-67dd-4ec0-83e0-946ae667e4a8.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ex-Kommissar Reynolds stattet den drei Detektiven einen Besuch ab. Es geht um das rätselhafte Testament seines Bruders, das Justus, Peter und Bob für ihren alten Freund entschlüsseln sollen. Ehe sie sich`s versehen, stecken die drei ??? mitten in einem brandheißen Fall, der ihren vollen Einsatz verlangt. Denn das Erbe ruft düstere Gestalten auf den Plan - und die schrecken vor nichts zurück...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Mr. Bennet",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Mrs. Dearing",
+        "Speaker": "Saskia Weckler"
+      },
+      {
+        "Character": "Conrad Nash",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Frau",
+        "Speaker": "Elga Schütz"
+      }
+    ]
+  },
+  {
+    "Id": "9b5fa5e1-83d6-4bd1-8fba-dc9a4e0b2f2a",
+    "Title": "...und das blaue Biest",
+    "NumberEuropa": 167,
+    "ReleaseDate": "2014-02-21T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9b5fa5e1-83d6-4bd1-8fba-dc9a4e0b2f2a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Im Film-Erlebnispark Movie Empire gehen seltsame Dinge vor sich. Ein Unbekannter verübt hinterhältige Sabotage-Akte und bringt damit die Shows und Besucher in Gefahr. Aber wem könnte daran gelegen sein, den Park zu ruinieren? Als wäre das nicht genug, taucht immer wieder ein blau schimmerndes Monstrum auf, das einem mythischen Mantikor ähnelt. Furchtlos nehmen die drei ??? die Ermittlungen auf. Bis sie eines Nachts plötzlich dem Biest gegenüberstehen!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Andy Carson",
+        "Speaker": "Stefan Schwade"
+      },
+      {
+        "Character": "Mrs. Hampton",
+        "Speaker": "Celine Fontanges"
+      },
+      {
+        "Character": "Nicky DeLores",
+        "Speaker": "Morgens von Gadow"
+      },
+      {
+        "Character": "Miss Woodrow",
+        "Speaker": "Karin Abicht"
+      },
+      {
+        "Character": "Judy Nigel",
+        "Speaker": "Angela Stresemann"
+      },
+      {
+        "Character": "Direktor Grayston",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Gregory Katic",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Mr. Clark",
+        "Speaker": "Stefan Brentle"
+      },
+      {
+        "Character": "Tarzan",
+        "Speaker": "Sascha Draeger"
+      },
+      {
+        "Character": "Mädchen",
+        "Speaker": "Nicola Melissian"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mr. Callister",
+        "Speaker": "Ingo Feder"
+      },
+      {
+        "Character": "Lionel Pengrim",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Ned",
+        "Speaker": "Bruno Ploeger"
+      }
+    ]
+  },
+  {
+    "Id": "86df6b93-26cd-4f4a-bfb0-47e8e69bc242",
+    "Title": "168/GPS-Gangster",
+    "NumberEuropa": 168,
+    "ReleaseDate": "2014-05-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/86df6b93-26cd-4f4a-bfb0-47e8e69bc242.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Die drei ??? kommen zu spät: Sie können die Prinzessin nicht vor der Katastrophe retten! Zum Glück ist es nur ein Geocaching-Wettbewerb, bei dem Justus, Peter und Bob ihr Ziel um Haaresbreite verfehlen. Doch aus dem Spiel wird gefährlicher Ernst, als der geheimnisvolle Captain Skull auf der Bildfläche erscheint. Auf seinem Raubzug durch Rocky Beach spielt er ein rätselhaftes Katz- und- Maus-Spiel mit der Polizei. Wird er über Leichen gehen? Können die Detektive den Wettlauf mit der Zeit gewinnen?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Deborah",
+        "Speaker": "Gabi Libbach"
+      },
+      {
+        "Character": "Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Samuel Rodman",
+        "Speaker": "Christian Concillio"
+      },
+      {
+        "Character": "Benjamin Rodman",
+        "Speaker": "Henning Karge"
+      },
+      {
+        "Character": "Vallery Flockheart",
+        "Speaker": "Caroline Kiesewetter"
+      },
+      {
+        "Character": "Nigel Tillerman",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Josh Reilly",
+        "Speaker": "Nicholas Müller"
+      },
+      {
+        "Character": "Lexington",
+        "Speaker": "Sascha Eigner"
+      },
+      {
+        "Character": "Reporter",
+        "Speaker": "Rasmus Borowski"
+      },
+      {
+        "Character": "Journalistin",
+        "Speaker": "Nicola Melissian"
+      },
+      {
+        "Character": "Prescott",
+        "Speaker": "Rolf Becker"
+      },
+      {
+        "Character": "Sergeant Morales",
+        "Speaker": "Peter Weis"
+      },
+      {
+        "Character": "Mr. Arvidson",
+        "Speaker": "Gosta Liptow"
+      },
+      {
+        "Character": "Mrs. Arvidson",
+        "Speaker": "Hedy Haase"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Andreas Becker"
+      }
+    ]
+  },
+  {
+    "Id": "6499078c-8107-4685-b301-5c714e39933a",
+    "Title": " Die Spur des Spielers",
+    "NumberEuropa": 169,
+    "ReleaseDate": "2014-07-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6499078c-8107-4685-b301-5c714e39933a.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Bei einer Versteigerung auf dem Schrottplatz von Onkel Titus kommt ein scheinbar wertloses Schachspiel für eine ungeheure Summe unter den Hammer. Kurze Zeit später wird das Spiel gestohlen – ein neuer Fall für die drei ???! Welches Geheimnis birgt das Spiel? Wem hat es gehört? Die Zeit drängt, denn Justus, Peter und Bob sind nicht die Einzigen, die das Rätsel lösen wollen. Und nicht jede Figur in diesem Spiel ist das, was sie zu sein scheint...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Bradley",
+        "Speaker": "Nico König"
+      },
+      {
+        "Character": "Bishop Blake",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Junge Frau",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Derek",
+        "Speaker": "Tim Helssen"
+      },
+      {
+        "Character": "Mrs. Kretschmer",
+        "Speaker": "Monika Werner"
+      },
+      {
+        "Character": "Chastity",
+        "Speaker": "Undine Ullmer"
+      },
+      {
+        "Character": "Charity",
+        "Speaker": "Kassandra Ullmer"
+      },
+      {
+        "Character": "Sam Chiccarelli",
+        "Speaker": "Astrid Kollex"
+      },
+      {
+        "Character": "Griffin Silverman",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      }
+    ]
   }
 ]
