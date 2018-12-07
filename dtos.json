@@ -8163,5 +8163,619 @@
         "Speaker": "Günter Flesch"
       }
     ]
+  },
+  {
+    "Id": "f9bb2181-a7eb-4c7f-9b94-701ca99fa22e",
+    "Title": "Haus des Schreckens",
+    "NumberEuropa": 131,
+    "ReleaseDate": "2009-07-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f9bb2181-a7eb-4c7f-9b94-701ca99fa22e.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Was geht im Marriott House, dem gruseligen alten Gebäude draußen auf einer einsamen Insel, vor sich? Spukt es dort tatsächlich? Als eine Person entführt wird und unheimliche Spuren Böses ahnen lassen, ist schnell klar: Dies ist ein Fall für Die drei ???! Wer oder was hat den berühmten Musikproduzenten Lloyd Scavenger in seiner Gewalt? Justus, Peter und Bob, die drei erfolgreichen Detektive aus Rocky Beach, nehmen die Spur auf - und geraten in ein Labyrinth, in dem hinter jeder Ecke ein neues Rätsel wartet...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Lloyd Scavenger",
+        "Speaker": "Stefan Benson"
+      },
+      {
+        "Character": "Jack Lowell",
+        "Speaker": "Siegfried Kernen"
+      },
+      {
+        "Character": "Alexander Nolan",
+        "Speaker": "Wilfried Hochholdinger"
+      },
+      {
+        "Character": "Jaqueline Williams",
+        "Speaker": "Henrike Fehrs"
+      },
+      {
+        "Character": "Ian Parsley",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Mary Parsley",
+        "Speaker": "Karin Abicht"
+      },
+      {
+        "Character": "Jasper Kittle",
+        "Speaker": "Peter Weis"
+      },
+      {
+        "Character": "Shawne Davison",
+        "Speaker": "Susanne Lothar"
+      },
+      {
+        "Character": "Officer Wood",
+        "Speaker": "Roman Kretschmer"
+      }
+    ]
+  },
+  {
+    "Id": "6803e364-b03e-457f-9f76-42a5e82654e1",
+    "Title": "Spuk im Netz",
+    "NumberEuropa": 132,
+    "ReleaseDate": "2009-08-21T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6803e364-b03e-457f-9f76-42a5e82654e1.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Miss Bennett, die Leiterin der Bücherei in Rocky Beach, ist verschwunden! Eine überstürzt verlassene Wohnung, gelöschte Dateien und ein Zettel mit einer Reihe merkwürdiger Zahlen weisen auf einen äußerst mysteriösen Fall hin. Die drei ??? machen sich auf die Suche. Bald schon wissen sie: die Bibliothekarin ist den geheimnisvollen Zeichen einer geisterhaften Erscheinung im Internet gefolgt. Wohin soll sie gelockt werden? Welche Botschaft hat sie erhalten? (Justus, Peter und Bob müssen scharf kombinieren, um das Rätsel, das hinter Miss Bennetts Verschwinden steckt, zu lösen.) Die Antwort steht in den Sternen! Werden die Drei erfolgreichen Detektive aus Rocky Beach sie lesen können?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Miss Bennett",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Karen",
+        "Speaker": "Celine Fontange"
+      },
+      {
+        "Character": "Becky",
+        "Speaker": "Katharina v. Keller"
+      },
+      {
+        "Character": "Felicia Sparing",
+        "Speaker": "Rhea Harder"
+      },
+      {
+        "Character": "Mrs. Amelia Sparing",
+        "Speaker": "Karin Buchholz"
+      },
+      {
+        "Character": "Mr. Sparing",
+        "Speaker": "Sky du Mont"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Professor Alkurah",
+        "Speaker": "Ben Hecker"
+      },
+      {
+        "Character": "Eroll",
+        "Speaker": "Bertram Hiese"
+      },
+      {
+        "Character": "Mrs. Featherstone",
+        "Speaker": "Sabine Hahn"
+      },
+      {
+        "Character": "Wärter",
+        "Speaker": "Jürgen Holdorf"
+      }
+    ]
+  },
+  {
+    "Id": "1f0024f6-e71f-4ac0-b554-0cad9e7e55a4",
+    "Title": "Fels der Dämonen",
+    "NumberEuropa": 133,
+    "ReleaseDate": "2009-10-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/1f0024f6-e71f-4ac0-b554-0cad9e7e55a4.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein toller Sandstrand in einer einsamen Bucht, perfektes Surf-Wetter, ein schattiges Plätzchen für das Zelt: Die drei ??? freuen sich auf ein paar stressfreie Ferientage am Meer. Doch dann taucht ein völlig verängstigter Junge auf und berichtet von einem gruseligen schwarzen Zwerg, der ihn verfolgt. Als der Zweite Detektiv kurze Zeit darauf beim Wellenreiten eine mehr als unheimliche Begegnung im Wasser hat, ist klar: hier bahnt sich ein neuer Fall für die drei Detektive an! Wer oder was treibt sein Unwesen in der abgelegenen Bucht? Werden Justus, Peter und Bob das Geheimnis um den \"Fels der Dämonen\" lüften?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Sergeant Ludlow",
+        "Speaker": "Dietmar Mues"
+      },
+      {
+        "Character": "Banden-Chef",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "Eddy Reardon",
+        "Speaker": "Lukas Sperber"
+      },
+      {
+        "Character": "Spanier",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Jack",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Italiener",
+        "Speaker": "Lutz Harder"
+      },
+      {
+        "Character": "Gauner",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Gehilfe",
+        "Speaker": "Gerhart Hinze"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Bertram Hiese"
+      }
+    ]
+  },
+  {
+    "Id": "0cd1b3b2-4a9a-4eee-ade7-e55d841c0c6d",
+    "Title": "Der tote Mönch",
+    "NumberEuropa": 134,
+    "ReleaseDate": "2009-10-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0cd1b3b2-4a9a-4eee-ade7-e55d841c0c6d.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein böser Geist will Christine Harkinson von ihrem Anwesen vertreiben! Davon ist zumindest ihr Gärtner überzeugt. Lo Wang bangt um das Leben seiner Arbeitgeberin. Justus, Peter und Bob, die drei erfolgreichen Detektive aus Rocky Beach, machen sich auf die Suche nach dem ominösen Geist. Wer oder was steckt hinter der gruseligen Kapuzengestalt, die nachts ihr Unwesen im Garten treibt? Als die drei ??? ein offenes altes Grab entdecken, ist sich Peter ganz sicher: Ein toter Mönch verfolgt Christine! Doch worauf hat er es abgesehen...?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Christine",
+        "Speaker": "Inken Sommer"
+      },
+      {
+        "Character": "Mr. Bambridge",
+        "Speaker": "Gustav-Adolph Artz"
+      },
+      {
+        "Character": "Lo Wang",
+        "Speaker": "Dae Joon Yoo"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Anthony Hearst",
+        "Speaker": "Wolfgang Pampel"
+      },
+      {
+        "Character": "Truck-Fahrer",
+        "Speaker": "Konstantin Graudus"
+      },
+      {
+        "Character": "Avercromby",
+        "Speaker": "Nicolas König"
+      }
+    ]
+  },
+  {
+    "Id": "18f5d45f-6f05-4dab-87c7-d34eaf33dcae",
+    "Title": "Der Fluch des Piraten",
+    "NumberEuropa": 135,
+    "ReleaseDate": "2009-11-07T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/18f5d45f-6f05-4dab-87c7-d34eaf33dcae.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine Reihe rätselhafter Fotos weckt die Neugier der drei erfolgreichen Detektive aus Rocky Beach. Alles deutet darauf hin, dass ein kostbarer Goldschatz auf einer einsamen Insel verborgen ist. Doch vor Ort wird schnell klar, dass nicht nur Justus, Peter und Bob dem Schatz auf der Spur sind. Es beginnt eine Jagd mit ungewissem Ausgang.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Pilot",
+        "Speaker": "Gerhart Hinze"
+      },
+      {
+        "Character": "Max",
+        "Speaker": "Traudel Sperber"
+      },
+      {
+        "Character": "Liolotta",
+        "Speaker": "Peter Striebeck"
+      },
+      {
+        "Character": "Althena",
+        "Speaker": "Steffi Kirchberger"
+      },
+      {
+        "Character": "Sarah Livingston",
+        "Speaker": "Rosemarie Wohlbauer"
+      },
+      {
+        "Character": "Elvira Zuckerman",
+        "Speaker": "Konstanze Ullmer"
+      }
+    ]
+  },
+  {
+    "Id": "f95b23d4-17cd-4530-a164-9115c7b89e5c",
+    "Title": "und das versunkene Dorf",
+    "NumberEuropa": 136,
+    "ReleaseDate": "2010-02-05T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f95b23d4-17cd-4530-a164-9115c7b89e5c.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In einem kleinen Bergdorf scheint ein Geist sein Unwesen am nahe gelegenen See zu treiben! Welches dunkle Geheimnis verbirgt sich in den Tiefen des Gewässers? Wer oder was steckt hinter der gespenstischen Erscheinung am Ufer? Die drei ??? gehen auf Tauchstation, um das Geheimnis zu lüften. Und dann entdecken sie das Unvorstellbare...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Darren Duff",
+        "Speaker": "Jesse Grimm"
+      },
+      {
+        "Character": "Taucher Carl",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Taucherin Joan",
+        "Speaker": "Christine Pappert"
+      },
+      {
+        "Character": "Paul Brooks",
+        "Speaker": "Heinz Lieven"
+      },
+      {
+        "Character": "Joe Wilcox",
+        "Speaker": "Rolf Becker"
+      },
+      {
+        "Character": "Cassandra Wilcox",
+        "Speaker": "Elke Reissert"
+      },
+      {
+        "Character": "Daniel",
+        "Speaker": "Jochen Baumert"
+      },
+      {
+        "Character": "Henry",
+        "Speaker": "Frank Felicetti"
+      },
+      {
+        "Character": "Doktor Holloway",
+        "Speaker": "Barbara Focke"
+      },
+      {
+        "Character": "Cedric Duff",
+        "Speaker": "Rolf E. Schenker"
+      }
+    ]
+  },
+  {
+    "Id": "d93481cc-bb3b-4fd2-883c-c62fc4d1ff21",
+    "Title": "Pfad der Angst",
+    "NumberEuropa": 137,
+    "ReleaseDate": "2010-03-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d93481cc-bb3b-4fd2-883c-c62fc4d1ff21.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein neuer Fall bahnt sich an, ganz nach dem Geschmack der drei erfolgreichen Detektive aus Rocky Beach: Ein verschrobener Wissenschaftler bittet die drei ??? um Hilfe bei der Wiederbeschaffung einer Erfindung, die ihm gestohlen wurde. Doch dann häufen sich merkwürdige Geschehnisse und behindern die Recherchen. Natürlich lassen sich Justus, Peter und Bob zunächst nicht beeindrucken - bis sie um ihr Leben bangen müssen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Winston Granville",
+        "Speaker": "Christian Rode"
+      },
+      {
+        "Character": "Matthew Granville",
+        "Speaker": "Uwe Friedrichsen"
+      },
+      {
+        "Character": "Smithy",
+        "Speaker": "Konstantin Graudus"
+      },
+      {
+        "Character": "Mr. Jackmore",
+        "Speaker": "Michael Brennicke"
+      },
+      {
+        "Character": "Professor Frazier",
+        "Speaker": "Wilhelm Wieben"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Tetje Mierendorf"
+      }
+    ]
+  },
+  {
+    "Id": "fa7047cb-04d7-40eb-b977-0db1db9f174c",
+    "Title": "Die geheime Treppe",
+    "NumberEuropa": 138,
+    "ReleaseDate": "2010-05-21T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/fa7047cb-04d7-40eb-b977-0db1db9f174c.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Warum wurde der junge Wissenschaftler Davy Swann entführt? Und warum nannten ihn die vermummten Täter immer Philippe? Justus, Peter und Bob nehmen die Spur auf. Diese führt in das labyrinthische Gebäude der Universität mit geheimen Treppen und einer düsteren Bibliothek. Hier stoßen die drei ??? auf ein merkwürdiges Buch und seltsame Verse. Natürlich knacken die drei erfolgreichen Detektive aus Rocky Beach das Rätsel. Doch dann fangen die Schwierigkeiten erst an...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Davy Swann",
+        "Speaker": "Thorsten Sense"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Craig Holden",
+        "Speaker": "Gerhard Olschewski"
+      },
+      {
+        "Character": "Löwenritter",
+        "Speaker": "Burghart Klaußner"
+      }
+    ]
+  },
+  {
+    "Id": "da7b5804-eb9b-4e89-962b-95c5cd885bbf",
+    "Title": "Das Geheimnis der Diva",
+    "NumberEuropa": 139,
+    "ReleaseDate": "2010-07-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/da7b5804-eb9b-4e89-962b-95c5cd885bbf.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Seltsame Vorkommnisse überschatten die Proben der Laienspielgruppe \"Die Masken\" im alten Stadttheater von Rocky Beach: Kulissen verschwinden und eine Schauspielerin wird hinter der Bühne von einem grässlichen Phantom angegriffen. Wer oder was treibt sein Unwesen in dem verwinkelten Theatergebäude? Hängen die Ereignisse mit der international bekannten Schauspielerin Helena Darraz zusammen, die in wenigen Tagen nach Rocky Beach kommen will? Sofort nehmen die drei ??? die Ermittlungen auf. Und es wird gefährlich...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Helena Darraz",
+        "Speaker": "Ingrid Andree"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Pritchard",
+        "Speaker": "Sascha Rotermund"
+      },
+      {
+        "Character": "Sid",
+        "Speaker": "Tilman Madaus"
+      },
+      {
+        "Character": "Caroline",
+        "Speaker": "Celine Fontanges"
+      },
+      {
+        "Character": "Sandy",
+        "Speaker": "Simona Pahl"
+      },
+      {
+        "Character": "Steven",
+        "Speaker": "René Dawn-Claude"
+      },
+      {
+        "Character": "Ernest",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Radioansagerin",
+        "Speaker": "Susanne Wulkow"
+      },
+      {
+        "Character": "Harvey Griscom",
+        "Speaker": "Christian Rudolf"
+      },
+      {
+        "Character": "John Dellcourt",
+        "Speaker": "Gustav Adolph Artz"
+      },
+      {
+        "Character": "Miss Darraz",
+        "Speaker": "Sabine Hahn"
+      }
+    ]
+  },
+  {
+    "Id": "1c6d16d0-b44e-49c3-b8c0-a54ebed14b78",
+    "Title": "Stadt der Vampire",
+    "NumberEuropa": 140,
+    "ReleaseDate": "2010-08-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/1c6d16d0-b44e-49c3-b8c0-a54ebed14b78.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Eine riesige Fledermaus versetzt die Kleinstadt Yonderwood in Angst und Schrecken. Nachdem einige Menschen mit Bissspuren und einer Menge Blut in ihren Betten erwacht sind, hat der Großteil der Einwohner bereits das Weite gesucht. Justus, Peter und Bob haben noch nie an Vampire geglaubt. In diesem neuen Fall jedoch scheint es, als müssten die drei berühmten Detektive aus Rocky Beach ihre Meinung ändern...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Josy McDonaghough",
+        "Speaker": "Lili Draeger"
+      },
+      {
+        "Character": "Homer Diesel",
+        "Speaker": "Christian Senger"
+      },
+      {
+        "Character": "Mary Stamper",
+        "Speaker": "Annabelle Krieg"
+      },
+      {
+        "Character": "Otis Stamper",
+        "Speaker": "Klaus Dittman"
+      },
+      {
+        "Character": "Jonathan Black",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "Miles Black",
+        "Speaker": "Sascha Rotermund"
+      },
+      {
+        "Character": "Klara Kowalski",
+        "Speaker": "Steffi Kirchberger"
+      },
+      {
+        "Character": "Silvester Proud",
+        "Speaker": "Gustav A. Artz"
+      },
+      {
+        "Character": "Pfarrer Clark",
+        "Speaker": "Gerd Baltus"
+      }
+    ]
   }
 ]
