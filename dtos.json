@@ -8777,5 +8777,632 @@
         "Speaker": "Gerd Baltus"
       }
     ]
+  },
+  {
+    "Id": "7f651aed-ec88-4b32-a21c-6ba8ed237cb0",
+    "Title": "und die Fußball-Falle",
+    "NumberEuropa": 141,
+    "ReleaseDate": "2010-10-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7f651aed-ec88-4b32-a21c-6ba8ed237cb0.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Der Fußballstar Jeffrey Seaman und seine Mannschaft bereiten sich in Rocky Beach auf ein Mehrländerturnier vor. Doch merkwürdige Zwischenfälle stören das Training und versetzen die Spieler in Angst und Schrecken. Als auch noch der ägyptische Totengott Anubis in den Katakomben unter dem Fußballstadion auftaucht und sein Unwesen treibt, ist klar: Die drei ??? müssen all ihren detektivischen Spürsinn aufbieten, um diesen Fall zu lösen!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Jeffrey Seaman",
+        "Speaker": "Daniel Welbat"
+      },
+      {
+        "Character": "Steven",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Eric",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Mr. Settler",
+        "Speaker": "Christian Senger"
+      },
+      {
+        "Character": "Auktionator",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Frau",
+        "Speaker": "Hilla Fitzen"
+      },
+      {
+        "Character": "Patrick O'Brian",
+        "Speaker": "Wolfgang Riehm"
+      },
+      {
+        "Character": "William de Haas",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Theodor Brewster",
+        "Speaker": "Tobias Meister"
+      },
+      {
+        "Character": "Butler",
+        "Speaker": "Olaf Kreuzenbeck"
+      }
+    ]
+  },
+  {
+    "Id": "2874d454-5eff-41e6-89e4-a402f012d759",
+    "Title": "Tödliches Eis",
+    "NumberEuropa": 142,
+    "ReleaseDate": "2010-12-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2874d454-5eff-41e6-89e4-a402f012d759.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Schnee und Eis, Wölfe und arktische Stürme - das Nordic Wilderness Race ist eines der härtesten Schlittenhunderennen der Welt. Als die drei ??? von der Journalistin Carol Ford gefragt werden, ob sie bei der Reportage über das Rennen helfen wollen, sagen die Jungen begeistert zu. Doch damit lassen sie sich auf ein gefährliches Abenteuer ein. Als es zu einem ernsthaften Zwischenfall mit skrupellosen Verbrechern kommt, ist klar: Die drei Detektive müssen schnell handeln, damit dies nicht ihr letzter Fall wird!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Carol Ford",
+        "Speaker": "Claudia Schermutzki"
+      },
+      {
+        "Character": "Francis Studstill",
+        "Speaker": "Elena Wilms"
+      },
+      {
+        "Character": "Baxter Norsworthy",
+        "Speaker": "Udo Schenk"
+      },
+      {
+        "Character": "Gordon Hoke",
+        "Speaker": "Holger Löwenberg"
+      },
+      {
+        "Character": "Jared Fox",
+        "Speaker": "Meik Spallek"
+      },
+      {
+        "Character": "Candace Duskin",
+        "Speaker": "Andrea Linau"
+      },
+      {
+        "Character": "George Bennet",
+        "Speaker": "Urs Affolter"
+      },
+      {
+        "Character": "Greg Harper",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Woodland",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Reporterin",
+        "Speaker": "Jamie Leaves"
+      },
+      {
+        "Character": "Reporter",
+        "Speaker": "Glenn Goltz"
+      },
+      {
+        "Character": "Wellford",
+        "Speaker": "Oliver Geilhardt"
+      },
+      {
+        "Character": "Pilot",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Lautsprecherstimme",
+        "Speaker": "Sascha Draeger"
+      }
+    ]
+  },
+  {
+    "Id": "4ee19beb-0855-45f4-8638-2f6bdc219d91",
+    "Title": "...und die Poker Hölle",
+    "NumberEuropa": 143,
+    "ReleaseDate": "2010-12-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4ee19beb-0855-45f4-8638-2f6bdc219d91.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Als Justus, Peter und Bob einem jungen Mann helfen wollen, dem in einer Postfiliale Geld gestohlen wurde, geraten sie in die gefährliche Unterwelt von China Town. Zufällig kommen sie einer illegalen Pokerspielhölle auf die Spur. Dabei müssen die drei erfolgreichen Detektive aus Rocky Beach die Erfahrung machen, dass die Beteiligten sehr unangenehm werden, wenn man ihnen in die Karten sieht! Und dann geschieht, was nie hätte geschehen dürfen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Richie Hanson",
+        "Speaker": "Dennis Schmidt-Foß"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Goodween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Benni",
+        "Speaker": "Ivo Möller"
+      },
+      {
+        "Character": "Jacki Jin",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Corinna Wodrich"
+      },
+      {
+        "Character": "Croupier",
+        "Speaker": "Dirk Bach"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Arndt Schmöle"
+      }
+    ]
+  },
+  {
+    "Id": "6faa4bd9-5f71-4136-9111-db0b785468e5",
+    "Title": "Zwillinge der Finsternis",
+    "NumberEuropa": 144,
+    "ReleaseDate": "2011-01-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/6faa4bd9-5f71-4136-9111-db0b785468e5.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Es schneit bei 20 Grad über Null, ein riesiger Erdspalt tut sich über Nacht auf, seltsame Nebel wabern, und ein Mann lässt Flammen aus seiner Hand wachsen: Rocky Beach hat es mit dem Teufel zu tun! Das jedenfalls nimmt Peter an, als er und seine beiden Detektivkollegen in den Fall \"Zwillinge der Finsternis\" geraten. Zwei in Leder gebundene Bücher sollen satanische Zauberformeln enthalten. Wer sie besitzt, hat teuflische Macht. Und es gibt einige Menschen, die hinter den beiden Büchern her sind. Ein Exemplar wurde bereits gestohlen! Die drei ??? müssen ihren Widersachern schnellstens zuvorkommen, um das Schlimmste zu verhindern...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Arthur Sinclair",
+        "Speaker": "Joachim Pukaß"
+      },
+      {
+        "Character": "Mr. Peastone",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "Jeremy Witherspoon",
+        "Speaker": "Martin Semmelrogge"
+      },
+      {
+        "Character": "Barnaby Witherspoon",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Godwin",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Holger Löwenberg"
+      }
+    ]
+  },
+  {
+    "Id": "f58cf2d1-ab78-4e66-929c-82241aabc231",
+    "Title": "Die Rache der Samurai",
+    "NumberEuropa": 145,
+    "ReleaseDate": "2011-03-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f58cf2d1-ab78-4e66-929c-82241aabc231.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Auf dem Internat \"Shadow Stone\" geht es nicht mit rechten Dingen zu. Ein Schüler ist spurlos verschwunden, und die Mitglieder der Samurai-AG, die mit alten japanischen Schwertern kämpfen, verhalten sich mehr als merkwürdig. Um den Fall zu klären, schleusen sich die drei ??? in die Schule ein. Doch schnell bekommen sie zu spüren, dass sie hier unerwünscht sind. Besonders Peter muss nun all seinen Mut unter Beweis stellen: Das Schwert. Ein kurzer Schwung, der die Luft durchschnitt. Das Blut gefror in seinen Adern. Es war so weit. Der Tod. Warum bloß hatten sie diesen Auftrag angenommen? Warum bloß?!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawcrzeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Takasi Yukawa",
+        "Speaker": "Wilfried Diallaz"
+      },
+      {
+        "Character": "Frank Hektor",
+        "Speaker": "Michael Lott"
+      },
+      {
+        "Character": "Sean Doherty",
+        "Speaker": "Leonhard Mahlich"
+      },
+      {
+        "Character": "Mandy",
+        "Speaker": "Jasmin Wagner"
+      },
+      {
+        "Character": "Zeno Daniels",
+        "Speaker": "Philipp Baltus"
+      },
+      {
+        "Character": "Percy",
+        "Speaker": "Jesse Grimm"
+      },
+      {
+        "Character": "Keko",
+        "Speaker": "Jens Wendland"
+      },
+      {
+        "Character": "Anthony Fender",
+        "Speaker": "Peter Buchholz"
+      }
+    ]
+  },
+  {
+    "Id": "f467c234-683b-4193-b11d-2b9f95fa2cb0",
+    "Title": "Der Biss der Bestie",
+    "NumberEuropa": 146,
+    "ReleaseDate": "2011-05-06T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f467c234-683b-4193-b11d-2b9f95fa2cb0.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Zugegeben das Säbelzahntigerskelett mit den riesigen Fangzähnen im Naturkundemuseum von Rocky Beach sieht sehr bedrohlich aus. Aber dass es nachts durch die Gegend spukt, kann Justus nun wirklich nicht glauben! Wer oder was treibt dann sein Unwesen im \"Geistermuseum\", wie der Ort von den Nachbarn schon genannt wird? Die drei ??? gehen den Spuren nach. Und entdecken das Unfassbare...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Quentin Wadleigh",
+        "Speaker": "Christian Rudolf"
+      },
+      {
+        "Character": "Dr. Winston Wadleigh",
+        "Speaker": "Mathias Münster"
+      },
+      {
+        "Character": "Dr. John Frears",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Jamie",
+        "Speaker": "Philipp Draeger"
+      },
+      {
+        "Character": "Sammy",
+        "Speaker": "Jacob Mayerhoff"
+      },
+      {
+        "Character": "Mrs. Pitkätossu",
+        "Speaker": "Ingeborg Kallweit"
+      },
+      {
+        "Character": "Jackall Madson",
+        "Speaker": "Ingo Nommsen"
+      },
+      {
+        "Character": "Tiger Madson",
+        "Speaker": "Dieter Dücker"
+      },
+      {
+        "Character": "Vivian",
+        "Speaker": "Saskia Mayerhoff"
+      },
+      {
+        "Character": "Fitzwilliam Waterfield",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Sanitäter",
+        "Speaker": "Robin Brosch"
+      }
+    ]
+  },
+  {
+    "Id": "0243b30a-0a9b-4d71-af1a-86209871a554",
+    "Title": "Grusel auf Campbell Castle",
+    "NumberEuropa": 147,
+    "ReleaseDate": "2011-06-24T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0243b30a-0a9b-4d71-af1a-86209871a554.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Adam Campbell hat ein schweres Erbe angetreten: er muss das imposante Schloss seines verstorbenen Vaters in Schuss halten. Bei einer spiritistischen Sitzung meldet sich dessen Geist und spricht von einem sonderbaren Vermächtnis. Natürlich nehmen die drei ??? die Ermittlungen auf. Mit einem Gespenst, davon sind sie überzeugt, haben sie es nicht zu tun! Bis Peter von einer gruseligen schwarzen Hand ins Meer gezogen wird. Erst in letzter Sekunde kann er gerettet werden. Der Zweite Detektiv ahnt Unheilvolles: Wurde er von einem Wassergeist attackiert?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Adam Campbell",
+        "Speaker": "Santiago Ziesmer"
+      },
+      {
+        "Character": "Henry Campbell",
+        "Speaker": "Christian Rudolf"
+      },
+      {
+        "Character": "John Taylor",
+        "Speaker": "Holger Umbreit"
+      },
+      {
+        "Character": "Edward Crockett",
+        "Speaker": "Ben Hecker"
+      },
+      {
+        "Character": "Mrs. Harkort",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Mr. Prescott",
+        "Speaker": "Stefan Kaminski"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Jack Leech",
+        "Speaker": "Volker Bogdan"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Einbrecher",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Max",
+        "Speaker": "Tommaso Cacciapuoti"
+      }
+    ]
+  },
+  {
+    "Id": "b835321a-84fd-4d4d-8ac4-1008f1904b67",
+    "Title": "...und die feurige Flut",
+    "NumberEuropa": 148,
+    "ReleaseDate": "2011-08-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b835321a-84fd-4d4d-8ac4-1008f1904b67.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Ein schwerer Fluch lastet auf Allie Jamison, einer alten Bekannten der drei ???. Jedenfalls ist sie davon überzeugt. Schon in der nächsten Vollmondnacht soll etwas Schlimmes geschehen! Es gibt nur einen Ausweg: Justus, Peter und Bob müssen ein alchemistisches Rätsel lösen - in nur 24 Stunden. Ihre fieberhaften Ermittlungen führen die drei Detektive in eine Welt von Zauberern und Wahrsagern. Als Justus jedoch in einen Hinterhalt gelockt wird, ist klar: Dieser Fall ist lebensgefährlich!",
+    "Roles": [
+      {
+        "Character": "ERZÄHLER",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Allie Jamison",
+        "Speaker": "Katrin Fröhlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Ursula Burns",
+        "Speaker": "Birke Bruck"
+      },
+      {
+        "Character": "Emerald Pendragon",
+        "Speaker": "Monty Arnold"
+      },
+      {
+        "Character": "Carl Parsley",
+        "Speaker": "Peter Weis"
+      },
+      {
+        "Character": "Sunshine",
+        "Speaker": "Dagmar Dreke"
+      },
+      {
+        "Character": "1. Mann",
+        "Speaker": "Tetje Mierendorf"
+      },
+      {
+        "Character": "2. Mann",
+        "Speaker": "Gosta Liptow"
+      }
+    ]
+  },
+  {
+    "Id": "0b4a90a6-e27d-4323-b7b3-e42e8aeef72f",
+    "Title": "Der namenlose Gegner",
+    "NumberEuropa": 149,
+    "ReleaseDate": "2011-09-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0b4a90a6-e27d-4323-b7b3-e42e8aeef72f.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In dem sonst so idyllischen Vorort Seven Pines droht ein Nachbarschaftskrieg auszuarten. Die aufgebrachten Anwohner bitten die drei ??? um Hilfe. Doch Bob wird bei einer nächtlichen Beschattungsaktion verletzt und verliert das Bewusstsein. Als er wieder zu sich kommt, weiß er nicht mehr, wer er ist! Das nutzt ein alter Feind der drei ??? gnadenlos aus. Während der dritte Detektiv nun auf unerwartete Abwege gerät, bekommen Justus und Peter es mit einem gefährlichen Gegner zu tun. Schnell wird aus einem scheinbar harmlosen Routinefall eine harte Probe für das berühmte Trio aus Rocky Beach - womöglich die härteste, die es für sie gegeben hat...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Cynthia McGowan",
+        "Speaker": "Luise Lunow"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Mrs. Andrews",
+        "Speaker": "Konstanze Ullmer"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Mina Parker",
+        "Speaker": "Annabelle Krieg"
+      },
+      {
+        "Character": "Brandon Fraser",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Beatrix Fraser",
+        "Speaker": "Sophie Lechtenbrink"
+      },
+      {
+        "Character": "Roxy",
+        "Speaker": "Julia Fölster"
+      },
+      {
+        "Character": "Josh",
+        "Speaker": "Volker Hanisch"
+      },
+      {
+        "Character": "Paul",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Davis",
+        "Speaker": "Frank Meyer-Brockmann"
+      }
+    ]
   }
 ]
