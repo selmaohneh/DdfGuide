@@ -47,8 +47,7 @@ namespace DdfGuide.Parser
         {
             try
             {
-                const string xPath = "/html/body/table/tr[1]/td[2]/center[1]/table/tr[1]/td[3]/center/span";
-
+                const string xPath = "/html/body/table/tbody/tr[1]/td[2]/center[1]/table/tbody/tr[2]/td[2]/div/span";
                 title = _htmlDocument
                     .DocumentNode
                     .SelectNodes(xPath)
