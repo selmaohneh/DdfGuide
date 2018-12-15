@@ -13548,5 +13548,328 @@
     "Interpreter": "Die drei ???",
     "Description": "Das ist wirklich ein spezial gelagerter Sonderfall: Warum zitieren Papageien sonderbare Sprüche falsch? Was hat Sherlock Holmes mit Schneewittchen zu tun? Und aus welchem Grund taucht urplötzlich Skinny Norris auf, obwohl er damals vor 25 Jahren im Original- Hörspiel nicht dabei war? Ganz einfach: Diese Sonder-Edition der allerersten drei ??? Folge enthält viele neue Szenen und beantwortet endlich alle Fragen, die in der ursprünglichen Fassung nie beantwortet wurden...",
     "Roles": []
+  },
+  {
+    "Id": "5c4b9348-5b09-4281-ab6d-335c7b979131",
+    "Title": "...und der DreiTag",
+    "NumberEuropa": null,
+    "ReleaseDate": "2010-10-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/5c4b9348-5b09-4281-ab6d-335c7b979131.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Kann ein und derselbe Tag dreimal völlig unterschiedlich verlaufen? Kann ein unscheinbares Detail wie ein Colaglas darüber entscheiden, wie sich alle weiteren Geschehnisse entwickeln? Erlebe, wie Justus, Peter und Bob auf den unheimlichen Fluch der Sheldon Street, die mysteriösen Zeichen der Ritter stoßen und den bedrohlichen Fremden Freund stoßen - und zwar zeitgleich am selben Tag! Drei Geschichten von drei Autoren führen dich dreimal durch einen Tag, wie er unterschiedlicher nicht verlaufen könnte. Die drei ??? x 3! Teil J - Der Fluch der Sheldon Street Erzählt von Hendrik Buchna Alles beginnt mit dem Kauf eines alten Projektors und der Entdeckung einer kleinen Super-8-Filmrolle. Als die drei Detektive das Fundstück begutachten, entdecken sie die verstörende Aufnahme einer albtraumhaften Gestalt. Schnell stellen die drei ??? fest, dass es um weit mehr geht, als sie zunächst ahnen: Eine ganze Straße scheint unter dem Bann eines düsteren Geheimnisses zu stehen. Doch kaum beginnen Justus, Peter und Bob mit ihren Nachforschungen, da tauchen plötzlich Gegner auf, die ihnen mit allen Mitteln zuvorkommen wollen... TEIL B - IM ZEICHEN DER RITTER Erzählt von Tim Wenderoth Geheimnisvolle Symbole beunruhigen die Bewohner von Rocky Beach. Was steckt hinter den kryptischen Zeichen, die von einer geisterhaften Gestalt nachts an die Häuser gemalt werden? Und warum verhalten sich einige Bewohner der kleinen Küstenstadt so merkwürdig? Ihre ersten Nachforschungen bringen Justus, Peter und vor allem Bob auf die Spur einer mittelalterlichen Ritterlegende. Je intensiver sie sich mit dem Fall beschäftigen, umso klarer scheint, dass ihnen nur wenige Stunden bleiben, um am unheilvollen Freitag den 13. Schlimmeres zu verhindern... TEIL P - FREMDER FREUND Erzählt von Ivar Leon Menger Peter schwebt im siebten Himmel, denn er hat in einem Café Bekanntschaft mit einem großen Fan der drei ??? gemacht. Er wird sogar um ein Autogramm gebeten. Stolz und gut gelaunt verbringt Peter einen tollen Tag mit seinen Freunden, und alles wäre einfach perfekt, wenn er nicht plötzlich diese seltsamen Telefonanrufe und mysteriösen Briefe erhalten würde. Die drei Detektive werden heimlich beobachtet und sogar von einem Unbekannten fotografiert! Was soll das alles? Wer ist dieser seltsame Verfolger? Ist Peters Leben in Gefahr?",
+    "Roles": [
+      {
+        "Character": "Teil J",
+        "Speaker": "Der Fluch der Sheldon Street"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus Jonas",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Officer Flann Doyle",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Tanya Sullivan",
+        "Speaker": "Marion Elskis"
+      },
+      {
+        "Character": "Sebastian Dawson",
+        "Speaker": "Bastian Pastewka"
+      },
+      {
+        "Character": "Miss Tomkins",
+        "Speaker": "Steffi Kirchberger"
+      },
+      {
+        "Character": "Mr. Foley",
+        "Speaker": "Dirk Bach"
+      },
+      {
+        "Character": "John Gabbin",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Matthew Gabbin",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Georgina",
+        "Speaker": "Maud Ackermann"
+      },
+      {
+        "Character": "Gil Renard",
+        "Speaker": "Udo Schenk"
+      },
+      {
+        "Character": "Hedy Carlson",
+        "Speaker": "Luise Helm"
+      },
+      {
+        "Character": "Steve",
+        "Speaker": "Sascha Draeger"
+      },
+      {
+        "Character": "Jack",
+        "Speaker": "Hendrik Buchna"
+      },
+      {
+        "Character": "Laury",
+        "Speaker": "Rhea Harder"
+      },
+      {
+        "Character": "Gast",
+        "Speaker": "Christian Senger"
+      },
+      {
+        "Character": "Fahrerin",
+        "Speaker": "Corinna Wodrich"
+      },
+      {
+        "Character": "Radiosprecher",
+        "Speaker": "Tobias Meister"
+      },
+      {
+        "Character": "TEIL B",
+        "Speaker": "IM ZEICHEN DER RITTER"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Bill Andrews",
+        "Speaker": "Henry König"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Miss Bennett",
+        "Speaker": "Renate Pichler"
+      },
+      {
+        "Character": "Dick Perry",
+        "Speaker": "Ernst H. Hilbich"
+      },
+      {
+        "Character": "Walter Bush",
+        "Speaker": "Rolf E. Schenker"
+      },
+      {
+        "Character": "Officer Flann Doyle",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Ian Bush",
+        "Speaker": "Sky Du Mont / Lucas Sperber"
+      },
+      {
+        "Character": "Jimmy Sinclair",
+        "Speaker": "Siegfried Kernen / Nils Noller"
+      },
+      {
+        "Character": "Charlie Parker",
+        "Speaker": "Jörg Gillner / Laurence Kalaidjan"
+      },
+      {
+        "Character": "Brianna Jackson",
+        "Speaker": "Hansi Jochmann / Natalie Demtröder"
+      },
+      {
+        "Character": "Chloe Smathers",
+        "Speaker": "Valerie Demtröder"
+      },
+      {
+        "Character": "Joseph Quick",
+        "Speaker": "Harry Rowohlt"
+      },
+      {
+        "Character": "Mr. Raynes",
+        "Speaker": "Olaf Kreuzenbeck"
+      },
+      {
+        "Character": "Jeff White",
+        "Speaker": "Horst Naumann"
+      },
+      {
+        "Character": "Hedy Carlson",
+        "Speaker": "Luise Helm"
+      },
+      {
+        "Character": "Gil Renard",
+        "Speaker": "Udo Schenk"
+      },
+      {
+        "Character": "Matthew Gabbin",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Steve",
+        "Speaker": "Sascha Draeger"
+      },
+      {
+        "Character": "Laury",
+        "Speaker": "Rhea Harder"
+      },
+      {
+        "Character": "Georgina",
+        "Speaker": "Maud Ackermann"
+      },
+      {
+        "Character": "Bedienung",
+        "Speaker": "Tim Wenderoth"
+      },
+      {
+        "Character": "Gast",
+        "Speaker": "Andreas Otto"
+      },
+      {
+        "Character": "Sekretärin",
+        "Speaker": "Corinna Wodrich"
+      },
+      {
+        "Character": "Sebastian Dawson",
+        "Speaker": "Bastian Pastewka"
+      },
+      {
+        "Character": "Radiosprecher",
+        "Speaker": "Tobias Meister"
+      },
+      {
+        "Character": "TEIL P",
+        "Speaker": "FREMDER FREUND"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jonas",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Officer Flann Doyle",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Gil Renard",
+        "Speaker": "Udo Schenk"
+      },
+      {
+        "Character": "Hedy Carlson",
+        "Speaker": "Luise Helm"
+      },
+      {
+        "Character": "Peter Foster",
+        "Speaker": "Gerrit Schmidt-Foss"
+      },
+      {
+        "Character": "Mrs. Shaw",
+        "Speaker": "Isabella Grote"
+      },
+      {
+        "Character": "Sebastian Dawson",
+        "Speaker": "Bastian Pastewka"
+      },
+      {
+        "Character": "Annie Wilkes",
+        "Speaker": "Regina Lemnitz"
+      },
+      {
+        "Character": "Mädchen 1",
+        "Speaker": "Katinka Körting"
+      },
+      {
+        "Character": "Mädchen 2",
+        "Speaker": "Jacqueline Meybauer"
+      },
+      {
+        "Character": "Georgina",
+        "Speaker": "Maud Ackermann"
+      },
+      {
+        "Character": "Alter Mann",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Junger Mann",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Dick Perry",
+        "Speaker": "Ernst H. Hilbich"
+      },
+      {
+        "Character": "Matthew Gabbin",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Steve",
+        "Speaker": "Sascha Draeger"
+      },
+      {
+        "Character": "Radiosprecher",
+        "Speaker": "Tobias Meister"
+      }
+    ]
   }
 ]
