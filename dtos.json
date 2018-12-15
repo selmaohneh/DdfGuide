@@ -12889,7 +12889,7 @@
   },
   {
     "Id": "edeae14c-e800-401d-a6f5-d86f5e7a9084",
-    "Title": " Geheimnis des Bauchredners",
+    "Title": "Geheimnis des Bauchredners",
     "NumberEuropa": 196,
     "ReleaseDate": "2018-11-30T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edeae14c-e800-401d-a6f5-d86f5e7a9084.jpg",
@@ -12949,5 +12949,509 @@
         "Speaker": "Constantin Stahlberg"
       }
     ]
-  }
+  },
+  {
+    "Id": "89f56afb-e7ec-4f13-a41e-96829b3174ac",
+    "Title": "Das Seeungeheuer",
+    "NumberEuropa": 1,
+    "ReleaseDate": "2006-10-13T00:00:01",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/89f56afb-e7ec-4f13-a41e-96829b3174ac.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Ein Anwalt mit düsterer Vergangenheit, ein einsames Küstenhaus mit einem furchtbaren Geheimnis und ein rätselhaftes Testament.... Die Belastbarkeit von Jupiter, Peter und Bob wird diesmal wahrlich auf eine harte Probe gestellt. Doch damit nicht genug. Während ihrer Nachforschungen wird das Trio mit der Aufklärung eines mysteriösen Schiffsunglücks beauftragt. Unheilvolle Vermutungen werden bald zur schrecklichen Gewissheit: Aus den finsteren Tiefen des Ozeans ist ein riesenhaftes Monstrum aufgetaucht! Werden die Drei die tödliche Gefahr von Kaliforniens Küste abwenden können?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Inspektor Milton",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Ashby",
+        "Speaker": "Sabine Hahn"
+      },
+      {
+        "Character": "Charles Prendergast",
+        "Speaker": "Rolf Nagel"
+      },
+      {
+        "Character": "Richard Crandall",
+        "Speaker": "Konstantin Graudus"
+      },
+      {
+        "Character": "Kirk Prendergast",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Blacky",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Jonathan Godfrey",
+        "Speaker": "Eric Schäffler"
+      },
+      {
+        "Character": "Carlos",
+        "Speaker": "Eduardo Garcia"
+      },
+      {
+        "Character": "Garrett",
+        "Speaker": "David Flemming"
+      },
+      {
+        "Character": "Riteman",
+        "Speaker": "Till Demtröder"
+      },
+      {
+        "Character": "Stanley",
+        "Speaker": "Lutz Schnell"
+      }
+    ]
+  },
+  {
+    "Id": "dffba7b2-fce1-4d68-bedd-0dfc23beea54",
+    "Title": "Die Pforte zum Jenseits",
+    "NumberEuropa": 2,
+    "ReleaseDate": "2006-10-13T00:00:02",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/dffba7b2-fce1-4d68-bedd-0dfc23beea54.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Handelt es sich bei dem alten Greis Sylvester Meyzel nur um ein erwachsenes Kind, dem die Fantasie einen Streich spielt, oder wird er tatsächlich von einem unsichtbaren Gast heimgesucht? Als Meyzels nächtliche Albträume tagsüber zur Realität werden, wendet er sich Hilfe suchend an Die dr3i. Jupiter, Peter und Bob kommen ziemlich schnell zu der Erkenntnis, dass Meyzels Schilderungen jeder Logik entbehren. Als aber auch Peters Angstträume Wirklichkeit werden, beginnt das Trio zu ermitteln. Vor ihren Augen öffnet sich die Pforte zum Jenseits...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Sylvester Meyzel",
+        "Speaker": "Wolfgang Völz"
+      },
+      {
+        "Character": "Dorothy Winter",
+        "Speaker": "Doris Kunstmann"
+      },
+      {
+        "Character": "Mr. Hendrik",
+        "Speaker": "Utz Richter"
+      },
+      {
+        "Character": "Kassiererin",
+        "Speaker": "Enie van de Maiklokjes"
+      },
+      {
+        "Character": "Inspektor Milton",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Inspektor Tomlin",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Mr. X",
+        "Speaker": "Dirk Eichhorn"
+      },
+      {
+        "Character": "Tao",
+        "Speaker": "Tilman Maddaus"
+      },
+      {
+        "Character": "Supermarkt-Durchsage",
+        "Speaker": "André Minninger"
+      }
+    ]
+  },
+  {
+    "Id": "9fd87e6f-802e-4b9d-8c56-3f637cd3264b",
+    "Title": "Verschollen in der Zeit",
+    "NumberEuropa": 3,
+    "ReleaseDate": "2006-10-13T00:00:03",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9fd87e6f-802e-4b9d-8c56-3f637cd3264b.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Zwei Wochen Urlaub auf einer Karibikinsel! Jupiter, Peter und Bob können ihr Glück kaum fassen. Doch was als vielversprechender Ferienstart beginnt, entwickelt sich urplötzlich zum unvorstellbaren Albtraum. Hoch über dem Atlantik gerät das Flugzeug der drei in ein rätselhaftes Unwetter und muss mitten im berüchtigten Bermuda-Dreieck auf einer fremdartigen Insel notlanden. Was dann geschieht, führt selbst Jupiter an die Grenzen seines Verstandes. Die unfassbaren Ereignisse lassen jedoch keinen Zweifel: Die Passagiere von Flug 715 sind verschollen in der Zeit...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "James Taylor",
+        "Speaker": "Wanja Mues"
+      },
+      {
+        "Character": "Ray Wells",
+        "Speaker": "Dietrich Adam"
+      },
+      {
+        "Character": "Frank Caspian",
+        "Speaker": "Christian Redl"
+      },
+      {
+        "Character": "Jonathan Grant",
+        "Speaker": "Bernd Stephan"
+      },
+      {
+        "Character": "Christy Grant",
+        "Speaker": "Anja Topf"
+      },
+      {
+        "Character": "George Drummond",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "Tom Drummond",
+        "Speaker": "Patrick Bach"
+      }
+    ]
+  },
+  {
+    "Id": "b7465c96-af07-4596-b32d-bfcb9b9c1e13",
+    "Title": "Zug um Zug",
+    "NumberEuropa": 4,
+    "ReleaseDate": "2006-11-24T00:00:04",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b7465c96-af07-4596-b32d-bfcb9b9c1e13.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Ein alter Zeitungsartikel weckt die Neugier des ersten Detektivs. Wo sind die $ 500.000 aus dem Überfall auf den Postzug geblieben? Was geschah wirklich vor 12 Jahren am alten Bahnhof von Rocky Beach? Was wusste die verstorbene Ellie Sparrow wirklich und inwieweit war die ehemalige Postangestellte in den Raubüberfall verwickelt? Ein leeres Blatt Papier und eine wirre Buchstabenkombination sind nur zwei der zahlreichen kleinen Puzzleteile, die zusammengefügt werden müssen. Als sich auch noch andere Gestalten für das verschollene Geld zu interessieren scheinen, wird es erst Recht Zeit für DIE DR3I sich mit dem Fall zu beschäftigen. Zug um Zug suchen sie nach den Antworten auf die vielen Fragen, die sich ihnen stellen...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Titus Jones",
+        "Speaker": "Hans Meinhardt [Andreas Beurmann]"
+      },
+      {
+        "Character": "Mathilda Jones",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Inspektor Milton",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Mr. Walker",
+        "Speaker": "Gustav Adolph Artz"
+      },
+      {
+        "Character": "Donald Forthland",
+        "Speaker": "Günther Lüdke"
+      },
+      {
+        "Character": "Shane Montana",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Jim",
+        "Speaker": "Wolfgang Berger"
+      },
+      {
+        "Character": "Doc Brown",
+        "Speaker": "Tim Wenderoth"
+      },
+      {
+        "Character": "Finnegan",
+        "Speaker": "Fabian Harloff"
+      }
+    ]
+  },
+  {
+    "Id": "41c60550-7e7e-4917-94f3-abe9e37f2008",
+    "Title": "Das Haus der 1.000 Rätsel",
+    "NumberEuropa": 5,
+    "ReleaseDate": "2007-02-09T00:00:05",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edeae14c-e800-401d-a6f5-d86f5e7a9084.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Als Jupiter, Peter und Bob den Auftrag erhalten, einem alternden Filmstar bei der Klärung eines mysteriösen Vorfalls zu helfen, ahnen sie noch nicht, welch absurde Ereignisse sie erwarten. In einem abgelegenen Luxushotel stoßen sie auf die Spur eines geheimnisvollen Unbekannten, der sie mit einer Reihe tückischer Rätsel an den Rand der Verzweiflung treibt. Nichts ist so, wie es zu sein scheint. Als sich die Drei im unheimlichen Kellergewölbe des Hotels schließlich am Ziel wähnen, erweist sich das Royal Mountain Residence endgültig als \"Haus der 1.000 Rätsel\"...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Jack Doolan",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "Harold",
+        "Speaker": "Gernot Endemann"
+      },
+      {
+        "Character": "Miss Lane",
+        "Speaker": "Sabine Schmdt-Kirchner"
+      },
+      {
+        "Character": "Mademoiselle Nadine",
+        "Speaker": "Jennie Appel"
+      },
+      {
+        "Character": "Toby Grissom",
+        "Speaker": "Lothar Grützner"
+      },
+      {
+        "Character": "Frank Mortimer",
+        "Speaker": "Karl-Friedrich Gerster"
+      }
+    ]
+  },
+  {
+    "Id": "36032863-4c53-4a28-97ac-18357e8036a4",
+    "Title": "Tödliche Regie",
+    "NumberEuropa": 6,
+    "ReleaseDate": "2007-03-23T00:00:06",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edeae14c-e800-401d-a6f5-d86f5e7a9084.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Terror im Studio! Feige Anschläge machen der Synchronsprecherin Ellen Maxell das Leben zur Hölle. Wer steckt hinter der unheimlichen Gummi-Maske der Zeichentrickfigur \"Panic-Porky\"? Nur knapp entgeht die talentierte Schauspielerin mehreren hinterhältigen Mordversuchen. Hat es jemand auf ihre Rolle abgesehen? Die drei Detektive Jupiter, Peter und Bob nehmen sich des mysteriösen Falles an und geraten mitten in die Schusslinie der zum Leben erwachten Cartoonfigur.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ellen Maxell",
+        "Speaker": "Traudel Sperber"
+      },
+      {
+        "Character": "Audrey Moonshadow",
+        "Speaker": "Judy Winter"
+      },
+      {
+        "Character": "Sandy Stryker",
+        "Speaker": "Martina Regenhardt"
+      },
+      {
+        "Character": "Mandy Honeyball",
+        "Speaker": "Celine Fontanges"
+      },
+      {
+        "Character": "Mars Chaplin",
+        "Speaker": "Rainer Schmitt"
+      },
+      {
+        "Character": "Inspektor Milton",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Assistent",
+        "Speaker": "Dirk Bach"
+      }
+    ]
+  },
+  {
+    "Id": "686a7bd9-2a89-4943-b00c-61d93246a421",
+    "Title": "... und der kopflose Reiter",
+    "NumberEuropa": 7,
+    "ReleaseDate": "2007-11-30T00:00:07",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edeae14c-e800-401d-a6f5-d86f5e7a9084.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Ein unheimlicher Reiter ohne Kopf versetzt die Bewohner von Rocky Beach in Angst und Schrecken. In nebligen Herbstnächten taucht er um Mitternacht auf und reitet durch die Stadt. Ist es der Geist des alten Indianers Ashoona Apeh, der mehr als 100 Jahre nach seinem Tod Rache nehmen will an jenen, die ihn seinerzeit köpften? Hat der Urenkel des Indianers etwas zu verbergen? Bevor \"Die Dr3i\" sich versehen, stehen sie dem gefährlichen Gegner und seinem Schwert machtlos gegenüber...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda Jones",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus Jones",
+        "Speaker": "Hans Meinhardt [Andreas Beurmann]"
+      },
+      {
+        "Character": "Marty Stevens",
+        "Speaker": "Lutz Harder"
+      },
+      {
+        "Character": "Joshua Apeh",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Claudia Salazar",
+        "Speaker": "Marion Elskis"
+      },
+      {
+        "Character": "Ralf Dempsey",
+        "Speaker": "Robin Brosch"
+      },
+      {
+        "Character": "Marvin Cox",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Anna",
+        "Speaker": "Micaela Kreissler"
+      },
+      {
+        "Character": "George",
+        "Speaker": "Eric Schaeffler"
+      },
+      {
+        "Character": "Hapa",
+        "Speaker": "Michael Weckler"
+      },
+      {
+        "Character": "Lastwagenfahrer",
+        "Speaker": "Tim Wenderoth"
+      }
+    ]
+  },
+  {
+    "Id": "a32cba64-f94f-4319-99bf-0db4ad2d7200",
+    "Title": "Der Jahrhundertstein",
+    "NumberEuropa": 8,
+    "ReleaseDate": "2007-11-30T00:00:08",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edeae14c-e800-401d-a6f5-d86f5e7a9084.jpg",
+    "Interpreter": "DiE DR3i",
+    "Description": "Durch Zufall gelangen die drei Juniordetektive aus Rocky Beach in den Besitz eines Fragmentes des sogenannten Jahrhundertsteins, einer spätmittelalterlichen Steintafel. Noch bevor sie weiterführende Ermittlungen anstellen können wird der Stein gestohlen. Für Jupiter, Peter und Bob ist das aber noch lange kein Grund aufzugeben. Doch sie sind nicht die Einzigen, die hinter ihm her sind. Wer ist der geheimnisvolle Unbekannte, der im Hintergrund die Fäden zieht und die Dr3i wie Schachfiguren dahin schiebt, wo sie ihm am meisten nützen? Wer steckt hinter der Maske des einarmigen Bogenschützen, der Ihnen stets einen Schritt voraus ist? Urplötzlich spitzt sich die Situation zu und sie befinden sich in Lebensgefahr.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Jupiter Jones",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Crenshaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Taro",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Officer Hunter",
+        "Speaker": "Jürgen Kluckert"
+      },
+      {
+        "Character": "Türsteher",
+        "Speaker": "Arndt Schmöle"
+      },
+      {
+        "Character": "Motelangestellter",
+        "Speaker": "Jelko von Tiele-Winckler"
+      },
+      {
+        "Character": "Museumsdirektor",
+        "Speaker": "Rainer Schmitt"
+      },
+      {
+        "Character": "Tante Mathilda Jones",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Harvey Denton",
+        "Speaker": "Klaus Herrn"
+      },
+      {
+        "Character": "Mrs. Fox",
+        "Speaker": "Nana Spier"
+      },
+      {
+        "Character": "Inspektor Milton",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Arthur Heatherly",
+        "Speaker": "Rainer Brandt"
+      },
+      {
+        "Character": "Melissa Heatherly",
+        "Speaker": "Stephanie Kirchberger"
+      }
+    ]
+  },
 ]
