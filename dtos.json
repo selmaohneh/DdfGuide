@@ -13871,5 +13871,108 @@
         "Speaker": "Tobias Meister"
       }
     ]
+  },
+  {
+    "Id": "d535f70a-33d1-467a-b792-4e2fb012e943",
+    "Title": "Brainwash-Gefangene Gedanken",
+    "NumberEuropa": null,
+    "ReleaseDate": "2011-04-08T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d535f70a-33d1-467a-b792-4e2fb012e943.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "Verschollen, gefunden, endlich veröffentlicht: Eine Geschichten aus dem Jahr 1989 von dem amerikanischen Die drei ???-Autor Peter Lerangis. Als in einer Woche gleich zwei Bekannte der drei ??? verschwinden, vermuten die Jungen, dass die Sekte SynRea dahinter stecken könnte. Um die Vermissten zurückzuholen, fliegen die drei Detektive nach New York und treten in einer Undercover-Aktion der Sekte bei. Schon bald stellt sich heraus, dass die vermissten Jugendlichen tatsächlich dort sind. Was jedoch als einfache Rückholaktion geplant war, entpuppt sich zunehmend als unlösbare Mission - denn die Mächte der SynRea-Gruppe scheinen auch von Justus, Peter und Bob Besitz zu ergreifen.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ben",
+        "Speaker": "Fabian Harloff"
+      },
+      {
+        "Character": "Silvia",
+        "Speaker": "Marion von Stengel"
+      },
+      {
+        "Character": "Ralph",
+        "Speaker": "Wolfgang Kaven"
+      },
+      {
+        "Character": "Spud",
+        "Speaker": "Rasmus Borowski"
+      },
+      {
+        "Character": "O-Ian",
+        "Speaker": "Celine Fontanges"
+      },
+      {
+        "Character": "Setch",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Hi-Top",
+        "Speaker": "Robin Brosch"
+      },
+      {
+        "Character": "Car",
+        "Speaker": "Volker Hanisch"
+      },
+      {
+        "Character": "Chip-Shape",
+        "Speaker": "Jens Wendland"
+      },
+      {
+        "Character": "Carol",
+        "Speaker": "Alexandra Garcia"
+      },
+      {
+        "Character": "Slide Terranova",
+        "Speaker": "Nico König"
+      },
+      {
+        "Character": "P. \"Pejo\" Joseph McGaskill",
+        "Speaker": "Peter Kirchberger"
+      },
+      {
+        "Character": "Sax Sendler",
+        "Speaker": "Christian Concillio"
+      },
+      {
+        "Character": "Hausmeister",
+        "Speaker": "Edgar Bessen"
+      },
+      {
+        "Character": "Bau-Kollege",
+        "Speaker": "Holger Umbreit"
+      },
+      {
+        "Character": "Junge",
+        "Speaker": "Michael Lampe"
+      },
+      {
+        "Character": "Mädchen",
+        "Speaker": "Pamela Punti"
+      },
+      {
+        "Character": "Weibl. Offstimme",
+        "Speaker": "Susanne Wulkow"
+      },
+      {
+        "Character": "Werbestimme",
+        "Speaker": "Enie van de Meiklokjes"
+      },
+      {
+        "Character": "Menge",
+        "Speaker": "www.dreifragezeichen.de/www/menge-brainwash"
+      }
+    ]
   }
 ]
