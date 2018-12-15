@@ -17,7 +17,7 @@ namespace DdfGuide.Parser
             foreach (var arg in args)
             {
                 var html = downloader.DownloadHtmlDocumentFrom(arg);
-                var parser = new RockyBeachParser(html);
+                var parser = new HoerspielDeParser(html);
 
                 parser.TryParseInterpreter(out var interpreter);
                 parser.TryParseTitle(out var title);
