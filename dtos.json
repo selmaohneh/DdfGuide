@@ -14720,7 +14720,112 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d923fc92-b6cb-43bf-8f58-ec86b2007efe.jpg",
     "Interpreter": "Die drei ???",
     "Description": "Eine rätselhafte Diebstahlserie erschüttert Rocky Beach! Der Dieb hat offenbar eine Botschaft: CROATOAN schmiert er in blutigen Buchstaben an die Wände der Tatorte. Kennt er die schreckliche, jahrhundertalte Geschichte, die sich hinter diesem Wort verbirgt? Und wer ist der Indianer mit den kalten Augen, der immer wieder auftaucht? Höchste Zeit, dass die drei ??? Licht ins Dunkel bringen... Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert, wird mit ‚Die drei ??? und das kalte Auge‘ nun die letzte Produktion ersten Planetariums-Staffel als Stereofassung auf CD und MC veröffentlicht. Bereits erschienen sind die Produktionen ‚Das Grab der Inka-Mumie‘ und ‚und der Tornadojäger‘",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Zachary Collister",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Mrs. Hilton",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Mr. Warren",
+        "Speaker": "Stephan Schwartz"
+      },
+      {
+        "Character": "Zwillinge Luke & Colin Havering",
+        "Speaker": "Santiago Ziesmer"
+      },
+      {
+        "Character": "MacKenzie",
+        "Speaker": "Traudel Sperber"
+      },
+      {
+        "Character": "Erial",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Andy",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Francine",
+        "Speaker": "Merete Brettschneider"
+      },
+      {
+        "Character": "Matrose",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Watson",
+        "Speaker": "Corinna Wodrich"
+      },
+      {
+        "Character": "Betrunkener",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Kind 1",
+        "Speaker": "Malon Stahltuch"
+      },
+      {
+        "Character": "Kind 2",
+        "Speaker": "Julia Fölster"
+      },
+      {
+        "Character": "Taxifahrer",
+        "Speaker": "Tillman Madaus"
+      },
+      {
+        "Character": "Kartenspieler",
+        "Speaker": "Robin Brosch"
+      },
+      {
+        "Character": "Tocher von Erial",
+        "Speaker": "Zelda Jahreis"
+      },
+      {
+        "Character": "AB-Ansage-Stimme",
+        "Speaker": "Susan Jarling"
+      },
+      {
+        "Character": "Reporter",
+        "Speaker": "Ivo Möller"
+      },
+      {
+        "Character": "Journalistin",
+        "Speaker": "Birte Kretschmer"
+      }
+    ]
   },
   {
     "Id": "DA7920E4-6B74-420B-AA20-FF54E2983E85",
