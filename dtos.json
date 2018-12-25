@@ -16758,5 +16758,304 @@
         "Speaker": "Hans-Georg Körbel"
       }
     ]
+  },
+  {
+    "Id": "e2deaebf-3e48-4209-9940-f70e05537c48",
+    "Title": "Fußball-Alarm",
+    "NumberEuropa": 26,
+    "ReleaseDate": "2012-03-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e2deaebf-3e48-4209-9940-f70e05537c48.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Fußballmeisterschaft in Rocky Beach! Doch es geht nicht nur um den Pokal - Onkel Titus' Schrottplatz steht auf dem Spiel. Die Mannschaft von Justus, Peter und Bob muss also in jedem Fall gewinnen! Aber die Meisterschaft entwickelt sich zu einem richtigen Krimi, denn ihre Gegner kämpfen mit allen Mitteln.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Notar Chandler",
+        "Speaker": "Christian Melchert"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Bud Norris",
+        "Speaker": "Tobias Brecklinghaus"
+      },
+      {
+        "Character": "Ernesto Porto",
+        "Speaker": "Holger Löwenberg"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "73037e52-7a11-4894-8076-da56e33d72fe",
+    "Title": "Die Schokofalle",
+    "NumberEuropa": 27,
+    "ReleaseDate": "2012-04-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/73037e52-7a11-4894-8076-da56e33d72fe.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Das Rezept der köstlichsten Schokolade der Welt ist gestohlen worden. Klar, dass den drei ??? Kids besonders viel daran liegt, diesen Fall zu lösen. Doch wer steckt hinter der Industriespionage? Justus, Peter und Bob müssen der Sache auf den Grund gehen und die Spur führt sie direkt in eine Schokoladenfabrik.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Harry",
+        "Speaker": "Stephan Rau"
+      },
+      {
+        "Character": "Mickey",
+        "Speaker": "Dirk Hardegen"
+      },
+      {
+        "Character": "Bill",
+        "Speaker": "Peter Brück"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Mr Trader",
+        "Speaker": "Malcolm Andreasson"
+      },
+      {
+        "Character": "Scheich von Bessanien",
+        "Speaker": "Jens Wendland"
+      }
+    ]
+  },
+  {
+    "Id": "bae16b14-a1b2-43d6-b13d-d744451c3471",
+    "Title": "Diamantenjagd",
+    "NumberEuropa": 28,
+    "ReleaseDate": "2012-07-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bae16b14-a1b2-43d6-b13d-d744451c3471.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Unglaublich: Liegen unter der Erde von Rocky Beach tatsächlich wertvolle Edelsteine? So zumindest erzählt es eine rätselhafte Legende vom alten Fred Fireman. Die drei ??? Kids müssen tief hinabsteigen, um das Geheimnis zu lösen. Doch sie sind nicht allein auf der spannenden Jagd nach den Diamanten.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "YoshiGrimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erä?hler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Joanna",
+        "Speaker": "Djuwita Müller"
+      },
+      {
+        "Character": "Ken",
+        "Speaker": "Dirk Herold"
+      },
+      {
+        "Character": "Pastor Heyde",
+        "Speaker": "Mathias Bauer"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Thomas Piper"
+      },
+      {
+        "Character": "Mr. Shaw",
+        "Speaker": "Oliver Schmitz"
+      }
+    ]
+  },
+  {
+    "Id": "f2478853-9775-4457-ac6b-8983d6789cba",
+    "Title": "Monsterpilze",
+    "NumberEuropa": 29,
+    "ReleaseDate": "2012-09-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f2478853-9775-4457-ac6b-8983d6789cba.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein neues Abenteuer wartet auf die drei Detektive. Riesige Pilze, monströse Kirschen und Insekten so groß wie Kühlschränke! Wirklich seltsame Dinge geschehen in Rocky Beach. Hat der verrückte Erfinder seine Finger im Spiel? Eins ist klar: Die drei ??? Kids haben einen schwierigen Fall zu lösen.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Giovanni / Doktor Dryfuss",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Larry Blix",
+        "Speaker": "Michael Krüger"
+      },
+      {
+        "Character": "Dustin Harper",
+        "Speaker": "Christian Jungwirth"
+      },
+      {
+        "Character": "McCooper",
+        "Speaker": "Maximilian Krings"
+      }
+    ]
+  },
+  {
+    "Id": "b18a7cd4-eb21-42d4-b25c-a14907d439e4",
+    "Title": "Im Geisterschiff",
+    "NumberEuropa": 30,
+    "ReleaseDate": "2012-11-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b18a7cd4-eb21-42d4-b25c-a14907d439e4.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Bei einem Sturm werden merkwürdige Dinge an die Küste von Rocky Beach gespült. Handelt es sich hier wirklich um die Überreste eines alten Schiffswracks? Die drei ??? Kids gehen der Sache sprichwörtlich auf den Grund und müssen tief hinabtauchen. Doch was sie zu sehen bekommen, hätten Justus, Peter und Bob nicht in ihren kühnsten Träumen erwartet.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Mr. Jenkins",
+        "Speaker": "Christoph Jablonka"
+      },
+      {
+        "Character": "Julia Jenkins",
+        "Speaker": "Mareike Fell"
+      },
+      {
+        "Character": "Leon Murdock",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Ernesto Porto",
+        "Speaker": "Holger Löwenberg"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
   }
 ]
