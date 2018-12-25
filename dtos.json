@@ -16313,5 +16313,123 @@
         "Speaker": "Klaus Dittmann"
       }
     ]
+  },
+  {
+    "Id": "52635912-3ad6-4453-b826-2ac9a142913a",
+    "Title": "Spur in die Wildnis",
+    "NumberEuropa": 19,
+    "ReleaseDate": "2011-01-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/52635912-3ad6-4453-b826-2ac9a142913a.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die drei ??? Kids können es kaum glauben: Sie dürfen bei der California Action Tour mitmachen und mit Glück 10.000 Dollar gewinnen. Bei dem Wettkampf müssen die Detektive spannende Abenteuer allein in der Wildnis bestehen. Doch irgendjemand treibt ein falsches Spiel und es wird plötzlich richtig gefährlich. Jetzt sind starke Nerven gefragt...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tom Bentley",
+        "Speaker": "John Ment"
+      },
+      {
+        "Character": "Steven Summers",
+        "Speaker": "René Dawn-Claude"
+      },
+      {
+        "Character": "Stuart Mc Marshall",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Michael Milton",
+        "Speaker": "Stefan Mitrenga"
+      },
+      {
+        "Character": "Judy Clarke",
+        "Speaker": "Uta Dänekamp"
+      },
+      {
+        "Character": "Alwood Striker",
+        "Speaker": "Till DemtrØder"
+      },
+      {
+        "Character": "Terence Mulligan",
+        "Speaker": "Ansgar Döbertin"
+      }
+    ]
+  },
+  {
+    "Id": "9672bbe8-c3b2-4847-bd6d-ddf1f08885a7",
+    "Title": "Die Schmugglerinsel",
+    "NumberEuropa": 20,
+    "ReleaseDate": "2011-03-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9672bbe8-c3b2-4847-bd6d-ddf1f08885a7.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Onkel Titus hat eine ganze Insel geerbt. Natürlich lassen es sich die drei ??? Kids nicht nehmen, \"Magic Island\" zu erforschen. Doch anscheinend sind sie nicht allein auf der Insel. Sie finden rätselhafte Fußabdrücke und die Spur führt in eine geheimnisvolle Felsenhöhle. Das Abenteuer beginnt.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Sekretärin",
+        "Speaker": "Kristine Ehlers"
+      },
+      {
+        "Character": "Notar Chandler",
+        "Speaker": "Christian Melchert"
+      },
+      {
+        "Character": "Kapitän Dexter",
+        "Speaker": "Manfred Reddemann"
+      },
+      {
+        "Character": "Commander",
+        "Speaker": "Gustav-Adolph Artz"
+      },
+      {
+        "Character": "Rick",
+        "Speaker": "Christian Stark"
+      },
+      {
+        "Character": "Kalknase",
+        "Speaker": "Rasmus Borowski"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
   }
 ]
