@@ -14592,7 +14592,7 @@
       {
         "Character": "1. Frau",
         "Speaker": "Iris Rufner"
-      }  ,
+      },
       {
         "Character": "2. Frau",
         "Speaker": "Antje Otterson"
@@ -15028,7 +15028,7 @@
     ]
   },
   {
-    "Id": "DA7920E4-6B74-420B-AA20-FF54E2983E85",
+    "Id": "da7920e4-6b74-420b-aa20-ff54e2983e85",
     "Title": "Rocky Beach Radio Show",
     "NumberEuropa": null,
     "ReleaseDate": "1999-08-22T00:00:00",
@@ -15177,6 +15177,57 @@
       {
         "Character": "Inspektor Cotta",
         "Speaker": "Holger Mahlich"
+      }
+    ]
+  },
+  {
+    "Id": "8c668730-af11-4cba-9f27-0ebc2129c3a0",
+    "Title": "Panik im Paradies",
+    "NumberEuropa": 1,
+    "ReleaseDate": "2009-03-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8c668730-af11-4cba-9f27-0ebc2129c3a0.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Bereits in der ersten Folge machen die drei berühmten Detektive ihrem Namen alle Ehre. Eigentlich haben Justus, Peter und Bob ja gerade Ferien. Doch dann treffen sie den kuriosen Kapitän Larson, der einen kleinen Privatzoo besitzt. Als plötzlich alle seine Tiere krank werden und keine Besucher mehr kommen, wird die Neugier der Fragezeichen geweckt. Schon bald ahnen sie, dass da jemand ein düsteres Geheimnis hütet. Es riecht gewaltig nach Abenteuer!!!",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Doktor Dreyfuss",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Erik Larson",
+        "Speaker": "Jürgen Kluckert"
+      },
+      {
+        "Character": "Gerald Hauser",
+        "Speaker": "Wolfgang Kaven"
       }
     ]
   }
