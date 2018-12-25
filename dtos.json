@@ -13983,7 +13983,136 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/11112c50-764c-409a-ae27-79ce3369b242.jpg",
     "Interpreter": "Die drei ???",
     "Description": "Ein besonderer Fall zum Mitraten: Verschollen, gefunden, endlich auch auf Deutsch veröffentlicht: Eine Geschichten aus dem Jahr 1986 von dem amerikanischen Die drei ???-Autorenpaar Megan und H. William Stine. Wolltest du immer schon den Die drei ??? bei ihren Ermittlungen helfen? Jetzt hast Du die Chance dazu! In der Geisterbahn im Freizeitpark geschehen merkwürdige Dinge. Schreckliche Schreie, ertönen, die mit Sicherheit nicht zum Programm dazugehören. Justus, Peter und Bob, die drei jungen Detektive aus Rocky Beach und ihr Auftraggeber Tony müssen schnellstmöglich herausfinden, was dahinter steckt. Aber Vorsicht: Eine falsche Entscheidung, und sie sind für immer verloren! Es liegt an dir. Du kannst den drei ??? und Tony den Weg durch das Haus der Angst schaffen. Oder auch nicht... Dies ist ein interaktives Hörspiel. Aufgrund der besseren Spielführung beginnt CD2 erst mit Track 28. Die Tracks 1-27 auf CD2 sind Leertracks!",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Off-Stimme",
+        "Speaker": "Claudia Stocksieker"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tony",
+        "Speaker": "Stefan Kaminski"
+      },
+      {
+        "Character": "Joey",
+        "Speaker": "Tommaso Cacciapuoti"
+      },
+      {
+        "Character": "Ansager in der Schlammringkampfarena",
+        "Speaker": "Christian Rudolf"
+      },
+      {
+        "Character": "Margarine",
+        "Speaker": "Alma Clausen"
+      },
+      {
+        "Character": "Lincolnfahrer",
+        "Speaker": "Mike Olsowski"
+      },
+      {
+        "Character": "Freakshow-Jack",
+        "Speaker": "Peter Bänker"
+      },
+      {
+        "Character": "Der unergründliche Mickey",
+        "Speaker": "Krystian Martinek"
+      },
+      {
+        "Character": "Die bärtige Marilyn",
+        "Speaker": "Santiago Ziesmer"
+      },
+      {
+        "Character": "Miss Luzzy",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Bubba Detroit",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Junge",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Burger-Verkäufer Arnie",
+        "Speaker": "Manou Lubowski"
+      },
+      {
+        "Character": "Reporterin",
+        "Speaker": "Mara Bergmann"
+      },
+      {
+        "Character": "Anna Millar",
+        "Speaker": "Christine Pappert"
+      },
+      {
+        "Character": "Bombenattentäter Daniel",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Wolfgang Kaven"
+      },
+      {
+        "Character": "Papagei",
+        "Speaker": "Heikedine Körting"
+      },
+      {
+        "Character": "Lily",
+        "Speaker": "Verena Wolfien"
+      },
+      {
+        "Character": "Max",
+        "Speaker": "Holger Umbreit"
+      },
+      {
+        "Character": "Miss Luzzy",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Milli",
+        "Speaker": "Ulrike Knief"
+      },
+      {
+        "Character": "Celeste Hummer",
+        "Speaker": "Maria Willer"
+      },
+      {
+        "Character": "Anthem Hummer",
+        "Speaker": "Martin May"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Bruce Millar",
+        "Speaker": "Ben Hecker"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Wolfgang Draeger"
+      },
+      {
+        "Character": "Mr. Albert Hitfield",
+        "Speaker": "Volker Bogdan"
+      },
+      {
+        "Character": "TV-Sprecher",
+        "Speaker": "Friedel Bott"
+      }
+    ]
   },
   {
     "Id": "620654a3-3dd2-4541-882f-f7d5ddc10f53",
