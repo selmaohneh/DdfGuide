@@ -13537,7 +13537,60 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b9c70d45-d025-4b21-bf22-587cfb9f2a72.jpg",
     "Interpreter": "Die drei ???",
     "Description": "Die Live-Tour der drei Sprecher Oliver Rohrbeck, Jens Wawrczeck und Andreas Fröhlich mit dem extra für diese Tour verfassten Fall Master Of Chess sprengt die Dimensionen. Diesen Fall wird es nicht als klassisches Hörspiel oder als Buch, sondern nur als Live-Aufnahme der Vorstellung geben und wird damit dem einzigartigen Live-Erlebnis gerecht. Inhalt der Folge: Eine Autopanne im strömenden Regen zwingt die Drei ??? - Justus, Peter und Bob - dazu, Zuflucht auf Schloss Blackstone zu suchen. Ein Blitz trifft die Stromleitung und hüllt das Schloss in Dunkelheit. Das alte Gemäuer macht einen gespenstischen Eindruck. Das bestätigt auch Graf Gallagher, der Schlossherr, der den Drei ??? erzählt, dass es in seinem Schloss spukt: Die Figuren auf einem Jahrhunderte alten, marmornen Schachtisch bewegen sich jede Nacht wie von Geisterhand geführt. Doch immer nur um einen Zug - einen genialen durchdachten Schachzug. Der Graf wird offensichtlich zum Spiel herausgefordert. Doch warum und von wem? Die drei Detektive ahnen schnell, dass es hier um viel mehr als nur eine Partie Schach geht... Ungekürzter Live-Mitschnitt der Aufführung vom 30. September 2002 in Berlin. Spielzeit \"Master Of Chess\": ca. 105 min. Spielzeit \"Outtakes\": ca. 30 min.",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Helmut Krauss"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ana / Gräfin / Virginia Burnett",
+        "Speaker": "Frauke Poolman"
+      },
+      {
+        "Character": "Graf / Moe / Passfellow",
+        "Speaker": "Olaf Kreutzenbeck"
+      },
+      {
+        "Character": "Geräusche",
+        "Speaker": "Peter Klinkenberg"
+      },
+      {
+        "Character": "Musik",
+        "Speaker": "Frank Ertel"
+      },
+      {
+        "Character": "Ton-Technik",
+        "Speaker": "Christian \"El Condor\" Käufl"
+      },
+      {
+        "Character": "Licht-Technik",
+        "Speaker": "Elmar \"Elli\" Eckert"
+      },
+      {
+        "Character": "Dialog-Bearbeitung",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Regie",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Leitender Toningenieur",
+        "Speaker": "Christian \"El Condor\" Käufl"
+      }
+    ]
   },
   {
     "Id": "738d228b-9af7-400e-a365-0541d864f976",
