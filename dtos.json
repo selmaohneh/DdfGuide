@@ -16431,5 +16431,332 @@
         "Speaker": "Klaus Dittmann"
       }
     ]
+  },
+  {
+    "Id": "88002a9b-5cfd-47a3-8328-5b2482303dcd",
+    "Title": "Die Geisterjäger",
+    "NumberEuropa": 21,
+    "ReleaseDate": "2011-06-24T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/88002a9b-5cfd-47a3-8328-5b2482303dcd.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Sonderbare Dinge geschehen in der Villa von Mrs. Almond. Spukt es etwa in den alten Gemäuern? Diesmal versuchen sich die drei ??? Kids als Geisterjäger. Vom Keller bis zum Dachboden wird alles unter die Lupe genommen. Doch mit wem haben sie sich hier bloß angelegt? Gänsehaut ist angesagt.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Michael Habeck"
+      },
+      {
+        "Character": "Mr. Laslokow",
+        "Speaker": "Joscha Fischer-Antze"
+      },
+      {
+        "Character": "Mrs. Almond",
+        "Speaker": "Karin Eckholt"
+      },
+      {
+        "Character": "Mr. Doyle",
+        "Speaker": "Frank Jordan"
+      },
+      {
+        "Character": "Mrs. Doyle",
+        "Speaker": "Tina Eschmann"
+      },
+      {
+        "Character": "Alan McEdwin",
+        "Speaker": "Andreas Torwesten"
+      },
+      {
+        "Character": "Sophie Higgins",
+        "Speaker": "Christina Puciata"
+      },
+      {
+        "Character": "Paul Higgins",
+        "Speaker": "Konrad Halver"
+      }
+    ]
+  },
+  {
+    "Id": "b9cc34c3-dafc-4227-861e-e7f360be5db3",
+    "Title": "Einarmige Banditen",
+    "NumberEuropa": 22,
+    "ReleaseDate": "2011-08-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b9cc34c3-dafc-4227-861e-e7f360be5db3.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die drei ??? Kids können es kaum glauben: In Rocky Beach finden verbotene Glücksspiele statt. Selbst Onkel Titus versucht sich an den bunten Automaten - den \"Einarmigen Banditen\". Doch als Justus, Peter und Bob die Ermittlungen aufnehmen, wird?s gefährlich. Anscheinend mögen es einige dunkle Gestalten nicht, wenn sie bei ihren Geschäften gestört werden.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Jimmy",
+        "Speaker": "Winfried Glatzeder"
+      },
+      {
+        "Character": "Ben",
+        "Speaker": "Dieter Gerlach"
+      },
+      {
+        "Character": "Dan",
+        "Speaker": "Peter Kirchberger"
+      },
+      {
+        "Character": "Ellen Snider",
+        "Speaker": "Ines Rudolph-Bräuer"
+      },
+      {
+        "Character": "Sergeant Raider",
+        "Speaker": "Kai Bronisch"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Bud Norris",
+        "Speaker": "Tobias Brecklinghaus"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "b39b8816-6bfc-4230-8b8a-1fdeba6d7c80",
+    "Title": "Feuer in Rocky Beach",
+    "NumberEuropa": 23,
+    "ReleaseDate": "2011-09-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b39b8816-6bfc-4230-8b8a-1fdeba6d7c80.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Feueralarm in Rocky Beach, denn mitten in der Nacht brennt Onkel Titus Schuppen ab. Doch dies bleibt nicht der einzige rätselhafte Brand. Ist das Zufall? Oder ist hier ein Feuerteufel am Werk? Ein Fall für die drei ??? Kids, die für ihre Ermittlungen sogar in die Jugendfeuerwehr eintreten. Es gibt viele Spuren, aber nur eine führt zur Lösung.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Gordon Flanders",
+        "Speaker": "Detlef Tams"
+      },
+      {
+        "Character": "Blomburt",
+        "Speaker": "Santiago Ziesmer"
+      },
+      {
+        "Character": "Mr Doyle",
+        "Speaker": "Tobias Brecklinghaus"
+      },
+      {
+        "Character": "Mrs Martens",
+        "Speaker": "Karin M. Schneider"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Mr Corps",
+        "Speaker": "Hans-Georg Körbel"
+      },
+      {
+        "Character": "Mrs Corps",
+        "Speaker": "Karin Buchholz"
+      }
+    ]
+  },
+  {
+    "Id": "75ebe988-b423-467a-aa0e-bf0c1195012b",
+    "Title": "Im Bann des Zauberers",
+    "NumberEuropa": 24,
+    "ReleaseDate": "2011-11-11T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/75ebe988-b423-467a-aa0e-bf0c1195012b.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Mitten auf dem Marktplatz von Rocky Beach findet eine Zaubershow statt. Einem mysteriösen Magier gelingt es dabei, das Publikum zu hypnotisieren. Auch die drei ??? Kids werden in seinen Bann gezogen. Doch der Zauberer führt anscheinend noch etwas ganz anderes im Schilde. Können die drei Freunde den Mann stoppen?",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Mister Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Mr Doodles",
+        "Speaker": "Matthias Henkel"
+      },
+      {
+        "Character": "Zampani",
+        "Speaker": "Christian Deutsch"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Lara",
+        "Speaker": "Jennifer Böttcher"
+      },
+      {
+        "Character": "Leon",
+        "Speaker": "Jens Wendland"
+      },
+      {
+        "Character": "Adam Stevens",
+        "Speaker": "Jörg Schuler"
+      },
+      {
+        "Character": "Polizistin",
+        "Speaker": "Djuwita Müller"
+      }
+    ]
+  },
+  {
+    "Id": "3937d059-8df6-472a-8704-2db83e9b0d5f",
+    "Title": "In letzter Sekunde",
+    "NumberEuropa": 25,
+    "ReleaseDate": "2012-01-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3937d059-8df6-472a-8704-2db83e9b0d5f.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "In Rocky Beach gibt es für kurze Zeit die größte Kuckucksuhr der Welt zu bestaunen. Doch dann geschieht das schier Unglaubliche: Die kostbare Uhr verschwindet spurlos. Wer steckt dahinter? Verbirgt die Uhr ein Geheimnis? Oder hat es sogar mit Zauberei zu tun? Für die drei ??? Kids beginnt ein Wettlauf gegen die Zeit.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Mr Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Mr Pim",
+        "Speaker": "Michael Sporer"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Bernie",
+        "Speaker": "Detlef Tams"
+      },
+      {
+        "Character": "Botti",
+        "Speaker": "Matthias Henkel"
+      },
+      {
+        "Character": "Cobbler",
+        "Speaker": "Tobias Brecklinghaus"
+      },
+      {
+        "Character": "Mrs Weissbein",
+        "Speaker": "Karin M. Schneider"
+      },
+      {
+        "Character": "Mr Blacktree",
+        "Speaker": "Hans-Georg Körbel"
+      }
+    ]
   }
 ]
