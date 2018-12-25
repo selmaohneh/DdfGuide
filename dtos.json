@@ -15781,5 +15781,537 @@
         "Speaker": "Douglas Welbat"
       }
     ]
+  },
+  {
+    "Id": "9b936002-2284-4611-8bdb-1b43939e9717",
+    "Title": "Fluch des Goldes",
+    "NumberEuropa": 11,
+    "ReleaseDate": "2009-11-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9b936002-2284-4611-8bdb-1b43939e9717.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die drei ??? Kids können es nicht glauben: In den Magic Mountains wurde tatsächlich Gold gefunden. Kein Wunder, dass alle plötzlich verrückt spielen. Goldrausch in Rocky Beach. Nur Justus, Peter und Bob behalten die Nerven und eine abenteuerliche Jagd beginnt. Doch n den unbewohnten Wäldern und reißenden Flüssen lauern viele Gefahren.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Josh McBrian",
+        "Speaker": "Joscha Fischer-Antze"
+      },
+      {
+        "Character": "Rod Dunken",
+        "Speaker": "Eberhard Haar"
+      },
+      {
+        "Character": "John & Jack Sutter",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Michael Habeck"
+      }
+    ]
+  },
+  {
+    "Id": "48b9e18f-300a-46a5-a503-404b3fd493bb",
+    "Title": "Internetpiraten",
+    "NumberEuropa": 12,
+    "ReleaseDate": "2010-02-05T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/48b9e18f-300a-46a5-a503-404b3fd493bb.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Schon wieder haben die Computerdiebe zugeschlagen und diesmal hat es sogar Bobs Vater erwischt. Klar, dass die drei ??? den Fall übernehmen und Operation ?Pegasus? beginnt. Doch jemand treibt ein doppeltes Spiel und die Spur führt zu einem alten Schiffswrack. Starke Nerven sind gefragt, denn anscheinend sind sie nicht die einzigen an Bord.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Smithers",
+        "Speaker": "Michael Prelle"
+      },
+      {
+        "Character": "Sandy",
+        "Speaker": "Nadine Schreier"
+      },
+      {
+        "Character": "Mike",
+        "Speaker": "Tim Knauer"
+      }
+    ]
+  },
+  {
+    "Id": "2893419b-6d11-4cbb-ad9f-bc450d23105d",
+    "Title": "Im Reich der Rätsel",
+    "NumberEuropa": 13,
+    "ReleaseDate": "2010-03-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2893419b-6d11-4cbb-ad9f-bc450d23105d.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Das Testament eines Spielerfinders führt die drei ??? Kids zu einem geheimnisvollen Schloss. Doch leicht wird es nicht, an das Erbe des reichen Mannes heranzukommen. Viele sonderbare Rätsel müssen gelöst werden und es geht in dunkle Gänge und schaurige Verließe. Ist alles etwa nur ein Spiel?",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Smithers",
+        "Speaker": "Michael Prelle"
+      },
+      {
+        "Character": "Sandy",
+        "Speaker": "Nadine Schreier"
+      },
+      {
+        "Character": "Mike",
+        "Speaker": "Tim Knauer"
+      }
+    ]
+  },
+  {
+    "Id": "cb9ba81d-2775-4d67-b463-d60183b0e4ba",
+    "Title": "Gefahr aus dem All",
+    "NumberEuropa": 14,
+    "ReleaseDate": "2010-03-12T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/cb9ba81d-2775-4d67-b463-d60183b0e4ba.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Kometen rasen auf die Erde zu und riesige Meteoriten stürzen vom Himmel. Das zumindest könnte passieren, wenn die Erfindung des genialen Professors in falsche Hände gerät. Den drei ??? bleibt nicht viel Zeit für ihren gefährlichen Auftrag. Der Countdown läuft und dann taucht auch noch ihr Erzfeind auf...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Janet Lindsay",
+        "Speaker": "Merete Brettschneider"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Randolph Appelton",
+        "Speaker": "Jörg Gillner"
+      },
+      {
+        "Character": "Elliot Rattler",
+        "Speaker": "Nikolas König"
+      },
+      {
+        "Character": "Jimmy Rattler",
+        "Speaker": "Ron Matz"
+      },
+      {
+        "Character": "1. Entführer",
+        "Speaker": "Timon Hoffmann"
+      },
+      {
+        "Character": "2. Entführer",
+        "Speaker": "Thomas Karallus"
+      },
+      {
+        "Character": "Eisenfaust",
+        "Speaker": "Heiko Lange"
+      }
+    ]
+  },
+  {
+    "Id": "d9386d2f-5945-49b3-af57-ab9e07476d95",
+    "Title": "In der Geisterstadt",
+    "NumberEuropa": 15,
+    "ReleaseDate": "2010-05-21T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d9386d2f-5945-49b3-af57-ab9e07476d95.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein kleines Erdbeben erschüttert die kalifornische Küste und alle Einwohner flüchten an den nahen Strand. Innerhalb kürzester Zeit gleicht Rocky Beach einer Geisterstadt. Doch irgendetwas stimmt nicht und die drei ??? Kids haben einen schrecklichen Verdacht. Plötzlich sind sie ganz allein in einer menschenleeren Stadt - allein mit mächtigen Gegnern.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Michael Habeck"
+      },
+      {
+        "Character": "Doktor Keppler",
+        "Speaker": "Ben Hecker"
+      },
+      {
+        "Character": "Eddy",
+        "Speaker": "Klaus Nietz"
+      },
+      {
+        "Character": "Sancho",
+        "Speaker": "Holger Umbreit"
+      },
+      {
+        "Character": "Nachrichtensprecher",
+        "Speaker": "Martin Sailer"
+      },
+      {
+        "Character": "Alter Mann",
+        "Speaker": "Jörg Gillner"
+      }
+    ]
+  },
+  {
+    "Id": "34e38f0f-430e-49b9-8ff2-b26515872e0e",
+    "Title": "Der magische Brunnen",
+    "NumberEuropa": 16,
+    "ReleaseDate": "2010-08-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/34e38f0f-430e-49b9-8ff2-b26515872e0e.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Phantastische Dinge geschehen plötzlich in Rocky Beach: Der Brunnen füllt sich mit Münzen, Schneeberge bei 30 Grad und auf dem Jahrmarkt erhält jeder den Hauptgewinn. Doch so ganz trauen die drei ??? Kids dem Schlaraffenland nicht und sie schöpfen einen Verdacht: Alles was geschah, stand in einem bekannten Kinderbuch. Nur das Ende der Geschichte muss neu geschrieben werden.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Michael Habeck"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Jerry Hey",
+        "Speaker": "Michael Krüger"
+      },
+      {
+        "Character": "Pinkerton",
+        "Speaker": "Rudolf Danielewicz"
+      },
+      {
+        "Character": "Zentrale",
+        "Speaker": "Isabel Garcia"
+      },
+      {
+        "Character": "Sergeant Jeffers",
+        "Speaker": "Jens Wendland"
+      },
+      {
+        "Character": "Woodcraft",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Taxifahrer",
+        "Speaker": "Wolf-Joshua Peters"
+      },
+      {
+        "Character": "Rosalie Greenfield",
+        "Speaker": "Aranka Mamero-Jaenke"
+      },
+      {
+        "Character": "Arthur Greenfield",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "Bradshore",
+        "Speaker": "Stephan Schwartz"
+      },
+      {
+        "Character": "Christopher King",
+        "Speaker": "Peter Weis"
+      }
+    ]
+  },
+  {
+    "Id": "a98c28b8-f5cb-46ca-808b-910816b56245",
+    "Title": "Rettet Atlantis!",
+    "NumberEuropa": 17,
+    "ReleaseDate": "2010-10-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a98c28b8-f5cb-46ca-808b-910816b56245.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "In der Nähe von Rocky Beach eröffnet ein riesiger Aqua Park. Justus, Peter und Bob haben Glück und dürfen bei der Einweihungsfeier dabei sein. Es gibt Wasserrutschen, lustige Delfine aber auch gefährliche Haifische zu bestaunen. Doch es geht einiges schief bei dem Fest. Sabotage? Die drei ??? Kids übernehmen den gefährlichen Auftrag und tauchen bei ihren Ermittlungen in die Unterwasserwelt ein.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Mister Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Bronsky",
+        "Speaker": "Caspar Besch"
+      },
+      {
+        "Character": "Mister Hillmond",
+        "Speaker": "Lutz Herkenrath"
+      },
+      {
+        "Character": "Empfangsdame",
+        "Speaker": "Dorothea Anna Hagena"
+      },
+      {
+        "Character": "Cora Montano",
+        "Speaker": "Julia Casper"
+      },
+      {
+        "Character": "Milian Montano",
+        "Speaker": "Tobias Schmidt"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "40f4eeee-9116-427a-9b93-ab93c5b28650",
+    "Title": "Mission Maulwurf",
+    "NumberEuropa": 18,
+    "ReleaseDate": "2010-12-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/40f4eeee-9116-427a-9b93-ab93c5b28650.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "\"Was ist, wenn sie uns entdecken?\", flüsterte Peter nervös. Justus zog sich die Maske über das Gesicht. \"Als Maulwurf muss man eben mit der Gefahr leben.\" Justus, Peter und Bob sehen nur eine Chance die Einbrecherbande zu überführen: Die drei ??? müssen sich unter die Gangster mischen. Die \"Mission Maulwurf\" beginnt.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Mrs. Wilmers",
+        "Speaker": "Lia Pahl"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Michael Habeck"
+      },
+      {
+        "Character": "Sergeant Jeffers",
+        "Speaker": "Jens Wendland"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Polizistin",
+        "Speaker": "Isabel Garcia"
+      },
+      {
+        "Character": "Sharky",
+        "Speaker": "Wolf-Joshua Peters"
+      },
+      {
+        "Character": "Lola",
+        "Speaker": "Mary Muhsal"
+      },
+      {
+        "Character": "Nero",
+        "Speaker": "Jannik Endemann"
+      },
+      {
+        "Character": "Mogli",
+        "Speaker": "Jan-David Rönfeldt"
+      },
+      {
+        "Character": "Rico",
+        "Speaker": "Simon Lardon"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Dorothea Anna Hagena"
+      },
+      {
+        "Character": "Schuldirektor",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Zimmermann",
+        "Speaker": "Ann Marie Blanck"
+      },
+      {
+        "Character": "Kommisar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
   }
 ]
