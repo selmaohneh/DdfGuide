@@ -17057,5 +17057,178 @@
         "Speaker": "Klaus Dittmann"
       }
     ]
+  },
+  {
+    "Id": "2372b815-7365-4b0c-9ed5-3b6088b76b2a",
+    "Title": "Rückkehr der Saurier",
+    "NumberEuropa": 31,
+    "ReleaseDate": "2013-01-25T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2372b815-7365-4b0c-9ed5-3b6088b76b2a.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die Nachricht von der Entdeckung eines Saurier-Friedhofs versetzt ganz Rocky Beach in Aufregung. Kann es wirklich sein, dass tief unter der Erde einige der Urzeitwesen überlebt haben? Doch schon bald zweifelt niemand mehr an der unglaublichen Geschichte. Nur die drei ??? Kids behalten einen kühlen Kopf.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Professor Herbert",
+        "Speaker": "Holger Fuchs"
+      },
+      {
+        "Character": "John Cheat",
+        "Speaker": "Martin Schäfer"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Mister Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Reporter",
+        "Speaker": "Michael Krüger"
+      },
+      {
+        "Character": "Paul Stock",
+        "Speaker": "Bodo Henkel"
+      }
+    ]
+  },
+  {
+    "Id": "df3f1d42-49fc-4dad-9041-36f2d6ace040",
+    "Title": "Die Gruselfalle",
+    "NumberEuropa": 32,
+    "ReleaseDate": "2013-03-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/df3f1d42-49fc-4dad-9041-36f2d6ace040.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die drei ??? Kids stehen vor einem Rätsel: Wie sollen sie jemanden helfen, von dem sie gar nicht wissen, ob es ihn überhaupt gibt? Haben sie es wirklich mit einem unheimlichen Unsichtbaren zu tun? Doch plötzlich sind die drei Detektive nicht mehr die einzigen, die sich für den gruseligen Fall interessieren.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Harry Baker",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Mr Kay",
+        "Speaker": "Ingo Albrecht"
+      },
+      {
+        "Character": "Mr Karst",
+        "Speaker": "Mario Hassert"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "b966c2a6-2deb-4106-a9f0-52ecb7f4929e",
+    "Title": "Nacht im Kerker",
+    "NumberEuropa": 33,
+    "ReleaseDate": "2013-05-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b966c2a6-2deb-4106-a9f0-52ecb7f4929e.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Rocky Beach wird durch einen spektakulären Juwelenraub erschüttert. Heldenhaft rettet Kommissar Reynolds den Juwelier aus den Flammen. Doch plötzlich steht er selbst unter Verdacht und wird festgenommen. Natürlich glauben die drei ??? Kids an seine Unschuld und wollen ihm helfen. Aber dafür müssen sie selbst ins Gefängnis und sitzen hinter Gittern...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tomi Piper"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Juwelier Pendelton",
+        "Speaker": "André Beyer"
+      },
+      {
+        "Character": "Marvin Thompson",
+        "Speaker": "Florian Walter"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Hilfspolizist Duncan",
+        "Speaker": "Robert Steudtner"
+      }
+    ]
   }
 ]
