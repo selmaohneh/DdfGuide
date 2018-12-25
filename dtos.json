@@ -13547,7 +13547,68 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/738d228b-9af7-400e-a365-0541d864f976.jpg",
     "Interpreter": "Die drei ???",
     "Description": "Das ist wirklich ein spezial gelagerter Sonderfall: Warum zitieren Papageien sonderbare Sprüche falsch? Was hat Sherlock Holmes mit Schneewittchen zu tun? Und aus welchem Grund taucht urplötzlich Skinny Norris auf, obwohl er damals vor 25 Jahren im Original- Hörspiel nicht dabei war? Ganz einfach: Diese Sonder-Edition der allerersten drei ??? Folge enthält viele neue Szenen und beantwortet endlich alle Fragen, die in der ursprünglichen Fassung nie beantwortet wurden...",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Mr. Fentriss",
+        "Speaker": "Detlef Bierstedt"
+      },
+      {
+        "Character": "Mr. Claudius",
+        "Speaker": "Gerlach Fiedler"
+      },
+      {
+        "Character": "Mrs. Claudius",
+        "Speaker": "Brigitte Böttrich"
+      },
+      {
+        "Character": "Miss Waggoner",
+        "Speaker": "Ursula Vogel"
+      },
+      {
+        "Character": "Carlos",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Onkel Ramos",
+        "Speaker": "Dario Bertoli"
+      },
+      {
+        "Character": "Hugenay",
+        "Speaker": "Wolfgang Kubach"
+      },
+      {
+        "Character": "Morton",
+        "Speaker": "Andreas von der Meden"
+      },
+      {
+        "Character": "Opa",
+        "Speaker": "Harry Rowohlt"
+      },
+      {
+        "Character": "Senora",
+        "Speaker": "Barbara Benuel"
+      }
+    ]
   },
   {
     "Id": "5c4b9348-5b09-4281-ab6d-335c7b979131",
