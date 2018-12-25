@@ -15230,5 +15230,249 @@
         "Speaker": "Wolfgang Kaven"
       }
     ]
+  },
+  {
+    "Id": "a45bce3a-097c-4145-9747-5613f3428b47",
+    "Title": "Radio Rocky Beach",
+    "NumberEuropa": 2,
+    "ReleaseDate": "2009-03-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a45bce3a-097c-4145-9747-5613f3428b47.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "\"Hier ist Radio Rocky Beach, der coolste Sender zwischen Miami und Alaska!\" DJ Wolfman ist mit seinem Piratensender immer auf der richtigen Welle - da sind sich auch die drei Detektive einig. Doch währenddessen wird nicht nur Tante Mathildas Wagen aufgebrochen, auch anderswo in Rocky Beach gibt es regelmäßig zu DJ Wolfmans Sendezeit Einbrüche. Justus ist sicher: Da muss es einen Zusammenhang geben. Aber wo sollen die drei Fragezeichen mit ihren Ermittlungen anfangen? Ah, eine Idee: Sie wollen den Übeltätern dazwischenfunken...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "DJ Wolfram",
+        "Speaker": "Sky du Mont"
+      },
+      {
+        "Character": "Lara",
+        "Speaker": "Tanja Dose"
+      },
+      {
+        "Character": "Polizeizentrale",
+        "Speaker": "Marisa Calcagno"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Polizist Steven",
+        "Speaker": "Andreas \"Beavis\" Ersson"
+      },
+      {
+        "Character": "Stationvoice \"Radio Rocky Beach\"",
+        "Speaker": "Wolfgang Kühne"
+      }
+    ]
+  },
+  {
+    "Id": "8b0fdb61-a625-4eb7-91b8-fb2cd0eeba44",
+    "Title": "Invasion der Fliegen",
+    "NumberEuropa": 3,
+    "ReleaseDate": "2009-03-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8b0fdb61-a625-4eb7-91b8-fb2cd0eeba44.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Hunderte von Fliegen tummeln sich in Tante Mathildas Haus. Ein Albtraum! Wo kommen die alle her? Ist etwa das ganze Gerümpel auf Onkel Titus Schrottplatz daran schuld? Und was hat die \"Bock Wurstwaren KG und ihr zwielichtiger Juniorchef Bertholt von Bock damit zu tun? Justus, Peter und Bob wissen nur, sie müssen etwas tun oder es wird böse enden. Gemeinsam verfolgen sie die Spur der nervtötenden Brummer bis in einen düsteren Kanalschacht...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Lennardt Krüger"
+      },
+      {
+        "Character": "Berthold von Bock",
+        "Speaker": "Martin Semmelrogge"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Michael Habeck"
+      },
+      {
+        "Character": "Empfangsdame",
+        "Speaker": "Marisa Calcagno"
+      },
+      {
+        "Character": "Blackwater",
+        "Speaker": "Isabel García"
+      }
+    ]
+  },
+  {
+    "Id": "9ebac314-832c-4e4b-b713-4637cb97bca2",
+    "Title": "Chaos vor der Kamera",
+    "NumberEuropa": 4,
+    "ReleaseDate": "2009-10-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9ebac314-832c-4e4b-b713-4637cb97bca2.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Rasende Verfolgungsjagden, Autos, die in Flammen aufgehen, todesmutige Stunts: Justus, Peter und Bob finden es einfach cool, dass der neue Actionfilm bei ihnen auf dem Schrottplatz gedreht wird. Doch die Dreharbeiten stehen unter einem schlechten Stern. Bereits am ersten Tag müssen die Arbeiten wegen einer Panne eingestellt werden: die Feuerlöscher sind nicht ordnungsgemäß überprüft worden und leider - leer. Ein Versäumnis? Die drei Jungs glauben nicht daran und nehmen die Crew unter die Lupe: Einer von ihnen spielt ein falsches Spiel mit gefährlichen Folgen. Aber wer? Blitzartig stecken die drei Detektive wieder mitten in einem hochspannenden Fall.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Jerry Blake",
+        "Speaker": "Clemens Gerhard"
+      },
+      {
+        "Character": "Alan Burns",
+        "Speaker": "Konstantin Graudus"
+      },
+      {
+        "Character": "Jim Norton",
+        "Speaker": "Tilman Borck"
+      },
+      {
+        "Character": "Claudia Donnatelli",
+        "Speaker": "Susanne Sternberg"
+      },
+      {
+        "Character": "Zentrale",
+        "Speaker": "Marisa Calcagno"
+      },
+      {
+        "Character": "Stuntlehrer",
+        "Speaker": "Robert Missler"
+      }
+    ]
+  },
+  {
+    "Id": "0681af3c-279b-43fb-94ae-953166af481a",
+    "Title": "Flucht in die Zukunft",
+    "NumberEuropa": 5,
+    "ReleaseDate": "2009-10-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/0681af3c-279b-43fb-94ae-953166af481a.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Was ist mit John Smith geschehen? Der schrullige Tüftler hat behauptet, eine Zeitmaschine entwickelt zu haben, nun ist er spurlos verschwunden. Onkel Titus bekommt den Auftrag, seine Wohnung zu entrümpeln und die drei Jungs begleiten ihn. Dort finden sie einen merkwürdigen Apparat etwa die Zeitmaschine? Wurde Smith in eine andere Dimension versetzt? Es gibt für die drei Jungdetektive nur einen Weg, ihm zu helfen: Sie müssen die Zeitmaschine zum Laufen bringen.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "John Smith",
+        "Speaker": "Smudo"
+      },
+      {
+        "Character": "Porto",
+        "Speaker": "Holger Löwenberg"
+      },
+      {
+        "Character": "Zarkow",
+        "Speaker": "Wolf Frass"
+      },
+      {
+        "Character": "Miguel Venetti",
+        "Speaker": "Mario Grete"
+      },
+      {
+        "Character": "Ramon Venetti u. Giovanni",
+        "Speaker": "Robert Missler"
+      }
+    ]
   }
 ]
