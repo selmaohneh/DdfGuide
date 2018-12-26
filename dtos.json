@@ -19236,5 +19236,184 @@
         "Speaker": "Tim Kreuer"
       }
     ]
+  },
+  {
+    "Id": "79e53724-82d5-431a-95be-5775643c8144",
+    "Title": "Adventskalender",
+    "NumberEuropa": null,
+    "ReleaseDate": "2012-11-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/79e53724-82d5-431a-95be-5775643c8144.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "24 Mitratefälle! Weihnachten steht vor der Tür und auf Justus, Peter und Bob warten 24 spannende Abenteuer. Jeden Tag stehen die drei ??? Kids vor einem neuen rätselhaften Fall. Findest auch du die Täter und kannst die verzwickten Ratekrimis lösen? Doch Vorsicht! Denn dabei geht es nicht nur um geklaute Tannenbäume...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Ernesto Porto",
+        "Speaker": "Holger Löwenberger"
+      },
+      {
+        "Character": "Moderatorin",
+        "Speaker": "Claudia Stocksieker"
+      },
+      {
+        "Character": "Motorradfahrer (1)",
+        "Speaker": "Mario Hassert"
+      },
+      {
+        "Character": "Sam Jakobson (24)",
+        "Speaker": "Mario Hassert"
+      },
+      {
+        "Character": "Mr. Perkins (3)",
+        "Speaker": "Florian Walter"
+      },
+      {
+        "Character": "Billy Bones (20)",
+        "Speaker": "Florian Walter"
+      },
+      {
+        "Character": "Jasper (4)",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Reporter (5)",
+        "Speaker": "Michael Krüger"
+      },
+      {
+        "Character": "Rennleitung (15)",
+        "Speaker": "Michael Krüger"
+      },
+      {
+        "Character": "Chefredakteur (5)",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Lockvogel (10)",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Fabrikbesitzer (19)",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Mr. Doyle (6)",
+        "Speaker": "André Beyer"
+      },
+      {
+        "Character": "Mr. Hopper (7)",
+        "Speaker": "Holger Fuchs"
+      },
+      {
+        "Character": "Zeitungsjunge (7)",
+        "Speaker": "Dennis Saemann"
+      },
+      {
+        "Character": "Robert Poccaro (8)",
+        "Speaker": "Martin Schäfer"
+      },
+      {
+        "Character": "Mr. Dorson (23)",
+        "Speaker": "Martin Schäfer"
+      },
+      {
+        "Character": "Jeff Ridley (8)",
+        "Speaker": "Robert Steudtner"
+      },
+      {
+        "Character": "Geldtransporterfahrer (23)",
+        "Speaker": "Robert Steudtner"
+      },
+      {
+        "Character": "Chris Cracker (9)",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Magic Danny (10)",
+        "Speaker": "Maximilian Krings"
+      },
+      {
+        "Character": "Stranddieb (11)",
+        "Speaker": "Ingo Albrecht"
+      },
+      {
+        "Character": "Trickbetrüger (21)",
+        "Speaker": "Ingo Albrecht"
+      },
+      {
+        "Character": "Rettungsschwimmer (11)",
+        "Speaker": "Stefan Mitrenga"
+      },
+      {
+        "Character": "Mrs. Carter (12)",
+        "Speaker": "Lia Pahl"
+      },
+      {
+        "Character": "Versicherungsbetrüger (13)",
+        "Speaker": "Bodo Henkel"
+      },
+      {
+        "Character": "Dolly Carlton (14)",
+        "Speaker": "Mareike Fell"
+      },
+      {
+        "Character": "Käpt'n Klapper (16)",
+        "Speaker": "Thomas Karallus"
+      },
+      {
+        "Character": "Old Digger (18)",
+        "Speaker": "Christoph Jablonka"
+      },
+      {
+        "Character": "Trickbetrügerin (21)",
+        "Speaker": "Sabine König"
+      },
+      {
+        "Character": "Randolf Cooper (22)",
+        "Speaker": "Christian Jungwirth"
+      },
+      {
+        "Character": "Mr. Dunken (24)",
+        "Speaker": "Jens Wendland"
+      }
+    ]
   }
 ]
