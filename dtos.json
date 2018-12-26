@@ -17819,5 +17819,280 @@
         "Speaker": "Carmen Molinar"
       }
     ]
+  },
+  {
+    "Id": "750b5e30-5739-4e15-b4aa-5c50fd8b9472",
+    "Title": " Jagd auf das Dino-Ei",
+    "NumberEuropa": 46,
+    "ReleaseDate": "2015-10-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/750b5e30-5739-4e15-b4aa-5c50fd8b9472.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Justus nahm das Ei in die Hand und hielt es sich vorsichtig ans Ohr. „Wahnsinn! Da drin bewegt sich was!“ Peter riss vor Schreck die Augen auf. „Leg sofort das Ei weg, Just!“ Die Reise in den Safaripark auf Conga Island hat es in sich. Ein verrückter Pilot, wilde Tiere und ein Inselgeheimnis bescheren den drei ??? Kids eines ihrer gefährlichsten Abenteuer ...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Smitty",
+        "Speaker": "Christian Reimer"
+      },
+      {
+        "Character": "Prof. Dooley",
+        "Speaker": "Thomas Zieler"
+      },
+      {
+        "Character": "Rebecca",
+        "Speaker": "Irina von Bentheim"
+      }
+    ]
+  },
+  {
+    "Id": "fca69a1b-5e67-4366-8193-0aae6f7d81e3",
+    "Title": " Falsche Fußballfreunde",
+    "NumberEuropa": 47,
+    "ReleaseDate": "2015-12-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/fca69a1b-5e67-4366-8193-0aae6f7d81e3.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "In Rocky Beach findet die Weltmeisterschaft im Strandfußball statt. Viele berühmte Fußballstars werden erwartet. Doch nicht alle Fußballfreunde spielen fair. Die drei ??? Kids stürzen sich in ein gefährliches Abenteuer.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Mr. Heines",
+        "Speaker": "Steffen Quasebarth"
+      },
+      {
+        "Character": "Toni Manga",
+        "Speaker": "Hendrik Riehemann"
+      },
+      {
+        "Character": "Bill Mardock",
+        "Speaker": "José Rodriguez Melgarejo"
+      },
+      {
+        "Character": "John Dingo",
+        "Speaker": "Patrick Mölleken"
+      },
+      {
+        "Character": "Hoteldirektor",
+        "Speaker": "Michael Seeboth"
+      },
+      {
+        "Character": "Mrs. Blomquist",
+        "Speaker": "Barbara Scheck"
+      },
+      {
+        "Character": "Mr. Tabbs",
+        "Speaker": "Thomas Erich Killinger"
+      },
+      {
+        "Character": "Derek Kantoni",
+        "Speaker": "Tobias Diakow"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "7323477e-dcaf-48ec-af84-0182c39fedd6",
+    "Title": " Tanz der Skelette",
+    "NumberEuropa": 48,
+    "ReleaseDate": "2016-01-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7323477e-dcaf-48ec-af84-0182c39fedd6.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein alter Piratengeist versucht, den Surflehrer aus seiner Strandhütte zu vertreiben. Als nachts auch noch leuchtende Skelette auftauchen und schaurige Tänze aufführen, eilen die drei ??? ihrem Freund zu Hilfe. Doch keiner der Detektive ahnt, was sich hinter den Spukgestalten für ein Geheimnis verbirgt...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Fischer",
+        "Speaker": "José Rodriguez Melgarejo"
+      },
+      {
+        "Character": "Jerry Schlacks",
+        "Speaker": "Isaak Dentler"
+      },
+      {
+        "Character": "Billy Rotten",
+        "Speaker": "Sven Riemann"
+      },
+      {
+        "Character": "Gregor",
+        "Speaker": "Christoph Stelzner"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Patrick Mölleken"
+      },
+      {
+        "Character": "Egon Mondulsky",
+        "Speaker": "Michael-Che Koch"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "8ab45e20-915e-4d24-b0c7-51f501eb0115",
+    "Title": " Der singende Geist",
+    "NumberEuropa": 49,
+    "ReleaseDate": "2016-03-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8ab45e20-915e-4d24-b0c7-51f501eb0115.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Onkel Titus hat auf einer Auktion eine alte Standuhr ersteigert. Doch kaum steht diese auf dem Schrottplatz, sind auf einmal jede Menge Leute hinter ihr her. Welches Geheimnis versteckt sich in der Uhr? Und was weiß das rätselhafte Mädchen mit der Stimme, die Glas zerspringen lässt? Ein singender Geist führt die drei ??? Kids auf eine gefährliche Spur...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Mrs. Wilmers",
+        "Speaker": "Karin Buchholz"
+      },
+      {
+        "Character": "Elisabeth Fireman",
+        "Speaker": "Mia Diekow"
+      }
+    ]
+  },
+  {
+    "Id": "aac65aa5-899e-44bb-8fda-19639aeecd10",
+    "Title": " Schatz der Piraten",
+    "NumberEuropa": 50,
+    "ReleaseDate": "2016-03-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/aac65aa5-899e-44bb-8fda-19639aeecd10.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein uralter Brief erzählt von der Zeit des Goldrausches in Kalifornien und bringt Die drei ??? Kids zum Schiffswrack der Santa Anna . Auf dem verlassenen Schiff finden Justus, Peter und Bob eine Schatzkarte. Diese führt sie zu einer Pirateninsel. Doch nicht nur die drei Detektive sind hinter dem Piratenschatz her. Eine spannende Jagd beginnt ...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Mr. Shaw",
+        "Speaker": "Oliver Schmitz"
+      },
+      {
+        "Character": "Arthur Plitschking",
+        "Speaker": "Felix Würgler"
+      },
+      {
+        "Character": "Marvin",
+        "Speaker": "Florian Seigerschmidt"
+      },
+      {
+        "Character": "Museumswärter",
+        "Speaker": "Richard Heinrich"
+      },
+      {
+        "Character": "John Horse",
+        "Speaker": "Hubert Burczek"
+      }
+    ]
   }
 ]
