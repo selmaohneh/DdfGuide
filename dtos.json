@@ -17428,6 +17428,43 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/28f9e0a0-d0f0-4ddb-bd89-f651c93e356b.jpg",
     "Interpreter": "Die drei ??? Kids",
     "Description": "Auf dem Schrottplatz tauchen seltsame Typen auf. Wollen sie wirklich nur Büchsen werfen? Oder steckt ein Geheimnis dahinter? Die drei ??? Kids müssen tief in die Trickkiste greifen, um ihren Gegnern zuvorzukommen.",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Johnson",
+        "Speaker": "Lutz Riedel"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Mrs. Alexis",
+        "Speaker": "Margot Rothweiler"
+      }
+    ]
   }
 ]
