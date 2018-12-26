@@ -17230,5 +17230,204 @@
         "Speaker": "Robert Steudtner"
       }
     ]
+  },
+  {
+    "Id": "920b65fb-2fe0-4fc3-b84a-c911b4d25419",
+    "Title": "Im wilden Westen",
+    "NumberEuropa": 35,
+    "ReleaseDate": "2013-10-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/920b65fb-2fe0-4fc3-b84a-c911b4d25419.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "\"Das da vorne sind doch nie im Leben echte Indianer!\"Bob griff zur Wasserpistole. Justus schob seinen Hut tief ins Gesicht.\"Das werden wir erst wissen, wenn uns der erste Pfeil trifft.\"Für Filmaufnahmen verwandelt sich Rocky Beach in eine Westernstadt. Auch Justus, Peter und Bob sehen plötzlich wie richtige Cowboys auch. Doch leider gibt es im Wilden Westen auch eine Menge Bösewichte.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Plimsfield",
+        "Speaker": "Raimund Krone"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Camilla Fox",
+        "Speaker": "Sabine König"
+      },
+      {
+        "Character": "Bud Norris",
+        "Speaker": "Tobias Brecklinghaus"
+      },
+      {
+        "Character": "Gordon Flanders",
+        "Speaker": "Detlef Tams"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "69a8e430-2b20-48e3-9336-2593cc202b8a",
+    "Title": "Mission Mars",
+    "NumberEuropa": 36,
+    "ReleaseDate": "2013-11-29T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/69a8e430-2b20-48e3-9336-2593cc202b8a.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein Weltraumabenteuer mitten in Rocky Beach? Wird die Stadt tatsächlich Zeuge einer spektakulären Marslandung? So unglaublich das Abenteuer auch klingen mag, so spricht trotzdem vieles dafür. Die drei ??? Kids können es kaum fassen. Doch der Countdown läuft bereits.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Bud Norris",
+        "Speaker": "Tobias Brecklinghaus"
+      },
+      {
+        "Character": "Spout",
+        "Speaker": "Thomas Arnold"
+      },
+      {
+        "Character": "Calvin",
+        "Speaker": "Christian Blecken"
+      },
+      {
+        "Character": "Haushälterin",
+        "Speaker": "Elga Schütz"
+      },
+      {
+        "Character": "Professor Flaw",
+        "Speaker": "Oliver Krietsch-Matzura"
+      },
+      {
+        "Character": "Buller",
+        "Speaker": "Stefan Mitrenga"
+      }
+    ]
+  },
+  {
+    "Id": "b5a507b1-4501-4690-99b5-41266b252297",
+    "Title": "Der Fluch der Indianer",
+    "NumberEuropa": 37,
+    "ReleaseDate": "2014-01-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b5a507b1-4501-4690-99b5-41266b252297.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die Bewohner von Rocky Beach sind geschockt: Ein fremder Indianer prophezeit ihnen großes Unglück. Doch was hat der merkwürdige Fluch zu bedeuten? Welches Rätsel steckt hinter dem Erscheinen des Mannes? Ein verzwickter Fall für die drei ??? Kids.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Ron Hill",
+        "Speaker": "Abelardo Decamilli"
+      },
+      {
+        "Character": "Dickens",
+        "Speaker": "Tom Steinbrecher"
+      },
+      {
+        "Character": "Osterreicher",
+        "Speaker": "Guido Zimmermann"
+      },
+      {
+        "Character": "Easterman",
+        "Speaker": "Stefan Müller-Ruppert"
+      },
+      {
+        "Character": "Passant",
+        "Speaker": "Stefan Baumecker"
+      }
+    ]
+  },
+  {
+    "Id": "28f9e0a0-d0f0-4ddb-bd89-f651c93e356b",
+    "Title": "Stunde der Wahrheit",
+    "NumberEuropa": 38,
+    "ReleaseDate": "2014-02-21T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/28f9e0a0-d0f0-4ddb-bd89-f651c93e356b.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Auf dem Schrottplatz tauchen seltsame Typen auf. Wollen sie wirklich nur Büchsen werfen? Oder steckt ein Geheimnis dahinter? Die drei ??? Kids müssen tief in die Trickkiste greifen, um ihren Gegnern zuvorzukommen.",
+    "Roles": []
   }
 ]
