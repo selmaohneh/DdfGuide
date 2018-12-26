@@ -17521,5 +17521,64 @@
         "Speaker": "Michael Siller"
       }
     ]
+  },
+  {
+    "Id": "f063523c-d6ee-4a2e-b098-b7cbd8369fba",
+    "Title": " Brennendes Eis",
+    "NumberEuropa": 40,
+    "ReleaseDate": "2014-08-29T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f063523c-d6ee-4a2e-b098-b7cbd8369fba.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Was für ein Glück! Die drei ??? Kids haben einen Urlaub in der neu gebauten Pazifik Skiarena gewonnen. Aber bei der Eröffnung der überdachten Skipiste geht Einiges schief, denn der Schnee schmilzt plötzlich weg. Nachschub gibt es in den Bergen - doch dort machen sie eine ungeheure Entdeckung.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Arnold Pichler",
+        "Speaker": "Markus Sulzbacher"
+      },
+      {
+        "Character": "LKW-Fahrer",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Jack Coburn",
+        "Speaker": "Erich Räuker"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Jim Dockers",
+        "Speaker": "Stefan Müller-Ruppert"
+      },
+      {
+        "Character": "Tiffman",
+        "Speaker": "Stephan Baumecker"
+      }
+    ]
   }
 ]
