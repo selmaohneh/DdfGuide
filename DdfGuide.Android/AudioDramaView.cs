@@ -81,7 +81,7 @@ namespace DdfGuide.Android
             foreach (var roleDto in audioDrama.AudioDramaDto.Roles)
             {
                 rolesView.Append(Html.FromHtml($"<b>{roleDto.Character}:</b><br>", FromHtmlOptions.ModeLegacy));
-                rolesView.Append(Html.FromHtml($"<i>{roleDto.Speaker}</i>", FromHtmlOptions.ModeLegacy));
+                rolesView.Append(Html.FromHtml($"{roleDto.Speaker}", FromHtmlOptions.ModeLegacy));
 
                 if (roleDto != audioDrama.AudioDramaDto.Roles.Last())
                 {
