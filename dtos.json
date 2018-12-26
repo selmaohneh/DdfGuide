@@ -17466,5 +17466,60 @@
         "Speaker": "Margot Rothweiler"
       }
     ]
+  },
+  {
+    "Id": "bf26532d-bb0a-45cb-992b-55844f1c9ca7",
+    "Title": "039/Der verrückte Erfinder",
+    "NumberEuropa": 39,
+    "ReleaseDate": "2014-05-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bf26532d-bb0a-45cb-992b-55844f1c9ca7.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "In Rocky Beach findet ein Erfinderwettbewerb statt und durch Zufall sind die drei ??? Kids mit dabei. Doch plötzlich verschwindet ein leicht verrückter Professor. Hat es womöglich etwas mit seiner Erfindung zu tun? Justus, Peter und Bob verfolgen eine heiße Spur, die sie hoch hinaus bringt. Ein gefährlicher Fall.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Prof. Lindford",
+        "Speaker": "Bert Stevens"
+      },
+      {
+        "Character": "Colby",
+        "Speaker": "Marco Sven Reinbold"
+      },
+      {
+        "Character": "Dr. Ribman",
+        "Speaker": "K. Dieter Klebsch"
+      },
+      {
+        "Character": "Montgomery",
+        "Speaker": "Raphael Wilczek"
+      },
+      {
+        "Character": "Edward",
+        "Speaker": "Michael Siller"
+      }
+    ]
   }
 ]
