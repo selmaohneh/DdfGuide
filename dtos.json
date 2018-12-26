@@ -18800,5 +18800,394 @@
         "Speaker": "Lentje & Lolle Ehlers"
       }
     ]
+  },
+  {
+    "Id": "00f2f9da-ffaf-4147-87cd-b3a53393c5c1",
+    "Title": " Alarm im Dino-Park",
+    "NumberEuropa": 61,
+    "ReleaseDate": "2017-12-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/00f2f9da-ffaf-4147-87cd-b3a53393c5c1.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Werden die Dinosaurier-Skelette im Dino-Park nachts wirklich lebendig und bedrohen den Parkbesitzer? Justus, Peter und Bob übernehmen den Fall und begeben sich in ein waghalsiges Urzeit-Abenteuer.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Paul Primus Pimbel",
+        "Speaker": "Josef Vossenkuhl"
+      },
+      {
+        "Character": "Markthändler",
+        "Speaker": "Gerrit Stratmann"
+      },
+      {
+        "Character": "Herbert Jackson",
+        "Speaker": "Hendrik Martz"
+      },
+      {
+        "Character": "Tom",
+        "Speaker": "Claudio Pagonis"
+      }
+    ]
+  },
+  {
+    "Id": "04e4ddf9-c65f-4be7-80cc-d079bc829e41",
+    "Title": " Gefahr im Dschungel",
+    "NumberEuropa": 62,
+    "ReleaseDate": "2018-01-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/04e4ddf9-c65f-4be7-80cc-d079bc829e41.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Hilfe! Justus, Peter und Bob sind in einem gigantischen Dschungel-Haus gefangen! Und das nur, weil sie einem entführten Professor helfen wollten. Können die drei ??? Kids diesen Fall lösen?",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Roland Geiger"
+      },
+      {
+        "Character": "Professor Hamilton",
+        "Speaker": "Hans-Georg Körbel"
+      },
+      {
+        "Character": "Jenny Fields",
+        "Speaker": "Charlotte Puder"
+      },
+      {
+        "Character": "Maschkow",
+        "Speaker": "Milton Welsh"
+      },
+      {
+        "Character": "Jurij",
+        "Speaker": "Michael Baral"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      }
+    ]
+  },
+  {
+    "Id": "a9006ac1-76a2-49e6-ad7f-8de3da0aba13",
+    "Title": " Monster-Wolken",
+    "NumberEuropa": 63,
+    "ReleaseDate": "2018-03-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a9006ac1-76a2-49e6-ad7f-8de3da0aba13.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Monster-Wolken über Rocky Beach! Hässliche Nebelfratzen lenken die Autofahrer ab und Flugzeuge geraten in Gefahr. Doch wer ist für das Chaos am Himmel verantwortlich? Justus, Peter und Bob müssen eingreifen...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Colonel Edwards",
+        "Speaker": "Hans-Eckart Eckhardt"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "David Miller",
+        "Speaker": "Andreas Ersson"
+      },
+      {
+        "Character": "Telefondame",
+        "Speaker": "Silke Haupt"
+      },
+      {
+        "Character": "Rocks",
+        "Speaker": "Tim Moeseritz"
+      }
+    ]
+  },
+  {
+    "Id": "e5f3cb68-149d-4503-8db6-851b018d6316",
+    "Title": " In der Schatzhöhle",
+    "NumberEuropa": 64,
+    "ReleaseDate": "2018-05-18T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e5f3cb68-149d-4503-8db6-851b018d6316.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die drei ??? Kids haben einen Schnupperkurs im Höhlentauchen gewonnen. Doch ein Taucher ist unter falschen Namen angemeldet und entfernt sich heimlich von der Gruppe. Justus, Peter und Bob verfolgen ihn und entdecken eine Schatzhöhle!",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Tim Miller",
+        "Speaker": "Christian Stark"
+      },
+      {
+        "Character": "Clemens",
+        "Speaker": "Otto Strecker"
+      },
+      {
+        "Character": "Big Digger",
+        "Speaker": "Rainer Gerlach"
+      },
+      {
+        "Character": "Erika",
+        "Speaker": "Eva Michaelis"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      }
+    ]
+  },
+  {
+    "Id": "e5861388-8745-44e0-9012-f617d4cdf1e7",
+    "Title": " Mission Goldhund",
+    "NumberEuropa": 65,
+    "ReleaseDate": "2018-07-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e5861388-8745-44e0-9012-f617d4cdf1e7.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein junger Hund taucht bei den drei ??? Kids auf und weicht ihnen nicht mehr von der Seite. Was will er von ihnen? Sein Halsband ist aus echtem Gold und schon bald geraten Justus, Peter und Bob in eine gefährliche Verfolgungsjagd …",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Radiomoderator",
+        "Speaker": "Christian Blecken"
+      },
+      {
+        "Character": "Jim",
+        "Speaker": "Thomas Arnold"
+      },
+      {
+        "Character": "John",
+        "Speaker": "Sven Brieger"
+      },
+      {
+        "Character": "Sergeant Bofinger",
+        "Speaker": "Michael Lott"
+      },
+      {
+        "Character": "Doktor Marx",
+        "Speaker": "Karim Khawatmi"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Roland Geiger"
+      },
+      {
+        "Character": "Emily Carter",
+        "Speaker": "Lara Trautmann"
+      },
+      {
+        "Character": "Miss Medusa",
+        "Speaker": "Jana Kozewa"
+      },
+      {
+        "Character": "Pressefrau",
+        "Speaker": "Tina Haseney"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      }
+    ]
+  },
+  {
+    "Id": "970e9d76-933a-4f9e-bde6-3247b77b4767",
+    "Title": " Geheimnis im Meer",
+    "NumberEuropa": 66,
+    "ReleaseDate": "2018-09-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/970e9d76-933a-4f9e-bde6-3247b77b4767.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Wer macht der Hauptdarstellerin des Unterwasser-Musicals am Strand von Rocky Beach nur das Leben schwer? Die kleine Meerjungfrau gerät von einer Gefahr in die nächste. Natürlich sind die drei ??? Kids zur Stelle, um den Fall zu lösen.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Helen",
+        "Speaker": "Eva Thärichen"
+      },
+      {
+        "Character": "Marvin Lord",
+        "Speaker": "Martin Gleitze"
+      },
+      {
+        "Character": "Eric",
+        "Speaker": "Jörn Linnenbröker"
+      },
+      {
+        "Character": "Camilla",
+        "Speaker": "Anke Reitzenstein"
+      },
+      {
+        "Character": "Kira",
+        "Speaker": "Shalin Rogall"
+      },
+      {
+        "Character": "Hancock",
+        "Speaker": "Jochen Drechsler"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Miller",
+        "Speaker": "Felix Würgle"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      }
+    ]
+  },
+  {
+    "Id": "887c7efe-8d74-4cef-920e-73e1928606c9",
+    "Title": " Der goldene Drache",
+    "NumberEuropa": 67,
+    "ReleaseDate": "2018-11-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/887c7efe-8d74-4cef-920e-73e1928606c9.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein Drache in Rocky Beach! Während eines Unwetters streckt er seinen Kopf zwischen den Wolken hervor und speit Gold! Ist an der alten Legende tatsächlich etwas Wahres dran? Justus, Peter und Bob gehen der Sache auf den Grund.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Fischer",
+        "Speaker": "Uli Krohm"
+      },
+      {
+        "Character": "Silver",
+        "Speaker": "Thomas Nero Wolff"
+      },
+      {
+        "Character": "Nick Brady",
+        "Speaker": "Patrick Winczewski"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "John Brady",
+        "Speaker": "Lutz Riedel"
+      },
+      {
+        "Character": "Tiffman",
+        "Speaker": "Stephan Baumecker"
+      }
+    ]
   }
 ]
