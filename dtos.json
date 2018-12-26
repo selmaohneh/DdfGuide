@@ -19425,5 +19425,19 @@
     "Interpreter": "Die drei ??? Kids",
     "Description": "Ein ganz besonderer Adventskalender auf zwei CDs. Höre Tag für Tag einen Titel und begleite Justus, Peter und Bob. Advent, Advent! Die drei ??? Kids helfen im Weihnachtsland mit. Doch schon bald ist die festliche Stimmung getrübt, denn einige Bösewichte bedrohen die Weihnachtsvilla. Können Die drei ??? Kids das Land vor den Weihnachtshassern retten?",
     "Roles": []
+  },
+  {
+    "Id": "59B269E5-ECC2-45ED-8FCA-AA052DA76018",
+    "Title": "Im Auge des Hurricanes",
+    "NumberEuropa": 197,
+    "ReleaseDate": "2019-01-18T00:00:00",
+    "Interpreter": "Die drei ???"
+  },
+  {
+    "Id": "C286A3B0-1D5D-46D0-BEE4-9EEDDC01C705",
+    "Title": "Die Legende der Gaukler",
+    "NumberEuropa": 198,
+    "ReleaseDate": "2019-03-08T00:00:00",
+    "Interpreter": "Die drei ???"
   }
 ]
