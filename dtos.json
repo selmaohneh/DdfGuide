@@ -18094,5 +18094,312 @@
         "Speaker": "Hubert Burczek"
       }
     ]
+  },
+  {
+    "Id": "e510d153-2263-4694-aa01-8d43b1aad299",
+    "Title": " Tatort Kletterpark",
+    "NumberEuropa": 51,
+    "ReleaseDate": "2016-05-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e510d153-2263-4694-aa01-8d43b1aad299.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein neuer Kletterpark wir eröffnet, und die drei ??? Kids dürfen zusammen mit Bobs Vater als erste auf das Gelände. Doch schon bald merken sie, dass jemand mit Absicht die Besucher in große Gefahr bringt. Wer steckt hinter dieser bösen Sabotage? Ein Fall mit viel Nervenkitzel...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Mr Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Steve Landers",
+        "Speaker": "Jacob Weigert"
+      },
+      {
+        "Character": "Ed Roney",
+        "Speaker": "Goetz Bielefeldt"
+      },
+      {
+        "Character": "Paul Mandock",
+        "Speaker": "Christopher Karatsonyi"
+      },
+      {
+        "Character": "Carter",
+        "Speaker": "Rolf Berg"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Nick",
+        "Speaker": "Christian Senger"
+      },
+      {
+        "Character": "Leila",
+        "Speaker": "Claudia Urbschat-Mingues"
+      }
+    ]
+  },
+  {
+    "Id": "4b54ed94-9bf0-4a6e-b6e5-15046b2f9ddc",
+    "Title": " Mächtige Magier",
+    "NumberEuropa": 52,
+    "ReleaseDate": "2016-07-22T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4b54ed94-9bf0-4a6e-b6e5-15046b2f9ddc.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "In Rocky Beach findet ein großer Zauberwettbewerb statt. Doch irgendjemand will dem mächtigen Magier Harris schaden. Aber wer steckt dahinter? Um den Fall zu lösen, müssen die drei ??? Kids selbst ein paar Zaubertricks anwenden. Hokuspokus Fidibus!",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Adam",
+        "Speaker": "Jeffrey Wipprecht"
+      },
+      {
+        "Character": "Harris",
+        "Speaker": "Ernst Walter Siemon"
+      },
+      {
+        "Character": "Matthias",
+        "Speaker": "Sven Philipp"
+      },
+      {
+        "Character": "Bühnenansager",
+        "Speaker": "BJ"
+      }
+    ]
+  },
+  {
+    "Id": "7434be4e-beb7-44c1-9a86-b590fe4a2e82",
+    "Title": " Geheimnis der Tiere",
+    "NumberEuropa": 53,
+    "ReleaseDate": "2016-09-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7434be4e-beb7-44c1-9a86-b590fe4a2e82.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Kann es sein, dass sich niemand um die Tiere des verstorbenen Anthony Sparks kümmern will? Justus, Peter und Bob haben ein großes Herz und nehmen sie bei sich auf. Dabei kommen die drei ??? Kids einem lang gehüteten Geheimnis auf die Spur.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Elisabeth Bennett",
+        "Speaker": "Petra Konradi"
+      },
+      {
+        "Character": "Simon Sparks",
+        "Speaker": "Tom Solo"
+      },
+      {
+        "Character": "Papagei",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Allan Bennet",
+        "Speaker": "Linus Kraus"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Ms. Robinson",
+        "Speaker": "Denise Monteiro"
+      },
+      {
+        "Character": "Ernesto Porto",
+        "Speaker": "Holger Löwenberg"
+      }
+    ]
+  },
+  {
+    "Id": "bdf7ebad-a2a4-4be8-9ad9-34a7d34d19ec",
+    "Title": " Zombie-Alarm",
+    "NumberEuropa": null,
+    "ReleaseDate": "2016-12-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bdf7ebad-a2a4-4be8-9ad9-34a7d34d19ec.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Bei einem alten Schiffswrack finden die drei ??? Kids eine geheimnisvolle Flaschenpost. Sie stammt von einem Schiffsbrüchigen, dessen Geist einfach keine Ruhe finden will. Ist er wirklich ein Zombie? Ein Fall für starke Nerven.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Pilot",
+        "Speaker": "Johann Jürgens"
+      },
+      {
+        "Character": "Jack",
+        "Speaker": "Thomas Dehler"
+      },
+      {
+        "Character": "Gilbert",
+        "Speaker": "Ingo Abel"
+      },
+      {
+        "Character": "Tiffman",
+        "Speaker": "Stephan Baumecker"
+      },
+      {
+        "Character": "Bill Baxter",
+        "Speaker": "Jürgen Heimüller"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "20032b68-1a7e-4d43-84ff-aa187805c843",
+    "Title": " Der schwarze Joker",
+    "NumberEuropa": 55,
+    "ReleaseDate": "2017-01-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/20032b68-1a7e-4d43-84ff-aa187805c843.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Justus, Bob und Peter sind verwirrt. Sollte wirklich ihr Erzfeind Skinny Norris hinter den fiesen Streichen stecken, die eine unheimliche Gestalt den Bewohnern von Rocky Beach spielt? Der Unbekannte nennt sich „Der schwarze Joker“ und macht selbst vor Tante Mathildas frische Wäsche nicht halt. Also nehmen die drei ??? Kids die Verfolgung auf – doch mit dem schwarzen Joker ist nicht zu spaßen ...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Mrs. Miller",
+        "Speaker": "Astrid Schulz"
+      },
+      {
+        "Character": "Henry",
+        "Speaker": "Florian Wein"
+      },
+      {
+        "Character": "Weissenegger",
+        "Speaker": "Bodo Henkel"
+      },
+      {
+        "Character": "Mrs. Bennet",
+        "Speaker": "Katherina Wolter"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Mr. Reed",
+        "Speaker": "Fabian Monasterios"
+      },
+      {
+        "Character": "Mr. Osborn",
+        "Speaker": "Dirk Hardegen"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      }
+    ]
   }
 ]
