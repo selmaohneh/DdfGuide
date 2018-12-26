@@ -18401,5 +18401,404 @@
         "Speaker": "Robert Missler"
       }
     ]
+  },
+  {
+    "Id": "11c3df9e-bf3f-4f5e-bcec-411a8fbe9418",
+    "Title": " Das Rätsel der Könige",
+    "NumberEuropa": 56,
+    "ReleaseDate": "2017-03-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/11c3df9e-bf3f-4f5e-bcec-411a8fbe9418.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Seltsame Dinge geschehen im neuen Einkaufszentrum in der Nähe von Rocky Beach. Als die drei ??? Kids die Spuren verfolgen, stoßen sie auf einen wertvollen Königsschatz. Doch sie sind nicht die Einzigen, die das Rätsel der Könige lösen wollen.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Kapitän",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Clarissa",
+        "Speaker": "Ilka Teichmüller"
+      },
+      {
+        "Character": "Henson",
+        "Speaker": "Stefan Bergel"
+      },
+      {
+        "Character": "Henson",
+        "Speaker": "Stefan Bergel"
+      },
+      {
+        "Character": "Bruckheimer",
+        "Speaker": "Thorsten Kai Botenbender"
+      },
+      {
+        "Character": "Nelson",
+        "Speaker": "Ludger Vortmann"
+      },
+      {
+        "Character": "Heinrich Lichtenstein",
+        "Speaker": "Robert Frank"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Klaus Dittmann"
+      }
+    ]
+  },
+  {
+    "Id": "e40c608d-005c-484a-b1a2-011e020f8422",
+    "Title": " Der Weihnachtsdieb",
+    "NumberEuropa": 57,
+    "ReleaseDate": "2017-05-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e40c608d-005c-484a-b1a2-011e020f8422.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Weihnachten steht vor der Tür und auf Justus, Peter und Bob warten 24 spannende Abenteuer. Jeden Tag stehen die drei ??? Kids vor einem neuen rätselhaften Fall. Findest auch du die Täter und kannst die verzwickten Ratekrimis lösen? Doch Vorsicht! Denn dabei geht es nicht nur um geklaute Tannenbäume... (ACHTUNG: Diese Folge ist schon einmal als Sonderfolge erschienen. Bevor du dieses Hörspiel kaufst, solltest du also überprüfen ab du das Hörspiel wohlmöglich schon in deiner Sammlung hast).",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "ohannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Ernesto Porto",
+        "Speaker": "Holger Löwenberger"
+      },
+      {
+        "Character": "Moderatorin",
+        "Speaker": "Claudia Stocksieker"
+      },
+      {
+        "Character": "Mario Hassert",
+        "Speaker": "Motorradfahrer / Sam Jakobson"
+      },
+      {
+        "Character": "Florian Walter",
+        "Speaker": "Mr. Perkins / Billy Bones"
+      },
+      {
+        "Character": "Sven Dahlem",
+        "Speaker": "Jasper"
+      },
+      {
+        "Character": "Michael Krüger",
+        "Speaker": "Reporter / Rennleitung"
+      },
+      {
+        "Character": "Ansgar Döbertin",
+        "Speaker": "Chefredakteur (5) / Lockvogel / Fabrikbesitzer"
+      },
+      {
+        "Character": "André Beyer",
+        "Speaker": "Mr. Doyle"
+      },
+      {
+        "Character": "Holger Fuchs",
+        "Speaker": "Mr. Hopper"
+      },
+      {
+        "Character": "Dennis Saemann",
+        "Speaker": "Zeitungsjunge"
+      },
+      {
+        "Character": "Martin Schäfer",
+        "Speaker": "Robert Poccaro / Mr. Dorson"
+      },
+      {
+        "Character": "Robert Steudtner",
+        "Speaker": "Jeff Ridley / Geldtransporterfahrer"
+      },
+      {
+        "Character": "Patrick Bach",
+        "Speaker": "Chris Cracker"
+      },
+      {
+        "Character": "Maximilian Krings",
+        "Speaker": "Magic Danny"
+      },
+      {
+        "Character": "Ingo Albrecht",
+        "Speaker": "Stranddieb / Trickbetrüger"
+      },
+      {
+        "Character": "Stefan Mitrenga",
+        "Speaker": "Rettungsschwimmer"
+      },
+      {
+        "Character": "Lia Pahl",
+        "Speaker": "Mrs. Carter"
+      },
+      {
+        "Character": "Bodo Henkel",
+        "Speaker": "Versicherungsbetrüger"
+      },
+      {
+        "Character": "Mareike Fell",
+        "Speaker": "Dolly Carlton"
+      },
+      {
+        "Character": "Thomas Karallus",
+        "Speaker": "Käpt'n Klapper"
+      },
+      {
+        "Character": "Christoph Jablonka",
+        "Speaker": "Old Digger"
+      },
+      {
+        "Character": "Sabine König",
+        "Speaker": "Trickbetrügerin"
+      },
+      {
+        "Character": "Christian Jungwirth",
+        "Speaker": "Randolf Cooper"
+      },
+      {
+        "Character": "Jens Wendland",
+        "Speaker": "Mr. Dunken"
+      }
+    ]
+  },
+  {
+    "Id": "28061190-f74e-4ad2-ba89-c71ecdf0346d",
+    "Title": " Spur des Drachen",
+    "NumberEuropa": 58,
+    "ReleaseDate": "2017-05-19T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/28061190-f74e-4ad2-ba89-c71ecdf0346d.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein Drache in Rocky Beach! Ein unheimlicher Einbrecher mit Drachenmaske verbreitet Angst und Schrecken. Im Villenviertel macht er Jagd auf Schmuck und Diamanten. Zum Glück hinterlässt das Ungeheuer bei seinen Einbrüchen so einige Spuren. Für Die drei ??? Kids beginnt eine aufregende Verfolgungsjagd...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Polizistin",
+        "Speaker": "Julia Casper"
+      },
+      {
+        "Character": "Simon Tender",
+        "Speaker": "Beenhard Bettermann"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Nick Slater",
+        "Speaker": "Brian Sommer"
+      }
+    ]
+  },
+  {
+    "Id": "56368ee0-c822-4819-8c0a-24973a963d58",
+    "Title": " Fußballhelden",
+    "NumberEuropa": 59,
+    "ReleaseDate": "2017-07-28T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/56368ee0-c822-4819-8c0a-24973a963d58.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Wer treibt im Kostüm des Fußballmaskottchens sein Unwesen? Niemand traut sich, die Maske zu lüften, denn das bringt angeblich Unglück! Die drei ??? Kids sind sich sicher: Hier ist eine fiese Verschwörung im Gange …",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Trainer",
+        "Speaker": "Sven Gerhardt"
+      },
+      {
+        "Character": "Steven",
+        "Speaker": "Ben Steinhoff"
+      },
+      {
+        "Character": "Verkäufer",
+        "Speaker": "Gerrit Stratmann"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Daniel Alexander"
+      },
+      {
+        "Character": "Maskottchen",
+        "Speaker": "Daniel Montoya"
+      },
+      {
+        "Character": "Eddy",
+        "Speaker": "Thomas Stecher"
+      },
+      {
+        "Character": "Mc Henry",
+        "Speaker": "Achim Barrenstein"
+      }
+    ]
+  },
+  {
+    "Id": "af616b8b-f190-4cb7-96c8-bd01e715ba71",
+    "Title": " Gespensterjagd",
+    "NumberEuropa": 60,
+    "ReleaseDate": "2017-09-29T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/af616b8b-f190-4cb7-96c8-bd01e715ba71.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Im großen Kino von Rocky Beach spukt es! Doch nicht nur dort, überall in der Stadt tauchen plötzlich geisterhafte Gestalten auf. Und das alles an Halloween! Die drei ??? Kids gehen auf Gespensterjagd.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Snyder",
+        "Speaker": "Elmar Gutmann"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Holger Löwenberg"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Maria Collodi",
+        "Speaker": "Irmelin Krause-Latarius"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Giuseppe Collodi",
+        "Speaker": "Ernst Meincke"
+      },
+      {
+        "Character": "Kinder",
+        "Speaker": "Lentje & Lolle Ehlers"
+      }
+    ]
   }
 ]
