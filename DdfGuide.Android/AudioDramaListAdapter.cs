@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Android.App;
+using Android.Graphics;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
@@ -37,10 +39,20 @@ namespace DdfGuide.Android
             var audioDrama = _audioDramas.ElementAt(position);
             var view = convertView ?? _context.LayoutInflater.Inflate(Resource.Layout.audiodramalistitem, null);
 
-            view.FindViewById<TextView>(Resource.Id.titleview).Text = audioDrama.AudioDramaDto.ToString();
+            var titleView = view.FindViewById<TextView>(Resource.Id.titleview);
+            titleView.Text = audioDrama.AudioDramaDto.ToString();
          
             var imageView = view.FindViewById<ImageViewAsync>(Resource.Id.coverview);
             _imageViewFiller.FillImageViewFromUrl(imageView, audioDrama.AudioDramaDto.CoverUrl);
+
+            if (audioDrama.AudioDramaDto.ReleaseDate > DateTime.Now)
+            {
+                view.SetBackgroundColor(Color.LightGray);
+            }
+            else
+            {
+                view.SetBackgroundColor(Color.White);
+            }
 
             return view;
         }
