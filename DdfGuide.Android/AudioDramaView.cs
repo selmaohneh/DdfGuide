@@ -52,6 +52,9 @@ namespace DdfGuide.Android
 
         public void SetAudioDrama(AudioDrama audioDrama)
         {
+            var interpreterView = _view.FindViewById<TextView>(Resource.Id.textviewinterpreter);
+            interpreterView.Text = audioDrama.AudioDramaDto.Interpreter;
+
             var titleView = _view.FindViewById<TextView>(Resource.Id.textviewtitelsingle);
             titleView.Text = audioDrama.AudioDramaDto.ToString();
 

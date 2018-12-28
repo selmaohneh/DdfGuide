@@ -22,6 +22,17 @@
 		android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+			<TextView
+		android:text="Die drei ???"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="50px"
+		android:minHeight="50px"
+        android:layout_margin="5dp"
+		android:id="@+id/textviewinterpreter" 
+        android:textAlignment="center"
+			android:textColor="@color/ddfBlack"/>
+
   <TextView
 		android:text="Titel"
 		android:textAppearance="?android:attr/textAppearanceLarge"
