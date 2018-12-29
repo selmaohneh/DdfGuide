@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="2.0" package="DdfGuide.Android.DdfGuide.Android" android:installLocation="auto" android:versionCode="20">
-	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="25" />
-	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="celloapps.ddfguide" android:installLocation="auto" android:versionCode="20" android:versionName="2.0">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="26" />
+	<application android:allowBackup="true" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:icon="@mipmap/ic_launcher" android:theme="@style/AppTheme"></application>
 </manifest>
