@@ -66,63 +66,6 @@ namespace DdfGuide.Test
             listView.Verify(x => x.SetFilterInfos(It.IsAny<EAudioDramaFilterMode>()), Times.Once);
         }
 
-
-        [TestMethod]
-        public void HeardChangedOnView_UpdateModel()
-        {
-            var listView = _mocker.GetMock<IAudioDramaListView>();
-
-            Assert.IsFalse(_audioDramas.First().AudioDramaUserData.Heard);
-
-            listView.Raise(x => x.HeardChanged += null, this, _audioDramas.First().AudioDramaUserData.Id);
-            Assert.IsTrue(_audioDramas.First().AudioDramaUserData.Heard);
-
-            listView.Raise(x => x.HeardChanged += null, this, _audioDramas.First().AudioDramaUserData.Id);
-            Assert.IsFalse(_audioDramas.First().AudioDramaUserData.Heard);
-        }
-
-        [TestMethod]
-        public void HeardChangedOnModel_UpdateAudioDramaOnView()
-        {
-            var listView = _mocker.GetMock<IAudioDramaListView>();
-
-            listView.Invocations.Clear();
-
-            var audioDrama = _audioDramas.First();
-            var currentValue = audioDrama.AudioDramaUserData.Heard;
-            audioDrama.AudioDramaUserData.Heard = !currentValue;
-            
-            listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once);
-        }
-
-        [TestMethod]
-        public void IsFavoriteChangedOnView_UpdateModel()
-        {
-            var listView = _mocker.GetMock<IAudioDramaListView>();
-
-            Assert.IsFalse(_audioDramas.First().AudioDramaUserData.IsFavorite);
-
-            listView.Raise(x => x.IsFavoriteChanged += null, this, _audioDramas.First().AudioDramaUserData.Id);
-            Assert.IsTrue(_audioDramas.First().AudioDramaUserData.IsFavorite);
-
-            listView.Raise(x => x.IsFavoriteChanged += null, this, _audioDramas.First().AudioDramaUserData.Id);
-            Assert.IsFalse(_audioDramas.First().AudioDramaUserData.IsFavorite);
-        }
-
-        [TestMethod]
-        public void IsFavoriteChangedOnModel_UpdateAudioDramasOnView()
-        {
-            var listView = _mocker.GetMock<IAudioDramaListView>();
-
-            listView.Invocations.Clear();
-
-            var audioDrama = _audioDramas.First();
-            var currentValue = audioDrama.AudioDramaUserData.IsFavorite;
-            audioDrama.AudioDramaUserData.IsFavorite = !currentValue;
-
-            listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once);
-        }
-
         [TestMethod]
         public void OrderByHeardFirstClicked_UpdateExplorer_UpdateAudioDramaOnView_UpdateSortModeOnView()
         {
@@ -426,23 +369,6 @@ namespace DdfGuide.Test
             
             explorer.Verify(x => x.SetSearchText("Homer Simpson"), Times.Once);
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
-        }
-        
-        [TestMethod]
-        public void SetNewModelMultipleTimes_DontRaiseEventsMultipleTimes()
-        {
-            var view = _mocker.GetMock<IAudioDramaListView>();
-
-            _sut.SetModel(_audioDramas);
-            _sut.SetModel(_audioDramas);
-            _sut.SetModel(_audioDramas);
-            _sut.SetModel(_audioDramas);
-
-            view.Invocations.Clear();
-
-            view.Raise(x => x.HeardChanged += null, this, _audioDramas.First().AudioDramaDto.Id);
-
-            view.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
         }
 
         /// <summary>

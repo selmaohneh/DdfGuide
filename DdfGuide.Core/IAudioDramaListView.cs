@@ -10,9 +10,7 @@ namespace DdfGuide.Core
         void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas);
         void SetFilterInfos(EAudioDramaFilterMode selectedFilterMode);
         void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode);
-
-        event EventHandler<Guid> HeardChanged;
-        event EventHandler<Guid> IsFavoriteChanged;
+        
         event EventHandler<Guid> AudioDramaClicked;
         event EventHandler OrderByHeardFirstClicked;
         event EventHandler OrderByHeardLastClicked;

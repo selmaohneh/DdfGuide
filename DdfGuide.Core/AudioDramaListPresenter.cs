@@ -20,9 +20,6 @@ namespace DdfGuide.Core
             _audioDramaListView = audioDramaListView;
             _explorer = explorer;
 
-            _audioDramaListView.HeardChanged += OnHeardChanged();
-            _audioDramaListView.IsFavoriteChanged += OnIsFavoriteChanged();
-
             _audioDramaListView.OrderByHeardFirstClicked += OnSorterChanged(EAudioDramaSortMode.HeardFirst);
             _audioDramaListView.OrderByHeardLastClicked += OnSorterChanged(EAudioDramaSortMode.HeardLast);
             _audioDramaListView.OrderByIsFavoriteFirstClicked += OnSorterChanged(EAudioDramaSortMode.IsFavoriteFirst);
@@ -87,29 +84,6 @@ namespace DdfGuide.Core
             };
         }
 
-        private EventHandler OnUserDataChanged()
-        {
-            return (sender, args) => { UpdateViewWithMatchingAudioDramas(); };
-        }
-
-        private EventHandler<Guid> OnIsFavoriteChanged()
-        {
-            return (sender, id) =>
-            {
-                var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
-                audioDrama.AudioDramaUserData.IsFavorite = !audioDrama.AudioDramaUserData.IsFavorite;
-            };
-        }
-
-        private EventHandler<Guid> OnHeardChanged()
-        {
-            return (sender, id) =>
-            {
-                var audioDrama = _audioDramas.Single(x => x.AudioDramaDto.Id == id);
-                audioDrama.AudioDramaUserData.Heard = !audioDrama.AudioDramaUserData.Heard;
-            };
-        }
-
         private void UpdateViewWithMatchingAudioDramas()
         {
             var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
@@ -132,12 +106,6 @@ namespace DdfGuide.Core
         public void SetModel(IEnumerable<AudioDrama> model)
         {
             _audioDramas = model;
-
-            foreach (var audioDrama in _audioDramas)
-            {
-                audioDrama.AudioDramaUserData.Changed -= OnUserDataChanged();
-                audioDrama.AudioDramaUserData.Changed += OnUserDataChanged();
-            }
 
             UpdateView();
         }

@@ -27,16 +27,5 @@ namespace DdfGuide.Test
 
             Assert.IsFalse(duplicates.Any());
         }
-
-        [TestMethod]
-        public void DtoFileContainsNoDuplicateReleaseDates()
-        {
-            var duplicates = _dtos
-                .Where(x=>x.NumberEuropa.HasValue)
-                .GroupBy(x => x.ReleaseDate).Where(x => x.Count() > 1)
-                .ToList();
-
-            Assert.IsFalse(duplicates.Any());
-        }
     }
 }
