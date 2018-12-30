@@ -49,7 +49,7 @@ namespace DdfGuide.Core
             var sorterFactory = new AudioDramaSorterFactory();
             var searcher = new AudioDramaSearcher();
 
-            var explorer = new AudioDramaExplorer(searcher, filterFactory, sorterFactory);
+            var explorer = new AudioDramaExplorer(source, searcher, filterFactory, sorterFactory);
             var picker = new RandomAudioDramaPicker();
 
             var audioDramaListPresenter = new AudioDramaListPresenter(

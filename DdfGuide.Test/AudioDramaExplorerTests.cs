@@ -5,6 +5,8 @@ using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using Moq.AutoMock;
 
 namespace DdfGuide.Test
 {
@@ -17,18 +19,23 @@ namespace DdfGuide.Test
         [TestInitialize]
         public void Init()
         {
+            var provider = new SampleAudioDramaProvider();
+            _audioDramas = provider.Get().ToList();
+            var source = new Mock<ISource<IEnumerable<AudioDrama>>>();
+            source.Setup(x => x.Get()).Returns(_audioDramas);
+
             var searcher = new AudioDramaSearcher();
             var sorterFactory = new AudioDramaSorterFactory();
             var filterFactory = new AudioDramaFilterFactory();
-            _explorer = new AudioDramaExplorer(searcher, filterFactory, sorterFactory);
-            var provider = new SampleAudioDramaProvider();
-            _audioDramas = provider.Get().ToList();
+            
+            _explorer =  new AudioDramaExplorer(source.Object, searcher, filterFactory, sorterFactory);
+            
         }
 
         [TestMethod]
         public void ExplorerReturnsAllAudioDramasInReleaseDataDesceningByDefault()
         {
-            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            var result = _explorer.GetMatchingAudioDramas().ToList();
 
             var expectedResult = _audioDramas.OrderByDescending(x => x.AudioDramaDto.ReleaseDate).ToList();
 
@@ -39,7 +46,7 @@ namespace DdfGuide.Test
         public void ExplorerFiltersWhenAFilterWasSet()
         {
             _explorer.SetFilterMode(EAudioDramaFilterMode.SpecialsOnly);
-            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            var result = _explorer.GetMatchingAudioDramas().ToList();
             
             var expectedResult = _audioDramas
                 .Where(x => x.AudioDramaDto.NumberEuropa.HasValue == false)
@@ -52,7 +59,7 @@ namespace DdfGuide.Test
         public void ExplorerSearchesWhenASearchTextWasSet()
         {
             _explorer.SetSearchText("Papagei");
-            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            var result = _explorer.GetMatchingAudioDramas().ToList();
 
             var expectedResult = _audioDramas
                 .Where(x => x.AudioDramaDto.Title.Contains("Papagei"))
@@ -65,7 +72,7 @@ namespace DdfGuide.Test
         public void ExplorerSortsWhenASortModeWasSet()
         {
             _explorer.SetSortMode(EAudioDramaSortMode.ReleaseDateAscending);
-            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            var result = _explorer.GetMatchingAudioDramas().ToList();
 
             var expectedResult = _audioDramas.OrderBy(x => x.AudioDramaDto.ReleaseDate).ToList();
 
@@ -75,7 +82,7 @@ namespace DdfGuide.Test
         [TestMethod]
         public void ExplorerReturnsDieDreiFragezeichenAsInterpreterByDefault()
         {
-            _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            _explorer.GetMatchingAudioDramas();
 
             Assert.IsTrue(_audioDramas.All(x => x.AudioDramaDto.Interpreter == "Die drei ???"));
         }
@@ -84,7 +91,7 @@ namespace DdfGuide.Test
         public void ExplorerFiltersWhenAnInterpreterWasSet()
         {
             _explorer.SetInterpreterFilter(EAudioDramaFilterMode.DieDreiFragezeichenKids);
-            var result = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            var result = _explorer.GetMatchingAudioDramas().ToList();
 
             var expectedResult = _audioDramas.Where(x=>x.AudioDramaDto.Interpreter == "Die drei ??? Kids").ToList();
 

@@ -10,8 +10,6 @@ namespace DdfGuide.Core
     {
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaExplorer _explorer;
-        
-        private IEnumerable<AudioDrama> _audioDramas;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView,
@@ -86,7 +84,7 @@ namespace DdfGuide.Core
 
         private void UpdateViewWithMatchingAudioDramas()
         {
-            var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_audioDramas).ToList();
+            var matchingAudioDramas = _explorer.GetMatchingAudioDramas().ToList();
             _audioDramaListView.SetAudioDramaInfos(matchingAudioDramas);
         }
 
@@ -105,8 +103,7 @@ namespace DdfGuide.Core
 
         public void SetModel(IEnumerable<AudioDrama> model)
         {
-            _audioDramas = model;
-
+            // Todo, move to ctor
             UpdateView();
         }
     }

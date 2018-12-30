@@ -91,12 +91,12 @@ namespace DdfGuide.Test
 
             _mocker
                 .Setup<IAudioDramaExplorer, IEnumerable<AudioDrama>>(x =>
-                    x.GetMatchingAudioDramas(It.IsAny<IEnumerable<AudioDrama>>()))
+                    x.GetMatchingAudioDramas())
                 .Returns(audioDramas);
 
             listView.Raise(x => x.RandomClicked += null, this, EventArgs.Empty);
 
-            _mocker.Verify<IAudioDramaExplorer>(x => x.GetMatchingAudioDramas(It.IsAny<IEnumerable<AudioDrama>>()),
+            _mocker.Verify<IAudioDramaExplorer>(x => x.GetMatchingAudioDramas(),
                 Times.Once);
 
             _mocker.Verify<IRandomAudioDramaPicker>(x => x.Pick(It.IsAny<IEnumerable<AudioDrama>>()),
@@ -115,12 +115,12 @@ namespace DdfGuide.Test
 
             _mocker
                 .Setup<IAudioDramaExplorer, IEnumerable<AudioDrama>>(x =>
-                    x.GetMatchingAudioDramas(It.IsAny<IEnumerable<AudioDrama>>()))
+                    x.GetMatchingAudioDramas())
                 .Returns(new List<AudioDrama>());
 
             listView.Raise(x => x.RandomClicked += null, this, EventArgs.Empty);
 
-            _mocker.Verify<IAudioDramaExplorer>(x => x.GetMatchingAudioDramas(It.IsAny<IEnumerable<AudioDrama>>()),
+            _mocker.Verify<IAudioDramaExplorer>(x => x.GetMatchingAudioDramas(),
                 Times.Once);
 
             _mocker.Verify<IRandomAudioDramaPicker>(x => x.Pick(It.IsAny<IEnumerable<AudioDrama>>()),

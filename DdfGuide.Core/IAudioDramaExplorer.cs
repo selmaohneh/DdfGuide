@@ -11,7 +11,7 @@ namespace DdfGuide.Core
         void SetFilterMode(EAudioDramaFilterMode filterMode);
         EAudioDramaFilterMode GetCurrentFilterMode();
         void SetSearchText(string searchText);
-        IEnumerable<AudioDrama> GetMatchingAudioDramas(IEnumerable<AudioDrama> audioDramas);
+        IEnumerable<AudioDrama> GetMatchingAudioDramas();
         void SetInterpreterFilter(EAudioDramaFilterMode filterMode);
         EAudioDramaFilterMode GetCurrentInterpreterFilter();
     }

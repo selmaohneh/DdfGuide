@@ -8,6 +8,7 @@ namespace DdfGuide.Core
     public class AudioDramaExplorer : IAudioDramaExplorer
     {
         private readonly IAudioDramaSearcher _searcher;
+        private readonly ISource<IEnumerable<AudioDrama>> _source;
         private readonly IAudioDramaFilterFactory _filterFactory;
         private readonly IAudioDramaSorterFactory _sorterFactory;
 
@@ -17,10 +18,13 @@ namespace DdfGuide.Core
         private string _searchText;
 
         public AudioDramaExplorer(
+            ISource<IEnumerable<AudioDrama>> source,
             IAudioDramaSearcher searcher,
             IAudioDramaFilterFactory filterFactory,
             IAudioDramaSorterFactory sorterFactory)
         {
+            _source = source;
+
             _filterFactory = filterFactory;
             _sorterFactory = sorterFactory;
             
@@ -55,8 +59,9 @@ namespace DdfGuide.Core
             _searchText = searchText;
         }
 
-        public IEnumerable<AudioDrama> GetMatchingAudioDramas(IEnumerable<AudioDrama> audioDramas)
+        public IEnumerable<AudioDrama> GetMatchingAudioDramas()
         {
+            var audioDramas = _source.Get();
             var interpreterSelected = _interpreterFilter.Filter(audioDramas);
             var filtered = _filter.Filter(interpreterSelected);
             var filteredAndSearched = _searcher.Search(filtered, _searchText);

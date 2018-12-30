@@ -88,7 +88,7 @@ namespace DdfGuide.Core
 
             _audioDramaListPresenter.GetView().RandomClicked += (sender, args) =>
             {
-                var matchingAudioDramas = _explorer.GetMatchingAudioDramas(_source.Get()).ToList();
+                var matchingAudioDramas = _explorer.GetMatchingAudioDramas().ToList();
 
                 if (!matchingAudioDramas.Any()) return;
 
