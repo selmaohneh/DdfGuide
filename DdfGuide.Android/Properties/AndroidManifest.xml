@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="celloapps.ddfguide" android:installLocation="auto" android:versionCode="21" android:versionName="2.1">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="celloapps.ddfguide" android:installLocation="auto" android:versionCode="23" android:versionName="2.3">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="26" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-	<application android:allowBackup="true" android:label="i" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:icon="@mipmap/ic_launcher" android:theme="@style/AppTheme"></application>
+	<application android:allowBackup="true" android:label="DdfGuide.Android" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:icon="@mipmap/ic_launcher" android:theme="@style/AppTheme"></application>
 </manifest>
