@@ -48,8 +48,7 @@
 		android:layout_height="wrap_content"
 		android:layout_margin="24dp"
         android:src="@mipmap/ic_dice_3_white_24dp"
-		android:id="@+id/floatingActionButtonRandom" 
-		android:backgroundTint="@color/ddfBlue"/>
+		android:id="@+id/floatingActionButtonRandom"/>
 	
 	</RelativeLayout>
 </LinearLayout>

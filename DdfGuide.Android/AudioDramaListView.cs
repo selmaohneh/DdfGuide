@@ -46,6 +46,8 @@ namespace DdfGuide.Android
         private void SetupFloatingRandomButton()
         {
             var fab = _view.FindViewById<FloatingActionButton>(Resource.Id.floatingActionButtonRandom);
+            fab.SetBackgroundColor(Resources.GetColor(Resource.Color.ddfBlue));
+
             fab.Click += (sender, args) => { RandomClicked?.Invoke(this, EventArgs.Empty); };
         }
 
