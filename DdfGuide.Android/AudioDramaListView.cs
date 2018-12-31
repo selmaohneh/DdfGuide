@@ -339,8 +339,6 @@ namespace DdfGuide.Android
         }
 
         public event EventHandler DieDreiClicked;
-        public event EventHandler<Guid> HeardChanged;
-        public event EventHandler<Guid> IsFavoriteChanged;
         public event EventHandler<Guid> AudioDramaClicked;
         public event EventHandler OrderByHeardFirstClicked;
         public event EventHandler OrderByHeardLastClicked;
