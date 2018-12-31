@@ -10,6 +10,8 @@ namespace DdfGuide.Android.Resources
     {
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
+            base.OnCreateView(inflater, container, savedInstanceState);
+
             return inflater.Inflate(Resource.Layout.audiodramalayout, container, false);
         }
 
