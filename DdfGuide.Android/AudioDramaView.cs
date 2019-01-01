@@ -15,6 +15,14 @@ namespace DdfGuide.Android
         private readonly IImageViewFiller _imageViewFiller;
         private View _view;
 
+        /// <summary>
+        /// Fragments need a default constructor. Needed for old android versions.
+        /// </summary>
+        public AudioDramaView()
+        {
+            _imageViewFiller = new ImageViewFiller();
+        }
+
         public AudioDramaView(IImageViewFiller imageViewFiller)
         {
             _imageViewFiller = imageViewFiller;
@@ -64,7 +72,8 @@ namespace DdfGuide.Android
             descriptionView.Text = string.Empty;
             if (audioDrama.AudioDramaDto.Description != null)
             {
-                descriptionView.Append(Html.FromHtml(audioDrama.AudioDramaDto.Description, FromHtmlOptions.ModeLegacy));
+                // Deprecated method is just due to old android versions.
+                descriptionView.Append(Html.FromHtml(audioDrama.AudioDramaDto.Description));
             }
 
             var releaseDateView = _view.FindViewById<TextView>(Resource.Id.textviewreleasesingle);
@@ -85,12 +94,13 @@ namespace DdfGuide.Android
             rolesView.Text = string.Empty;
             foreach (var roleDto in audioDrama.AudioDramaDto.Roles)
             {
-                rolesView.Append(Html.FromHtml($"<b>{roleDto.Character}:</b><br>", FromHtmlOptions.ModeLegacy));
-                rolesView.Append(Html.FromHtml($"{roleDto.Speaker}", FromHtmlOptions.ModeLegacy));
+                // Deprecated method is just due to old android versions.
+                rolesView.Append(Html.FromHtml($"<b>{roleDto.Character}:</b><br>"));
+                rolesView.Append(Html.FromHtml($"{roleDto.Speaker}"));
 
                 if (roleDto != audioDrama.AudioDramaDto.Roles.Last())
                 {
-                    rolesView.Append(Html.FromHtml("<br><br>", FromHtmlOptions.ModeLegacy));
+                    rolesView.Append(Html.FromHtml("<br><br>"));
                 }
             }
         }

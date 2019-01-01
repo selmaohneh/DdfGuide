@@ -24,6 +24,13 @@ namespace DdfGuide.Android
         private ListView _listView;
         private TabLayout _tabLayout;
 
+        /// <summary>
+        /// Fragments need a default constructor. Needed for old android versions.
+        /// </summary>
+        public AudioDramaListView()
+        {
+            _imageViewFiller = new ImageViewFiller();
+        }
 
         public AudioDramaListView(IImageViewFiller imageViewFiller)
         {
