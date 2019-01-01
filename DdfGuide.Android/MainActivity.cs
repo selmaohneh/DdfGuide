@@ -7,7 +7,7 @@ using DdfGuide.Core;
 
 namespace DdfGuide.Android
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.Orientation)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true,ScreenOrientation = ScreenOrientation.Portrait,  ConfigurationChanges = ConfigChanges.Orientation)]
     public class MainActivity : Activity, IRootView
     {
         private Core.DdfGuide _ddfGuide;
@@ -59,9 +59,7 @@ namespace DdfGuide.Android
 
         public override void OnConfigurationChanged(Configuration newConfig)
         {
-            base.OnConfigurationChanged(newConfig);
-
-            ViewDestroyed?.Invoke(this, EventArgs.Empty);
+            //ViewDestroyed?.Invoke(this, EventArgs.Empty);
         }
 
         public event EventHandler BackClicked;

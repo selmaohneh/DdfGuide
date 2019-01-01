@@ -39,8 +39,6 @@ namespace DdfGuide.Android
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            base.OnCreateView(inflater, container, savedInstanceState);
-
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
 
             SetupFloatingRandomButton();
