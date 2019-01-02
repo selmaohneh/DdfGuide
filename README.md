@@ -1,4 +1,4 @@
-# DdfGuide
+# DDF Guide
 
 Diese Android-App ist ein Open-Source-Fanprojekt. 
 
