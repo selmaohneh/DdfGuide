@@ -10,4 +10,4 @@ Bugs können entweder per Mail an ddfguide@marcelneumann.eu geschickt oder direk
 
 Pull-Requests sind immer gerne gesehen und erwünscht. :)
 
-Diese Repository dient auch als Backend für die App. In der dtos.json befinden sich die einzelnen Folgendetails. In dem Covers-Ordner sind die entsprechenden Bilder zu du einzelnen Folgen zu finden.
+Diese Repository dient auch als Backend für die App. In der [dtos.json](https://github.com/selmaohneh/DdfGuide/blob/master/dtos.json) befinden sich die einzelnen Folgendetails. In dem [Covers-Ordner](https://github.com/selmaohneh/DdfGuide/tree/master/Covers) sind die entsprechenden Bilder zu du einzelnen Folgen zu finden.
