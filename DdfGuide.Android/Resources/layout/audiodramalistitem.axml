@@ -21,10 +21,41 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_margin="5dp"
-        android:layout_toLeftOf="@+id/checkboxfavorite"
         android:layout_toRightOf="@+id/coverview"
+		android:layout_toLeftOf="@+id/userdata"
 		android:text="... und der Dummytitel"
             android:textSize="18sp"
 android:textColor="@@color/ddfBlack"/>
+
+	 <LinearLayout
+		android:id="@+id/userdata"
+		android:orientation="vertical"
+		android:layout_alignParentRight="true"
+		android:layout_width="15dp"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_margin="5dp">
+
+		 <CheckBox
+        android:id="@+id/listcheckboxheard"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/checkboxheard"
+        android:button="@null"
+        android:backgroundTint="@color/ddfBlue"/>
+
+      <CheckBox
+        android:id="@+id/listcheckboxfavorite"
+      android:layout_width="9dp"
+	android:layout_height="9dp"
+android:layout_centerVertical="true"
+android:layout_margin="5dp"
+        android:background="@drawable/checkboxfavorite"
+        android:button="@null"
+        android:backgroundTint="@color/ddfRed"/>
+
+	</LinearLayout>
 	
 </RelativeLayout>

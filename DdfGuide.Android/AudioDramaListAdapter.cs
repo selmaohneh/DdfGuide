@@ -45,6 +45,12 @@ namespace DdfGuide.Android
             var imageView = view.FindViewById<ImageViewAsync>(Resource.Id.coverview);
             _imageViewFiller.FillImageViewFromUrl(imageView, audioDrama.AudioDramaDto.CoverUrl);
 
+            var heardView = view.FindViewById<CheckBox>(Resource.Id.listcheckboxheard);
+            heardView.Checked = audioDrama.AudioDramaUserData.Heard;
+
+            var favoriteView = view.FindViewById<CheckBox>(Resource.Id.listcheckboxfavorite);
+            favoriteView.Checked = audioDrama.AudioDramaUserData.IsFavorite;
+
             if (audioDrama.AudioDramaDto.ReleaseDate > DateTime.Now)
             {
                 view.SetBackgroundColor(Color.LightGray);
