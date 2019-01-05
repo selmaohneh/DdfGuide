@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -12,17 +13,20 @@ namespace DdfGuide.Core
         private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
         private readonly IAudioDramaBuilder _audioDramaBuilder;
         private readonly IOnUserDataChangedInCacheSaver _saver;
+        private readonly IUserNotifier _notifier;
 
         public AudioDramaSource(
             ICache<IEnumerable<AudioDramaDto>> dtoCache,
             ICache<IEnumerable<AudioDramaUserData>> userDataCache,
             IAudioDramaBuilder audioDramaBuilder,
-            IOnUserDataChangedInCacheSaver saver)
+            IOnUserDataChangedInCacheSaver saver,
+            IUserNotifier notifier)
         {
             _dtoCache = dtoCache;
             _userDataCache = userDataCache;
             _audioDramaBuilder = audioDramaBuilder;
             _saver = saver;
+            _notifier = notifier;
         }
 
         public IEnumerable<AudioDrama> Get()
@@ -46,15 +50,29 @@ namespace DdfGuide.Core
             string json;
             try
             {
-                json = await wc.DownloadStringTaskAsync("https://raw.githubusercontent.com/selmaohneh/DdfGuide/master/dtos.json");
+                var downloadTask = wc.DownloadStringTaskAsync("https://raw.githubusercontent.com/selmaohneh/DdfGuide/master/dtos.json");
+                var timeoutTask = Task.Delay(TimeSpan.FromSeconds(7));
+
+                var completedTask = await Task.WhenAny(downloadTask, timeoutTask);
+
+                if (completedTask == timeoutTask)
+                {
+                    _notifier.Notify("Aktualisierung abgebrochen. Schlechte Internetverbindung");
+                    return;
+                }
+
+                json = downloadTask.Result;
             }
             catch (WebException)
             {
+                _notifier.Notify("Aktualisierung fehlgeschlagen. Keine Intertverbindung.");
                 return;
             }
 
             var dtos = JsonConvert.DeserializeObject<IEnumerable<AudioDramaDto>>(json);
             _dtoCache.Save(dtos);
+
+            _notifier.Notify("Aktualisierung erfolgreich.");
         }
     }
 }

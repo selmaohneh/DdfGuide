@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Searching;
@@ -14,6 +15,7 @@ namespace DdfGuide.Core
         private readonly ICache<IEnumerable<AudioDramaDto>> _dtoCache;
         private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
         private readonly IShutdown _shutdown;
+        private readonly IUserNotifier _userNotifier;
 
         public DdfGuide(
             IAudioDramaListView audioDramaListView,
@@ -21,7 +23,8 @@ namespace DdfGuide.Core
             IRootView rootView,
             ICache<IEnumerable<AudioDramaDto>> dtoCache,
             ICache<IEnumerable<AudioDramaUserData>> userDataCache,
-            IShutdown shutdown)
+            IShutdown shutdown,
+            IUserNotifier userNotifier)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -29,6 +32,7 @@ namespace DdfGuide.Core
             _dtoCache = dtoCache;
             _userDataCache = userDataCache;
             _shutdown = shutdown;
+            _userNotifier = userNotifier;
         }
 
         public async Task Start()
@@ -41,7 +45,8 @@ namespace DdfGuide.Core
                 _dtoCache,
                 _userDataCache,
                 builder,
-                saver);
+                saver,
+                _userNotifier);
 
             var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView);
 
@@ -55,7 +60,7 @@ namespace DdfGuide.Core
             var audioDramaListPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
                 explorer
-                );
+            );
 
             var navigator = new Navigator(
                 _rootView,
@@ -66,7 +71,17 @@ namespace DdfGuide.Core
                 source,
                 _shutdown);
 
-            await source.Update();
+
+            try
+            {
+                await source.Update();
+            }
+            catch (Exception)
+            {
+                // needed due to using async void. Otherwise
+                // all exception will bubble up until here and crash the app.
+                _userNotifier.Notify("Aktualisierung fehlgeschlagen. Keine Intertverbindung.");
+            }
 
             navigator.ShowStartView();
         }

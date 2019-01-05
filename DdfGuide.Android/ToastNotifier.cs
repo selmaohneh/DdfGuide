@@ -15,7 +15,7 @@ namespace DdfGuide.Android
 
         public void Notify(string message)
         {
-            var toast = Toast.MakeText(_context, message, ToastLength.Short);
+            var toast = Toast.MakeText(_context, message, ToastLength.Long);
             toast.Show();
         }
     }
