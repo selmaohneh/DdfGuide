@@ -64,6 +64,16 @@ namespace DdfGuide.Android
             //ViewDestroyed?.Invoke(this, EventArgs.Empty);
         }
 
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            // To prevent IllegalStateException. See ticket #18.
+        }
+
+        public override void OnSaveInstanceState(Bundle outState, PersistableBundle outPersistentState)
+        {
+            // To prevent IllegalStateException. See ticket #18.
+        }
+
         public event EventHandler BackClicked;
         public event EventHandler ViewDestroyed;
     }
