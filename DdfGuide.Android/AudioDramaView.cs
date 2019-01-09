@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Android.App;
+using Android.Graphics;
 using Android.OS;
 using Android.Text;
 using Android.Views;
@@ -55,6 +56,8 @@ namespace DdfGuide.Android
         {
             var toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbarsingleview);
             toolbar.SetNavigationIcon(Resource.Mipmap.arrow_back);
+            toolbar.NavigationIcon.SetColorFilter(Resources.GetColor(Resource.Color.ddfWhite), PorterDuff.Mode.SrcAtop);
+
             toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
         }
 

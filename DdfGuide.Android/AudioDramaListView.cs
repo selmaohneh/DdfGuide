@@ -75,6 +75,7 @@ namespace DdfGuide.Android
         {
             _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
             _toolbar.SetTitle(Resource.String.app_name);
+            _toolbar.SetTitleTextColor(Resources.GetColor(Resource.Color.ddfWhite));
 
             SetupMenuItems();
             SetupTabs();
