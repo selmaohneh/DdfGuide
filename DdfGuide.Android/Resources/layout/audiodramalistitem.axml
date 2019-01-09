@@ -44,7 +44,8 @@ android:textColor="@@color/ddfBlack"/>
         android:layout_margin="5dp"
         android:background="@drawable/checkboxheard"
         android:button="@null"
-        android:backgroundTint="@color/ddfBlue"/>
+        android:backgroundTint="@color/ddfBlue"
+		android:clickable="false"/>
 
       <CheckBox
         android:id="@+id/listcheckboxfavorite"
@@ -54,7 +55,8 @@ android:layout_centerVertical="true"
 android:layout_margin="5dp"
         android:background="@drawable/checkboxfavorite"
         android:button="@null"
-        android:backgroundTint="@color/ddfRed"/>
+        android:backgroundTint="@color/ddfRed"
+		android:clickable="false"/>
 
 	</LinearLayout>
 	
