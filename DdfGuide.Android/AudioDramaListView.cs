@@ -17,6 +17,7 @@ namespace DdfGuide.Android
     public class AudioDramaListView : Fragment, IAudioDramaListView
     {
         private readonly IImageViewFiller _imageViewFiller;
+        private readonly IReleaseDateService _releaseDateService;
         private View _view;
         private Toolbar _toolbar;
         private SearchView _searchView;
@@ -32,9 +33,10 @@ namespace DdfGuide.Android
             _imageViewFiller = new ImageViewFiller();
         }
 
-        public AudioDramaListView(IImageViewFiller imageViewFiller)
+        public AudioDramaListView(IImageViewFiller imageViewFiller, IReleaseDateService releaseDateService)
         {
             _imageViewFiller = imageViewFiller;
+            _releaseDateService = releaseDateService;
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -60,7 +62,7 @@ namespace DdfGuide.Android
         {
             _listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
 
-            _listViewAdapter = new AudioDramaListAdapter(Activity, _imageViewFiller);
+            _listViewAdapter = new AudioDramaListAdapter(Activity, _imageViewFiller, _releaseDateService);
 
             _listView.ItemClick += (sender, args) =>
             {

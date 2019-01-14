@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Android.App;
 using Android.Graphics;
@@ -14,12 +13,17 @@ namespace DdfGuide.Android
     {
         private readonly Activity _context;
         private readonly IImageViewFiller _imageViewFiller;
+        private readonly IReleaseDateService _releaseDateService;
         private IEnumerable<AudioDrama> _audioDramas;
 
-        public AudioDramaListAdapter(Activity context, IImageViewFiller imageViewFiller)
+        public AudioDramaListAdapter(
+            Activity context, 
+            IImageViewFiller imageViewFiller,
+            IReleaseDateService releaseDateService)
         {
             _context = context;
             _imageViewFiller = imageViewFiller;
+            _releaseDateService = releaseDateService;
             _audioDramas = new List<AudioDrama>();
         }
 
@@ -51,13 +55,13 @@ namespace DdfGuide.Android
             var favoriteView = view.FindViewById<CheckBox>(Resource.Id.listcheckboxfavorite);
             favoriteView.Checked = audioDrama.AudioDramaUserData.IsFavorite;
 
-            if (audioDrama.AudioDramaDto.ReleaseDate > DateTime.Now)
+            if (_releaseDateService.IsReleased(audioDrama.AudioDramaDto))
             {
-                view.SetBackgroundColor(Color.LightGray);
+                view.SetBackgroundColor(Color.White);
             }
             else
             {
-                view.SetBackgroundColor(Color.White);
+                view.SetBackgroundColor(Color.LightGray);
             }
 
             return view;

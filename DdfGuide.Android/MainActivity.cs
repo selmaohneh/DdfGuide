@@ -19,8 +19,9 @@ namespace DdfGuide.Android
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
+            var releaseDateService = new ReleaseDateService();
             var filler = new ImageViewFiller();
-            var audioDramaListView = new AudioDramaListView(filler);
+            var audioDramaListView = new AudioDramaListView(filler, releaseDateService);
             var audioDramaView = new AudioDramaView(filler);
             var rootView = this;
             var dtoCache = new DtoCache();

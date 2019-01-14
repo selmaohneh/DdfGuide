@@ -172,6 +172,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="RandomAudioDramaPickerTests.cs" />
+    <Compile Include="ReleaseDateServiceTests.cs" />
     <Compile Include="SampleDtos.Designer.cs">
       <DependentUpon>SampleDtos.resx</DependentUpon>
       <AutoGen>True</AutoGen>
