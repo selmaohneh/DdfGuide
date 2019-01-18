@@ -19427,13 +19427,6 @@
     "Roles": []
   },
   {
-    "Id": "59B269E5-ECC2-45ED-8FCA-AA052DA76018",
-    "Title": "Im Auge des Sturms",
-    "NumberEuropa": 197,
-    "ReleaseDate": "2019-01-18T00:00:00",
-    "Interpreter": "Die drei ???"
-  },
-  {
     "Id": "C286A3B0-1D5D-46D0-BEE4-9EEDDC01C705",
     "Title": "Die Legende der Gaukler",
     "NumberEuropa": 198,
@@ -19446,5 +19439,93 @@
     "NumberEuropa": 199,
     "ReleaseDate": "2019-05-17T00:00:00",
     "Interpreter": "Die drei ???"
+  },
+  {
+    "Id": "59B269E5-ECC2-45ED-8FCA-AA052DA76018",
+    "Title": " Im Auge des Sturms",
+    "NumberEuropa": 197,
+    "ReleaseDate": "2019-01-18T00:00:00",
+    "CoverUrl": "https://www.hoerspiel.de/MacsService/Macs/ContentService/102/7784718.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "\"Finde Finnley! Er ist in Gefahr!\" Kurz darauf verliert der Surfer, den Peter verletzt am Strand findet, das Bewusstsein. Doch: Wer ist Finnley? Auf ihrer Suche quer durch Rocky Beach werden Justus, Peter und Bob von einem mysteriösen Mann verfolgt. Vor allem aber muss Peter sein Können als Surfer unter Beweis stellen. Wird es den drei Detektiven gelingen, auch diesen Fall zu lösen? Die Zeit wird knapp, denn ein gewaltiger Sturm zieht auf!",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Matthew Kooning",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Doktor Kooning",
+        "Speaker": "Dietrich Adam"
+      },
+      {
+        "Character": "Mrs. Kooning",
+        "Speaker": "Christiane Leuchtmann"
+      },
+      {
+        "Character": "Finnley Stenseth",
+        "Speaker": "Julian Greis"
+      },
+      {
+        "Character": "Farryn Stenseth",
+        "Speaker": "Clarissa Börner"
+      },
+      {
+        "Character": "Mrs. Stenseth",
+        "Speaker": "Herma Koehn"
+      },
+      {
+        "Character": "Stacey Warren",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Brandon",
+        "Speaker": "Stefan Exner"
+      },
+      {
+        "Character": "Surferin",
+        "Speaker": "Simona Pahl"
+      },
+      {
+        "Character": "Surfer",
+        "Speaker": "Tim Knauer"
+      },
+      {
+        "Character": "Dylan",
+        "Speaker": "Sascha Rotermund"
+      },
+      {
+        "Character": "Steven",
+        "Speaker": "Johannes Korff"
+      },
+      {
+        "Character": "M.Keen",
+        "Speaker": "Detlef Tams"
+      },
+      {
+        "Character": "George",
+        "Speaker": "Mars Saibert"
+      },
+      {
+        "Character": "Mann",
+        "Speaker": "Gunnar Bergmann"
+      }
+    ]
   }
+  
 ]
