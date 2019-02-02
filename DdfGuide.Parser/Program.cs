@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net;
 using DdfGuide.Core;
 using Newtonsoft.Json;
@@ -36,21 +33,8 @@ namespace DdfGuide.Parser
                     interpreter,
                     description,
                     roles);
-
-               
-
+                
                 var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
-                Console.WriteLine(json);
-
-                var allJson = File.ReadAllText("../../../dtos.json");
-                var allAudioDramas = JsonConvert.DeserializeObject<IList<AudioDramaDto>>(allJson);
-
-                if (allAudioDramas.Any(x => x.Title == dto.Title))
-                {
-                    Console.WriteLine($"Audio drama with title {dto.Title} does already exist.");
-                    Console.ReadKey();
-                    return;
-                }
 
                 using (var client = new WebClient())
                 {
@@ -59,9 +43,7 @@ namespace DdfGuide.Parser
 
                 dto.CoverUrl = $"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/{dto.Id}.jpg";
 
-                allAudioDramas.Add(dto);
-                allJson = JsonConvert.SerializeObject(allAudioDramas, Formatting.Indented);
-                File.WriteAllText("../../../dtos.json", allJson);
+                Console.WriteLine(json);
             }
         }
     }
