@@ -33,8 +33,7 @@ namespace DdfGuide.Parser
                     interpreter,
                     description,
                     roles);
-                
-                var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
+
 
                 using (var client = new WebClient())
                 {
@@ -42,6 +41,8 @@ namespace DdfGuide.Parser
                 }
 
                 dto.CoverUrl = $"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/{dto.Id}.jpg";
+
+                var json = JsonConvert.SerializeObject(dto, Formatting.Indented);
 
                 Console.WriteLine(json);
             }
