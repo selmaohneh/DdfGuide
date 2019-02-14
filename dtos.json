@@ -19613,4 +19613,107 @@
     "ReleaseDate": "2019-03-15T00:00:00",
     "Interpreter": "Die drei ??? Kids"
   },
+  {
+    "Id": "8ee8585e-f0ff-47c2-b773-98e05992a034",
+    "Title": "...und die schwarze Katze 2019",
+    "NumberEuropa": null,
+    "ReleaseDate": "2019-02-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8ee8585e-f0ff-47c2-b773-98e05992a034.jpg",
+    "Interpreter": "Die drei ???",
+    "Description": "In einem kleinen Wanderzirkus wittern die drei Detektive Justus, Peter und Bob ihren neuesten Fall. Justus ist sich sicher: Wenn ein finster aussehender Mann mit Gewalt eine hässliche Stoffkatze an sich bringen will, sie dann stiehlt und am nächsten Tag per Zeitungsanzeige weitere Katzen sucht, muss etwas dahinter stecken! Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Andy Carson",
+        "Speaker": "Stefan Schwade"
+      },
+      {
+        "Character": "Carson, Andys Vater",
+        "Speaker": "Hans Kahlert"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Gabbo",
+        "Speaker": "Manfred Reddemann"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Iwan",
+        "Speaker": "Urs Affolter"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Christian Redl"
+      },
+      {
+        "Character": "Khan",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Schaustellerin",
+        "Speaker": "Ursula Sieg"
+      },
+      {
+        "Character": "Vermieter",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Jürgen Holdorf"
+      },
+      {
+        "Character": "Polizist I (Prolog)",
+        "Speaker": "Daniel Welbat"
+      },
+      {
+        "Character": "Polizist II (Prolog)",
+        "Speaker": "Matthias Krauße"
+      },
+      {
+        "Character": "Losverkäufer",
+        "Speaker": "Joachim Kretzer"
+      },
+      {
+        "Character": "Kassiererin",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Feuerschlucker",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Jack",
+        "Speaker": "Timo Alexander Wenzel"
+      },
+      {
+        "Character": "Kinder, ....und viele",
+        "Speaker": "....und viele Kinder"
+      }
+    ]
+  }
 ]
