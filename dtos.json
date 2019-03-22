@@ -19689,13 +19689,6 @@
     ]
   },
   {
-    "Id": "959E19CE-8AF9-4577-9D20-A8BA3CF31DA9",
-    "Title": "Die Rätsel-Falle",
-    "NumberEuropa": 69,
-    "ReleaseDate": "2019-03-15T00:00:00",
-    "Interpreter": "Die drei ??? Kids"
-  },
-  {
     "Id": "8ee8585e-f0ff-47c2-b773-98e05992a034",
     "Title": "...und die schwarze Katze 2019",
     "NumberEuropa": null,
@@ -19795,6 +19788,69 @@
       {
         "Character": "Kinder, ....und viele",
         "Speaker": "....und viele Kinder"
+      }
+    ]
+  },
+  {
+    "Id": "959E19CE-8AF9-4577-9D20-A8BA3CF31DA9",
+    "Title": " Die Rätsel-Falle",
+    "NumberEuropa": 69,
+    "ReleaseDate": "2019-03-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/959E19CE-8AF9-4577-9D20-A8BA3CF31DA9.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein Hilferuf versteckt in einem Kreuzworträtsel! Das haben die drei ??? Kids noch nie erlebt. Wer braucht ihre Hilfe? Die Spur führt in ein geheimnisvolles Seniorenheim. Dort geht die spannende Rätseljagd weiter ...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Mr Moses",
+        "Speaker": "Detlef Bruns"
+      },
+      {
+        "Character": "Mrs Winter",
+        "Speaker": "Daniela Thuar"
+      },
+      {
+        "Character": "Mrs Edvin",
+        "Speaker": "Eva-Maria Kurz"
+      },
+      {
+        "Character": "Mr Stone",
+        "Speaker": "Roman Rossa"
+      },
+      {
+        "Character": "Mrs Fischer",
+        "Speaker": "Luise Lunow"
+      },
+      {
+        "Character": "Tiffman",
+        "Speaker": "Stephan Baumecker"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
       }
     ]
   }
