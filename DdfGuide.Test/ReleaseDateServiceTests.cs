@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
 using DdfGuide.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 
 namespace DdfGuide.Test
 {
@@ -59,6 +63,135 @@ namespace DdfGuide.Test
 
             var isReleased = sut.IsReleased(dto);
             Assert.IsTrue(isReleased);
+        }
+
+        [TestMethod]
+        public void GetDtosReleasedToday_None_ReturnsEmptyList()
+        {
+            var dtoBefore = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.MinValue.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtoAfter = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.MaxValue.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+            
+            var dtos = new List<AudioDramaDto> {dtoBefore, dtoAfter};
+
+            var sut = new ReleaseDateService();
+
+            var todaysReleases = sut.GetTodaysReleasesFrom(dtos);
+
+            Assert.IsFalse(todaysReleases.Any());
+        }
+
+        [TestMethod]
+        public void GetDtosReleasedToday_Single_ReturnsCorrectList()
+        {
+            var dtoBefore = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.MinValue.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtoToday = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.Now.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtoAfter = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.MaxValue.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtos = new List<AudioDramaDto> {dtoBefore, dtoToday, dtoAfter};
+
+            var sut = new ReleaseDateService();
+
+            var todaysReleases = sut.GetTodaysReleasesFrom(dtos).ToList();
+
+            Assert.AreEqual(1, todaysReleases.Count);
+            Assert.IsTrue(todaysReleases.Contains(dtoToday));
+        }
+
+        [TestMethod]
+        public void GetDtosReleasedToday_Multiple_ReturnsCorrectList()
+        {
+            var dtoBefore = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.MinValue.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtoToday1 = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.Now.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtoToday2 = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.Now.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtoAfter = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                null,
+                DateTime.MaxValue.Date,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>());
+
+            var dtos = new List<AudioDramaDto> {dtoBefore, dtoToday1, dtoToday2, dtoAfter};
+
+            var sut = new ReleaseDateService();
+
+            var todaysReleases = sut.GetTodaysReleasesFrom(dtos).ToList();
+
+            Assert.AreEqual(2, todaysReleases.Count);
+            Assert.IsTrue(todaysReleases.Contains(dtoToday1));
+            Assert.IsTrue(todaysReleases.Contains(dtoToday2));
         }
     }
 }
