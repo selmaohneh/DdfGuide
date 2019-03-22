@@ -19853,5 +19853,26 @@
         "Speaker": "Bert Franzke"
       }
     ]
-  }
+  },
+  {
+    "Id": "CF4212C7-16E0-4612-A5AD-90EE76E8CEC6",
+    "Title": "Feuriges Auge",
+    "NumberEuropa": 200,
+    "ReleaseDate": "2019-07-19T00:00:00",
+    "Interpreter": "Die drei ???"
+   },
+   {
+     "Id": "12153CEB-7D82-4BEE-AE2C-CF784186EC06",
+     "Title": "Höhenangst",
+     "NumberEuropa": 201,
+     "ReleaseDate": "2019-09-27T00:00:00",
+     "Interpreter": "Die drei ???"
+    },
+   {
+     "Id": "A5B2BA50-4004-4F31-9FA9-2A0133EBFC67",
+     "Title": "Das weiße Grab",
+     "NumberEuropa": 202,
+     "ReleaseDate": "2019-11-29T00:00:00",
+     "Interpreter": "Die drei ???"
+    }
 ]
