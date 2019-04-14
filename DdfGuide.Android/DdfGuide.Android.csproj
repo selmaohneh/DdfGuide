@@ -75,7 +75,10 @@
     <Compile Include="DtoCache.cs" />
     <Compile Include="IImageViewFiller.cs" />
     <Compile Include="ImageViewFiller.cs" />
+    <Compile Include="JobSchedulerHelpers.cs" />
+    <Compile Include="LastNotificationCache.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="ReleaseNotificationJob.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToastNotifier.cs" />
@@ -100,14 +103,17 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>11.0.1</Version>
+      <Version>12.0.1</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugins.Settings">
       <Version>3.1.1</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v4">
+      <Version>28.0.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.FFImageLoading">
-      <Version>2.4.3.840</Version>
+      <Version>2.4.4.859</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -329,6 +335,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_stat_notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_stat_notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_stat_notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_stat_notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_stat_notification.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

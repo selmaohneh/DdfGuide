@@ -1,5 +1,6 @@
 ﻿using System;
 using Android.App;
+using Android.App.Job;
 using Android.Content.PM;
 using Android.Content.Res;
 using Android.OS;
@@ -40,6 +41,20 @@ namespace DdfGuide.Android
             );
 
             await _ddfGuide.Start();
+
+            ScheduleReleaseNotificationJob();
+        }
+
+        private void ScheduleReleaseNotificationJob()
+        {
+            var jobBuilder = this.CreateJobBuilderUsingJobId<ReleaseNotificationJob>(1);
+            var jobInfo = jobBuilder
+                .SetPeriodic(TimeSpan.FromHours(12).Milliseconds, TimeSpan.FromHours(6).Milliseconds)
+                .SetPersisted(true)
+                .Build();
+
+            var jobScheduler = (JobScheduler) GetSystemService(JobSchedulerService);
+            jobScheduler.Schedule(jobInfo);
         }
 
         public void Show(IView view)
