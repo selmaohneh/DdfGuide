@@ -8,7 +8,8 @@ using DdfGuide.Core;
 
 namespace DdfGuide.Android
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true,ScreenOrientation = ScreenOrientation.Portrait,  ConfigurationChanges = ConfigChanges.Orientation)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true,
+        ScreenOrientation = ScreenOrientation.Portrait, ConfigurationChanges = ConfigChanges.Orientation)]
     public class MainActivity : Activity, IRootView
     {
         private Core.DdfGuide _ddfGuide;
@@ -49,7 +50,7 @@ namespace DdfGuide.Android
         {
             var jobBuilder = this.CreateJobBuilderUsingJobId<ReleaseNotificationJob>(1);
             var jobInfo = jobBuilder
-                .SetPeriodic(TimeSpan.FromHours(12).Milliseconds, TimeSpan.FromHours(6).Milliseconds)
+                .SetPeriodic(TimeSpan.FromHours(6).Milliseconds, TimeSpan.FromHours(1).Milliseconds)
                 .SetPersisted(true)
                 .Build();
 
@@ -61,7 +62,7 @@ namespace DdfGuide.Android
         {
             if (!(view is Fragment fragment))
             {
-               throw new Exception("View needs to be of type Android.App.Fragment");
+                throw new Exception("View needs to be of type Android.App.Fragment");
             }
 
             var transaction = FragmentManager.BeginTransaction();

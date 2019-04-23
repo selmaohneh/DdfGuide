@@ -8,6 +8,7 @@ using Android.OS;
 using Android.Support.V4.App;
 using DdfGuide.Core;
 using FFImageLoading;
+using Nito.AsyncEx;
 
 namespace DdfGuide.Android
 {
@@ -17,73 +18,79 @@ namespace DdfGuide.Android
     {
         public override bool OnStartJob(JobParameters @params)
         {
-            Task.Run(async () =>
-            {
-                var source = new DtoCache();
-                var dtos = source.Load()?.ToList();
-
-                if (dtos == null)
-                {
-                    JobFinished(@params, false);
-                    return;
-                }
-
-                var lastNoficationCache = new LastNotificationCache();
-                var lastNofication = lastNoficationCache.Load();
-
-                if (lastNofication.Date == DateTime.Today)
-                {
-                    JobFinished(@params, false);
-                    return;
-                }
-
-                var releaseDateService = new ReleaseDateService();
-                var releases = releaseDateService.GetTodaysReleasesFrom(dtos).ToList();
-
-                CreateNotificationChannel();
-                var notificationManager = NotificationManagerCompat.From(this);
-
-                for (var i = 0; i < releases.Count; i++)
-                {
-                    var dto = releases[i];
-
-                    var cover = await DownloadCover(dto);
-
-                    var builder = new NotificationCompat.Builder(this, "channelid")
-                        .SetOnlyAlertOnce(true)
-                        .SetAutoCancel(true)
-                        .SetContentTitle($"Neue {dto.Interpreter}-Folge!")
-                        .SetSmallIcon(Resource.Mipmap.ic_stat_notification)
-                        .SetLargeIcon(cover)
-                        .SetContentText(dto.Title);
-
-                    notificationManager.Notify(i, builder.Build());
-
-                    lastNoficationCache.Save(DateTime.Now);
-                }
-
-                JobFinished(@params, false);
-            });
+            Task.Run(() => ShowNotificationsIfApplicable(@params));
 
             return true;
         }
 
-        private async Task<Bitmap> DownloadCover(AudioDramaDto dto)
+        private void ShowNotificationsIfApplicable(JobParameters @params)
         {
-            Bitmap cover = null;
-            try
+            var source = new DtoCache();
+            var dtos = source.Load()?.ToList();
+
+            if (dtos == null)
             {
-                cover = (await ImageService.Instance.LoadUrl(dto.CoverUrl).AsBitmapDrawableAsync()).Bitmap;
-            }
-            finally
-            {
-                if (cover == null)
-                {
-                    cover = BitmapFactory.DecodeResource(Resources, Resource.Drawable.ic_launcher);
-                }
+                JobFinished(@params, false);
+                return;
             }
 
-            return cover;
+            var lastNotificationCache = new LastNotificationCache();
+            var lastNotification = lastNotificationCache.Load();
+
+            if (lastNotification.Date == DateTime.Today)
+            {
+                JobFinished(@params, false);
+                return;
+            }
+
+            var releaseDateService = new ReleaseDateService();
+            var releases = releaseDateService.GetTodaysReleasesFrom(dtos).ToList();
+
+            if (!releases.Any())
+            {
+                JobFinished(@params, false);
+                return;
+            }
+
+            CreateNotificationChannel();
+            var notificationManager = NotificationManagerCompat.From(this);
+
+            for (var i = 0; i < releases.Count; i++)
+            {
+                var dto = releases[i];
+
+                var cover = AsyncContext.Run(() => DownloadCover(dto));
+
+                var builder = new NotificationCompat.Builder(this, "channelid")
+                    .SetAutoCancel(true)
+                    .SetContentTitle($"Neue {dto.Interpreter}-Folge!")
+                    .SetSmallIcon(Resource.Mipmap.ic_stat_notification)
+                    .SetLargeIcon(cover)
+                    .SetContentText(dto.Title);
+
+                notificationManager.Notify(i, builder.Build());
+
+                lastNotificationCache.Save(DateTime.Now);
+            }
+
+            JobFinished(@params, false);
+        }
+
+        private async Task<Bitmap> DownloadCover(AudioDramaDto dto)
+        {
+            if (string.IsNullOrWhiteSpace(dto.CoverUrl))
+            {
+                return BitmapFactory.DecodeResource(Resources, Resource.Drawable.ic_launcher);
+            }
+
+            try
+            {
+                return (await ImageService.Instance.LoadUrl(dto.CoverUrl).AsBitmapDrawableAsync()).Bitmap;
+            }
+            catch (Exception)
+            {
+                return BitmapFactory.DecodeResource(Resources, Resource.Drawable.ic_launcher);
+            }
         }
 
         public override bool OnStopJob(JobParameters @params)

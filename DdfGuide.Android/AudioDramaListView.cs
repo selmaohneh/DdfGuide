@@ -53,6 +53,8 @@ namespace DdfGuide.Android
         private void SetupFloatingRandomButton()
         {
             var fab = _view.FindViewById<FloatingActionButton>(Resource.Id.floatingActionButtonRandom);
+
+            // todo: #26
             fab.SetBackgroundColor(Resources.GetColor(Resource.Color.ddfBlue));
 
             fab.Click += (sender, args) => { RandomClicked?.Invoke(this, EventArgs.Empty); };
@@ -77,6 +79,8 @@ namespace DdfGuide.Android
         {
             _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
             _toolbar.SetTitle(Resource.String.app_name);
+
+            // todo: #26
             _toolbar.SetTitleTextColor(Resources.GetColor(Resource.Color.ddfWhite));
 
             SetupMenuItems();

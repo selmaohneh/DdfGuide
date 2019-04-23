@@ -6,7 +6,6 @@ using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Moq.AutoMock;
 
 namespace DdfGuide.Test
 {
