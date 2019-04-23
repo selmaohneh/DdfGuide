@@ -1,6 +1,6 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/selmaohneh)
-
 # DDF Guide
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/selmaohneh)
 
 Diese Android-App ist ein Open-Source-Fanprojekt. 
 
