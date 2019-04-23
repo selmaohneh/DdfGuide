@@ -55,14 +55,9 @@ namespace DdfGuide.Android
             var favoriteView = view.FindViewById<CheckBox>(Resource.Id.listcheckboxfavorite);
             favoriteView.Checked = audioDrama.AudioDramaUserData.IsFavorite;
 
-            if (_releaseDateService.IsReleased(audioDrama.AudioDramaDto))
-            {
-                view.SetBackgroundColor(Color.White);
-            }
-            else
-            {
-                view.SetBackgroundColor(Color.LightGray);
-            }
+            view.SetBackgroundColor(_releaseDateService.IsReleased(audioDrama.AudioDramaDto)
+                ? Color.White
+                : Color.LightGray);
 
             return view;
         }
