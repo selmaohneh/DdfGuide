@@ -10,13 +10,16 @@ namespace DdfGuide.Core
     {
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaExplorer _explorer;
+        private readonly IUriInvoker _uriInvoker;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView,
-            IAudioDramaExplorer explorer)
+            IAudioDramaExplorer explorer,
+            IUriInvoker uriInvoker)
         {
             _audioDramaListView = audioDramaListView;
             _explorer = explorer;
+            _uriInvoker = uriInvoker;
 
             _audioDramaListView.OrderByHeardFirstClicked += OnSorterChanged(EAudioDramaSortMode.HeardFirst);
             _audioDramaListView.OrderByHeardLastClicked += OnSorterChanged(EAudioDramaSortMode.HeardLast);
@@ -39,7 +42,17 @@ namespace DdfGuide.Core
             _audioDramaListView.DieDreiFragezeichenKidsClicked += OnInterpreterChanged(EAudioDramaFilterMode.DieDreiFragezeichenKids);
             _audioDramaListView.DieDreiClicked += OnInterpreterChanged(EAudioDramaFilterMode.DieDrei);
 
+            _audioDramaListView.DonateClicked += (sender, args) => OnDonateClicked();
+
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
+        }
+
+        private void OnDonateClicked()
+        {
+            const string paypalMeUrl = @"https://www.paypal.me/selmaohneh";
+            var paypalMeUri = new Uri(paypalMeUrl);
+
+            _uriInvoker.Invoke(paypalMeUri);
         }
 
         private EventHandler OnInterpreterChanged(EAudioDramaFilterMode interpreterFilter)

@@ -30,6 +30,7 @@ namespace DdfGuide.Android
             var userDataCache = new UserDataCache();
             var shutdown = new AndroidShutdown(this);
             var userNotifier = new ToastNotifier(this);
+            var uriInvoker = new UriInvoker(this);
 
             _ddfGuide = new Core.DdfGuide(
                 audioDramaListView,
@@ -38,7 +39,8 @@ namespace DdfGuide.Android
                 dtoCache,
                 userDataCache,
                 shutdown,
-                userNotifier
+                userNotifier,
+                uriInvoker
             );
 
             await _ddfGuide.Start();

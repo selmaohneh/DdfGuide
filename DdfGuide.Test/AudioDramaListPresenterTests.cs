@@ -339,6 +339,17 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void DonateClicked_CallPaypalDonateUrl()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            var uriInvoker = _mocker.GetMock<IUriInvoker>();
+
+            listView.Raise(x => x.DonateClicked += null, this, EventArgs.Empty);
+
+            uriInvoker.Verify(x => x.Invoke(new Uri(@"https://www.paypal.me/selmaohneh")), Times.Once);
+        }
+
+        [TestMethod]
         public void DieDreiClicked_UpdateExplorer_UpdateSelectedInterpreterOnView_UpdateAudioDramasOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
