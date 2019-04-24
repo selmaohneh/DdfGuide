@@ -18,6 +18,7 @@ namespace DdfGuide.Core
         private readonly IUserNotifier _userNotifier;
         private readonly IUriInvoker _uriInvoker;
         private readonly IClipboardService _clipboardService;
+        private readonly IYesNoDialog _yesNoDialog;
 
         public DdfGuide(
             IAudioDramaListView audioDramaListView,
@@ -28,7 +29,8 @@ namespace DdfGuide.Core
             IShutdown shutdown,
             IUserNotifier userNotifier,
             IUriInvoker uriInvoker,
-            IClipboardService clipboardService)
+            IClipboardService clipboardService,
+            IYesNoDialog yesNoDialog)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -39,6 +41,7 @@ namespace DdfGuide.Core
             _userNotifier = userNotifier;
             _uriInvoker = uriInvoker;
             _clipboardService = clipboardService;
+            _yesNoDialog = yesNoDialog;
         }
 
         public async Task Start()
