@@ -17,6 +17,7 @@ namespace DdfGuide.Core
         private readonly IShutdown _shutdown;
         private readonly IUserNotifier _userNotifier;
         private readonly IUriInvoker _uriInvoker;
+        private readonly IClipboardService _clipboardService;
 
         public DdfGuide(
             IAudioDramaListView audioDramaListView,
@@ -26,7 +27,8 @@ namespace DdfGuide.Core
             ICache<IEnumerable<AudioDramaUserData>> userDataCache,
             IShutdown shutdown,
             IUserNotifier userNotifier,
-            IUriInvoker uriInvoker)
+            IUriInvoker uriInvoker,
+            IClipboardService clipboardService)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -36,6 +38,7 @@ namespace DdfGuide.Core
             _shutdown = shutdown;
             _userNotifier = userNotifier;
             _uriInvoker = uriInvoker;
+            _clipboardService = clipboardService;
         }
 
         public async Task Start()
@@ -74,7 +77,6 @@ namespace DdfGuide.Core
                 picker,
                 source,
                 _shutdown);
-
 
             try
             {
