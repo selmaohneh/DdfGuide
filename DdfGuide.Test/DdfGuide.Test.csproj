@@ -204,6 +204,7 @@
     <Compile Include="Sorting\ReleaseDateDescendingSorterTests.cs" />
     <Compile Include="UserDataChangedEventTests.cs" />
     <Compile Include="NavigatorTests.cs" />
+    <Compile Include="UserDataImportExportTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
