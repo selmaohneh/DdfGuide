@@ -16,6 +16,7 @@ namespace DdfGuide.Core
         private readonly ICache<IEnumerable<AudioDramaUserData>> _userDataCache;
         private readonly IShutdown _shutdown;
         private readonly IUserNotifier _userNotifier;
+        private readonly IUriInvoker _uriInvoker;
 
         public DdfGuide(
             IAudioDramaListView audioDramaListView,
@@ -24,7 +25,8 @@ namespace DdfGuide.Core
             ICache<IEnumerable<AudioDramaDto>> dtoCache,
             ICache<IEnumerable<AudioDramaUserData>> userDataCache,
             IShutdown shutdown,
-            IUserNotifier userNotifier)
+            IUserNotifier userNotifier,
+            IUriInvoker uriInvoker)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -33,6 +35,7 @@ namespace DdfGuide.Core
             _userDataCache = userDataCache;
             _shutdown = shutdown;
             _userNotifier = userNotifier;
+            _uriInvoker = uriInvoker;
         }
 
         public async Task Start()
@@ -59,7 +62,8 @@ namespace DdfGuide.Core
 
             var audioDramaListPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
-                explorer
+                explorer,
+                _uriInvoker
             );
 
             var navigator = new Navigator(
