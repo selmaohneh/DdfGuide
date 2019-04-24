@@ -34,8 +34,9 @@ namespace DdfGuide.Core
         event EventHandler DieDreiClicked;
 
         event EventHandler DonateClicked;
+        event EventHandler ExportClicked;
 
-        void SetSelectedInterpreter(EAudioDramaFilterMode selectedInterpreter); 
+        void SetSelectedInterpreter(EAudioDramaFilterMode selectedInterpreter);
 
         string GetCurrentSearchText();
         event EventHandler SearchTextChanged;

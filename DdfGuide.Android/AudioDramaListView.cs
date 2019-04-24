@@ -195,6 +195,10 @@ namespace DdfGuide.Android
                     case Resource.Id.action_donate:
                         DonateClicked?.Invoke(this, EventArgs.Empty);
                         return;
+
+                    case Resource.Id.action_export:
+                        ExportClicked?.Invoke(this, EventArgs.Empty);
+                        return;
                 }
             };
         }
@@ -377,5 +381,6 @@ namespace DdfGuide.Android
         public event EventHandler DieDreiFragezeichenKidsClicked;
         public event EventHandler SearchTextChanged;
         public event EventHandler RandomClicked;
+        public event EventHandler ExportClicked;
     }
 }

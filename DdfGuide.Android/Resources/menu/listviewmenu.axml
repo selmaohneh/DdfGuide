@@ -85,6 +85,12 @@
   </item>
 
   <item
+    android:id="@+id/action_export"
+    android:showAsAction="never"
+    android:title="Daten exportieren"
+  />
+
+  <item
     android:id="@+id/action_donate"
     android:showAsAction="never"
     android:title="Spenden"
