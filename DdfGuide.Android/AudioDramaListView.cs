@@ -199,6 +199,10 @@ namespace DdfGuide.Android
                     case Resource.Id.action_export:
                         ExportClicked?.Invoke(this, EventArgs.Empty);
                         return;
+
+                    case Resource.Id.action_import:
+                        ImportClicked?.Invoke(this, EventArgs.Empty);
+                        return;
                 }
             };
         }
@@ -382,5 +386,6 @@ namespace DdfGuide.Android
         public event EventHandler SearchTextChanged;
         public event EventHandler RandomClicked;
         public event EventHandler ExportClicked;
+        public event EventHandler ImportClicked;
     }
 }

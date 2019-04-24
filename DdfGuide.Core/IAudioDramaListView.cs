@@ -35,6 +35,7 @@ namespace DdfGuide.Core
 
         event EventHandler DonateClicked;
         event EventHandler ExportClicked;
+        event EventHandler ImportClicked;
 
         void SetSelectedInterpreter(EAudioDramaFilterMode selectedInterpreter);
 

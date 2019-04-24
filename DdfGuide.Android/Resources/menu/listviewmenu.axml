@@ -91,6 +91,12 @@
   />
 
   <item
+    android:id="@+id/action_import"
+    android:showAsAction="never"
+    android:title="Daten importieren"
+  />
+
+  <item
     android:id="@+id/action_donate"
     android:showAsAction="never"
     android:title="Spenden"
