@@ -32,6 +32,9 @@ namespace DdfGuide.Core
         event EventHandler DieDreiFragezeichenClicked;
         event EventHandler DieDreiFragezeichenKidsClicked;
         event EventHandler DieDreiClicked;
+
+        event EventHandler DonateClicked;
+
         void SetSelectedInterpreter(EAudioDramaFilterMode selectedInterpreter); 
 
         string GetCurrentSearchText();
