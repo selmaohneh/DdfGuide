@@ -191,6 +191,10 @@ namespace DdfGuide.Android
                     case Resource.Id.unheardsonly:
                         UnheardOnlyClicked?.Invoke(this, EventArgs.Empty);
                         return;
+
+                    case Resource.Id.action_donate:
+                        DonateClicked?.Invoke(this, EventArgs.Empty);
+                        return;
                 }
             };
         }
@@ -350,6 +354,8 @@ namespace DdfGuide.Android
             }
         }
 
+
+        public event EventHandler DonateClicked;
         public event EventHandler DieDreiClicked;
         public event EventHandler<Guid> AudioDramaClicked;
         public event EventHandler OrderByHeardFirstClicked;
