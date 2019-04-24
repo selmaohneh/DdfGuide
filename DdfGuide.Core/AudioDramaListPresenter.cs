@@ -11,15 +11,18 @@ namespace DdfGuide.Core
         private readonly IAudioDramaListView _audioDramaListView;
         private readonly IAudioDramaExplorer _explorer;
         private readonly IUriInvoker _uriInvoker;
+        private readonly IUserDataImportExport _importExport;
 
         public AudioDramaListPresenter(
             IAudioDramaListView audioDramaListView,
             IAudioDramaExplorer explorer,
-            IUriInvoker uriInvoker)
+            IUriInvoker uriInvoker,
+            IUserDataImportExport importExport)
         {
             _audioDramaListView = audioDramaListView;
             _explorer = explorer;
             _uriInvoker = uriInvoker;
+            _importExport = importExport;
 
             _audioDramaListView.OrderByHeardFirstClicked += OnSorterChanged(EAudioDramaSortMode.HeardFirst);
             _audioDramaListView.OrderByHeardLastClicked += OnSorterChanged(EAudioDramaSortMode.HeardLast);
@@ -43,8 +46,14 @@ namespace DdfGuide.Core
             _audioDramaListView.DieDreiClicked += OnInterpreterChanged(EAudioDramaFilterMode.DieDrei);
 
             _audioDramaListView.DonateClicked += (sender, args) => OnDonateClicked();
+            _audioDramaListView.ExportClicked += (sender, args) => OnExportClicked();
 
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
+        }
+
+        private void OnExportClicked()
+        {
+            _importExport.ExportUserData();
         }
 
         private void OnDonateClicked()
