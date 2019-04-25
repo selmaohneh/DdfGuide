@@ -73,6 +73,7 @@
     <Compile Include="AudioDramaListView.cs" />
     <Compile Include="AudioDramaView.cs" />
     <Compile Include="ClipboardService.cs" />
+    <Compile Include="OkDialog.cs" />
     <Compile Include="YesNoDialog.cs" />
     <Compile Include="DtoCache.cs" />
     <Compile Include="IImageViewFiller.cs" />

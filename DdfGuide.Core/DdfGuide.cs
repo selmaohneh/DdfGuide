@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DdfGuide.Android;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Searching;
 using DdfGuide.Core.Sorting;
@@ -19,6 +20,7 @@ namespace DdfGuide.Core
         private readonly IUriInvoker _uriInvoker;
         private readonly IClipboardService _clipboardService;
         private readonly IYesNoDialog _yesNoDialog;
+        private readonly IOkDialog _okDialog;
 
         public DdfGuide(
             IAudioDramaListView audioDramaListView,
@@ -30,7 +32,8 @@ namespace DdfGuide.Core
             IUserNotifier userNotifier,
             IUriInvoker uriInvoker,
             IClipboardService clipboardService,
-            IYesNoDialog yesNoDialog)
+            IYesNoDialog yesNoDialog,
+            IOkDialog okDialog)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -42,6 +45,7 @@ namespace DdfGuide.Core
             _uriInvoker = uriInvoker;
             _clipboardService = clipboardService;
             _yesNoDialog = yesNoDialog;
+            _okDialog = okDialog;
         }
 
         public async Task Start()
@@ -66,7 +70,7 @@ namespace DdfGuide.Core
             var explorer = new AudioDramaExplorer(source, searcher, filterFactory, sorterFactory);
             var picker = new RandomAudioDramaPicker();
 
-            var importExport = new UserDataImportExport(_userDataCache, _clipboardService, _yesNoDialog, _userNotifier);
+            var importExport = new UserDataImportExport(_userDataCache, _clipboardService, _yesNoDialog, _userNotifier, _okDialog);
 
             var audioDramaListPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,

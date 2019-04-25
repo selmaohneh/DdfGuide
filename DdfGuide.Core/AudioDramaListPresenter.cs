@@ -47,8 +47,16 @@ namespace DdfGuide.Core
 
             _audioDramaListView.DonateClicked += (sender, args) => OnDonateClicked();
             _audioDramaListView.ExportClicked += (sender, args) => OnExportClicked();
+            _audioDramaListView.ImportClicked += (sender, args) => OnImportClicked();
+
+            _importExport.UserDataImported += (sender, args) => UpdateViewWithMatchingAudioDramas();
 
             _audioDramaListView.SearchTextChanged += OnSearchTextChanged();
+        }
+
+        private void OnImportClicked()
+        {
+            _importExport.ImportUserData();
         }
 
         private void OnExportClicked()

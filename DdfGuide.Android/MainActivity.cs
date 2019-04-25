@@ -32,7 +32,8 @@ namespace DdfGuide.Android
             var userNotifier = new ToastNotifier(this);
             var uriInvoker = new UriInvoker(this);
             var clipboardService = new ClipboardService(this);
-            var dialogService = new YesNoDialog(this);
+            var yesNoDialog = new YesNoDialog(this);
+            var okDialog = new OkDialog(this);
 
             _ddfGuide = new Core.DdfGuide(
                 audioDramaListView,
@@ -44,7 +45,8 @@ namespace DdfGuide.Android
                 userNotifier,
                 uriInvoker,
                 clipboardService,
-                dialogService
+                yesNoDialog,
+                okDialog
             );
 
             await _ddfGuide.Start();
