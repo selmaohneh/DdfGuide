@@ -361,6 +361,17 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void ImportClicked_StartImportLogic()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+            var importExport = _mocker.GetMock<IUserDataImportExport>();
+
+            listView.Raise(x => x.ImportClicked += null, this, EventArgs.Empty);
+
+            importExport.Verify(x => x.ImportUserData(), Times.Once);
+        }
+
+        [TestMethod]
         public void DieDreiClicked_UpdateExplorer_UpdateSelectedInterpreterOnView_UpdateAudioDramasOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
