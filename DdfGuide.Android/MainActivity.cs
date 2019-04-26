@@ -58,7 +58,7 @@ namespace DdfGuide.Android
         {
             var jobBuilder = this.CreateJobBuilderUsingJobId<ReleaseNotificationJob>(1);
             var jobInfo = jobBuilder
-                .SetPeriodic(TimeSpan.FromHours(6).Milliseconds, TimeSpan.FromHours(1).Milliseconds)
+                .SetPeriodic(TimeSpan.FromHours(6).Milliseconds)
                 .SetPersisted(true)
                 .Build();
 
