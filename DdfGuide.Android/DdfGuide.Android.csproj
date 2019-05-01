@@ -74,6 +74,7 @@
     <Compile Include="AudioDramaView.cs" />
     <Compile Include="ClipboardService.cs" />
     <Compile Include="OkDialog.cs" />
+    <Compile Include="SwipeActionListener.cs" />
     <Compile Include="YesNoDialog.cs" />
     <Compile Include="DtoCache.cs" />
     <Compile Include="IImageViewFiller.cs" />
@@ -121,6 +122,9 @@
     </PackageReference>
     <PackageReference Include="Xamarin.FFImageLoading">
       <Version>2.4.4.859</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinSwipeActionAdapter">
+      <Version>1.0.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -357,6 +361,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_stat_notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\swipebackgroundleft.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\swipebackgroundright.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
