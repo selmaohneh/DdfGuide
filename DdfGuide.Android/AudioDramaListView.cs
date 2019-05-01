@@ -7,6 +7,7 @@ using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Views;
 using Android.Widget;
+using Com.Wdullaer.Swipeactionadapter;
 using DdfGuide.Core;
 using DdfGuide.Core.Filtering;
 using DdfGuide.Core.Sorting;
@@ -72,7 +73,34 @@ namespace DdfGuide.Android
                 AudioDramaClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
             };
 
-            _listView.Adapter = _listViewAdapter;
+            var swipeActionAdapter = new SwipeActionAdapter(_listViewAdapter);
+
+            swipeActionAdapter.SetListView(_listView);
+
+            _listView.Adapter = swipeActionAdapter;
+
+            swipeActionAdapter
+                .AddBackground(SwipeDirection.DirectionFarLeft, Resource.Layout.swipebackgroundleft)
+                .AddBackground(SwipeDirection.DirectionFarRight, Resource.Layout.swipebackgroundright)
+                .AddBackground(SwipeDirection.DirectionNormalLeft, Resource.Layout.swipebackgroundleft)
+                .AddBackground(SwipeDirection.DirectionNormalRight, Resource.Layout.swipebackgroundright);
+
+            var swipeActionListener = new SwipeActionListener();
+
+            swipeActionListener.LeftSwiped += (sender, i) =>
+            {
+                var audioDrama = _listViewAdapter[i];
+                HeardClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+            };
+
+            swipeActionListener.RightSwiped += (sender, i) =>
+            {
+                var audioDrama = _listViewAdapter[i];
+                IsFavoriteClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+            };
+
+
+            swipeActionAdapter.SetSwipeActionListener(swipeActionListener);
         }
 
         private void SetupToolbar()
@@ -92,7 +120,7 @@ namespace DdfGuide.Android
         {
             _searchView = _toolbar.FindViewById<SearchView>(Resource.Id.action_search);
 
-            var searchIcon = (ImageView)_searchView.FindViewById(Resource.Id.search_button);
+            var searchIcon = (ImageView) _searchView.FindViewById(Resource.Id.search_button);
             searchIcon.SetImageResource(Resource.Mipmap.baseline_search_white_24);
 
             _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
@@ -209,7 +237,7 @@ namespace DdfGuide.Android
 
         public void SetAudioDramaInfos(IEnumerable<AudioDrama> audioDramas)
         {
-          _listViewAdapter.SetAudioDramas(audioDramas);
+            _listViewAdapter.SetAudioDramas(audioDramas);
         }
 
         public void SetFilterInfos(EAudioDramaFilterMode selectedFilterMode)
@@ -223,7 +251,7 @@ namespace DdfGuide.Android
             var mainsOnlyItem = filterMenu.FindItem(Resource.Id.mainsonly);
             mainsOnlyItem.SetChecked(false);
 
-           var favoritesOnlyItem = filterMenu.FindItem(Resource.Id.favoritesonly);
+            var favoritesOnlyItem = filterMenu.FindItem(Resource.Id.favoritesonly);
             favoritesOnlyItem.SetChecked(false);
 
             var unheardsOnlyItem = filterMenu.FindItem(Resource.Id.unheardsonly);
@@ -248,7 +276,8 @@ namespace DdfGuide.Android
                     break;
                 case EAudioDramaFilterMode.SpecialsOnly:
                     specialsOnlyItem.SetChecked(true);
-                    break;}
+                    break;
+            }
         }
 
         public void SetSelectedSortMode(EAudioDramaSortMode selectedSortMode)
@@ -317,7 +346,8 @@ namespace DdfGuide.Android
                     break;
                 case EAudioDramaSortMode.IsFavoriteLast:
                     isFavoriteLast.SetChecked(true);
-                    break;    }
+                    break;
+            }
         }
 
         public void SetSelectedInterpreter(EAudioDramaFilterMode selectedInterpreter)
@@ -356,7 +386,8 @@ namespace DdfGuide.Android
                 {
                     SetChildTextViewsColor(childViewGroup, colorStateList);
                 }
-                else if (child is TextView childTextView) {
+                else if (child is TextView childTextView)
+                {
                     childTextView.SetTextColor(colorStateList);
                 }
             }
@@ -366,6 +397,8 @@ namespace DdfGuide.Android
         public event EventHandler DonateClicked;
         public event EventHandler DieDreiClicked;
         public event EventHandler<Guid> AudioDramaClicked;
+        public event EventHandler<Guid> IsFavoriteClicked;
+        public event EventHandler<Guid> HeardClicked;
         public event EventHandler OrderByHeardFirstClicked;
         public event EventHandler OrderByHeardLastClicked;
         public event EventHandler OrderByIsFavoriteFirstClicked;

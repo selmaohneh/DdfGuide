@@ -70,13 +70,15 @@ namespace DdfGuide.Core
             var explorer = new AudioDramaExplorer(source, searcher, filterFactory, sorterFactory);
             var picker = new RandomAudioDramaPicker();
 
-            var importExport = new UserDataImportExport(_userDataCache, _clipboardService, _yesNoDialog, _userNotifier, _okDialog);
+            var importExport = new UserDataImportExport(_userDataCache, _clipboardService, _yesNoDialog, _userNotifier,
+                _okDialog);
 
             var audioDramaListPresenter = new AudioDramaListPresenter(
                 _audioDramaListView,
                 explorer,
                 _uriInvoker,
-                importExport
+                importExport,
+                source
             );
 
             var navigator = new Navigator(

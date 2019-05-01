@@ -43,5 +43,7 @@ namespace DdfGuide.Core
         event EventHandler SearchTextChanged;
 
         event EventHandler RandomClicked;
+        event EventHandler<Guid> IsFavoriteClicked;
+        event EventHandler<Guid> HeardClicked;
     }
 }

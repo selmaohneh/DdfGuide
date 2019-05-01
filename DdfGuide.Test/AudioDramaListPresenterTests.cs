@@ -28,10 +28,14 @@ namespace DdfGuide.Test
 
             _mocker.Use<IEnumerable<AudioDrama>>(_audioDramas);
 
+            _mocker
+                .Setup<ISource<IEnumerable<AudioDrama>>, IEnumerable<AudioDrama>>(x => x.Get())
+                .Returns(_audioDramas);
+
             _sut = _mocker.CreateInstance<AudioDramaListPresenter>();
             _sut.SetModel(_audioDramas);
         }
-        
+
 
         [TestMethod]
         public void SetNewModel_UpdateAudioDramasOnView()
@@ -76,7 +80,7 @@ namespace DdfGuide.Test
             explorer.Invocations.Clear();
 
             listView.Raise(x => x.OrderByHeardFirstClicked += null, this, EventArgs.Empty);
-            
+
             explorer.Verify(x => x.SetSortMode(EAudioDramaSortMode.HeardFirst), Times.Once);
             listView.Verify(x => x.SetSelectedSortMode(EAudioDramaSortMode.HeardFirst), Times.Once);
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
@@ -323,7 +327,8 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void DieDreiFragezeichenKidsClicked_UpdateExplorer_UpdateSelectedInterpreterOnView_UpdateAudioDramasOnView()
+        public void
+            DieDreiFragezeichenKidsClicked_UpdateExplorer_UpdateSelectedInterpreterOnView_UpdateAudioDramasOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var explorer = _mocker.GetMock<IAudioDramaExplorer>();
@@ -372,6 +377,60 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void HeardClicked_ModelGetsUpdated()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+
+            var heard = _audioDramas[0].AudioDramaUserData.Heard;
+
+            listView.Raise(x => x.HeardClicked += null, this, _audioDramas[0].AudioDramaDto.Id);
+            Assert.AreNotEqual(heard, _audioDramas[0].AudioDramaUserData.Heard);
+
+            listView.Raise(x => x.HeardClicked += null, this, _audioDramas[0].AudioDramaDto.Id);
+            Assert.AreEqual(heard, _audioDramas[0].AudioDramaUserData.Heard);
+        }
+
+        [TestMethod]
+        public void HeardClicked_ViewGetsUpdated()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+
+            listView.Invocations.Clear();
+
+            listView.Raise(x => x.HeardClicked += null, this, _audioDramas[0].AudioDramaDto.Id);
+
+            listView.Verify(
+                x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
+        }
+
+        [TestMethod]
+        public void IsFavoriteClicked_ModelGetsUpdated()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+
+            var favorite = _audioDramas[0].AudioDramaUserData.IsFavorite;
+
+            listView.Raise(x => x.IsFavoriteClicked += null, this, _audioDramas[0].AudioDramaDto.Id);
+            Assert.AreNotEqual(favorite, _audioDramas[0].AudioDramaUserData.IsFavorite);
+
+            listView.Raise(x => x.IsFavoriteClicked += null, this, _audioDramas[0].AudioDramaDto.Id);
+            Assert.AreEqual(favorite, _audioDramas[0].AudioDramaUserData.IsFavorite);
+        }
+
+        [TestMethod]
+        public void IsFavoriteClicked_ViewGetsUpdated()
+        {
+            var listView = _mocker.GetMock<IAudioDramaListView>();
+
+            listView.Invocations.Clear();
+
+            listView.Raise(x => x.IsFavoriteClicked += null, this, _audioDramas[0].AudioDramaDto.Id);
+
+            listView.Verify(
+                x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()), Times.Once());
+        }
+
+        [TestMethod]
         public void DieDreiClicked_UpdateExplorer_UpdateSelectedInterpreterOnView_UpdateAudioDramasOnView()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
@@ -399,7 +458,7 @@ namespace DdfGuide.Test
             listView.Setup(x => x.GetCurrentSearchText()).Returns("Homer Simpson");
 
             listView.Raise(x => x.SearchTextChanged += null, this, EventArgs.Empty);
-            
+
             explorer.Verify(x => x.SetSearchText("Homer Simpson"), Times.Once);
             listView.Verify(x => x.SetAudioDramaInfos(It.IsAny<IEnumerable<AudioDrama>>()));
         }
