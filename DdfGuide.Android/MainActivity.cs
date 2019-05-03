@@ -23,13 +23,13 @@ namespace DdfGuide.Android
 
             var releaseDateService = new ReleaseDateService();
             var filler = new ImageViewFiller();
-            var audioDramaListView = new AudioDramaListView(filler, releaseDateService);
+            var userNotifier = new ToastNotifier(this);
+            var audioDramaListView = new AudioDramaListView(filler, releaseDateService,userNotifier);
             var audioDramaView = new AudioDramaView(filler);
             var rootView = this;
             var dtoCache = new DtoCache();
             var userDataCache = new UserDataCache();
             var shutdown = new AndroidShutdown(this);
-            var userNotifier = new ToastNotifier(this);
             var uriInvoker = new UriInvoker(this);
             var clipboardService = new ClipboardService(this);
             var yesNoDialog = new YesNoDialog(this);

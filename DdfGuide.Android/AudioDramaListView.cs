@@ -19,12 +19,14 @@ namespace DdfGuide.Android
     {
         private readonly IImageViewFiller _imageViewFiller;
         private readonly IReleaseDateService _releaseDateService;
+        private readonly IUserNotifier _userNotifier;
         private View _view;
         private Toolbar _toolbar;
         private SearchView _searchView;
         private AudioDramaListAdapter _listViewAdapter;
         private ListView _listView;
         private TabLayout _tabLayout;
+        private SwipeActionListener _swipeActionListener;
 
         /// <summary>
         /// Fragments need a default constructor. Needed for old android versions.
@@ -34,10 +36,12 @@ namespace DdfGuide.Android
             _imageViewFiller = new ImageViewFiller();
         }
 
-        public AudioDramaListView(IImageViewFiller imageViewFiller, IReleaseDateService releaseDateService)
+        public AudioDramaListView(IImageViewFiller imageViewFiller, IReleaseDateService releaseDateService,
+            IUserNotifier userNotifier)
         {
             _imageViewFiller = imageViewFiller;
             _releaseDateService = releaseDateService;
+            _userNotifier = userNotifier;
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -85,22 +89,36 @@ namespace DdfGuide.Android
                 .AddBackground(SwipeDirection.DirectionNormalLeft, Resource.Layout.swipebackgroundleft)
                 .AddBackground(SwipeDirection.DirectionNormalRight, Resource.Layout.swipebackgroundright);
 
-            var swipeActionListener = new SwipeActionListener();
+            _swipeActionListener = new SwipeActionListener();
 
-            swipeActionListener.LeftSwiped += (sender, i) =>
+            _swipeActionListener.LeftSwiped += (sender, i) =>
             {
-                var audioDrama = _listViewAdapter[i];
-                HeardClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+                try
+                {
+                    var audioDrama = _listViewAdapter[i];
+                    HeardClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+                }
+                catch (ArgumentOutOfRangeException)
+                {
+                    _userNotifier.Notify("Fehler beim Markieren als gehört. Bitte erneut versuchen.");
+                }
             };
 
-            swipeActionListener.RightSwiped += (sender, i) =>
+            _swipeActionListener.RightSwiped += (sender, i) =>
             {
-                var audioDrama = _listViewAdapter[i];
-                IsFavoriteClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+                try
+                {
+                    var audioDrama = _listViewAdapter[i];
+                    IsFavoriteClicked?.Invoke(this, audioDrama.AudioDramaDto.Id);
+                }
+                catch (ArgumentOutOfRangeException)
+                {
+                    _userNotifier.Notify("Fehler beim Markieren als Favorit. Bitte erneut versuchen.");
+                }
             };
 
 
-            swipeActionAdapter.SetSwipeActionListener(swipeActionListener);
+            swipeActionAdapter.SetSwipeActionListener(_swipeActionListener);
         }
 
         private void SetupToolbar()
