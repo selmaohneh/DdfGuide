@@ -19520,7 +19520,61 @@
     "ReleaseDate": "2019-05-17T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/C914505C-BDE7-416E-9AEA-13F4816DBB46.jpg",
     "Interpreter": "Die drei ???",
-    "Description": "Ein grüner Kobold mit blechernem Herzschlag, der nachts über die Flure geistert. Wahrlich keine gute Werbung für ein Hotel. Die drei ??? glauben keine Sekunde an das Wesen, bis sie die Aufzeichnungen der Überwachungskamera sehen ..."
+    "Description": "Ein grüner Kobold mit blechernem Herzschlag, der nachts über die Flure geistert. Wahrlich keine gute Werbung für ein Hotel. Die drei ??? glauben keine Sekunde an das Wesen, bis sie die Aufzeichnungen der Überwachungskamera sehen ...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Mr. Aaron Grover",
+        "Speaker": "Gernot Endemann"
+      },
+      {
+        "Character": "Msr. Patricia Grover",
+        "Speaker": "Heidi Berndt"
+      },
+      {
+        "Character": "Elodie Grover",
+        "Speaker": "Henrike Fehrs"
+      },
+      {
+        "Character": "Desmond Cathpole",
+        "Speaker": "Martin Brücker"
+      },
+      {
+        "Character": "Hausmeister Spencer",
+        "Speaker": "Werner Cartano"
+      },
+      {
+        "Character": "Mr. Rubberwood",
+        "Speaker": "Udo Schenk"
+      },
+      {
+        "Character": "Mr. Parker Mayfield",
+        "Speaker": "Holger Umbreit"
+      }
+    ]
   },
   {
     "Id": "59B269E5-ECC2-45ED-8FCA-AA052DA76018",
