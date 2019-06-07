@@ -19931,11 +19931,62 @@
      "Interpreter": "Die drei ???"
     },
     {
-      "Id": "2FD6DC9F-4C15-4858-B456-0001797D6ACB",
-      "Title": "Aufbruch ins All",
-      "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2FD6DC9F-4C15-4858-B456-0001797D6ACB.jpg",
-      "NumberEuropa": 70,
-      "ReleaseDate": "2019-05-31T00:00:00",
-      "Interpreter": "Die drei ??? Kids"
-     }
+    "Id": "2FD6DC9F-4C15-4858-B456-0001797D6ACB",
+    "Title": " Aufbruch ins All",
+    "NumberEuropa": 70,
+    "ReleaseDate": "2019-05-31T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2FD6DC9F-4C15-4858-B456-0001797D6ACB.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Justus, Peter und Bob freuen sich auf ein Inselabenteuer vor der Küste von Rocky Beach. Doch plötzlich taucht aus dem Wasser etwas Unheimliches auf. Ist eine Weltraumstation ins Meer gestürzt? Die drei Detektive ermitteln.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andreas",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Fischer",
+        "Speaker": "Marko Bräutigam"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "John Miller",
+        "Speaker": "Frank Kessler"
+      },
+      {
+        "Character": "Ringo",
+        "Speaker": "Moritz Lindbergh"
+      },
+      {
+        "Character": "Jason",
+        "Speaker": "Daniel Sellier"
+      },
+      {
+        "Character": "Fowler",
+        "Speaker": "François Smesny"
+      },
+      {
+        "Character": "Dr. Tiggert",
+        "Speaker": "Frank Röth"
+      }
+    ]
+  }
 ]
