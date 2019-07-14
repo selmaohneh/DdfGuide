@@ -19914,8 +19914,131 @@
     "NumberEuropa": 200,
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/CF4212C7-16E0-4612-A5AD-90EE76E8CEC6.jpg",
     "ReleaseDate": "2019-07-19T00:00:00",
-    "Interpreter": "Die drei ???"
-   },
+    "Interpreter": "Die drei ???",
+    "Description": "Justus Jonas ist verschwunden! Während Peter und Bob den Ersten Detektiv verzweifelt suchen, stolpern sie über Spuren aus ihrer eigenen Vergangenheit. Haben die drei ??? vor Jahren den \"Fluch des Rubins\" wirklich gebannt und hat Justus` Verschwinden etwas mit diesem längst zu den Akten gelegten Fall um den mysteriösen Edelstein zu tun? Schnell steht fest, dass das Feurige Auge mehr Geheimnisse birgt, als die drei ??? ahnen können... Die Folge ist auch als MC, Vinyl, Download und CD Deluxe inkl. Sticker erhältlich.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Off-Sprecher",
+        "Speaker": "Udo Schenk"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Timothy",
+        "Speaker": "Peter Buchholz"
+      },
+      {
+        "Character": "Karin Lieneweg",
+        "Speaker": "Tante Mathilda"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Inspector Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Goodween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Rubbish George",
+        "Speaker": "Hans Peter Korff"
+      },
+      {
+        "Character": "Vikram",
+        "Speaker": "Michael Deffert"
+      },
+      {
+        "Character": "Bonnie Newman",
+        "Speaker": "Carla Becker"
+      },
+      {
+        "Character": "Mr August",
+        "Speaker": "Carlo von Tiedemann"
+      },
+      {
+        "Character": "Gus August",
+        "Speaker": "Stephan Chrzescinski"
+      },
+      {
+        "Character": "Helena",
+        "Speaker": "Neda Rahmanian"
+      },
+      {
+        "Character": "Mr. Anderson",
+        "Speaker": "Hubertus Meyer-Burckhardt"
+      },
+      {
+        "Character": "Gabriel White",
+        "Speaker": "Till Hagen"
+      },
+      {
+        "Character": "Solomon Charles",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Mr. Dwiggins",
+        "Speaker": "Hanns Jörg Krumpholz"
+      },
+      {
+        "Character": "Mr. Randur",
+        "Speaker": "Eckart Dux"
+      },
+      {
+        "Character": "Beaver",
+        "Speaker": "Peter Franke"
+      },
+      {
+        "Character": "Jariwala",
+        "Speaker": "Till Demtröder"
+      },
+      {
+        "Character": "Shakrabati",
+        "Speaker": "Sonny Pathak"
+      },
+      {
+        "Character": "Shekinah",
+        "Speaker": "Madeleine Weingart"
+      },
+      {
+        "Character": "Nachtwächter",
+        "Speaker": "Wolfgang Häntsch"
+      },
+      {
+        "Character": "Maria",
+        "Speaker": "Caroline Kiesewetter"
+      },
+      {
+        "Character": "Bruce",
+        "Speaker": "Michael Lott"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Mars Saibert"
+      },
+      {
+        "Character": "Officer",
+        "Speaker": "Helge Halvé"
+      }
+    ]
+  },
    {
      "Id": "12153CEB-7D82-4BEE-AE2C-CF784186EC06",
      "Title": "Höhenangst",
@@ -19932,7 +20055,7 @@
     },
     {
     "Id": "2FD6DC9F-4C15-4858-B456-0001797D6ACB",
-    "Title": " Aufbruch ins All",
+    "Title": "Aufbruch ins All",
     "NumberEuropa": 70,
     "ReleaseDate": "2019-05-31T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2FD6DC9F-4C15-4858-B456-0001797D6ACB.jpg",
