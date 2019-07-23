@@ -20118,6 +20118,77 @@
     "NumberEuropa": 71,
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/A778E6B0-A313-4488-8ED6-A674A6E160D3.jpg",
     "ReleaseDate": "2019-07-26T00:00:00",
-    "Interpreter": "Die drei ??? Kids"
-   }
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Die neueste Attraktion in Rocky Beach ist ein spektakulärer Jump-Park. Doch kurz nach der Eröffnung kommt es zu rätselhaften Pannen. Wer will den Park ruinieren? Die drei ??? Kids machen sich auf die Suche nach dem Täter und geraten dabei selbst in Gefahr.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Kira Clarkson",
+        "Speaker": "Mareike Fell"
+      },
+      {
+        "Character": "Huck Snyder",
+        "Speaker": "Tom Solo"
+      },
+      {
+        "Character": "Robinson",
+        "Speaker": "Gilles Karolyi"
+      },
+      {
+        "Character": "Michael",
+        "Speaker": "Francais Smesni"
+      },
+      {
+        "Character": "Kapitän Nemo",
+        "Speaker": "Christian Blecken"
+      },
+      {
+        "Character": "Meerjungfrau",
+        "Speaker": "Moira May"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Skinny Noris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Mädchen",
+        "Speaker": "Helene Blanck"
+      },
+      {
+        "Character": "Mutter",
+        "Speaker": "Silke Haupt"
+      }
+    ]
+  }
 ]
