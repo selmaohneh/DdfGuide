@@ -1,5 +1,5 @@
 # DDF Guide 
-## Eine Open-Source-Datenbank-App für alle "Die drei ???"- Fans unter Android! 
+### Eine Open-Source-Datenbank-App für alle "Die drei ???"- Fans unter Android! 
 ![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/DdfGuide.Android/Resources/drawable/ic_launcher.png)
 
 Die jeweils aktuelle Releaseversion steht auch [im Google Play Store](https://play.google.com/store/apps/details?id=celloapps.ddfguide) zur Verfügung. 
