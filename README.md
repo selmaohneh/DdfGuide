@@ -1,6 +1,6 @@
 # DDF Guide
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/selmaohneh)
+[Kaffee? :-)](https://www.buymeacoffee.com/SaMAsU1N6)
 
 Diese Android-App ist ein Open-Source-Fanprojekt. 
 
