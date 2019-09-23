@@ -11,7 +11,7 @@ Die jeweils aktuelle Releaseversion steht [im Google Play Store](https://play.go
 * Mit den Such-/Filter- und Sortierfunktionen können Folgen organisiert werden. Es lassen sich so z.B. alle Folgen suchen, in denen Skinny Norris mitspielt oder in denen Bastian Pastewka spricht. "Wie hieß die Folge noch gleich?" war gestern!
 * Deine Daten können im- und exportiert werden. Dadurch kannst du mehrere Android-Geräte synchronisieren oder einfach deine Daten sichern, wenn du mal dein Gerät wechselst.
 #### Contributing
-* Bugs bitte direkt [unter Issues](https://github.com/selmaohneh/DdfGuide/issues) eingetragen.
+* Bugs bitte direkt [unter Issues](https://github.com/selmaohneh/DdfGuide/issues) eintragen.
 * [Kaffee? :-)](https://www.buymeacoffee.com/SaMAsU1N6)
 
 „Die drei ???“ sind eine eingetragene Marke der Franckh-Kosmos Verlags-GmbH & Co. KG, Stuttgart.
