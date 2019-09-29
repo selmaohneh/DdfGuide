@@ -20039,21 +20039,77 @@
       }
     ]
   },
-   {
-     "Id": "12153CEB-7D82-4BEE-AE2C-CF784186EC06",
-     "Title": "Höhenangst",
-     "NumberEuropa": 201,
-     "ReleaseDate": "2019-09-27T00:00:00",
-     "Interpreter": "Die drei ???"
-    },
-   {
-     "Id": "A5B2BA50-4004-4F31-9FA9-2A0133EBFC67",
-     "Title": "Das weiße Grab",
-     "NumberEuropa": 202,
-     "ReleaseDate": "2019-11-29T00:00:00",
-     "Interpreter": "Die drei ???"
-    },
-    {
+  {
+    "Id": "12153CEB-7D82-4BEE-AE2C-CF784186EC06",
+    "Title": "Höhenangst",
+    "NumberEuropa": 201,
+    "ReleaseDate": "2019-09-27T00:00:00",
+    "Interpreter": "Die drei ???",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/12153CEB-7D82-4BEE-AE2C-CF784186EC06.jpg",
+    "Description": "Ein unbekannter Anrufer behauptet, Bob wäre der einzige Augenzeuge eines Mordes. Und als wäre das nicht schon seltsam genug, handelt das neueste Buch des Autors Ben Hustler von genau diesem Verbrechen. Bob glaubt an einen schlechten Scherz. Doch als er beginnt, die ersten Kapitel von \"Höhenangst\" zu lesen, überkommt ihn eine Gänsehaut .",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Ben Hustler",
+        "Speaker": "Christian Brückner"
+      },
+      {
+        "Character": "Loomy",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Angie",
+        "Speaker": "Angelika Bartsch"
+      },
+      {
+        "Character": "Lesley",
+        "Speaker": "Ann Montenbruck"
+      },
+      {
+        "Character": "Buchhändlerin",
+        "Speaker": "Victoria Fleer"
+      },
+      {
+        "Character": "Inspector Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs Andrews",
+        "Speaker": "Heidrun von Goessel"
+      },
+      {
+        "Character": "Kathy",
+        "Speaker": "Celine Fontanges"
+      },
+      {
+        "Character": "Harry",
+        "Speaker": "Woody Mues"
+      }
+    ]
+  },
+  {
+    "Id": "A5B2BA50-4004-4F31-9FA9-2A0133EBFC67",
+    "Title": "Das weiße Grab",
+    "NumberEuropa": 202,
+    "ReleaseDate": "2019-11-29T00:00:00",
+    "Interpreter": "Die drei ???"
+  },
+  {
     "Id": "2FD6DC9F-4C15-4858-B456-0001797D6ACB",
     "Title": "Aufbruch ins All",
     "NumberEuropa": 70,
