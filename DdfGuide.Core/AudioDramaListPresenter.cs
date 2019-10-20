@@ -92,10 +92,10 @@ namespace DdfGuide.Core
 
         private void OnDonateClicked()
         {
-            const string paypalMeUrl = @"https://www.paypal.me/selmaohneh";
-            var paypalMeUri = new Uri(paypalMeUrl);
+            const string coffeeUrl = @"https://www.buymeacoffee.com/SaMAsU1N6";
+            var coffeeUri = new Uri(coffeeUrl);
 
-            _uriInvoker.Invoke(paypalMeUri);
+            _uriInvoker.Invoke(coffeeUri);
         }
 
         private EventHandler OnInterpreterChanged(EAudioDramaFilterMode interpreterFilter)

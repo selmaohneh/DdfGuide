@@ -99,6 +99,6 @@
   <item
     android:id="@+id/action_donate"
     android:showAsAction="never"
-    android:title="Spenden"
+    android:title="Kaffee?"
     />
 </menu>
