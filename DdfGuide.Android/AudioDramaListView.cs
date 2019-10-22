@@ -238,8 +238,8 @@ namespace DdfGuide.Android
                         UnheardOnlyClicked?.Invoke(this, EventArgs.Empty);
                         return;
 
-                    case Resource.Id.action_donate:
-                        DonateClicked?.Invoke(this, EventArgs.Empty);
+                    case Resource.Id.action_contribute:
+                        ContributeClicked?.Invoke(this, EventArgs.Empty);
                         return;
 
                     case Resource.Id.action_export:
@@ -412,7 +412,7 @@ namespace DdfGuide.Android
         }
 
 
-        public event EventHandler DonateClicked;
+        public event EventHandler ContributeClicked;
         public event EventHandler DieDreiClicked;
         public event EventHandler<Guid> AudioDramaClicked;
         public event EventHandler<Guid> IsFavoriteClicked;

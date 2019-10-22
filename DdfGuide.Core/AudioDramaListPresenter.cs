@@ -52,7 +52,7 @@ namespace DdfGuide.Core
                 OnInterpreterChanged(EAudioDramaFilterMode.DieDreiFragezeichenKids);
             _audioDramaListView.DieDreiClicked += OnInterpreterChanged(EAudioDramaFilterMode.DieDrei);
 
-            _audioDramaListView.DonateClicked += (sender, args) => OnDonateClicked();
+            _audioDramaListView.ContributeClicked += (sender, args) => OnContributeClicked();
             _audioDramaListView.ExportClicked += (sender, args) => OnExportClicked();
             _audioDramaListView.ImportClicked += (sender, args) => OnImportClicked();
 
@@ -90,12 +90,12 @@ namespace DdfGuide.Core
             _importExport.ExportUserData();
         }
 
-        private void OnDonateClicked()
+        private void OnContributeClicked()
         {
-            const string coffeeUrl = @"https://www.buymeacoffee.com/SaMAsU1N6";
-            var coffeeUri = new Uri(coffeeUrl);
+            const string githubUrl = @"https://github.com/selmaohneh/DdfGuide";
+            var githubUri = new Uri(githubUrl);
 
-            _uriInvoker.Invoke(coffeeUri);
+            _uriInvoker.Invoke(githubUri);
         }
 
         private EventHandler OnInterpreterChanged(EAudioDramaFilterMode interpreterFilter)

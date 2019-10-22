@@ -349,7 +349,7 @@ namespace DdfGuide.Test
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var uriInvoker = _mocker.GetMock<IUriInvoker>();
 
-            listView.Raise(x => x.DonateClicked += null, this, EventArgs.Empty);
+            listView.Raise(x => x.ContributeClicked += null, this, EventArgs.Empty);
 
             uriInvoker.Verify(x => x.Invoke(new Uri(@"https://www.paypal.me/selmaohneh")), Times.Once);
         }

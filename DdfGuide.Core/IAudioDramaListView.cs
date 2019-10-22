@@ -33,7 +33,7 @@ namespace DdfGuide.Core
         event EventHandler DieDreiFragezeichenKidsClicked;
         event EventHandler DieDreiClicked;
 
-        event EventHandler DonateClicked;
+        event EventHandler ContributeClicked;
         event EventHandler ExportClicked;
         event EventHandler ImportClicked;
 

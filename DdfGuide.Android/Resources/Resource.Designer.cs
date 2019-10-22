@@ -2381,11 +2381,11 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08007c
 			public const int action_context_bar = 2131230844;
 			
+			// aapt resource value: 0x7f0800d8
+			public const int action_contribute = 2131230936;
+			
 			// aapt resource value: 0x7f0800b3
 			public const int action_divider = 2131230899;
-			
-			// aapt resource value: 0x7f0800d8
-			public const int action_donate = 2131230936;
 			
 			// aapt resource value: 0x7f0800d6
 			public const int action_export = 2131230934;
