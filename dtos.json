@@ -20266,5 +20266,60 @@
     "Interpreter": "Die drei ???",
     "Description": "Das Planetarium Special jetzt auch limitiert auf CD und MC und auch als Download erhältlich.",
     "Roles": []
+  },
+  {
+    "Id": "7745a34c-8756-41c1-9a2f-c99b8c0afdb6",
+    "Title": " Die Laser-Falle",
+    "NumberEuropa": 72,
+    "ReleaseDate": "2019-09-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7745a34c-8756-41c1-9a2f-c99b8c0afdb6.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Leuchtende Termitenhügel sind die Attraktion im Nationalpark Termiten-City. Das wollen sich Justus, Peter und Bob natürlich nicht entgehen lassen. Doch plötzlich werden Besucher von den kleinen Insekten scheinbar ausgeraubt. Die drei Detektive brauchen jetzt starke Nerven.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Klotzki",
+        "Speaker": "Marco Bräutigam"
+      },
+      {
+        "Character": "Stryker",
+        "Speaker": "Robert Frank"
+      },
+      {
+        "Character": "Busfahrer",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Ranger",
+        "Speaker": "Thomas Dehler"
+      },
+      {
+        "Character": "Nedderburg",
+        "Speaker": "Rainer Gerlach"
+      },
+      {
+        "Character": "Wanderer",
+        "Speaker": "Frank Röth"
+      },
+      {
+        "Character": "Pilot",
+        "Speaker": "Frank Kessler"
+      }
+    ]
   }
 ]
