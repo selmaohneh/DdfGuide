@@ -20349,11 +20349,12 @@
     "ReleaseDate": "2020-01-31T00:00:00",
     "Interpreter": "Die drei ??? Kids",
   },
+  {
     "Id": "7681bd91-51ba-4169-9090-df86211f7e4d",
     "Title": "...und der dreiäugige Totenkopf",
     "NumberEuropa": null,
     "ReleaseDate": "2020-02-07T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7681bd91-51ba-4169-9090-df86211f7e4d.jpg",
-    "Interpreter": "Die drei ???",
+    "Interpreter": "Die drei ???"
   }
 ]
