@@ -20499,6 +20499,72 @@
     "NumberEuropa": 73,
     "ReleaseDate": "2019-11-15T00:00:00",
     "Interpreter": "Die drei ??? Kids",
+      "Roles": [
+  {
+    "Character": "Justus Jonas",
+    "Speaker": "Jannik Schümann"
+  },
+  {
+    "Character": "Peter Shaw",
+    "Speaker": "Yoshij Grimm"
+  },
+  {
+    "Character": "Bob Andrews",
+    "Speaker": "David Wittmann"
+  },
+  {
+    "Character": "Erzähler",
+    "Speaker": "Johannes Steck"
+  },
+  {
+    "Character": "Andy",
+    "Speaker": "Martin Keßler"
+  },
+  {
+    "Character": "Olivia",
+    "Speaker": "Cathlen Gawlich"
+  },
+  {
+    "Character": "Mr Pinkert",
+    "Speaker": "Peter Nottmeier"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Achim Schülke"
+  },
+  {
+    "Character": "Tante Mathilda",
+    "Speaker": "Ingrid Capelle"
+  },
+  {
+    "Character": "Kommissar Reynolds",
+    "Speaker": "Bert Franzke"
+  },
+  {
+    "Character": "Giovanni",
+    "Speaker": "Roland Geiger"
+  },
+  {
+    "Character": "Mrs Higgers",
+    "Speaker": "Karin Grüger"
+  },
+  {
+    "Character": "Porter",
+    "Speaker": "Tommi Piper"
+  },
+  {
+    "Character": "Marc Snyder",
+    "Speaker": "Moritz Lindberg"
+  },
+  {
+    "Character": "Reporterin",
+    "Speaker": "Sabine König"
+  },
+  {
+    "Character": "Jayden",
+    "Speaker": "Daniel Sellier"
+  }
+],
       "Description": "Surfprofi Andy behauptet, das Horn an seinem legendären Surfbrett stamme von einem Einhorn. Als das Fabelwesen in Rocky Beach gesichtet wird, haben Justus, Peter und Bob einen neuen Fall..."
   },
    {
