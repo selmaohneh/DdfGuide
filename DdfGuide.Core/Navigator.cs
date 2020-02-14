@@ -13,6 +13,7 @@ namespace DdfGuide.Core
         private readonly IRandomAudioDramaPicker _picker;
         private readonly ISource<IEnumerable<AudioDrama>> _source;
         private readonly IShutdown _shutdown;
+        private readonly IUpdatingView _updatingView;
 
         public Navigator(
             IRootView rootView,
@@ -21,7 +22,8 @@ namespace DdfGuide.Core
             IAudioDramaExplorer explorer,
             IRandomAudioDramaPicker picker,
             ISource<IEnumerable<AudioDrama>> source,
-            IShutdown shutdown)
+            IShutdown shutdown,
+            IUpdatingView updatingView)
         {
             _rootView = rootView;
             _audioDramaPresenter = audioDramaPresenter;
@@ -30,6 +32,7 @@ namespace DdfGuide.Core
             _picker = picker;
             _source = source;
             _shutdown = shutdown;
+            _updatingView = updatingView;
 
             InitNavigationEvents();
         }
@@ -38,6 +41,11 @@ namespace DdfGuide.Core
         {
             Show(_audioDramaListPresenter.GetView());
             _audioDramaListPresenter.SetModel(_source.Get());
+        }
+
+        public void ShowUpdateView()
+        {
+            Show(_updatingView);
         }
 
         private void InitNavigationEvents()

@@ -26,12 +26,13 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public async Task Startup_ShowAudioDramaListViewAsync()
+        public async Task Startup_ShowUpdatingView_ShowAudioDramaListViewAsync()
         {
             var rootView = _mocker.GetMock<IRootView>();
 
             await _systemUnderTest.Start();
 
+            rootView.Verify(x => x.Show(It.IsAny<IUpdatingView>()));
             rootView.Verify(x => x.Show(It.IsAny<IAudioDramaListView>()));
         }
     }

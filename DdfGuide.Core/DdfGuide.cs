@@ -21,6 +21,7 @@ namespace DdfGuide.Core
         private readonly IClipboardService _clipboardService;
         private readonly IYesNoDialog _yesNoDialog;
         private readonly IOkDialog _okDialog;
+        private readonly IUpdatingView _updatingView;
 
         public DdfGuide(
             IAudioDramaListView audioDramaListView,
@@ -33,7 +34,8 @@ namespace DdfGuide.Core
             IUriInvoker uriInvoker,
             IClipboardService clipboardService,
             IYesNoDialog yesNoDialog,
-            IOkDialog okDialog)
+            IOkDialog okDialog,
+            IUpdatingView updatingView)
         {
             _audioDramaListView = audioDramaListView;
             _audioDramaView = audioDramaView;
@@ -46,6 +48,7 @@ namespace DdfGuide.Core
             _clipboardService = clipboardService;
             _yesNoDialog = yesNoDialog;
             _okDialog = okDialog;
+            _updatingView = updatingView;
         }
 
         public async Task Start()
@@ -88,17 +91,20 @@ namespace DdfGuide.Core
                 explorer,
                 picker,
                 source,
-                _shutdown);
+                _shutdown,
+                _updatingView);
+
+            navigator.ShowUpdateView();
 
             try
             {
-                await source.Update();
+               await source.Update();
             }
             catch (Exception)
             {
                 // needed due to using async void. Otherwise
                 // all exception will bubble up until here and crash the app.
-                _userNotifier.Notify("Aktualisierung fehlgeschlagen. Keine Intertverbindung.");
+                _userNotifier.Notify("Aktualisierung aus unbekannten Grund fehlgeschlagen.");
             }
 
             navigator.ShowStartView();

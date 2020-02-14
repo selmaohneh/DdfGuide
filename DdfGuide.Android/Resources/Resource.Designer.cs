@@ -2381,20 +2381,20 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08007c
 			public const int action_context_bar = 2131230844;
 			
-			// aapt resource value: 0x7f0800d8
-			public const int action_contribute = 2131230936;
+			// aapt resource value: 0x7f0800da
+			public const int action_contribute = 2131230938;
 			
 			// aapt resource value: 0x7f0800b3
 			public const int action_divider = 2131230899;
 			
-			// aapt resource value: 0x7f0800d6
-			public const int action_export = 2131230934;
+			// aapt resource value: 0x7f0800d8
+			public const int action_export = 2131230936;
 			
 			// aapt resource value: 0x7f0800ad
 			public const int action_image = 2131230893;
 			
-			// aapt resource value: 0x7f0800d7
-			public const int action_import = 2131230935;
+			// aapt resource value: 0x7f0800d9
+			public const int action_import = 2131230937;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2411,8 +2411,8 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08005b
 			public const int action_mode_close_button = 2131230811;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int action_search = 2131230914;
+			// aapt resource value: 0x7f0800c4
+			public const int action_search = 2131230916;
 			
 			// aapt resource value: 0x7f0800ae
 			public const int action_text = 2131230894;
@@ -2558,14 +2558,14 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080071
 			public const int expanded_menu = 2131230833;
 			
-			// aapt resource value: 0x7f0800cd
-			public const int favoritesfirst = 2131230925;
+			// aapt resource value: 0x7f0800cf
+			public const int favoritesfirst = 2131230927;
 			
-			// aapt resource value: 0x7f0800ce
-			public const int favoriteslast = 2131230926;
+			// aapt resource value: 0x7f0800d0
+			public const int favoriteslast = 2131230928;
 			
-			// aapt resource value: 0x7f0800d4
-			public const int favoritesonly = 2131230932;
+			// aapt resource value: 0x7f0800d6
+			public const int favoritesonly = 2131230934;
 			
 			// aapt resource value: 0x7f08004f
 			public const int fill = 2131230799;
@@ -2576,11 +2576,11 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080047
 			public const int fill_vertical = 2131230791;
 			
-			// aapt resource value: 0x7f0800cf
-			public const int filteritem = 2131230927;
+			// aapt resource value: 0x7f0800d1
+			public const int filteritem = 2131230929;
 			
-			// aapt resource value: 0x7f0800d0
-			public const int filtermenu = 2131230928;
+			// aapt resource value: 0x7f0800d2
+			public const int filtermenu = 2131230930;
 			
 			// aapt resource value: 0x7f080053
 			public const int @fixed = 2131230803;
@@ -2594,11 +2594,11 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
 			
-			// aapt resource value: 0x7f0800cb
-			public const int heardfirst = 2131230923;
+			// aapt resource value: 0x7f0800cd
+			public const int heardfirst = 2131230925;
 			
-			// aapt resource value: 0x7f0800cc
-			public const int heardlast = 2131230924;
+			// aapt resource value: 0x7f0800ce
+			public const int heardlast = 2131230926;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
@@ -2630,6 +2630,9 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f08009e
 			public const int largeLabel = 2131230878;
 			
+			// aapt resource value: 0x7f0800c0
+			public const int launcher_updatinglayout = 2131230912;
+			
 			// aapt resource value: 0x7f080048
 			public const int left = 2131230792;
 			
@@ -2654,11 +2657,11 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080097
 			public const int listcheckboxheard = 2131230871;
 			
-			// aapt resource value: 0x7f0800d2
-			public const int mainsonly = 2131230930;
+			// aapt resource value: 0x7f0800d4
+			public const int mainsonly = 2131230932;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int masked = 2131230913;
+			// aapt resource value: 0x7f0800c3
+			public const int masked = 2131230915;
 			
 			// aapt resource value: 0x7f0800b2
 			public const int media_actions = 2131230898;
@@ -2696,29 +2699,29 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f0800b4
 			public const int notification_main_column_container = 2131230900;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int orderitem = 2131230915;
-			
-			// aapt resource value: 0x7f0800c4
-			public const int ordermenu = 2131230916;
-			
-			// aapt resource value: 0x7f0800ca
-			public const int ordernameascending = 2131230922;
-			
-			// aapt resource value: 0x7f0800c9
-			public const int ordernamedescending = 2131230921;
-			
-			// aapt resource value: 0x7f0800c8
-			public const int ordernumberascending = 2131230920;
-			
-			// aapt resource value: 0x7f0800c7
-			public const int ordernumberdescending = 2131230919;
+			// aapt resource value: 0x7f0800c5
+			public const int orderitem = 2131230917;
 			
 			// aapt resource value: 0x7f0800c6
-			public const int orderreleasedateascending = 2131230918;
+			public const int ordermenu = 2131230918;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int orderreleasedatedescending = 2131230917;
+			// aapt resource value: 0x7f0800cc
+			public const int ordernameascending = 2131230924;
+			
+			// aapt resource value: 0x7f0800cb
+			public const int ordernamedescending = 2131230923;
+			
+			// aapt resource value: 0x7f0800ca
+			public const int ordernumberascending = 2131230922;
+			
+			// aapt resource value: 0x7f0800c9
+			public const int ordernumberdescending = 2131230921;
+			
+			// aapt resource value: 0x7f0800c8
+			public const int orderreleasedateascending = 2131230920;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int orderreleasedatedescending = 2131230919;
 			
 			// aapt resource value: 0x7f08004b
 			public const int parallax = 2131230795;
@@ -2731,6 +2734,9 @@ namespace DdfGuide.Android
 			
 			// aapt resource value: 0x7f08004c
 			public const int pin = 2131230796;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int progressBar = 2131230913;
 			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
@@ -2825,8 +2831,8 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080024
 			public const int showTitle = 2131230756;
 			
-			// aapt resource value: 0x7f0800d1
-			public const int showall = 2131230929;
+			// aapt resource value: 0x7f0800d3
+			public const int showall = 2131230931;
 			
 			// aapt resource value: 0x7f08009d
 			public const int smallLabel = 2131230877;
@@ -2843,8 +2849,8 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080063
 			public const int spacer = 2131230819;
 			
-			// aapt resource value: 0x7f0800d3
-			public const int specialsonly = 2131230931;
+			// aapt resource value: 0x7f0800d5
+			public const int specialsonly = 2131230933;
 			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
@@ -2957,8 +2963,8 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
-			// aapt resource value: 0x7f0800d5
-			public const int unheardsonly = 2131230933;
+			// aapt resource value: 0x7f0800d7
+			public const int unheardsonly = 2131230935;
 			
 			// aapt resource value: 0x7f08002c
 			public const int uniform = 2131230764;
@@ -2975,8 +2981,8 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int visible = 2131230912;
+			// aapt resource value: 0x7f0800c2
+			public const int visible = 2131230914;
 			
 			// aapt resource value: 0x7f08003b
 			public const int withText = 2131230779;
@@ -3243,6 +3249,9 @@ namespace DdfGuide.Android
 			
 			// aapt resource value: 0x7f040043
 			public const int tooltip = 2130968643;
+			
+			// aapt resource value: 0x7f040044
+			public const int updatinglayout = 2130968644;
 			
 			static Layout()
 			{

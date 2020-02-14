@@ -344,14 +344,14 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
-        public void DonateClicked_CallPaypalDonateUrl()
+        public void HelpClicked_CallGithubUrl()
         {
             var listView = _mocker.GetMock<IAudioDramaListView>();
             var uriInvoker = _mocker.GetMock<IUriInvoker>();
 
             listView.Raise(x => x.ContributeClicked += null, this, EventArgs.Empty);
 
-            uriInvoker.Verify(x => x.Invoke(new Uri(@"https://www.paypal.me/selmaohneh")), Times.Once);
+            uriInvoker.Verify(x => x.Invoke(new Uri(@"https://github.com/selmaohneh/DdfGuide")), Times.Once);
         }
 
         [TestMethod]

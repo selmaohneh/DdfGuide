@@ -11,6 +11,18 @@ using FFImageLoading.Views;
 
 namespace DdfGuide.Android
 {
+    public class UpdatingView : Fragment, IUpdatingView
+    {
+        private View _view;
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            _view = inflater.Inflate(Resource.Layout.updatinglayout, container, false);
+
+            return _view;
+        }
+    }
+
     public class AudioDramaView : Fragment, IAudioDramaView
     {
         private readonly IImageViewFiller _imageViewFiller;

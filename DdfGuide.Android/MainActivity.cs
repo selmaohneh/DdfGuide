@@ -34,6 +34,7 @@ namespace DdfGuide.Android
             var clipboardService = new ClipboardService(this);
             var yesNoDialog = new YesNoDialog(this);
             var okDialog = new OkDialog(this);
+            var updatingView = new UpdatingView();
 
             _ddfGuide = new Core.DdfGuide(
                 audioDramaListView,
@@ -46,7 +47,8 @@ namespace DdfGuide.Android
                 uriInvoker,
                 clipboardService,
                 yesNoDialog,
-                okDialog
+                okDialog,
+                updatingView
             );
 
             await _ddfGuide.Start();
