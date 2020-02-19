@@ -20681,5 +20681,13 @@
     "Interpreter": "Die drei ???",
     "Description": "Eigentlich sollte Bob in dem einsam gelegenen Haus nur Katzen füttern. Doch dann läuft etwas furchtbar schief. Als sich der dritte Detektiv nicht mehr meldet, tappen Justus und Peter im Dunkeln. Steckt etwa der verschrobene Besitzer des Hauses dahinter?",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b05734fa-747d-4df0-9441-cbda91745780.jpg",
+  },
+   {
+    "Id": "4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc",
+    "Title": "...und das rätselhafte Erbe",
+    "NumberEuropa": 205,
+    "ReleaseDate": "2020-05-15T00:00:00",
+    "Interpreter": "Die drei ???",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc.jpg",
   }
 ]
