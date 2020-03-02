@@ -20689,5 +20689,19 @@
     "ReleaseDate": "2020-05-15T00:00:00",
     "Interpreter": "Die drei ???",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc.jpg",
+  },
+   {
+    "Id": "c8863869-d448-49a4-8770-ae2718d5ff76",
+    "Title": "...und der Mottenmann",
+    "NumberEuropa": 206,
+    "ReleaseDate": "2020-07-17T00:00:00",
+    "Interpreter": "Die drei ???"
+  },
+    {
+    "Id": "b4e9ff48-decd-4bfb-970d-3de019ecff98",
+    "Title": "Die falschen Detektive",
+    "NumberEuropa": 207,
+    "ReleaseDate": "2020-09-25T00:00:00",
+    "Interpreter": "Die drei ???"
   }
 ]
