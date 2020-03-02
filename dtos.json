@@ -20572,7 +20572,63 @@
     "Title": "Das Schienen-Monster",
     "NumberEuropa": 74,
     "ReleaseDate": "2020-01-31T00:00:00",
-    "Interpreter": "Die drei ??? Kids"
+    "Interpreter": "Die drei ??? Kids",
+     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/fb7cd1b8-d814-48f7-8b70-3820dbd377bf.jpg",
+     "Description": "Justus, Peter und Bob dürfen in einem supermodernen Zug mitreisen. Während sie die coole Technik testen, fällt plötzlich im gesamten Zug der Strom aus. Wer steckt dahinter? Die drei Detektive ermitteln in einem neuen Fall!",
+     "Roles": [
+  {
+    "Character": "Justus Jonas",
+    "Speaker": "Jannik Schümann"
+  },
+  {
+    "Character": "Peter Shaw",
+    "Speaker": "Yoshij Grimm"
+  },
+  {
+    "Character": "Bob Andrews",
+    "Speaker": "David Wittmann"
+  },
+  {
+    "Character": "Erzähler",
+    "Speaker": "Johannes Steck"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Achim Schülke"
+  },
+  {
+    "Character": "Tante Mathilda",
+    "Speaker": "Ingrid Capelle"
+  },
+  {
+    "Character": "Kommissar Reynolds",
+    "Speaker": "Bert Franzke"
+  },
+  {
+    "Character": "Mac Stew",
+    "Speaker": "Roland Geiger"
+  },
+  {
+    "Character": "Mr Borgs",
+    "Speaker": "Gregor Höppner"
+  },
+  {
+    "Character": "Dienobot",
+    "Speaker": "Sebastian Walch"
+  },
+  {
+    "Character": "Operator",
+    "Speaker": "Lisa Maria Mino"
+  },
+  {
+    "Character": "Cobra 1",
+    "Speaker": "Andreas Ersson"
+  },
+  {
+    "Character": "Cobra 2",
+    "Speaker": "Thomas Güthaus"
+  }
+]
   },
   {
     "Id": "7681bd91-51ba-4169-9090-df86211f7e4d",
