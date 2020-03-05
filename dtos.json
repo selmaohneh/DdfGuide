@@ -20499,6 +20499,72 @@
     "NumberEuropa": 73,
     "ReleaseDate": "2019-11-15T00:00:00",
     "Interpreter": "Die drei ??? Kids",
+      "Roles": [
+  {
+    "Character": "Justus Jonas",
+    "Speaker": "Jannik Schümann"
+  },
+  {
+    "Character": "Peter Shaw",
+    "Speaker": "Yoshij Grimm"
+  },
+  {
+    "Character": "Bob Andrews",
+    "Speaker": "David Wittmann"
+  },
+  {
+    "Character": "Erzähler",
+    "Speaker": "Johannes Steck"
+  },
+  {
+    "Character": "Andy",
+    "Speaker": "Martin Keßler"
+  },
+  {
+    "Character": "Olivia",
+    "Speaker": "Cathlen Gawlich"
+  },
+  {
+    "Character": "Mr Pinkert",
+    "Speaker": "Peter Nottmeier"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Achim Schülke"
+  },
+  {
+    "Character": "Tante Mathilda",
+    "Speaker": "Ingrid Capelle"
+  },
+  {
+    "Character": "Kommissar Reynolds",
+    "Speaker": "Bert Franzke"
+  },
+  {
+    "Character": "Giovanni",
+    "Speaker": "Roland Geiger"
+  },
+  {
+    "Character": "Mrs Higgers",
+    "Speaker": "Karin Grüger"
+  },
+  {
+    "Character": "Porter",
+    "Speaker": "Tommi Piper"
+  },
+  {
+    "Character": "Marc Snyder",
+    "Speaker": "Moritz Lindberg"
+  },
+  {
+    "Character": "Reporterin",
+    "Speaker": "Sabine König"
+  },
+  {
+    "Character": "Jayden",
+    "Speaker": "Daniel Sellier"
+  }
+],
       "Description": "Surfprofi Andy behauptet, das Horn an seinem legendären Surfbrett stamme von einem Einhorn. Als das Fabelwesen in Rocky Beach gesichtet wird, haben Justus, Peter und Bob einen neuen Fall..."
   },
    {
@@ -20506,7 +20572,63 @@
     "Title": "Das Schienen-Monster",
     "NumberEuropa": 74,
     "ReleaseDate": "2020-01-31T00:00:00",
-    "Interpreter": "Die drei ??? Kids"
+    "Interpreter": "Die drei ??? Kids",
+     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/fb7cd1b8-d814-48f7-8b70-3820dbd377bf.jpg",
+     "Description": "Justus, Peter und Bob dürfen in einem supermodernen Zug mitreisen. Während sie die coole Technik testen, fällt plötzlich im gesamten Zug der Strom aus. Wer steckt dahinter? Die drei Detektive ermitteln in einem neuen Fall!",
+     "Roles": [
+  {
+    "Character": "Justus Jonas",
+    "Speaker": "Jannik Schümann"
+  },
+  {
+    "Character": "Peter Shaw",
+    "Speaker": "Yoshij Grimm"
+  },
+  {
+    "Character": "Bob Andrews",
+    "Speaker": "David Wittmann"
+  },
+  {
+    "Character": "Erzähler",
+    "Speaker": "Johannes Steck"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Achim Schülke"
+  },
+  {
+    "Character": "Tante Mathilda",
+    "Speaker": "Ingrid Capelle"
+  },
+  {
+    "Character": "Kommissar Reynolds",
+    "Speaker": "Bert Franzke"
+  },
+  {
+    "Character": "Mac Stew",
+    "Speaker": "Roland Geiger"
+  },
+  {
+    "Character": "Mr Borgs",
+    "Speaker": "Gregor Höppner"
+  },
+  {
+    "Character": "Dienobot",
+    "Speaker": "Sebastian Walch"
+  },
+  {
+    "Character": "Operator",
+    "Speaker": "Lisa Maria Mino"
+  },
+  {
+    "Character": "Cobra 1",
+    "Speaker": "Andreas Ersson"
+  },
+  {
+    "Character": "Cobra 2",
+    "Speaker": "Thomas Güthaus"
+  }
+]
   },
   {
     "Id": "7681bd91-51ba-4169-9090-df86211f7e4d",
@@ -20515,6 +20637,96 @@
     "ReleaseDate": "2020-02-07T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7681bd91-51ba-4169-9090-df86211f7e4d.jpg",
     "Interpreter": "Die drei ???",
+    "Roles": [
+    {
+    "Character": "Erzähler",
+    "Speaker": "Thomas Fritsch"
+  },
+  {
+    "Character": "Justus Jonas",
+    "Speaker": "Oliver Rohrbeck"
+  },
+  {
+    "Character": "Peter Shaw",
+    "Speaker": "Jens Wawrczek"
+  },
+  {
+    "Character": "Bob Andrews",
+    "Speaker": "Andreas Fröhlich"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Rüdiger Schulzki"
+  },
+  {
+    "Character": "Tante Mathilda",
+    "Speaker": "Karin Lieneweg"
+  },
+  {
+    "Character": "Roger Kind",
+    "Speaker": "Holger Mahlich"
+  },
+  {
+    "Character": "R. Kind als Regisseur Kushing",
+    "Speaker": "Holger Mahlich"
+  },
+  {
+    "Character": "R. Kind als Cotta",
+    "Speaker": "Holger Mahlich"
+  },
+  {
+    "Character": "Inspektor Cotta",
+    "Speaker": "Holger Mahlich"
+  },
+  {
+    "Character": "Regisseur Kushing",
+    "Speaker": "Tim Grobe"
+  },
+  {
+    "Character": "Melanie Shepard",
+    "Speaker": "Christiane Leuchtmann"
+  },
+  {
+    "Character": "Laura",
+    "Speaker": "Henrike Fehrs"
+  },
+  {
+    "Character": "Lara Bix",
+    "Speaker": "Ursula Sieg"
+  },
+  {
+    "Character": "Jason Frost",
+    "Speaker": "Robert Missler"
+  },
+  {
+    "Character": "Kellnerin",
+    "Speaker": "Simona Pahl"
+  },
+  {
+    "Character": "Museumsdame",
+    "Speaker": "Rhea Harder"
+  },
+  {
+    "Character": "Monsterpuppe",
+    "Speaker": "Kerstin Draeger"
+  },
+  {
+    "Character": "Betty Frost",
+    "Speaker": "Rosemarie Wohlbauer"
+  },
+  {
+    "Character": "Wachmann",
+    "Speaker": "Markus Schäfer"
+  },
+  {
+    "Character": "Kameramann",
+    "Speaker": "Helgé Halvé"
+  },
+  {
+    "Character": "Tonmann",
+    "Speaker": "Timo Alexander Wenzel"
+  }
+    ],
     "Description": "Horror-Regisseur James Kushing erwacht eines Morgens mit einer mysteriösen Tätowierung auf dem Arm: ein dreiaugiger Totenkopf! Was hat das Tattoo mit dem Film zu tun, den Kushing niemals fertiggestellt hat? Und welches Geheimnis steckt hinter dem gestohlenen Smaragd, der vor Jahren spurlos vom Filmset verschwand? Justus, Peter und Bob stürzen sich in den Fall und entdecken nach und nach die Wahrheit hinter dem Rätsel..."
   },
   {
@@ -20525,5 +20737,27 @@
     "Interpreter": "Die drei ???",
     "Description": "Eigentlich sollte Bob in dem einsam gelegenen Haus nur Katzen füttern. Doch dann läuft etwas furchtbar schief. Als sich der dritte Detektiv nicht mehr meldet, tappen Justus und Peter im Dunkeln. Steckt etwa der verschrobene Besitzer des Hauses dahinter?",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b05734fa-747d-4df0-9441-cbda91745780.jpg",
+  },
+   {
+    "Id": "4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc",
+    "Title": "...und das rätselhafte Erbe",
+    "NumberEuropa": 205,
+    "ReleaseDate": "2020-05-15T00:00:00",
+    "Interpreter": "Die drei ???",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc.jpg",
+  },
+   {
+    "Id": "c8863869-d448-49a4-8770-ae2718d5ff76",
+    "Title": "...und der Mottenmann",
+    "NumberEuropa": 206,
+    "ReleaseDate": "2020-07-17T00:00:00",
+    "Interpreter": "Die drei ???"
+  },
+    {
+    "Id": "b4e9ff48-decd-4bfb-970d-3de019ecff98",
+    "Title": "Die falschen Detektive",
+    "NumberEuropa": 207,
+    "ReleaseDate": "2020-09-25T00:00:00",
+    "Interpreter": "Die drei ???"
   }
 ]
