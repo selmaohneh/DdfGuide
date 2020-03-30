@@ -20737,6 +20737,52 @@
     "Interpreter": "Die drei ???",
     "Description": "Eigentlich sollte Bob in dem einsam gelegenen Haus nur Katzen füttern. Doch dann läuft etwas furchtbar schief. Als sich der dritte Detektiv nicht mehr meldet, tappen Justus und Peter im Dunkeln. Steckt etwa der verschrobene Besitzer des Hauses dahinter?",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b05734fa-747d-4df0-9441-cbda91745780.jpg",
+    "Roles": [
+  {
+    "Character": "Erzähler",
+    "Speaker": "Axel Milberg"
+  },
+  {
+    "Character": "Justus Jonas, Erster Detektiv",
+    "Speaker": "Oliver Rohrbeck"
+  },
+  {
+    "Character": "Peter Shaw, Zweiter Detektiv",
+    "Speaker": "Jens Wawrczeck"
+  },
+  {
+    "Character": "Bob Andrews, Recherchen und Archiv",
+    "Speaker": "Andreas Fröhlich"
+  },
+  {
+    "Character": "Mary",
+    "Speaker": "Marion Gretchen"
+  },
+  {
+    "Character": "Tante Mathilda",
+    "Speaker": "Karin Lieneweg"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Rüdiger Schulzki"
+  },
+  {
+    "Character": "Potato",
+    "Speaker": "Fred"
+  },
+  {
+    "Character": "Mr. Pinches",
+    "Speaker": "Jürgen Uter"
+  },
+  {
+    "Character": "Carter Bridou",
+    "Speaker": "Peter G. Dirmeier"
+  },
+  {
+    "Character": "Inspektor Cotta",
+    "Speaker": "Holger Mahlich"
+  }
+]
   },
    {
     "Id": "4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc",
