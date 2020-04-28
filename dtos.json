@@ -20805,5 +20805,72 @@
     "NumberEuropa": 207,
     "ReleaseDate": "2020-09-25T00:00:00",
     "Interpreter": "Die drei ???"
+  },
+  {
+    "Id": "c06a15e2-2285-45a1-a39a-5f6d4faf5df4",
+    "Title": "Der Fußball-Roboter",
+    "NumberEuropa": 75,
+    "ReleaseDate": "2020-04-17T00:00:00",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Ein wirklich außergewöhnliches Fußballturnier findet auf dem Marktplatz in Rocky Beach statt. Fußball-Roboter spielen im K.-o.-System gegeneinander. Aber gleich zu Beginn des Turniers passieren mysteriöse Dinge. Im Finale müssen die drei ??? Kids gegen einen Roboter antreten, der alle Tricks draufhat.",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c06a15e2-2285-45a1-a39a-5f6d4faf5df4.jpg",
+    "Roles": [
+  {
+    "Character": "Justus Jonas",
+    "Speaker": "Jannik Schümann"
+  },
+  {
+    "Character": "Peter Shaw",
+    "Speaker": "Yoshij Grimm"
+  },
+  {
+    "Character": "Bob Andrews",
+    "Speaker": "David Wittmann"
+  },
+  {
+    "Character": "Erzähler",
+    "Speaker": "Johannes Steck"
+  },
+  {
+    "Character": "Elton Maskata",
+    "Speaker": "Lutz Mackensy"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Achim Schülke"
+  },
+  {
+    "Character": "Skinny Norris",
+    "Speaker": "Tim Kreuer"
+  },
+  {
+    "Character": "Mr Porter",
+    "Speaker": "Tommi Piper"
+  },
+  {
+    "Character": "Tante Mathilda",
+    "Speaker": "Ingrid Capelle"
+  },
+  {
+    "Character": "Robinson",
+    "Speaker": "Marko Bräutigam"
+  },
+  {
+    "Character": "Louis",
+    "Speaker": "Felix Würgler"
+  },
+  {
+    "Character": "Anthony Silverman",
+    "Speaker": "Till Hagen"
+  },
+  {
+    "Character": "Spielleiter",
+    "Speaker": "Markus Krane"
+  },
+  {
+    "Character": "Kommissar Reynolds",
+    "Speaker": "Bert Franzke"
+  }
+]
   }
 ]
