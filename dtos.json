@@ -20751,7 +20751,55 @@
     "Title": "...und der Mottenmann",
     "NumberEuropa": 206,
     "ReleaseDate": "2020-07-17T00:00:00",
-    "Interpreter": "Die drei ???"
+    "Interpreter": "Die drei ???",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c8863869-d448-49a4-8770-ae2718d5ff76.jpg",
+    "Description": "In Rocky Beach taucht eine schaurige Gestalt auf: Ein geflügeltes Wesen mit leuchtend roten Augen. Zeitgleich häufen sich die Unglücksfälle und Diebstähle in der beschaulichen Küstenstadt. Justus, Peter und Bob vermuten einen Zusammenhang und stürzen sich in die Ermittlungen, um das Geheimnis des Mottenmanns zu lüften.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mr. Mason Huntington",
+        "Speaker": "Wolfgang Häntsch"
+      },
+      {
+        "Character": "Mrs. Brankle",
+        "Speaker": "Mignon Remé"
+      },
+      {
+        "Character": "Xeni",
+        "Speaker": "Lina Maria Millat"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Mrs. Seymore-Wrightson",
+        "Speaker": "Rosemarie Wohlbauer"
+      },
+      {
+        "Character": "Franklyn Seymore",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Liane Shore",
+        "Speaker": "Sadra Keck"
+      }
+    ]
   },
     {
     "Id": "b4e9ff48-decd-4bfb-970d-3de019ecff98",
