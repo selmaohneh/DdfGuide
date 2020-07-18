@@ -20991,5 +20991,72 @@
     "Speaker": "Bert Franzke"
   }
 ]
+  },
+  {
+    "Id": "3f59b130-5e9b-4bef-93dd-9f04b4b9ee19",
+    "Title": "Blinde Passagiere",
+    "NumberEuropa": 76,
+    "ReleaseDate": "2020-05-29",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3f59b130-5e9b-4bef-93dd-9f04b4b9ee19.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Vor der Küste von Rocky Beach liegt ein großes Kreuzfahrtschiff vor Anker. Doch an Bord geschehen seltsame Dinge und anscheinend macht sich eine Diebesbande ans Werk. Justus, Peter und Bob gehen der Sache auf den Grund - und mischen sich unter die Passagiere.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Ernesto Porto",
+        "Speaker": "Holger Löwenberg"
+      },
+      {
+        "Character": "Stuart Cameron",
+        "Speaker": "Ingo Abel"
+      },
+      {
+        "Character": "Mr Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Roland Geiger"
+      },
+      {
+        "Character": "Kapitän Parker",
+        "Speaker": "Bodo Henkel"
+      },
+      {
+        "Character": "Vivian Baxter ",
+        "Speaker": "Tanja Lipinski"
+      },
+      {
+        "Character": "Jacobs",
+        "Speaker": "Dennis Herrmann"
+      },
+      {
+        "Character": "Chester Baxter",
+        "Speaker": "Hendrik Martz"
+      },
+      {
+        "Character": "Onkel Titus ",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Küstenwache",
+        "Speaker": "Ansgar Döbertin"
+      }
+    ]
   }
 ]
