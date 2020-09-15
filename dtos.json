@@ -21040,7 +21040,7 @@
         "Speaker": "Bodo Henkel"
       },
       {
-        "Character": "Vivian Baxter ",
+        "Character": "Vivian Baxter",
         "Speaker": "Tanja Lipinski"
       },
       {
@@ -21058,6 +21058,61 @@
       {
         "Character": "Küstenwache",
         "Speaker": "Ansgar Döbertin"
+      }
+    ]
+  },
+  {
+    "Id": "287dcea8-c8ee-4753-95e7-a1376e64eaef",
+    "Title": "Die Musikdiebe",
+    "NumberEuropa": 77,
+    "ReleaseDate": "2020-07-31",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/287dcea8-c8ee-4753-95e7-a1376e64eaef.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "Description": "Aus dem Tonstudio des Popstars Modena wurde ein Song gestohlen. Kann Modena ihrem Team nicht mehr vertrauen? Als Chorsänger getarnt begeben sich die drei ??? Kids auf die Spur des Diebes.",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Modena",
+        "Speaker": "Annabelle Krieg"
+      },
+      {
+        "Character": "John de Meza",
+        "Speaker": "Frank Ramond"
+      },
+      {
+        "Character": "Mutter von Josy",
+        "Speaker": "Anja Welzel"
+      },
+      {
+        "Character": "Josy",
+        "Speaker": "Anni Salander"
       }
     ]
   }
