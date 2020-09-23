@@ -20111,47 +20111,47 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/A5B2BA50-4004-4F31-9FA9-2A0133EBFC67.jpg",
     "Description": "So hatten sich die drei Detektive ihre Auszeit in den Bergen nicht vorgestellt. Nach dem Abgang einer Lawine stecken sie in einer Hütte fest! Mit ihnen zwei Wanderer und eine Bewohnerin des nahegelegenen Bergdorfs. Und als wäre die Situation nicht heikel genug, beginnen die Detektivinstinkte der drei ??? Alarm zu schlagen. Gibt es etwa eine Verbindung zwischen den Personen und dem geheimnisvollen Unfall, der vor einiger Zeit hier passierte?",
     "Roles": [
-  {
-    "Character": "Erzähler",
-    "Speaker": "Axel Milberg"
-  },
-  {
-    "Character": "Justus Jonas, Erster Detektiv",
-    "Speaker": "Oliver Rohrbeck"
-  },
-  {
-    "Character": "Peter Shaw, Zweiter Detektiv",
-    "Speaker": "Jens Wawrczeck"
-  },
-  {
-    "Character": "Bob Andrews, Recherchen und Archiv",
-    "Speaker": "Andreas Fröhlich"
-  },
-  {
-    "Character": "Laurenne Duffy",
-    "Speaker": "Heidi Schaffrath"
-  },
-  {
-    "Character": "Joe Patwin",
-    "Speaker": "Jürgen Uter"
-  },
-  {
-    "Character": "Trevor Thompson",
-    "Speaker": "Marek Erhardt"
-  },
-  {
-    "Character": "Bruce Osborne",
-    "Speaker": "Martin Paas"
-  },
-  {
-    "Character": "Kelly Patwin",
-    "Speaker": "Henrike Fehrs"
-  },
-  {
-    "Character": "Walt Duffy",
-    "Speaker": "Stephan Benson"
-  }
-]
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Laurenne Duffy",
+        "Speaker": "Heidi Schaffrath"
+      },
+      {
+        "Character": "Joe Patwin",
+        "Speaker": "Jürgen Uter"
+      },
+      {
+        "Character": "Trevor Thompson",
+        "Speaker": "Marek Erhardt"
+      },
+      {
+        "Character": "Bruce Osborne",
+        "Speaker": "Martin Paas"
+      },
+      {
+        "Character": "Kelly Patwin",
+        "Speaker": "Henrike Fehrs"
+      },
+      {
+        "Character": "Walt Duffy",
+        "Speaker": "Stephan Benson"
+      }
+    ]
   },
   {
     "Id": "2FD6DC9F-4C15-4858-B456-0001797D6ACB",
@@ -20310,71 +20310,71 @@
     "Interpreter": "Die drei ???",
     "Description": "Das Planetarium Special jetzt auch limitiert auf CD und MC und auch als Download erhältlich.",
     "Roles": [
-  {
-    "Character": "Erzähler",
-    "Speaker": "Thomas Fritsch"
-  },
-  {
-    "Character": "Justus Jonas, Erster Detektiv",
-    "Speaker": "Oliver Rohrbeck"
-  },
-  {
-    "Character": "Peter Shaw, Zweiter Detektiv",
-    "Speaker": "Jens Wawrczeck"
-  },
-  {
-    "Character": "Bob Andrews, Recherchen und Archiv",
-    "Speaker": "Andreas Fröhlich"
-  },
-  {
-    "Character": "Amanda Ellis",
-    "Speaker": "Simona Pahl"
-  },
-  {
-    "Character": "Jo",
-    "Speaker": "Birte Kretschmer"
-  },
-  {
-    "Character": "Steve Young",
-    "Speaker": "Till Huster"
-  },
-  {
-    "Character": "Ford Fallows",
-    "Speaker": "Stephan Benson"
-  },
-  {
-    "Character": "Eric Ellis",
-    "Speaker": "Horst Stark"
-  },
-  {
-    "Character": "Ricardo Yarbrough",
-    "Speaker": "Stefan Brönneke"
-  },
-  {
-    "Character": "Bibliothekarin",
-    "Speaker": "Rosemarie Wohlbauer"
-  },
-  {
-    "Character": "Mr. Friedman",
-    "Speaker": "Douglas Welbat"
-  },
-  {
-    "Character": "Mann in der Bibliothek",
-    "Speaker": "Erik Schäffler"
-  },
-  {
-    "Character": "Sekretärin",
-    "Speaker": "Christiane Leuchtmann"
-  },
-  {
-    "Character": "Jackson Cooper",
-    "Speaker": "Oliver Böttcher"
-  },
-  {
-    "Character": "Mr. Miller und der Hund Geoffrey",
-    "Speaker": "Piere Brand"
-  }
-]
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Amanda Ellis",
+        "Speaker": "Simona Pahl"
+      },
+      {
+        "Character": "Jo",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Steve Young",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Ford Fallows",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Eric Ellis",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Ricardo Yarbrough",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Bibliothekarin",
+        "Speaker": "Rosemarie Wohlbauer"
+      },
+      {
+        "Character": "Mr. Friedman",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Mann in der Bibliothek",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Sekretärin",
+        "Speaker": "Christiane Leuchtmann"
+      },
+      {
+        "Character": "Jackson Cooper",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Mr. Miller und der Hund Geoffrey",
+        "Speaker": "Piere Brand"
+      }
+    ]
   },
   {
     "Id": "7745a34c-8756-41c1-9a2f-c99b8c0afdb6",
@@ -20441,7 +20441,7 @@
     "Description": "Der berühmte Weihnachtszirkus gastiert in Rocky Beach. Begeistert folgen die drei ??? Kids der Vorstellung. Doch plötzlich stockt ihnen der Atem: Fast wäre der bekannte Hochseilartist in die Tiefe gestürzt! Ist hier Sabotage im Spiel? Im Handumdrehen befinden sich Justus, Peter und Bob als verdeckte Ermittler in einem turbulenten Fall.",
     "Roles": []
   },
-   {
+  {
     "Id": "404f6c4f-4ca4-4ad0-bb14-e19664cd35f4",
     "Title": "Tauchgang ins Ungewisse",
     "NumberEuropa": 203,
@@ -20492,82 +20492,82 @@
       }
     ]
   },
-    {
+  {
     "Id": "24ea07c3-c7c3-41f1-9e47-45d4053ce0bb",
     "Title": "Surfstrand in Gefahr",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/24ea07c3-c7c3-41f1-9e47-45d4053ce0bb.jpg",
     "NumberEuropa": 73,
     "ReleaseDate": "2019-11-15T00:00:00",
     "Interpreter": "Die drei ??? Kids",
+    "Description": "Surfprofi Andy behauptet, das Horn an seinem legendären Surfbrett stamme von einem Einhorn. Als das Fabelwesen in Rocky Beach gesichtet wird, haben Justus, Peter und Bob einen neuen Fall...",
     "Roles": [
-  {
-    "Character": "Justus Jonas",
-    "Speaker": "Jannik Schümann"
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Andy",
+        "Speaker": "Martin Keßler"
+      },
+      {
+        "Character": "Olivia",
+        "Speaker": "Cathlen Gawlich"
+      },
+      {
+        "Character": "Mr Pinkert",
+        "Speaker": "Peter Nottmeier"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Roland Geiger"
+      },
+      {
+        "Character": "Mrs Higgers",
+        "Speaker": "Karin Grüger"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Marc Snyder",
+        "Speaker": "Moritz Lindberg"
+      },
+      {
+        "Character": "Reporterin",
+        "Speaker": "Sabine König"
+      },
+      {
+        "Character": "Jayden",
+        "Speaker": "Daniel Sellier"
+      }
+    ]
   },
   {
-    "Character": "Peter Shaw",
-    "Speaker": "Yoshij Grimm"
-  },
-  {
-    "Character": "Bob Andrews",
-    "Speaker": "David Wittmann"
-  },
-  {
-    "Character": "Erzähler",
-    "Speaker": "Johannes Steck"
-  },
-  {
-    "Character": "Andy",
-    "Speaker": "Martin Keßler"
-  },
-  {
-    "Character": "Olivia",
-    "Speaker": "Cathlen Gawlich"
-  },
-  {
-    "Character": "Mr Pinkert",
-    "Speaker": "Peter Nottmeier"
-  },
-  {
-    "Character": "Onkel Titus",
-    "Speaker": "Achim Schülke"
-  },
-  {
-    "Character": "Tante Mathilda",
-    "Speaker": "Ingrid Capelle"
-  },
-  {
-    "Character": "Kommissar Reynolds",
-    "Speaker": "Bert Franzke"
-  },
-  {
-    "Character": "Giovanni",
-    "Speaker": "Roland Geiger"
-  },
-  {
-    "Character": "Mrs Higgers",
-    "Speaker": "Karin Grüger"
-  },
-  {
-    "Character": "Porter",
-    "Speaker": "Tommi Piper"
-  },
-  {
-    "Character": "Marc Snyder",
-    "Speaker": "Moritz Lindberg"
-  },
-  {
-    "Character": "Reporterin",
-    "Speaker": "Sabine König"
-  },
-  {
-    "Character": "Jayden",
-    "Speaker": "Daniel Sellier"
-  }
-],
-      "Description": "Surfprofi Andy behauptet, das Horn an seinem legendären Surfbrett stamme von einem Einhorn. Als das Fabelwesen in Rocky Beach gesichtet wird, haben Justus, Peter und Bob einen neuen Fall..."
-  },
-   {
     "Id": "fb7cd1b8-d814-48f7-8b70-3820dbd377bf",
     "Title": "Das Schienen-Monster",
     "NumberEuropa": 74,
@@ -20576,59 +20576,59 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/fb7cd1b8-d814-48f7-8b70-3820dbd377bf.jpg",
     "Description": "Justus, Peter und Bob dürfen in einem supermodernen Zug mitreisen. Während sie die coole Technik testen, fällt plötzlich im gesamten Zug der Strom aus. Wer steckt dahinter? Die drei Detektive ermitteln in einem neuen Fall!",
     "Roles": [
-  {
-    "Character": "Justus Jonas",
-    "Speaker": "Jannik Schümann"
-  },
-  {
-    "Character": "Peter Shaw",
-    "Speaker": "Yoshij Grimm"
-  },
-  {
-    "Character": "Bob Andrews",
-    "Speaker": "David Wittmann"
-  },
-  {
-    "Character": "Erzähler",
-    "Speaker": "Johannes Steck"
-  },
-  {
-    "Character": "Onkel Titus",
-    "Speaker": "Achim Schülke"
-  },
-  {
-    "Character": "Tante Mathilda",
-    "Speaker": "Ingrid Capelle"
-  },
-  {
-    "Character": "Kommissar Reynolds",
-    "Speaker": "Bert Franzke"
-  },
-  {
-    "Character": "Mac Stew",
-    "Speaker": "Roland Geiger"
-  },
-  {
-    "Character": "Mr Borgs",
-    "Speaker": "Gregor Höppner"
-  },
-  {
-    "Character": "Dienobot",
-    "Speaker": "Sebastian Walch"
-  },
-  {
-    "Character": "Operator",
-    "Speaker": "Lisa Maria Mino"
-  },
-  {
-    "Character": "Cobra 1",
-    "Speaker": "Andreas Ersson"
-  },
-  {
-    "Character": "Cobra 2",
-    "Speaker": "Thomas Güthaus"
-  }
-]
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Mac Stew",
+        "Speaker": "Roland Geiger"
+      },
+      {
+        "Character": "Mr Borgs",
+        "Speaker": "Gregor Höppner"
+      },
+      {
+        "Character": "Dienobot",
+        "Speaker": "Sebastian Walch"
+      },
+      {
+        "Character": "Operator",
+        "Speaker": "Lisa Maria Mino"
+      },
+      {
+        "Character": "Cobra 1",
+        "Speaker": "Andreas Ersson"
+      },
+      {
+        "Character": "Cobra 2",
+        "Speaker": "Thomas Güthaus"
+      }
+    ]
   },
   {
     "Id": "7681bd91-51ba-4169-9090-df86211f7e4d",
@@ -20637,233 +20637,233 @@
     "ReleaseDate": "2020-02-07T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7681bd91-51ba-4169-9090-df86211f7e4d.jpg",
     "Interpreter": "Die drei ???",
+    "Description": "Horror-Regisseur James Kushing erwacht eines Morgens mit einer mysteriösen Tätowierung auf dem Arm: ein dreiaugiger Totenkopf! Was hat das Tattoo mit dem Film zu tun, den Kushing niemals fertiggestellt hat? Und welches Geheimnis steckt hinter dem gestohlenen Smaragd, der vor Jahren spurlos vom Filmset verschwand? Justus, Peter und Bob stürzen sich in den Fall und entdecken nach und nach die Wahrheit hinter dem Rätsel...",
     "Roles": [
-    {
-    "Character": "Erzähler",
-    "Speaker": "Thomas Fritsch"
-  },
-  {
-    "Character": "Justus Jonas",
-    "Speaker": "Oliver Rohrbeck"
-  },
-  {
-    "Character": "Peter Shaw",
-    "Speaker": "Jens Wawrczek"
-  },
-  {
-    "Character": "Bob Andrews",
-    "Speaker": "Andreas Fröhlich"
-  },
-  {
-    "Character": "Onkel Titus",
-    "Speaker": "Rüdiger Schulzki"
-  },
-  {
-    "Character": "Tante Mathilda",
-    "Speaker": "Karin Lieneweg"
-  },
-  {
-    "Character": "Roger Kind",
-    "Speaker": "Holger Mahlich"
-  },
-  {
-    "Character": "R. Kind als Regisseur Kushing",
-    "Speaker": "Holger Mahlich"
-  },
-  {
-    "Character": "R. Kind als Cotta",
-    "Speaker": "Holger Mahlich"
-  },
-  {
-    "Character": "Inspektor Cotta",
-    "Speaker": "Holger Mahlich"
-  },
-  {
-    "Character": "Regisseur Kushing",
-    "Speaker": "Tim Grobe"
-  },
-  {
-    "Character": "Melanie Shepard",
-    "Speaker": "Christiane Leuchtmann"
-  },
-  {
-    "Character": "Laura",
-    "Speaker": "Henrike Fehrs"
-  },
-  {
-    "Character": "Lara Bix",
-    "Speaker": "Ursula Sieg"
-  },
-  {
-    "Character": "Jason Frost",
-    "Speaker": "Robert Missler"
-  },
-  {
-    "Character": "Kellnerin",
-    "Speaker": "Simona Pahl"
-  },
-  {
-    "Character": "Museumsdame",
-    "Speaker": "Rhea Harder"
-  },
-  {
-    "Character": "Monsterpuppe",
-    "Speaker": "Kerstin Draeger"
-  },
-  {
-    "Character": "Betty Frost",
-    "Speaker": "Rosemarie Wohlbauer"
-  },
-  {
-    "Character": "Wachmann",
-    "Speaker": "Markus Schäfer"
-  },
-  {
-    "Character": "Kameramann",
-    "Speaker": "Helgé Halvé"
-  },
-  {
-    "Character": "Tonmann",
-    "Speaker": "Timo Alexander Wenzel"
-  }
-    ],
-    "Description": "Horror-Regisseur James Kushing erwacht eines Morgens mit einer mysteriösen Tätowierung auf dem Arm: ein dreiaugiger Totenkopf! Was hat das Tattoo mit dem Film zu tun, den Kushing niemals fertiggestellt hat? Und welches Geheimnis steckt hinter dem gestohlenen Smaragd, der vor Jahren spurlos vom Filmset verschwand? Justus, Peter und Bob stürzen sich in den Fall und entdecken nach und nach die Wahrheit hinter dem Rätsel..."
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczek"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Roger Kind",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "R. Kind als Regisseur Kushing",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "R. Kind als Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Regisseur Kushing",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Melanie Shepard",
+        "Speaker": "Christiane Leuchtmann"
+      },
+      {
+        "Character": "Laura",
+        "Speaker": "Henrike Fehrs"
+      },
+      {
+        "Character": "Lara Bix",
+        "Speaker": "Ursula Sieg"
+      },
+      {
+        "Character": "Jason Frost",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Simona Pahl"
+      },
+      {
+        "Character": "Museumsdame",
+        "Speaker": "Rhea Harder"
+      },
+      {
+        "Character": "Monsterpuppe",
+        "Speaker": "Kerstin Draeger"
+      },
+      {
+        "Character": "Betty Frost",
+        "Speaker": "Rosemarie Wohlbauer"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Markus Schäfer"
+      },
+      {
+        "Character": "Kameramann",
+        "Speaker": "Helgé Halvé"
+      },
+      {
+        "Character": "Tonmann",
+        "Speaker": "Timo Alexander Wenzel"
+      }
+    ]
   },
   {
     "Id": "b05734fa-747d-4df0-9441-cbda91745780",
     "Title": "Der dunkle Wächter",
     "NumberEuropa": 204,
     "ReleaseDate": "2020-03-13T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b05734fa-747d-4df0-9441-cbda91745780.jpg",
     "Interpreter": "Die drei ???",
     "Description": "Eigentlich sollte Bob in dem einsam gelegenen Haus nur Katzen füttern. Doch dann läuft etwas furchtbar schief. Als sich der dritte Detektiv nicht mehr meldet, tappen Justus und Peter im Dunkeln. Steckt etwa der verschrobene Besitzer des Hauses dahinter?",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b05734fa-747d-4df0-9441-cbda91745780.jpg",
     "Roles": [
-  {
-    "Character": "Erzähler",
-    "Speaker": "Axel Milberg"
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Mary",
+        "Speaker": "Marion Gretchen"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Potato",
+        "Speaker": "Fred"
+      },
+      {
+        "Character": "Mr. Pinches",
+        "Speaker": "Jürgen Uter"
+      },
+      {
+        "Character": "Carter Bridou",
+        "Speaker": "Peter G. Dirmeier"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      }
+    ]
   },
   {
-    "Character": "Justus Jonas, Erster Detektiv",
-    "Speaker": "Oliver Rohrbeck"
-  },
-  {
-    "Character": "Peter Shaw, Zweiter Detektiv",
-    "Speaker": "Jens Wawrczeck"
-  },
-  {
-    "Character": "Bob Andrews, Recherchen und Archiv",
-    "Speaker": "Andreas Fröhlich"
-  },
-  {
-    "Character": "Mary",
-    "Speaker": "Marion Gretchen"
-  },
-  {
-    "Character": "Tante Mathilda",
-    "Speaker": "Karin Lieneweg"
-  },
-  {
-    "Character": "Onkel Titus",
-    "Speaker": "Rüdiger Schulzki"
-  },
-  {
-    "Character": "Potato",
-    "Speaker": "Fred"
-  },
-  {
-    "Character": "Mr. Pinches",
-    "Speaker": "Jürgen Uter"
-  },
-  {
-    "Character": "Carter Bridou",
-    "Speaker": "Peter G. Dirmeier"
-  },
-  {
-    "Character": "Inspektor Cotta",
-    "Speaker": "Holger Mahlich"
-  }
-]
-  },
-   {
     "Id": "4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc",
     "Title": "Das rätselhafte Erbe",
     "NumberEuropa": 205,
     "ReleaseDate": "2020-05-15T00:00:00",
-    "Interpreter": "Die drei ???",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/4b4b4803-6bac-4a5d-8212-fbb64d4bbbbc.jpg",
+    "Interpreter": "Die drei ???",
     "Description": "Ein merkwürdiger Anruf erreicht die drei ???. Eine Frau scheint sich in großen Schwierigkeiten zu befinden. Doch bevor die Detektive Näheres erfahren, unterbricht eine kratzige Stimme das Gespräch: \"Hände hoch, oder es knallt!\" Als Justus, Peter und Bob kurz darauf auch noch ein Gemälde der jüngst verstorbenen und bekannten Künstlerin Caroline di Santo erben, ist ihre Verwirrung komplett. Was steckt hinter den geheimnisvollen Ereignissen? Und was sollen sie nur mit diesem Bild angfangen?",
     "Roles": [
-    {
-      "Character": "Erzähler",
-      "Speaker": "Axel Milberg"
-    },
-    {
-      "Character": "Justus Jonas, Erster Detektiv",
-      "Speaker": "Oliver Rohrbeck"
-    },
-    {
-      "Character": "Peter Shaw, Zweiter Detektiv",
-      "Speaker": "Jens Wawcrzeck"
-    },
-    {
-      "Character": "Bob Andrews, Recherchen und Archiv",
-      "Speaker": "Andreas Fröhlich"
-    },
-    {
-      "Character": "Trish",
-      "Speaker": "Katrin Decker"
-    },
-    {
-      "Character": "Giovanni",
-      "Speaker": "Stephan Schad"
-    },
-    {
-      "Character": "Rosaly",
-      "Speaker": "Gertie Honeck"
-    },
-    {
-      "Character": "Matteo",
-      "Speaker": "Roman Rossa"
-    },
-    {
-      "Character": "Caroline",
-      "Speaker": "Marianne Bernhardt"
-    },
-    {
-      "Character": "Butler",
-      "Speaker": "Ivo Möller"
-    },
-    {
-      "Character": "Tante Mathilda",
-      "Speaker": "Karin Lieneweg"
-    },
-    {
-      "Character": "Charles Stapleton",
-      "Speaker": "Romanus Fuhrmann"
-    },
-    {
-      "Character": "Direktor Greenwalt",
-      "Speaker": "Jürgen Uter"
-    },
-    {
-      "Character": "Inspektor Cotta",
-      "Speaker": "Holger Mahlich"
-    },
-    {
-      "Character": "Angestellter",
-      "Speaker": "Oliver Böttcher"
-    },
-    {
-      "Character": "Polizist",
-      "Speaker": "Carlo von Tiedemann"
-    },
-    {
-      "Character": "Papagei",
-      "Speaker": "Merete Brettschneider"
-    }
-  ]
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawcrzeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Trish",
+        "Speaker": "Katrin Decker"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Stephan Schad"
+      },
+      {
+        "Character": "Rosaly",
+        "Speaker": "Gertie Honeck"
+      },
+      {
+        "Character": "Matteo",
+        "Speaker": "Roman Rossa"
+      },
+      {
+        "Character": "Caroline",
+        "Speaker": "Marianne Bernhardt"
+      },
+      {
+        "Character": "Butler",
+        "Speaker": "Ivo Möller"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Charles Stapleton",
+        "Speaker": "Romanus Fuhrmann"
+      },
+      {
+        "Character": "Direktor Greenwalt",
+        "Speaker": "Jürgen Uter"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Angestellter",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Carlo von Tiedemann"
+      },
+      {
+        "Character": "Papagei",
+        "Speaker": "Merete Brettschneider"
+      }
+    ]
   },
-   {
+  {
     "Id": "c8863869-d448-49a4-8770-ae2718d5ff76",
     "Title": "...und der Mottenmann",
     "NumberEuropa": 206,
@@ -20918,7 +20918,7 @@
       }
     ]
   },
-    {
+  {
     "Id": "b4e9ff48-decd-4bfb-970d-3de019ecff98",
     "Title": "Die falschen Detektive",
     "NumberEuropa": 207,
@@ -20936,63 +20936,63 @@
     "Description": "Ein wirklich außergewöhnliches Fußballturnier findet auf dem Marktplatz in Rocky Beach statt. Fußball-Roboter spielen im K.-o.-System gegeneinander. Aber gleich zu Beginn des Turniers passieren mysteriöse Dinge. Im Finale müssen die drei ??? Kids gegen einen Roboter antreten, der alle Tricks draufhat.",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c06a15e2-2285-45a1-a39a-5f6d4faf5df4.jpg",
     "Roles": [
-  {
-    "Character": "Justus Jonas",
-    "Speaker": "Jannik Schümann"
-  },
-  {
-    "Character": "Peter Shaw",
-    "Speaker": "Yoshij Grimm"
-  },
-  {
-    "Character": "Bob Andrews",
-    "Speaker": "David Wittmann"
-  },
-  {
-    "Character": "Erzähler",
-    "Speaker": "Johannes Steck"
-  },
-  {
-    "Character": "Elton Maskata",
-    "Speaker": "Lutz Mackensy"
-  },
-  {
-    "Character": "Onkel Titus",
-    "Speaker": "Achim Schülke"
-  },
-  {
-    "Character": "Skinny Norris",
-    "Speaker": "Tim Kreuer"
-  },
-  {
-    "Character": "Mr Porter",
-    "Speaker": "Tommi Piper"
-  },
-  {
-    "Character": "Tante Mathilda",
-    "Speaker": "Ingrid Capelle"
-  },
-  {
-    "Character": "Robinson",
-    "Speaker": "Marko Bräutigam"
-  },
-  {
-    "Character": "Louis",
-    "Speaker": "Felix Würgler"
-  },
-  {
-    "Character": "Anthony Silverman",
-    "Speaker": "Till Hagen"
-  },
-  {
-    "Character": "Spielleiter",
-    "Speaker": "Markus Krane"
-  },
-  {
-    "Character": "Kommissar Reynolds",
-    "Speaker": "Bert Franzke"
-  }
-]
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Elton Maskata",
+        "Speaker": "Lutz Mackensy"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Mr Porter",
+        "Speaker": "Tommi Piper"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Robinson",
+        "Speaker": "Marko Bräutigam"
+      },
+      {
+        "Character": "Louis",
+        "Speaker": "Felix Würgler"
+      },
+      {
+        "Character": "Anthony Silverman",
+        "Speaker": "Till Hagen"
+      },
+      {
+        "Character": "Spielleiter",
+        "Speaker": "Markus Krane"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      }
+    ]
   },
   {
     "Id": "3f59b130-5e9b-4bef-93dd-9f04b4b9ee19",
