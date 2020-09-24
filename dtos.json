@@ -17486,6 +17486,58 @@
     ]
   },
   {
+    "Id": "2d838b69-4d41-45af-a02d-9966c0b82cf9",
+    "Title": "Falsches Gold",
+    "NumberEuropa": 34,
+    "ReleaseDate": "2013-08-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2d838b69-4d41-45af-a02d-9966c0b82cf9.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": "7ATza45Jb2B3MhSD0icgPi",
+    "Description": "Vier rätselhafte alte Münzen und ein Adler, der nicht mehr fliegen soll. Welches Geheimnis verbirgt sich in der verbotenen Werkstatt? Eins wird schnell klar: Es geht um viele Millionen. Die drei ??? Kids müssen sich durch eine ganze Menge Dreck wühlen, bis sie alle Unklarheiten in diesem Fall bereinigt haben...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Edward Augustus",
+        "Speaker": "Michael Grimm"
+      },
+      {
+        "Character": "George Forger",
+        "Speaker": "Robert Glatzeder"
+      },
+      {
+        "Character": "Porter",
+        "Speaker": "Tomi Piper"
+      },
+      {
+        "Character": "Blackbeard",
+        "Speaker": "Klaus Hoser"
+      }
+    ]
+  },
+  {
     "Id": "920b65fb-2fe0-4fc3-b84a-c911b4d25419",
     "Title": "Im wilden Westen",
     "NumberEuropa": 35,
@@ -19478,54 +19530,6 @@
     ]
   },
   {
-    "Id": "f865b79f-a7ba-4f26-93af-6c36ff191097",
-    "Title": "Der singende Geist",
-    "NumberEuropa": null,
-    "ReleaseDate": "2011-11-11T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f865b79f-a7ba-4f26-93af-6c36ff191097.jpg",
-    "Interpreter": "Die drei ??? Kids",
-    "SpotifyAlbumId": null,
-    "Description": "Onkel Titus hat auf einer Auktion eine alte Standuhr ersteigert. Doch kaum steht diese auf dem Schrottplatz, sind auf einmal jede Menge Leute hinter ihr her. Welches Geheimnis versteckt sich in der Uhr? Und was weiß das rätselhafte Mädchen mit der Stimme, die Glas zerspringen lässt? Ein singender Geist führt die drei ??? Kids auf eine gefährliche Spur...",
-    "Roles": [
-      {
-        "Character": "Justus Jonas",
-        "Speaker": "Jannik Schümann"
-      },
-      {
-        "Character": "Peter Shaw",
-        "Speaker": "Yoshij Grimm"
-      },
-      {
-        "Character": "Bob Andrews",
-        "Speaker": "David Wittmann"
-      },
-      {
-        "Character": "Erzähler",
-        "Speaker": "Johannes Steck"
-      },
-      {
-        "Character": "Tante Mathilda",
-        "Speaker": "Ingrid Capelle"
-      },
-      {
-        "Character": "Onkel Titus",
-        "Speaker": "Achim Schuelke"
-      },
-      {
-        "Character": "Mrs Wilmers",
-        "Speaker": "Karin Buchholz"
-      },
-      {
-        "Character": "Elisabeth Fireman",
-        "Speaker": "Mia Diekow"
-      },
-      {
-        "Character": "Skinny Norris",
-        "Speaker": "Tim Kreuer"
-      }
-    ]
-  },
-  {
     "Id": "79e53724-82d5-431a-95be-5775643c8144",
     "Title": "Adventskalender",
     "NumberEuropa": null,
@@ -21453,6 +21457,17 @@
     "Interpreter": "Die drei ???",
     "SpotifyAlbumId": null,
     "Description": "Für Tante Mathilda erfüllt sich ein lang gehegter Wunsch: Gemeinsam mit Onkel Titus, Justus, Peter und Bob will sie Weihnachten in einer verschneiten Berghütte feiern. Die besinnliche Stimmung wird schnell getrübt, als eine gehörnte Schreckgestalt in die Idylle hereinbricht. Doch auch unheimliche Vorfälle und Drohbotschaften halten die drei ??? nicht davon ab, diesem Rätsel auf den Grund zu gehen.<br><br>Ein Weihnachtsfall in 24 Kapiteln.",
+    "Roles": []
+  },
+  {
+    "Id": "1afe43f2-62a1-4622-a0a3-8861fb6a9a42",
+    "Title": "Adventskalender - Ein Rätsel in 24 Tagen",
+    "NumberEuropa": null,
+    "ReleaseDate": "2017-11-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/1afe43f2-62a1-4622-a0a3-8861fb6a9a42.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": "4SVQrvQkXzYC1nU7DfDJx2",
+    "Description": "Ein begehbarer Adventskalender ist die Attraktion auf dem Weihnachtsmarkt von Rocky Beach. Doch schon am ersten Tag steckt hinter der Tür keine schöne Adventsüberraschung, sondern ein übler Scherz! Justus, Peter und Bob müssen all ihr Können aufbieten, um das Weihnachtsfest zu retten.",
     "Roles": []
   }
 ]
