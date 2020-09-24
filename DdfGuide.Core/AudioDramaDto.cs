@@ -13,9 +13,10 @@ namespace DdfGuide.Core
         public string CoverUrl { get; set; }
         public string Interpreter { get; set; }
         public string Description { get; set; }
+        public string SpotifyAlbumId { get; set; }
         public IEnumerable<RoleDto> Roles { get; set; }
 
-        public AudioDramaDto(Guid id, string title, int? numberEuropa, DateTime releaseDate, string coverUrl, string interpreter, string description, IEnumerable<RoleDto> roles)
+        public AudioDramaDto(Guid id, string title, int? numberEuropa, DateTime releaseDate, string coverUrl, string interpreter, string description, IEnumerable<RoleDto> roles, string spotifyAlbumId)
         {
             Id = id;
             Title = title;
@@ -24,6 +25,7 @@ namespace DdfGuide.Core
             CoverUrl = coverUrl;
             Interpreter = interpreter;
             Description = description;
+            SpotifyAlbumId = spotifyAlbumId;
             Roles = roles ?? new List<RoleDto>();
         }
 

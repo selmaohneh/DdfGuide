@@ -21,7 +21,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                null);
+                null,
+                string.Empty);
 
             var isReleased = sut.IsReleased(dto);
             Assert.IsTrue(isReleased);
@@ -39,7 +40,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                null);
+                null,
+                string.Empty);
 
             var isReleased = sut.IsReleased(dto);
             Assert.IsFalse(isReleased);
@@ -57,7 +59,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                null);
+                null,
+                string.Empty);
 
             var isReleased = sut.IsReleased(dto);
             Assert.IsTrue(isReleased);
@@ -74,7 +77,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtoAfter = new AudioDramaDto(
                 Guid.Empty,
@@ -84,7 +88,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
             
             var dtos = new List<AudioDramaDto> {dtoBefore, dtoAfter};
 
@@ -106,7 +111,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtoToday = new AudioDramaDto(
                 Guid.Empty,
@@ -116,7 +122,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtoAfter = new AudioDramaDto(
                 Guid.Empty,
@@ -126,7 +133,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtos = new List<AudioDramaDto> {dtoBefore, dtoToday, dtoAfter};
 
@@ -149,7 +157,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtoToday1 = new AudioDramaDto(
                 Guid.Empty,
@@ -159,7 +168,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtoToday2 = new AudioDramaDto(
                 Guid.Empty,
@@ -169,7 +179,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtoAfter = new AudioDramaDto(
                 Guid.Empty,
@@ -179,7 +190,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 string.Empty,
-                new List<RoleDto>());
+                new List<RoleDto>(),
+                string.Empty);
 
             var dtos = new List<AudioDramaDto> {dtoBefore, dtoToday1, dtoToday2, dtoAfter};
 
