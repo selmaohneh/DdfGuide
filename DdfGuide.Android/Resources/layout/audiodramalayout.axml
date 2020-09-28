@@ -1,118 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+  <Toolbar
+    android:id="@+id/toolbarsingleview"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-	android:orientation="vertical">
-	
-	<Toolbar 
-		android:id="@+id/toolbarsingleview"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:minHeight="?android:attr/actionBarSize"
-           android:background="?android:attr/colorPrimary"
-           android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/actionBarSize"
+    android:background="?android:attr/colorPrimary"
+    android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar" />
 
-	<ScrollView
-		android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-	<LinearLayout 
-		android:orientation="vertical"
-		android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
 
-			<TextView
-		android:text="Die drei ???"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:minWidth="50px"
-		android:minHeight="50px"
+      <TextView
+        android:text="Die drei ???"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="50px"
+        android:minHeight="50px"
         android:layout_margin="5dp"
-		android:id="@+id/textviewinterpreter" 
+        android:id="@+id/textviewinterpreter"
         android:textAlignment="center"
-			android:textColor="@color/ddfBlack"/>
+        android:textColor="@color/ddfBlack" />
 
-  <TextView
-		android:text="Titel"
-		android:textAppearance="?android:attr/textAppearanceLarge"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:minWidth="50px"
-		android:minHeight="50px"
+      <TextView
+        android:text="Titel"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="50px"
+        android:minHeight="50px"
         android:layout_margin="5dp"
-		android:id="@+id/textviewtitelsingle" 
+        android:id="@+id/textviewtitelsingle"
         android:textAlignment="center"
-			android:textColor="@color/ddfBlack"/>
+        android:textColor="@color/ddfBlack" />
 
-			<TextView
-		android:text="19.01.2019"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:minWidth="50px"
-		android:minHeight="50px"
+      <TextView
+        android:text="19.01.2019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="50px"
+        android:minHeight="50px"
         android:layout_margin="5dp"
-		android:id="@+id/textviewreleasesingle" 
+        android:id="@+id/textviewreleasesingle"
         android:textAlignment="center"
-			android:textColor="@color/ddfBlack"/>
+        android:textColor="@color/ddfBlack" />
 
-  <LinearLayout android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+      <LinearLayout android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-    <FFImageLoading.Views.ImageViewAsync  
-      android:id="@+id/coverviewsingle"
-      android:layout_width="160dp"
-      android:layout_height="160dp"
-      android:layout_alignParentLeft="true"
-      android:layout_centerVertical="true"
-      android:layout_margin="5dp"
-      android:gravity="center"
-      android:scaleType="fitXY"/>
+        <FFImageLoading.Views.ImageViewAsync
+          android:id="@+id/coverviewsingle"
+          android:layout_width="160dp"
+          android:layout_height="160dp"
+          android:layout_alignParentLeft="true"
+          android:layout_centerVertical="true"
+          android:layout_margin="5dp"
+          android:gravity="center"
+          android:scaleType="fitXY" />
 
-    <LinearLayout android:orientation="vertical"
-                  android:layout_width="match_parent"
-                  android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="85dp"
+                      android:layout_height="match_parent">
 
-      <CheckBox
-        android:id="@+id/checkboxheard"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_centerVertical="true"
+          <CheckBox
+            android:id="@+id/checkboxheard"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/checkboxheard"
+            android:background="@drawable/checkboxheard"
+            android:button="@null"
+            android:backgroundTint="@color/ddfBlue" />
+
+          <CheckBox
+            android:id="@+id/checkboxfavorite"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/checkboxfavorite"
+            android:button="@null"
+            android:backgroundTint="@color/ddfRed" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="75dp"
+                      android:layout_height="match_parent"
+                      android:gravity="center">
+          <CheckBox
+            android:id="@+id/buttonplay"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+
+            android:layout_margin="5dp"
+            android:background="@mipmap/ic_action_play"
+            android:button="@null"
+            android:backgroundTint="@color/ddfBlack" />
+
+        </LinearLayout>
+      </LinearLayout>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:layout_toLeftOf="@+id/checkboxheard"
-        android:background="@drawable/checkboxheard"
-        android:button="@null"
-        android:backgroundTint="@color/ddfBlue"/>
+        android:id="@+id/textViewDescription"
+        android:textColor="@color/ddfBlack" />
 
-      <CheckBox
-        android:id="@+id/checkboxfavorite"
-      android:layout_width="75dp"
-android:layout_height="75dp"
-android:layout_centerVertical="true"
-android:layout_margin="5dp"
-        android:background="@drawable/checkboxfavorite"
-        android:button="@null"
-        android:backgroundTint="@color/ddfRed"/>
-  
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/textViewRoles"
+        android:textColor="@color/ddfBlack" />
+
     </LinearLayout>
-
-	</LinearLayout>
-
-	<TextView
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-	    android:layout_margin="5dp"
-		android:id="@+id/textViewDescription"
-	android:textColor="@color/ddfBlack"/>
-
-	<TextView
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-	    android:layout_margin="5dp"
-		android:id="@+id/textViewRoles"
-		android:textColor="@color/ddfBlack"/>
-
-	</LinearLayout>
-		</ScrollView>
+  </ScrollView>
 </LinearLayout>

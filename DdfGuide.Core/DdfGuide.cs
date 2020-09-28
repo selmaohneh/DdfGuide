@@ -64,7 +64,7 @@ namespace DdfGuide.Core
                 saver,
                 _userNotifier);
 
-            var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView);
+            var audioDramaPresenter = new AudioDramaPresenter(_audioDramaView, _uriInvoker);
 
             var filterFactory = new AudioDramaFilterFactory();
             var sorterFactory = new AudioDramaSorterFactory();
@@ -98,7 +98,7 @@ namespace DdfGuide.Core
 
             try
             {
-               await source.Update();
+                await source.Update();
             }
             catch (Exception)
             {

@@ -9,5 +9,6 @@ namespace DdfGuide.Core
         event EventHandler HeardClicked;
         event EventHandler IsFavoriteClicked;
         event EventHandler BackClicked;
+        event EventHandler PlayClicked;
     }
 }

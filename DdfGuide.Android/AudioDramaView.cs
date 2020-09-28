@@ -48,8 +48,15 @@ namespace DdfGuide.Android
             SetupToolbar();
             SetupHeardCheckbox();
             SetupIsFavoriteCheckbox();
+            SetupPlayButton();
 
             return _view;
+        }
+
+        private void SetupPlayButton()
+        {
+            var playButton = _view.FindViewById<Button>(Resource.Id.buttonplay);
+            playButton.Click += (sender, args) => PlayClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void SetupIsFavoriteCheckbox()
@@ -98,6 +105,9 @@ namespace DdfGuide.Android
             var favoriteCheckbox = _view.FindViewById<CheckBox>(Resource.Id.checkboxfavorite);
             favoriteCheckbox.Checked = audioDrama.AudioDramaUserData.IsFavorite;
 
+            var playButton = _view.FindViewById<Button>(Resource.Id.buttonplay);
+            playButton.Visibility = audioDrama.AudioDramaDto.SpotifyAlbumId != null ? ViewStates.Visible : ViewStates.Invisible;
+
             var imageView = _view.FindViewById<ImageViewAsync>(Resource.Id.coverviewsingle);
 
             _imageViewFiller.FillImageViewFromUrl(imageView, audioDrama.AudioDramaDto.CoverUrl);
@@ -121,5 +131,6 @@ namespace DdfGuide.Android
         public event EventHandler BackClicked;
         public event EventHandler HeardClicked;
         public event EventHandler IsFavoriteClicked;
+        public event EventHandler PlayClicked;
     }
 }
