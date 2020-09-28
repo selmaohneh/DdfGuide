@@ -2,18 +2,26 @@
 
 namespace DdfGuide.Core
 {
-    public class AudioDramaPresenter : IPresenter<IAudioDramaView,AudioDrama>
+    public class AudioDramaPresenter : IPresenter<IAudioDramaView, AudioDrama>
     {
         private readonly IAudioDramaView _audioDramaView;
+        private readonly IUriInvoker _uriInvoker;
         private AudioDrama _audioDrama;
 
         public AudioDramaPresenter(
-            IAudioDramaView audioDramaView)
+            IAudioDramaView audioDramaView, IUriInvoker uriInvoker)
         {
             _audioDramaView = audioDramaView;
+            _uriInvoker = uriInvoker;
 
             _audioDramaView.IsFavoriteClicked += OnIsFavoriteChanged();
             _audioDramaView.HeardClicked += OnHeardChanged();
+            _audioDramaView.PlayClicked += AudioDramaViewOnPlayClicked;
+        }
+
+        private void AudioDramaViewOnPlayClicked(object sender, EventArgs e)
+        {
+            _uriInvoker.Invoke(_audioDrama.AudioDramaDto.SpotifyUri);
         }
 
         public IAudioDramaView GetView()
@@ -33,10 +41,7 @@ namespace DdfGuide.Core
 
         private EventHandler OnHeardChanged()
         {
-            return (sender, _) =>
-            {
-                _audioDrama.AudioDramaUserData.Heard = !_audioDrama.AudioDramaUserData.Heard;
-            };
+            return (sender, _) => { _audioDrama.AudioDramaUserData.Heard = !_audioDrama.AudioDramaUserData.Heard; };
         }
 
         private EventHandler OnIsFavoriteChanged()

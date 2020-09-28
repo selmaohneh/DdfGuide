@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using DdfGuide.Core.Searching;
+using Newtonsoft.Json;
 
 namespace DdfGuide.Core
 {
@@ -15,6 +16,9 @@ namespace DdfGuide.Core
         public string Description { get; set; }
         public string SpotifyAlbumId { get; set; }
         public IEnumerable<RoleDto> Roles { get; set; }
+
+        [JsonIgnore]
+        public Uri SpotifyUri => new Uri($"https://open.spotify.com/album/{SpotifyAlbumId}");
 
         public AudioDramaDto(Guid id, string title, int? numberEuropa, DateTime releaseDate, string coverUrl, string interpreter, string description, IEnumerable<RoleDto> roles, string spotifyAlbumId)
         {
