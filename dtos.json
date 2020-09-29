@@ -21241,9 +21241,63 @@
     "ReleaseDate": "2020-09-25T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/b4e9ff48-decd-4bfb-970d-3de019ecff98.jpg",
     "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
+    "SpotifyAlbumId": "6BxvBG51szGmlg5x3F1rHj",
     "Description": "Die drei ??? sind fassungslos: Sie haben Doppelgänger! Drei Jungen, die sie noch nie gesehen haben, geben sich als 'Die drei ???' aus. Justus, Peter und Bob heften sich an die Fersen der falschen Detektive und beginnen ihre Ermittlungen. Wieso haben die Unbekannten ihre Identität angenommen? Und können Justus, Peter und Bob ihnen das Handwerk legen?",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Minh",
+        "Speaker": "Jona Mues"
+      },
+      {
+        "Character": "Luke",
+        "Speaker": "Alexander Merbeth"
+      },{
+        "Character": "Mark",
+        "Speaker": "Woody Mues"
+      },{
+        "Character": "Stéphane Mertens",
+        "Speaker": "Peter Kaempfe"
+      },{
+        "Character": "Kassiererin",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Ron Baxter",
+        "Speaker": "Robin Brosch"
+      },
+      {
+        "Character": "Oma",
+        "Speaker": "Apollonia Jepsen"
+      },
+      {
+        "Character": "Mrs. Willard",
+        "Speaker": "Daniela Ziegler"
+      },
+      {
+        "Character": "Li",
+        "Speaker": "Traudel Sperber"
+      },
+      {
+        "Character": "Tilan",
+        "Speaker": "Caroline Kiesewetter"
+      }
+    ]
   },
   {
     "Id": "c06a15e2-2285-45a1-a39a-5f6d4faf5df4",
