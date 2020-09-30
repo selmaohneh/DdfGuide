@@ -25,7 +25,17 @@ namespace DdfGuide.Test
             _sut = _mocker.CreateInstance<AudioDramaPresenter>();
 
             _sut.SetModel(_audioDrama);
+        }
 
+        [TestMethod]
+        public void UserClickedPlay_InvokeSpotifyUri()
+        {
+            var view = _mocker.GetMock<IAudioDramaView>();
+            var invoker = _mocker.GetMock<IUriInvoker>();
+
+            view.Raise(x => x.PlayClicked += null, this, EventArgs.Empty);
+
+            invoker.Verify(x => x.Invoke(_audioDrama.AudioDramaDto.SpotifyUri));
         }
 
         [TestMethod]
@@ -95,7 +105,7 @@ namespace DdfGuide.Test
             _sut.SetModel(_audioDrama);
 
             view.Invocations.Clear();
-            
+
             view.Raise(x => x.HeardClicked += null, null, EventArgs.Empty);
 
             view.Verify(x => x.SetAudioDrama(It.IsAny<AudioDrama>()), Times.Once());
