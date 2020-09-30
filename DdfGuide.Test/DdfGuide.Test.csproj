@@ -158,6 +158,7 @@
   <ItemGroup>
     <Compile Include="AudioDramaAsSearchItemTests.cs" />
     <Compile Include="AudioDramaBuilderTests.cs" />
+    <Compile Include="AudioDramaDtoTests.cs" />
     <Compile Include="AudioDramaExplorerTests.cs" />
     <Compile Include="AudioDramaSourceTests.cs" />
     <Compile Include="DtoFileTests.cs" />
