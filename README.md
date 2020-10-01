@@ -18,6 +18,17 @@ Meine Frau hat mich all drei Tage gefragt, wann denn nochmal die nächste "Die d
 ![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf1.JPG)
 ![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf5.JPG)
 
+#### Installation
+
+Es gibt drei Installationsmöglichkeiten für den DdfGuide:
+
+- [Download über Google Play](https://play.google.com/store/apps/details?id=celloapps.ddfguide)
+- [Download der .apk hier auf GitHub](https://github.com/selmaohneh/DdfGuide/releases)
+- [Download über F-Droid aus Izzys Repo](https://apt.izzysoft.de/fdroid/index/apk/celloapps.ddfguide)
+
+Da der offizielle F-Droid Build Server (bislang) keine Xamarin Apps unterstützt, muss Izzy's Repo zum F-Droid Client hinzugefügt werden.
+In der offiziellen F-Droid App öffnet man dazu die _Einstellungen_, wählt _Paketquellen_ aus und fügt [https://apt.izzysoft.de/fdroid/repo](https://apt.izzysoft.de/fdroid/repo?fingerprint=3BF0D6ABFEAE2F401707B6D966BE743BF0EEE49C2561B9BA39073711F628937A) hinzu oder man scannt einfach diesen [QR Code](https://apt.izzysoft.de/shared/images/fdroid_repo_qr.png).
+
 #### Contributing
 * Bugs bitte direkt [unter Issues](https://github.com/selmaohneh/DdfGuide/issues) eintragen.
 * [Kaffee? :-)](https://www.buymeacoffee.com/SaMAsU1N6)
