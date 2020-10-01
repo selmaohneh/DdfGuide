@@ -13,7 +13,6 @@ Meine Frau hat mich all drei Tage gefragt, wann denn nochmal die nächste "Die d
 * Mit den Such-/Filter- und Sortierfunktionen können Folgen organisiert werden. Es lassen sich so z.B. alle Folgen suchen, in denen Skinny Norris mitspielt oder in denen Bastian Pastewka spricht. "Wie hieß die Folge noch gleich?" war gestern!
 * Du hast dir eine Folge ausgesucht? Dann lass dich vom **DDF Guide** direkt zu Spotify weiterleiten, um sie zu hören!
 * Deine Daten können im- und exportiert werden. Dadurch kannst du mehrere Android-Geräte synchronisieren oder einfach deine Daten sichern, wenn du mal dein Gerät wechselst.
-* Die jeweils aktuelle Releaseversion steht [im Google Play Store](https://play.google.com/store/apps/details?id=celloapps.ddfguide) zur Verfügung.
 
 ![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf1.JPG)
 ![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf5.JPG)
