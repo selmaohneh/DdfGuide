@@ -21832,7 +21832,68 @@
     "SpotifyAlbumId": "7ynXpeQRwzqKiv8WVh7c7B",
     "AmazonAlbumId": "B08GSLFHVJ",
     "Description": "Für Tante Mathilda erfüllt sich ein lang gehegter Wunsch: Gemeinsam mit Onkel Titus, Justus, Peter und Bob will sie Weihnachten in einer verschneiten Berghütte feiern. Die besinnliche Stimmung wird schnell getrübt, als eine gehörnte Schreckgestalt in die Idylle hereinbricht. Doch auch unheimliche Vorfälle und Drohbotschaften halten die drei ??? nicht davon ab, diesem Rätsel auf den Grund zu gehen.<br><br>Ein Weihnachtsfall in 24 Kapiteln.",
-    "Roles": []
+     "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Linneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "üdiger Schulzki"
+      },
+      {
+        "Character": "Gianna",
+        "Speaker": "Céline Fontanges"
+      },
+      {
+        "Character": "Lance",
+        "Speaker": "Armin Schlagwein"
+      },
+      {
+        "Character": "Debra",
+        "Speaker": "Melanie Kastaun"
+      },
+      {
+        "Character": "Audrey",
+        "Speaker": "Anja Topf"
+      },
+      {
+        "Character": "Bellins",
+        "Speaker": "Joachim Kretzer"
+      },
+      {
+        "Character": "Jerry",
+        "Speaker": "Matthias Keller"
+      }, 
+      {
+        "Character": "Corey",
+        "Speaker": "Andreas Zaron"
+      },
+      {
+        "Character": "Joe",
+        "Speaker": "André Beyer"
+      },
+      {
+        "Character": "Mr. Allister",
+        "Speaker": "Fabian Harloff"
+      }
+    ]
   },
   {
     "Id": "1afe43f2-62a1-4622-a0a3-8861fb6a9a42",
