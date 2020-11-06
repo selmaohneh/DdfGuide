@@ -21845,5 +21845,17 @@
     "AmazonAlbumId": "B076BWVV61",
     "Description": "Ein begehbarer Adventskalender ist die Attraktion auf dem Weihnachtsmarkt von Rocky Beach. Doch schon am ersten Tag steckt hinter der Tür keine schöne Adventsüberraschung, sondern ein übler Scherz! Justus, Peter und Bob müssen all ihr Können aufbieten, um das Weihnachtsfest zu retten.",
     "Roles": []
+  },
+  {
+    "Id": "edc99ec9-1025-4ec9-b53f-523b05ecce9e",
+    "Title": "Kelch des Schicksals",
+    "NumberEuropa": 208,
+    "ReleaseDate": "2021-01-15T00:00:00",
+    "CoverUrl": null,
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": "ull,
+    "Description": null,
+    "Roles": []
   }
 ]
