@@ -21817,10 +21817,71 @@
     "ReleaseDate": "2020-11-20T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/618060ec-80bc-4c2d-bc91-df2d853f90e8.jpg",
     "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
-    "AmazonAlbumId": null,
+    "SpotifyAlbumId": "4vj4Dq2q7fyvwY7UCj2vin",
+    "AmazonAlbumId": "B08L83K6DP",
     "Description": "In einem Umzugskarton stoßen die drei ??? auf eine alte Steinfigur und eine Karte mit geheimen Schriftzeichen. Beides scheint vom Volk der Maya zu stammen. Welches Geheimnis bergen die Fundstücke? Als Justus, Bob und Peter klar wird, dass einige zwielichtige Gestalten sehr an der Lösung des Rätsels interessiert sind, entspinnt sich ein gefährlicher Wettlauf gegen die Zeit und ihre Widersacher.<br><br>Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert, wird mit Die drei ??? und das Grab der Maya nun die Reihe der Stereofassungen der Planetariums-Hörspiele fortgesetzt.",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Sheryl",
+        "Speaker": "Merete Brettschneider"
+      },
+      {
+        "Character": "Professor Burnham",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Salvador Pérez",
+        "Speaker": "Matthias Klimsa"
+      },
+      {
+        "Character": "Tuyucim Florentino Ixmatá",
+        "Speaker": "Mario Ramos"
+      },
+      {
+        "Character": "Tuyucim",
+        "Speaker": "Nicolas Klimsa"
+      },
+      {
+        "Character": "Maria Pérez",
+        "Speaker": "Caroline Kiesewetter"
+      },
+      {
+        "Character": "Zachary",
+        "Speaker": "Roman Rossa"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Conrad Williams",
+        "Speaker": "Peter Weis"
+      },
+      {
+        "Character": "Nachrichtensprecher",
+        "Speaker": "André Schünke"
+      }
+    ]
   },
   {
     "Id": "f17f4c43-30df-4fa4-8e25-c39c85b05480",
@@ -21880,7 +21941,7 @@
       {
         "Character": "Jerry",
         "Speaker": "Matthias Keller"
-      }, 
+      },
       {
         "Character": "Corey",
         "Speaker": "Andreas Zaron"
@@ -21912,10 +21973,10 @@
     "Title": "Kelch des Schicksals",
     "NumberEuropa": 208,
     "ReleaseDate": "2021-01-15T00:00:00",
-    "CoverUrl": null,
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edc99ec9-1025-4ec9-b53f-523b05ecce9e.jpg",
     "Interpreter": "Die drei ???",
     "SpotifyAlbumId": null,
-    "AmazonAlbumId": null,
+    "AmazonAlbumId": "B08GSLZTRL",
     "Description": null,
     "Roles": []
   }
