@@ -21979,5 +21979,62 @@
     "AmazonAlbumId": "B08GSLZTRL",
     "Description": null,
     "Roles": []
+  },
+  {
+    "Id": "78e26442-82ee-4de7-8e73-34fc9e8daf3b",
+    "Title": "Schrottplatz in Gefahr",
+    "NumberEuropa": 78,
+    "ReleaseDate": "2020-09-25",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/78e26442-82ee-4de7-8e73-34fc9e8daf3b.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": "15aFL9eaT1bjrURanvEKEn",
+    "AmazonAlbumId": "B08D9LV999",
+    "Description": "Der Schrottplatz von Onkel Titus brennt! Ausgerechnet vor der großen 20-Jahr-Jubiläumsfeier. Die drei ??? Kids sind sich sicher: dass kann kein Zufall sein. Rätselhafte Spuren führen Justus, Peter und Bob hinaus aus Rocky Beach und weit zurück in die Vergangenheit ...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke Rinker - Manfred Lehmann"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Marvin",
+        "Speaker": "Sebastian Führ"
+      },
+      {
+        "Character": "Eva",
+        "Speaker": "Christine Schaller"
+      },
+      {
+        "Character": "Mr Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Santiago",
+        "Speaker": "Douglas Welbat"
+      }
+    ]
   }
 ]
