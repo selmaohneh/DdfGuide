@@ -21975,10 +21975,83 @@
     "ReleaseDate": "2021-01-15T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/edc99ec9-1025-4ec9-b53f-523b05ecce9e.jpg",
     "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
+    "SpotifyAlbumId": "6WgRUQY49NRG6JT6dJ4xEq",
     "AmazonAlbumId": "B08GSLZTRL",
     "Description": "Die drei Detektive sind mit Titus Jonas im Pick-up unterwegs, als Peter sich in einer Pause beim Erkunden einer Höhle verletzt. Doch nicht nur das bereitet Justus Sorgen. Eine seltsame Begegnung im Supermarkt von Carmine Falls beschäftigt ihn und seinen Onkel Titus. In der Kleinstadt Carmine Falls ist offensichtlich ein Verbrechen geschehen, und die Spur führt direkt zu Justus' Familie. Die drei ??? sind gleich doppelt gefragt.",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Hitchcock, Erzähler",
+        "Speaker": "Peter Pasetti"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Bootsie Washington",
+        "Speaker": "Andreas Birnbaum"
+      },
+      {
+        "Character": "Majorie Dever",
+        "Speaker": "Victoria Trauttmansdorff"
+      },
+      {
+        "Character": "Schwester",
+        "Speaker": "Gabriele Libbach"
+      },
+      {
+        "Character": "Leland Hanson",
+        "Speaker": "Matthias Keller"
+      },
+      {
+        "Character": "Jolene",
+        "Speaker": "Sarah Madeleine Tusk"
+      },
+      {
+        "Character": "Perceval",
+        "Speaker": "André Beyer"
+      },
+      {
+        "Character": "Mercury",
+        "Speaker": "Kerstin Draeger"
+      },
+      {
+        "Character": "Coldfield",
+        "Speaker": "Wolf-Dietrich Sprenger"
+      },
+      {
+        "Character": "Urs",
+        "Speaker": "Hanns Jörg Krumpholz"
+      },
+      {
+        "Character": "Nicolas",
+        "Speaker": "Uwe Lauschke"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Godween",
+        "Speaker": "André Minninger"
+      },
+      {
+        "Character": "Carver",
+        "Speaker": "Andreas Zaron"
+      }
+    ]
   },
    {
     "Id": "489022be-cffc-4f81-8d9e-94d0cfb55e7e",
