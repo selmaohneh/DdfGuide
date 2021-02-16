@@ -33,3 +33,9 @@ In der offiziellen F-Droid App öffnet man dazu die _Einstellungen_, wählt _Pak
 * [Kaffee? :-)](https://www.buymeacoffee.com/SaMAsU1N6)
 
 „Die drei ???“ sind eine eingetragene Marke der Franckh-Kosmos Verlags-GmbH & Co. KG, Stuttgart.
+Copyright
+Diese App ist NICHT im Besitz von Kosmos, Europa, der Familie Roberts oder anderen Personen, die in die Produktion der Serie Die drei ??? eingebunden sind.
+Alle Schutzmarken, Logos und Copyrights gehören ihren jeweiligen Besitzern.
+Alle Bilder © copyright by Kosmos, Europa, Studios Hamburg, USM oder Random House.
+
+
