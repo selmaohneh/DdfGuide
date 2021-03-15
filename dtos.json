@@ -21916,7 +21916,7 @@
       },
       {
         "Character": "Onkel Titus",
-        "Speaker": "üdiger Schulzki"
+        "Speaker": "Rüdiger Schulzki"
       },
       {
         "Character": "Gianna",
@@ -22061,9 +22061,58 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/489022be-cffc-4f81-8d9e-94d0cfb55e7e.jpg",
     "Interpreter": "Die drei ???",
     "SpotifyAlbumId": "5bMJQXiU9mB7pR11WiEDxw",
-    "AmazonAlbumId": null,
+    "AmazonAlbumId": "B08PKZ38BM",
     "Description": "Hexe, Gruselclown, Werwolf und ein totbringender Sensenmann - so verkleidet tritt die bekannte Hip-Hop-Band \"FMTM\" in Rocky Beach auf. Gleichzeitig stiehlt eine Hexe Justus‘ Geldbörse und ein Sensenmann bricht im Trödelladen ein. Kann es Zufall sein, dass zur selben Zeit solch dunkle Gestalten ihr kriminelles Unwesen im schönen Küstenort treiben? Umzingelt von Kreaturen der Nacht stolpern die drei ??? in ihren nächsten Fall.",
-    "Roles": []
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Linneweg"
+      },
+      {
+        "Character": "Oisin Murphy",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Lelia Murphy",
+        "Speaker": "Katja Brügger"
+      },
+      {
+        "Character": "Virgil",
+        "Speaker": "Steffen Groth"
+      },
+      {
+        "Character": "Wanda Waffle",
+        "Speaker": "Anja Topf"
+      },
+      {
+        "Character": "Smiddie",
+        "Speaker": "Ivo Möller"
+      },
+      {
+        "Character": "Clown",
+        "Speaker": "Andreas Birnbaum"
+      },
+      {
+        "Character": "Zamora",
+        "Speaker": "Paul Michaeli"
+      }
+    ]
   },
   {
     "Id": "78e26442-82ee-4de7-8e73-34fc9e8daf3b",
