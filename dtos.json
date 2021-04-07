@@ -16826,6 +16826,453 @@
     ]
   },
   {
+    "Id": "618060ec-80bc-4c2d-bc91-df2d853f90e8",
+    "Title": "...und das Grab der Maya",
+    "NumberEuropa": null,
+    "ReleaseDate": "2020-11-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/618060ec-80bc-4c2d-bc91-df2d853f90e8.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": "4vj4Dq2q7fyvwY7UCj2vin",
+    "AmazonAlbumId": "B08L83K6DP",
+    "Author": "André Marx",
+    "Description": "In einem Umzugskarton stoßen die drei ??? auf eine alte Steinfigur und eine Karte mit geheimen Schriftzeichen. Beides scheint vom Volk der Maya zu stammen. Welches Geheimnis bergen die Fundstücke? Als Justus, Bob und Peter klar wird, dass einige zwielichtige Gestalten sehr an der Lösung des Rätsels interessiert sind, entspinnt sich ein gefährlicher Wettlauf gegen die Zeit und ihre Widersacher.<br><br>Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert, wird mit Die drei ??? und das Grab der Maya nun die Reihe der Stereofassungen der Planetariums-Hörspiele fortgesetzt.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Sheryl",
+        "Speaker": "Merete Brettschneider"
+      },
+      {
+        "Character": "Professor Burnham",
+        "Speaker": "Jürgen Thormann"
+      },
+      {
+        "Character": "Salvador Pérez",
+        "Speaker": "Matthias Klimsa"
+      },
+      {
+        "Character": "Tuyucim Florentino Ixmatá",
+        "Speaker": "Mario Ramos"
+      },
+      {
+        "Character": "Tuyucim",
+        "Speaker": "Nicolas Klimsa"
+      },
+      {
+        "Character": "Maria Pérez",
+        "Speaker": "Caroline Kiesewetter"
+      },
+      {
+        "Character": "Zachary",
+        "Speaker": "Roman Rossa"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Conrad Williams",
+        "Speaker": "Peter Weis"
+      },
+      {
+        "Character": "Nachrichtensprecher",
+        "Speaker": "André Schünke"
+      }
+    ]
+  },
+  {
+    "Id": "f17f4c43-30df-4fa4-8e25-c39c85b05480",
+    "Title": "O du Finstere",
+    "NumberEuropa": null,
+    "ReleaseDate": "2020-10-09T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f17f4c43-30df-4fa4-8e25-c39c85b05480.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": "7ynXpeQRwzqKiv8WVh7c7B",
+    "AmazonAlbumId": "B08GSLFHVJ",
+    "Author": "Hendrik Buchna",
+    "Description": "Für Tante Mathilda erfüllt sich ein lang gehegter Wunsch: Gemeinsam mit Onkel Titus, Justus, Peter und Bob will sie Weihnachten in einer verschneiten Berghütte feiern. Die besinnliche Stimmung wird schnell getrübt, als eine gehörnte Schreckgestalt in die Idylle hereinbricht. Doch auch unheimliche Vorfälle und Drohbotschaften halten die drei ??? nicht davon ab, diesem Rätsel auf den Grund zu gehen.<br><br>Ein Weihnachtsfall in 24 Kapiteln.",
+     "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Linneweg"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Gianna",
+        "Speaker": "Céline Fontanges"
+      },
+      {
+        "Character": "Lance",
+        "Speaker": "Armin Schlagwein"
+      },
+      {
+        "Character": "Debra",
+        "Speaker": "Melanie Kastaun"
+      },
+      {
+        "Character": "Audrey",
+        "Speaker": "Anja Topf"
+      },
+      {
+        "Character": "Bellins",
+        "Speaker": "Joachim Kretzer"
+      },
+      {
+        "Character": "Jerry",
+        "Speaker": "Matthias Keller"
+      },
+      {
+        "Character": "Corey",
+        "Speaker": "Andreas Zaron"
+      },
+      {
+        "Character": "Joe",
+        "Speaker": "André Beyer"
+      },
+      {
+        "Character": "Mr. Allister",
+        "Speaker": "Fabian Harloff"
+      }
+    ]
+  },
+  {
+    "Id": "7681bd91-51ba-4169-9090-df86211f7e4d",
+    "Title": "...und der dreiäugige Totenkopf",
+    "NumberEuropa": null,
+    "ReleaseDate": "2020-02-07T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7681bd91-51ba-4169-9090-df86211f7e4d.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": "76M62o1rdKEqTN1JIbGdGV",
+    "AmazonAlbumId": "B082WNJM6Z",
+    "Author": "Ivar Leon Menger & John Beckmann",
+    "Description": "Horror-Regisseur James Kushing erwacht eines Morgens mit einer mysteriösen Tätowierung auf dem Arm: ein dreiaugiger Totenkopf! Was hat das Tattoo mit dem Film zu tun, den Kushing niemals fertiggestellt hat? Und welches Geheimnis steckt hinter dem gestohlenen Smaragd, der vor Jahren spurlos vom Filmset verschwand? Justus, Peter und Bob stürzen sich in den Fall und entdecken nach und nach die Wahrheit hinter dem Rätsel...",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Jens Wawrczek"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Rüdiger Schulzki"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Roger Kind",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "R. Kind als Regisseur Kushing",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "R. Kind als Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Inspektor Cotta",
+        "Speaker": "Holger Mahlich"
+      },
+      {
+        "Character": "Regisseur Kushing",
+        "Speaker": "Tim Grobe"
+      },
+      {
+        "Character": "Melanie Shepard",
+        "Speaker": "Christiane Leuchtmann"
+      },
+      {
+        "Character": "Laura",
+        "Speaker": "Henrike Fehrs"
+      },
+      {
+        "Character": "Lara Bix",
+        "Speaker": "Ursula Sieg"
+      },
+      {
+        "Character": "Jason Frost",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Kellnerin",
+        "Speaker": "Simona Pahl"
+      },
+      {
+        "Character": "Museumsdame",
+        "Speaker": "Rhea Harder"
+      },
+      {
+        "Character": "Monsterpuppe",
+        "Speaker": "Kerstin Draeger"
+      },
+      {
+        "Character": "Betty Frost",
+        "Speaker": "Rosemarie Wohlbauer"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Markus Schäfer"
+      },
+      {
+        "Character": "Kameramann",
+        "Speaker": "Helgé Halvé"
+      },
+      {
+        "Character": "Tonmann",
+        "Speaker": "Timo Alexander Wenzel"
+      }
+    ]
+  },
+  {
+    "Id": "f4310157-f724-465e-8a8f-773de351fb47",
+    "Title": "Die Welt der drei ???",
+    "NumberEuropa": null,
+    "ReleaseDate": "2019-08-23T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f4310157-f724-465e-8a8f-773de351fb47.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": "7M0B7obT3Yne87GsGAvB4r",
+    "AmazonAlbumId": "B07VHQX6BV",
+    "Author": null,
+    "Description": "Wusstet ihr, dass Skinny Noris und Morton etwas gemeinsam haben? Dass Bobs Vater ganze vier und seine Mutter gar keinen Vornamen hat? Wer den Ausdruck \"spezialgelagerter Sonderfall\" erfand? Und ob Hugenay eigentlich nochmal aus dem Gefägnis kommt? Die drei ??? haben sich in einem Zeitraum von mehr als 50 Jahren von einer ursprünglich US-amerikanischen Jugendbuchserie zu einem generationenübergreifenden Massenphänomen in Deutschland entwickelt. Der Autor C.R. Rodenwald fasst nun endlich (fast) alles zusammen, was über die drei Detektive aus Rocky Beach und ihre abenteuerlichen Erlebnisse bekannt ist: Wissenswertes zu allen wichtigen Figuren der Serie, die Hintergründe der Entstehung, Fakten und kuriose Gegebenheiten wie etwa die hypothetische Frage »Wie groß müsste die >Kleinstadt< Rocky Beach eigentlich wirklich sein?«. Erzählt von Daniel Finger. Mit O-Tönen Statements, Zwischenrufen und Hörspielsequenzen",
+    "Roles": []
+  },
+  {
+    "Id": "bcbc5cc7-d373-417a-8969-c99a731dfd96",
+    "Title": "...und das versunkene Schiff",
+    "NumberEuropa": null,
+    "ReleaseDate": "2019-11-01T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bcbc5cc7-d373-417a-8969-c99a731dfd96.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": "6UN8m07SmIzyDe63H0oljL",
+    "AmazonAlbumId": "B07Y6T349V",
+    "Author": null,
+    "Description": "Das Planetarium Special jetzt auch limitiert auf CD und MC und auch als Download erhältlich.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Amanda Ellis",
+        "Speaker": "Simona Pahl"
+      },
+      {
+        "Character": "Jo",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Steve Young",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Ford Fallows",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Eric Ellis",
+        "Speaker": "Horst Stark"
+      },
+      {
+        "Character": "Ricardo Yarbrough",
+        "Speaker": "Stefan Brönneke"
+      },
+      {
+        "Character": "Bibliothekarin",
+        "Speaker": "Rosemarie Wohlbauer"
+      },
+      {
+        "Character": "Mr. Friedman",
+        "Speaker": "Douglas Welbat"
+      },
+      {
+        "Character": "Mann in der Bibliothek",
+        "Speaker": "Erik Schäffler"
+      },
+      {
+        "Character": "Sekretärin",
+        "Speaker": "Christiane Leuchtmann"
+      },
+      {
+        "Character": "Jackson Cooper",
+        "Speaker": "Oliver Böttcher"
+      },
+      {
+        "Character": "Mr. Miller und der Hund Geoffrey",
+        "Speaker": "Piere Brand"
+      }
+    ]
+  },
+  {
+    "Id": "8ee8585e-f0ff-47c2-b773-98e05992a034",
+    "Title": "...und die schwarze Katze 2019",
+    "NumberEuropa": null,
+    "ReleaseDate": "2019-02-15T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8ee8585e-f0ff-47c2-b773-98e05992a034.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": "39K0Sczt1mIbW33lB5RNer",
+    "AmazonAlbumId": "B07PNJXW2H",
+    "Author": "William Arden & André Minninger",
+    "Description": "In einem kleinen Wanderzirkus wittern die drei Detektive Justus, Peter und Bob ihren neuesten Fall. Justus ist sich sicher: Wenn ein finster aussehender Mann mit Gewalt eine hässliche Stoffkatze an sich bringen will, sie dann stiehlt und am nächsten Tag per Zeitungsanzeige weitere Katzen sucht, muss etwas dahinter stecken! Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert.",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Thomas Fritsch"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Andy Carson",
+        "Speaker": "Stefan Schwade"
+      },
+      {
+        "Character": "Carson, Andys Vater",
+        "Speaker": "Hans Kahlert"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Hans Meinhardt"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Karin Lieneweg"
+      },
+      {
+        "Character": "Gabbo",
+        "Speaker": "Manfred Reddemann"
+      },
+      {
+        "Character": "Wachmann",
+        "Speaker": "Till Huster"
+      },
+      {
+        "Character": "Iwan",
+        "Speaker": "Urs Affolter"
+      },
+      {
+        "Character": "Reynolds",
+        "Speaker": "Christian Redl"
+      },
+      {
+        "Character": "Khan",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Schaustellerin",
+        "Speaker": "Ursula Sieg"
+      },
+      {
+        "Character": "Vermieter",
+        "Speaker": "Stephan Benson"
+      },
+      {
+        "Character": "Polizist",
+        "Speaker": "Jürgen Holdorf"
+      },
+      {
+        "Character": "Polizist I (Prolog)",
+        "Speaker": "Daniel Welbat"
+      },
+      {
+        "Character": "Polizist II (Prolog)",
+        "Speaker": "Matthias Krauße"
+      },
+      {
+        "Character": "Losverkäufer",
+        "Speaker": "Joachim Kretzer"
+      },
+      {
+        "Character": "Kassiererin",
+        "Speaker": "Birte Kretschmer"
+      },
+      {
+        "Character": "Feuerschlucker",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Jack",
+        "Speaker": "Timo Alexander Wenzel"
+      },
+      {
+        "Character": "Kinder, ....und viele",
+        "Speaker": "....und viele Kinder"
+      }
+    ]
+  },
+  {
     "Id": "8c668730-af11-4cba-9f27-0ebc2129c3a0",
     "Title": "Panik im Paradies",
     "NumberEuropa": 1,
@@ -21088,201 +21535,6 @@
     ]
   },
   {
-    "Id": "79e53724-82d5-431a-95be-5775643c8144",
-    "Title": "Adventskalender",
-    "NumberEuropa": null,
-    "ReleaseDate": "2012-11-30T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/79e53724-82d5-431a-95be-5775643c8144.jpg",
-    "Interpreter": "Die drei ??? Kids",
-    "SpotifyAlbumId": "0Pg0kbjNl7PC22ghcSqKih",
-    "AmazonAlbumId": null,
-    "Author": null,
-    "Description": "24 Mitratefälle! Weihnachten steht vor der Tür und auf Justus, Peter und Bob warten 24 spannende Abenteuer. Jeden Tag stehen die drei ??? Kids vor einem neuen rätselhaften Fall. Findest auch du die Täter und kannst die verzwickten Ratekrimis lösen? Doch Vorsicht! Denn dabei geht es nicht nur um geklaute Tannenbäume...",
-    "Roles": [
-      {
-        "Character": "Justus Jonas",
-        "Speaker": "Jannik Schümann"
-      },
-      {
-        "Character": "Peter Shaw",
-        "Speaker": "Yoshij Grimm"
-      },
-      {
-        "Character": "Bob Andrews",
-        "Speaker": "David Wittmann"
-      },
-      {
-        "Character": "Erzähler",
-        "Speaker": "Johannes Steck"
-      },
-      {
-        "Character": "Onkel Titus",
-        "Speaker": "Achim Schuelke"
-      },
-      {
-        "Character": "Tante Mathilda",
-        "Speaker": "Ingrid Capelle"
-      },
-      {
-        "Character": "Kommissar Reynolds",
-        "Speaker": "Klaus Dittmann"
-      },
-      {
-        "Character": "Skinny Norris",
-        "Speaker": "Tim Kreuer"
-      },
-      {
-        "Character": "Mr. Andrews",
-        "Speaker": "Ole Jacobsen"
-      },
-      {
-        "Character": "Giovanni",
-        "Speaker": "Robert Missler"
-      },
-      {
-        "Character": "Ernesto Porto",
-        "Speaker": "Holger Löwenberger"
-      },
-      {
-        "Character": "Moderatorin",
-        "Speaker": "Claudia Stocksieker"
-      },
-      {
-        "Character": "Motorradfahrer (1)",
-        "Speaker": "Mario Hassert"
-      },
-      {
-        "Character": "Sam Jakobson (24)",
-        "Speaker": "Mario Hassert"
-      },
-      {
-        "Character": "Mr. Perkins (3)",
-        "Speaker": "Florian Walter"
-      },
-      {
-        "Character": "Billy Bones (20)",
-        "Speaker": "Florian Walter"
-      },
-      {
-        "Character": "Jasper (4)",
-        "Speaker": "Sven Dahlem"
-      },
-      {
-        "Character": "Reporter (5)",
-        "Speaker": "Michael Krüger"
-      },
-      {
-        "Character": "Rennleitung (15)",
-        "Speaker": "Michael Krüger"
-      },
-      {
-        "Character": "Chefredakteur (5)",
-        "Speaker": "Ansgar Döbertin"
-      },
-      {
-        "Character": "Lockvogel (10)",
-        "Speaker": "Ansgar Döbertin"
-      },
-      {
-        "Character": "Fabrikbesitzer (19)",
-        "Speaker": "Ansgar Döbertin"
-      },
-      {
-        "Character": "Mr. Doyle (6)",
-        "Speaker": "André Beyer"
-      },
-      {
-        "Character": "Mr. Hopper (7)",
-        "Speaker": "Holger Fuchs"
-      },
-      {
-        "Character": "Zeitungsjunge (7)",
-        "Speaker": "Dennis Saemann"
-      },
-      {
-        "Character": "Robert Poccaro (8)",
-        "Speaker": "Martin Schäfer"
-      },
-      {
-        "Character": "Mr. Dorson (23)",
-        "Speaker": "Martin Schäfer"
-      },
-      {
-        "Character": "Jeff Ridley (8)",
-        "Speaker": "Robert Steudtner"
-      },
-      {
-        "Character": "Geldtransporterfahrer (23)",
-        "Speaker": "Robert Steudtner"
-      },
-      {
-        "Character": "Chris Cracker (9)",
-        "Speaker": "Patrick Bach"
-      },
-      {
-        "Character": "Magic Danny (10)",
-        "Speaker": "Maximilian Krings"
-      },
-      {
-        "Character": "Stranddieb (11)",
-        "Speaker": "Ingo Albrecht"
-      },
-      {
-        "Character": "Trickbetrüger (21)",
-        "Speaker": "Ingo Albrecht"
-      },
-      {
-        "Character": "Rettungsschwimmer (11)",
-        "Speaker": "Stefan Mitrenga"
-      },
-      {
-        "Character": "Mrs. Carter (12)",
-        "Speaker": "Lia Pahl"
-      },
-      {
-        "Character": "Versicherungsbetrüger (13)",
-        "Speaker": "Bodo Henkel"
-      },
-      {
-        "Character": "Dolly Carlton (14)",
-        "Speaker": "Mareike Fell"
-      },
-      {
-        "Character": "Käpt'n Klapper (16)",
-        "Speaker": "Thomas Karallus"
-      },
-      {
-        "Character": "Old Digger (18)",
-        "Speaker": "Christoph Jablonka"
-      },
-      {
-        "Character": "Trickbetrügerin (21)",
-        "Speaker": "Sabine König"
-      },
-      {
-        "Character": "Randolf Cooper (22)",
-        "Speaker": "Christian Jungwirth"
-      },
-      {
-        "Character": "Mr. Dunken (24)",
-        "Speaker": "Jens Wendland"
-      }
-    ]
-  },
-  {
-    "Id": "2ffa7ad6-41e1-4417-bd7c-f0c6beb3c981",
-    "Title": "Adventskalender - 24 Tage im Weihnachtsland",
-    "NumberEuropa": null,
-    "ReleaseDate": "2016-11-04T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2ffa7ad6-41e1-4417-bd7c-f0c6beb3c981.jpg",
-    "Interpreter": "Die drei ??? Kids",
-    "SpotifyAlbumId": "7d8GIfIRWUNIZZXc5bjsrT",
-    "AmazonAlbumId": "B076CWPSQ1",
-    "Author": null,
-    "Description": "Ein ganz besonderer Adventskalender auf zwei CDs. Höre Tag für Tag einen Titel und begleite Justus, Peter und Bob. Advent, Advent! Die drei ??? Kids helfen im Weihnachtsland mit. Doch schon bald ist die festliche Stimmung getrübt, denn einige Bösewichte bedrohen die Weihnachtsvilla. Können Die drei ??? Kids das Land vor den Weihnachtshassern retten?",
-    "Roles": []
-  },
-  {
     "Id": "e5c02905-e909-4830-989d-4120b9f9de19",
     "Title": "Chaos im Dunkeln",
     "NumberEuropa": 68,
@@ -21361,112 +21613,6 @@
       {
         "Character": "John Lamberts",
         "Speaker": "Lars Cording"
-      }
-    ]
-  },
-  {
-    "Id": "8ee8585e-f0ff-47c2-b773-98e05992a034",
-    "Title": "...und die schwarze Katze 2019",
-    "NumberEuropa": null,
-    "ReleaseDate": "2019-02-15T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8ee8585e-f0ff-47c2-b773-98e05992a034.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": "39K0Sczt1mIbW33lB5RNer",
-    "AmazonAlbumId": "B07PNJXW2H",
-    "Author": "William Arden & André Minninger",
-    "Description": "In einem kleinen Wanderzirkus wittern die drei Detektive Justus, Peter und Bob ihren neuesten Fall. Justus ist sich sicher: Wenn ein finster aussehender Mann mit Gewalt eine hässliche Stoffkatze an sich bringen will, sie dann stiehlt und am nächsten Tag per Zeitungsanzeige weitere Katzen sucht, muss etwas dahinter stecken! Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert.",
-    "Roles": [
-      {
-        "Character": "Erzähler",
-        "Speaker": "Thomas Fritsch"
-      },
-      {
-        "Character": "Justus Jonas, Erster Detektiv",
-        "Speaker": "Oliver Rohrbeck"
-      },
-      {
-        "Character": "Peter Shaw, Zweiter Detektiv",
-        "Speaker": "Jens Wawrczeck"
-      },
-      {
-        "Character": "Bob Andrews, Recherchen und Archiv",
-        "Speaker": "Andreas Fröhlich"
-      },
-      {
-        "Character": "Andy Carson",
-        "Speaker": "Stefan Schwade"
-      },
-      {
-        "Character": "Carson, Andys Vater",
-        "Speaker": "Hans Kahlert"
-      },
-      {
-        "Character": "Onkel Titus",
-        "Speaker": "Hans Meinhardt"
-      },
-      {
-        "Character": "Tante Mathilda",
-        "Speaker": "Karin Lieneweg"
-      },
-      {
-        "Character": "Gabbo",
-        "Speaker": "Manfred Reddemann"
-      },
-      {
-        "Character": "Wachmann",
-        "Speaker": "Till Huster"
-      },
-      {
-        "Character": "Iwan",
-        "Speaker": "Urs Affolter"
-      },
-      {
-        "Character": "Reynolds",
-        "Speaker": "Christian Redl"
-      },
-      {
-        "Character": "Khan",
-        "Speaker": "Klaus Dittmann"
-      },
-      {
-        "Character": "Schaustellerin",
-        "Speaker": "Ursula Sieg"
-      },
-      {
-        "Character": "Vermieter",
-        "Speaker": "Stephan Benson"
-      },
-      {
-        "Character": "Polizist",
-        "Speaker": "Jürgen Holdorf"
-      },
-      {
-        "Character": "Polizist I (Prolog)",
-        "Speaker": "Daniel Welbat"
-      },
-      {
-        "Character": "Polizist II (Prolog)",
-        "Speaker": "Matthias Krauße"
-      },
-      {
-        "Character": "Losverkäufer",
-        "Speaker": "Joachim Kretzer"
-      },
-      {
-        "Character": "Kassiererin",
-        "Speaker": "Birte Kretschmer"
-      },
-      {
-        "Character": "Feuerschlucker",
-        "Speaker": "Robert Missler"
-      },
-      {
-        "Character": "Jack",
-        "Speaker": "Timo Alexander Wenzel"
-      },
-      {
-        "Character": "Kinder, ....und viele",
-        "Speaker": "....und viele Kinder"
       }
     ]
   },
@@ -21681,97 +21827,6 @@
     ]
   },
   {
-    "Id": "f4310157-f724-465e-8a8f-773de351fb47",
-    "Title": "Die Welt der drei ???",
-    "NumberEuropa": null,
-    "ReleaseDate": "2019-08-23T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f4310157-f724-465e-8a8f-773de351fb47.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": "7M0B7obT3Yne87GsGAvB4r",
-    "AmazonAlbumId": "B07VHQX6BV",
-    "Author": null,
-    "Description": "Wusstet ihr, dass Skinny Noris und Morton etwas gemeinsam haben? Dass Bobs Vater ganze vier und seine Mutter gar keinen Vornamen hat? Wer den Ausdruck \"spezialgelagerter Sonderfall\" erfand? Und ob Hugenay eigentlich nochmal aus dem Gefägnis kommt? Die drei ??? haben sich in einem Zeitraum von mehr als 50 Jahren von einer ursprünglich US-amerikanischen Jugendbuchserie zu einem generationenübergreifenden Massenphänomen in Deutschland entwickelt. Der Autor C.R. Rodenwald fasst nun endlich (fast) alles zusammen, was über die drei Detektive aus Rocky Beach und ihre abenteuerlichen Erlebnisse bekannt ist: Wissenswertes zu allen wichtigen Figuren der Serie, die Hintergründe der Entstehung, Fakten und kuriose Gegebenheiten wie etwa die hypothetische Frage »Wie groß müsste die >Kleinstadt< Rocky Beach eigentlich wirklich sein?«. Erzählt von Daniel Finger. Mit O-Tönen Statements, Zwischenrufen und Hörspielsequenzen",
-    "Roles": []
-  },
-  {
-    "Id": "bcbc5cc7-d373-417a-8969-c99a731dfd96",
-    "Title": "...und das versunkene Schiff",
-    "NumberEuropa": null,
-    "ReleaseDate": "2019-11-01T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bcbc5cc7-d373-417a-8969-c99a731dfd96.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": "6UN8m07SmIzyDe63H0oljL",
-    "AmazonAlbumId": "B07Y6T349V",
-    "Author": null,
-    "Description": "Das Planetarium Special jetzt auch limitiert auf CD und MC und auch als Download erhältlich.",
-    "Roles": [
-      {
-        "Character": "Erzähler",
-        "Speaker": "Thomas Fritsch"
-      },
-      {
-        "Character": "Justus Jonas, Erster Detektiv",
-        "Speaker": "Oliver Rohrbeck"
-      },
-      {
-        "Character": "Peter Shaw, Zweiter Detektiv",
-        "Speaker": "Jens Wawrczeck"
-      },
-      {
-        "Character": "Bob Andrews, Recherchen und Archiv",
-        "Speaker": "Andreas Fröhlich"
-      },
-      {
-        "Character": "Amanda Ellis",
-        "Speaker": "Simona Pahl"
-      },
-      {
-        "Character": "Jo",
-        "Speaker": "Birte Kretschmer"
-      },
-      {
-        "Character": "Steve Young",
-        "Speaker": "Till Huster"
-      },
-      {
-        "Character": "Ford Fallows",
-        "Speaker": "Stephan Benson"
-      },
-      {
-        "Character": "Eric Ellis",
-        "Speaker": "Horst Stark"
-      },
-      {
-        "Character": "Ricardo Yarbrough",
-        "Speaker": "Stefan Brönneke"
-      },
-      {
-        "Character": "Bibliothekarin",
-        "Speaker": "Rosemarie Wohlbauer"
-      },
-      {
-        "Character": "Mr. Friedman",
-        "Speaker": "Douglas Welbat"
-      },
-      {
-        "Character": "Mann in der Bibliothek",
-        "Speaker": "Erik Schäffler"
-      },
-      {
-        "Character": "Sekretärin",
-        "Speaker": "Christiane Leuchtmann"
-      },
-      {
-        "Character": "Jackson Cooper",
-        "Speaker": "Oliver Böttcher"
-      },
-      {
-        "Character": "Mr. Miller und der Hund Geoffrey",
-        "Speaker": "Piere Brand"
-      }
-    ]
-  },
-  {
     "Id": "7745a34c-8756-41c1-9a2f-c99b8c0afdb6",
     "Title": "Die Laser-Falle",
     "NumberEuropa": 72,
@@ -21828,19 +21883,6 @@
         "Speaker": "Frank Kessler"
       }
     ]
-  },
-  {
-    "Id": "f6483fb1-0e3f-45cb-832e-aeeeaaa8b005",
-    "Title": "Adventskalender - 24 Tage im Weihnachtszirkus",
-    "NumberEuropa": null,
-    "ReleaseDate": "2019-09-20T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f6483fb1-0e3f-45cb-832e-aeeeaaa8b005.jpg",
-    "Interpreter": "Die drei ??? Kids",
-    "SpotifyAlbumId": "0tuslnSb2vi63lqnROhlSl",
-    "AmazonAlbumId": "B07X7HTW5S",
-    "Author": null,
-    "Description": "Der berühmte Weihnachtszirkus gastiert in Rocky Beach. Begeistert folgen die drei ??? Kids der Vorstellung. Doch plötzlich stockt ihnen der Atem: Fast wäre der bekannte Hochseilartist in die Tiefe gestürzt! Ist hier Sabotage im Spiel? Im Handumdrehen befinden sich Justus, Peter und Bob als verdeckte Ermittler in einem turbulenten Fall.",
-    "Roles": []
   },
   {
     "Id": "24ea07c3-c7c3-41f1-9e47-45d4053ce0bb",
@@ -21983,108 +22025,6 @@
       {
         "Character": "Cobra 2",
         "Speaker": "Thomas Güthaus"
-      }
-    ]
-  },
-  {
-    "Id": "7681bd91-51ba-4169-9090-df86211f7e4d",
-    "Title": "...und der dreiäugige Totenkopf",
-    "NumberEuropa": null,
-    "ReleaseDate": "2020-02-07T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7681bd91-51ba-4169-9090-df86211f7e4d.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": "76M62o1rdKEqTN1JIbGdGV",
-    "AmazonAlbumId": "B082WNJM6Z",
-    "Author": "Ivar Leon Menger & John Beckmann",
-    "Description": "Horror-Regisseur James Kushing erwacht eines Morgens mit einer mysteriösen Tätowierung auf dem Arm: ein dreiaugiger Totenkopf! Was hat das Tattoo mit dem Film zu tun, den Kushing niemals fertiggestellt hat? Und welches Geheimnis steckt hinter dem gestohlenen Smaragd, der vor Jahren spurlos vom Filmset verschwand? Justus, Peter und Bob stürzen sich in den Fall und entdecken nach und nach die Wahrheit hinter dem Rätsel...",
-    "Roles": [
-      {
-        "Character": "Erzähler",
-        "Speaker": "Thomas Fritsch"
-      },
-      {
-        "Character": "Justus Jonas",
-        "Speaker": "Oliver Rohrbeck"
-      },
-      {
-        "Character": "Peter Shaw",
-        "Speaker": "Jens Wawrczek"
-      },
-      {
-        "Character": "Bob Andrews",
-        "Speaker": "Andreas Fröhlich"
-      },
-      {
-        "Character": "Onkel Titus",
-        "Speaker": "Rüdiger Schulzki"
-      },
-      {
-        "Character": "Tante Mathilda",
-        "Speaker": "Karin Lieneweg"
-      },
-      {
-        "Character": "Roger Kind",
-        "Speaker": "Holger Mahlich"
-      },
-      {
-        "Character": "R. Kind als Regisseur Kushing",
-        "Speaker": "Holger Mahlich"
-      },
-      {
-        "Character": "R. Kind als Cotta",
-        "Speaker": "Holger Mahlich"
-      },
-      {
-        "Character": "Inspektor Cotta",
-        "Speaker": "Holger Mahlich"
-      },
-      {
-        "Character": "Regisseur Kushing",
-        "Speaker": "Tim Grobe"
-      },
-      {
-        "Character": "Melanie Shepard",
-        "Speaker": "Christiane Leuchtmann"
-      },
-      {
-        "Character": "Laura",
-        "Speaker": "Henrike Fehrs"
-      },
-      {
-        "Character": "Lara Bix",
-        "Speaker": "Ursula Sieg"
-      },
-      {
-        "Character": "Jason Frost",
-        "Speaker": "Robert Missler"
-      },
-      {
-        "Character": "Kellnerin",
-        "Speaker": "Simona Pahl"
-      },
-      {
-        "Character": "Museumsdame",
-        "Speaker": "Rhea Harder"
-      },
-      {
-        "Character": "Monsterpuppe",
-        "Speaker": "Kerstin Draeger"
-      },
-      {
-        "Character": "Betty Frost",
-        "Speaker": "Rosemarie Wohlbauer"
-      },
-      {
-        "Character": "Wachmann",
-        "Speaker": "Markus Schäfer"
-      },
-      {
-        "Character": "Kameramann",
-        "Speaker": "Helgé Halvé"
-      },
-      {
-        "Character": "Tonmann",
-        "Speaker": "Timo Alexander Wenzel"
       }
     ]
   },
@@ -22287,167 +22227,6 @@
     ]
   },
   {
-    "Id": "618060ec-80bc-4c2d-bc91-df2d853f90e8",
-    "Title": "...und das Grab der Maya",
-    "NumberEuropa": null,
-    "ReleaseDate": "2020-11-20T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/618060ec-80bc-4c2d-bc91-df2d853f90e8.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": "4vj4Dq2q7fyvwY7UCj2vin",
-    "AmazonAlbumId": "B08L83K6DP",
-    "Author": "André Marx",
-    "Description": "In einem Umzugskarton stoßen die drei ??? auf eine alte Steinfigur und eine Karte mit geheimen Schriftzeichen. Beides scheint vom Volk der Maya zu stammen. Welches Geheimnis bergen die Fundstücke? Als Justus, Bob und Peter klar wird, dass einige zwielichtige Gestalten sehr an der Lösung des Rätsels interessiert sind, entspinnt sich ein gefährlicher Wettlauf gegen die Zeit und ihre Widersacher.<br><br>Ursprünglich als immersives Hörspiel für Vorführungen in Planetarien produziert, wird mit Die drei ??? und das Grab der Maya nun die Reihe der Stereofassungen der Planetariums-Hörspiele fortgesetzt.",
-    "Roles": [
-      {
-        "Character": "Erzähler",
-        "Speaker": "Axel Milberg"
-      },
-      {
-        "Character": "Justus Jonas, Erster Detektiv",
-        "Speaker": "Oliver Rohrbeck"
-      },
-      {
-        "Character": "Peter Shaw, Zweiter Detektiv",
-        "Speaker": "Jens Wawrczeck"
-      },
-      {
-        "Character": "Bob Andrews, Recherchen und Archiv",
-        "Speaker": "Andreas Fröhlich"
-      },
-      {
-        "Character": "Skinny Norris",
-        "Speaker": "Tim Kreuer"
-      },
-      {
-        "Character": "Sheryl",
-        "Speaker": "Merete Brettschneider"
-      },
-      {
-        "Character": "Professor Burnham",
-        "Speaker": "Jürgen Thormann"
-      },
-      {
-        "Character": "Salvador Pérez",
-        "Speaker": "Matthias Klimsa"
-      },
-      {
-        "Character": "Tuyucim Florentino Ixmatá",
-        "Speaker": "Mario Ramos"
-      },
-      {
-        "Character": "Tuyucim",
-        "Speaker": "Nicolas Klimsa"
-      },
-      {
-        "Character": "Maria Pérez",
-        "Speaker": "Caroline Kiesewetter"
-      },
-      {
-        "Character": "Zachary",
-        "Speaker": "Roman Rossa"
-      },
-      {
-        "Character": "Tante Mathilda",
-        "Speaker": "Karin Lieneweg"
-      },
-      {
-        "Character": "Conrad Williams",
-        "Speaker": "Peter Weis"
-      },
-      {
-        "Character": "Nachrichtensprecher",
-        "Speaker": "André Schünke"
-      }
-    ]
-  },
-  {
-    "Id": "f17f4c43-30df-4fa4-8e25-c39c85b05480",
-    "Title": "O du Finstere",
-    "NumberEuropa": null,
-    "ReleaseDate": "2020-10-09T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f17f4c43-30df-4fa4-8e25-c39c85b05480.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": "7ynXpeQRwzqKiv8WVh7c7B",
-    "AmazonAlbumId": "B08GSLFHVJ",
-    "Author": "Hendrik Buchna",
-    "Description": "Für Tante Mathilda erfüllt sich ein lang gehegter Wunsch: Gemeinsam mit Onkel Titus, Justus, Peter und Bob will sie Weihnachten in einer verschneiten Berghütte feiern. Die besinnliche Stimmung wird schnell getrübt, als eine gehörnte Schreckgestalt in die Idylle hereinbricht. Doch auch unheimliche Vorfälle und Drohbotschaften halten die drei ??? nicht davon ab, diesem Rätsel auf den Grund zu gehen.<br><br>Ein Weihnachtsfall in 24 Kapiteln.",
-     "Roles": [
-      {
-        "Character": "Erzähler",
-        "Speaker": "Axel Milberg"
-      },
-      {
-        "Character": "Justus Jonas, Erster Detektiv",
-        "Speaker": "Oliver Rohrbeck"
-      },
-      {
-        "Character": "Peter Shaw, Zweiter Detektiv",
-        "Speaker": "Jens Wawrczeck"
-      },
-      {
-        "Character": "Bob Andrews, Recherchen und Archiv",
-        "Speaker": "Andreas Fröhlich"
-      },
-      {
-        "Character": "Tante Mathilda",
-        "Speaker": "Karin Linneweg"
-      },
-      {
-        "Character": "Onkel Titus",
-        "Speaker": "Rüdiger Schulzki"
-      },
-      {
-        "Character": "Gianna",
-        "Speaker": "Céline Fontanges"
-      },
-      {
-        "Character": "Lance",
-        "Speaker": "Armin Schlagwein"
-      },
-      {
-        "Character": "Debra",
-        "Speaker": "Melanie Kastaun"
-      },
-      {
-        "Character": "Audrey",
-        "Speaker": "Anja Topf"
-      },
-      {
-        "Character": "Bellins",
-        "Speaker": "Joachim Kretzer"
-      },
-      {
-        "Character": "Jerry",
-        "Speaker": "Matthias Keller"
-      },
-      {
-        "Character": "Corey",
-        "Speaker": "Andreas Zaron"
-      },
-      {
-        "Character": "Joe",
-        "Speaker": "André Beyer"
-      },
-      {
-        "Character": "Mr. Allister",
-        "Speaker": "Fabian Harloff"
-      }
-    ]
-  },
-  {
-    "Id": "1afe43f2-62a1-4622-a0a3-8861fb6a9a42",
-    "Title": "Adventskalender - Ein Rätsel in 24 Tagen",
-    "NumberEuropa": null,
-    "ReleaseDate": "2017-11-10T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/1afe43f2-62a1-4622-a0a3-8861fb6a9a42.jpg",
-    "Interpreter": "Die drei ??? Kids",
-    "SpotifyAlbumId": "4SVQrvQkXzYC1nU7DfDJx2",
-    "AmazonAlbumId": "B076BWVV61",
-    "Author": null,
-    "Description": "Ein begehbarer Adventskalender ist die Attraktion auf dem Weihnachtsmarkt von Rocky Beach. Doch schon am ersten Tag steckt hinter der Tür keine schöne Adventsüberraschung, sondern ein übler Scherz! Justus, Peter und Bob müssen all ihr Können aufbieten, um das Weihnachtsfest zu retten.",
-    "Roles": []
-  },
-  {
     "Id": "78e26442-82ee-4de7-8e73-34fc9e8daf3b",
     "Title": "Schrottplatz in Gefahr",
     "NumberEuropa": 78,
@@ -22504,5 +22283,226 @@
         "Speaker": "Douglas Welbat"
       }
     ]
+  },
+  {
+    "Id": "79e53724-82d5-431a-95be-5775643c8144",
+    "Title": "Adventskalender",
+    "NumberEuropa": null,
+    "ReleaseDate": "2012-11-30T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/79e53724-82d5-431a-95be-5775643c8144.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": "0Pg0kbjNl7PC22ghcSqKih",
+    "AmazonAlbumId": null,
+    "Author": null,
+    "Description": "24 Mitratefälle! Weihnachten steht vor der Tür und auf Justus, Peter und Bob warten 24 spannende Abenteuer. Jeden Tag stehen die drei ??? Kids vor einem neuen rätselhaften Fall. Findest auch du die Täter und kannst die verzwickten Ratekrimis lösen? Doch Vorsicht! Denn dabei geht es nicht nur um geklaute Tannenbäume...",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schuelke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Klaus Dittmann"
+      },
+      {
+        "Character": "Skinny Norris",
+        "Speaker": "Tim Kreuer"
+      },
+      {
+        "Character": "Mr. Andrews",
+        "Speaker": "Ole Jacobsen"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Robert Missler"
+      },
+      {
+        "Character": "Ernesto Porto",
+        "Speaker": "Holger Löwenberger"
+      },
+      {
+        "Character": "Moderatorin",
+        "Speaker": "Claudia Stocksieker"
+      },
+      {
+        "Character": "Motorradfahrer (1)",
+        "Speaker": "Mario Hassert"
+      },
+      {
+        "Character": "Sam Jakobson (24)",
+        "Speaker": "Mario Hassert"
+      },
+      {
+        "Character": "Mr. Perkins (3)",
+        "Speaker": "Florian Walter"
+      },
+      {
+        "Character": "Billy Bones (20)",
+        "Speaker": "Florian Walter"
+      },
+      {
+        "Character": "Jasper (4)",
+        "Speaker": "Sven Dahlem"
+      },
+      {
+        "Character": "Reporter (5)",
+        "Speaker": "Michael Krüger"
+      },
+      {
+        "Character": "Rennleitung (15)",
+        "Speaker": "Michael Krüger"
+      },
+      {
+        "Character": "Chefredakteur (5)",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Lockvogel (10)",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Fabrikbesitzer (19)",
+        "Speaker": "Ansgar Döbertin"
+      },
+      {
+        "Character": "Mr. Doyle (6)",
+        "Speaker": "André Beyer"
+      },
+      {
+        "Character": "Mr. Hopper (7)",
+        "Speaker": "Holger Fuchs"
+      },
+      {
+        "Character": "Zeitungsjunge (7)",
+        "Speaker": "Dennis Saemann"
+      },
+      {
+        "Character": "Robert Poccaro (8)",
+        "Speaker": "Martin Schäfer"
+      },
+      {
+        "Character": "Mr. Dorson (23)",
+        "Speaker": "Martin Schäfer"
+      },
+      {
+        "Character": "Jeff Ridley (8)",
+        "Speaker": "Robert Steudtner"
+      },
+      {
+        "Character": "Geldtransporterfahrer (23)",
+        "Speaker": "Robert Steudtner"
+      },
+      {
+        "Character": "Chris Cracker (9)",
+        "Speaker": "Patrick Bach"
+      },
+      {
+        "Character": "Magic Danny (10)",
+        "Speaker": "Maximilian Krings"
+      },
+      {
+        "Character": "Stranddieb (11)",
+        "Speaker": "Ingo Albrecht"
+      },
+      {
+        "Character": "Trickbetrüger (21)",
+        "Speaker": "Ingo Albrecht"
+      },
+      {
+        "Character": "Rettungsschwimmer (11)",
+        "Speaker": "Stefan Mitrenga"
+      },
+      {
+        "Character": "Mrs. Carter (12)",
+        "Speaker": "Lia Pahl"
+      },
+      {
+        "Character": "Versicherungsbetrüger (13)",
+        "Speaker": "Bodo Henkel"
+      },
+      {
+        "Character": "Dolly Carlton (14)",
+        "Speaker": "Mareike Fell"
+      },
+      {
+        "Character": "Käpt'n Klapper (16)",
+        "Speaker": "Thomas Karallus"
+      },
+      {
+        "Character": "Old Digger (18)",
+        "Speaker": "Christoph Jablonka"
+      },
+      {
+        "Character": "Trickbetrügerin (21)",
+        "Speaker": "Sabine König"
+      },
+      {
+        "Character": "Randolf Cooper (22)",
+        "Speaker": "Christian Jungwirth"
+      },
+      {
+        "Character": "Mr. Dunken (24)",
+        "Speaker": "Jens Wendland"
+      }
+    ]
+  },
+  {
+    "Id": "1afe43f2-62a1-4622-a0a3-8861fb6a9a42",
+    "Title": "Adventskalender - Ein Rätsel in 24 Tagen",
+    "NumberEuropa": null,
+    "ReleaseDate": "2017-11-10T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/1afe43f2-62a1-4622-a0a3-8861fb6a9a42.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": "4SVQrvQkXzYC1nU7DfDJx2",
+    "AmazonAlbumId": "B076BWVV61",
+    "Author": null,
+    "Description": "Ein begehbarer Adventskalender ist die Attraktion auf dem Weihnachtsmarkt von Rocky Beach. Doch schon am ersten Tag steckt hinter der Tür keine schöne Adventsüberraschung, sondern ein übler Scherz! Justus, Peter und Bob müssen all ihr Können aufbieten, um das Weihnachtsfest zu retten.",
+    "Roles": []
+  },
+  {
+    "Id": "f6483fb1-0e3f-45cb-832e-aeeeaaa8b005",
+    "Title": "Adventskalender - 24 Tage im Weihnachtszirkus",
+    "NumberEuropa": null,
+    "ReleaseDate": "2019-09-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f6483fb1-0e3f-45cb-832e-aeeeaaa8b005.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": "0tuslnSb2vi63lqnROhlSl",
+    "AmazonAlbumId": "B07X7HTW5S",
+    "Author": null,
+    "Description": "Der berühmte Weihnachtszirkus gastiert in Rocky Beach. Begeistert folgen die drei ??? Kids der Vorstellung. Doch plötzlich stockt ihnen der Atem: Fast wäre der bekannte Hochseilartist in die Tiefe gestürzt! Ist hier Sabotage im Spiel? Im Handumdrehen befinden sich Justus, Peter und Bob als verdeckte Ermittler in einem turbulenten Fall.",
+    "Roles": []
+  },
+  {
+    "Id": "2ffa7ad6-41e1-4417-bd7c-f0c6beb3c981",
+    "Title": "Adventskalender - 24 Tage im Weihnachtsland",
+    "NumberEuropa": null,
+    "ReleaseDate": "2016-11-04T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2ffa7ad6-41e1-4417-bd7c-f0c6beb3c981.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": "7d8GIfIRWUNIZZXc5bjsrT",
+    "AmazonAlbumId": "B076CWPSQ1",
+    "Author": null,
+    "Description": "Ein ganz besonderer Adventskalender auf zwei CDs. Höre Tag für Tag einen Titel und begleite Justus, Peter und Bob. Advent, Advent! Die drei ??? Kids helfen im Weihnachtsland mit. Doch schon bald ist die festliche Stimmung getrübt, denn einige Bösewichte bedrohen die Weihnachtsvilla. Können Die drei ??? Kids das Land vor den Weihnachtshassern retten?",
+    "Roles": []
   }
 ]
