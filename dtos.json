@@ -14516,7 +14516,7 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/acf957f9-7136-4792-9749-db46b722ed90.jpg",
     "Interpreter": "Die drei ???",
     "SpotifyAlbumId": null,
-    "AmazonAlbumId": null,
+    "AmazonAlbumId": "B08XJRFG5G",
     "Author": "Christoph Dittert",
     "Description": "Die verfallene Ruine des einstigen Sanatoriums lädt Justus, Peter und Bob zum Abenteuerausflug ein. Das bröckelige Gemäuer und die verschüttete Grotte darunter hat seit Jahren niemand mehr betreten. Die drei Detektive gelangen in das verlassene Gebäude und finden eine verschlossene Kiste mit unerwartetem Inhalt. Sind sie etwa doch nicht allein? Ein neuer Fall für die drei ???."
   },
@@ -22479,6 +22479,76 @@
       {
         "Character": "Rennleitung",
         "Speaker": "Andreas Ersson"
+      }
+    ]
+  },
+  {
+    "Id": "a368cb28-7630-4a0b-9604-407becadfbb7",
+    "Title": "Die Delfin-Piraten",
+    "NumberEuropa": 82,
+    "ReleaseDate": "2021-05-28",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/a368cb28-7630-4a0b-9604-407becadfbb7.jpg",
+    "Interpreter": "Die drei ??? Kids",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": null,
+    "Author": "Ulf Blanck",
+    "Description": "Justus, Peter und Bob besuchen eine Auswilderungsstation für gefangene Delfine. Seit Kurzem verschwinden die schutzbedürftigen Tiere auf mysteriöse Weise immer wieder von dort. Stecken etwa fiese Diebe dahinter?",
+    "Roles": [
+      {
+        "Character": "Justus Jonas",
+        "Speaker": "Jannik Schümann"
+      },
+      {
+        "Character": "Peter Shaw",
+        "Speaker": "Yoshij Grimm"
+      },
+      {
+        "Character": "Bob Andrews",
+        "Speaker": "David Wittmann"
+      },
+      {
+        "Character": "Erzähler",
+        "Speaker": "Johannes Steck"
+      },
+      {
+        "Character": "Onkel Titus",
+        "Speaker": "Achim Schülke"
+      },
+      {
+        "Character": "Tante Mathilda",
+        "Speaker": "Ingrid Capelle"
+      },
+      {
+        "Character": "Kommissar Reynolds",
+        "Speaker": "Bert Franzke"
+      },
+      {
+        "Character": "Clara Conners",
+        "Speaker": "Magdalena Montasser"
+      },
+      {
+        "Character": "Eniya Conners",
+        "Speaker": "Viola Müller"
+      },
+      {
+        "Character": "Giovanni",
+        "Speaker": "Roland Geiger"
+      },
+      {
+        "Character": "Mister Flynt",
+        "Speaker": "Frank Röth"
+      },
+      {
+        "Character": "Franco",
+        "Speaker": "Mathias Kunze"
+      },
+      {
+        "Character": "Jimbo",
+        "Speaker": "Robert Moeck"
+      },
+      {
+        "Character": "Carter",
+        "Speaker": "Matthias Scherwenikas"
       }
     ]
   },
