@@ -20,7 +20,8 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 Enumerable.Empty<RoleDto>(),
-                "HomerSimpson");
+                "HomerSimpson",
+                string.Empty);
 
             var uri = sut.SpotifyUri;
 

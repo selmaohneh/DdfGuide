@@ -13,6 +13,7 @@ namespace DdfGuide.Core
         public DateTime ReleaseDate { get; set; }
         public string CoverUrl { get; set; }
         public string Interpreter { get; set; }
+        public string Author { get; set; }
         public string Description { get; set; }
         public string SpotifyAlbumId { get; set; }
         public IEnumerable<RoleDto> Roles { get; set; }
@@ -20,7 +21,7 @@ namespace DdfGuide.Core
         [JsonIgnore]
         public Uri SpotifyUri => new Uri($"https://open.spotify.com/album/{SpotifyAlbumId}");
 
-        public AudioDramaDto(Guid id, string title, int? numberEuropa, DateTime releaseDate, string coverUrl, string interpreter, string description, IEnumerable<RoleDto> roles, string spotifyAlbumId)
+        public AudioDramaDto(Guid id, string title, int? numberEuropa, DateTime releaseDate, string coverUrl, string interpreter, string description, IEnumerable<RoleDto> roles, string spotifyAlbumId, string author)
         {
             Id = id;
             Title = title;
@@ -29,6 +30,7 @@ namespace DdfGuide.Core
             CoverUrl = coverUrl;
             Interpreter = interpreter;
             Description = description;
+            Author = author;
             SpotifyAlbumId = spotifyAlbumId;
             Roles = roles ?? new List<RoleDto>();
         }
@@ -55,6 +57,7 @@ namespace DdfGuide.Core
             searchString += ReleaseDate.ToString("dd.MM.yyyy");
             searchString += Interpreter;
             searchString += Description;
+            searchString += Author;
 
             foreach (var role in Roles)
             {
