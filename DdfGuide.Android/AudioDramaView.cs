@@ -115,6 +115,8 @@ namespace DdfGuide.Android
             var rolesView = _view.FindViewById<TextView>(Resource.Id.textViewRoles);
 
             rolesView.Text = string.Empty;
+            rolesView.Append(Html.FromHtml($"<b>Autor:</b><br>"));
+            rolesView.Append(Html.FromHtml($"{audioDrama.AudioDramaDto.Author}<br><br>"));
             foreach (var roleDto in audioDrama.AudioDramaDto.Roles)
             {
                 // Deprecated method is just due to old android versions.
