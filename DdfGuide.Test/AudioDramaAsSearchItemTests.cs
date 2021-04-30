@@ -101,6 +101,29 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void AuthorCanBeSearched()
+        {
+            var dto = new AudioDramaDto(
+                Guid.Empty,
+                string.Empty,
+                -1,
+                DateTime.MinValue,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                new List<RoleDto>(),
+                string.Empty,
+                "Homer Simpson, Marge Simpson");
+
+            var userData = new AudioDramaUserData(Guid.Empty, false, false);
+
+            var audioDrama = new AudioDrama(dto, userData);
+            var searchString = audioDrama.ToSearchString();
+
+            Assert.IsTrue(searchString.Contains("Homer Simpson, Marge Simpson"));
+        }
+
+        [TestMethod]
         public void DescriptionCanBeSearched()
         {
             var dto = new AudioDramaDto(
