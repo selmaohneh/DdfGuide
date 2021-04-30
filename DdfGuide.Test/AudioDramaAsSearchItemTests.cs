@@ -20,6 +20,7 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty, 
                 new List<RoleDto>(),
+                string.Empty,
                 string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
@@ -42,6 +43,7 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 new List<RoleDto>(),
+                string.Empty,
                 string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
@@ -64,6 +66,7 @@ namespace DdfGuide.Test
                 string.Empty,
                 string.Empty,
                 new List<RoleDto>(),
+                string.Empty,
                 string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
@@ -86,6 +89,7 @@ namespace DdfGuide.Test
                 "Homer Simpson",
                 string.Empty,
                 new List<RoleDto>(),
+                string.Empty,
                 string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
@@ -108,6 +112,7 @@ namespace DdfGuide.Test
                 string.Empty,
                 "Homer Simpson",
                 new List<RoleDto>(),
+                string.Empty,
                 string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
@@ -134,6 +139,7 @@ namespace DdfGuide.Test
                     new RoleDto("Homer Simpson", "Marge Simpson"),
                     new RoleDto("Springfield", "Duff Beer")
                 },
+                string.Empty,
                 string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
