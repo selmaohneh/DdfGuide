@@ -14579,6 +14579,18 @@
     "Description": "Justus, Peter und Bob sollen etwas mit dem Diebstahl des Jadekönig zu tun haben, einer der wertvollsten Briefmarken der Welt. Werden sich die Detektive an diesem Fall die Finger verbrennen?"
   },
   {
+    "Id": "bb78e04d-5e58-4002-a541-d827ec44bcca",
+    "Title": "Der weiße Leopard",
+    "NumberEuropa": 212,
+    "ReleaseDate": "2021-09-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bb78e04d-5e58-4002-a541-d827ec44bcca.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": null,
+    "Author": "Hendrik Buchna",
+    "Description": "Der weiße Leopard, eine japanische Prunkschale, verschwindet trotz des hochmodernen Alarmsystems. Ein kniffliger Fall für die drei ???, denn auf der Schale liegt ein Fluch der Samurai."
+  },
+  {
     "Id": "b68f3d30-292d-4cdb-b4a8-5c22984c517f",
     "Title": "Das Seeungeheuer",
     "NumberEuropa": 1,
