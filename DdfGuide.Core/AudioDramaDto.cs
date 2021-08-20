@@ -21,7 +21,19 @@ namespace DdfGuide.Core
         [JsonIgnore]
         public Uri SpotifyUri => new Uri($"https://open.spotify.com/album/{SpotifyAlbumId}");
 
-        public AudioDramaDto(Guid id, string title, int? numberEuropa, DateTime releaseDate, string coverUrl, string interpreter, string description, IEnumerable<RoleDto> roles, string spotifyAlbumId, string author)
+        [JsonIgnore]
+        public Uri AmazonBuyUri => new Uri($"https://www.amazon.de/gp/product/B01CURZRWG/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN={AmazonBuyUri}&linkCode=as2&tag=selmaohneh-21&linkId=7f31d23d30f02218a552f5642ac40dc9");
+
+        public AudioDramaDto(Guid id,
+                             string title,
+                             int? numberEuropa,
+                             DateTime releaseDate,
+                             string coverUrl,
+                             string interpreter,
+                             string description,
+                             IEnumerable<RoleDto> roles,
+                             string spotifyAlbumId,
+                             string author)
         {
             Id = id;
             Title = title;
@@ -45,7 +57,7 @@ namespace DdfGuide.Core
             }
 
             dump += $"{Title}";
-            
+
             return dump;
         }
 
