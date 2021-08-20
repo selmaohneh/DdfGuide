@@ -3329,6 +3329,9 @@ namespace DdfGuide.Android
 			// aapt resource value: 0x7F0C0014
 			public const int ic_stat_notification = 2131492884;
 			
+			// aapt resource value: 0x7F0C0015
+			public const int shoppingcart = 2131492885;
+			
 			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
