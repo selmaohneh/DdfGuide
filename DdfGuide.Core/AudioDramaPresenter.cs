@@ -17,6 +17,12 @@ namespace DdfGuide.Core
             _audioDramaView.IsFavoriteClicked += OnIsFavoriteChanged();
             _audioDramaView.HeardClicked += OnHeardChanged();
             _audioDramaView.PlayClicked += AudioDramaViewOnPlayClicked;
+            _audioDramaView.BuyClicked += AudioDramaViewOnBuyClicked;
+        }
+
+        private void AudioDramaViewOnBuyClicked(object sender, EventArgs e)
+        {
+            _uriInvoker.Invoke(_audioDrama.AudioDramaDto.AmazonBuyUri);
         }
 
         private void AudioDramaViewOnPlayClicked(object sender, EventArgs e)

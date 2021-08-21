@@ -10,5 +10,6 @@ namespace DdfGuide.Core
         event EventHandler IsFavoriteClicked;
         event EventHandler BackClicked;
         event EventHandler PlayClicked;
+        event EventHandler BuyClicked;
     }
 }

@@ -16,13 +16,14 @@ namespace DdfGuide.Core
         public string Author { get; set; }
         public string Description { get; set; }
         public string SpotifyAlbumId { get; set; }
+        public string AmazonAlbumId { get; set; }
         public IEnumerable<RoleDto> Roles { get; set; }
 
         [JsonIgnore]
         public Uri SpotifyUri => new Uri($"https://open.spotify.com/album/{SpotifyAlbumId}");
 
         [JsonIgnore]
-        public Uri AmazonBuyUri => new Uri($"https://www.amazon.de/gp/product/B01CURZRWG/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN={AmazonBuyUri}&linkCode=as2&tag=selmaohneh-21&linkId=7f31d23d30f02218a552f5642ac40dc9");
+        public Uri AmazonBuyUri => new Uri($"https://www.amazon.de/gp/product/{AmazonAlbumId}/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN={AmazonAlbumId}&linkCode=as2&tag=selmaohneh-21&linkId=7f31d23d30f02218a552f5642ac40dc9");
 
         public AudioDramaDto(Guid id,
                              string title,
@@ -33,6 +34,7 @@ namespace DdfGuide.Core
                              string description,
                              IEnumerable<RoleDto> roles,
                              string spotifyAlbumId,
+                             string amazonAlbumId,
                              string author)
         {
             Id = id;
@@ -44,6 +46,7 @@ namespace DdfGuide.Core
             Description = description;
             Author = author;
             SpotifyAlbumId = spotifyAlbumId;
+            AmazonAlbumId = amazonAlbumId;
             Roles = roles ?? new List<RoleDto>();
         }
 

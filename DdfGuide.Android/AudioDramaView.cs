@@ -49,8 +49,15 @@ namespace DdfGuide.Android
             SetupHeardCheckbox();
             SetupIsFavoriteCheckbox();
             SetupPlayButton();
+            SetupBuyButton();
 
             return _view;
+        }
+
+        private void SetupBuyButton()
+        {
+            var playButton = _view.FindViewById<Button>(Resource.Id.buttonbuy);
+            playButton.Click += (sender, args) => BuyClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void SetupPlayButton()
@@ -68,7 +75,11 @@ namespace DdfGuide.Android
         private void SetupHeardCheckbox()
         {
             var checkBoxHeard = _view.FindViewById<CheckBox>(Resource.Id.checkboxheard);
-            checkBoxHeard.Click += (sender, args) => { HeardClicked?.Invoke(this, EventArgs.Empty); };
+
+            checkBoxHeard.Click += (sender, args) =>
+            {
+                HeardClicked?.Invoke(this, EventArgs.Empty);
+            };
         }
 
         private void SetupToolbar()
@@ -90,6 +101,7 @@ namespace DdfGuide.Android
 
             var descriptionView = _view.FindViewById<TextView>(Resource.Id.textViewDescription);
             descriptionView.Text = string.Empty;
+
             if (audioDrama.AudioDramaDto.Description != null)
             {
                 // Deprecated method is just due to old android versions.
@@ -106,17 +118,27 @@ namespace DdfGuide.Android
             favoriteCheckbox.Checked = audioDrama.AudioDramaUserData.IsFavorite;
 
             var playButton = _view.FindViewById<Button>(Resource.Id.buttonplay);
-            playButton.Visibility = audioDrama.AudioDramaDto.SpotifyAlbumId != null ? ViewStates.Visible : ViewStates.Invisible;
+
+            playButton.Visibility = audioDrama.AudioDramaDto.SpotifyAlbumId != null
+                ? ViewStates.Visible
+                : ViewStates.Invisible;
+
+            var buyButton = _view.FindViewById<Button>(Resource.Id.buttonbuy);
+
+            buyButton.Visibility = audioDrama.AudioDramaDto.AmazonAlbumId != null
+                ? ViewStates.Visible
+                : ViewStates.Invisible;
 
             var imageView = _view.FindViewById<ImageViewAsync>(Resource.Id.coverviewsingle);
 
             _imageViewFiller.FillImageViewFromUrl(imageView, audioDrama.AudioDramaDto.CoverUrl);
-           
+
             var rolesView = _view.FindViewById<TextView>(Resource.Id.textViewRoles);
 
             rolesView.Text = string.Empty;
             rolesView.Append(Html.FromHtml($"<b>Autor:</b><br>"));
             rolesView.Append(Html.FromHtml($"{audioDrama.AudioDramaDto.Author}<br><br>"));
+
             foreach (var roleDto in audioDrama.AudioDramaDto.Roles)
             {
                 // Deprecated method is just due to old android versions.
@@ -129,10 +151,11 @@ namespace DdfGuide.Android
                 }
             }
         }
-        
+
         public event EventHandler BackClicked;
         public event EventHandler HeardClicked;
         public event EventHandler IsFavoriteClicked;
         public event EventHandler PlayClicked;
+        public event EventHandler BuyClicked;
     }
 }
