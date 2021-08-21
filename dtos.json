@@ -14512,13 +14512,117 @@
     "Id": "acf957f9-7136-4792-9749-db46b722ed90",
     "Title": "...und die schweigende Grotte",
     "NumberEuropa": 210,
-    "ReleaseDate": "2021-06-11",
+    "ReleaseDate": "2021-06-11T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/acf957f9-7136-4792-9749-db46b722ed90.jpg",
     "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
+    "SpotifyAlbumId": "0yQwCUXxiKjE6lOaxx30zb",
     "AmazonAlbumId": "B08XJRFG5G",
     "Author": "Christoph Dittert",
-    "Description": "Die verfallene Ruine des einstigen Sanatoriums lädt Justus, Peter und Bob zum Abenteuerausflug ein. Das bröckelige Gemäuer und die verschüttete Grotte darunter hat seit Jahren niemand mehr betreten. Die drei Detektive gelangen in das verlassene Gebäude und finden eine verschlossene Kiste mit unerwartetem Inhalt. Sind sie etwa doch nicht allein? Ein neuer Fall für die drei ???."
+    "Description": "Die verfallene Ruine des einstigen Sanatoriums lädt Justus, Peter und Bob zum Abenteuerausflug ein. Das bröckelige Gemäuer und die verschüttete Grotte darunter hat seit Jahren niemand mehr betreten. Die drei Detektive gelangen in das verlassene Gebäude und finden eine verschlossene Kiste mit unerwartetem Inhalt. Sind sie etwa doch nicht allein?",
+    "Roles": [
+      {
+        "Character": "Erzähler",
+        "Speaker": "Axel Milberg"
+      },
+      {
+        "Character": "Justus Jonas, Erster Detektiv",
+        "Speaker": "Oliver Rohrbeck"
+      },
+      {
+        "Character": "Peter Shaw, Zweiter Detektiv",
+        "Speaker": "Jens Wawrczeck"
+      },
+      {
+        "Character": "Bob Andrews, Recherchen und Archiv",
+        "Speaker": "Andreas Fröhlich"
+      },
+      {
+        "Character": "Zach Cannings",
+        "Speaker": "Martin May"
+      },
+      {
+        "Character": "Nicole",
+        "Speaker": "Saskia Weckler"
+      },
+      {
+        "Character": "Mitarbeiter",
+        "Speaker": "Achim Funk"
+      },
+      {
+        "Character": "Sara Roskin",
+        "Speaker": "Elke Reissert"
+      },
+      {
+        "Character": "Caden Devlin",
+        "Speaker": "Werner Wilkening"
+      },
+      {
+        "Character": "Offizier der Küstenwache (1)",
+        "Speaker": "Thorsten Laussch"
+      },
+      {
+        "Character": "Offizier der Küstenwache (2)",
+        "Speaker": "Andreas Birnbaum"
+      }
+    ]
+  },
+  {
+    "Id": "da0428eb-e863-4990-b6df-2d7cd3fd1d37",
+    "Title": "...und der Jadekönig",
+    "NumberEuropa": 211,
+    "ReleaseDate": "2021-07-16T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/da0428eb-e863-4990-b6df-2d7cd3fd1d37.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": "55psjGnigeemEF5kpaBJks",
+    "AmazonAlbumId": "B095Z1MNWM",
+    "Author": "André Minninger",
+    "Description": "Justus, Peter und Bob sollen etwas mit dem Diebstahl des Jadekönig zu tun haben, einer der wertvollsten Briefmarken der Welt. Werden sich die Detektive an diesem Fall die Finger verbrennen?",
+    "Roles": [
+    {
+      "Character": "Erzähler",
+      "Speaker": "Axel Milberg"
+    },
+    {
+      "Character": "Justus Jonas, Erster Detektiv",
+      "Speaker": "Oliver Rohrbeck"
+    },
+    {
+      "Character": "Peter Shaw, Zweiter Detektiv",
+      "Speaker": "Jens Wawrczeck"
+    },
+    {
+      "Character": "Bob Andrews, Recherchen und Archiv",
+      "Speaker": "Andreas Fröhlich"
+    },
+    {
+      "Character": "Jock",
+      "Speaker": "Christian Stark"
+    },
+    {
+      "Character": "Gavin Sterling",
+      "Speaker": "Stephan Benson"
+    },
+    {
+      "Character": "Judith Sterling",
+      "Speaker": "Hedi Kriegeskotte"
+    },
+    {
+      "Character": "Leopold Nelson",
+      "Speaker": "Oliver Kalkofe"
+    }
+  ]
+  },
+  {
+    "Id": "bb78e04d-5e58-4002-a541-d827ec44bcca",
+    "Title": "Der weiße Leopard",
+    "NumberEuropa": 212,
+    "ReleaseDate": "2021-09-17T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/bb78e04d-5e58-4002-a541-d827ec44bcca.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": null,
+    "Author": "Hendrik Buchna",
+    "Description": "Der weiße Leopard, eine japanische Prunkschale, verschwindet trotz des hochmodernen Alarmsystems. Ein kniffliger Fall für die drei ???, denn auf der Schale liegt ein Fluch der Samurai."
   },
   {
     "Id": "b68f3d30-292d-4cdb-b4a8-5c22984c517f",
