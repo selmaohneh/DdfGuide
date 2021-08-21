@@ -11,17 +11,17 @@ namespace DdfGuide.Test
         [TestMethod]
         public void TitleCanBeSearched()
         {
-            var dto = new AudioDramaDto(
-                Guid.Empty, 
-                "Homer Simpson",
-                -1,
-                DateTime.MinValue, 
-                string.Empty, 
-                string.Empty,
-                string.Empty, 
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        "Homer Simpson",
+                                        -1,
+                                        DateTime.MinValue,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        new List<RoleDto>(),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
 
@@ -34,17 +34,17 @@ namespace DdfGuide.Test
         [TestMethod]
         public void NumberEuropaCanBeSearched()
         {
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty, 
-                42,
-                DateTime.MinValue,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        42,
+                                        DateTime.MinValue,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        new List<RoleDto>(),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
 
@@ -57,17 +57,17 @@ namespace DdfGuide.Test
         [TestMethod]
         public void ReleaseDateCanBeSearched()
         {
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                -1,
-                new DateTime(2000, 11, 29),
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        -1,
+                                        new DateTime(2000, 11, 29),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        new List<RoleDto>(),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
 
@@ -80,17 +80,17 @@ namespace DdfGuide.Test
         [TestMethod]
         public void InterpreterCanBeSearched()
         {
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                -1,
-                DateTime.MinValue,
-                string.Empty,
-                "Homer Simpson",
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        -1,
+                                        DateTime.MinValue,
+                                        string.Empty,
+                                        "Homer Simpson",
+                                        string.Empty,
+                                        new List<RoleDto>(),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
 
@@ -103,17 +103,17 @@ namespace DdfGuide.Test
         [TestMethod]
         public void AuthorCanBeSearched()
         {
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                -1,
-                DateTime.MinValue,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                "Homer Simpson, Marge Simpson");
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        -1,
+                                        DateTime.MinValue,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        new List<RoleDto>(),
+                                        string.Empty,
+                                        string.Empty,
+                                        "Homer Simpson, Marge Simpson");
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
 
@@ -126,17 +126,17 @@ namespace DdfGuide.Test
         [TestMethod]
         public void DescriptionCanBeSearched()
         {
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                -1,
-                DateTime.MinValue,
-                string.Empty,
-                string.Empty,
-                "Homer Simpson",
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        -1,
+                                        DateTime.MinValue,
+                                        string.Empty,
+                                        string.Empty,
+                                        "Homer Simpson",
+                                        new List<RoleDto>(),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
 
@@ -149,21 +149,21 @@ namespace DdfGuide.Test
         [TestMethod]
         public void RolesCanBeSearched()
         {
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                -1,
-                DateTime.MinValue,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>
-                {
-                    new RoleDto("Homer Simpson", "Marge Simpson"),
-                    new RoleDto("Springfield", "Duff Beer")
-                },
-                string.Empty,
-                string.Empty);
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        -1,
+                                        DateTime.MinValue,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        new List<RoleDto>
+                                        {
+                                            new RoleDto("Homer Simpson", "Marge Simpson"),
+                                            new RoleDto("Springfield", "Duff Beer")
+                                        },
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var userData = new AudioDramaUserData(Guid.Empty, false, false);
 

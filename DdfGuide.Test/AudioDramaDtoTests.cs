@@ -11,17 +11,17 @@ namespace DdfGuide.Test
         [TestMethod]
         public void GivenSpotifyId_CorrectSpotifyUri()
         {
-            var sut = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                -1,
-                DateTime.Now,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                Enumerable.Empty<RoleDto>(),
-                "HomerSimpson",
-                string.Empty);
+            var sut = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        -1,
+                                        DateTime.Now,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        Enumerable.Empty<RoleDto>(),
+                                        "HomerSimpson",
+                                        string.Empty,
+                                        string.Empty);
 
             var uri = sut.SpotifyUri;
 

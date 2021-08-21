@@ -39,6 +39,17 @@ namespace DdfGuide.Test
         }
 
         [TestMethod]
+        public void UserClickedBuy_InvokeAmazonBuyUri()
+        {
+            var view = _mocker.GetMock<IAudioDramaView>();
+            var invoker = _mocker.GetMock<IUriInvoker>();
+
+            view.Raise(x => x.BuyClicked += null, this, EventArgs.Empty);
+
+            invoker.Verify(x => x.Invoke(_audioDrama.AudioDramaDto.AmazonBuyUri));
+        }
+
+        [TestMethod]
         public void HeardChangedOnView_UpdateModel()
         {
             var view = _mocker.GetMock<IAudioDramaView>();
@@ -61,9 +72,8 @@ namespace DdfGuide.Test
             var currentValue = _audioDrama.AudioDramaUserData.Heard;
             _audioDrama.AudioDramaUserData.Heard = !currentValue;
 
-            view.Verify(
-                x => x.SetAudioDrama(It.IsAny<AudioDrama>()),
-                Times.Once);
+            view.Verify(x => x.SetAudioDrama(It.IsAny<AudioDrama>()),
+                        Times.Once);
         }
 
         [TestMethod]
@@ -89,9 +99,8 @@ namespace DdfGuide.Test
             var currentValue = _audioDrama.AudioDramaUserData.IsFavorite;
             _audioDrama.AudioDramaUserData.IsFavorite = !currentValue;
 
-            view.Verify(
-                x => x.SetAudioDrama(It.IsAny<AudioDrama>()),
-                Times.Once);
+            view.Verify(x => x.SetAudioDrama(It.IsAny<AudioDrama>()),
+                        Times.Once);
         }
 
         [TestMethod]

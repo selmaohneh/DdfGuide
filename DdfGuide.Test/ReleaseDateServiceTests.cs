@@ -13,17 +13,18 @@ namespace DdfGuide.Test
         public void GivenDtoIsReleased_ServiceReturnsIsReleased()
         {
             var sut = new ReleaseDateService();
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.Now - TimeSpan.FromDays(42),
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                null,
-                string.Empty,
-                string.Empty);
+
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        null,
+                                        DateTime.Now - TimeSpan.FromDays(42),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        null,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var isReleased = sut.IsReleased(dto);
             Assert.IsTrue(isReleased);
@@ -33,17 +34,18 @@ namespace DdfGuide.Test
         public void GivenDtoIsNotReleased_ServiceReturnsIsNotReleased()
         {
             var sut = new ReleaseDateService();
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.Now + TimeSpan.FromDays(42), 
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                null,
-                string.Empty,
-                string.Empty);
+
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        null,
+                                        DateTime.Now + TimeSpan.FromDays(42),
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        null,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var isReleased = sut.IsReleased(dto);
             Assert.IsFalse(isReleased);
@@ -53,17 +55,18 @@ namespace DdfGuide.Test
         public void GivenDtoIsReleasedToday_ServiceReturnsIsReleased()
         {
             var sut = new ReleaseDateService();
-            var dto = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.Now,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                null,
-                string.Empty,
-                string.Empty);
+
+            var dto = new AudioDramaDto(Guid.Empty,
+                                        string.Empty,
+                                        null,
+                                        DateTime.Now,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty,
+                                        null,
+                                        string.Empty,
+                                        string.Empty,
+                                        string.Empty);
 
             var isReleased = sut.IsReleased(dto);
             Assert.IsTrue(isReleased);
@@ -72,31 +75,35 @@ namespace DdfGuide.Test
         [TestMethod]
         public void GetDtosReleasedToday_None_ReturnsEmptyList()
         {
-            var dtoBefore = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.MinValue.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoBefore = new AudioDramaDto(Guid.Empty,
+                                              string.Empty,
+                                              null,
+                                              DateTime.MinValue.Date,
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty,
+                                              new List<RoleDto>(),
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty);
 
-            var dtoAfter = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.MaxValue.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
-            
-            var dtos = new List<AudioDramaDto> {dtoBefore, dtoAfter};
+            var dtoAfter = new AudioDramaDto(Guid.Empty,
+                                             string.Empty,
+                                             null,
+                                             DateTime.MaxValue.Date,
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty,
+                                             new List<RoleDto>(),
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty);
+
+            var dtos = new List<AudioDramaDto>
+            {
+                dtoBefore,
+                dtoAfter
+            };
 
             var sut = new ReleaseDateService();
 
@@ -108,43 +115,48 @@ namespace DdfGuide.Test
         [TestMethod]
         public void GetDtosReleasedToday_Single_ReturnsCorrectList()
         {
-            var dtoBefore = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.MinValue.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoBefore = new AudioDramaDto(Guid.Empty,
+                                              string.Empty,
+                                              null,
+                                              DateTime.MinValue.Date,
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty,
+                                              new List<RoleDto>(),
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty);
 
-            var dtoToday = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.Now.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoToday = new AudioDramaDto(Guid.Empty,
+                                             string.Empty,
+                                             null,
+                                             DateTime.Now.Date,
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty,
+                                             new List<RoleDto>(),
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty);
 
-            var dtoAfter = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.MaxValue.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoAfter = new AudioDramaDto(Guid.Empty,
+                                             string.Empty,
+                                             null,
+                                             DateTime.MaxValue.Date,
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty,
+                                             new List<RoleDto>(),
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty);
 
-            var dtos = new List<AudioDramaDto> {dtoBefore, dtoToday, dtoAfter};
+            var dtos = new List<AudioDramaDto>
+            {
+                dtoBefore,
+                dtoToday,
+                dtoAfter
+            };
 
             var sut = new ReleaseDateService();
 
@@ -157,55 +169,61 @@ namespace DdfGuide.Test
         [TestMethod]
         public void GetDtosReleasedToday_Multiple_ReturnsCorrectList()
         {
-            var dtoBefore = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.MinValue.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoBefore = new AudioDramaDto(Guid.Empty,
+                                              string.Empty,
+                                              null,
+                                              DateTime.MinValue.Date,
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty,
+                                              new List<RoleDto>(),
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty);
 
-            var dtoToday1 = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.Now.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoToday1 = new AudioDramaDto(Guid.Empty,
+                                              string.Empty,
+                                              null,
+                                              DateTime.Now.Date,
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty,
+                                              new List<RoleDto>(),
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty);
 
-            var dtoToday2 = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.Now.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoToday2 = new AudioDramaDto(Guid.Empty,
+                                              string.Empty,
+                                              null,
+                                              DateTime.Now.Date,
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty,
+                                              new List<RoleDto>(),
+                                              string.Empty,
+                                              string.Empty,
+                                              string.Empty);
 
-            var dtoAfter = new AudioDramaDto(
-                Guid.Empty,
-                string.Empty,
-                null,
-                DateTime.MaxValue.Date,
-                string.Empty,
-                string.Empty,
-                string.Empty,
-                new List<RoleDto>(),
-                string.Empty,
-                string.Empty);
+            var dtoAfter = new AudioDramaDto(Guid.Empty,
+                                             string.Empty,
+                                             null,
+                                             DateTime.MaxValue.Date,
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty,
+                                             new List<RoleDto>(),
+                                             string.Empty,
+                                             string.Empty,
+                                             string.Empty);
 
-            var dtos = new List<AudioDramaDto> {dtoBefore, dtoToday1, dtoToday2, dtoAfter};
+            var dtos = new List<AudioDramaDto>
+            {
+                dtoBefore,
+                dtoToday1,
+                dtoToday2,
+                dtoAfter
+            };
 
             var sut = new ReleaseDateService();
 
