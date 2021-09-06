@@ -22876,5 +22876,18 @@
     "Author": "Ulf Blanck",
     "Description": "Ein ganz besonderer Adventskalender auf zwei CDs. Höre Tag für Tag einen Titel und begleite Justus, Peter und Bob. Advent, Advent! Die drei ??? Kids helfen im Weihnachtsland mit. Doch schon bald ist die festliche Stimmung getrübt, denn einige Bösewichte bedrohen die Weihnachtsvilla. Können Die drei ??? Kids das Land vor den Weihnachtshassern retten?",
     "Roles": []
+  },
+  {
+    "Id": "2ffa7ad6-41e1-4217-bd7c-f2c6beb3c481",
+    "Title": "Der Fluch der Medusa",
+    "NumberEuropa": 213,
+    "ReleaseDate": "2021-11-26T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2ffa7ad6-41e1-4217-bd7c-f2c6beb3c481.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": "B09BM38LY1",
+    "Author": "Marco Sonnleitner",
+    "Description": "Die drei ??? geraten in eine Rätseljagd und müssen den verschwundenen Enthüllungsjournalisten Jeremiah Carmichael finden. Welchem Polit-Skandal war er auf der Spur? Werden die Detektive ihn finden, bevor seine Gegner es tun?",
+    "Roles": []
   }
 ]
