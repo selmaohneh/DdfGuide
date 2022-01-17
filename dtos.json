@@ -14761,6 +14761,93 @@
   ]
   },
   {
+    "Id": "9ef2c3e0-f6b2-40dc-baea-99171d2a05f3",
+    "Title": "...und der Geisterbunker",
+    "NumberEuropa": 214,
+    "ReleaseDate": "2022-02-02T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9ef2c3e0-f6b2-40dc-baea-99171d2a05f3.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": "B09L5142C5",
+    "Author": "André Minninger",
+    "Description": "Die drei ??? werden zu einem verlassenen Bunker an der Steilküste von Rocky Beach geschickt. Dort soll es spuken – und tatsächlich hören sie geisterhafte Stimmen. Beim Erkunden des Bunkers werden sie plötzlich eingesperrt. Können Justus, Peter und Bob sich aus dem Geisterbunker befreien? Ein nervenaufreibendes Abenteuer beginnt.",
+    "Roles": [
+    {
+      "Character": "Erzähler",
+      "Speaker": "Axel Milberg"
+    },
+    {
+      "Character": "Justus Jonas, Erster Detektiv",
+      "Speaker": "Oliver Rohrbeck"
+    },
+    {
+      "Character": "Peter Shaw, Zweiter Detektiv",
+      "Speaker": "Jens Wawrczeck"
+    },
+    {
+      "Character": "Bob Andrews, Recherchen und Archiv",
+      "Speaker": "Andreas Fröhlich"
+    },
+    {
+      "Character": "Tante Mathilda",
+      "Speaker": "Karin Lieneweg"
+    },
+    {
+      "Character": "Onkel Titus",
+      "Speaker": "Rüdiger Schulzki"
+    },
+    {
+      "Character": "Kommissarin Lisa Merryweather",
+      "Speaker": "Caroline Peters"
+    },
+    {
+      "Character": "Elena Fleckenstein",
+      "Speaker": "Christiane Leuchtmann"
+    },
+    {
+      "Character": "Roderick Sanders",
+      "Speaker": "Albrecht Ganskopf"
+    },
+    {
+      "Character": "Fahrerin",
+      "Speaker": "Elga Schütz"
+    },
+    {
+      "Character": "Rubbish George",
+      "Speaker": "Hans Peter Korff"
+    },
+    {
+      "Character": "Officer Brown",
+      "Speaker": "André Beyer"
+    },
+    {
+      "Character": "Bote",
+      "Speaker": "Achim Schülke"
+    },
+    {
+      "Character": "Polizist",
+      "Speaker": "Alexander Mettin"
+    },
+    {
+      "Character": "Angestellte im Altenheim",
+      "Speaker": "Barbara Schipper"
+    }
+    ]
+  },
+  {
+    "Id": "d10fd328-4419-4296-b6b3-536fa9336e97",
+    "Title": "...und die verlorene Zeit",
+    "NumberEuropa": 215,
+    "ReleaseDate": "2022-03-25T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9ef2c3e0-f6b2-40dc-baea-99171d2a05f3.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": null,
+    "Author": "Christoph Dittert",
+    "Description": "Arnold Grasso wird von seinen Verwandten beschuldigt, ein wertvolles Gemälde aus dem Familienbesitz gestohlen zu haben. Doch noch während er die drei ??? um Hilfe bittet, wird er entführt. Justus, Peter und Bob machen sich auf die Suche nach ihrem Auftraggeber und dem verschollenen Gemälde. Können die drei Freunde den entführten Arnold retten?",
+    "Roles": []
+  },
+  {
     "Id": "b68f3d30-292d-4cdb-b4a8-5c22984c517f",
     "Title": "Das Seeungeheuer",
     "NumberEuropa": 1,
@@ -23155,28 +23242,6 @@
     "AmazonAlbumId": "B076CWPSQ1",
     "Author": "Ulf Blanck",
     "Description": "Ein ganz besonderer Adventskalender auf zwei CDs. Höre Tag für Tag einen Titel und begleite Justus, Peter und Bob. Advent, Advent! Die drei ??? Kids helfen im Weihnachtsland mit. Doch schon bald ist die festliche Stimmung getrübt, denn einige Bösewichte bedrohen die Weihnachtsvilla. Können Die drei ??? Kids das Land vor den Weihnachtshassern retten?",
-    "Roles": []
-  },
-  {
-    "Id": "2ffa7ad6-41e1-4242-bc7c-f7c6beb3c981",
-    "Title": "...und der Geisterbunker",
-    "NumberEuropa": 214,
-    "ReleaseDate": "2022-02-04T00:00:00",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
-    "AmazonAlbumId": "B09FS5FTZZ",
-    "Author": "Ben Nevis",
-    "Roles": []
-  },
-  {
-    "Id": "29b2e9c7-8d9e-4e8b-9d49-eae85917fe34",
-    "Title": "...und die verlorene Zeit",
-    "NumberEuropa": 215,
-    "ReleaseDate": "2022-03-25T00:00:00",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
-    "AmazonAlbumId": "B09KN662FJ",
-    "Author": "Ben Nevis",
     "Roles": []
   },
   {
