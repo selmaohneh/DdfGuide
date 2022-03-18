@@ -14767,9 +14767,9 @@
     "ReleaseDate": "2022-02-02T00:00:00",
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/9ef2c3e0-f6b2-40dc-baea-99171d2a05f3.jpg",
     "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
+    "SpotifyAlbumId": "1cJ3fNx6K47p4eDFqhnvsA",
     "AmazonAlbumId": "B09L5142C5",
-    "Author": "André Minninger",
+    "Author": "Ben Nevis",
     "Description": "Die drei ??? werden zu einem verlassenen Bunker an der Steilküste von Rocky Beach geschickt. Dort soll es spuken – und tatsächlich hören sie geisterhafte Stimmen. Beim Erkunden des Bunkers werden sie plötzlich eingesperrt. Können Justus, Peter und Bob sich aus dem Geisterbunker befreien? Ein nervenaufreibendes Abenteuer beginnt.",
     "Roles": [
     {
@@ -14842,9 +14842,39 @@
     "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/d10fd328-4419-4296-b6b3-536fa9336e97.jpg",
     "Interpreter": "Die drei ???",
     "SpotifyAlbumId": null,
-    "AmazonAlbumId": null,
+    "AmazonAlbumId": "B09QSXWW5H",
     "Author": "Christoph Dittert",
-    "Description": "Arnold Grasso wird von seinen Verwandten beschuldigt, ein wertvolles Gemälde aus dem Familienbesitz gestohlen zu haben. Doch noch während er die drei ??? um Hilfe bittet, wird er entführt. Justus, Peter und Bob machen sich auf die Suche nach ihrem Auftraggeber und dem verschollenen Gemälde. Können die drei Freunde den entführten Arnold retten?",
+    "Description": "Entführung auf dem Schrottplatz – Arnold Grasso beauftragt die drei ??? gerade mit einem Fall, als er vor ihren Augen entführt wird. Und das ausgerechnet von seiner eigenen Familie. Sie beschuldigt ihn, ein wertvolles Gemälde gestohlen zu haben, das seit langer Zeit in ihrem Besitz ist. Können die drei Detektive ihren Auftraggeber finden und seine Unschuld beweisen? Justus, Peter und Bob dürfen keine Zeit verlieren ...",
+    "Roles": [
+    {
+      "Character": "Erzähler",
+      "Speaker": "Axel Milberg"
+    },
+    {
+      "Character": "Justus Jonas, Erster Detektiv",
+      "Speaker": "Oliver Rohrbeck"
+    },
+    {
+      "Character": "Peter Shaw, Zweiter Detektiv",
+      "Speaker": "Jens Wawrczeck"
+    },
+    {
+      "Character": "Bob Andrews, Recherchen und Archiv",
+      "Speaker": "Andreas Fröhlich"
+    }
+    ]
+  },
+  {
+    "Id": "c78b2ef7-77b3-466b-9e8d-5bd4e7c738c8",
+    "Title": "Die Schwingen des Unheils",
+    "NumberEuropa": 216,
+    "ReleaseDate": "2022-05-27T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c78b2ef7-77b3-466b-9e8d-5bd4e7c738c8.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": null,
+    "Author": "Hendrik Buchna",
+    "Description": "Der Halsbandsittich Huxley hat ein Gespräch belauscht und plappert nun am laufenden Band von XFLR-7 und einem geplanten Diebstahl. Die Besitzerin des Papageis weiß, was die Wortfetzen bedeuten: Es handelt sich um das Geheimprojekt XFLR-7, von dem niemand etwas wissen darf. Wer von ihren Mitarbeitern hat etwas ausgeplaudert? Wem kann sie noch trauen? Und können Justus, Peter und Bob Licht ins Dunkel bringen und das Geheimprojekt retten?",
     "Roles": []
   },
   {
