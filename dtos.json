@@ -14917,6 +14917,32 @@
     "Roles": []
   },
   {
+    "Id": "422269ac-9f9c-4488-8f89-a2ec8d88c86c",
+    "Title": "Der Wald der Gefahren",
+    "NumberEuropa": 220,
+    "ReleaseDate": "2023-01-20T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/422269ac-9f9c-4488-8f89-a2ec8d88c86c.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": "B0BF2ZX1S1",
+    "Author": null,
+    "Description": null,
+    "Roles": []
+  },
+  {
+    "Id": "7e7ef4c2-83ed-4927-a0ed-defd92efc9ca",
+    "Title": "Manuskript des Satans",
+    "NumberEuropa": 221,
+    "ReleaseDate": "2023-03-03T00:00:00",
+    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7e7ef4c2-83ed-4927-a0ed-defd92efc9ca.jpg",
+    "Interpreter": "Die drei ???",
+    "SpotifyAlbumId": null,
+    "AmazonAlbumId": "B0BKCB2TQH",
+    "Author": null,
+    "Description": null,
+    "Roles": []
+  },
+  {
     "Id": "b68f3d30-292d-4cdb-b4a8-5c22984c517f",
     "Title": "Das Seeungeheuer",
     "NumberEuropa": 1,
