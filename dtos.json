@@ -14915,7 +14915,56 @@
     "AmazonAlbumId": "B09QFG5258",
     "Author": "Hendrik Buchna",
     "Description": "Der Halsbandsittich Huxley hat ein Gespräch belauscht und plappert nun am laufenden Band von XFLR-7 und einem geplanten Diebstahl. Die Besitzerin des Papageis weiß, was die Wortfetzen bedeuten: Es handelt sich um das Geheimprojekt XFLR-7, von dem niemand etwas wissen darf. Wer von ihren Mitarbeitern hat etwas ausgeplaudert? Wem kann sie noch trauen? Und können Justus, Peter und Bob Licht ins Dunkel bringen und das Geheimprojekt retten?",
-    "Roles": []
+    "Roles": [
+  {
+    "Character": "Erzähler",
+    "Speaker": "Axel Milberg"
+  },
+  {
+    "Character": "Justus Jonas, Erster Detektiv",
+    "Speaker": "Oliver Rohrbeck"
+  },
+  {
+    "Character": "Peter Shaw, Zweiter Detektiv",
+    "Speaker": "Jens Wawrczeck"
+  },
+  {
+    "Character": "Bob Andrews, Recherchen und Archiv",
+    "Speaker": "Andreas Fröhlich"
+  },
+  {
+    "Character": "Kendra Bowman",
+    "Speaker": "Sandra Schwittau"
+  },
+  {
+    "Character": "Huxley, Sittich",
+    "Speaker": "Achim Buch"
+  },
+  {
+    "Character": "Matt",
+    "Speaker": "Manfred Liptow"
+  },
+  {
+    "Character": "Carol",
+    "Speaker": "Gerlinde Dillge"
+  },
+  {
+    "Character": "Trevor",
+    "Speaker": "Peter Kaempfe"
+  },
+  {
+    "Character": "Officer",
+    "Speaker": "Torsten Münchow"
+  },
+  {
+    "Character": "Reginald",
+    "Speaker": "Malte Janssen"
+  },
+  {
+    "Character": "Blacky",
+    "Speaker": "Heikedine Körting"
+  }
+]
   },
   {
     "Id": "87b21ee2-fc2c-4d60-b072-b9ff7c05f16c",
