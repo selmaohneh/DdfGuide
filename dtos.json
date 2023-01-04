@@ -14975,9 +14975,70 @@
     "Interpreter": "Die drei ???",
     "SpotifyAlbumId": "1WlRnNunbHpnRTTVkxMRnd",
     "AmazonAlbumId": "B09TYTDDTX",
-    "Author": null,
-    "Description": null,
-    "Roles": []
+    "Author": "André Minninger",
+    "Description": "Ein harmloser Trödeleinkauf endet für die drei ??? in einer Verfolgungsjagd. Die Suche nach einem wertvollen Kristallschädel beginnt! Der kürzlich verstorbene Hunter Scott soll einen solchen Schädel besessen haben. Von den Maya gefertigt hat er angeblich heilende Kräfte. Doch wo in seiner Villa könnte er versteckt sein? Das fragen sich nicht nur Justus, Peter und Bob – denn einige zwielichtige Gestalten haben es auf den Kristallschädel abgesehen. Sind die drei Detektive schneller?",
+    "Roles": [
+  {
+    "Character": "Erzähler",
+    "Speaker": "Axel Milberg"
+  },
+  {
+    "Character": "Justus Jonas",
+    "Speaker": "Oliver Rohrbeck"
+  },
+  {
+    "Character": "Peter Shaw",
+    "Speaker": "Jens Wawrczeck"
+  },
+  {
+    "Character": "Bob Andrews",
+    "Speaker": "Andreas Fröhlich"
+  },
+  {
+    "Character": "Mrs. Julia Scott",
+    "Speaker": "Stephanie Kirchberger"
+  },
+  {
+    "Character": "Onkel Titus",
+    "Speaker": "Erik Schäffler"
+  },
+  {
+    "Character": "Gwendolyn",
+    "Speaker": "Maud Ackermann"
+  },
+  {
+    "Character": "Nicholas",
+    "Speaker": "Max König"
+  },
+  {
+    "Character": "Raphael Luca",
+    "Speaker": "Achim Buch"
+  },
+  {
+    "Character": "Inspektor Cotta",
+    "Speaker": "Holger Mahlich"
+  },
+  {
+    "Character": "Mrs. Bronkowitz",
+    "Speaker": "Angela Stresemann"
+  },
+  {
+    "Character": "Lady",
+    "Speaker": "Eva Monar"
+  },
+  {
+    "Character": "Dame",
+    "Speaker": "Carolyn Walsh"
+  },
+  {
+    "Character": "Godween",
+    "Speaker": "André Minninger"
+  },
+  {
+    "Character": "Hunter Scott",
+    "Speaker": "Hans-Jürgen Mende"
+  }
+]
   },
   {
     "Id": "cfb20da1-1323-4582-a833-f72599aaee03",
