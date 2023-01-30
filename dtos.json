@@ -15115,18 +15115,79 @@
   ]
 },
   {
-    "Id": "2d4dd181-39b0-4d3e-8f6c-dd7916b8a344",
-    "Title": "Und die Teufelsklippe",
-    "NumberEuropa": 219,
-    "ReleaseDate": "2022-11-18T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2d4dd181-39b0-4d3e-8f6c-dd7916b8a344.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
-    "AmazonAlbumId": "B0B67JDGTQ",
-    "Author": null,
-    "Description": null,
-    "Roles": []
-  },
+  "Id": "2d4dd181-39b0-4d3e-8f6c-dd7916b8a344",
+  "Title": "Die Teufelsklippe",
+  "NumberEuropa": 219,
+  "ReleaseDate": "2022-11-18T00:00:00",
+  "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/2d4dd181-39b0-4d3e-8f6c-dd7916b8a344.html",
+  "Interpreter": "Die drei ???",
+  "Author": "André Minninger",
+  "Description": "Peter Shaw - ein Mörder? Ganz bestimmt nicht! Da sind sich Justus und Bob sicher. Können die beiden die Unschuld des Zweiten Detektivs beweisen? Peter sieht ihn fallen, doch die Teufelsklippe gibt ihn nicht wieder her. Verschluckt von den tosenden Wellen bleibt der Mann verschwunden . Was ist passiert? Ausgerechnet der Zweite Detektiv wird beschuldigt, Paul Forsters ins Meer gestoßen zu haben. Im Verhör wird Peter bis ins kleinste Detail befragt. Justus und Bob versuchen derweil mehr über den seltsamen Fall herauszufinden. Können die beiden ihrem Freund helfen?",
+  "SpotifyAlbumId": "6ewdyVIW2LurJhYGU0UBAa",
+  "AmazonAlbumId": "B0B63CDTXC",
+  "Roles": [
+    {
+      "Character": "Erzähler",
+      "Speaker": "Axel Milberg"
+    },
+    {
+      "Character": "Justus Jonas, Erster Detektiv",
+      "Speaker": "Oliver Rohrbeck"
+    },
+    {
+      "Character": "Peter Shaw, Zweiter Detektiv",
+      "Speaker": "Jens Wawrczeck"
+    },
+    {
+      "Character": "Bob Andrews, Recherchen und Archiv",
+      "Speaker": "Andreas Fröhlich"
+    },
+    {
+      "Character": "Detective Ella",
+      "Speaker": "Neda Rahmanian"
+    },
+    {
+      "Character": "Officer James",
+      "Speaker": "Sascha Gutzeit"
+    },
+    {
+      "Character": "Mr. Shaw",
+      "Speaker": "Michael Grimm"
+    },
+    {
+      "Character": "Paul Forsters",
+      "Speaker": "Achim Buch"
+    },
+    {
+      "Character": "Esprit",
+      "Speaker": "Matthias Keller"
+    },
+    {
+      "Character": "Anthony Spring",
+      "Speaker": "Douglas Welbat"
+    },
+    {
+      "Character": "Butch",
+      "Speaker": "Tom Pidde"
+    },
+    {
+      "Character": "Inspektor Cotta",
+      "Speaker": "Holger Mahlich"
+    },
+    {
+      "Character": "Blacky",
+      "Speaker": "Heikedine Körting"
+    },
+    {
+      "Character": "Godween",
+      "Speaker": "André Minninger"
+    },
+    {
+      "Character": "Polizist",
+      "Speaker": "Frank Meyer-Brockmann"
+    }
+  ]
+},
   {
     "Id": "422269ac-9f9c-4488-8f89-a2ec8d88c86c",
     "Title": "Der Wald der Gefahren",
