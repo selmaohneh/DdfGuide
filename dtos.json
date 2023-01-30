@@ -15189,18 +15189,67 @@
   ]
 },
   {
-    "Id": "422269ac-9f9c-4488-8f89-a2ec8d88c86c",
-    "Title": "Der Wald der Gefahren",
-    "NumberEuropa": 220,
-    "ReleaseDate": "2023-01-20T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/422269ac-9f9c-4488-8f89-a2ec8d88c86c.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
-    "AmazonAlbumId": "B0BF2ZX1S1",
-    "Author": null,
-    "Description": null,
-    "Roles": []
-  },
+  "Id": "422269ac-9f9c-4488-8f89-a2ec8d88c86c",
+  "Title": "Im Wald der Gefahren",
+  "NumberEuropa": 220,
+  "ReleaseDate": "2023-01-20T00:00:00",
+  "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/422269ac-9f9c-4488-8f89-a2ec8d88c86c.html",
+  "Interpreter": "Die drei ???",
+  "Author": "André Minninger",
+  "Description": "Von Rocky Beach in die Rocky Mountains - die drei ??? freuen sich auf ein Wander-Wochenende. Was harmlos beginnt, wird zum Kampf ums nackte Überleben! Noch bevor die Wandergruppe aufbricht, wittern die drei Detektive einen neuen Fall: Ein toter Briefkasten und eine Stolperfalle - will jemand die Tour verhindern? Schon auf der ersten Etappe wird es brenzlig. Ein Bach wird zum reißenden Fluss, und Pilze sollte man mit Vorsicht genießen. Als Peter verschwindet, wird klar: Die Wildnis hat etwas zu verbergen. Die drei ??? finden sich im Wald der Gefahren wieder ...",
+  "SpotifyAlbumId": "01i4iyB40EU7Qgd6EgKoZt",
+  "AmazonAlbumId": "B0BKWG9VNY",
+  "Roles": [
+    {
+      "Character": "Justus Jonas, Erster Detektiv",
+      "Speaker": "Oliver Rohrbeck"
+    },
+    {
+      "Character": "Peter Shaw, Zweiter Detektiv",
+      "Speaker": "Jens Wawrczeck"
+    },
+    {
+      "Character": "Bob Andrews, Recherchen und Archiv",
+      "Speaker": "Andreas Fröhlich"
+    },
+    {
+      "Character": "Bill Greyfield",
+      "Speaker": "Gordon Piedesack"
+    },
+    {
+      "Character": "Karen Greyfield",
+      "Speaker": "Beate Rysopp"
+    },
+    {
+      "Character": "Ralph Sanders",
+      "Speaker": "Jens Böttcher"
+    },
+    {
+      "Character": "Dylan Reid",
+      "Speaker": "Matthias Keller"
+    },
+    {
+      "Character": "Zoe",
+      "Speaker": "Marion Martienzen"
+    },
+    {
+      "Character": "Simon Cobby",
+      "Speaker": "Pat Murphy"
+    },
+    {
+      "Character": "Angela van Limbeek",
+      "Speaker": "Malin Steffen"
+    },
+    {
+      "Character": "John Addington",
+      "Speaker": "Andreas Birnbaum"
+    },
+    {
+      "Character": "Doktor Williams",
+      "Speaker": "Holger Wemhoff"
+    }
+  ]
+},
   {
     "Id": "7e7ef4c2-83ed-4927-a0ed-defd92efc9ca",
     "Title": "Manuskript des Satans",
