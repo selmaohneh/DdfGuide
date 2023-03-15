@@ -15251,18 +15251,59 @@
   ]
 },
   {
-    "Id": "7e7ef4c2-83ed-4927-a0ed-defd92efc9ca",
-    "Title": "Manuskript des Satans",
-    "NumberEuropa": 221,
-    "ReleaseDate": "2023-03-03T00:00:00",
-    "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7e7ef4c2-83ed-4927-a0ed-defd92efc9ca.jpg",
-    "Interpreter": "Die drei ???",
-    "SpotifyAlbumId": null,
-    "AmazonAlbumId": "B0BKCB2TQH",
-    "Author": null,
-    "Description": null,
-    "Roles": []
-  },
+  "Id": "7e7ef4c2-83ed-4927-a0ed-defd92efc9ca",
+  "Title": "Manuskript des Satans",
+  "NumberEuropa": 221,
+  "ReleaseDate": "2023-03-03T00:00:00",
+  "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7e7ef4c2-83ed-4927-a0ed-defd92efc9ca.jpg",
+  "Interpreter": "Die drei ???",
+  "Author": "André Minninger",
+  "Description": "Ein Manuskript des leibhaftigen Satans und teuflische Lärmattacken - dieser Fall hat es in sich! Begeben die drei ??? sich in höllische Gefahr? Wer steckt hinter dem entsetzlichen Lärmangriff auf das Haus von Professor Bancroft? Während der Wissenschaftler versucht, eine geheimnisvolle alte Handschrift zu übersetzen, machen sich Justus, Peter und Bob auf die Suche nach der Lärmquelle. Haben die Attacken etwas mit dem Manuskript des Satans zu tun, an dem der Professor gerade arbeitet? Die drei Detektive werden es herausfinden.  ",
+  "SpotifyAlbumId": "1KpVSqapKAUAtAepWWxPWs",
+  "AmazonAlbumId": "B0BKCB2TQH",
+  "Roles": [
+    {
+      "Character": "Erzähler",
+      "Speaker": "Axel Milberg"
+    },
+    {
+      "Character": "Justus Jonas, Erster Detektiv",
+      "Speaker": "Oliver Rohrbeck"
+    },
+    {
+      "Character": "Peter Shaw, Zweiter Detektiv",
+      "Speaker": "Jens Wawrzceck"
+    },
+    {
+      "Character": "Bob Andrews, Recherchen und Archiv",
+      "Speaker": "Andreas Fröhlich"
+    },
+    {
+      "Character": "Tante Mathilda",
+      "Speaker": "Karin Lieneweg"
+    },
+    {
+      "Character": "Professor Douglas Bancroft",
+      "Speaker": "Jürgen Thormann"
+    },
+    {
+      "Character": "Butler Vernom",
+      "Speaker": "Jürgen Holdorf"
+    },
+    {
+      "Character": "Miss Mortimer",
+      "Speaker": "Heidi Schaffrath"
+    },
+    {
+      "Character": "Elwood Shoreland",
+      "Speaker": "Martin May"
+    },
+    {
+      "Character": "Darian",
+      "Speaker": "Marc Zabinski"
+    }
+  ]
+},
   {
     "Id": "507c77d7-f510-4538-b4c0-1e715f6ce9d7",
     "Title": "Und die Gesetzlosen",
