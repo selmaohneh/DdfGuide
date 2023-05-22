@@ -15311,23 +15311,20 @@
   "ReleaseDate": "2023-05-12T00:00:00",
   "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/507c77d7-f510-4538-b4c0-1e715f6ce9d7.jpg",
   "Interpreter": "Die drei ???",
-  "Author": null,
-  "Description": "Peter wird in der Rocky Beach Highschool unfreiwillig Zeuge eines dubiosen Telefonats. Hat seine Lehrerin Amanda Blunt ein dunkles Geheimnis? Als die unscheinbare Frau dann auch noch verdächtige Utensilien in ihr Auto packt und losfährt, nimmt Peter die Verfolgung auf. Natürlich nicht ohne seine beiden Freunde zu informieren. Die drei ??? begeben sich auf einen gefährlichen Roadtrip durch die verlassene Prärie. Hoffentlich wird ihnen diese Fahrt nicht zum Verhängnis  ",
+  "Description": "Peter wird in der Rocky Beach Highschool unfreiwillig Zeuge eines dubiosen Telefonats. Hat seine Lehrerin Amanda Blunt ein dunkles Geheimnis? Als die unscheinbare Frau dann auch noch verdächtige Utensilien in ihr Auto packt und losfährt, nimmt Peter die Verfolgung auf. Natürlich nicht ohne seine beiden Freunde zu informieren. Die drei ??? begeben sich auf einen gefährlichen Roadtrip durch die verlassene Prärie. Hoffentlich wird ihnen diese Fahrt nicht zum Verhängnis",
   "SpotifyAlbumId": "3o2Gwvg8lqLNRnlV1v1s5K",
   "AmazonAlbumId": "B0BRJRSNGX",
-  "Roles": []
-},{
+},
+{
   "Id": "18995ae0-eb5a-4537-b865-9d3aecad4cfc",
   "Title": "...und der Knochenmann",
   "NumberEuropa": 223,
   "ReleaseDate": "2023-07-28T00:00:00",
   "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/18995ae0-eb5a-4537-b865-9d3aecad4cfc.jpg",
   "Interpreter": "Die drei ???",
-  "Author": null,
   "Description": null
   "SpotifyAlbumId": null,
-  "AmazonAlbumId": "B0BZ322CVT",
-  "Roles": []
+  "AmazonAlbumId": "B0BZ322CVT"
 },
   {
     "Id": "b68f3d30-292d-4cdb-b4a8-5c22984c517f",
