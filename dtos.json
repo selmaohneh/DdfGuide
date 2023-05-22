@@ -15316,6 +15316,18 @@
   "SpotifyAlbumId": "3o2Gwvg8lqLNRnlV1v1s5K",
   "AmazonAlbumId": "B0BRJRSNGX",
   "Roles": []
+},{
+  "Id": "18995ae0-eb5a-4537-b865-9d3aecad4cfc",
+  "Title": "...und der Knochenmann",
+  "NumberEuropa": 223,
+  "ReleaseDate": "2023-07-28T00:00:00",
+  "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/18995ae0-eb5a-4537-b865-9d3aecad4cfc.jpg",
+  "Interpreter": "Die drei ???",
+  "Author": null,
+  "Description": null
+  "SpotifyAlbumId": null,
+  "AmazonAlbumId": "B0BZ322CVT",
+  "Roles": []
 },
   {
     "Id": "b68f3d30-292d-4cdb-b4a8-5c22984c517f",
