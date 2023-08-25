@@ -14,4 +14,4 @@ jobs:
       run: nuget restore 'DdfGuide.sln'
 
     - name: Build
-      run: msbuild '/DdfGuide.Android/DdfGuide.Android.csproj'
+      run: msbuild
