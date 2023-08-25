@@ -23569,6 +23569,16 @@
       }
     ]
   },
+   {
+  "Id": "3addce2e-5c83-4181-81e0-92cafc59b101",
+  "Title": "Die Yacht des Verrats",
+  "NumberEuropa": 224,
+  "ReleaseDate": "2023-11-24T00:00:00",
+  "CoverUrl": "https://github.com/selmaohneh/DdfGuide/raw/master/Covers/3addce2e-5c83-4181-81e0-92cafc59b101.jpg",
+  "Interpreter": "Die drei ???",
+  "SpotifyAlbumId": null,
+  "AmazonAlbumId": "B0C6CCCP8Z",
+},
   {
     "Id": "79e53724-82d5-431a-95be-5775643c8144",
     "Title": "Adventskalender",
