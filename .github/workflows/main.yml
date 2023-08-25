@@ -16,7 +16,7 @@ jobs:
         dotnet-version: '5.0.x'
 
     - name: Install dependencies
-      run: nuget restore <sln_file_path>
+      run: nuget restore DdfGuide.sln
 
     - name: Build
       run: msbuild /t:PackageForAndroid /p:Configuration=Debug
