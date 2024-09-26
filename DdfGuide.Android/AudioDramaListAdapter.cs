@@ -45,8 +45,8 @@ namespace DdfGuide.Android
 
             var titleView = view.FindViewById<TextView>(Resource.Id.titleview);
             titleView.Text = audioDrama.AudioDramaDto.ToString();
-         
-            var imageView = view.FindViewById<ImageViewAsync>(Resource.Id.coverview);
+
+            var imageView = view.FindViewById<ImageView>(Resource.Id.coverview);
             _imageViewFiller.FillImageViewFromUrl(imageView, audioDrama.AudioDramaDto.CoverUrl);
 
             var heardView = view.FindViewById<CheckBox>(Resource.Id.listcheckboxheard);
