@@ -14,6 +14,7 @@ namespace DdfGuide.Android
     {
         private Core.DdfGuide _ddfGuide;
 
+        [Obsolete]
         protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -68,6 +69,7 @@ namespace DdfGuide.Android
             jobScheduler.Schedule(jobInfo);
         }
 
+        [Obsolete]
         public void Show(IView view)
         {
             if (!(view is Fragment fragment))
@@ -81,6 +83,7 @@ namespace DdfGuide.Android
             FragmentManager.ExecutePendingTransactions();
         }
 
+        [Obsolete]
         public override void OnBackPressed()
         {
             BackClicked?.Invoke(this, EventArgs.Empty);

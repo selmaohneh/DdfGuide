@@ -5,7 +5,6 @@ using Android.Graphics;
 using Android.Views;
 using Android.Widget;
 using DdfGuide.Core;
-using FFImageLoading.Views;
 
 namespace DdfGuide.Android
 {
