@@ -1,5 +1,4 @@
-﻿using System;
-using DdfGuide.Core.Filtering;
+﻿using DdfGuide.Core.Filtering;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DdfGuide.Test.Filtering

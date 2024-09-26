@@ -11,10 +11,12 @@ using FFImageLoading.Views;
 
 namespace DdfGuide.Android
 {
+    [Obsolete]
     public class UpdatingView : Fragment, IUpdatingView
     {
         private View _view;
 
+        [Obsolete]
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             _view = inflater.Inflate(Resource.Layout.updatinglayout, container, false);
@@ -23,6 +25,7 @@ namespace DdfGuide.Android
         }
     }
 
+    [Obsolete]
     public class AudioDramaView : Fragment, IAudioDramaView
     {
         private readonly IImageViewFiller _imageViewFiller;
@@ -31,16 +34,19 @@ namespace DdfGuide.Android
         /// <summary>
         /// Fragments need a default constructor. Needed for old android versions.
         /// </summary>
+        [Obsolete]
         public AudioDramaView()
         {
             _imageViewFiller = new ImageViewFiller();
         }
 
+        [Obsolete]
         public AudioDramaView(IImageViewFiller imageViewFiller)
         {
             _imageViewFiller = imageViewFiller;
         }
 
+        [Obsolete]
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             _view = inflater.Inflate(Resource.Layout.audiodramalayout, container, false);
@@ -82,6 +88,7 @@ namespace DdfGuide.Android
             };
         }
 
+        [Obsolete]
         private void SetupToolbar()
         {
             var toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbarsingleview);
@@ -91,6 +98,7 @@ namespace DdfGuide.Android
             toolbar.NavigationOnClick += (sender, args) => BackClicked?.Invoke(this, EventArgs.Empty);
         }
 
+        [Obsolete]
         public void SetAudioDrama(AudioDrama audioDrama)
         {
             var interpreterView = _view.FindViewById<TextView>(Resource.Id.textviewinterpreter);

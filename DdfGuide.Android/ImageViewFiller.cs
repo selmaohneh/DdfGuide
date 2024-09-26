@@ -1,12 +1,13 @@
-﻿using FFImageLoading;
-using FFImageLoading.Views;
+﻿using Android.Widget;
+using FFImageLoading;
 using FFImageLoading.Work;
 
 namespace DdfGuide.Android
 {
     public class ImageViewFiller : IImageViewFiller
     {
-        public void FillImageViewFromUrl(ImageViewAsync imageView, string url)
+        [System.Obsolete]
+        public void FillImageViewFromUrl(ImageView imageView, string url)
         {
             if (string.IsNullOrWhiteSpace(url))
             {

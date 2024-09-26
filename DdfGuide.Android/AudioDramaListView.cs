@@ -15,6 +15,7 @@ using SearchView = Android.Support.V7.Widget.SearchView;
 
 namespace DdfGuide.Android
 {
+    [Obsolete]
     public class AudioDramaListView : Fragment, IAudioDramaListView
     {
         private readonly IImageViewFiller _imageViewFiller;
@@ -31,11 +32,13 @@ namespace DdfGuide.Android
         /// <summary>
         /// Fragments need a default constructor. Needed for old android versions.
         /// </summary>
+        [Obsolete]
         public AudioDramaListView()
         {
             _imageViewFiller = new ImageViewFiller();
         }
 
+        [Obsolete]
         public AudioDramaListView(IImageViewFiller imageViewFiller, IReleaseDateService releaseDateService,
             IUserNotifier userNotifier)
         {
@@ -44,6 +47,7 @@ namespace DdfGuide.Android
             _userNotifier = userNotifier;
         }
 
+        [Obsolete]
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             _view = inflater.Inflate(Resource.Layout.audiodramalistlayout, container, false);
@@ -55,6 +59,7 @@ namespace DdfGuide.Android
             return _view;
         }
 
+        [Obsolete]
         private void SetupFloatingRandomButton()
         {
             var fab = _view.FindViewById<FloatingActionButton>(Resource.Id.floatingActionButtonRandom);
@@ -65,6 +70,7 @@ namespace DdfGuide.Android
             fab.Click += (sender, args) => { RandomClicked?.Invoke(this, EventArgs.Empty); };
         }
 
+        [Obsolete]
         private void SetupListView()
         {
             _listView = _view.FindViewById<ListView>(Resource.Id.listViewAudioDramas);
@@ -121,6 +127,7 @@ namespace DdfGuide.Android
             swipeActionAdapter.SetSwipeActionListener(_swipeActionListener);
         }
 
+        [Obsolete]
         private void SetupToolbar()
         {
             _toolbar = _view.FindViewById<Toolbar>(Resource.Id.toolbar);
@@ -144,6 +151,7 @@ namespace DdfGuide.Android
             _searchView.QueryTextChange += (sender, args) => { SearchTextChanged?.Invoke(this, EventArgs.Empty); };
         }
 
+        [Obsolete]
         private void SetupTabs()
         {
             _tabLayout = _view.FindViewById<TabLayout>(Resource.Id.tabLayout);

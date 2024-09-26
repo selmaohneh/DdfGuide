@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using DdfGuide.Core;
+﻿using DdfGuide.Core;
 using DdfGuide.Core.Searching;
 using DdfGuide.Tests;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
