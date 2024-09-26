@@ -44,7 +44,9 @@
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
     <AndroidSupportedAbis />
-    <AndroidSigningKeyStore>C:\Users\marce\Downloads\keystore.jks</AndroidSigningKeyStore>
+    <AndroidSigningKeyStore>C:\Users\neummarc\Downloads\keystore.jks</AndroidSigningKeyStore>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <MandroidI18n />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
