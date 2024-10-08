@@ -1,41 +1,38 @@
-# DDF Guide 
-### Eine Open-Source-Datenbank-App für alle "Die drei ???"- Fans unter Android! 
-![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/DdfGuide.Android/Resources/drawable/ic_launcher.png)
+# DDF Guide
 
-#### Grundidee
-Meine Frau hat mich all drei Tage gefragt, wann denn nochmal die nächste "Die drei ???"-Folge erscheint. Da ich das Datum nach drei Tage auch wieder vergessen hatte, musste ich wieder und wieder danach googlen. Es enstand die Idee, eine App zu entwickeln, in der die nächsten Releasetermine immer aktuell zu finden sind - der **DDF Guide**. Bei der Entwicklung sind immer mehr und mehr Features hinzugekommen. Mittlerweile ist die App eine große Datenbank-App für "Die drei ???"-Hörspiele.
+### An Open-Source Database App for All "Die drei ???" Fans on Android!
+![DDF Guide Icon](https://github.com/selmaohneh/DdfGuide/blob/master/DdfGuide.Android/Resources/drawable/ic_launcher.png)
+
+#### Concept
+My wife would ask me every three days when the next "Die drei ???" episode was coming out. Since I would forget the date after three days, I had to keep googling it. This led to the idea of developing an app where the upcoming release dates would always be up-to-date - the **DDF Guide**. Over time, more and more features were added. Now, the app is a comprehensive database for "Die drei ???" audio dramas.
 
 #### Features
-* Die App enthält alle bisher erschienenen Folgen inklusive Sonderfolgen von "Die drei ???", "Die drei ??? Kids" und "DiE DR3i". 
-* Jede Folge kann als "gehört" und/oder Lieblingsfolge markiert werden. So behälst du immer den Überblick.
-* Es gibt eine Vorschaufunktion, die die Folgen enthält, die als nächstes veröffentlicht werden (soweit bereits bekannt). Am Releasetag erhälst du dann sogar eine Benachrichtigung auf dein Handy: So verpasst du nie wieder eine neue Folge! 
-* Es ist eine Zufallsfunktion vorhanden, die eine willkürliche Folge anzeigt. Lass doch einfach mal den Zufall entscheiden, welche Folge du heute hörst!
-* Mit den Such-/Filter- und Sortierfunktionen können Folgen organisiert werden. Es lassen sich so z.B. alle Folgen suchen, in denen Skinny Norris mitspielt oder in denen Bastian Pastewka spricht. "Wie hieß die Folge noch gleich?" war gestern!
-* Du hast dir eine Folge ausgesucht? Dann lass dich vom **DDF Guide** direkt zu Spotify weiterleiten, um sie zu hören!
-* Deine Daten können im- und exportiert werden. Dadurch kannst du mehrere Android-Geräte synchronisieren oder einfach deine Daten sichern, wenn du mal dein Gerät wechselst.
+* **Complete Episode Database:** Includes all episodes released to date, including special episodes of "Die drei ???", "Die drei ??? Kids", and "DiE DR3i".
+* **Track Your Progress:** Mark episodes as "heard" and/or as favorites to keep track.
+* **Release Notifications:** Get notifications on your phone for upcoming episodes.
+* **Random Episode Feature:** Let fate decide which episode you listen to today.
+* **Advanced Search/Filter/Sort:** Organize episodes by various criteria, such as characters or voice actors.
+* **Spotify Integration:** Directly link to Spotify to listen to episodes.
+* **Data Import/Export:** Synchronize multiple Android devices or back up your data when changing devices.
 
-![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf1.JPG)
-![alt text](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf5.JPG)
+![Episode list view](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf1.JPG) ![Episode details view](https://github.com/selmaohneh/DdfGuide/blob/master/PlayStoreImages/ddf5.JPG)
 
 #### Installation
 
-Es gibt drei Installationsmöglichkeiten für den DdfGuide:
+There are three ways to install the DDF Guide:
 
-- [Download über Google Play](https://play.google.com/store/apps/details?id=celloapps.ddfguide)
-- [Download der .apk hier auf GitHub](https://github.com/selmaohneh/DdfGuide/releases)
-- [Download über F-Droid aus Izzys Repo](https://apt.izzysoft.de/fdroid/index/apk/celloapps.ddfguide)
+* [Download from Google Play](https://play.google.com/store/apps/details?id=celloapps.ddfguide)
+* [Download the .apk here on GitHub](https://github.com/selmaohneh/DdfGuide/releases)
+* [Download from F-Droid via Izzy's Repo](https://apt.izzysoft.de/fdroid/index/apk/celloapps.ddfguide)
 
-Da der offizielle F-Droid Build Server (bislang) keine Xamarin Apps unterstützt, muss Izzy's Repo zum F-Droid Client hinzugefügt werden.
-In der offiziellen F-Droid App öffnet man dazu die _Einstellungen_, wählt _Paketquellen_ aus und fügt [https://apt.izzysoft.de/fdroid/repo](https://apt.izzysoft.de/fdroid/repo?fingerprint=3BF0D6ABFEAE2F401707B6D966BE743BF0EEE49C2561B9BA39073711F628937A) hinzu oder man scannt einfach diesen [QR Code](https://apt.izzysoft.de/shared/images/fdroid_repo_qr.png).
+Since the official F-Droid Build Server does not support Xamarin apps, you need to add Izzy's Repo to the F-Droid client. In the official F-Droid app, open _Settings_, select _Package Sources_, and add [https://apt.izzysoft.de/fdroid/repo](https://apt.izzysoft.de/fdroid/repo) or simply scan this ![QR Code](https://apt.izzysoft.de/shared/images/fdroid_repo_qr.png).
 
 #### Contributing
-* Bugs bitte direkt [unter Issues](https://github.com/selmaohneh/DdfGuide/issues) eintragen.
-* [Kaffee? :-)](https://www.buymeacoffee.com/SaMAsU1N6)
+Feel free to contribute! Please report bugs directly under [Issues](https://github.com/selmaohneh/DdfGuide/issues).
 
-„Die drei ???“ sind eine eingetragene Marke der Franckh-Kosmos Verlags-GmbH & Co. KG, Stuttgart.
-Copyright
-Diese App ist NICHT im Besitz von Kosmos, Europa, der Familie Roberts oder anderen Personen, die in die Produktion der Serie Die drei ??? eingebunden sind.
-Alle Schutzmarken, Logos und Copyrights gehören ihren jeweiligen Besitzern.
-Alle Bilder © copyright by Kosmos, Europa, Studios Hamburg, USM oder Random House.
+#### Disclaimer
+“Die drei ???” is a registered trademark of Franckh-Kosmos Verlags-GmbH & Co. KG, Stuttgart.
 
+This app is an unofficial, fan-made project and is NOT affiliated with, endorsed, or sponsored by Kosmos, Europa, the Roberts family, or any other individuals or entities involved in the production of the "Die drei ???" series. This app is created solely for the enjoyment of fans.
 
+All trademarks, logos, and copyrights belong to their respective owners. All images © copyright by Kosmos, Europa, Studios Hamburg, USM, or Random House.
