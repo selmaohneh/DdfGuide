@@ -25,7 +25,9 @@ There are three ways to install the DDF Guide:
 * [Download the .apk here on GitHub](https://github.com/selmaohneh/DdfGuide/releases)
 * [Download from F-Droid via Izzy's Repo](https://apt.izzysoft.de/fdroid/index/apk/celloapps.ddfguide)
 
-Since the official F-Droid Build Server does not support Xamarin apps, you need to add Izzy's Repo to the F-Droid client. In the official F-Droid app, open _Settings_, select _Package Sources_, and add [https://apt.izzysoft.de/fdroid/repo](https://apt.izzysoft.de/fdroid/repo) or simply scan this ![QR Code](https://apt.izzysoft.de/shared/images/fdroid_repo_qr.png).
+Since the official F-Droid Build Server does not support Xamarin apps, you need to add Izzy's Repo to the F-Droid client. In the official F-Droid app, open _Settings_, select _Package Sources_, and add [https://apt.izzysoft.de/fdroid/repo](https://apt.izzysoft.de/fdroid/repo) or simply scan this QR Code:
+
+![QR Code](https://apt.izzysoft.de/shared/images/fdroid_repo_qr.png).
 
 #### Contributing
 Feel free to contribute! Please report bugs directly under [Issues](https://github.com/selmaohneh/DdfGuide/issues).
