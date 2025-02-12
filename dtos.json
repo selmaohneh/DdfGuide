@@ -16315,6 +16315,181 @@
          {
             "Character":"Bob Andrews, Recherchen und Archiv",
             "Speaker":"Andreas Fröhlich"
+         },
+         {
+            "Character":"Linus Wade",
+            "Speaker":"Nico-Alexander Wilhelm"
+         },
+         {
+            "Character":"Sonja",
+            "Speaker":"Manuela Eifrig"
+         },
+         {
+            "Character":"Quaid",
+            "Speaker":"Stephan Benson"
+         },
+         {
+            "Character":"Mr. Zimmerman",
+            "Speaker":"Charles Brauer"
+         },
+         {
+            "Character":"Ruby",
+            "Speaker":"Katja Brügger"
+         },
+         {
+            "Character":"Rick Turner",
+            "Speaker":"Helmut Zierl"
+         },
+         {
+            "Character":"IQ",
+            "Speaker":"Götz Otto"
+         }
+      ]
+   },
+   {
+      "Id":"e90ea4dc-c1ca-47c3-9733-2214be87f577",
+      "Title":"Der dreiäugige Schakal",
+      "NumberEuropa":231,
+      "ReleaseDate":"2025-01-17T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/e90ea4dc-c1ca-47c3-9733-2214be87f577.jpg",
+      "Interpreter":"Die drei ???",
+      "SpotifyAlbumId":"0VwGTSaUKWUuq0vMNMf0Xx",
+      "AmazonAlbumId":"B0DM22TZFC",
+      "Author":"Ben Nevis",
+      "Description":"Peter sitzt mit Kelly im Park, als ihm mulmig zumute wird. Irgendetwas stimmt hier nicht: Bobachtet die Statue des Dreiäugigen Schakals sie etwa? Die beiden nehmen die Bronzefigur genauer unter die Lupe, als plötzlich etwas geschieht, mit dem niemand gerechnet hat! Peter und Kelly verlassen vor lauter Schreck fluchtartig den Park. Die Statue mit dem Schakalkopf hat eindeutig ein dunkles Geheimnis. Was verbirgt sich hinter der kalten Hülle? Justus und Bob stehen ihrem Freund zur Seite – Die drei ??? beginnen ihre Recherche.  ",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Kelly",
+            "Speaker":"Juliane Szalay "
+         },
+         {
+            "Character":"Kommissarin Merryweather",
+            "Speaker":"Anne Moll"
+         },
+         {
+            "Character":"Nina Radamus",
+            "Speaker":"Astrid Kollex"
+         },
+         {
+            "Character":"Luke Kingsbury",
+            "Speaker":"Mars Saibert"
+         },
+         {
+            "Character":"Jana",
+            "Speaker":"Anika Baumann"
+         },
+         {
+            "Character":"Ryan Ford",
+            "Speaker":"Michael Grimm"
+         },
+         {
+            "Character":"Constantin Krueger",
+            "Speaker":"Martin May"
+         },
+         {
+            "Character":"Mick Manson",
+            "Speaker":"Patrick Bach"
+         },
+         {
+            "Character":"Onkel Titus",
+            "Speaker":"Erik Schäffler"
+         },
+         {
+            "Character":"Travis",
+            "Speaker":"Fabian Harloff"
+         },
+         {
+            "Character":"Breezy",
+            "Speaker":"Sonja Stein"
+         },
+         {
+            "Character":"Big Rock",
+            "Speaker":"Patrick Baehr"
+         },
+         {
+            "Character":"Joe",
+            "Speaker":"Jürgen Holdorf"
+         },
+         {
+            "Character":"Hank",
+            "Speaker":"Fabian Müller"
+         },
+         {
+            "Character":"Wächter",
+            "Speaker":"Achim Schülke "
+         },
+         {
+            "Character":"Bankangestellter",
+            "Speaker":"Martin Rowedder"
+         }
+      ]
+   },
+   {
+      "Id":"137fbf6d-e804-4e13-9adb-db044115e87b",
+      "Title":"Die Stadt aus Gold",
+      "NumberEuropa":232,
+      "ReleaseDate":"2025-03-21T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/137fbf6d-e804-4e13-9adb-db044115e87b.jpg",
+      "Interpreter":"Die drei ???",
+      "AmazonAlbumId":"B0DW9FQ78L",
+      "Author":"Christoph Dittert",
+      "Description":"Im neuen Fall von Justus Jonas, Peter Shaw und Bob Andrews kommt es zu einem Wiedersehen mit einer alten Bekannten: Barbara Mathewson hat ihren eigenen Vater bestohlen und ist jetzt spurlos verschwunden. Professor Mathewson bittet die drei Detektive aus Rocky Beach um Hilfe. Aber wofür sollte Barbara die wichtigen Forschungsunterlagen überhaupt gebrauchen können? Da geht den drei ??? ein Licht auf: Es geht um die Legende der sagenumwobenen Goldenen Stadt in Mexiko. Sie wurde einst von Entdecker Álvar Núñez Cabeza de Vaca beschrieben. War Barbara etwa auf der Suche nach der Landkarte, die den Weg in die Stadt zeigt? Aber natürlich ist sie nicht die einzige, die sich auf die Suche macht. Auch andere sind schon sehr an der Karte interessiert.",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Bob Andrews, Recherchen und Archiv",
+            "Speaker":"Andreas Fröhlich"
+         }
+      ]
+   },
+   {
+      "Id":"45d38db1-fdb1-4c3d-9fd0-4d876523ae9d",
+      "Title":"Die Nacht der Gewitter",
+      "NumberEuropa":233,
+      "ReleaseDate":"2025-03-21T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/45d38db1-fdb1-4c3d-9fd0-4d876523ae9d.jpg",
+      "Interpreter":"Die drei ???",
+      "Author":"Marco Sonnleitner",
+      "Description":"Peter kann es kaum abwarten! Er will unbedingt am Surf-Wettbewerb in Orange Bay teilnehmen. Auf dem Weg geraten die drei ??? in ein Unwetter und erreichen den Ort gerade noch über einen Schleichweg. Aus Orange Bay kommt jetzt niemand mehr heraus. Die Brücke ist unpassierbar! Zeitgleich zum Wettbewerb findet ein Stadtfest mit Buden und Attraktionen statt. Ein Zauberer zieht das Publikum in seinen Bann. Als ein 1967er Ford Shelby Mustang GT Super Snake nicht mehr an seinem Platz steht, starten die Freunde die Ermittlungen. Wie kann ein Auto verschwinden, wenn niemand den Ort verlassen kann? Ist Magie im Spiel?",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Bob Andrews, Recherchen und Archiv",
+            "Speaker":"Andreas Fröhlich"
          }
       ]
    },
