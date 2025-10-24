@@ -16495,6 +16495,138 @@
       ]
    },
    {
+      "Id":"7ef6c1b2-a7c8-4bd6-8011-98a711f6fb78",
+      "Title":"Der lebende Tresor",
+      "NumberEuropa":234,
+      "ReleaseDate":"2025-07-25T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/7ef6c1b2-a7c8-4bd6-8011-98a711f6fb78.jpg",
+      "Interpreter":"Die drei ???",
+      "SpotifyAlbumId":"4sQsFeHojdbFPB07vSg3Rd",
+      "AmazonAlbumId":"B0FBMMSF8Q",
+      "Author":"André Minninger,",
+      "Description":"Lucy Apple benötigt die Hilfe der Detektive, denn ihr Freund verbirgt etwas vor ihr. Bei den Ermittlungen stoßen die drei auf recht bizarre Vorkommnisse. Skeptisch beginnen die drei ??? mit den Recherchen zu Lucys Partner Ronald und heften sich an dessen Fersen. Doch bei ihren Ermittlungen geraten die Detektive nicht nur gehörig ins Schleudern, sondern in allergrößte Gefahr: Wer treibt hier mit wem ein übles Spiel? Ein mehr als außergewöhnlicher Fall für Justus, Peter und Bob. Können die drei ??? den lebenden Tresor knacken?",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Bob Andrews, Recherchen und Archiv",
+            "Speaker":"Andreas Fröhlich"
+         },
+         {
+            "Character":"Lucy Apple",
+            "Speaker":"Anna Carlson"
+         },
+         {
+            "Character":"Janet Madison",
+            "Speaker":"Birte Kretschmer"
+         },
+         {
+            "Character":"Ronald Fletcher",
+            "Speaker":"Tobias Meister"
+         },
+         {
+            "Character":"Mandy Coolman",
+            "Speaker":"Philine Peters-Arnolds"
+         },
+         {
+            "Character":"Horrice",
+            "Speaker":"Francois Smesny"
+         },
+         {
+            "Character":"Jasper",
+            "Speaker":"Christian Rudolf"
+         },
+         {
+            "Character":"Ernest Lubitch",
+            "Speaker":"Till Hagen"
+         },
+         {
+            "Character":"Inspektor Cotta",
+            "Speaker":"Holger Mahlich"
+         },
+         {
+            "Character":"Godween",
+            "Speaker":"André Minninger"
+         }
+      ]
+   },
+   {
+      "Id":"f064495b-0549-4fbc-8ce3-ac810d36b28a",
+      "Title":"Das Fantasmofon",
+      "NumberEuropa":235,
+      "ReleaseDate":"2025-09-12T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/f064495b-0549-4fbc-8ce3-ac810d36b28a.jpg",
+      "Interpreter":"Die drei ???",
+      "SpotifyAlbumId":"5SkhV5ofEvnvKJ9LnP7JvT",
+      "AmazonAlbumId":"B0FK5GQCXY",
+      "Author":"Kari Erlhoff",
+      "Description":"Kann man mit einem Geistertelefon die Stimmen Verstorbener hören? Die drei ??? begeben sich in ein Künstlerhaus, um diese Theorie zu widerlegen. Dort hat einst ein selbst ernannter Wundertechniker gelebt, der mit seinem Fantasmofon Kontakt ins Reich der Toten aufgenommen haben will. Heute sollen junge Musiker im Fogmire House Inspiration finden. Gar nicht so einfach, wenn das Licht flackert, unheimliche Stimmen flüstern und ein dumpfes Brummen ertönt. Können die drei Detektive dem Spuk ein Ende setzen? Justus, Peter und Bob machen sich auf die Suche nach dem Fantasmofon.",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Bob Andrews, Recherchen und Archiv",
+            "Speaker":"Andreas Fröhlich"
+         },
+         {
+            "Character":"Dr. Sandra Sandler",
+            "Speaker":"Viktoria Trauttmansdorff"
+         },
+         {
+            "Character":"Archibald Belltone",
+            "Speaker":"Constantin Westphalen"
+         },
+         {
+            "Character":"Mr. Watts",
+            "Speaker":"Peter Franke"
+         },
+         {
+            "Character":"Professorin Kapoor",
+            "Speaker":"Sandra Keck"
+         },
+         {
+            "Character":"Jenna",
+            "Speaker":"Henrike Fehrs"
+         },
+         {
+            "Character":"Ria",
+            "Speaker":"Henrike Tönnes"
+         },
+         {
+            "Character":"Charlotte",
+            "Speaker":"Ursula Sieg"
+         },
+         {
+            "Character":"Fogmire",
+            "Speaker":"Michael Prelle"
+         },
+         {
+            "Character":"Blacky",
+            "Speaker":"Heikedine Körting"
+         }
+      ]
+   },
+   {
       "Id":"b9c70d45-d025-4b21-bf22-587cfb9f2a72",
       "Title":"Master of Chess - Live & Unplugged",
       "NumberEuropa":null,
@@ -18641,6 +18773,76 @@
          {
             "Character":"Kinder, ....und viele",
             "Speaker":"....und viele Kinder"
+         }
+      ]
+   },
+   {
+      "Id":"17d7214c-8ab0-4a86-a53d-802a721b929f",
+      "Title":"das Dorf der Teufel",
+      "NumberEuropa":null,
+      "ReleaseDate":"2025-10-10T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/17d7214c-8ab0-4a86-a53d-802a721b929f.jpg",
+      "Interpreter":"Die drei ???",
+      "SpotifyAlbumId":"09pBOlMa7AxGh1JbdXmrgc",
+      "AmazonAlbumId":"B0FPGBYC26",
+      "Author":"Ivar Leon Menger, John Beckmann, Christopher Tauber",
+      "Description":"Die drei ??? staunen nicht schlecht, als sie auf der Suche nach einem vermissten Freund des Chauffeurs Morton in Redwood Falls ankommen. Als wäre die Zeit stehengeblieben … die Bewohner des abgelegenen Dorfes lehnen jegliche Form des Fortschritts ab. Doch dies ist nicht die einzige Überraschung für Justus, Peter und Bob. Bereits nach kurzer Zeit überschlagen sich die Ereignisse und das Dorf der Teufel zeigt sein wahres Gesicht …",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw",
+            "Speaker":"Jens Wawrczek"
+         },
+         {
+            "Character":"Bob Andrews",
+            "Speaker":"Andreas Fröhlich"
+         },
+         {
+            "Character":"Morton",
+            "Speaker":"Michael Prelle"
+         },
+         {
+            "Character":"Mrs Vanessa Jacobson",
+            "Speaker":"Anja Topf"
+         },
+         {
+            "Character":"Mr Daniel Jacobson",
+            "Speaker":"Joachim Kretzer"
+         },
+         {
+            "Character":"Mrs Bates",
+            "Speaker":"Sandra Keck"
+         },
+         {
+            "Character":"Pete",
+            "Speaker":"Armin Schlagwein"
+         },
+         {
+            "Character":"Durchsage Flughafen",
+            "Speaker":"Celine Fontanges"
+         },
+         {
+            "Character":"Brian",
+            "Speaker":"Uwe Lauschke"
+         },
+         {
+            "Character":"Tim",
+            "Speaker":"Tim Wiese"
+         },
+         {
+            "Character":"Tom",
+            "Speaker":"Frank Ulbricht"
+         },
+         {
+            "Character":"Frau am Flughafen",
+            "Speaker":"Pamela Punti"
          }
       ]
    },
