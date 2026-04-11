@@ -16687,6 +16687,141 @@
       ]
    },
    {
+      "Id":"8d6e09d4-9a9c-4a40-b5f5-0b06811d08d1",
+      "Title":"Falsche schuld",
+      "NumberEuropa":238,
+      "ReleaseDate":"2026-03-20T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/8d6e09d4-9a9c-4a40-b5f5-0b06811d08d1.jpg",
+      "Interpreter":"Die drei ???",
+      "SpotifyAlbumId":"",
+      "AmazonAlbumId":"",
+      "Author":"Ben Nevis",
+      "Description":"Das war aber knapp! Fast hätten Justus Jonas, Peter Shaw und Bob Andrews den Einbrecher noch erwischt. Am Tatort finden die Freunde eine Holzkugel. Was ist das für ein seltsames Symbol? Die Spuren führen die drei Jung-Detektive zu einem bekannten Sektenführer. Er lebt auf einer Insel vor der Küste von Rocky Beach. Als sich die drei ??? dort umsehen, treffen sie auch auf den Erzfeind des Sektenführers. Er lebt auf der anderen Seite der Insel! Die Detektive sammeln Hinweise, vergleichen Ergebnisse und kombinieren: Wer hat den Einbruch begangen?",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Bob Andrews, Recherchen und Archiv",
+            "Speaker":"Andreas Fröhlich"
+         },
+         {
+            "Character":"Mathilda Jonas",
+            "Speaker":"Karin Lieneweg"
+         },
+         {
+            "Character":"Rubbish-George",
+            "Speaker":"Stefan Krause"
+         },
+         {
+            "Character":"Jesse Winters",
+            "Speaker":"Alexandra Maria Wilke"
+         },
+         {
+            "Character":"Officer",
+            "Speaker":"Wanja Mues"
+         },
+         {
+            "Character":"Scott King",
+            "Speaker":"Till Huster"
+         },
+         {
+            "Character":"Inspektor Cotta",
+            "Speaker":"Holger Mahlich"
+         },
+         {
+            "Character":"Chris",
+            "Speaker":"Jannik Endemann"
+         },
+         {
+            "Character":"Joe",
+            "Speaker":"Andreas Birnbaum"
+         },
+         {
+            "Character":"Frank Resnik",
+            "Speaker":"Frank Roder"
+         },
+         {
+            "Character":"William",
+            "Speaker":"Stefan Brönneke"
+         },
+         {
+            "Character":"Hafenmeisterin Ann",
+            "Speaker":"Christiane Leuchtmann"
+         }
+         
+      ]
+   },
+   {
+      "Id":"5e4cf699-73d2-4df7-a44e-b9b6a86f2371",
+      "Title":"Das Geheimnis der sieben Palmen",
+      "NumberEuropa":239,
+      "ReleaseDate":"2026-05-22T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/5e4cf699-73d2-4df7-a44e-b9b6a86f2371.jpg",
+      "Interpreter":"Die drei ???",
+      "SpotifyAlbumId":"",
+      "AmazonAlbumId":"",
+      "Author":"Marco Sonnleitner",
+      "Description":"Warum wurde bei John Lehmann eingebrochen? Als Justus Jonas dem älteren Nachbarn zur Hilfe eilt, wird er selbst überrumpelt. Wer ist die dunkle Gestalt? der erste Detektiv konnte nur eine Person in einem Umhang, mit einer Schiebermütze und einer Sonnenbrille erkennen. Und was wollte dieser Jemand bei Herrn Lehmann? Bald steht fest: Die kleine Bibliothek wurde verwüstet. Die wertvolle Ausgabe eines Romans von Thomas Mann fehlt! Die Ermittlungen führen Justus, Peter und Bob zur „Villa Aurora“ nach Seven Palms. In diesem Haus lebte der deutsche Literatur-Nobelpreisträger bis 1952. Was finden die drei ??? dort heraus?",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Bob Andrews, Recherchen und Archiv",
+            "Speaker":"Andreas Fröhlich"
+         }
+      ]
+   },
+   {
+      "Id":"c9da043e-cb5e-4172-a7f9-ea123775664d",
+      "Title":"Die schwarze Rose",
+      "NumberEuropa":240,
+      "ReleaseDate":"2026-07-17T00:00:00",
+      "CoverUrl":"https://github.com/selmaohneh/DdfGuide/raw/master/Covers/c9da043e-cb5e-4172-a7f9-ea123775664d.jpg",
+      "Interpreter":"Die drei ???",
+      "SpotifyAlbumId":"",
+      "AmazonAlbumId":"",
+      "Author":"Ben Nevis",
+      "Description":"Unerwartet erhält Justus Jonas eine Blumensendung – doch sie ist alles andere als gewöhnlich. In dem langen Paket befindet sich eine schwarze Rose, eine Blume, die es in der Natur nicht gibt. Doch das ist noch nicht alles: Auf den Blütenblättern prangen kleine Totenköpfe. Wer hat ihm dieses rätselhafte Geschenk geschickt? Ist es eine Drohung? Justus, Peter und Bob nehmen die Spur der schwarzen Rose auf. Ein neuer Kriminalfall für die beliebten Detektive aus Rocky Beach.",
+      "Roles":[
+         {
+            "Character":"Erzähler",
+            "Speaker":"Axel Milberg"
+         },
+         {
+            "Character":"Justus Jonas, Erster Detektiv",
+            "Speaker":"Oliver Rohrbeck"
+         },
+         {
+            "Character":"Peter Shaw, Zweiter Detektiv",
+            "Speaker":"Jens Wawrzceck"
+         },
+         {
+            "Character":"Bob Andrews, Recherchen und Archiv",
+            "Speaker":"Andreas Fröhlich"
+         }
+      ]
+   },
+   {
       "Id":"b9c70d45-d025-4b21-bf22-587cfb9f2a72",
       "Title":"Master of Chess - Live & Unplugged",
       "NumberEuropa":null,
